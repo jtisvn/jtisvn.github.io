@@ -33,3 +33,77 @@ Name: Chủ đề Goku bi rồng (rootless)
 Author: RebOOt edit
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.kitsudo.laetus
+Architecture: iphoneos-arm64e
+Version: 3.5.1
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 1828
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: ./debs/com.kitsudo.laetus_3.5.1_iphoneos-arm64e.deb
+Size: 838760
+MD5sum: 66c1c4d48515e5202547bc3190ef2d5d
+SHA1: f36e38e8915e488c0fe321cddf14a82b34f17f62
+SHA256: 3b8c1edd691605e15905a9e7354e5b5dea571140d9b00c659d451cc9eb330ed9
+SHA512: b790f37d7b9b905629e9a6778e465e6388b25e6476455c362c1848701cc98d676415d53cce8f370ed5fb56570cbf199092b9cb2887043481d818da9bc3be07de
+Description: Tuỳ chỉnh bàn phím vượt trội và đổi chủ đề da dạng (bản VIệt Hoá)
+Name: Laetus (roothide)
+Author: Jtis Repo
+
+Package: com.kitsudo.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweak
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.kitsudo.snapper, com.kitsudo.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Filename: ./debs/com.kitsudo.snapper3_1.0_iphoneos-arm64e.deb
+Size: 921572
+MD5sum: 55f5029a386cd8107852807f600bd699
+SHA1: 4f901384d5f480339d868f43eaea650328783cc2
+SHA256: f0c5eb345ca4baea8bd720fc48d0a6f8196f28c910af8bd937b2ede8bc03443a
+SHA512: 006285bfa1c2152b505abbc485baade783c90fe6b1b838bb12925b31b725a69d79e8c5a6b46d8dc61772dee9ad6def2f2f8c352691a5c8f966de772c673283b3
+Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức năng cho iOS Ví dụ như dịch ảnh với translomatic.quét QR...
+Name: Snapper 3 crack (rootless)
+Author: Jtis Repo
+
+Package: com.ps.smoothcursorios13
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64e.deb
+Size: 4096
+MD5sum: 1fe351614c7339b223f1b2fada7a6c36
+SHA1: c7d1ab59b77040ee7723b4cfcbd450a55f39cd29
+SHA256: 78d77aceb44cef1d690ecdbbd34f88e467140950094d1dadeddc63da82856140
+SHA512: 2088b90e64cb6d9b0e70375ebe7b63b9ebc6722a68ff5cff938458ebe7100366ddebb13bccc612162342fe3fd064423a0d830c9877159ef32fcf3b0d7808ae1b
+Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chứ trên IOS
+Name: SmoothCursor (iOS 13+)
+Author: Jtis Repo
+
+Package: jtis.filzacrack-roothide
+Architecture: iphoneos-arm64e
+Version: 1.1-8
+Section: Tweaks
+Maintainer: Jtis Repo
+Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/jtis.filzacrack-roothide_1.1-8_iphoneos-arm64e.deb
+Size: 6356
+MD5sum: fead3bc8309c0d7d9990dae5bd0da3ea
+SHA1: ccf9c6d65fd63471af199ea5754a4403e3da2c63
+SHA256: 9ef691c0ae054b6abe9eb1bb30f9c2a4419ede65625cbde02046bbf2513d9e3d
+SHA512: 6925c70bbd5e7bb3c705fc40e757d0069046dc950a6570748d736fee308ad79a52f4ff9b26abedaacf8630494ab08b6adcb6e0143ccf136ab45e39671cfd4e2d
+Homepage: https://tigisoftware.com/cydia/
+Description: Kích hoạt quyền full chức năng của Filza nguồn chính chủ.
+Name: Filza Crack (Roothide)
+Author: Netskao
+
