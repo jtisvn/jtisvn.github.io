@@ -33,6 +33,60 @@ Name: Chủ đề Goku bi rồng (rootless)
 Author: RebOOt edit
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.kitsudo.axom
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.axom_1.5_iphoneos-arm64e.deb
+Size: 2656
+MD5sum: db59ecf5b8d503cbf84020665aef7345
+SHA1: a3fffa595585ef7ca940f817d785a080697887e4
+SHA256: 7ad163d6dab068fe40668dfcaff08708070873d29249c0a05749663e155e1843
+SHA512: 7e75af516b57c8212554a323da769c989b0f9130b900578db638461e27f8fd511f14cb9ca5d752355b0f30a1c690048e6b2e12608ff21e1ba2f1787c995e010a
+Description: Gói Tiếng Việt cho tweak Axon
+Name: Axon Gói Việt Hoá (roothide)
+Author: Jtis Repo
+
+Package: com.kitsudo.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.2-2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.choicy_1.5.2-2_iphoneos-arm64e.deb
+Size: 4416
+MD5sum: ff00c7ce333799d4d0662900229905e3
+SHA1: d1a441c15325eb7e94594597c560fd2e8ea154ca
+SHA256: a5697e95724b9d3302cc3b7ea6324e112f3b240702beeabcebc4e2d1b0429640
+SHA512: d0bea932af4f869e82faf2ec0ae4a655d7d06574e58029366093c6ea739fe986410baea2520c9c29826988f45296fb16991b1fad392a7b9e9bce0b220bed58a2
+Description: Gói Tiếng Việt cho tweak Choicy
+Name: Choicy Gói Việt Hoá (roothide)
+Author: Jtis Repo
+
+Package: com.kitsudo.dockx
+Architecture: iphoneos-arm64e
+Version: 2.6.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.dockx_2.6.2_iphoneos-arm64e.deb
+Size: 9236
+MD5sum: 3e41b839798bcb59161b7bf4bc3ad825
+SHA1: 04dbccdca01e84bf287bc04908c72825f34495dc
+SHA256: 66700e95224fa7209337ea52919f9f757acc0176d2e1f1a82867bf3c258ba14d
+SHA512: dd769e596ba6aeafc29c7a00572b55f879f94e91a1ea1b0c54a5f72c8b753a6575df14027b829e4dbbbc6e09dba2bb8d3cfcf5404ba8bfca161277517c0a63ff
+Description: Gói Tiếng Việt cho tweak Dock x
+Name: Dock X Gói Việt Hoá (roothide)
+Author: Jtis Repo
+
 Package: com.kitsudo.laetus
 Architecture: iphoneos-arm64e
 Version: 3.5.1
@@ -51,6 +105,78 @@ Description: Tuỳ chỉnh bàn phím vượt trội và đổi chủ đề da d
 Name: Laetus (roothide)
 Author: Jtis Repo
 
+Package: com.kitsudo.norredirect
+Architecture: iphoneos-arm64e
+Version: 1.9
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.norredirect_1.9_iphoneos-arm64e.deb
+Size: 3736
+MD5sum: 9668dd7b71429e29e1fcf24015db30d6
+SHA1: 43e94ea01d001047e346279277d766081847470f
+SHA256: 1ac2dc1e3b979f5ea1beab08380ecd51443a1da1b57cbb0cabd72540268edeb4
+SHA512: d240f4b4c9c29e71b47167f54d80df7c52c4d5a75559c83c1c81bfaebc47eb17e3c5b549c5b8451d4ec9f2b440946155e74c8af2627fc1b92abd1e120827c476
+Description: Gói Tiếng Việt cho tweak No Redirect
+Name: No Redirect Gói Việt Hoá (roothide)
+Author: Jtis Repo
+
+Package: com.kitsudo.pulloverpro
+Architecture: iphoneos-arm64e
+Version: 2.1.6
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.pulloverpro_2.1.6_iphoneos-arm64e.deb
+Size: 2712
+MD5sum: 037e25f80fdd40667cd1e8b84e542e2d
+SHA1: b8c23e7cf38bfb467e0d2858b601d6a3f3991ad6
+SHA256: 87eb10cdbbe12b623f0665d712e421c6542e693bf86737f56bd5ee9c0b838b1a
+SHA512: 22cb0e51b13dd949c9448bcea5d5b4ae983c1314ba29dcc224660b7a6a88f34b4e7019e4ab0906d8965db8b055938390e02f842a3bc0b5887a2a2c48382baf53
+Description: Gói Tiếng Việt cho tweak PullOverPro
+Name: PullOver Pro Gói Việt Hoá (roothide)
+Author: Jtis Repo
+
+Package: com.kitsudo.safarix
+Architecture: iphoneos-arm64e
+Version: 1.9.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.safarix_1.9.2_iphoneos-arm64e.deb
+Size: 3156
+MD5sum: 8a4188c762a897985283af636950a338
+SHA1: 44fae6ba3c9b6b7d087b633f440b833caef0f315
+SHA256: 4607d384441b03a0d8ec7d2cfb1196cde7496c279e3f6273e8ae1da07ac26865
+SHA512: 0d8504329345415b22aa022aaebc989b54a505527b50072cd66df36aefba0d0d584c0560e2199411f25e60dcb3e73483dcf89f3cac7b78a2fccd17ff3e6d9e26
+Description: Gói Tiếng Việt cho tweak Safari X
+Name: Safari X Gói Việt Hoá (roothide)
+Author: Jtis Repo
+
+Package: com.kitsudo.settingsrevamp
+Architecture: iphoneos-arm64e
+Version: 3.5.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.settingsrevamp_3.5.1_iphoneos-arm64e.deb
+Size: 3320
+MD5sum: 537e187fcfcb6a98bb7a38f6ca023a76
+SHA1: e33460071bb85575fe738a67bd3927fc43fcec4a
+SHA256: fb3df2da5f0f3b75ac7b10398e5a8c9e5ffe3b0551620c465c6324680d9c49f6
+SHA512: d1c411c57f47a3f953d47d5a4fca1b8b027f4cdc315cb9453699743923b0bf315ecb38e16e67c52bca79a9fa51decdba9d07582d4eb79eb6bfbacb0f061facbe
+Description: Gói Tiếng Việt cho tweak Settingsrevamp
+Name: SettingsRevamp Gói Việt Hoá (roothide)
+Author: Jtis Repo
+
 Package: com.kitsudo.snapper3
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -67,6 +193,42 @@ SHA256: f0c5eb345ca4baea8bd720fc48d0a6f8196f28c910af8bd937b2ede8bc03443a
 SHA512: 006285bfa1c2152b505abbc485baade783c90fe6b1b838bb12925b31b725a69d79e8c5a6b46d8dc61772dee9ad6def2f2f8c352691a5c8f966de772c673283b3
 Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức năng cho iOS Ví dụ như dịch ảnh với translomatic.quét QR...
 Name: Snapper 3 crack (rootless)
+Author: Jtis Repo
+
+Package: com.kitsudo.snowboard
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.snowboard_1.1.0_iphoneos-arm64e.deb
+Size: 4968
+MD5sum: 7abd6f9629ecb89ff95d9c149681cce4
+SHA1: ec5c4f6fc5faab556187b44a6e8fbad32b6a67e1
+SHA256: bab10c939ae8ec0e10ee9703791e051e8903a7e212712eefd7547c9f979ceb45
+SHA512: 97193ec0fc4dbffb2dd75153fed4dbbe2c6c6d1dbe14267a624811d4ab58e9b4762bd18bd034ffafcece99d50cdb506c24450f5580d97cf7e390812d76a88dd4
+Description: Gói Tiếng Việt cho tweak Snowboard
+Name: Snowboard Gói Việt Hoá (roothide)
+Author: Jtis Repo
+
+Package: com.kitsudo.touchviz
+Architecture: iphoneos-arm64e
+Version: 2.1.6
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.touchviz_2.1.6_iphoneos-arm64e.deb
+Size: 2748
+MD5sum: 5f0756cfa33ad258c9d79921e70ba2f0
+SHA1: b2b0ada751474705b0bae93c068f6e93e9252260
+SHA256: 466b7d29128decdfb302010063880948b9a2ab049a079161e4f752bcf9a5ec9d
+SHA512: 277441b01c3ec0c1d0255d868375e895848ff026812d0597e3b6f8f1802a74135d59d4a7db7a101e9de6cefa5701d483dbb0568bb77ec90b975a68f9cf66e266
+Description: Gói Tiếng Việt cho tweak Touch viz
+Name: Touch-Viz Gói Việt Hoá (roothide)
 Author: Jtis Repo
 
 Package: com.ps.smoothcursorios13
