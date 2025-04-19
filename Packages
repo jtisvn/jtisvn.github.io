@@ -1,0 +1,18 @@
+Package: com.hieu.SearchDots
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: jtis
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.hieu.SearchDots_1.0.0_iphoneos-arm64.deb
+Size: 119910
+MD5sum: 5242e395a07f0a1b587f7a1a80b0ea2f
+SHA1: 81ded82e76edefeec72c6af0992a1b9758228bbb
+SHA256: 8e9ad5f1101b3cd753784c9f2fe66eaf7a6a084e1927b8de3416246c8d013eef
+SHA512: 41d7e2c5d4045b111019df9d3e56d20b28e02d37e8941eba2d0298e02955eafd028429806c8b92e5e702cc603ad3c8833c7f8e714bb71a41f8bb8a6d4e6f9c9b
+Description: Mang phong cách tìm kiếm trên iOS 16 xuống iOS 15
+Name: SearchDots VH(Rootless)
+Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
+Author: NightwinDev
+
