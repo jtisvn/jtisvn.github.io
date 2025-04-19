@@ -16,6 +16,23 @@ Name: SearchDots VH(Rootless)
 Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
 Author: NightwinDev
 
+Package: com.jtis.DepthsPD
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: Laetus Keyboard Rootless
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64e.deb
+Size: 65725952
+MD5sum: 14f5c565fd828ad82973903d1c7f18a7
+SHA1: 3119396c9d5ee6426e5cde0bea0c3e0a1e68115b
+SHA256: 36a2bd0a55b27ba4191c018e35435f98c8c215d486278c941fc78c460591121e
+SHA512: 721334a6fccdb77de2687c74ffaff0b5abbbfa661087aa6ccbb8cb52e4d8668a50c4db6fb4d242af1c6d55b4e42927fa47a33801e66fcad41a26b38cd26a09b4
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Chủ đề Depths PD (roothide)
+Author: Jtis Repo
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
 Package: com.jtis.gokubirong
 Architecture: iphoneos-arm64
 Version: 0.1
