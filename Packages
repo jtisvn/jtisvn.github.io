@@ -33,6 +33,22 @@ Name: Chủ đề Depths PD (roothide)
 Author: Jtis Repo
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.FontLobstertwo
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.FontLobstertwo_1.0_iphoneos-arm64e.deb
+Size: 819936
+MD5sum: 70dc688d938ffe42050a2cd8ccb8c3a6
+SHA1: ac5ac3f454da52e08bf3d25b3ae564b0ab237d47
+SHA256: 9456855d0c8b6d76852d63605f8fa0461daa2a295974f4c6ec9b40b632a35eac
+SHA512: c05ea2efa4215e004faae2f58c63de9e82121675be14099563c089949eef6150ae7112acafc52fd6e42a2d4ccfcc97e364b0b3e87e3fe4d9cbc3369ef873b5eb
+Description: Sử dụng phông chữ bằng cách kích boạt qua Snowboard
+Author: Pablo Impallari
+Name: Font Lobster Two
+Icon: https://Jtisvn.github.io/sectionIcons/font.png
+
 Package: com.jtis.gokubirong
 Architecture: iphoneos-arm64
 Version: 0.1
