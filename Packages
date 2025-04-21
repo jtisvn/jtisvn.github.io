@@ -19,15 +19,15 @@ Author: NightwinDev
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
 Version: 0.1
-Section: Laetus Keyboard Rootless
+Section: Laetus Keyboard Roothide
 Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64e.deb
-Size: 65725952
-MD5sum: 14f5c565fd828ad82973903d1c7f18a7
-SHA1: 3119396c9d5ee6426e5cde0bea0c3e0a1e68115b
-SHA256: 36a2bd0a55b27ba4191c018e35435f98c8c215d486278c941fc78c460591121e
-SHA512: 721334a6fccdb77de2687c74ffaff0b5abbbfa661087aa6ccbb8cb52e4d8668a50c4db6fb4d242af1c6d55b4e42927fa47a33801e66fcad41a26b38cd26a09b4
+Size: 65726016
+MD5sum: a8d6b41e0d70395d8578f65fd2895ab8
+SHA1: 16d0a526995c7ec724be8f26ab65890aac58f248
+SHA256: 6226ef5b72546fd3184f7a3b6a19ab6ea08bedc552ae81d11250de31c15f7533
+SHA512: b190a84fa17792fe9a107b9eb3add4f0a54010e9d278ab1ed0840500ea4d5c98e6b6854d206c0eebebafa3e90b1ff0db5d5ee5c4d8fc3096f625538ddbab452f
 Description: Chủ đề bàn phím kích hoạt qua Laetus
 Name: Chủ đề Depths PD (roothide)
 Author: Jtis Repo
