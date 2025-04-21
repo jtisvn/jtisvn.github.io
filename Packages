@@ -66,6 +66,24 @@ Name: Chủ đề Goku bi rồng (rootless)
 Author: RebOOt edit
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.gokubirong
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: Laetus Keyboard Roothide
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.gokubirong_0.1_iphoneos-arm64e (1).deb
+Size: 2566048
+MD5sum: 3139ab4012e1ca9cf6bb2073b0878acf
+SHA1: 9ff8bc4da62c970b99a859316cb296a4ce5decc4
+SHA256: fcb42d6b8f52ffdae4fac195b5db9246fda932e86f590a917fc54ae070c19f8c
+SHA512: 4dbd9adac1ba12ede747d48d6d94755032f3b2435699d0ea8f99f1b267549ec14a75fcde8e0780456827da4db26927acc41204a029dfc7b9419353b41edea619
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Chủ đề Goku bi rồng (roothide)
+Author: Jtis Repo
+SileoDepection: https://jtisvn.github.io/sileodepictions/gokulaetus.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
 Package: com.kitsudo.axom
 Architecture: iphoneos-arm64e
 Version: 1.5
