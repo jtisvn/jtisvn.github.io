@@ -65,24 +65,6 @@ Author: UandIlove
 Name: Font U And I Love (roothide)
 Icon: https://Jtisvn.github.io/sectionIcons/font1.png
 
-Package: com.jtis.gokubirong
-Architecture: iphoneos-arm64
-Version: 0.1
-Section: Laetus keyboard Rootless
-Maintainer: JTIS Repo
-Installed-Size: 7344
-Filename: ./debs/com.jtis.gokubirong_0.1_iphoneos-arm64.deb
-Size: 2564432
-MD5sum: d5d8392c01d2b43aa404c24cbbbbfc24
-SHA1: 9cb1ca88cbc207fd4ef014799c0a54e11fac032c
-SHA256: e07fba4ff4c764bd7621b9da56a9f97f6700e47e095767cf8dbcd7675fa13873
-SHA512: fe3769670a006305a4a366ccd0681cfc1325dd8a489aaccd4a13297420fe91b7ee3e676f4f43c51f8396af646cba99105cd149cb6f1ab1cd1ebcb27da6785dd9
-Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Goku bi rồng (rootless)
-Author: RebOOt edit
-SileoDepection: https://jtisvn.github.io/sileodepictions/gokulaetust.json
-Icon: https://jtisvn.github.io/infodeb/gokulaetus/Screenshots/1.png
-
 Package: com.kitsudo.axom
 Architecture: iphoneos-arm64e
 Version: 1.5

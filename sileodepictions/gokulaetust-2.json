@@ -1,6 +1,6 @@
 {
 "minVersion":"0.4",
-"headerImage":"http://Jtisvn.github.io//features/gokulaetus.png",
+"headerImage":"https://github.com/jtisvn/jtisvn.github.io/blob/master/features/gokulaetus.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"# Cài đặt chû đê bản phím cho iPhone của bạn đẹp hơn !",
+"markdown":"# Cài đặt chur đê bản phím cho iPhone của bạn đẹp hơn !",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
