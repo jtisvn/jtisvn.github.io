@@ -1,6 +1,6 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/sileodepictions/gokulaetus.json",
+"headerImage":"http://Jtisvn.github.io//features/gokulaetus.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://bvnsupport.github.io/infodeb/Afon/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/gokulaetus/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"# Cài đặt Font chữ cho iPhone của bạn!  \n\n### A-Font cho phép bạn tùy chỉnh phông chữ hệ thống của thiết bị iOS giống như các chỉnh sửa phổ biến hiện có như BytaFont.\n\n### Các tính năng:\n\n+ Tinh chỉnh này tác động đến mọi trường hợp văn bản trên thiết bị cầm tay của bạn, bao gồm Màn hình chính , Thanh trạng thái, văn bản trong các ứng dụng và thậm chí là văn bản trên các trang web \n\n\n",
+"markdown":"# Cài đặt chur đê bản phím cho iPhone của bạn đẹp hơn !",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -27,10 +27,10 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Liên hệ tôi "
+"title":"Tham gia nhóm "
 },
 {
-"markdown":"[**Facebook**](https://www.facebook.com/bvnmobileservices999) - Contact me via Facebook\n\n\n",
+"markdown":"[**Telegram**](https://t.me/jbtrolliossupport) - Join Telegram\n\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -44,26 +44,26 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Baw Appie"
+"text":"Kitsudo"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Tweaks"
+"text":"Themes"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"5/9/2023"
+"text":"2/4/2026"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 12 đến 16.4"
+"text":"iOS 12 đến 16.6.1"
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2023 by BVN",
+"text":"Copyright © 2023 by JTIS",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -80,7 +80,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2023 by BVN",
+"text":"Copyright © 2023 by JTIS",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
