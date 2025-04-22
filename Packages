@@ -56,16 +56,16 @@ Section: Laetus keyboard Rootless
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.gokubirong_0.1_iphoneos-arm64.deb
-Size: 2564440
-MD5sum: f93bb8ad40f46393b2a5ff5b4feccbbf
-SHA1: c3a09d513e4b855a679e529466598728bf2e6ff0
-SHA256: d74c45c0fc79d530cc273bde4b521ab2fddb0c64ea9bf859ac2e14b0e16f5d6b
-SHA512: c6309f12314c509fe30a3a05313988cd9f9e4aba29161894a44b13cfdb36830b2df6c7699cb3568770fe6833a9d877f1f93029025f3129ea52e1229a51c6cf91
+Size: 2564432
+MD5sum: d5d8392c01d2b43aa404c24cbbbbfc24
+SHA1: 9cb1ca88cbc207fd4ef014799c0a54e11fac032c
+SHA256: e07fba4ff4c764bd7621b9da56a9f97f6700e47e095767cf8dbcd7675fa13873
+SHA512: fe3769670a006305a4a366ccd0681cfc1325dd8a489aaccd4a13297420fe91b7ee3e676f4f43c51f8396af646cba99105cd149cb6f1ab1cd1ebcb27da6785dd9
 Description: Chủ đề bàn phím kích hoạt qua Laetus
 Name: Chủ đề Goku bi rồng (rootless)
 Author: RebOOt edit
-Sileodepiction: https://Jtisvn.github.io/gokulaetust.json
-Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+SileoDepection: https://jtisvn.github.io/sileodepictions/gokulaetust.json
+Icon: https://jtisvn.github.io/infodeb/gokulaetus/Screenshots/1.png
 
 Package: com.kitsudo.axom
 Architecture: iphoneos-arm64e
