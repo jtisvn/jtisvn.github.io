@@ -1,6 +1,6 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://github.com/jtisvn/jtisvn.github.io/blob/master/features/gokulaetus.png",
+"headerImage":"https://github.com/jtisvn/jtisvn.github.io/blob/master/features/Goku.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/gokulaetus/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Goku/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
