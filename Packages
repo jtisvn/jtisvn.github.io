@@ -72,16 +72,35 @@ Section: Laetus keyboard Rootless
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm64.deb
-Size: 2564432
-MD5sum: d1a3b53b3a3dff0edf8d893ce671d717
-SHA1: c793f6be03ba09c3674b6d67c78953776113e837
-SHA256: e6f84937b0adc61602bc341a8047b9703cf127077803a29879761a322da84bcc
-SHA512: 97093263a85409a2b56835894ebd711a4def3cb3e6bf72fed0945d843ea8ca9894494b9091d10a64f8198eb915fa1d49541a069e3c92b7fcbd68344ad4035206
+Size: 2564408
+MD5sum: 639accc992ce48ccdd27467f7fb9dd23
+SHA1: 0c61397dae4f23f997404e369ddadef663b25e49
+SHA256: b2a5ca776bbd4b9d312616fa1a12f18bc1444a1f31ff880a695df7f2e0164f6b
+SHA512: 7844eaee0826d5397bb135633ba8d00def802fb1f40d106b733511a260ffbc59d47d7f0ed3a523dd0628c88603ebc9acfa4a6fbcf727fb06e02228682c44f263
 Description: Chủ đề bàn phím kích hoạt qua Laetus
 Name: Chủ đề Goku (rootless)
 Author: Kitsudo
-SileoDepection: https://jtisvn.github.io/sileodepictions/Goku.json
-Icon: https://github.com/jtisvn/jtisvn.github.io/blob/master/features/Goku.png
+Depiction: https://jtisvn/jtisvn.github.io/depictions/Goku.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
+Package: com.jtis.primedeck
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 1000
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: com.opa334.altlist, preferenceloader
+Filename: ./debs/com.jtis.primedeck_1.3.0_iphoneos-arm64e.deb
+Size: 541760
+MD5sum: 4e0737c229aa08d14d8c9a68f43156cc
+SHA1: b0a3e0bd0311fe37ad70829396e9191fc8a4b768
+SHA256: 5ad2bea3079854f509173ca57204fc09ed20035fd7f56c28d9423ef48bad120d
+SHA512: 48099569da0131a2396dcdb847ccc1df29fe3d6217e89de410568f8c34430cad7643b03f3c6271ad037a293f3f45a7d6f6062d8a3e6f33b19ef48687fa7de2e3
+Description: Điều khiển trình chuyển đổi ứng dụng của bạn
+Name: PrimeDeck (roothide)
+Author: 0xkuj
 
 Package: com.kitsudo.axom
 Architecture: iphoneos-arm64e
