@@ -1,6 +1,6 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://github.com/jtisvn/jtisvn.github.io/blob/master/features/Goku.pngg",
+"headerImage":"https://i.imgur.com/eS4D7Er.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"# Cài đặt chủ đê bản phím cho iPhone của bạn đẹp hơn !",
+"markdown":"# Cài đặt chủ đê bản phím cho iPhone của bạn đẹp hơn Kích hoạt qua tweak Laetus !",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -54,16 +54,16 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"2/4/2026"
+"text":"27/4/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 12 đến 16.6.1"
+"text":"iOS 14 đến 16.6.1"
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2023 by JTIS",
+"text":"Copyright © 2025 by JTIS",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
