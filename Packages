@@ -92,13 +92,13 @@ Installed-Size: 604
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Conflicts: com.ryannair05.cylinder
 Filename: ./debs/com.jtis.cylinderremade.roothide_0.0.3-beta_iphoneos-arm64e.deb
-Size: 106956
-MD5sum: cc0c50690a967bfa3222c70ebe612367
-SHA1: def4455f1054bea682688cb40c086e11f31e0428
-SHA256: 66cd591fd09130361c7519bb9ad6e4f79ee3a419861e0c7b7e1010c7c63a56f3
-SHA512: abc87ec96d1fc8d5bafa26a9e72339eb36a55431fe3d153b2735b4f0b55f74905921d423dd9cdbbd9fe580c8fd5500e36c5af2c667b3ffd5a45832e2f8395956
-Description: Tuỳ biến hiệu ứng cuộn màn hình chính
-Name: Cylinder Renade (roothide)
+Size: 106964
+MD5sum: c391e47eb7d99f40118eb32a89693db6
+SHA1: 80af0b9d03f237e41e897aea63f635f16388e53d
+SHA256: 6927220ab9ae5acc647a71913c6a75ac4b0ea488bf812e5af02fe53dcea0ae23
+SHA512: 33c501ee0c79d0a28571516019a4fe0ca7e716037b2bdb21d1f50b7158c4ab622455a90b42ddce1b3ba2d1eda77d69ba2accc029aa196eaa7a5d35e1158a0508
+Description: Tuỳ biến hiệu ứng cuộn trên màn hình chính
+Name: Cylinder Remade (roothide)
 Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 
