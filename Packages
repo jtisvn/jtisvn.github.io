@@ -84,6 +84,25 @@ Depiction: https://jtisvn/jtisvn.github.io/depictions/Goku.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.dleasy
+Architecture: iphoneos-arm64e
+Version: 2.14.5
+Section: Tweaks
+Maintainer: JTIS
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.dleasy_2.14.5_iphoneos-arm64e.deb
+Size: 10977420
+MD5sum: 55414a3567a28817c02319addba83992
+SHA1: 2cd9b79c0d08bce37664383d156c468dda1fa2c0
+SHA256: 5655e13f86fd7eb69efd1ca7498d07b6b228b43e53b8ce7f2fe8b9e84ebf8a9c
+SHA512: 8002024bd8f047634acba2f66a3717eed4eb31ce45017d554200444187835bbd427a1c755752ae00f52af46130337791fe3ee60de711dea09fbc65f40230dddb
+Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
+Depiction: file:///D:/@_Hieu/Documents/GitHub/jtisvn.github.io/infodeb/DLEasy/index.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
+Name: DLEasy (roothide)
+Author: AhmedBafkir
+
 Package: com.jtis.primedeck
 Architecture: iphoneos-arm64e
 Version: 1.3.0
