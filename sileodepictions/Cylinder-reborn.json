@@ -9,10 +9,7 @@
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/Screenshots/Goku.png",
-"accessibilityText":"Screenshot"
-}
+    {}
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
