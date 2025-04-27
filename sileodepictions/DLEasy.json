@@ -1,0 +1,109 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://i.imgur.com/j9qvwvE.jpeg",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":"DLEasy\n\n- Cho phép tải xuống hình ảnh và video từ các nền tảng Ứng dụng mạng xã hội.!\n\n- Facebook, Instagram, Messenger, Reddit, Tik Tok, Tumblr, Tweetbot, Twitter, VK, WhatsApp, YouTube)\n\n- Nhấn và giữ để lưu video và hình ảnh.\n\n- Tải xuống video và hình ảnh từ tất cả các ứng dụng có sẵn trong DLEasy.\n\n- Bạn có thể biết các phiên bản tương thích bên trong cài đặt chỉnh sửa\n\n- Nhập video và âm thanh từ YouTube vào Music.app.\n\n- Lưu phương tiện trong một album tùy chỉnh là DLEasy\n\n- Bạn có thể thu nhỏ giao diện tải xuống và phần tải xuống sẽ ở chế độ nền. \n\nㅤ\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/DLEasy/Screenshots/1.jpg",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/DLEasy/Screenshots/2.jpg",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm"
+},
+{
+"markdown":"[**Fanpage Facebook**](https://t.me/jailbreaktrolliossupport/1) - 24/7\n\nㅤ\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin "
+},
+{
+"class":"DepictionTableTextView",
+"title":"Nhà phát triển",
+"text":"AhmedBafkir"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.14.5" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweaks"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"27/4/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Dung lượng",
+"text":"8 MB"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 12 đến 17.0"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 2.14.5\n\n- Khắc phục sự cố tải xuống trong ứng dụng [Facebook, Flickr, Instagram, Threads, TikTok, Twitch, YouTube]\n\n- Khắc phục các vấn đề khác\n\n- Cập nhật các phiên bản ứng dụng tương thích"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2024 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
