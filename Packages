@@ -84,6 +84,24 @@ Depiction: https://jtisvn/jtisvn.github.io/depictions/Goku.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.cylinderremade.roothide
+Architecture: iphoneos-arm64e
+Version: 0.0.3-beta
+Section: Rootless
+Installed-Size: 604
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Conflicts: com.ryannair05.cylinder
+Filename: ./debs/com.jtis.cylinderremade.roothide_0.0.3-beta_iphoneos-arm64e.deb
+Size: 106876
+MD5sum: 7db59ed488575783697f6a867723ef8c
+SHA1: 5c6eef963a82c33cbc04bac0c2bfefef72f977eb
+SHA256: 1536e44bcf82de6b1500bd847db37714142aff9ae7132c057b97655200a902a2
+SHA512: 9ca3df26efc388b2a307c5d2a86a77b3cd37699186651388c874ddbe6a48c317b60c42377619f2558374667c2036d15135c967b7543a5828a17460865e644f31
+Description: NTID Repo
+Name: Cylinder Renade (roothide
+Author: Ryan Nalr
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
+
 Package: com.jtis.dleasy
 Architecture: iphoneos-arm64e
 Version: 2.14.5
