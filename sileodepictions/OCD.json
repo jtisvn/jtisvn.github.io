@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"OCD\n\n-Là 1 tweak có thể tùy chỉnh màu biểu tượng và huy hieuk.\n\n-Biểu tượng: Tùy chỉnh màu sắc theo biểu tưởng ứng dụng và tự chọn màu \n\n-Huy hiệu: Thayđổi màu tự động theo ứng dụng,sử dụng dấu chấm thay huy hiệu gốc,điều chỉnh viền và bán kính bo góc.chọn màu viền tự dộng phù hợp với huy hiệu\n\nㅤ\n\n",
+"markdown":"OCD\n\n-Có thể tùy chỉnh màu biểu tượng và huy hiệu.\n\n-Biểu tượng: Tùy chỉnh màu sắc theo biểu tưởng ứng dụng và tự chọn màu \n\n-Huy hiệu: Thayđổi màu tự động theo ứng dụng,sử dụng dấu chấm thay huy hiệu gốc,điều chỉnh viền và bán kính bo góc.chọn màu viền tự dộng phù hợp với huy hiệu\n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -60,7 +60,7 @@
 "title":"Tác giả",
 "text":"B4dblr3"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.14.5" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"5.4.11" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
