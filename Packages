@@ -518,6 +518,27 @@ Description: Gói Tiếng Việt cho tweak Touch viz
 Name: Touch-Viz Gói Việt Hoá (roothide)
 Author: Jtis Repo
 
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 1.3.13-2-15+debug
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 716
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.13-2-15+debug_iphoneos-arm64e.deb
+Size: 78138
+MD5sum: c08c9a3794e51d9d6ec64434f812b2ce
+SHA1: 5be2c804015f0c45ec4661e1e833165972b4b312
+SHA256: 51ff0060cb88235b1e098b8c5a550ed6280313ed29b42d5d4c809109b0e498bc
+SHA512: 44fc2e5a2af4edd54c881d379cff8c7e303743d4c935d1f48ae7b45bc5b7c4f49c581ff69c9f5f19ad28057b9e4518986d7dc79e106b9417cd7c61e160fd640e
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
 Package: com.ps.smoothcursorios13
 Architecture: iphoneos-arm64e
 Version: 0.0.1
