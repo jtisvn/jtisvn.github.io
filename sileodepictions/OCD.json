@@ -74,7 +74,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Dung lượng",
-"text":"8 MB"
+"text":"571.01 KB"
 },
 {
 "class":"DepictionTableTextView",
@@ -96,7 +96,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Thêm ngôn ngư tiếng việt.\n\n-Khắc phục sự cố chức năng k hiện trong cài đặt.\n\n-Tương thích hơn cho roothide"
+"markdown":"### Thêm ngôn ngư tiếng việt.\n\n-Khắc phục sự cố chức năng không hiện trong cài đặt.\n\n-Tương thích hơn cho roothide"
 },
 {
 "class":"DepictionLabelView",
