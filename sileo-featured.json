@@ -1,0 +1,12 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{263, 148}",
+    "itemCornerRadius": 10,
+    "banners": [
+        {
+            "title": "REPO JTISVN",
+            "package": "com.repobvn.youpip",
+            "url": "https://i.imgur.com/j9qvwvE.jpeg"
+        }
+    ]
+}
