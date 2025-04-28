@@ -57,8 +57,8 @@
 },
 {
 "class":"DepictionTableTextView",
-"title":"Nhà phát triển",
-"text":"AhmedBafkir"
+"title":"Tác giả",
+"text":"B4dblr3"
 },
 { "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.14.5" },
 {
@@ -96,7 +96,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Thêm ngôn ngư tiếng việt.\n\n-khắc phục sự cố chức năng k hiện trong cài đặt.\n\n-tương thích hơn cho roothide"
+"markdown":"### Thêm ngôn ngư tiếng việt.\n\n-Khắc phục sự cố chức năng k hiện trong cài đặt.\n\n-Tương thích hơn cho roothide"
 },
 {
 "class":"DepictionLabelView",
