@@ -23,14 +23,15 @@ Section: Laetus Keyboard Roothide
 Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64e.deb
-Size: 65725956
-MD5sum: 05362a4c79fdc27abbe5f5fb19df8cc3
-SHA1: 7c3a9dcdbcae3549e8d51fbcfc47bc77bebfa922
-SHA256: 05406e57df8ebd93115be132e8d54ea63e116504bdf337f9af4ac4e9027a2f83
-SHA512: ca46116cfcaaa4c09297a7b5c3eea33d3f4b5c9330cb98929f1fe73a948606cac856af6c9a1eb80216b2cc451e52f8c8495f86f7e18c5a72b129336cb582d115
+Size: 65725980
+MD5sum: b6adc636c778b329700c573a0a281b48
+SHA1: 44540cba282f152090bae8552bc312e1f3dc3ad6
+SHA256: d5773227b98a231b812e6eb739244cb013cbaa60032f0b5635033829aed1894c
+SHA512: ef3e632215b8138ca4d8c09138f470fd2f518301f8fc5f77b51d5ef1a9a1d431ab15e1889688a05f221c70a886076d4d0ba9323e75cd9e56d0f5718a20fc78a0
 Description: Chủ đề bàn phím kích hoạt qua Laetus
 Name: Chủ đề Depths PD (roothide)
 Author: Jtis Repo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
 Package: com.jtis.FontLobstertwo
@@ -87,16 +88,16 @@ Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 Package: com.jtis.cylinderremade.roothide
 Architecture: iphoneos-arm64e
 Version: 0.0.3-beta
-Section: Rootless
+Section: Tweak
 Installed-Size: 604
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Conflicts: com.ryannair05.cylinder
 Filename: ./debs/com.jtis.cylinderremade.roothide_0.0.3-beta_iphoneos-arm64e.deb
-Size: 106964
-MD5sum: c391e47eb7d99f40118eb32a89693db6
-SHA1: 80af0b9d03f237e41e897aea63f635f16388e53d
-SHA256: 6927220ab9ae5acc647a71913c6a75ac4b0ea488bf812e5af02fe53dcea0ae23
-SHA512: 33c501ee0c79d0a28571516019a4fe0ca7e716037b2bdb21d1f50b7158c4ab622455a90b42ddce1b3ba2d1eda77d69ba2accc029aa196eaa7a5d35e1158a0508
+Size: 106960
+MD5sum: 2ea0e465909b331371a2edb48726d8dd
+SHA1: 6a156470ae04da8494cfaa9de7583f8073767cab
+SHA256: e1ba8549d04f291c43ab600e902ff10358ab7fa188d699bc3bde15a78f9524fe
+SHA512: fabc9a869effbf5b0469d91f5b57a10b137485c1eb8114fc46f9a5362d51bd1e4d870aac6658d21675a2ac5dea1c9924fee5ba920df988eec485db3a27ca873b
 Description: Tuỳ biến hiệu ứng cuộn trên màn hình chính
 Name: Cylinder Remade (roothide)
 Author: Ryan Nalr
