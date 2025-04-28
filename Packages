@@ -121,6 +121,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
 Name: DLEasy (roothide)
 Author: AhmedBafkir
 
+Package: com.jtis.ocd
+Architecture: iphoneos-arm64e
+Version: 5.4.1.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.mrgcgamer.libgcuniversal, preferenceloader, ws.hbang.common, ws.hbang.alderis
+Filename: ./debs/com.jtis.ocd_5.4.1.1_iphoneos-arm64e.deb
+Size: 330336
+MD5sum: caa4d99c2b8113a3dedafc1e81227b65
+SHA1: cfe7975613ad99c2e017ec160afa043681fe6d0c
+SHA256: 2b2e94aafa112e3a9c21e72958e402d6ed80d491f09d12474bd64244a84ca8e6
+SHA512: b8111e11ac28202a759ce526cb655395801de3cbc24b2058e45cd7cbd46d02d92f3243814836106647bd74b603a26e393030d503cf680b36c2c8c305a091b1ab
+Description: OCD Tuỳ chỉnh màu sắc biểu tượng và huy hiệu
+Name: OCD (roothide)
+Author: b4db1r3
+SileoDepiction: https://jtisvn.github.io/sileodepictions/OCD.json
+Icon: https://jtisvn.github.io/sectionIcons/OCD.png
+
 Package: com.jtis.primedeck
 Architecture: iphoneos-arm64e
 Version: 1.3.0
