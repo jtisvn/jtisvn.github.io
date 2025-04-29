@@ -264,14 +264,14 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.safarix_1.0_iphoneos-arm64e.deb
 Size: 3216
-MD5sum: 0c094d9248cbbd14d13f815c91d6edea
-SHA1: 5afffaaafee4ce0e20d1031d62e90fb3e1ead3e6
-SHA256: ccbe4386c63bd8ff3eb1035a6e0e4f2942e018e60d8db9c2410e0e3fa51c2a4b
-SHA512: b82b80b8a00cc4e917a9af9ae91612a26637d433fa200034379715f6274f602bd829972d6ee5d4f3aee8393fdf76b12dd05f878bec4c4c7163218a73c21f5bd6
+MD5sum: cc9c09466aadace65d25afbbda98c02e
+SHA1: 63544a771e08f2c54f038d1fe0fd486cfd3f0a2a
+SHA256: 4bac4fb2073344bb3aae50c13a5cc01ee6354e6cf7f3bdbdbb02c28e8fac712a
+SHA512: 2289e423a5f34df7b3ae576b37e312bf4ebbce92b5a5a86e823b01cf0b3da9b4162d5a320e4e2d1f6d471bcbd2936fe8c224f60a86648f93da1d27098fb51741
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak Safari X
 Name: Safari X Gói Việt Hoá (Roothide)
 Author: Jtis Repo
-https: //jtisvn.github.io/sectionIcons/goiviethoa.png
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.settingsrevamp
 Architecture: iphoneos-arm64e
