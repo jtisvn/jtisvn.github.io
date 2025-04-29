@@ -19,17 +19,17 @@ Author: NightwinDev
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
 Version: 0.1
-Section: Laetus Keyboard Roothide
+Section: Laetus Themes Roothide
 Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64e.deb
-Size: 65725980
-MD5sum: b6adc636c778b329700c573a0a281b48
-SHA1: 44540cba282f152090bae8552bc312e1f3dc3ad6
-SHA256: d5773227b98a231b812e6eb739244cb013cbaa60032f0b5635033829aed1894c
-SHA512: ef3e632215b8138ca4d8c09138f470fd2f518301f8fc5f77b51d5ef1a9a1d431ab15e1889688a05f221c70a886076d4d0ba9323e75cd9e56d0f5718a20fc78a0
+Size: 65725976
+MD5sum: a6091eca962bc1944575ff0c220aa518
+SHA1: 976551cde9d945f506c96ed65df6f144726834c7
+SHA256: b0353bc3ba264918cae9c623b871a75785a627f1fb97e9c25a8bcb1b9442ca16
+SHA512: 15207fa04628fe5f9d6a8ae51a95ed3bf2ec92bcf2491a91ea3a32722bb7ec7c54925a2f1196b22e9ee1b001ac6900529af35892740107c6237e76cc385e64a2
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Depths PD (roothide)
+Name: Chủ đề Depths PD (Roothide)
 Author: Jtis Repo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
@@ -69,17 +69,17 @@ Icon: https://Jtisvn.github.io/sectionIcons/font1.png
 Package: com.jtis.Goku
 Architecture: iphoneos-arm64
 Version: 0.1
-Section: Laetus keyboard Rootless
+Section: Laetus Themes Rootless
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm64.deb
 Size: 2564408
-MD5sum: 639accc992ce48ccdd27467f7fb9dd23
-SHA1: 0c61397dae4f23f997404e369ddadef663b25e49
-SHA256: b2a5ca776bbd4b9d312616fa1a12f18bc1444a1f31ff880a695df7f2e0164f6b
-SHA512: 7844eaee0826d5397bb135633ba8d00def802fb1f40d106b733511a260ffbc59d47d7f0ed3a523dd0628c88603ebc9acfa4a6fbcf727fb06e02228682c44f263
+MD5sum: 7c6dc0fadafc3b9f4e7b90237f07984d
+SHA1: 62853c26ada907963ba0c3cb08c3cf4393f5f1fe
+SHA256: 1847b5c23fd191d31d9c84da729b7565db2817d9bfd5c9392c1b92c38dc538ca
+SHA512: 71f7acd48f714ba6dd48689af39c9a6ccb936aa51b6edf24c27572458c5182b496d12cfddef44a89364e2e57d585b7b5c2690205acc06356a62fa240ec4ceb80
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Goku (rootless)
+Name: Chủ đề Goku (Rotless)
 Author: Kitsudo
 Depiction: https://jtisvn/jtisvn.github.io/depictions/Goku.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
