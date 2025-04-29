@@ -325,6 +325,24 @@ Name: Hammer It Gói Việt Hoá (Rootless)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.laetus
+Architecture: iphoneos-arm64e
+Version: 3.5.1
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 1828
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: ./debs/com.kitsudo.laetus_3.5.1_iphoneos-arm64e.deb
+Size: 838992
+MD5sum: db4c446d18bac6476ef2c8ef96b78cf7
+SHA1: cd5dcd911efb9ec4319b4cb36fb28805298d3adb
+SHA256: c27e68b02d430be05f8fa11a4e649220355e7db41d999a33183300cdb2b1c8c2
+SHA512: fdb97b5cb5e5d6aa3f14b240961f21a2afb1b17047972c2dd257f6cae59d5c679b374dd30ec294d415d35fc72e5909167f7c6d54b9fe683c93b1f01ec21f555c
+Description: Tuỳ chỉnh bàn phím vượt trội và đổi chủ đề da dạng (bản VIệt Hoá)
+Name: Laetus (Roothide)
+Author: Jtis Repo
+
 Package: com.kitsudo.norredirect
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -604,26 +622,6 @@ SHA512: 2088b90e64cb6d9b0e70375ebe7b63b9ebc6722a68ff5cff938458ebe7100366ddebb13b
 Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chứ trên IOS
 Name: SmoothCursor (iOS 13+)
 Author: Jtis Repo
-
-Package: ellekit
-Architecture: iphoneos-arm64e
-Version: 1.1.3-1
-Priority: optional
-Section: Tweak Injection
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Filename: ./debs/ellekit_1.1.3-1_iphoneos-arm64e.deb
-Size: 340272
-MD5sum: 1b571509cd0c0964eee597e36e14672a
-SHA1: ada5385ba6b3779925aae8aec10f8618fb4a9676
-SHA256: 4f6156fb43d34f5a305ae5347c6fa6feddf4eb05d7b19fdb71fd829692cbccfd
-SHA512: 108e04f3d7f241696b921161c19b33872f1fd43e315515fa6eb9ccc5b5e46992f038aa8dbaa79de88c2f5bfccbaa67749a18273f9a1d246ab24ef0ca52ddab83
-Description: ElleKit tweak injection libraries and loader
-Name: ElleKit
-Author: Evelyn
-Icon: https://ellekit.space/logos/logo.png
 
 Package: jtis.filzacrack-roothide
 Architecture: iphoneos-arm64e
