@@ -88,18 +88,18 @@ Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 Package: com.jtis.cylinderremade.roothide
 Architecture: iphoneos-arm64e
 Version: 0.0.3-beta
-Section: Tweak
+Section: Tweaks
 Installed-Size: 604
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Conflicts: com.ryannair05.cylinder
 Filename: ./debs/com.jtis.cylinderremade.roothide_0.0.3-beta_iphoneos-arm64e.deb
-Size: 106960
-MD5sum: 2ea0e465909b331371a2edb48726d8dd
-SHA1: 6a156470ae04da8494cfaa9de7583f8073767cab
-SHA256: e1ba8549d04f291c43ab600e902ff10358ab7fa188d699bc3bde15a78f9524fe
-SHA512: fabc9a869effbf5b0469d91f5b57a10b137485c1eb8114fc46f9a5362d51bd1e4d870aac6658d21675a2ac5dea1c9924fee5ba920df988eec485db3a27ca873b
+Size: 106964
+MD5sum: 633b24fc5acb5ddb2d212f4d92301cb7
+SHA1: 6b3cbdcc6f3b0895e7aece9c6eab2be74b353689
+SHA256: 7bac43803f4815bbe7e7badc5155d83e1e4b0dc6352903c875bb0349d1b315a5
+SHA512: 4960b8be1126f169f657f0ae1e3a037aeba549bcb0f86e99030cbf35cf1ea450f5d399e6396f220d6ab3d82ed0e0a7a3dac10960cf48fd86d25debdc114a6039
 Description: Tuỳ biến hiệu ứng cuộn trên màn hình chính
-Name: Cylinder Remade (roothide)
+Name: Cylinder Remade (Roothide)
 Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 
@@ -291,6 +291,24 @@ Description: Thêm ngôn ngữ Tiếng Việt cho tweak Settingsrevamp
 Name: SettingsRevamp Gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.kitsudo.snapper, com.kitsudo.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Filename: ./debs/com.kitsudo.snapper3_1.0_iphoneos-arm64e.deb
+Size: 920736
+MD5sum: db9bf37b505029831eeab0ad7934fba1
+SHA1: 2e86c098ecaaab401fe9bf93c82f1aa079e69e13
+SHA256: 08bec02253d99b99d5e2b5d924da36694d95bfc58b8433e4192e5f65ae41fc62
+SHA512: 6bc80abc741291e969b9531185394ca2c6fd12ace0fdc9bad540d227e60893450ad19f925f68db5afa77cc3ae93796989e170d80a7887ca55a8db49599897792
+Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức năng cho thiết bị của bạn.
+Name: Snapper 3 Crack (Rootless)
+Author: Jtis Repo
 
 Package: com.kitsudo.snowboard
 Architecture: iphoneos-arm64e
