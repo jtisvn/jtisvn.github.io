@@ -388,6 +388,26 @@ Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chứ trê
 Name: SmoothCursor (iOS 13+)
 Author: Jtis Repo
 
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.1.3-1
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: ./debs/ellekit_1.1.3-1_iphoneos-arm64e.deb
+Size: 340272
+MD5sum: 1b571509cd0c0964eee597e36e14672a
+SHA1: ada5385ba6b3779925aae8aec10f8618fb4a9676
+SHA256: 4f6156fb43d34f5a305ae5347c6fa6feddf4eb05d7b19fdb71fd829692cbccfd
+SHA512: 108e04f3d7f241696b921161c19b33872f1fd43e315515fa6eb9ccc5b5e46992f038aa8dbaa79de88c2f5bfccbaa67749a18273f9a1d246ab24ef0ca52ddab83
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
 Package: jtis.filzacrack-roothide
 Architecture: iphoneos-arm64e
 Version: 1.1-8
