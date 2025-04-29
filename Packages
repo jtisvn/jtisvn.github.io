@@ -329,19 +329,19 @@ Package: com.kitsudo.laetus
 Architecture: iphoneos-arm64e
 Version: 3.5.1
 Section: Tweaks
-Maintainer: Spark
+Maintainer: JTIS Repo
 Installed-Size: 1828
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
 Filename: ./debs/com.kitsudo.laetus_3.5.1_iphoneos-arm64e.deb
 Size: 838992
-MD5sum: db4c446d18bac6476ef2c8ef96b78cf7
-SHA1: cd5dcd911efb9ec4319b4cb36fb28805298d3adb
-SHA256: c27e68b02d430be05f8fa11a4e649220355e7db41d999a33183300cdb2b1c8c2
-SHA512: fdb97b5cb5e5d6aa3f14b240961f21a2afb1b17047972c2dd257f6cae59d5c679b374dd30ec294d415d35fc72e5909167f7c6d54b9fe683c93b1f01ec21f555c
+MD5sum: cc7e2c8663c76dabda31c8aa553a0b49
+SHA1: 310f740ce7e73c66baa9f98436b830f1592ae931
+SHA256: ed1826e69219fcfee59f986ce42cfe01c71eda63e00e67b6c1288936cdf7175e
+SHA512: f1e55129de646c1d3ebda26801befef5c79a39a3bdc30ea75db0a0579132417e7bbe9b2ac60a646bed57e33d468ba3288ddbf35cc807e64ba05c9a9babdafabd
 Description: Tuỳ chỉnh bàn phím vượt trội và đổi chủ đề da dạng (bản VIệt Hoá)
 Name: Laetus (Roothide)
-Author: Jtis Repo
+Author: Spark
 
 Package: com.kitsudo.norredirect
 Architecture: iphoneos-arm64
