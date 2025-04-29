@@ -214,6 +214,24 @@ Name: Axon Gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.axon
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.axon_1.5_iphoneos-arm64.deb
+Size: 2256
+MD5sum: dd6d1aff8799073e60c2652805672576
+SHA1: a88254dc52b0b23911e3a7daa3032a26bac0507c
+SHA256: fbdefa1bd3c067b55d1dc38bb7924f403dc39b45583a8bcf0fd03542adef05d6
+SHA512: 64d375dc4337840f958e8e0eccee8c87fe4a055e02b143c33605bfd4b7ddc77e921e504285a291c7d92f2d5b313e8e886ae5c1ac55a6766f1d0b4b1ea3e808f1
+Description: Patch Tiếng Việt cho tweak Axon
+Name: Axon gói Việt Hoá (Rootless)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.kitsudo.choicy
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -230,6 +248,42 @@ SHA256: e007fd0f46083a3c31baa8b7c2c1e51142e3b96c13bb03b8d509e139c5b4da9e
 SHA512: 7592346c84ef3996a1762681ac888b0a9b8cafdee4b4e87f24b66a00cb4ed2e089c684247d9c7243f1b68f4d13263a0804d7f2e05c6245ba893af7de74ac5197
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak Choicy
 Name: Choicy Gói Việt Hoá (Roothide)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.choicy
+Architecture: iphoneos-arm64
+Version: 1.5.2-2
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.choicy_1.5.2-2_iphoneos-arm64.deb
+Size: 3988
+MD5sum: 125b70a63b8bb244a46484b5c7e640ad
+SHA1: c6fbbad8a53c50ab9f9ce5a24660b187d7fe290c
+SHA256: 180284951e0323944def64fc8bf8635b11386aaaf7774d86970e52a5479810a7
+SHA512: bff510a17c929b54122fd3b5b14d52fc3667c185a9558ca48df4ab7a08225b106e7d06cc385f13e362cc93e3fee1d99da31d062a0dd25cec0239618d4414c28b
+Description: Patch Tiếng Việt cho tweak Choicy
+Name: Choicy gói Việt Hoá (Rootless)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.dockx
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.dockx_1.0_iphoneos-arm64.deb
+Size: 8732
+MD5sum: 62f1338feb903af7aa637166509761c9
+SHA1: 4690dd2a2721c3e404a06db17e0fcb498eb58d9d
+SHA256: 164d152666f8c15828112dff5c13f893454fe86498b50481f291a5ad7c5d37ad
+SHA512: 2d20a05a2199ef90a968414f954f07645d4d5b0a3ac5f2d69d81b5d643941363df57284fd43491f08c0599e9f0763eb7b82b9ff17e7628bdc0a6d0c97988f60a
+Description: Patch Tiếng Việt cho tweak Dock X
+Name: Dock X gói Việt Hoá (Rootless)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
@@ -261,13 +315,31 @@ Installed-Size: 3808
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0), com.jtis.hammerit
 Filename: ./debs/com.kitsudo.hammerit_1.0_iphoneos-arm64.deb
-Size: 6412
-MD5sum: c08e3f0a2bea6cc8bc9bfe97cfd71d30
-SHA1: 793ef66ecc87f71e3efbadcadb20d17b1c001929
-SHA256: 4620f5c7d2b128abbf0de6a24968e7de81013821e756bcd4e79e24dba4420bfd
-SHA512: 3576ec75d2d2dfbce23c21957e858374ceefd222ad1546c592e90f2ad88e2ac81634ad8b7d18b74b9ff4f7acf9e5b83febcb2adcfe3a672ece2541bdac09474f
+Size: 6400
+MD5sum: 57b655fe471cb71d35f9e92c91427dec
+SHA1: 7629433709e0b76aeecff3513aa20bc28bff1a98
+SHA256: 4260f7904f3942327288fbf51ff366f5cc35afe1a24939320d6a2b679e3ccbe8
+SHA512: a3709eb6d4c82d198d7fcd5bd81447ca746e42e48c9d6ff2445f24517e1e0d9899e43085a8576622af098dc854a967dc3c85cb40e0d065031a64dc4409e7f16d
 Description: Patch Tiếng Việt cho tweak HammerIT
-Name: Hammer It Gói Việt Hoá (rootless)
+Name: Hammer It Gói Việt Hoá (Rootless)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.norredirect
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.norredirect_1.0_iphoneos-arm64.deb
+Size: 3280
+MD5sum: 10416e63aadd99c6a56e96577e0b3d00
+SHA1: 68303f0cb374badd298ffc42bebac3ffac26ebfd
+SHA256: a81322d7c1597fb47ad2f5568e0b7a75ce42d5f3719af9274b0534bd647d04b1
+SHA512: d9d6c74a96355227dc950a7a1eb94e40de6e870997a3acb726d4558cfbf84023a7e9dd682c9588816ca3216fe7f2c558091603b8118d2903e6ea302174b228eb
+Description: Patch Tiếng Việt cho tweak No Redirect
+Name: No Redirect gói Việt Hoá (Rootless)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
@@ -291,6 +363,24 @@ Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.pulloverpro
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.pulloverpro_1.0_iphoneos-arm64.deb
+Size: 2312
+MD5sum: 88ab573462be08a4202c1a0b99e9c016
+SHA1: 84ca7049c2ec4014392b7fb40d69735c9c5c3dbe
+SHA256: 123baf718190078d244bf1af3d0901da5cb963c85fb809e402972cd4e3ca09cb
+SHA512: f9b1a3a92a132c3b93f47c53dff905c1e0aa8f460529ec4224b0c337d809126acbca7304a7fcb76d674a423402ec5f6ac8185ce8620cce7e6a787bf6dd68a29a
+Description: Patch Tiếng Việt cho tweak FullOver Pro
+Name: FullOver Pro gói Việt Hoá (Rootless)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.pulloverpro
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Gói
@@ -310,6 +400,24 @@ Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.safarix
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.safarix_1.0_iphoneos-arm64.deb
+Size: 2764
+MD5sum: d81428f922acbf2f1857c20d18ab0903
+SHA1: 4026e177f933eb93b0dff77b694334b7dc85c9f2
+SHA256: 4e43e58c595fbcc67c43260a4f557f6aa5e9709aa53934db05795c14aca99301
+SHA512: db908f7bcf8d27c34ae39ed7c406cf423c6fbaaac6960f4165c7263d32bee3299fc0bd384f1f67ef784b151fb2688eaf32b3c46a0d37ae9c7df5663ef6dedc17
+Description: Patch Tiếng Việt cho tweak Safari X
+Name: Safari X gói Việt Hoá (Rootless)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.safarix
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Gói
@@ -325,6 +433,24 @@ SHA256: 4bac4fb2073344bb3aae50c13a5cc01ee6354e6cf7f3bdbdbb02c28e8fac712a
 SHA512: 2289e423a5f34df7b3ae576b37e312bf4ebbce92b5a5a86e823b01cf0b3da9b4162d5a320e4e2d1f6d471bcbd2936fe8c224f60a86648f93da1d27098fb51741
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak Safari X
 Name: Safari X Gói Việt Hoá (Roothide)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.settingsrevamp
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.settingsrevamp_1.0_iphoneos-arm64.deb
+Size: 2740
+MD5sum: 74c49a43578b8221d66cbecb85069bc7
+SHA1: be508539b98ad72a945986e9ff65536fa6485839
+SHA256: 87407a13833c54770ef2ba6c23a4964b172397fbef815e9914b211244a9d6db8
+SHA512: ec346544632b56d673ed58ca7e4c1b33fcfd51ea755b4f062d14ea24265ec45be68593469deda6009a5dced0ad3f40e9f5aa7151f8a77529027b852ec16c4372
+Description: Patch Tiếng Việt cho tweak SettingsRevamp
+Name: SettingsRevamp gói Việt Hoá (Rootless)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
@@ -366,6 +492,24 @@ Name: Snapper 3 Crack (Rootless)
 Author: Jtis Repo
 
 Package: com.kitsudo.snowboard
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.snowboard_1.0_iphoneos-arm64.deb
+Size: 4452
+MD5sum: 0fadd16f9a7825dbae156a3f1182784b
+SHA1: bab311d3fe89584fb7dd294df27a53f1fabb2a32
+SHA256: a10bdedaed56f1c8a2a669a823868d1ec2068858b3ff6ef7d9a604d34986858e
+SHA512: ed0741b4e25e5bffe0ac617483e24f183b4e785260facc08e95dfd84060926226bfe070fdc04c3409f2293d307df122516e0e8a3d44108b66934faa5df3ba578
+Description: Patch Tiếng Việt cho tweak Snowboard
+Name: Snowboard gói Việt Hoá (Rootless)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.snowboard
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Gói
@@ -381,6 +525,24 @@ SHA256: 48d0b80676876380f1b7f1bfd44f42b493a38a0f72ea0e93df2fc177466f4c1a
 SHA512: 7b241c3d737520b87810519cfb276aa42bd3143e173adebf616cf779eefdc477bf4e742e0216f475b1bd65b19a77717d402ada2da258e08ed51fe5a11f33bc7d
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak Snowboard
 Name: Snowboard Gói Việt Hoá (Roothide)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.touchviz
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.touchviz_1.0_iphoneos-arm64.deb
+Size: 2316
+MD5sum: 000e694dc16f3b654d87ec3c819afbe9
+SHA1: 77dc0b9adfe6594638f971b36d747cd8cee41bb6
+SHA256: 44ec4ac7d039c0af6182875659361b2aa82c4dc0064b82a08f77bb24197b95bb
+SHA512: e22d280b190c8f33161c069b34e2ecc67bd28f4f63fa5c61a8319cf08b9339cc473b9addd1341316adc1241281ee3e752bd7e60482d6e159bcc2bd998685bb29
+Description: Patch Tiếng Việt cho tweak Touch viz
+Name: Touch-Viz gói Việt Hoá (Rootless)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
