@@ -24,10 +24,10 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64e.deb
 Size: 65725976
-MD5sum: a6091eca962bc1944575ff0c220aa518
-SHA1: 976551cde9d945f506c96ed65df6f144726834c7
-SHA256: b0353bc3ba264918cae9c623b871a75785a627f1fb97e9c25a8bcb1b9442ca16
-SHA512: 15207fa04628fe5f9d6a8ae51a95ed3bf2ec92bcf2491a91ea3a32722bb7ec7c54925a2f1196b22e9ee1b001ac6900529af35892740107c6237e76cc385e64a2
+MD5sum: 5d20c97e267ca08951d21d7d5703c3af
+SHA1: 27cef8c1926325aa896d5d520f3b6df986adb58b
+SHA256: fdbbd11e19873d0ce551da19d267b6e06576711123ca2e29bfa17a7157b8e81e
+SHA512: 9445c72c3e16bfe5f3f662456b0e87f3e3da571e40233771dfccf9675f8bfaf0f09e83ea2b56924aa5c5722d7fed983503b37465e5c6739780afe59587908efb
 Description: Chủ đề bàn phím kích hoạt qua Laetus
 Name: Chủ đề Depths PD (Roothide)
 Author: Jtis Repo
@@ -74,10 +74,10 @@ Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm64.deb
 Size: 2564408
-MD5sum: 7c6dc0fadafc3b9f4e7b90237f07984d
-SHA1: 62853c26ada907963ba0c3cb08c3cf4393f5f1fe
-SHA256: 1847b5c23fd191d31d9c84da729b7565db2817d9bfd5c9392c1b92c38dc538ca
-SHA512: 71f7acd48f714ba6dd48689af39c9a6ccb936aa51b6edf24c27572458c5182b496d12cfddef44a89364e2e57d585b7b5c2690205acc06356a62fa240ec4ceb80
+MD5sum: 720751d5f5eaeae7669ec692b9f163bc
+SHA1: 7d422ab7502cb1c693755fcfebe44342bef10e48
+SHA256: 451ff950b8e4de09716e799578e6d53fb25d8802771260b01bea7dddc3011a4b
+SHA512: 445a124ce4eca76c9259a963dadbbcf0b73529d1c51e9276fb4af07c6fb568d6a31e3f6ba367fab64fda6e5bd6631412f53f560ea1cd7e6e645ed9d16921b7d3
 Description: Chủ đề bàn phím kích hoạt qua Laetus
 Name: Chủ đề Goku (Rotless)
 Author: Kitsudo
