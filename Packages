@@ -41,10 +41,10 @@ Section: Fonts
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.FontEdgy_1.0_iphoneos-arm64e.deb
 Size: 9805360
-MD5sum: 6ccb763aa7bd3367c72cb1b6762e1a38
-SHA1: 51ca2a9e5e230fad6369c1caa2037024b54bb4b1
-SHA256: 3df3c33fc5ec3a190af462d8745fa17bf1d62990e8235223f6b3076701504af8
-SHA512: 657a386fc4e40db322acc3e7dba44ae1ca5a21d0b36c60bbadd59ec0f5949089919ea91de3398d2efc691e3e894d42fba64a6bb67c46f95948545158d1acf9ac
+MD5sum: 7765d9c51d5ca1feb637813fea9ee4ef
+SHA1: dd51f4e0b787c4b54c94e3d1886ddb42282fafac
+SHA256: bb7bb08d4d800b38749f252595b6300e6b346dd11124121a2adb831497384729
+SHA512: 8db939e8a8952accffdee931f45c2e59cb46b0a0fcb8b7b555cae4ab22adb8772cbc45baf6d26fcdcdd6a0f6a00bb26027c621fd150c37f9cbb668c524d55ebe
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
 Author: Edgy
 Name: Font Edgy (Roothide)
@@ -72,15 +72,15 @@ Version: 1.0
 Section: Fonts
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.FontUandilove_1.0_iphoneos-arm64e.deb
-Size: 469944
-MD5sum: 6cae86059bd5df8759e2ed26a1c21e6b
-SHA1: 65f75627028325da7926af93c85e01d4ac1ecf3a
-SHA256: 050f77b218d1cf1e8a99aea536cc2f03e6ee59b42f5a9a56c2fe3408067bfe01
-SHA512: 665f98a542fbcfe746c1afdfdb79c5a33b99e3acf88c21278b887bdcf90826ff6257a6f706a7ed74782b6e22f47b0d0f4d20d87b20448738c514c5fc7da86fbc
+Size: 469960
+MD5sum: a8b4488f2ee1a88ce4d28c9a0f0ea81a
+SHA1: c84bda781436249ad9b926f9e0d1efeb0c1b5a0e
+SHA256: a494cc73989ce6510518a7a11fc03e7fa9c615bf8b8a81ae74f4d5c788bea021
+SHA512: 3ef91f5112ec75ad4956d1ae5c4b12bbbfbab2838af4004749f319b2e9f4780601579eb2b672bdd2128b7be7415d77e62b1625ad476cfa8b92da9bcba18d3e11
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
 Author: UandIlove
-Name: Font U And I Love (roothide)
-Icon: https://Jtisvn.github.io/sectionIcons/font1.png
+Name: Font U And I Love (Roothide)
+Icon: https://Jtisvn.github.io/sectionIcons/font2.png
 
 Package: com.jtis.Goku
 Architecture: iphoneos-arm64
