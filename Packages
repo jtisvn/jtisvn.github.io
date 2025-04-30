@@ -19,17 +19,17 @@ Author: NightwinDev
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
 Version: 0.1
-Section: Laetus Keyboard Roothide
+Section: Laetus Themes Roothide
 Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64e.deb
-Size: 65725980
-MD5sum: b6adc636c778b329700c573a0a281b48
-SHA1: 44540cba282f152090bae8552bc312e1f3dc3ad6
-SHA256: d5773227b98a231b812e6eb739244cb013cbaa60032f0b5635033829aed1894c
-SHA512: ef3e632215b8138ca4d8c09138f470fd2f518301f8fc5f77b51d5ef1a9a1d431ab15e1889688a05f221c70a886076d4d0ba9323e75cd9e56d0f5718a20fc78a0
+Size: 65725976
+MD5sum: 5d20c97e267ca08951d21d7d5703c3af
+SHA1: 27cef8c1926325aa896d5d520f3b6df986adb58b
+SHA256: fdbbd11e19873d0ce551da19d267b6e06576711123ca2e29bfa17a7157b8e81e
+SHA512: 9445c72c3e16bfe5f3f662456b0e87f3e3da571e40233771dfccf9675f8bfaf0f09e83ea2b56924aa5c5722d7fed983503b37465e5c6739780afe59587908efb
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Depths PD (roothide)
+Name: Chủ đề Depths PD (Roothide)
 Author: Jtis Repo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
@@ -69,17 +69,17 @@ Icon: https://Jtisvn.github.io/sectionIcons/font1.png
 Package: com.jtis.Goku
 Architecture: iphoneos-arm64
 Version: 0.1
-Section: Laetus keyboard Rootless
+Section: Laetus Themes Rootless
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm64.deb
 Size: 2564408
-MD5sum: 639accc992ce48ccdd27467f7fb9dd23
-SHA1: 0c61397dae4f23f997404e369ddadef663b25e49
-SHA256: b2a5ca776bbd4b9d312616fa1a12f18bc1444a1f31ff880a695df7f2e0164f6b
-SHA512: 7844eaee0826d5397bb135633ba8d00def802fb1f40d106b733511a260ffbc59d47d7f0ed3a523dd0628c88603ebc9acfa4a6fbcf727fb06e02228682c44f263
+MD5sum: 720751d5f5eaeae7669ec692b9f163bc
+SHA1: 7d422ab7502cb1c693755fcfebe44342bef10e48
+SHA256: 451ff950b8e4de09716e799578e6d53fb25d8802771260b01bea7dddc3011a4b
+SHA512: 445a124ce4eca76c9259a963dadbbcf0b73529d1c51e9276fb4af07c6fb568d6a31e3f6ba367fab64fda6e5bd6631412f53f560ea1cd7e6e645ed9d16921b7d3
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Goku (rootless)
+Name: Chủ đề Goku (Rotless)
 Author: Kitsudo
 Depiction: https://jtisvn/jtisvn.github.io/depictions/Goku.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
@@ -329,19 +329,19 @@ Package: com.kitsudo.laetus
 Architecture: iphoneos-arm64e
 Version: 3.5.1
 Section: Tweaks
-Maintainer: Spark
+Maintainer: JTIS Repo
 Installed-Size: 1828
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
 Filename: ./debs/com.kitsudo.laetus_3.5.1_iphoneos-arm64e.deb
 Size: 838992
-MD5sum: db4c446d18bac6476ef2c8ef96b78cf7
-SHA1: cd5dcd911efb9ec4319b4cb36fb28805298d3adb
-SHA256: c27e68b02d430be05f8fa11a4e649220355e7db41d999a33183300cdb2b1c8c2
-SHA512: fdb97b5cb5e5d6aa3f14b240961f21a2afb1b17047972c2dd257f6cae59d5c679b374dd30ec294d415d35fc72e5909167f7c6d54b9fe683c93b1f01ec21f555c
+MD5sum: cc7e2c8663c76dabda31c8aa553a0b49
+SHA1: 310f740ce7e73c66baa9f98436b830f1592ae931
+SHA256: ed1826e69219fcfee59f986ce42cfe01c71eda63e00e67b6c1288936cdf7175e
+SHA512: f1e55129de646c1d3ebda26801befef5c79a39a3bdc30ea75db0a0579132417e7bbe9b2ac60a646bed57e33d468ba3288ddbf35cc807e64ba05c9a9babdafabd
 Description: Tuỳ chỉnh bàn phím vượt trội và đổi chủ đề da dạng (bản VIệt Hoá)
 Name: Laetus (Roothide)
-Author: Jtis Repo
+Author: Spark
 
 Package: com.kitsudo.norredirect
 Architecture: iphoneos-arm64
@@ -622,6 +622,44 @@ SHA512: 2088b90e64cb6d9b0e70375ebe7b63b9ebc6722a68ff5cff938458ebe7100366ddebb13b
 Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chứ trên IOS
 Name: SmoothCursor (iOS 13+)
 Author: Jtis Repo
+
+Package: com.roothide.manager
+Architecture: iphoneos-aảm64
+Version: 1.3.3
+Section: System
+Maintainer: JITS Repo
+Installed-Size: 1076
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.roothide.manager_1.3.3_iphoneos-aảm64.deb
+Size: 749128
+MD5sum: 97d2f76a537cf7f55050ac384257fc3f
+SHA1: 1929d409c1992b8245e1a55a9acbe68cb59616b3
+SHA256: 0041c5820ed1a613f64a8579d20c6f9627a0c92cb94905e44afd340a6f6e24ec
+SHA512: 3fa3b62a5dfbe05c458a03834b1493a8e3fd62a3613c8eb800fd77c583a03bd532462b06bdcea0854ad31c08530bf268de3ef9c600a56603cc158a7946460d4e
+Description: Configuare RootHide's Features
+Name: RootHide Manager (Rootless)
+Author: roothide
+Icon:
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.spark.snowboard.dock
+Architecture: iphoneos-arm64e
+Version: 1.1.3~Beta4-rootless
+Section: SnowBoard Extensions
+Maintainer: JTIS Repo
+Installed-Size: 440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/com.spark.snowboard.dock_1.1.3~Beta4-rootless_iphoneos-arm64e.deb
+Size: 33824
+MD5sum: 655ce7feb2dfeb1dc51c4342e8a8a456
+SHA1: b887b48aa0aa3c20cd9b98c3e74e4734941c2531
+SHA256: 4fe80051a50c6b361e00e26f9d2e0e12c571d98fd0ec96afce3c98b4252a99f4
+SHA512: f6fb943a36177c8aa10e5aa5a51ef2d0f6e1ec01db9f7ceb4d2967685cc384e8c93f89aaefdd0d1d6f7e7e7176f80d1c58c9ff1bfde039d67057626e23cba997
+Description: Dock for SnowBoard
+Name: SnowBoard Dock Extension
+Author: Spark
 
 Package: jtis.filzacrack-roothide
 Architecture: iphoneos-arm64e
