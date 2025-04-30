@@ -89,15 +89,14 @@ Section: Laetus Themes Rootless
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm64.deb
-Size: 2564408
-MD5sum: 720751d5f5eaeae7669ec692b9f163bc
-SHA1: 7d422ab7502cb1c693755fcfebe44342bef10e48
-SHA256: 451ff950b8e4de09716e799578e6d53fb25d8802771260b01bea7dddc3011a4b
-SHA512: 445a124ce4eca76c9259a963dadbbcf0b73529d1c51e9276fb4af07c6fb568d6a31e3f6ba367fab64fda6e5bd6631412f53f560ea1cd7e6e645ed9d16921b7d3
+Size: 3048172
+MD5sum: 4e433c3a4b68847d56a2e14d13960cdd
+SHA1: 15d776794fc631ab352c1d582d8814431bcb9723
+SHA256: 2197c79817459e268b38f41ed52e424b984042294558f11fa38c2e0eaddc747b
+SHA512: ecb473172950eebf6dc7ccff8b393b0bea976222c8ad769e62451e154fb710f5902f93728e01f545c2712b6ef960d304bb1eca77a33220618895c1a13ad7b848
 Description: Chủ đề bàn phím kích hoạt qua Laetus
 Name: Chủ đề Goku (Rotless)
 Author: Kitsudo
-Depiction: https://jtisvn/jtisvn.github.io/depictions/Goku.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
