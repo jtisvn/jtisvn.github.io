@@ -1,6 +1,6 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://i.imgur.com/eS4D7Er.png",
+"headerImage":"https://i.imgur.com/PkST4zK.jpeg",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -76,7 +76,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### 1.10\n\nHỗ trợ Rootless Jailbreak."
+"markdown":"#### Bỏ chữ Kitsudo và làm nét hơn \n\nHỗ trợ Rootless Jailbreak."
 },
 {
 "class":"DepictionLabelView",
