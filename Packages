@@ -693,6 +693,27 @@ Description: Dock for SnowBoard
 Name: SnowBoard Dock Extension
 Author: Spark
 
+Package: com.spark.snowboard.fonts
+Architecture: iphoneos-arm64e
+Version: 1.1.0~Beta4-rootless
+Section: SnowBoard Extensions
+Maintainer: Spark
+Installed-Size: 392
+Provides: com.ipr.bytafont, com.bytafont.bytafont3
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Conflicts: com.ipr.bytafont, com.bytafont.bytafont3
+Replaces: com.ipr.bytafont, com.bytafont.bytafont3
+Filename: ./debs/com.spark.snowboard.fonts_1.1.0~Beta4-rootless_iphoneos-arm64e-1.deb
+Size: 27388
+MD5sum: 70e2103c6860da15c4a084f83a16ffb7
+SHA1: 4da750c9e4526ce56e6212e205bf59a890cdba38
+SHA256: d40fe7766af9942a1508172e6b38f6f4f40f3e5e467802941e59abe6f5dec0df
+SHA512: f0fe2343af5bd69cc1fb8972eff2ed6f26d7e04730c4b5c1ba1cfca01ec610c9ee38d3248ae4cf46616fb8f4f79c1b8784aa53aa849c1344dac9106240bf2fa0
+Description: Fonts for SnowBoard
+Name: SnowBoard Fonts Extension
+Author: Spark
+
 Package: jtis.filzacrack-roothide
 Architecture: iphoneos-arm64e
 Version: 1.1-8
