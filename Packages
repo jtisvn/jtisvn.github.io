@@ -212,20 +212,20 @@ Author: 0xkuj
 
 Package: com.jtis.settingMeizu3D
 Architecture: iphoneos-arm64
-Version: 1.3
-Section: Theme Rootless
+Version: 1.0
+Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.settingMeizu3D_1.3_iphoneos-arm64.deb
-Size: 366232
-MD5sum: 8efa903bbcd58780b29345f7c6e18bc3
-SHA1: d39771fc21b57c20a54040033d642a9bbbdbf274
-SHA256: 38ad9b8a05a2828291329a15ab2dc3f010ad67b3f3ec6a9bb592cc6dc7031af0
-SHA512: 562e67841a6a7f602b5c4b3e81f6290f9c839ca788e9ceff607a8664139703587f031fa9644abf45ebe387f8c35466c39e70f6ec1c491076fa2a0e9e050b093c
+Filename: ./debs/com.jtis.settingMeizu3D_1.0_iphoneos-arm64.deb
+Size: 366228
+MD5sum: 32f46adaf81f22562d36fa597c0f9a65
+SHA1: 35884fc4affff2e7270d1eeebf6a81a901eee8d2
+SHA256: d3d17c323fa66a91b410acebd1141a782ac22803669697947deeb2cc71433d34
+SHA512: 7565b5fd240142a95b2bbf05c21d7be4cf8358066d7bb0d99e951901288796897d3d21a50f514dcf1e6b7efbe67ba37ba6ec3d50c0f8611ae47805f9c9030597
 Description: Chủ đề setting Meizu 3D
-Name: Setting Meizu 3D Theme
+Name: Setting Meizu 3D
 Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/setting3dmeizu.json
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/chudee1.png
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
 Package: com.kitsudo.axom
 Architecture: iphoneos-arm64e
