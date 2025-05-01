@@ -126,15 +126,15 @@ Maintainer: JTIS
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.dleasy_2.14.5_iphoneos-arm64e.deb
-Size: 10977420
-MD5sum: 55414a3567a28817c02319addba83992
-SHA1: 2cd9b79c0d08bce37664383d156c468dda1fa2c0
-SHA256: 5655e13f86fd7eb69efd1ca7498d07b6b228b43e53b8ce7f2fe8b9e84ebf8a9c
-SHA512: 8002024bd8f047634acba2f66a3717eed4eb31ce45017d554200444187835bbd427a1c755752ae00f52af46130337791fe3ee60de711dea09fbc65f40230dddb
+Size: 10971140
+MD5sum: 56e8bf238d0bbc96d8e294a8863665d9
+SHA1: addf6015d7f497ff6d52ed678edf4e11c4275c29
+SHA256: cfac5be6972a3aca00349c2f45dbbb9c78414d2ca35eb0ab54d0487c8d4d32ec
+SHA512: d2097addfbd7f7edf32ef6e924f99b29d8006254b5426a0d833ab1561248aa3449d30202e22f61620d29c27657ebc28aa4aea1cc08144df9704ddfbf3ce8ddd5
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
 Depiction: file:///D:/@_Hieu/Documents/GitHub/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
-Name: DLEasy (roothide)
+Name: DLEasy (Roothide)
 Author: AhmedBafkir
 
 Package: com.jtis.hammerit
@@ -201,13 +201,13 @@ Installed-Size: 1000
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: com.opa334.altlist, preferenceloader
 Filename: ./debs/com.jtis.primedeck_1.3.0_iphoneos-arm64e.deb
-Size: 541760
-MD5sum: 4e0737c229aa08d14d8c9a68f43156cc
-SHA1: b0a3e0bd0311fe37ad70829396e9191fc8a4b768
-SHA256: 5ad2bea3079854f509173ca57204fc09ed20035fd7f56c28d9423ef48bad120d
-SHA512: 48099569da0131a2396dcdb847ccc1df29fe3d6217e89de410568f8c34430cad7643b03f3c6271ad037a293f3f45a7d6f6062d8a3e6f33b19ef48687fa7de2e3
-Description: Điều khiển trình chuyển đổi ứng dụng của bạn
-Name: PrimeDeck (roothide)
+Size: 541912
+MD5sum: 97934e20f1bcfd221a4ddee0bcc85bbd
+SHA1: 9d770bcba2a6676ff1c122eb18a12e7291fa781f
+SHA256: 4b581063d2ee210c95c2ecfcddb27deae7c94d3eab780f269a94461b4faf1afc
+SHA512: 1dababf651b4d23b840a988e4cd101d3df443832495e181ad80cf9e102fd4ef41449d02fc662c719d27338702c6915f3c6804fe9b41bf3a386db2777247e0667
+Description: Điều khiển trình chuyển đổi và khoá ứng dụng của bạn trong đa nhiệm
+Name: PrimeDeck (Roothide)
 Author: 0xkuj
 
 Package: com.jtis.settingMeizu3D
@@ -549,11 +549,11 @@ Maintainer: JTIS Repo
 Installed-Size: 36568
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.snowboard_1.0_iphoneos-arm64.deb
-Size: 4452
-MD5sum: 0fadd16f9a7825dbae156a3f1182784b
-SHA1: bab311d3fe89584fb7dd294df27a53f1fabb2a32
-SHA256: a10bdedaed56f1c8a2a669a823868d1ec2068858b3ff6ef7d9a604d34986858e
-SHA512: ed0741b4e25e5bffe0ac617483e24f183b4e785260facc08e95dfd84060926226bfe070fdc04c3409f2293d307df122516e0e8a3d44108b66934faa5df3ba578
+Size: 4448
+MD5sum: e0d7dd7f3a2ff2807f03c1b48135e52e
+SHA1: 49a9413cc48e48395af045791498deea2b2c66ad
+SHA256: 44b4a1106b84615aee5f819a37fc60ceed645bb874e9d179a7437c17c7cc4508
+SHA512: 09ea1aa4e825f3b79857c382031bd061d9b423e8864c3f9135defeca880b617eb44f394ad1aa63453af7241574458469e19dfcb06c680f0b3333f779e466fcae
 Description: Patch Tiếng Việt cho tweak Snowboard
 Name: Snowboard gói Việt Hoá (Rootless)
 Author: Jtis Repo
