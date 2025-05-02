@@ -50,9 +50,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"B4dblr3"
+"text":"udevs"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"5.4.11" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.6.2" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",

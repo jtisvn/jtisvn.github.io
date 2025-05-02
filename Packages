@@ -137,6 +137,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
 Name: DLEasy (Roothide)
 Author: AhmedBafkir
 
+Package: com.jtis.dockx
+Architecture: iphoneos-arm64e
+Version: 2.6.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 2036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.jtis.dockx_2.6.2_iphoneos-arm64e.deb
+Size: 421588
+MD5sum: 5564d6806c4a9189b6bd3691f2d86c0f
+SHA1: d5eb29f39d4f74391319a7ac29bfbc02d274aa0f
+SHA256: ca5a8f6c84d7f9d8c92aae2c8353cc8597e167fabde0d3685d658ff94501fdd6
+SHA512: 45923adeee68330d508ac2e033cc3129afe21159192e085c08eaed77f5f626a98c4f8f3df6bc918fdfa774f66b900e1a1afdcb24df5f3a204442602724b6f805
+Description: Thêm chức năng vào dưới bàn phím
+Name: DockX
+Author: udevs
+Icon: https://Jtisvn.github.io/sectionIcons/Dockx.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DockX.json
+
 Package: com.jtis.hammerit
 Architecture: iphoneos-arm64e
 Version: 1.5.0
