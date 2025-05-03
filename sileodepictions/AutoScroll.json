@@ -24,7 +24,7 @@
 "title":"Tham gia nhóm "
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Telegram\n\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -40,20 +40,17 @@
 "title":"Tác giả",
 "text":"pxcex"
 },
+{ 
+"class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Tweak"
+"text":"Twweak"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
 "text":"3/5/2025"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15+"
 },
 {
 "class":"DepictionLabelView",
