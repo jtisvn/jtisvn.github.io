@@ -340,25 +340,6 @@ Name: Dock X gói Việt Hoá (Rootless)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
-Package: com.kitsudo.dockx
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Gói
-Maintainer: JTIS Repo
-Installed-Size: 36568
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.dockx_1.0_iphoneos-arm64e.deb
-Size: 9360
-MD5sum: 9d68b7df7a8f1aed9a4effcba7a84ddd
-SHA1: e8f268263307b82adb027a190ba67dbdc830d1fe
-SHA256: 0f98b7821f53b251e69f86afb5cf711c236572879eff26a48bed8858922eb2ed
-SHA512: 58ee41fa7fa8a98f82de1a619c990cc1cf411fc44317254d5b41ffbb4b1451fc9d7e33e15c74347a3dfb63baec032ff386463c2366da6f394bd3cd4367f38589
-Description: Thêm ngôn ngữ Tiếng Việt cho tweak Dock x
-Name: Dock X Gói Việt Hoá (Roothide)
-Author: Jtis Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
 Package: com.kitsudo.hammerit
 Architecture: iphoneos-arm64
 Version: 1.0
