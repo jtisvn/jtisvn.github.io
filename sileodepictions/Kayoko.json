@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"Kayoko \n\n- Trình quản lý clpiboard trên thiết bị iOS\n\n- Cho phép theo dõi các mục đã sao chép gần đây và cung cấp quyền truy cập nhanh hơn.\n\n- Kayoko là một tinh chỉnh bẻ khóa cung cấp trình quản lý bàng nhớ tạm tuyệt vời cho các thiết bị chạy trên iOS 13 - iOS 15. Công cụ này cho phép bạn dễ dàng truy xuất các mục đã sao chép gần đây thông qua truy cập nhanh từ bàn phím. Với Kayoko, việc quản lý lịch sử bảng nhớ tạm chưa bao giờ dễ dàng hơn thế\n\n- Kayoko có thể được kích hoạt băng tweak Dock X hoặc từ thanh dự đoán hoặc sử dụng phím chính tả xuất hiện trên bàn phím\n\n- Kayoko có thể xử lý tới 500 bản ghi lịch sử, bao gồm văn bản và hình ảnh. Số lượng các mục được ghi nhớ có thể được điều chỉnh trong cài đặt\n\n- Đối với iOS 16 bạn có thế thử cài để sử dụng,nếu không tương thích vui lòng xoá Tweaks\n\n- Chi tiết xem thêm hình ảnh bên dưới \n\nㅤ\n\n",
+"markdown":"Kayoko \n\n- Trình quản lý clpiboard trên thiết bị iOS\n\n- Cho phép bạn sao chép dán văn bản hình ảnh để theo dõi mục của nó và cung cấp quyền truy cập nhanh hơn.\n\n- Hỗ trợ cho các thiết bị chạy trên iOS 13 - iOS 15. Công cụ cho phép bạn dễ dàng truy xuất các mục đã sao chép gần đây thông qua truy cập nhanh từ bàn phím. Với Kayoko, việc quản lý lịch sử bảng nhớ tạm chưa bao giờ dễ dàng hơn thế\n\n- Công cụ có thể được kích hoạt băng tweak Dock X hoặc thêm vào thanh dự đoán hoặc sử dụng phím chính tả xuất hiện trên bàn phím\n\n- Có thể lưu trữ hơn 500 bản ghi lịch sử, bao gồm văn bản và hình ảnh. Số lượng các mục được ghi nhớ được điều chỉnh trong cài đặt\n\n- Đối với iOS 16 bạn có thế thử cài đặt để sử dụng,nếu không tương thích vui lòng xoá Tweak\n\n- Chi tiết xem thêm hình ảnh ở bên dưới \n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -40,7 +40,7 @@
 "title":"Liên hệ tôi"
 },
 {
-"markdown":"[**Fanpage Facebook**](https://www.facebook.com/repocydiaBVN?mibextid=LQQJ4d) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Tham gia nhóm**](https://t.me/jailbreaktrolliossupport) - Telegram\n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -60,12 +60,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Tweaks"
+"text":"Tweak"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"25/3/2024"
+"text":"5/3/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -79,7 +79,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2024 by Biện Văn Nhật",
+"text":"Copyright © 2025 by JTIS",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -96,7 +96,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2024 by Biện Văn Nhật",
+"text":"Copyright © 2025 by JTIS",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
