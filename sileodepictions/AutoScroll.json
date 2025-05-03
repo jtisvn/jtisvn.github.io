@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"# Chức năng cho phép tự đông cuộn màn hình\n\n- Hỗ trợ các thiết bị IOS 15+.\n\n- Tải về không hiển thì trong cài đặt và sử dụng bằng cách vuốt lên vuốt xuống rồi thả ra\n\n- Có thể tự động lươt trên mọi ứng dụng và trang web SAfari,Chrome...mà không phải lo việc mỏi tay!",
+"markdown":"# Chức năng cho phép tự đông cuộn màn hình\n\n- Hỗ trợ các thiết bị IOS 15+.\n\n- Tải về không hiển thì trong cài đặt và sử dụng bằng cách vuốt lên vuốt xuống rồi thả ra\n\n- Có thể tự động lươt trên mọi ứng dụng và trang web Safari, Chrome...mà không phải lo việc mỏi tay!",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -40,10 +40,11 @@
 "title":"Tác giả",
 "text":"pxcex"
 },
-{
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
+
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Themes"
+"text":"Tweak"
 },
 {
 "class":"DepictionTableTextView",
