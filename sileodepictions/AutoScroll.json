@@ -9,16 +9,13 @@
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/DepthsPD/Screenshots/1.jpg",
-"accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"# Cài đặt chủ đê bản phím cho iPhone của bạn đẹp hơn.\n\n- Kích hoạt qua tweak Laetus !",
+"markdown":"# Chức năng tự đông cuộn màn hình.\n\n- Hỗ trợ các thiết bị IOS 15+ \n\n-Tải về không hiển thì trong cài đặt bà sử dụng bằng cách lướt lên lướ xuống r thả\n\n- Có thể áp dụng trên mọi ứng dụng bà lướt web !",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -30,7 +27,7 @@
 "title":"Tham gia nhóm "
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Telegram\n\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -44,7 +41,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Kitsudo"
+"text":"pxcex"
 },
 {
 "class":"DepictionTableTextView",
@@ -54,12 +51,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"27/4/2025"
+"text":"3/5/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 14 đến 16.6.1"
+"text":"iOS 15+"
 },
 {
 "class":"DepictionLabelView",
@@ -76,7 +73,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### 1.10\n\nHỗ trợ Rootless Jailbreak."
+"markdown":"#### 1.10\n\nHỗ trợ Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
