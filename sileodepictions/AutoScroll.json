@@ -40,8 +40,8 @@
 "title":"Tác giả",
 "text":"pxcex"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
-
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0"},
+{
 "class":"DepictionTableTextView",
 "title":"Thể loại",
 "text":"Tweak"
