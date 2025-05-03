@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"# Chức năng cho phép tự đông cuộn màn hình\n\n- Hỗ trợ các thiết bị IOS 15+.\n\n- Tải về không hiển thì trong cài đặt và sử dụng bằng cách vuốt lên vuốt xuống rồi thả ra\n\n- Có thể tự động lươt trên mọi ứng dụng và trang web Safari, Chrome...mà không phải lo việc mỏi tay!",
+"markdown":"# AutoScroll\n\n- Chức năng cho phép tự đông cuộn màn hình\n\n- Hỗ trợ cho các thiết bị IOS 15+.\n\n- Công cụ tải về không hiển thì trong cài đặt và sử dụng bằng cách vuốt lên vuốt xuống rồi thả ra\n\n- Với AutoScroll, Bạn có thể tự động lươt trên mọi ứng dụng và trang web Safari, Chrome...mà không phải lo việc mỏi tay!",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -71,7 +71,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1..00\n\nHỗ trợ Roothide Jailbreak."
+"markdown":"#### Phiên bản 1.0.0\n\nHỗ trợ Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
