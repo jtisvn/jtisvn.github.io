@@ -109,10 +109,10 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.autoscroll15_1.0.0_iphoneos-arm64e.deb
 Size: 6448
-MD5sum: 097dc490e019f6c5d36b154df17cec02
-SHA1: 4bbb2c4a1d7e0fff9a505366cfada23eead8662f
-SHA256: aa1485a1e5781d3b67d10f3dd0c0b8d96c0f1e36de5a78c45e5e3ce52b13b813
-SHA512: 1c8c9046e7e26974d2a23edcdd7f4f777c03b8c68586d1c67c9f068268b6d4bcd01d8f74a634e4090ab8a8b70155622448fb48e2468526dae33bdb897045ff2a
+MD5sum: aa7bf1ba737dc1b4b7c40444aab72846
+SHA1: 555cf18bd98ad1b67ebe01a1f1fd77c57bdd749f
+SHA256: cc37837ad7387a0f0dba0923dbc13f7a83f823d9fcf0b195e16dc6c81d53d601
+SHA512: 8dbba1fb0c69417efc6a526f83681e6ea98e7ee1f734c9c327017a6178154202c89d93060a475ca75929808331bc179f36e6297d930b925553c74eb8d936fb96
 Description: Chức năng tự động cuộn màn hinhg trên moi ứng dụng.
 Name: AutoScroll (Roothide)
 Author: pxcex
