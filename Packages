@@ -147,11 +147,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
 Conflicts: com.restiveconch.actionbar
 Filename: ./debs/com.jtis.dockx_2.6.2_iphoneos-arm64e.deb
-Size: 421604
-MD5sum: 9470f542f0e1ea173181713e13145635
-SHA1: dafd12249a1ebe5122b33313fcefa177c61038fd
-SHA256: a980a864d55dd8bab7c59b21abb8acc2fb0596f5bda3df9477486558cf34b5e5
-SHA512: 6c8211212d20bf0d3aca70d04a5675598d9147f8550c4592705d68a73177a30f8ec84bcdec3fd7c18ffc815f4fba2b04553051715d76872e8672f975e3ba9011
+Size: 425872
+MD5sum: f6fc93d4353e4e88e03e294d5d9fe4a8
+SHA1: eac2777e9fe9378f4f9a37a5abc2203dff20f158
+SHA256: 3c9922f0ae8178e464a498d3ae1e2bf90951b819b18beec742f2fd4b7e42ad72
+SHA512: c79a97bc74713b7b0102916f914c7f264139500d56acd4466a4ce33f77873616c17a747a0e49214ca5397c7b15fd65b3973b4297008a8149ae65637f5b8bc9c0
 Description: Thêm chức năng vào bên dưới bàn phím.
 Name: DockX (Roothide)
 Author: udevs

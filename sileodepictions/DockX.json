@@ -88,7 +88,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Roothide"
+"markdown":"### Hỗ trợ Roothide.\n\n Thêm ngôn ngữ Tiếng Việt"
 },
 {
 "class":"DepictionLabelView",
