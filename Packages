@@ -626,11 +626,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
 Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko
 Filename: ./debs/com.ktis.kayoko-roothide_2.7_iphoneos-arm64e.deb
-Size: 128828
-MD5sum: 3aa3cf90ffcfeb3aaa8bb1ef288c26bc
-SHA1: 76ae0e3aa4b1d02d0747cd9a3d4df5618c55c1a6
-SHA256: 698fa4c42b0532f34b1846949e5112e5995a6e52d68b024e2110fadb0433141d
-SHA512: 6f048abec265d6ad8f79fa962199c6ceca11221e9b1b7400228edb327e61665663da6feeda1accfefcf8205b8d4b7cf13336606ecdf575588197d6773a33ac35
+Size: 128808
+MD5sum: 6da5a60300c5c2c5d69656b33d9cf537
+SHA1: d6e2497c7dda09ee5d83b85c9e309ddc51ae3e8c
+SHA256: 7656190ccccaf7b6397f22075aaf8af02d64de56c9495091f8b316f4b2ec910b
+SHA512: 1dcce02b9ef878c9680a6a4d30dc684dc8d0e7fcebc4a04d21d9afe111e37c40e805b64a2b7042d3e466b68765d1f9a977a92c749784465ff164271e8fd00f1b
 Description: Trình quản lý clipboard, tương tự như Copylog và NicelogX.
 Name: Kayoko (Roothide)
 Author: Alexandra Aurora Göttlicher
