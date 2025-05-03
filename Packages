@@ -194,6 +194,25 @@ Name: Hammer It
 Author: SquidForce
 Icon: file:///Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 
+Package: com.jtis.kayoko-roothide
+Architecture: iphoneos-arm64e
+Version: 2.7
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko
+Filename: ./debs/com.jtis.kayoko-roothide_2.7_iphoneos-arm64e.deb
+Size: 128804
+MD5sum: edfaa3640e1feda9efd23497b7233efe
+SHA1: e45b1c27ec623203c23e77fcd0bb7e2238e6a126
+SHA256: 7068f2008baa96a29572cd7670bf9aa2f16cd5c4a97d38dcaddad8ea10e043a5
+SHA512: cc1eaccae3f5f09aac7d038d94d1bd024d18944760988e729f9a44d4f88ff9119a57b3563af32e9c8cdfb828e38ebb5e4e19e799a333d99fafe30aab1770e22d
+Description: Trình quản lý clipboard, tương tự như Copylog và NicelogX.
+Name: Kayoko (Roothide)
+Author: Alexandra Aurora Göttlicher
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
+
 Package: com.jtis.ocd
 Architecture: iphoneos-arm64e
 Version: 5.4.1.1
@@ -616,25 +635,6 @@ Description: Thêm ngôn ngữ Tiếng Việt cho tweak Touch-viz
 Name: Touch-Viz Gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.ktis.kayoko-roothide
-Architecture: iphoneos-arm64e
-Version: 2.7
-Section: Tweaks
-Maintainer: JTIS Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko
-Filename: ./debs/com.ktis.kayoko-roothide_2.7_iphoneos-arm64e.deb
-Size: 128808
-MD5sum: 6da5a60300c5c2c5d69656b33d9cf537
-SHA1: d6e2497c7dda09ee5d83b85c9e309ddc51ae3e8c
-SHA256: 7656190ccccaf7b6397f22075aaf8af02d64de56c9495091f8b316f4b2ec910b
-SHA512: 1dcce02b9ef878c9680a6a4d30dc684dc8d0e7fcebc4a04d21d9afe111e37c40e805b64a2b7042d3e466b68765d1f9a977a92c749784465ff164271e8fd00f1b
-Description: Trình quản lý clipboard, tương tự như Copylog và NicelogX.
-Name: Kayoko (Roothide)
-Author: Alexandra Aurora Göttlicher
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
