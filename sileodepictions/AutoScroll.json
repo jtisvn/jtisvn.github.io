@@ -1,8 +1,9 @@
 {
-"minVersion":"0.4",
-"headerImage":"https://i.imgur.com/ytkNJ1Y.jpeg",
+"minVersion":"0.1",
+"headerImage":"https://i.imgur.com/j9qvwvE.jpeg",
 "tintColor":"#5777B8",
 "tabs":[
+{
 "tabname":"Chi tiết",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
