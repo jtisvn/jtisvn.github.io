@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"# Chức năng tự đông cuộn màn hình\n\n- Hỗ trợ các thiết bị IOS 15+.\n\n- Tải về không hiển thì trong cài đặt bà sử dụng bằng cách lướt lên lướ xuống rồi thả nó sẽ tự động di chuyển\n\n- Có thể áp dụng trên mọi ứng dụng bà lướt web !",
+"markdown":"# Chức năng cho phép tự đông cuộn màn hình\n\n- Hỗ trợ các thiết bị IOS 15+.\n\n- Tải về không hiển thì trong cài đặt và sử dụng bằng cách vuốt lên vuốt xuống rồi thả ra\n\n- Có thể tự động lươt trên mọi ứng dụng và trang web SAfari,Chrome...mà không phải lo việc mỏi tay!",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
