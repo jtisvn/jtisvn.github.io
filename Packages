@@ -100,6 +100,25 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.autoscroll15
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.autoscroll15_1.0.0_iphoneos-arm64e.deb
+Size: 6448
+MD5sum: e7e4454ed8b15720f6158fee21f37d38
+SHA1: f6275004e87235e74b5ac40828d67ccb2da58595
+SHA256: ef67c2a9bbfb3ee4c48e27080a5b6572e39e3a5537f967f023751ba9870bce9c
+SHA512: 981b1c3b4cf31e143c95ac51bd868020a263ad35f3dd059b7dc8e456b5a42fc5e7059ae321051950d36095114bac6f92d85a3b517037e236198ab53640be8ce7
+Description: Chức năng tự động cuộn màn hinhg trên moi ứng dụng.
+Name: AutoScroll (Roothide)
+Author: pxcex
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoScroll.json
+Icon: https://i.imgur.com/eZpS8Qf.jpeg
+
 Package: com.jtis.cylinderremade.roothide
 Architecture: iphoneos-arm64e
 Version: 0.0.3-beta
