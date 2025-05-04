@@ -177,6 +177,24 @@ Author: udevs
 Icon: https://Jtisvn.github.io/sectionIcons/Dockx.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DockX.json
 
+Package: com.jtis.eneko
+Architecture: iphoneos-arm64
+Version: 1.4
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/com.jtis.eneko_1.4_iphoneos-arm64.deb
+Size: 29500
+MD5sum: 93ecde1ec8e609d6c7afb05faa718211
+SHA1: eb47d7b00ff14a60a2277c91882005d0b1abe8e6
+SHA256: a4a976dedd16f336bad9390c6efa5f5492e2d0d39ba94d47bf1076a8cdf2fa11
+SHA512: 3baab400beab618f6f21b675cc32f1bfe50133c9c31695d72381bf68375606cce98e858caae9a29ab96a2d7e88d16f867c27c61c33618da25ac4ba42bcd1cdfa
+Description: Chọn nền vidoe làm màn hình cho IOS
+Name: Eneko (Rootless)
+Author: Traurige <hello@traurige.dev>
+
 Package: com.jtis.hammerit
 Architecture: iphoneos-arm64e
 Version: 1.5.0
