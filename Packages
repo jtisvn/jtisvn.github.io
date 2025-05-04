@@ -332,15 +332,15 @@ Installed-Size: 14980
 Pre-Depends: rootless-compat(>= 0.9)
 Conflicts: com.choco.tgextra
 Filename: ./debs/com.jtis.tgextras_1.2-9+debug_iphoneos-arm64e.deb
-Size: 4607896
-MD5sum: 31e956fbe737d43a5e8852060f852d69
-SHA1: 099c6c893bd9a1d8f0796fc2c3698d03b8ffa5ef
-SHA256: ba2a3a4134055fd02a3d42668aeb13b2f8e3fefa13c11212fdc747fa41974df9
-SHA512: afca4b3395fb89be6ce007fd4b75fac1c3690ede2bad37ad683f01ddd05e52bd1bbeb249b8ebb77d5d333e1147fccc6d0faf84cb20d1da58a4233f05da8e78c9
-Description: Thêm các chức năng cho ứng dụng Telegram, Swifgram....
-Name: TGExtra (Roothide)
+Size: 4607696
+MD5sum: c23863690d39400b789ba69fcddf9f1d
+SHA1: 6c1c318425d0a9abeacffa63d02420e954b1c6bf
+SHA256: 8283f7b8941a8959e9ffa848050497415d210d8a70b0365dd198746c450b3ed0
+SHA512: f95b658aef808c68ce38f32ffa43b52500b8f12815a49d2393d7da7464d67dc556ef37384582b1c0e998cd8565584bc02d1653a31a51451bb588cff32345ad18
+Description: Thêm các chức năng cho ứng dụng Swiftgram.
+Name: Swwiftgram TGExtra (Roothide)
 Author: choco
-Icon: https://TrollStoreX.Github.io/sileodepiction/Telegram/icon.png
+Icon: https://i.imgur.com/OKvuaJN.jpeg
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 
 Package: com.kitsudo.axom
@@ -810,25 +810,6 @@ SHA512: f0fe2343af5bd69cc1fb8972eff2ed6f26d7e04730c4b5c1ba1cfca01ec610c9ee38d324
 Description: Fonts for SnowBoard
 Name: SnowBoard Fonts Extension
 Author: Spark
-
-Package: com.jtis.tgextras
-Architecture: iphoneos-arm64
-Version: 1.2-9+debug
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 14980
-Conflicts: com.choco.tgextra
-Filename: ./debs/comjtis.tgextras_1.deb
-Size: 2317680
-MD5sum: 091a73b19cea1b191547ffb7539f673b
-SHA1: db9eab853893e8ee1cb0012f6d8dedd589c02eaa
-SHA256: bdc6147716c33a263588ad9c3962c7d5cbae3307452fb7fd11abbc914d342bd6
-SHA512: 9c6d2c097e61b2f46716905c9f5107447879696ea985129c930b753739fcc4b06ea18a80957668b5645d20369cb841cc2a9ab943ea8795f5fe3d63296383691c
-Description: Thêm các chức năng cho ứng dụng Telegram, Swifgram....
-Name: TGExtra (Rootless)
-Author: choco
-Icon: https://TrollStoreX.Github.io/sileodepiction/Telegram/icon.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 
 Package: jtis.filzacrack-roothide
 Architecture: iphoneos-arm64e
