@@ -332,11 +332,11 @@ Installed-Size: 14980
 Pre-Depends: rootless-compat(>= 0.9)
 Conflicts: com.choco.tgextra
 Filename: ./debs/com.jtis.tgextras_1.2-9+debug_iphoneos-arm64e.deb
-Size: 4607696
-MD5sum: c23863690d39400b789ba69fcddf9f1d
-SHA1: 6c1c318425d0a9abeacffa63d02420e954b1c6bf
-SHA256: 8283f7b8941a8959e9ffa848050497415d210d8a70b0365dd198746c450b3ed0
-SHA512: f95b658aef808c68ce38f32ffa43b52500b8f12815a49d2393d7da7464d67dc556ef37384582b1c0e998cd8565584bc02d1653a31a51451bb588cff32345ad18
+Size: 4608792
+MD5sum: 0c2c07a57f83fa5fa404175fc87d08ff
+SHA1: 273da09f3b7ae211ec47b7cd49cd93e8fd997ad4
+SHA256: ac12581f21de3c6a26fb782c79a04a3d663a4b318ef6ded4293314bbf0d0874e
+SHA512: fc82b9430e0a1224de8a21f391312d6c2df2e36e4f6e21e1cfbda76d1c3df417a5be03abb86160693a33cad17ad6771dcba47d0a8ce8bd9ff348355d228d77db
 Description: Thêm các chức năng cho ứng dụng Swiftgram.
 Name: Swwiftgram TGExtra (Roothide)
 Author: choco
