@@ -323,6 +323,26 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/setting3dmeizu.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.tgextras
+Architecture: iphoneos-arm64e
+Version: 1.2-9+debug
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 14980
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: com.choco.tgextra
+Filename: ./debs/com.jtis.tgextras_1.2-9+debug_iphoneos-arm64e.deb
+Size: 4607896
+MD5sum: 31e956fbe737d43a5e8852060f852d69
+SHA1: 099c6c893bd9a1d8f0796fc2c3698d03b8ffa5ef
+SHA256: ba2a3a4134055fd02a3d42668aeb13b2f8e3fefa13c11212fdc747fa41974df9
+SHA512: afca4b3395fb89be6ce007fd4b75fac1c3690ede2bad37ad683f01ddd05e52bd1bbeb249b8ebb77d5d333e1147fccc6d0faf84cb20d1da58a4233f05da8e78c9
+Description: Thêm các chức năng cho ứng dụng Telegram, Swifgram....
+Name: TGExtra (Roothide)
+Author: choco
+Icon: https://TrollStoreX.Github.io/sileodepiction/Telegram/icon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
+
 Package: com.kitsudo.axom
 Architecture: iphoneos-arm64e
 Version: 1.0
