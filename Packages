@@ -791,6 +791,25 @@ Description: Fonts for SnowBoard
 Name: SnowBoard Fonts Extension
 Author: Spark
 
+Package: com.jtis.tgextras
+Architecture: iphoneos-arm64
+Version: 1.2-9+debug
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 14980
+Conflicts: com.choco.tgextra
+Filename: ./debs/comjtis.tgextras_1.deb
+Size: 2317680
+MD5sum: 091a73b19cea1b191547ffb7539f673b
+SHA1: db9eab853893e8ee1cb0012f6d8dedd589c02eaa
+SHA256: bdc6147716c33a263588ad9c3962c7d5cbae3307452fb7fd11abbc914d342bd6
+SHA512: 9c6d2c097e61b2f46716905c9f5107447879696ea985129c930b753739fcc4b06ea18a80957668b5645d20369cb841cc2a9ab943ea8795f5fe3d63296383691c
+Description: Thêm các chức năng cho ứng dụng Telegram, Swifgram....
+Name: TGExtra (Rootless)
+Author: choco
+Icon: https://TrollStoreX.Github.io/sileodepiction/Telegram/icon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
+
 Package: jtis.filzacrack-roothide
 Architecture: iphoneos-arm64e
 Version: 1.1-8
