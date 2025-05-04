@@ -1,0 +1,106 @@
+{
+    "minVersion":"0.4",
+    "headerImage":"https://i.imgur.com/j9qvwvE.jpeg",
+    "tintColor":"#5777B8",
+    "tabs":[
+    {
+    "tabname":"Chi tiết",
+    "views":[
+    { "class":"DepictionHeaderView", "title":"" },
+    {
+    "class":"DepictionHeaderView",
+    "title":"Mô tả & Giới thiệu"
+    },
+    {
+"markdown":"# TGEXtra.\n\n- Thêm các chức năng cho ứng dụng Telegram, Swifgram...\n\n- Chức năng gồm\n\n- Chế độ Ẩn danh (Ghost Mode)\n\n- Chặn Quảng Cáo\n\n- Tắt thông báo đã đọc tin nhắn bà xem tin\n\n- Còn 1 số chức năng khác nữa...\n\n- Chi tiết xem thêm ảnh bên dưới",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView", "title":"Hình ảnh" },
+{
+    "class":"DepictionScreenshotsView",
+    "screenshots":[
+    {
+    "url":"https://jtisvn.github.io/infodeb/TGetra/Screenshots/1.png",
+    "accessibilityText":"Screenshot"
+    },
+    {
+    "url":"https://jtisvn.github.io/infodeb/TGetra/Screenshots/2.png",
+    "accessibilityText":"Screenshot"
+    },
+    {"url":"https://jtisvn.github.io/infodeb/TGetra/Screenshots/1.png",
+    "accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm "
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"choco"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweak"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"6/5/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 15 đến 16.6.1"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"#### Phiên bản 1.2\n\n- Hỗ trợ Rootless Jailbreak"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
