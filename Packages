@@ -156,6 +156,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
 Name: DLEasy (Roothide)
 Author: AhmedBafkir
 
+Package: com.jtis.dobbyshim
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Priority: optional
+Section: Tweak Injection
+Maintainer: JTIS Repo
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode, ellekit
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit
+Filename: ./debs/com.jtis.dobbyshim_1.0.3_iphoneos-arm64.deb
+Size: 52088
+MD5sum: a5dfa58ffe0d3702a9961de5d003f233
+SHA1: f3f9b159479027d15f580d8846425920ebd3682f
+SHA256: 3c3e4929757bb77e3533f88433dd059e82042168372d481238f25b92a7509e7e
+SHA512: ad3656f7c69b0d521109c53107ad284cafaf3814b2379e94adba3b861ee076a4ef56b671900576ec6e104fd15d0be8016b01784c39501cd9c3ab7688988c6b82
+Description: DobbyHook Substrate Shim
+Name: DobbyShim
+Author: Nathan, jmpews
+
 Package: com.jtis.dockx
 Architecture: iphoneos-arm64e
 Version: 2.6.2
