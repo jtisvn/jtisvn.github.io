@@ -296,13 +296,13 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.mrgcgamer.libgcuniversal, preferenceloader, ws.hbang.common, ws.hbang.alderis
 Filename: ./debs/com.jtis.ocd_5.4.1.1_iphoneos-arm64e.deb
-Size: 330336
-MD5sum: caa4d99c2b8113a3dedafc1e81227b65
-SHA1: cfe7975613ad99c2e017ec160afa043681fe6d0c
-SHA256: 2b2e94aafa112e3a9c21e72958e402d6ed80d491f09d12474bd64244a84ca8e6
-SHA512: b8111e11ac28202a759ce526cb655395801de3cbc24b2058e45cd7cbd46d02d92f3243814836106647bd74b603a26e393030d503cf680b36c2c8c305a091b1ab
+Size: 329932
+MD5sum: b24e67cca7b4c47f155b745bb6990084
+SHA1: ec1e058da888241075d7c414e8e0f154832373b0
+SHA256: ea6dafac3dc5ae630e6c7169663080c97b4b40b95f34720df896495a60d87982
+SHA512: 8cbd819b9213d821ef2f918b6dc3304ce1661c2092559825b8b5febb7fce84506ff47c25fcd407a12307da17632e8ebb6c5f35cc07476a701826c66f15252d53
 Description: OCD Tuỳ chỉnh màu sắc biểu tượng và huy hiệu
-Name: OCD (roothide)
+Name: OCD (Roothide)
 Author: b4db1r3
 SileoDepiction: https://jtisvn.github.io/sileodepictions/OCD.json
 Icon: https://jtisvn.github.io/sectionIcons/OCD.png
