@@ -100,6 +100,23 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.LS-16-VN
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS font
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.LS-16-VN_1.0_iphoneos-arm64.deb
+Size: 267792
+MD5sum: 3e19482f7f270915c1a7d9fdec960603
+SHA1: f123e5965987ade2a20b0c75788559f2d2efb6b3
+SHA256: e94ba20823113d88e473e71dee233add7ca6bc68a81be4f8c132a614f7599e0b
+SHA512: 9892193cc0fc2795097ca87a67c539ce06695b384ed637d63af84fc9639cee2fa8aeb594981bfbcb6b15f64f93bb0c53072eb2f0c6fe1f092c985ccf84b19970
+Description: Cài đặt Phông chữ màn hình khoá cho IPhone
+Name: LS-16-VN
+Author: p0s3id0n
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LS-16-VN.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
 Package: com.jtis.autoscroll15
 Architecture: iphoneos-arm64e
 Version: 1.0.0
