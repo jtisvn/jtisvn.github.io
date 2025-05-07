@@ -865,6 +865,25 @@ Description: Fonts for SnowBoard
 Name: SnowBoard Fonts Extension
 Author: Spark
 
+Package: com.yan.anitime
+Architecture: iphoneos-arm64
+Version: 1.0.1K
+Section: Tweaks
+Maintainer: yan
+Installed-Size: 1488
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: ./debs/com.yan.anitime_1.0.1K_iphoneos-arm64.deb
+Size: 392740
+MD5sum: c7584ea863c65d0a8caea6cb65796173
+SHA1: 7d69573ad5cfe097f06b4f3017297bcb29672c6b
+SHA256: d7375bfb49ffe407bad03180b8a20e8d399d857dd0a4b13d441df2310b6366f3
+SHA512: ce837561deeb9b9bcaf6861d579dea9df5fac56acaea1b7ea741dcd2b82ff1dbfe9fe83e74a17e304e4cbdbd6240ac53353e99f8ccf89ce7dc011d8e8b850b83
+Description: Hiển thị thời gian hình nhân vật Anime trên màn hình khoá.
+Name: AniTime (Rootless)
+Author: yan
+Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
+
 Package: jtis.filzacrack-roothide
 Architecture: iphoneos-arm64e
 Version: 1.1-8

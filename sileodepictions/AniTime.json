@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"# Anitime.\n\n- Hiển thị thời gian hình nhân vật Anime trên màn hình khoá!",
+"markdown":"# Anitime\n\n- Hiển thị thời gian hình nhân vật Anime trên màn hình khoá của bạn!",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
