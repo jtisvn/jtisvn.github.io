@@ -37,10 +37,10 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
+"title":"Tham gia nhóm"
 },
 {
-"markdown":"[**Tham gia nhóm**](https://t.me/jailbreaktrolliossupport) - Telegram\n\nㅤ\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
