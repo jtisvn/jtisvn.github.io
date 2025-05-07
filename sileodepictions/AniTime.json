@@ -1,18 +1,24 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://i.imgur.com/fYlpWDp.jpeg",
+"minVersion":"0.4",
+"headerImage":"https://i.imgur.com/j9qvwvE.jpeg",
 "tintColor":"#5777B8",
 "tabs":[
 {
 "tabname":"Chi tiết",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/AniTime/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
 },
 {
-"markdown":"BatteryPercentiOS16\n\n- Hiển thị % pin giống IOS 16 cho thiết bị iOS 15 trở xuống\n\n- Đồi với thiết bị IPhone XS trở lên vui lòng cài tweak "Odabi" để tránh tình trạng treo máy sau khi cài đặt\n\n",
+"markdown":"# Anitime.\n\n- Hiển thị thời gian hình nhân vật Anime trên màn hình khoá!",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,10 +27,10 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
+"title":"Tham gia nhóm "
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -33,18 +39,17 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin"
 },
 {
 "class":"DepictionTableTextView",
-"title":"Nhà phát triển",
-"text":"NQT"
+"title":"Tác giả",
+"text":"Yan"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.2" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Tweaks"
+"text":"Tweak"
 },
 {
 "class":"DepictionTableTextView",
@@ -53,13 +58,8 @@
 },
 {
 "class":"DepictionTableTextView",
-"title":"Dung lượng",
-"text":"8 KB"
-},
-{
-"class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 12.0 đến 16.5"
+"text":"iOS 14 đến 16.7.10"
 },
 {
 "class":"DepictionLabelView",
@@ -76,7 +76,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1.2\n\n- Hỗ trợ Rootless Jailbreak"
+"markdown":"#### Hỗ trợ Rootless Jailbreak."
 },
 {
 "class":"DepictionLabelView",
