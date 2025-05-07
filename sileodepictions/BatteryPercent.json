@@ -24,7 +24,7 @@
 "title":"Tham gia nhóm"
 },
 {
-"markdown":"[**Fanpage Facebook**](https://t.me/jailbreaktrolliossupport) - Telegram\n\nㅤ\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -55,11 +55,6 @@
 "class":"DepictionTableTextView",
 "title":"Dung lượng",
 "text":"8 KB"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Hỗ trợ cho Rootless",
-"text":"JTIS Repo"
 },
 {
 "class":"DepictionTableTextView",

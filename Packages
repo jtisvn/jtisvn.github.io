@@ -136,6 +136,24 @@ Author: pxcex
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoScroll.json
 Icon: https://i.imgur.com/eZpS8Qf.jpeg
 
+Package: com.jtis.batterypercent
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.batterypercent_1.1.2_iphoneos-arm64.deb
+Size: 12548
+MD5sum: 094fe1e88aa2860585a97369503749af
+SHA1: 75446ffadb607a0f05a718eadb7a32143d970628
+SHA256: 893586e99b20c25d6d080a1d1cd97dd2ce8aa60157b43fed38b4dfd7110cba66
+SHA512: a13f3f4b3f0d4f2da7814947b1ff5fec20d9157bcd85cfe29a9d019076d96871bd572fb74aef1dc03ec4830caf8832ac3443e575a20a77d9a21920452efd60d6
+Description: Hiển thị % pin iOS 16 cho dòng thấp IOS 15 trở xuống
+Name: BatteryPercent iOS16 (Rootless)
+Author: nqt1195
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
+
 Package: com.jtis.cylinderremade.roothide
 Architecture: iphoneos-arm64e
 Version: 0.0.3-beta
