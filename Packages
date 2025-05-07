@@ -23,14 +23,14 @@ Section: Laetus Themes Roothide
 Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64e.deb
-Size: 65725976
-MD5sum: 5d20c97e267ca08951d21d7d5703c3af
-SHA1: 27cef8c1926325aa896d5d520f3b6df986adb58b
-SHA256: fdbbd11e19873d0ce551da19d267b6e06576711123ca2e29bfa17a7157b8e81e
-SHA512: 9445c72c3e16bfe5f3f662456b0e87f3e3da571e40233771dfccf9675f8bfaf0f09e83ea2b56924aa5c5722d7fed983503b37465e5c6739780afe59587908efb
+Size: 65725980
+MD5sum: 7a341a5ab0fa59b3d1eac2c3a2aedf19
+SHA1: bea4cd7ddfb611031682cb820dde7cd1eea4808e
+SHA256: becae7ace96341cd48eecf73625014f1bf8c973f437e4dda2375ff1319fff25b
+SHA512: 2ee93a0017c60b49245b05b134416d070441f0788785eb384e68606f801963662fd65fdca72fc62838ff45af2f613ab8ca462ad50e7dc36b806c68471fdc1921
 Description: Chủ đề bàn phím kích hoạt qua Laetus
 Name: Chủ đề Depths PD (Roothide)
-Author: Jtis Repo
+Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
