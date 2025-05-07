@@ -162,13 +162,32 @@ Maintainer: JTIS Repo
 Installed-Size: 176
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.blur_1.0-8+debug_iphoneos-arm64.deb
-Size: 10428
-MD5sum: 60f1486e400eaadeded518e95e4ee6ec
-SHA1: d2b8dd62d2b45ebee826193afd37c238846bddb4
-SHA256: 3d1dc26790a0ccd09c1963ae9f0f62717a097c571abbf200d2a74db96699b5e8
-SHA512: 4bf61972c5838df84edf04588fa5a42923daf2e8415bd80933ab5c6f107d50c88c126f9e34515feab6d06d8e564735c55b039331f17f08bff8348c2cff74edd8
+Size: 10436
+MD5sum: 000c7974fbc8311e515c7a3cbbce9d52
+SHA1: aaf3a950fd91e9f82ecf97b9f911c14e6f2774bf
+SHA256: 24a5bcca8e0089db5d72bc1d5bb49920b5a85f20a5e236e743c4347366be12f9
+SHA512: 8fd3f66ceb83852c539fc7888c5b74f218792711b3268696a7f59861c4edd9eb8bb3ef147982a63185d12aa3a894d5981e8d7655a8cc2247b9b116ab05c9be70
 Description: Khoá ảnh và video riêng thư bằng FaceID,TouchID và Passcode
-Name: Blurify6
+Name: Blurify6 (Rootless)
+Author: MrDeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
+
+Package: com.jtis.blur
+Architecture: iphoneos-arm64e
+Version: 1.0-8+debug
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 176
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.blur_1.0-8+debug_iphoneos-arm64e.deb
+Size: 11412
+MD5sum: 2f4722dc44d7d41cf4320be458ea411e
+SHA1: 3ce724a0125c522e98ccc9e9efd2e90a9e8b5ea3
+SHA256: 33682bb7d2037169655cfe7c97e7e4ffdd3c13c58a13502ace2fddd9a88c80fe
+SHA512: c6eafcfd2856dd55319ce6ab28e9f3065a4e3131909d83f98de660f93099734953a815baf1a0cfc1968c87ff516d8565f0bc62417f12e5b30d7eef67bec816c0
+Description: Khoá ảnh và video riêng thư bằng FaceID,TouchID và Passcode
+Name: Blurify6 (Roothide)
 Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
 
