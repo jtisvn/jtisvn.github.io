@@ -154,6 +154,24 @@ Name: BatteryPercent iOS16 (Rootless)
 Author: nqt1195
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
 
+Package: com.jtis.blur
+Architecture: iphoneos-arm64
+Version: 1.0-8+debug
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.blur_1.0-8+debug_iphoneos-arm64.deb
+Size: 10428
+MD5sum: d235c1e7ce541d41d7faa0d6646b717d
+SHA1: 9dafb103cc8a40a793ba646a9fbbd1ca52dd3761
+SHA256: 001473e574ff4d3e8564374420aff29311ebc0446d140118c119270eda9f5087
+SHA512: 7b53e7bb8cd9a1cf02275bddcb88de92672f15e1effb425ad2107cdf92105f753019522a66c64fe33e02845e2f44bba86ae60d1aab61ff55beb60931a6859d00
+Description: Khoá ảnh và video riêng thư bằng FaceID,TouchID và Passcode
+Name: Blurify6
+Author: MrDeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
+
 Package: com.jtis.cylinderremade.roothide
 Architecture: iphoneos-arm64e
 Version: 0.0.3-beta
