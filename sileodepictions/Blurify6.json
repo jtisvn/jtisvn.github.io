@@ -1,0 +1,108 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://i.imgur.com/j9qvwvE.jpeg",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":"Bllurify6 \n\n- Khóa ảnh và video riêng tư bằng FaceID, TouchID và Passcode\n\n- Hỗ trợ:\n\n- Thư viện ảnh & video\n\n- Ảnh chụp màn hình\n\n- Ảnh selfie\n\n- Live Photo\n\n- Bản ghi màn hình\n\n- Mục đã xóa gần đây.\n\nㅤ\n\n",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Blurify/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Kayoko/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm"
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin "
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tac giả",
+"text":"MrDeNsor"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweak"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"7/5/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Dung lượng",
+"text":"578 KB"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 14 đến 17.0"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.0\n\n- Hỗ trợ Rootless & Roothide"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
