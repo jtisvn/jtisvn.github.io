@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"BatteryPercentiOS16\n\n- Hiển thị % pin giống IOS 16 cho thiết bị iOS 15 trở xuống\n\n- Đồi với thiết bị IPhone XS trở lên vui lòng cài tweak 'Odabi' để tránh tình trạng treo máy sau khi cài đặt\n\n",
+"markdown":"BatteryPercentiOS16\n\n- Hiển thị % pin giống IOS 16 cho thiết bị iOS 15 trở xuống\n\n- Đồi với thiết bị IPhone XS trở lên vui lòng cài tweak Odabi để tránh tình trạng treo máy sau khi cài đặt\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
