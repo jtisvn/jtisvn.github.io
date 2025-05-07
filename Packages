@@ -163,10 +163,10 @@ Installed-Size: 176
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.blur_1.0-8+debug_iphoneos-arm64.deb
 Size: 10428
-MD5sum: d235c1e7ce541d41d7faa0d6646b717d
-SHA1: 9dafb103cc8a40a793ba646a9fbbd1ca52dd3761
-SHA256: 001473e574ff4d3e8564374420aff29311ebc0446d140118c119270eda9f5087
-SHA512: 7b53e7bb8cd9a1cf02275bddcb88de92672f15e1effb425ad2107cdf92105f753019522a66c64fe33e02845e2f44bba86ae60d1aab61ff55beb60931a6859d00
+MD5sum: 60f1486e400eaadeded518e95e4ee6ec
+SHA1: d2b8dd62d2b45ebee826193afd37c238846bddb4
+SHA256: 3d1dc26790a0ccd09c1963ae9f0f62717a097c571abbf200d2a74db96699b5e8
+SHA512: 4bf61972c5838df84edf04588fa5a42923daf2e8415bd80933ab5c6f107d50c88c126f9e34515feab6d06d8e564735c55b039331f17f08bff8348c2cff74edd8
 Description: Khoá ảnh và video riêng thư bằng FaceID,TouchID và Passcode
 Name: Blurify6
 Author: MrDeNsor
