@@ -415,6 +415,24 @@ Name: Kayoko (Roothide)
 Author: Alexandra Aurora Göttlicher
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
 
+Package: com.jtis.lynxtwo
+Architecture: iphoneos-arm64e
+Version: 2.5.3
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.lynxtwo_2.5.3_iphoneos-arm64e.deb
+Size: 1651968
+MD5sum: 490ae4f42981892f37d3f343e812b450
+SHA1: 3986b2a4d018e06e380f8e5839a52827f8525521
+SHA256: 880d735addea1c88f06b1432fad84543e453ac41958b03629f36507c244f9c6d
+SHA512: b97e17c133929eced907b12c121de87b61e5440375609a187efd6f50189edc63a2fc68d86e52c6c3e5d42c6904fd5cd1df11338ef51e0c0503b0615fd3d6ab7d
+Description: Tùy chỉnh tối ưu cho thiết bị iOS 15-16
+Name: Lynx 2 Roothide)
+Author: MTAC
+SileoDepiction: https://jtisvn.github.io/sileodepictions/lynx.json
+
 Package: com.jtis.ocd
 Architecture: iphoneos-arm64e
 Version: 5.4.1.1
