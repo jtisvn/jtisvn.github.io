@@ -249,17 +249,17 @@ Package: com.jtis.dleasy
 Architecture: iphoneos-arm64e
 Version: 2.14.7
 Section: Tweaks
-Maintainer: JTIS
+Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.dleasy_2.14.7_iphoneos-arm64e.deb
-Size: 11017568
-MD5sum: a7706a678dffe9cf791580b8a2789f25
-SHA1: e20861b769e9cd996d3e2500220f5e4cee96b39f
-SHA256: c84349b2655a6792e741baecfcabd02a975f91c9d3de8633eaa941a02f1cf5df
-SHA512: ff5763fb5aaa2979a2fa2407935c2c9db5a42b2c6b69cbe4aa69e55787d5baed1881fff4027a105e489a375a85899071c220c49a4d09ed994af4189689457eac
+Size: 11015912
+MD5sum: 3908b55582b3d8105243811b84f2f77c
+SHA1: 340bdb47c2aea045099931fa738c2dd595720c62
+SHA256: 826b31e9790a15c69bcb2c1798cf2e716427db82f2bf42d0fe500e6bcd325329
+SHA512: ad45160bd435048429f34c17fc57863ce1e300b8890332664e2cf69dea3cbcad5b415e88c13e9a3b2bf72caec7d3f68dd3dc74968ba7c7fb2ddac050dfac84a0
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
-Depiction: file:///D:/@_Hieu/Documents/GitHub/jtisvn.github.io/infodeb/DLEasy/index.html
+Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
 Name: DLEasy (Roothide)
 Author: AhmedBafkir
