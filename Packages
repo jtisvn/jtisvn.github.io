@@ -191,6 +191,42 @@ Name: Blurify6 (Roothide)
 Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
 
+Package: com.jtis.cydiageek.roundprefs
+Architecture: iphoneos-aảm64
+Version: 1.0.9
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-aảm64.deb
+Size: 55888
+MD5sum: b04c56d3880b14545942514cc878375a
+SHA1: 6b2f9592713ae438fb3f7f29751df1fd5f4b5398
+SHA256: 8b0047e9c9a89216843218d00d75508ef3564176c812e18fce36d6e5568f6338
+SHA512: dd9ab28d4126761732d153a4a5995e4190fd48d93742a9d49629e255573e7d6daeb8ca09ef313b35e196f115ccea3b68f5eec9cef3e36799b02f938fe1c0175b
+Description: Bo tròn các khung trong ứng dụng cài đặt
+Name: roundPrefs (Rootless)
+Author: CydiaGeek <lucaluca86@aol.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
+
+Package: com.jtis.cydiageek.roundprefs
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-arm64e.deb
+Size: 59088
+MD5sum: 499c5a5d1b64cff6375f73fd1dc4b45d
+SHA1: 7328dca1e561f9a7cd9f4664c1699c3737822a2d
+SHA256: 766bb79b76c5d4a7e6581853d990335f3d2146214e68c4d9306d51200c94fd4d
+SHA512: df373ff8bf17159a4f9d2fc54e23ed8cf5ba48c7602c28038e4ed98f75c089c867afb3439ad497bce629fe0f2fb9f70c821798e781a1766577343186cda254e4
+Description: Bo tròn các khung trong ứng dụng cài đặt
+Name: roundPrefs (Roothide)
+Author: CydiaGeek <lucaluca86@aol.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
+
 Package: com.jtis.cylinderremade.roothide
 Architecture: iphoneos-arm64e
 Version: 0.0.3-beta
