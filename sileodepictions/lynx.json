@@ -92,7 +92,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.5.3\n\n- Hỗ trợ Roothide"
+"markdown":"### Phiên bản 2.5.3\n\n- Hỗ trợ Roothide Jailbreak.\n\n- Thêm lynx ở ngoài màn hình chính"
 },
 {
 "class":"DepictionLabelView",
