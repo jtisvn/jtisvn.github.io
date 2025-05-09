@@ -253,11 +253,11 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.dleasy_2.14.7_iphoneos-aảm64.deb
-Size: 5474480
-MD5sum: f836d6370460af5019ce28192ca5ab06
-SHA1: d41305b80ae144b257ba1a5dce8b8af70d19bad4
-SHA256: 02f75e7f6be5af2f9eb3855cc439fffd16805f3e1c0fc6e6e45e434fb03077a8
-SHA512: 0a0c5b2a6ec77d891eb9e89ab78bc1887d541bdfb59739f103207a012c8aca8f0681eaead42d6d2053a48738cb652b97d7b175a6e88e12099d3670f738fa4f01
+Size: 5478560
+MD5sum: 69f1ee933ae1b5165d12229795c459f2
+SHA1: 063f871adabff3987437fde54967cccc535618e4
+SHA256: c54ae1f1e949ea60d84c534fd6b7b9cfaa69c62afadabd171241e290df363bc8
+SHA512: ca1e2b018d0e519ff8d69ba064138951b78fc156fbc5ee1c8bca1243dad5db9f1a90ef5825923b65fc4ce63c90d4a7c5d5d419ad4ce5c8e7547e1bf2fd7b8a54
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
 Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
@@ -272,11 +272,11 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.dleasy_2.14.7_iphoneos-arm64e.deb
-Size: 11015912
-MD5sum: 3908b55582b3d8105243811b84f2f77c
-SHA1: 340bdb47c2aea045099931fa738c2dd595720c62
-SHA256: 826b31e9790a15c69bcb2c1798cf2e716427db82f2bf42d0fe500e6bcd325329
-SHA512: ad45160bd435048429f34c17fc57863ce1e300b8890332664e2cf69dea3cbcad5b415e88c13e9a3b2bf72caec7d3f68dd3dc74968ba7c7fb2ddac050dfac84a0
+Size: 10943856
+MD5sum: 2b192dd17ae0b0ea1c05109455e01e1c
+SHA1: b3fc63028ad4e0253db8299930b4a000872843f0
+SHA256: fb8040450049bf9ef8d55219e8624674d3edf9f37963db2f257d3b7841739764
+SHA512: 1dfe7133943c76ccac908ad7135f1e8bd3100ca2dd0d34ebcf6113f13a546e047a6ace01ed8c2a0a71df72c2ad05dc0ce8e5bc92011a310c2b277c1d450a8c7b
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
 Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
