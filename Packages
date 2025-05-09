@@ -199,11 +199,11 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-aảm64.deb
-Size: 55888
-MD5sum: b04c56d3880b14545942514cc878375a
-SHA1: 6b2f9592713ae438fb3f7f29751df1fd5f4b5398
-SHA256: 8b0047e9c9a89216843218d00d75508ef3564176c812e18fce36d6e5568f6338
-SHA512: dd9ab28d4126761732d153a4a5995e4190fd48d93742a9d49629e255573e7d6daeb8ca09ef313b35e196f115ccea3b68f5eec9cef3e36799b02f938fe1c0175b
+Size: 55948
+MD5sum: 1b9356f2eaa47718030f0846f85dd7bf
+SHA1: 2c603e3c29762fd93d8a96e40fa211ff13249770
+SHA256: 8ceb70d8e5e161d16ac3aca8f9b5166e405f278ba11e023b4dce5b93626aa6cf
+SHA512: 66f0f3ed57faabbecf4e46fa3f514310bc04311d6ced877fd2b6f22c45d447d470048cc7b5bcf4df1483e0c76622701d5a0f3178d18adfd10c3333329139ee06
 Description: Bo tròn các khung trong ứng dụng cài đặt
 Name: roundPrefs (Rootless)
 Author: CydiaGeek <lucaluca86@aol.com>
@@ -244,6 +244,25 @@ Description: Tuỳ biến hiệu ứng cuộn trên màn hình chính
 Name: Cylinder Remade (Roothide)
 Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
+
+Package: com.jtis.dleasy
+Architecture: iphoneos-aảm64
+Version: 2.14.7
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.dleasy_2.14.7_iphoneos-aảm64.deb
+Size: 5474480
+MD5sum: f836d6370460af5019ce28192ca5ab06
+SHA1: d41305b80ae144b257ba1a5dce8b8af70d19bad4
+SHA256: 02f75e7f6be5af2f9eb3855cc439fffd16805f3e1c0fc6e6e45e434fb03077a8
+SHA512: 0a0c5b2a6ec77d891eb9e89ab78bc1887d541bdfb59739f103207a012c8aca8f0681eaead42d6d2053a48738cb652b97d7b175a6e88e12099d3670f738fa4f01
+Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
+Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
+Name: DLEasy (Rootless)
+Author: AhmedBafkir
 
 Package: com.jtis.dleasy
 Architecture: iphoneos-arm64e
