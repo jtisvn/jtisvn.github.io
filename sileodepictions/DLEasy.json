@@ -56,7 +56,7 @@
 "title":"Nhà phát triển",
 "text":"AhmedBafkir"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.14.5" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.14.7" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -65,7 +65,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"27/4/2025"
+"text":"9/5/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -92,7 +92,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.14.5\n\n- Khắc phục sự cố tải xuống trong ứng dụng [Facebook, Flickr, Instagram, Threads, TikTok, Twitch, YouTube]\n\n- Khắc phục các vấn đề khác\n\n- Cập nhật các phiên bản ứng dụng tương thích"
+"markdown":"### Phiên bản 2.14.7\n\n- Cập nhật danh sách các phiên bản ứng dụng mới tương thích hơn"
 },
 {
 "class":"DepictionLabelView",

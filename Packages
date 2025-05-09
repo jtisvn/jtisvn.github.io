@@ -247,17 +247,17 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 
 Package: com.jtis.dleasy
 Architecture: iphoneos-arm64e
-Version: 2.14.5
+Version: 2.14.7
 Section: Tweaks
 Maintainer: JTIS
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.dleasy_2.14.5_iphoneos-arm64e.deb
-Size: 10971140
-MD5sum: 56e8bf238d0bbc96d8e294a8863665d9
-SHA1: addf6015d7f497ff6d52ed678edf4e11c4275c29
-SHA256: cfac5be6972a3aca00349c2f45dbbb9c78414d2ca35eb0ab54d0487c8d4d32ec
-SHA512: d2097addfbd7f7edf32ef6e924f99b29d8006254b5426a0d833ab1561248aa3449d30202e22f61620d29c27657ebc28aa4aea1cc08144df9704ddfbf3ce8ddd5
+Filename: ./debs/com.jtis.dleasy_2.14.7_iphoneos-arm64e.deb
+Size: 11075248
+MD5sum: cad3be040d1eb8aa8e5660b8c8541a5f
+SHA1: 9d43422f7a5f58d1fe6a767146db5b656b604351
+SHA256: 6b3e919134ea5ce1591b1690facc9d7a9cb6288fb10afd3e29b853a02af8b969
+SHA512: e022fde7acbb8cd9e13ba864c75120b872a8c170815bc19570d1ea5563e7b2e67847f45d9637c18ed831dfca6a414c05bf8d1d7e0b228170b6b9cfe6ab132eee
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
 Depiction: file:///D:/@_Hieu/Documents/GitHub/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
