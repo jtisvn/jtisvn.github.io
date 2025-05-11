@@ -420,6 +420,25 @@ Icon: https://Jtisvn.github.io/sectionIcons/font.png
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: Pablo Impallari
 
+Package: com.jtis.fontuandilove-rootless
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTIS Repo
+Depends: firmware (>=14.0)
+Filename: ./debs/com.jtis.fontuandilove-rootless_1.0_iphoneos-arm64.deb
+Size: 467768
+MD5sum: 2d183568ea98d6ece6aebfa987d716ce
+SHA1: d1a162f6e1f82cf37185ea3fd17583278d8575e0
+SHA256: e7e64a3c7652d2325d4f2f21ab3ce2e39c22f3bd8ed24a8b23c167c597c6797f
+SHA512: 9e2eb530af1eec3865078173dc78631d8d1f32167172fdd35cdb311b6bc8e72f0f5b9247a74e34946e0add0885c3cca976dadde90f80e25907776de30c3bc037
+Homepage: https://alo.works/
+Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
+Name: Font U and I Love
+Icon: https://Jtisvn.github.io/sectionIcons/font2.png
+Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
+Author: TQM
+
 Package: com.jtis.gesturesxv
 Architecture: iphoneos-arm64e
 Version: 1.6
