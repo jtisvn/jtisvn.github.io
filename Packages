@@ -50,54 +50,6 @@ Author: Edgy
 Name: Font Edgy (Roothide)
 Icon: https://Jtisvn.github.io/sectionIcons/font3.png
 
-Package: com.jtis.FontLobstertwo
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Fonts
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.FontLobstertwo_1.0_iphoneos-arm64e.deb
-Size: 820476
-MD5sum: 8e62b0a7b2e7e3544152156c16bc16fe
-SHA1: d10ab477c083767aedf7bd861421da64e6a92beb
-SHA256: c8dcf34705a9d14d7743b191a49282a23deb1d7b236f60484338a76382ae371a
-SHA512: 9f0f22c6847bd0883b2f2ad87ee4bc463f4ad4254afcb386a93a25a33363b1e2b91f1d60cbbdf489c5631e5c9855e70d9ca103c898c8a848726cc05aacd4c393
-Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
-Author: Pablo Impallari
-Name: Font Lobster Two (Roothide)
-Icon: https://Jtisvn.github.io/sectionIcons/font.png
-
-Package: com.jtis.FontUandilove
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Fonts
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.FontUandilove_1.0_iphoneos-arm64e.deb
-Size: 469960
-MD5sum: a8b4488f2ee1a88ce4d28c9a0f0ea81a
-SHA1: c84bda781436249ad9b926f9e0d1efeb0c1b5a0e
-SHA256: a494cc73989ce6510518a7a11fc03e7fa9c615bf8b8a81ae74f4d5c788bea021
-SHA512: 3ef91f5112ec75ad4956d1ae5c4b12bbbfbab2838af4004749f319b2e9f4780601579eb2b672bdd2128b7be7415d77e62b1625ad476cfa8b92da9bcba18d3e11
-Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
-Author: UandIlove
-Name: Font U And I Love (Roothide)
-Icon: https://Jtisvn.github.io/sectionIcons/font2.png
-
-Package: com.jtis.FontUandilove
-Architecture: iphoneos-aảm64
-Version: 1.0
-Section: Fonts
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.FontUandilove_1.0_iphoneos-aảm64.deb
-Size: 467728
-MD5sum: 8dd29ba77141cfc84392300be6bcc7a3
-SHA1: 95c7b7e40f832d0baa68ac246b9b25d1baec1cfa
-SHA256: d60fad5d5001ae01ef748e7b57a1c8a62e369aadebcba7b2fa80b4147bc7e58a
-SHA512: 3d525fb8429242a376cc6ae5b7c4ef5263afd5e2861cd68035f7a61eaeb5a62241f23dcf7c43c0d0ea5f944d19c890cc3622f0c298719f4d1b5a683573134113
-Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
-Author: UandIlove
-Name: Font U And I Love (Rootless)
-Icon: https://Jtisvn.github.io/sectionIcons/font2.png
-
 Package: com.jtis.Goku
 Architecture: iphoneos-arm64
 Version: 0.1
@@ -448,6 +400,25 @@ Description: An iOS developer framework for rootless tweak development.
 Tag: role::developer
 Name: RootBridge Framework
 Author: jjolano
+
+Package: com.jtis.fontlobstertwo-rootless
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTIS Repo
+Depends: firmware (>=14.0)
+Filename: ./debs/com.jtis.fontlobstertwo-rootless_1.0_iphoneos-arm64.deb
+Size: 818884
+MD5sum: bc16a54f3167fe7255c912185d985333
+SHA1: 4e852d5f8594fd6657cc474d59788007a7bb36bd
+SHA256: 6d09c88a392adf042dc7a07a3b291a7cd9da77d9281440df6b7f8bcc93f36571
+SHA512: f1bf474a9483356ff0b6fd95faad1328c0a33a9707ff02866071bdf212014b8ae62c82df3c89068d3e37f0940ae584b592b02db02adf8cf5bd548cff6a7ff5ef
+Homepage: https://alo.works/
+Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
+Name: Font Lobster Two
+Icon: https://Jtisvn.github.io/sectionIcons/font.png
+Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
+Author: Pablo Impallari
 
 Package: com.jtis.gesturesxv
 Architecture: iphoneos-arm64e
