@@ -261,6 +261,26 @@ Name: Cylinder Remade (Roothide)
 Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 
+Package: com.jtis.dleasy
+Architecture: iphoneos-arm64e
+Version: 2.14.8
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.dleasy_2.14.8_iphoneos-arm64e.deb
+Size: 11021524
+MD5sum: 9e7619a7b9f59dd908afab03c9d515eb
+SHA1: f44d401277d7a0438b29b682936fbea68400ba17
+SHA256: 659b55cda032f5f9d469b41080a7c4f767c5bc418ab20088d728e2ef008d48dd
+SHA512: 1ec64da59d19cd543784c1c341cbc9c87f97e1d5edd5dbe27f92732bdcad6b0e720462008d224986a59cd0a2d7d98c1ad7a259f0d3b144c0b5507ef38eda8d19
+Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
+Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
+Name: DLEasy (Roothide)
+Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
+Author: AhmedBafkir
+
 Package: com.jtis.dobbyshim
 Architecture: iphoneos-arm64
 Version: 1.0.3
