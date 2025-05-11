@@ -401,6 +401,25 @@ Tag: role::developer
 Name: RootBridge Framework
 Author: jjolano
 
+Package: com.jtis.fontedgy-rootless
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTIS Repo
+Depends: firmware (>=14.0)
+Filename: ./debs/com.jtis.fontedgy-rootless_1.0_iphoneos-arm64.deb
+Size: 4954504
+MD5sum: 69eb37988d7210a62b075202cd265c7d
+SHA1: 668c1573597c32d314986625f221f1b79ea059d1
+SHA256: cac18b0415adabc2484e5fa20a9c5f2ee7067ba53f4bb26e57da5a874b48647c
+SHA512: 5cc24d6f6f4a34fbd4373584b3a8846b6ebe3bb589e3e004c7b901432cd7535980685266b32c8752896f86b525bafbb886e229a228c8eb6a5fa28b864bb7cced
+Homepage: https://alo.works/
+Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard 16
+Name: Font Edgy
+Icon: https://Jtisvn.github.io/sectionIcons/font3.png
+Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
+Author: Hà Tía Tô
+
 Package: com.jtis.fontlobstertwo-rootless
 Architecture: iphoneos-arm64
 Version: 1.0
