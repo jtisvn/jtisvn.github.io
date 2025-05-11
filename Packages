@@ -394,6 +394,25 @@ Tag: role::developer
 Name: HookKit Framework
 Author: jjolano
 
+Package: com.jtis.fmwk.hookkit
+Architecture: iphoneos-arm64e
+Version: 1.0.15
+Section: Development
+Maintainer: jjolano
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0), com.jtis.fmwk.modulous, com.jtis.fmwk.rootbridge
+Filename: ./debs/com.jtis.fmwk.hookkit_1.0.15_iphoneos-arm64e-1.deb
+Size: 17302
+MD5sum: d4a7ae5c7e6c3b5be6a6ad06fb1c56e0
+SHA1: 9219a65ffb7c2afab21107479075cb33bf836cd5
+SHA256: a5adf4aa3d173a9eabcd34b817a1bbd2ab45dbc66d5a3a61514929ac5cf0ea41
+SHA512: 045296824f4ac3ea659fb00e2257aad478c5408d0e4f671d950af494b346ccc5882de543651afa2e922bef9c8ac0778acfef31b24a10cdabe77fd3591c1aec1f
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Name: HookKit Framework
+Author: jjolano
+
 Package: com.jtis.fmwk.modulous
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -412,6 +431,25 @@ Tag: role::developer
 Name: Modulous Framework
 Author: jjolano
 
+Package: com.jtis.fmwk.modulous
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0)
+Filename: ./debs/com.jtis.fmwk.modulous_1.0.8_iphoneos-arm64e-1.deb
+Size: 8042
+MD5sum: 1654c4557c9cf11e734ce40d4a47357c
+SHA1: 7dc0655fcbdf519acf835c15f7ee0c264a124bc7
+SHA256: 9f03a4da5ab68801bce3cf2dfcd9e7096f2ef55edaed20690662aaa009e49f3a
+SHA512: 3e889fff3af3501a0d6bb36299b9dc57319fb6b2a91e63ed7ed679d429599705e0f7392c2cc8630438857003dece77b8c46b8f63a88bb9bec19b1d8bb0d6115f
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Name: Modulous Framework
+Author: jjolano
+
 Package: com.jtis.fmwk.rootbridge
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -425,6 +463,25 @@ MD5sum: d75230388f405f3db678e0e57ddcf7ea
 SHA1: 836587d6956e70f9524c52264746a6a951f4f6e3
 SHA256: 19dde4b120ad84a13946c56c0efee7e83fb30ec2460f6d723fdf34d2d7f603de
 SHA512: 522477ea4fef0c6c7128802358991d923e68a7ccc81b21449819ca9209f734c3d424e9aafc8e63d92479004382fc2a04767deb3d53a6139c7a859bcfbabebca4
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Name: RootBridge Framework
+Author: jjolano
+
+Package: com.jtis.fmwk.rootbridge
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0)
+Filename: ./debs/com.jtis.fmwk.rootbridge_1.0.1_iphoneos-arm64e-1.deb
+Size: 5382
+MD5sum: ead93e670f53e03605660a904336deac
+SHA1: 7cd67719122020f5f727c8f0470305a7185dab53
+SHA256: 62ae8ccd320181272dff2fa2a2014ab6c9f9cdf1a8390616601fb07ada715428
+SHA512: 095dfc0d1e93c9cd14a299d39cc3174b072c9ebc56fd304383ea9001564284adb33a6ac321b180a4c087f3286608369ef0ebc6dce9a78104fb9d7cf817d259d6
 Description: An iOS developer framework for rootless tweak development.
 Tag: role::developer
 Name: RootBridge Framework
@@ -498,6 +555,24 @@ MD5sum: 93bbd75458ab309277425f4204b3e24e
 SHA1: ecacecfa364465d92aef00dbf354e57bfb8c7978
 SHA256: 5c6815cf87c875e943f252ca664e230378c5d5275bf6124c07be8644b00ac65c
 SHA512: 95b267262423adaa85e6c3486aa3ac29428bd6f618a8d8bde483b47d186a52c682b9fdc188f2eba547919d3435547e25de63f2419ff717d498268399cefd049c
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Name: HookKit Module (Cydia Substrate)
+Author: jjolano
+
+Package: com.jtis.hkmodule.substrate
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9), com.jtis.fmwk.hookkit
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.hkmodule.substrate_1.0.8_iphoneos-arm64e-1.deb
+Size: 5602
+MD5sum: 896ad1587619d00c587cc478e28f6a24
+SHA1: 656393509279ed2fef7a426ae9e6c4dd74b3a6da
+SHA256: 24a3bb5297f089fc7e956c09c400ccd61ebc3f8f548d7fe36a51b78ee6e695dd
+SHA512: db7d5b9fd281b6815390754489683fd1e770c734921465d8b53f8b2e2c561d5b57581cfdb0cab488d5c1e7ee9454ed444aaeadb92989d32bde4929e464bc7ea2
 Description: This module provides the Cydia Substrate API for HookKit Framework.
 Name: HookKit Module (Cydia Substrate)
 Author: jjolano
