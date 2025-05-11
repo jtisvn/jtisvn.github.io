@@ -1213,17 +1213,17 @@ Author: Netskao
 
 Package: ru.rejail.dleasy
 Architecture: iphoneos-arm64
-Version: 2.14.8K
+Version: 2.14.8
 Section: Tweaks
 Maintainer: JTIS Repo
 Installed-Size: 15616
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debs/ru.rejail.dleasy_2.14.8K_iphoneos-arm64.deb
+Filename: ./debs/ru.rejail.dleasy_2.14.8_iphoneos-arm64.deb
 Size: 5554252
-MD5sum: 80dfd4e62f94af2fe651e903a6e0294f
-SHA1: 90394cd91bd0fa4f8884d1a2d5f3d2bda87f0906
-SHA256: 83da8e3c94718102a08fcaf9de9da4669d5fe5b2c3c4be7aefbb5f1b8a4cd821
-SHA512: 08ada200e9e2659ba79b9948db9234fc7f1018e210f2bba351e120dfd4510a53830078cf6ce2bbd208d4837c896ef3974b4d9efe430006b155ced7372468e851
+MD5sum: f1400a2f57ecd3b6d782aa2cd16df086
+SHA1: 6786df9d089cdfc419eb580569800cc823acb9f0
+SHA256: 2d8757607136896da3fa8670a8fc89537f05977b1c4d9ed0264db8c3b8842820
+SHA512: 2eaa03e5ae1a21e3fca7d6730348c61339d64d06975df9099e23a5cacc2f4c03e891c1b38a649b2c9224819c283a315b1e57283ade07570bb536d8850c0d2c27
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
 Name: DLEasy (Rootless)
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -1233,18 +1233,18 @@ Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
 
 Package: ru.rejail.dleasy
 Architecture: iphoneos-arm64e
-Version: 2.14.8K
+Version: 2.14.8
 Section: Tweaks
 Maintainer: JTIS Repo
 Installed-Size: 15616
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debs/ru.rejail.dleasy_2.14.8K_iphoneos-arm64e.deb
-Size: 11022984
-MD5sum: 8d392a8793333095be42e5d1ecdbc8ae
-SHA1: 2e22b2b7d14bf6ac532e5f9b0a35b095648b8fee
-SHA256: 7b69379dcff9d38b1f298d16e4db42b03f6c15076229ca4e42da5134050c1754
-SHA512: 260af46985ee1c80dc0671594059623ed79c7fe9a35895bff9776da0a0a1a40d7400db2ffe944aa19cc3e35c64ada582ecb0706f06d11a74145d81147d09c5eb
+Filename: ./debs/ru.rejail.dleasy_2.14.8_iphoneos-arm64e.deb
+Size: 11022988
+MD5sum: ca1201c6934213e6361e6a7d12417bf1
+SHA1: a2e6da39a444785c3854995c018578d360ee8b02
+SHA256: a2293c19679c0cb890534ceb3cd41feb97081e39fefbc9bf0b1e22a17fc28b02
+SHA512: fc738a7bf254fdb43c252c3a1074ec90b6a21339461a3e11d4edefe7a2c460b3c21476a84a3d3c86177e2462230a8c38336d0dac5e8bfa3909b107d5d6c5b9d5
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
 Name: DLEasy (Roothide)
 Author: AhmedBafkir <prooxy0@gmail.com>
