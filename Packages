@@ -420,26 +420,6 @@ Icon: https://Jtisvn.github.io/sectionIcons/font3.png
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: Hà Tía Tô
 
-Package: com.jtis.fontedgy-rootless
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Fonts
-Maintainer: JTIS Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>=14.0)
-Filename: ./debs/com.jtis.fontedgy-rootless_1.0_iphoneos-arm64e.deb
-Size: 20279290
-MD5sum: 014d68fc223e6150e7f19732c30fd098
-SHA1: 3381a9fbd36a1651c63f624c1a9f2fd2bb5cd39b
-SHA256: 96ad389be2a3c10f937dc05f78f450f7222d2cb32f842ee872117b29c5bf32f0
-SHA512: 51b970b32de612827b1aba2ac2aafa6fe95c88fef8326a5ccab9f94ddf5b9713656850c277dd7235adc52c17fb2d531e1111072efbfc977f998bec3f40aad5aa
-Homepage: https://alo.works/
-Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard 16
-Name: Font Edgy
-Icon: https://Jtisvn.github.io/sectionIcons/font3.png
-Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
-Author: Hà Tía Tô
-
 Package: com.jtis.fontlobstertwo-rootless
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -459,26 +439,6 @@ Icon: https://Jtisvn.github.io/sectionIcons/font.png
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: Pablo Impallari
 
-Package: com.jtis.fontlobstertwo-rootless
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Fonts
-Maintainer: JTIS Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>=14.0)
-Filename: ./debs/com.jtis.fontlobstertwo-rootless_1.0_iphoneos-arm64e.deb
-Size: 2439770
-MD5sum: d6a183a36a891dcf57400f108f547149
-SHA1: a39048f16dc212b07fcb3acb526345738055e4f1
-SHA256: d5cce9edfe8885c8c1f6cf598449d129fe7894b831c4ec8e54b817ddf03fdd05
-SHA512: b71540adb041d2fe1363e647c5ce1cfd0539483513297433c9cf42f73ad46582952079b3c916a2b576c5d1c25fb69a8bd49948b8a8eff0f7a52522f190bde46f
-Homepage: https://alo.works/
-Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
-Name: Font Lobster Two
-Icon: https://Jtisvn.github.io/sectionIcons/font.png
-Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
-Author: Pablo Impallari
-
 Package: com.jtis.fontuandilove-rootless
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -491,26 +451,6 @@ MD5sum: 2d183568ea98d6ece6aebfa987d716ce
 SHA1: d1a162f6e1f82cf37185ea3fd17583278d8575e0
 SHA256: e7e64a3c7652d2325d4f2f21ab3ce2e39c22f3bd8ed24a8b23c167c597c6797f
 SHA512: 9e2eb530af1eec3865078173dc78631d8d1f32167172fdd35cdb311b6bc8e72f0f5b9247a74e34946e0add0885c3cca976dadde90f80e25907776de30c3bc037
-Homepage: https://alo.works/
-Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
-Name: Font U and I Love
-Icon: https://Jtisvn.github.io/sectionIcons/font2.png
-Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
-Author: TQM
-
-Package: com.jtis.fontuandilove-rootless
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Fonts
-Maintainer: JTIS Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>=14.0)
-Filename: ./debs/com.jtis.fontuandilove-rootless_1.0_iphoneos-arm64e.deb
-Size: 1391850
-MD5sum: a1f85dde22383d5c2fc8f0e81e914a04
-SHA1: 5a44ee7775ae0ad62a2adb18dd3911dda47af98f
-SHA256: aa9b287c0bf633e5ee2b02ab1f8880b565a5db4a3f2050a9406eda0dde115015
-SHA512: c9b12078f71615ca54c4bd185b6ad8f2f06a56ed7f5675cd1e32c0d2b93c6d8393d145c5d8f937ba3d0076f138ff1f0390b7eb06cba52ff8c430af705a62705b
 Homepage: https://alo.works/
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
 Name: Font U and I Love
