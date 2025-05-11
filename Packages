@@ -67,6 +67,22 @@ Name: Font Lobster Two (Roothide)
 Icon: https://Jtisvn.github.io/sectionIcons/font.png
 
 Package: com.jtis.FontUandilove
+Architecture: iphoneos-aảm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.FontUandilove_1.0_iphoneos-aảm64.deb
+Size: 467728
+MD5sum: 4715455edabba2a16e6dcdcc730824b1
+SHA1: b08f68e68a7058483dffd51a73d3bfc26a1a022b
+SHA256: 76d433a820d02af7d5358a7deec183be95948a3927c04128e4af9b1351e75a15
+SHA512: 1e93e08ee5f467b742f59c87472a54d44920112bc3c3048f6f5d22dfd25fa62e2ea88075f17ecadfc64fc6f2e7bfda85915a41c9f3b3adecb78835b5fd1463d3
+Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
+Author: UandIlove
+Name: Font U And I Love (Rootless)
+Icon: https://Jtisvn.github.io/sectionIcons/font2.png
+
+Package: com.jtis.FontUandilove
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Fonts
