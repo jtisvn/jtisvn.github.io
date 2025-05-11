@@ -55,7 +55,7 @@
 "title":"Tac giả",
 "text":"jjolano"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"3.7.5" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",

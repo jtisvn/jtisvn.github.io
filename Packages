@@ -670,6 +670,30 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/setting3dmeizu.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.shadow
+Architecture: iphoneos-arm64
+Version: 3.7.6
+Section: Ần Jailbreak
+Maintainer: jjolano
+Installed-Size: 1076
+Provides: com.jtis.shadow.beta
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, com.jtis.fmwk.hookkit, com.jtis.hkmodule.substrate, com.jtis.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, com.jtis.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: com.jtis.shadow.beta, com.jtis.shadow.legacy
+Replaces: com.jtis.shadow.beta
+Filename: ./debs/com.jtis.shadow_3.7.6_iphoneos-arm64.deb
+Size: 102812
+MD5sum: 1b8b3aa60fd215f3158706ec7e74edc4
+SHA1: f52bc762e9dea23fb95e2a736c9852f9b1769979
+SHA256: fa5e6a799adadfecbd00cc07cd182adeb3b12ce7ee450419ffa82abcef1e121e
+SHA512: a011149b04964c59c22d8691f322e19e56a025a02492af667471be515dd3321611292222d25c9fcd9248f9b0905021530813531a1859c74a5296d53ff8d4aabf
+Description: Công cụ giúp chặn phát hiện jailbreak cho các ứng dụng.
+Name: Shadow (Rootless)
+Author: jjolano
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Shadow.json
+
 Package: com.jtis.tgextras
 Architecture: iphoneos-arm64e
 Version: 1.2-9+debug
