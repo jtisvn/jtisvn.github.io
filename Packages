@@ -67,22 +67,6 @@ Name: Font Lobster Two (Roothide)
 Icon: https://Jtisvn.github.io/sectionIcons/font.png
 
 Package: com.jtis.FontUandilove
-Architecture: iphoneos-aảm64
-Version: 1.0
-Section: Fonts
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.FontUandilove_1.0_iphoneos-aảm64.deb
-Size: 467728
-MD5sum: 8dd29ba77141cfc84392300be6bcc7a3
-SHA1: 95c7b7e40f832d0baa68ac246b9b25d1baec1cfa
-SHA256: d60fad5d5001ae01ef748e7b57a1c8a62e369aadebcba7b2fa80b4147bc7e58a
-SHA512: 3d525fb8429242a376cc6ae5b7c4ef5263afd5e2861cd68035f7a61eaeb5a62241f23dcf7c43c0d0ea5f944d19c890cc3622f0c298719f4d1b5a683573134113
-Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
-Author: UandIlove
-Name: Font U And I Love (Rootless)
-Icon: https://Jtisvn.github.io/sectionIcons/font2.png
-
-Package: com.jtis.FontUandilove
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Fonts
@@ -96,6 +80,22 @@ SHA512: 3ef91f5112ec75ad4956d1ae5c4b12bbbfbab2838af4004749f319b2e9f4780601579eb2
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
 Author: UandIlove
 Name: Font U And I Love (Roothide)
+Icon: https://Jtisvn.github.io/sectionIcons/font2.png
+
+Package: com.jtis.FontUandilove
+Architecture: iphoneos-aảm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.FontUandilove_1.0_iphoneos-aảm64.deb
+Size: 467728
+MD5sum: 8dd29ba77141cfc84392300be6bcc7a3
+SHA1: 95c7b7e40f832d0baa68ac246b9b25d1baec1cfa
+SHA256: d60fad5d5001ae01ef748e7b57a1c8a62e369aadebcba7b2fa80b4147bc7e58a
+SHA512: 3d525fb8429242a376cc6ae5b7c4ef5263afd5e2861cd68035f7a61eaeb5a62241f23dcf7c43c0d0ea5f944d19c890cc3622f0c298719f4d1b5a683573134113
+Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
+Author: UandIlove
+Name: Font U And I Love (Rootless)
 Icon: https://Jtisvn.github.io/sectionIcons/font2.png
 
 Package: com.jtis.Goku
@@ -262,25 +262,6 @@ Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 
 Package: com.jtis.dleasy
-Architecture: iphoneos-aảm64
-Version: 2.14.7
-Section: Tweaks
-Maintainer: JTIS Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.dleasy_2.14.7_iphoneos-aảm64.deb
-Size: 5478560
-MD5sum: bbd031076a8ccd8b439c73c81a423958
-SHA1: 55b709fed960d549c680414daa71d20ad061a43a
-SHA256: 2c46ca1cc2d07b0775979172a1b796f985b4c8908b5779360ab916ed5c45c081
-SHA512: 7ff09a438e09486ffa14bcf66586e203f0a2b092635b1e29afe173b2832c95090135f060ff1c8f182b3277d84f147f7e1fcc139d9d4992e53cbe14fee54704f4
-Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
-Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
-Name: DLEasy (Rootless)
-Author: AhmedBafkir
-
-Package: com.jtis.dleasy
 Architecture: iphoneos-arm64e
 Version: 2.14.7
 Section: Tweaks
@@ -297,6 +278,25 @@ Description: Tải xuống hình ảnh và video trên nền tảng mạng xã h
 Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
 Name: DLEasy (Roothide)
+Author: AhmedBafkir
+
+Package: com.jtis.dleasy
+Architecture: iphoneos-aảm64
+Version: 2.14.7
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.dleasy_2.14.7_iphoneos-aảm64.deb
+Size: 5478560
+MD5sum: bbd031076a8ccd8b439c73c81a423958
+SHA1: 55b709fed960d549c680414daa71d20ad061a43a
+SHA256: 2c46ca1cc2d07b0775979172a1b796f985b4c8908b5779360ab916ed5c45c081
+SHA512: 7ff09a438e09486ffa14bcf66586e203f0a2b092635b1e29afe173b2832c95090135f060ff1c8f182b3277d84f147f7e1fcc139d9d4992e53cbe14fee54704f4
+Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
+Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
+Name: DLEasy (Rootless)
 Author: AhmedBafkir
 
 Package: com.jtis.dobbyshim
@@ -376,6 +376,60 @@ Description: Chọn video làm nền màn hình cho IOS
 Name: Eneko (Roothide)
 Author: Traurige <hello@traurige.dev>
 
+Package: com.jtis.fmwk.hookkit
+Architecture: iphoneos-arm64
+Version: 1.0.15
+Section: Development
+Maintainer: jjolano
+Installed-Size: 172
+Depends: firmware (>= 8.0), com.jtis.fmwk.modulous, com.jtis.fmwk.rootbridge
+Filename: ./debs/com.jtis.fmwk.hookkit_1.0.15_iphoneos-arm64.deb
+Size: 12872
+MD5sum: 76f1df6026d10499237a811f5b1267a8
+SHA1: fab2f47663cb5bfe71b2792000d3b96f6bea2cc1
+SHA256: 2d9eaee469423a906b66e39f26522feca0028e34057b1547147b4b09d1c62906
+SHA512: 9eea97a51078933fbfb67190f6e1a3774b8bcce84b636d20066484407d68a1ff5ba2edaddb8447b062058055f50f1239e6d4c3201ae552c302b68e05272684d7
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Name: HookKit Framework
+Author: jjolano
+
+Package: com.jtis.fmwk.modulous
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: ./debs/com.jtis.fmwk.modulous_1.0.8_iphoneos-arm64.deb
+Size: 6016
+MD5sum: 2414669f63babea32a46a63ccaebc200
+SHA1: 0e688d22711cc101c5341c9dc4562a84314171c7
+SHA256: afe6a830c40b35aa8f5e0057a28b2b5112f4fddc8630c9e59fccdae238ed3fa8
+SHA512: 8b3ae72d8184e4b35adf2d1cbe3929c8e053a0a3e128402d35f8bd1ad46e8ab12be13f5e5c529aa24a1b3a53470530592e26ad1a2472be30c667b745f60c4869
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Name: Modulous Framework
+Author: jjolano
+
+Package: com.jtis.fmwk.rootbridge
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: ./debs/com.jtis.fmwk.rootbridge_1.0.1_iphoneos-arm64.deb
+Size: 3916
+MD5sum: d75230388f405f3db678e0e57ddcf7ea
+SHA1: 836587d6956e70f9524c52264746a6a951f4f6e3
+SHA256: 19dde4b120ad84a13946c56c0efee7e83fb30ec2460f6d723fdf34d2d7f603de
+SHA512: 522477ea4fef0c6c7128802358991d923e68a7ccc81b21449819ca9209f734c3d424e9aafc8e63d92479004382fc2a04767deb3d53a6139c7a859bcfbabebca4
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Name: RootBridge Framework
+Author: jjolano
+
 Package: com.jtis.gesturesxv
 Architecture: iphoneos-arm64e
 Version: 1.6
@@ -429,6 +483,24 @@ Description: Control your text or translate as you wish.
 Name: Hammer It
 Author: SquidForce
 Icon: file:///Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+
+Package: com.jtis.hkmodule.substrate
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: com.jtis.fmwk.hookkit
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.hkmodule.substrate_1.0.8_iphoneos-arm64.deb
+Size: 3944
+MD5sum: 93bbd75458ab309277425f4204b3e24e
+SHA1: ecacecfa364465d92aef00dbf354e57bfb8c7978
+SHA256: 5c6815cf87c875e943f252ca664e230378c5d5275bf6124c07be8644b00ac65c
+SHA512: 95b267262423adaa85e6c3486aa3ac29428bd6f618a8d8bde483b47d186a52c682b9fdc188f2eba547919d3435547e25de63f2419ff717d498268399cefd049c
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Name: HookKit Module (Cydia Substrate)
+Author: jjolano
 
 Package: com.jtis.kayoko-roothide
 Architecture: iphoneos-arm64e
