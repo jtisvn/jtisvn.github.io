@@ -73,10 +73,10 @@ Section: Fonts
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.FontUandilove_1.0_iphoneos-aảm64.deb
 Size: 467728
-MD5sum: 4715455edabba2a16e6dcdcc730824b1
-SHA1: b08f68e68a7058483dffd51a73d3bfc26a1a022b
-SHA256: 76d433a820d02af7d5358a7deec183be95948a3927c04128e4af9b1351e75a15
-SHA512: 1e93e08ee5f467b742f59c87472a54d44920112bc3c3048f6f5d22dfd25fa62e2ea88075f17ecadfc64fc6f2e7bfda85915a41c9f3b3adecb78835b5fd1463d3
+MD5sum: 8dd29ba77141cfc84392300be6bcc7a3
+SHA1: 95c7b7e40f832d0baa68ac246b9b25d1baec1cfa
+SHA256: d60fad5d5001ae01ef748e7b57a1c8a62e369aadebcba7b2fa80b4147bc7e58a
+SHA512: 3d525fb8429242a376cc6ae5b7c4ef5263afd5e2861cd68035f7a61eaeb5a62241f23dcf7c43c0d0ea5f944d19c890cc3622f0c298719f4d1b5a683573134113
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
 Author: UandIlove
 Name: Font U And I Love (Rootless)
@@ -208,24 +208,6 @@ Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
 
 Package: com.jtis.cydiageek.roundprefs
-Architecture: iphoneos-aảm64
-Version: 1.0.9
-Section: Tweaks
-Maintainer: JTIS Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-aảm64.deb
-Size: 55948
-MD5sum: 1b9356f2eaa47718030f0846f85dd7bf
-SHA1: 2c603e3c29762fd93d8a96e40fa211ff13249770
-SHA256: 8ceb70d8e5e161d16ac3aca8f9b5166e405f278ba11e023b4dce5b93626aa6cf
-SHA512: 66f0f3ed57faabbecf4e46fa3f514310bc04311d6ced877fd2b6f22c45d447d470048cc7b5bcf4df1483e0c76622701d5a0f3178d18adfd10c3333329139ee06
-Description: Bo tròn các khung trong ứng dụng cài đặt
-Name: roundPrefs (Rootless)
-Author: CydiaGeek <lucaluca86@aol.com>
-SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
-
-Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-arm64e
 Version: 1.0.9
 Section: Tweaks
@@ -240,6 +222,24 @@ SHA256: 766bb79b76c5d4a7e6581853d990335f3d2146214e68c4d9306d51200c94fd4d
 SHA512: df373ff8bf17159a4f9d2fc54e23ed8cf5ba48c7602c28038e4ed98f75c089c867afb3439ad497bce629fe0f2fb9f70c821798e781a1766577343186cda254e4
 Description: Bo tròn các khung trong ứng dụng cài đặt
 Name: roundPrefs (Roothide)
+Author: CydiaGeek <lucaluca86@aol.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
+
+Package: com.jtis.cydiageek.roundprefs
+Architecture: iphoneos-aảm64
+Version: 1.0.9
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-aảm64.deb
+Size: 55948
+MD5sum: 1b9356f2eaa47718030f0846f85dd7bf
+SHA1: 2c603e3c29762fd93d8a96e40fa211ff13249770
+SHA256: 8ceb70d8e5e161d16ac3aca8f9b5166e405f278ba11e023b4dce5b93626aa6cf
+SHA512: 66f0f3ed57faabbecf4e46fa3f514310bc04311d6ced877fd2b6f22c45d447d470048cc7b5bcf4df1483e0c76622701d5a0f3178d18adfd10c3333329139ee06
+Description: Bo tròn các khung trong ứng dụng cài đặt
+Name: roundPrefs (Rootless)
 Author: CydiaGeek <lucaluca86@aol.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
 
@@ -270,10 +270,10 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.dleasy_2.14.7_iphoneos-aảm64.deb
 Size: 5478560
-MD5sum: 69f1ee933ae1b5165d12229795c459f2
-SHA1: 063f871adabff3987437fde54967cccc535618e4
-SHA256: c54ae1f1e949ea60d84c534fd6b7b9cfaa69c62afadabd171241e290df363bc8
-SHA512: ca1e2b018d0e519ff8d69ba064138951b78fc156fbc5ee1c8bca1243dad5db9f1a90ef5825923b65fc4ce63c90d4a7c5d5d419ad4ce5c8e7547e1bf2fd7b8a54
+MD5sum: bbd031076a8ccd8b439c73c81a423958
+SHA1: 55b709fed960d549c680414daa71d20ad061a43a
+SHA256: 2c46ca1cc2d07b0775979172a1b796f985b4c8908b5779360ab916ed5c45c081
+SHA512: 7ff09a438e09486ffa14bcf66586e203f0a2b092635b1e29afe173b2832c95090135f060ff1c8f182b3277d84f147f7e1fcc139d9d4992e53cbe14fee54704f4
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
 Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
@@ -375,6 +375,24 @@ SHA512: 18d34891bb452a86967494935e3e9b7971056c445fd1b936a20ad848d2675866748cddd6
 Description: Chọn video làm nền màn hình cho IOS
 Name: Eneko (Roothide)
 Author: Traurige <hello@traurige.dev>
+
+Package: com.jtis.gesturesxv
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 2756
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.gesturesxv_1.6_iphoneos-arm64e.deb
+Size: 2162916
+MD5sum: 98df83f4bd7d12aefc0cebc95dc8499f
+SHA1: 4205cf711db7a7282d0b4db25713995d3150427f
+SHA256: fe5ac75ec6c9335849b7338a812f27104c11f30ac85b1579b4debf82c39d4a4f
+SHA512: 039f83e13fe88c78b752e1141165cb580b957e9fca7a058c9330eccf0aed0e157d010709122700e6af25ee895ee05a075814ff8dd8215aa1e9e564178a18dd98
+Description: Mang thao tác vuốt của iPhone X lên các dòng iPhone đời cũ chạy iOS 15.
+Name: GesturesXV (Roothide)
+Author: Ethan Whited
 
 Package: com.jtis.hammerit
 Architecture: iphoneos-arm64e
