@@ -1,0 +1,93 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://i.imgur.com/JnwYE84.jpeg",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":"ByeHomeBottomBarX\n\n- Ẩn hoặc làm mờ thanh điều hướng (Home Bar) dưới cùng trên iPhone X\n\n- Giúp giao diện thiết bị trông gọn gàng và liền mạch hơn\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm"
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin "
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"CydiaGeek"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.3.7" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweaks"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"12/5/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Dung lượng",
+"text":"8 KB"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 14.0 đến 16.6.1"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.3.7\n\n- Hỗ trợ Rootless và Roothide Jailbreak"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
