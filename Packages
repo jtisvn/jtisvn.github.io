@@ -159,6 +159,28 @@ Name: Blurify6 (Roothide)
 Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
 
+Package: com.jtis.byehomebottombarx
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Priority: optional
+Section: Tweaks
+Installed-Size: 674
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker
+Filename: ./debs/com.jtis.byehomebottombarx_1.3.7_iphoneos-arm64e.deb
+Size: 81932
+MD5sum: 409963755d030d6887a9b0b3d9bce02c
+SHA1: 7e8daa865f856f15a1408833be24ee8666d18790
+SHA256: d4de6cdb8c288121e962ee60d8408066c8f47fd6748d421ce180c6c8352ec8a6
+SHA512: 5ae46608c7d0a078e01d7c8b18332c78b28fef76b163b7682ce3b68429b200b0f8ef93f5ba72bff4de9f27b8b5a3906a169db15230d3090ba32c18ff56ab0ba2
+Description: Ẩn hoặc làm mờ thanh điều hướng (Home Bar) dưới cùng trên iPhone X!
+Tag: purpose::extension
+Name: ByeHomeBottomBarX (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ByeHomeBottomBarX.json
+Author: CydiaGeek <lucaluca86@aol.com>
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/ByeHomeBottomBarX.bundle/ByeHomeBottomBarX@2x.png
+
 Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-arm64e
 Version: 1.0.9
