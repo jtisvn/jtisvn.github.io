@@ -576,11 +576,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
 Conflicts: com.mtac.lynxapp, xyz.cypwn.lynxapp
 Filename: ./debs/com.jtis.lynxroothide_2.5.4_iphoneos-arm64e.deb
-Size: 1261480
-MD5sum: e081183aea55d9035f1fcb7cc1f38d3c
-SHA1: 7966f45fba874d45afa90a06ce821ecfd3b54e63
-SHA256: 48456b17d093001448709e768acf77950c20605df9c30e155a12feee5ebd7f86
-SHA512: b381e054282506a99106ac7a302110867cb912e31c7ae713c4090452bb3d298396da552e30b0641d6b7b29f81f29408a2b77fa20e0e6dee9708d582a8beecc0a
+Size: 1261816
+MD5sum: dafb75e5999bbadbc30b0e3bc54ee1c4
+SHA1: 2617f2aa32c5622a451ef8e3fb02a13f38bd0dc2
+SHA256: ba2a0030a48ad8004a2e44338b94feecc7339235904ebe643faa681442ee63f9
+SHA512: bcd5ffcfb426ca5d661e089ec2709fa8fca8b9585be30bb9a18a09c2502017529e5ec07e032a6d028f0f629908572708b824eb027f76397d4e21e43a15991118
 Description: Tùy chỉnh tối ưu cho thiết bị iOS 15-16
 SileoDepiction: https://jtisvn.github.io/sileodepictions/lynx.json
 Icon: https://Jtisvn.github.io/sectionIcons/lynx.png
