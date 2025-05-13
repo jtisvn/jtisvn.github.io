@@ -160,26 +160,26 @@ Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
 
 Package: com.jtis.byehomebottombarx
-Architecture: iphoneos-aảm64
+Architecture: iphoneos-arm64
 Version: 1.3.7
 Priority: optional
 Section: Tweaks
+Maintainer: JTIS Repo
 Installed-Size: 674
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker
-Filename: ./debs/com.jtis.byehomebottombarx_1.3.7_iphoneos-aảm64.deb
-Size: 79768
-MD5sum: 58eb3eefa0be92943921fa7b507aeee3
-SHA1: da328a341f4151ae0da7322e7d7c1686bfc2b6f2
-SHA256: 3258b449ca1210af2b3637925affcbfd7f55050532894bfcb6dcf2bba6411292
-SHA512: e5e2fcb3693b2e4f623fa8ddd9d98a489bec2083a7d91263c07477b3dff7f7b8e3676711f15978965a85012482d6d35b5264e42681e0ed61de039d69d812dfed
+Filename: ./debs/com.jtis.byehomebottombarx_1.3.7_iphoneos-arm64.deb
+Size: 79708
+MD5sum: f0a3f2114d088907331a84f4ef2582a2
+SHA1: 8c305ccf72848ab21652f59de19c8ce5b6714542
+SHA256: 51d99306abad35d6ddb5b4bca9594a802d3682df077db16bdf7d0af57b5719d0
+SHA512: 7033260f20ea411901a57ff185b15419e319bcfad69730265be3c20bca3a0b8297771cb03323a3f2e115857b9d99df0f16fdabd0e08448b1b5fafb923391bc85
+Homepage: https://alo.works/
 Description: Ẩn hoặc làm mờ thanh điều hướng (Home Bar) dưới cùng trên iPhone X!
 Tag: purpose::extension
-Name: ByeHomeBottomBarX (Rootless)
+Name: ByeHomeBottomBarX (Rootless))
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ByeHomeBottomBarX.json
-Author: CydiaGeek <lucaluca86@aol.com>
 dev: lucaluca86
-Icon: file:///Library/PreferenceBundles/ByeHomeBottomBarX.bundle/ByeHomeBottomBarX@2x.png
+Author: CydiaGeek <lucaluca86@aol.com>
 
 Package: com.jtis.byehomebottombarx
 Architecture: iphoneos-arm64e
