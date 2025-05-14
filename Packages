@@ -597,6 +597,25 @@ Description: This module provides the Cydia Substrate API for HookKit Framework.
 Name: HookKit Module (Cydia Substrate)
 Author: jjolano
 
+Package: com.jtis.icatch
+Architecture: iphoneos-arm64e
+Version: 1.1-120
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.icatch_1.1-120_iphoneos-arm64e.deb
+Size: 30820
+MD5sum: 25ad58348ae7f0d8ee07692a28306305
+SHA1: 7e8ae8fe809f57b5c0041e97171c9169b2433ec1
+SHA256: cccfebd711a64e5eb0f93a780bcff38033a566c1fd0cdd90a63ae5639dcb4e04
+SHA512: 8dcd2c8ee4826bc2aca5251c8d3d4d3dde7806194ba805f1696687d3b0f6ef103d9ba67e5799f01473ace7fd266746fea0ecd79eb8b2de9c8203b7e3354c5a82
+Description: Tải xuống file.deb khi cài đặt tweak kèm gói từ Sileo và Zebra trực tiếp vào Filza
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Icatch.json
+Icon: https://repo.cypwn.xyz/packages/iCatch-Rootless/icon.png
+Name: iCatch (Roothide)
+Author: DeNsor
+
 Package: com.jtis.kayoko-roothide
 Architecture: iphoneos-arm64e
 Version: 2.7
