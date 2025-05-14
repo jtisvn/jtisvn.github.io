@@ -188,22 +188,25 @@ Architecture: iphoneos-arm64e
 Version: 1.3.7
 Priority: optional
 Section: Tweaks
+Maintainer: JTIS Repo
 Installed-Size: 674
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker
 Filename: ./debs/com.jtis.byehomebottombarx_1.3.7_iphoneos-arm64e.deb
-Size: 81932
-MD5sum: 409963755d030d6887a9b0b3d9bce02c
-SHA1: 7e8daa865f856f15a1408833be24ee8666d18790
-SHA256: d4de6cdb8c288121e962ee60d8408066c8f47fd6748d421ce180c6c8352ec8a6
-SHA512: 5ae46608c7d0a078e01d7c8b18332c78b28fef76b163b7682ce3b68429b200b0f8ef93f5ba72bff4de9f27b8b5a3906a169db15230d3090ba32c18ff56ab0ba2
+Size: 83312
+MD5sum: 4db646267e02c44813815a20f745dd29
+SHA1: a1162d7800fd21c3a0e2eba0403574a21bf240be
+SHA256: b87cffc26a944cc178e4bfe3d88d1fd1d230275803f6d97b4afe405e5fe1e39f
+SHA512: 848eff5c8b2653d0cc585c6fe67f9d3121fe740801f9ed7bc55ee07c97310ece1777d48a2b6cb1b9088d3d9228ebad14cf344cf804afe555ee10838aa62eea9f
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
 Description: Ẩn hoặc làm mờ thanh điều hướng (Home Bar) dưới cùng trên iPhone X!
 Tag: purpose::extension
 Name: ByeHomeBottomBarX (Roothide)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/ByeHomeBottomBarX.json
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
+Sponsor: thebigboss.org <http://thebigboss.org>
 Author: CydiaGeek <lucaluca86@aol.com>
 dev: lucaluca86
-Icon: file:///Library/PreferenceBundles/ByeHomeBottomBarX.bundle/ByeHomeBottomBarX@2x.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ByeHomeBottomBarX.json
 
 Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-arm64e
