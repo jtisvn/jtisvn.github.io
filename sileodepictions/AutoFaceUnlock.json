@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"AutoFaceUnlock\n\n- Tự động mở khoá không cần trượt lên để vào màn hình chính cho thiết bị có Faceid.\n\n",
+"markdown":"AutoFaceUnlock\n\n- Tự động mở khoá không cần vuốt lên để vào màn hình chính cho thiết bị có Faceid.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },

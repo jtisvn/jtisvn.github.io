@@ -85,6 +85,24 @@ Author: p0s3id0n
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LS-16-VN.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.autofaceunlock-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 452
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.autofaceunlock-rootless_1.1-7_iphoneos-arm64.deb
+Size: 63576
+MD5sum: 70475b8c8cc9248f3d7ae5b03bc5cc59
+SHA1: a303d32db45fd766654d19ecf43b5bee7ea1df69
+SHA256: 38ff410e0963200374ce8efa5487f67d606c947390ab011f43e88cf91a2e950d
+SHA512: c3f2f5c8e48bb4af305172e593309064b6b99f32fe411deb702f46e154dac95d2e3d1b840106a85b7877b054937210629aa703d238055461ebeccb0a63088e22
+Description: Tự động mở khoá không cần vuốt lên để vào màn hình chính cho thiết bị có Faceid.
+Name: AutoFaceUnlock (Rootless)
+Author: Netskao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
+
 Package: com.jtis.autoscroll15
 Architecture: iphoneos-arm64e
 Version: 1.0.0
