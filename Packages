@@ -713,6 +713,26 @@ Author: b4db1r3
 SileoDepiction: https://jtisvn.github.io/sileodepictions/OCD.json
 Icon: https://jtisvn.github.io/sectionIcons/OCD.png
 
+Package: com.jtis.picsart
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Mở khoá ứng dụng
+Maintainer: JTIS Repo
+Installed-Size: 1049
+Depends: mobilesubstrate
+Conflicts: com.jtis.picsart-rootless
+Filename: ./debs/com.jtis.picsart_1.0.2_iphoneos-arm64.deb
+Size: 9060
+MD5sum: b302f4c7398721f1d507806531da3559
+SHA1: fb0803b65bba5c9f5e376d28d572ede7efdcd2af
+SHA256: b0e2c5f467cda6c7d0ee593e274fce7a62831eb402e7960fb111ea61b4264f4e
+SHA512: 788eccfb92e532d5f7ac944d8737e55a16f6f5e4d259bcf1278c68d77eac5b742b9c78e3f8e990434e6235dc509eddd9cf124b1dd6231180d15b514bc83aed5f
+Description: Mở khóa Gold cho ứng dụng PicsArt phuên bản mới nhất.
+Author: Lãng Khách
+Depiction: http://bvnsupport.github.io/infodeb/Picsart/?p=info
+Icon: https://https://Jtisvn.github.io/sectionIcons/Picsart.png
+Name: PicsArt Gold
+
 Package: com.jtis.primedeck
 Architecture: iphoneos-arm64e
 Version: 1.3.0
