@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"Iamlazy\n\n- Sao lưu và khôi phục các gói Tweaks bạn đã cải đặt.\n\n- Tính năng:\n\n Sao lưu\n\n- Các gói người dùng (tiêu chuẩn) Kích hoạt băng 1 lần chạm\n\n- Tất cả các gói (nhà phát triển) Kích hoạt bằng các nhấn giữ\n\n- Khôi phục từ bản sao lưu mới nhất được chọn từ danh sách\n\n Lựa chọn thao tác\n\n- Nhập bản sao lưu.\n\n- Xuất bản sao lưu.\n\n- Xoá bản sao lưu\n\n- Chi tiết xrm hình ảnh bên dươi.\n\n",
+"markdown":"Iamlazy\n\n- Sao lưu và khôi phục các gói Tweaks bạn đã cải đặt.\n\n Tính năng:\n\n- Sao lưu\n\n- Các gói người dùng (tiêu chuẩn) Kích hoạt băng 1 lần chạm\n\n- Tất cả các gói (nhà phát triển) Kích hoạt bằng cách nhấn giữ\n\n- Khôi phục từ bản sao lưu mới nhất được chọn từ danh sách\n\n Lựa chọn thao tác\n\n- Nhập bản sao lưu.\n\n- Xuất bản sao lưu.\n\n- Xoá bản sao lưu\n\n- Chi tiết xrm hình ảnh bên dươi.\n\n",
 "class":"DepictionMarkdownView"
 },
 { "class":"DepictionHeaderView", "title":"Hình ảnh" },

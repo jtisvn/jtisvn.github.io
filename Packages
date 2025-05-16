@@ -1347,11 +1347,11 @@ Installed-Size: 15616
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Filename: ./debs/ru.rejail.dleasy_2.14.8_iphoneos-arm64e.deb
-Size: 11022988
-MD5sum: ca1201c6934213e6361e6a7d12417bf1
-SHA1: a2e6da39a444785c3854995c018578d360ee8b02
-SHA256: a2293c19679c0cb890534ceb3cd41feb97081e39fefbc9bf0b1e22a17fc28b02
-SHA512: fc738a7bf254fdb43c252c3a1074ec90b6a21339461a3e11d4edefe7a2c460b3c21476a84a3d3c86177e2462230a8c38336d0dac5e8bfa3909b107d5d6c5b9d5
+Size: 11027208
+MD5sum: 9bafd63d176f03f770f3f40fd044b74b
+SHA1: 99583a48bf503e4c5b2db666c62b97663d90a088
+SHA256: f4c96295115335ceec60065973da8ca5c224df1aaf72ca8f3b3513b61b9ffe72
+SHA512: 4b123f47e51035c68b2a1c9f0fff344f6a5e1bcf6c826cfb2237c268d5270db214f36750570124791ff125779e8700de19b6e6e290a60b51d088d6a593c7ac7d
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
 Name: DLEasy (Roothide)
 Author: AhmedBafkir <prooxy0@gmail.com>
