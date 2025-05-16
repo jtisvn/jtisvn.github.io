@@ -615,6 +615,27 @@ Description: This module provides the Cydia Substrate API for HookKit Framework.
 Name: HookKit Module (Cydia Substrate)
 Author: jjolano
 
+Package: com.jtis.iamlazy
+Architecture: iphoneos-arm64
+Version: 2.6.2
+Section: Gói
+Maintainer: Lightmann <lightmanns11@gmail.com>
+Installed-Size: 542
+Depends: apt, uikittools, firmware (>= 13.0)
+Conflicts: me.lightmann.iamlazy-cli
+Filename: ./debs/com.jtis.iamlazy_2.6.2_iphoneos-arm64.deb
+Size: 196428
+MD5sum: a2b60298301b7327bd2ce8c80be4b0fd
+SHA1: 383491cf9dc1094ebe58d44f17ed2db43f70c4c9
+SHA256: f13622fc33797a22e28f86a7d0a33aa61069bf9df107c6a76318a93d73a721e8
+SHA512: f3086895e7e843d83bd90ada6658c7e6c1646c7915e3773958d215fefd535e84eccd13c2982a6d6539b491700ea7a5966bbe67284c23cc2a1cb4baaa7f794f23
+Description: Sao lưu và khôi phục các Tweaks đã cải đặt.
+Tag: compatible_min::ios13.0
+Author: Lightmann <lightmanns11@gmail.com>
+Name: IAmLazy (Rootless)
+Icon: https://Jtisvn.github.io/sectionIcons/Iamlazy.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Iamlazy.json
+
 Package: com.jtis.icatch
 Architecture: iphoneos-arm64e
 Version: 1.1-120
