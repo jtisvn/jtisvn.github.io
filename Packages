@@ -141,6 +141,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Batteryinfo.json
 Icon: https://jtisvn.github.io/sectionIcons/Batteryinfo.png
 Name: Battery Info (Roothide)
 
+Package: com.jtis.batteryinfo
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Section: Tweaks
+Maintainer: developlab
+Installed-Size: 464
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debs/com.jtis.batteryinfo_1.1.8_iphoneos-arm64.deb
+Size: 123396
+MD5sum: 4002de1bfcf7dbf9c56ee87a7af6c6c5
+SHA1: 931701b86dd7b72a8ed0e6f0bceb100b4c4fecf9
+SHA256: b98801fa5fe909d8e30ae08b223a94d53177c604233bf49bebe46d7956384a80
+SHA512: a512b7293a6b8d265e2751606a96b96b70b78929a901db1f88d40f6899069e5537d2b76106c83df1568317bc52903e3da9596269972133d61f0bc0ad2282af43
+Description: Hiển thị thông tin chi tiết pin
+Author: developlab
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Batteryinfo.json
+Icon: https://jtisvn.github.io/sectionIcons/Batteryinfo.png
+Name: Battery Info (Rootless)
+
 Package: com.jtis.batterypercent
 Architecture: iphoneos-arm64
 Version: 1.1.2
