@@ -122,6 +122,25 @@ Author: pxcex
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoScroll.json
 Icon: https://i.imgur.com/eZpS8Qf.jpeg
 
+Package: com.jtis.batteryinfo.r2
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: Tweaks
+Maintainer: developlab
+Installed-Size: 464
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debs/com.jtis.batteryinfo.r2_1.1.8_iphoneos-arm64e.deb
+Size: 121248
+MD5sum: 95063f4d26c3650e9e6a316a99f2d158
+SHA1: 63b2c1b66c677e93b0651ea5d28e9b19486a1c0f
+SHA256: 006e7e0a082056abc79cd758d29708424ef9b97369183eba43536c0488187103
+SHA512: 213132dbef65b4cebceb3f36e2d461929d7b11f36cd7bcc7022eef68b6c88cb024fb7a456ded6747cd8173448c70c75582cb555791f22b09c184613c5cb28432
+Description: Hiển thị thông tin chi tiết pin
+Author: developlab
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Batteryinfo.json
+Icon: https://jtisvn.github.io/sectionIcons/Batteryinfo.png
+Name: Battery Info (Roothide)
+
 Package: com.jtis.batterypercent
 Architecture: iphoneos-arm64
 Version: 1.1.2
