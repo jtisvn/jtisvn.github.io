@@ -1,0 +1,103 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://i.imgur.com/j9qvwvE.jpeg",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":"Batteryinfo \n\n- Hiển thị thông tin chi tiết pin.\n\n",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Batteryinfo/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Batteryinfo/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm"
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin "
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tac giả",
+"text":"developlab"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.8" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweak"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"q7/5/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 12 đến 16.7.11"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1..1.8\n\n- Hỗ trợ thiết bin IOS 12-16"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
