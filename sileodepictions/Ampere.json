@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"Ampere \n\n- Mang phần trăm pin IOS 16 cho thiết bị IOS 15 trở xuống.\n\n",
+"markdown":"Ampere \n\n- Tùy chỉnh giao điện và phong cách hiển thị pin trên IOS 15 giống kiểu của IOS 16\n\n- Thay đổi màu sắc phần trăm pin khi ở chế độ Bình thường, Khi sạc và Tiết kiếm pin.\n\n- Tuỳ chỉnh kích thước, phông chữ và màu sắc số phần trăm pin.\n\n",
 "class":"DepictionMarkdownView"
 },
 { "class":"DepictionHeaderView", "title":"Hình ảnh" },
