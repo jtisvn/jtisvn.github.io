@@ -1,6 +1,6 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://i.imgur.com/j9qvwvE.jpeg",
+"headerImage":"https://files.catbox.moe/xm00tj.jpg",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"Ampere \n\n- Tùy chỉnh giao điện và phong cách hiển thị pin trên IOS 15 giống kiểu của IOS 16\n\n- Thay đổi màu sắc phần trăm pin khi ở chế độ Bình thường, Khi sạc và Tiết kiếm pin.\n\n- Tuỳ chỉnh kích thước, phông chữ và màu sắc số phần trăm pin.\n\n",
+"markdown":"Ampere \n\n- Tùy chỉnh giao điện và phong cách hiển thị pin trên IOS 15 giống kiểu của IOS 16\n\n- Thay đổi màu sắc phần trăm pin khi ở chế độ Mặc định, Khi sạc hoặc Tiết kiếm pin.\n\n- Tuỳ chỉnh kích thước và màu sắc số phần trăm pin hiển thị.\n\n",
 "class":"DepictionMarkdownView"
 },
 { "class":"DepictionHeaderView", "title":"Hình ảnh" },
@@ -64,7 +64,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"q7/5/2025"
+"text":"17/5/2025"
 },
 {
 "class":"DepictionTableTextView",
