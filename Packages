@@ -85,6 +85,25 @@ Author: p0s3id0n
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LS-16-VN.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.ampere
+Architecture: iphoneos-arm64
+Version: 1.4
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 604
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.jtis.ampere_1.4_iphoneos-arm64.deb
+Size: 101816
+MD5sum: 6810779c6ac46a42e5d94ecbaf0ccd12
+SHA1: 55c23e833fbd3795c6dc65c7fbbb6d0c504fcfd5
+SHA256: 42667352dfdf4005667961158c1a5e6aebab2ec25fc3d421c51629c4fe896586
+SHA512: c8c5eac354a1dd859627857665b9b7d1defcecb1e9beac981d411530e552d316f1d313e0d7826d34f597445e2eb097f94349d71333f638f6acc89097c50bc1d7
+Description: Tùy chỉnh giao điện và phong cách hiển thị pin trên IOS 15 giống kiểu của IOS
+Name: Ampere (Rootless)
+Author: MTAC
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
+Icon: https://jtisvn.github.io/sectionIcons/Ampere.png
+
 Package: com.jtis.autofaceunlock-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-7
