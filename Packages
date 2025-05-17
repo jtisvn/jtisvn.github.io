@@ -805,6 +805,23 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/setting3dmeizu.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.settingswifipassword
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<< 16.0)
+Filename: ./debs/com.jtis.settingswifipassword_0.0.1_iphoneos-arm64.deb
+Size: 8204
+MD5sum: 8008d57234e325f857a1f79428c77888
+SHA1: 413172489bf603f98db6f00422b9ff33d2522d95
+SHA256: 6238f7385dd72fb6988a857cbf59923421f6e539ff04caf7c7ab5635ce67015d
+SHA512: e722ce790e261e8a4eba0ef705bfc4c68ccc66bc707f1be6d463a0e0f31634e2dd633db153160a29aa4a867062c91a9129a986a1c708ccf07268548b19be7602
+Description: Cho phứp sao chép mặt khẩu Wifi trong cài đặt ừng dụng trên IOS 15 trở xuống.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsWiFiPassword.json
+Name: SettingsWiFiPassword (Rootless)
+Author: Nightwind
+
 Package: com.jtis.shadow
 Architecture: iphoneos-arm64
 Version: 3.7.6
