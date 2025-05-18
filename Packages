@@ -885,6 +885,23 @@ Author: choco
 Icon: https://i.imgur.com/OKvuaJN.jpeg
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 
+Package: com.jtisRingMask
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS font
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtisRingMask_1.0_iphoneos-arm64.deb
+Size: 1759560
+MD5sum: aab7ac42f16218c9c82473a0bdd462e7
+SHA1: f536d3543612cf017b769438728996d20a69f226
+SHA256: ed221c4fad5ceb1ab9deb131903b1adbbf7aa30b5eb41ec6a65cfac5d4c9e2be
+SHA512: 4776dbe513ee3bede5db3dc54a9de2b1ac88fd4aeb9fba545be04881a51da7e2bbb9e0a2e1be7e69f99d4bd33e0cde6679fa4f40a9d869f80d073d5ead838997
+Description: Cài đặt MaskAE qua tinh chỉnh Snowboard cho IPhone của bạn
+Name: RingMask
+Author: p0s3id0n
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Themeringmask.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
 Package: com.kitsudo.axom
 Architecture: iphoneos-arm64e
 Version: 1.0
