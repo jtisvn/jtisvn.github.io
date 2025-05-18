@@ -888,14 +888,14 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 Package: com.jtisRingMask
 Architecture: iphoneos-arm64
 Version: 1.0
-Section: LS font
+Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtisRingMask_1.0_iphoneos-arm64.deb
-Size: 1759560
-MD5sum: aab7ac42f16218c9c82473a0bdd462e7
-SHA1: f536d3543612cf017b769438728996d20a69f226
-SHA256: ed221c4fad5ceb1ab9deb131903b1adbbf7aa30b5eb41ec6a65cfac5d4c9e2be
-SHA512: 4776dbe513ee3bede5db3dc54a9de2b1ac88fd4aeb9fba545be04881a51da7e2bbb9e0a2e1be7e69f99d4bd33e0cde6679fa4f40a9d869f80d073d5ead838997
+Size: 1759564
+MD5sum: 9e1b07eed1ff55bf57fc4adf151a84c2
+SHA1: 185b30433853ab2bedb1c833c51582e56ec1a031
+SHA256: bdb72ea6c39fe9c20f0c78a84aa490f47bb3a3e6193f9d4115e19140154d854a
+SHA512: f2ee1b74925e86d74744d3ab1bd95651f164aa62e71e804d9e4c70ecdbc2cb707f59a879489a228f0c8949fdd86ae1c1173c7f5c212a09327ae01541cd8f4f01
 Description: Cài đặt MaskAE qua tinh chỉnh Snowboard cho IPhone của bạn
 Name: RingMask
 Author: p0s3id0n
