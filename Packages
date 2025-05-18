@@ -865,6 +865,43 @@ Name: Shadow (Rootless)
 Author: jjolano
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shadow.json
 
+Package: com.jtis.sugarcane
+Architecture: iphoneos-arm64
+Version: 1.2.4.4
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 172
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: ./debs/com.jtis.sugarcane_1.2.4.4_iphoneos-arm64.deb
+Size: 8332
+MD5sum: 2141b3455be2c1eef1e1a95d8b0af8b4
+SHA1: 45579def1aac0d97cb4a8d340ad1c714283cb91d
+SHA256: da33013eeb24077fed995442eb99d82b51e9829f260cd1f7df02aa7faf2dd7ea
+SHA512: f5b9862d1828c3fda95283bc345ad8583d486a217667aebcdd0e7d04d26c28fb7afa510d37b2dded14556fdff36f56344aa8b961ca06d3ad3f40f851ee7b948f
+Description: Thêm % cho modun Độ sáng & Âm lượng trên trung tâm diều khiển.
+Name: SugarCane 12-16 (Rootless)
+Author: iOS Creatix, kasiimh1, p2kdev
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
+
+Package: com.jtis.sugarcane
+Architecture: iphoneos-arm64e
+Version: 1.2.4.4
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: ./debs/com.jtis.sugarcane_1.2.4.4_iphoneos-arm64e.deb
+Size: 9344
+MD5sum: 21e9aa9592eaca615d9df0d21cadc7b8
+SHA1: 8150fb42ef3b0d5290de730c15e813262215ade0
+SHA256: cc16701f88b6a8700c657b65552950d7d6318d79e7fbcf4f5871910af7991938
+SHA512: 5d37d69ee1159bc0f77372fcff9da978b584cffcbb5e55eb736fa91b67b83fc4cab513760d868368f73ac445b90f859f99e19b85e42bba829505e405f7da42cc
+Description: Thêm % cho modun Độ sáng & Âm lượng trên trung tâm diều khiển.
+Name: SugarCane 12-16 (Roothide)
+Author: iOS Creatix, kasiimh1, p2kdev
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
+
 Package: com.jtis.tgextras
 Architecture: iphoneos-arm64e
 Version: 1.2-9+debug
