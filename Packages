@@ -963,6 +963,24 @@ Author: CreatureSurvive <support@creaturecoding.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 
+Package: com.jtis.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.kitsudo.snapper, com.kitsudo.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Filename: ./debs/com.jtis.snapper3_1.0_iphoneos-arm64e.deb
+Size: 920744
+MD5sum: ab82a86283e13c4ec197e56c50bc0ca9
+SHA1: c39746d0deebd475d8fe3e97bafb6a99c30f45fe
+SHA256: 52e4b53de5902fa55dcba9d4ecb828a8d32dbf16f61f8a537c93b77c5fe6f485
+SHA512: 30b711d343d307a29cc03343a6ff5fe6bb3b27fe261328d9d33fcdbfab6d4759177b1b326532426013797705bbd5c2caaf2e9dc3496b5ad679e784dbde8b11e7
+Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức năng cho thiết bị của bạn.
+Name: Snapper 3 Crack (Roothide)
+Author: Jonathan Winger-lang
+
 Package: com.jtis.sugarcane
 Architecture: iphoneos-arm64
 Version: 1.2.4.4
@@ -1313,24 +1331,6 @@ Description: Thêm ngôn ngữ Tiếng Việt cho tweak Settingsrevamp
 Name: SettingsRevamp Gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.snapper3
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: JTIS Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
-Conflicts: com.kitsudo.snapper, com.kitsudo.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
-Filename: ./debs/com.kitsudo.snapper3_1.0_iphoneos-arm64e.deb
-Size: 920736
-MD5sum: db9bf37b505029831eeab0ad7934fba1
-SHA1: 2e86c098ecaaab401fe9bf93c82f1aa079e69e13
-SHA256: 08bec02253d99b99d5e2b5d924da36694d95bfc58b8433e4192e5f65ae41fc62
-SHA512: 6bc80abc741291e969b9531185394ca2c6fd12ace0fdc9bad540d227e60893450ad19f925f68db5afa77cc3ae93796989e170d80a7887ca55a8db49599897792
-Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức năng cho thiết bị của bạn.
-Name: Snapper 3 Crack (Rootless)
-Author: Jtis Repo
 
 Package: com.kitsudo.snowboard
 Architecture: iphoneos-arm64
