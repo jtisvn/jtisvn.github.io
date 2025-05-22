@@ -1,0 +1,104 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":"AppLecard.\n\n Hướng dẫn sử dụng:\n\n- Vuốt từ cạnh trái/phải màn hình, cách đáy ~2.5cm.\n\n- Kéo nhanh đĩa sang cạnh đối diện.\n\n Thêm ứng dụng:\n\n- Trong cài đặt, nhấn biểu tượng ngôi sao để chọn app.Có thể mở dạng cửa sổ nổi hoặc thu nhỏ thành icon tròn.\n\n Cửa sổ nổi:\n\n- Vuốt lên thanh dưới: đóng cửa sổ.\n\n-Vuốt xuống: chuyển toàn màn hình.\n\n- Nhấn nhanh: thu nhỏ thành icon tròn.\n\n- Kéo cạnh: di chuyển. Giữ kéo góc đổi kích thước.\n\n Chế độ icon tròn:\n\n- Nhấn nhanh: mở lại cửa sổ.\n\n- Nhấn giữ: gỡ khỏi màn hình.\n\n Tính năng thông minh:\n\n- Mở cửa sổ theo thông báo.\n\n- Tự điều chỉnh kích thước.\n\n- Hỗ trợ xoay màn hình.\n\n- Không che bàn phím.\n\n- Và nhiều tính năng khác...\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/AppLecard/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/AppLecard/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm"
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin "
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"Crassna"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.6.2" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweak"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"24/5/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 14.0 đến 16.7.10"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Hỗ trợ Rootless Jailbreak"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
