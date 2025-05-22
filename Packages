@@ -402,12 +402,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
 Conflicts: com.restiveconch.actionbar
 Filename: ./debs/com.jtis.dockx_2.6.2_iphoneos-arm64e.deb
-Size: 425872
-MD5sum: f6fc93d4353e4e88e03e294d5d9fe4a8
-SHA1: eac2777e9fe9378f4f9a37a5abc2203dff20f158
-SHA256: 3c9922f0ae8178e464a498d3ae1e2bf90951b819b18beec742f2fd4b7e42ad72
-SHA512: c79a97bc74713b7b0102916f914c7f264139500d56acd4466a4ce33f77873616c17a747a0e49214ca5397c7b15fd65b3973b4297008a8149ae65637f5b8bc9c0
-Description: Thêm chức năng vào bên dưới bàn phím.
+Size: 425740
+MD5sum: c454c56d59c2b835f487aea82f9f0f22
+SHA1: ff588f49ca57eeff4e22f6830ef1eb65bdb74523
+SHA256: b5825103612fdf9e2e3c3b3e62aea30d68bbfb03f046ebba3357f79925050663
+SHA512: 6b134c6ffc836edbc1e04f37c5c82f33b957f21f63a13534fb67d1c59ca5ab410da1ea5054e55c344c5740bc6d66f9f2c621188b1e2eac96f549a9edc1c0c306
+Description: Thêm 1 số chức năng như dán nhanh trên thanh bàn phím
 Name: DockX (Roothide)
 Author: udevs
 Icon: https://Jtisvn.github.io/sectionIcons/Dockx.png
