@@ -1,20 +1,3 @@
-Package: com.0xkuj.safarix
-Architecture: iphoneos-arm64e
-Version: 1.9.8
-Section: 嗨-工具
-Maintainer: 0xkuj
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.0xkuj.safarix_1.9.8_iphoneos-arm64e.deb
-Size: 314588
-MD5sum: 372b4ee4a3af8e549cc73f2c97fb44c8
-SHA1: 2b89013e372ee8be5dc953bf6f58fb5e6fddcbb4
-SHA256: fea3b1fd266257f2115d2ba683d3864eb006f7f535be9eb3fa5eb564a5966706
-SHA512: 7aa030f092951d85d0178c4ac95f849a7f2beabf558fce867b5b8eb1d29f10b253b95062b5d2d3a4b7ef70c9ada032f356b30154b6acf73bdbf2fe8d9a210d37
-Description: Safari 浏览器多功能增强插件；源内有汉化包；SafariX后期加了验证，不能改包名。
-Name: SafariX-New(Roothde)
-Author: 0xkuj
-
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64e
 Version: 1.5.8
