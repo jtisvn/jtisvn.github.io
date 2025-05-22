@@ -149,12 +149,12 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
 Filename: ./debs/com.jtis.applecard_3.3.3-end_iphoneos-arm64e.deb
-Size: 410856
-MD5sum: 3ab813371623924fb7fd112dcf3b455c
-SHA1: 21dbb84796d42ac74d4288513b14f5ebdedf87a1
-SHA256: 6a3647caec700c38e3ffccd4ad8ae12e768699c7869776ffaeb3ab5004e53cca
-SHA512: db85224bba184edf0b7b48b505035a86675a05942fc511ee17bd8b8f245063ea255df7c937dedae5b3cfacf7d1ff8fef208ce0b7de29a9b4a138b8ad1a4a86f1
-Description: Chia đôi các ứng dụng trên màn hình chính.
+Size: 410880
+MD5sum: bb25bfc16d9d812354ad30c80871bf7b
+SHA1: 4cc5d43ae6353d28ad4c2a3a403d41e1f3bcb2db
+SHA256: dc6c8ebd369fdce7e38e60da32511a13253c6d501c716329c313f5dece38315e
+SHA512: 10b84010cc9a154a6f24b0940a18253950ea160ed827f11c83ae2e4103dc4ad35b7fbcc4b3002ba8a0305a0b6f973f9e1ab0994273c50ba90d92f5b4a2ae2c79
+Description: Chia đôi màn hình các ứng dụng tiện lợi trên iPhone của bạn.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AppLecard.json
 Icon: https://repo.cypwn.xyz/packages/AppLecard-Rootless/icon.png
 Name: App Lecard (Roothide)
