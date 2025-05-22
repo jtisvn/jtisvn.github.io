@@ -56,7 +56,7 @@
 "title":"Tác giả",
 "text":"Crassna"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.6.2" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"3.3.3" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
