@@ -1,3 +1,21 @@
+Package: com.0xkuj.safarix
+Architecture: iphoneos-arm64e
+Version: 1.9.8
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.0xkuj.safarix_1.9.8_iphoneos-arm64e.deb
+Size: 314304
+MD5sum: b5470597733f7275e159130698b49a96
+SHA1: a73da931449210cfc06985ad55b4be1f3efb81cd
+SHA256: beb5062b0d60ed9cad4cf219bc4981d6a3dc5858ca0135d78313ce8bd6ea72aa
+SHA512: 7c171c3c7e00c54885e3f966b17405c3d1cd31883b46690880ad68b78b2e8cb7a2261454ddb02a90a44fb64be93e89f6220e011d5ab53022dcc48ab106443fea
+Description: Thêm nhiều chức năng và điều chỉnh Safari theo ý mình
+Name: SafariX-New(Roothde)
+Author: 0xkuj
+Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
+
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64e
 Version: 1.5.8
