@@ -141,6 +141,25 @@ Author: MTAC
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
 Icon: https://jtisvn.github.io/sectionIcons/Ampere.png
 
+Package: com.jtis.applecard
+Architecture: iphoneos-arm64e
+Version: 3.3.3-end
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Filename: ./debs/com.jtis.applecard_3.3.3-end_iphoneos-arm64e.deb
+Size: 410856
+MD5sum: 3ab813371623924fb7fd112dcf3b455c
+SHA1: 21dbb84796d42ac74d4288513b14f5ebdedf87a1
+SHA256: 6a3647caec700c38e3ffccd4ad8ae12e768699c7869776ffaeb3ab5004e53cca
+SHA512: db85224bba184edf0b7b48b505035a86675a05942fc511ee17bd8b8f245063ea255df7c937dedae5b3cfacf7d1ff8fef208ce0b7de29a9b4a138b8ad1a4a86f1
+Description: Chia đôi các ứng dụng trên màn hình chính.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppLecard.json
+Icon: https://repo.cypwn.xyz/packages/AppLecard-Rootless/icon.png
+Name: App Lecard (Roothide)
+Author: Crassna
+
 Package: com.jtis.autofaceunlock-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-7
