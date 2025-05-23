@@ -1525,6 +1525,23 @@ Description: Fonts for SnowBoard
 Name: SnowBoard Fonts Extension
 Author: Spark
 
+Package: com.xina.blacklist
+Architecture: iphoneos-arm64
+Version: 0.0.3-1+debug
+Section: Ẩn Jailbreak
+Maintainer: JTIS Repo
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xina.blacklist_0.0.3-1+debug_iphoneos-arm64.deb
+Size: 39508
+MD5sum: cde88908e3fd049ae51360a2cc61dc0a
+SHA1: 078b3d284fbf0a1b371e3397f90311a2180793eb
+SHA256: 8d572379a253d0a3a942a9d06c7816a21841fd91edf8c5b9497e00961554ffe2
+SHA512: 29b0cc68977ed9ea2bdb479cb4c66ce1ddcb8ac63ec03745726436b0bb5e18d94d5ee25c8a05041b3ecc5de072e009827c5427403fae579eb0e464eebb594608
+Description: XinaBlackList cho phép bạn loại trừ các ứng dụng hoặc tiến trình khỏi việc load tweak trong môi trường jailbreak XinaA15. Rất hữu ích để vượt qua các cơ chế phát hiện jailbreak trong app ngân hàng, game hoặc ứng dụng bảo mật cao.
+Name: XinaBlackList (Rootless)
+Author: xina520 <3608063@qq.com>
+
 Package: com.yan.anitime
 Architecture: iphoneos-arm64
 Version: 1.0.1K
