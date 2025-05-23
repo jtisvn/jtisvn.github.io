@@ -1528,16 +1528,16 @@ Author: Spark
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
 Version: 0.0.3-1+debug
-Section: Ẩn Jailbreak
+Section: Ần Jailbreak
 Maintainer: JTIS Repo
 Installed-Size: 288
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.xina.blacklist_0.0.3-1+debug_iphoneos-arm64.deb
-Size: 39508
-MD5sum: cde88908e3fd049ae51360a2cc61dc0a
-SHA1: 078b3d284fbf0a1b371e3397f90311a2180793eb
-SHA256: 8d572379a253d0a3a942a9d06c7816a21841fd91edf8c5b9497e00961554ffe2
-SHA512: 29b0cc68977ed9ea2bdb479cb4c66ce1ddcb8ac63ec03745726436b0bb5e18d94d5ee25c8a05041b3ecc5de072e009827c5427403fae579eb0e464eebb594608
+Size: 39512
+MD5sum: 997811e88ff5deb07b36b39b365364ac
+SHA1: 527e36e43348ec5ad03d2e3061d3fbbcd679344e
+SHA256: 99fe04a97ae98dc7ced879f1ff1ac532927eb4e9b39405cd95b9add52a3bf51e
+SHA512: f00802b4e08e83f5b1c64a3735824437285880ca825622c5914281089698529f2463c9c48f14a15483b3288ab387e1e0f2052b2b7c3f6ef759be45b77dbff478
 Description: XinaBlackList cho phép bạn loại trừ các ứng dụng hoặc tiến trình khỏi việc load tweak trong môi trường jailbreak XinaA15. Rất hữu ích để vượt qua các cơ chế phát hiện jailbreak trong app ngân hàng, game hoặc ứng dụng bảo mật cao.
 Name: XinaBlackList (Rootless)
 Author: xina520 <3608063@qq.com>
