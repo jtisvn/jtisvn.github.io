@@ -53,6 +53,23 @@ Name: SearchDots VH(Rootless)
 Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
 Author: NightwinDev
 
+Package: com.jtis.Cartoo
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.Cartoo_1.0_iphoneos-arm64.deb
+Size: 371808
+MD5sum: d1eee86bbd8d226931d43bff1176b183
+SHA1: 7e9172079437a0a835cbe3e6ac18762fd4bf59dd
+SHA256: f4b029fa37ecd260964c32f5a6096e7b54a4fe1907e889608dfeb4cf8e909835
+SHA512: 208f2513c122eec283c270b24235910c361be1a0d53731e1f2da7a705a58d0b9ed601b2f4add3046d3936482052f1b9766d838d74d5fd40f1965f1576e8e04f0
+Description: Cài đặt chủ đề cho phím số & passcode qua tinh chỉnh Snowboard cho IPhone của bạn
+Name: Cartoo
+Author: Yangji
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
 Version: 0.1
