@@ -1035,23 +1035,20 @@ Name: SugarCane 12-16 (Roothide)
 Author: iOS Creatix, kasiimh1, p2kdev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
 
-Package: com.jtis.tgextras
+Package: com.jtis.tgextra
 Architecture: iphoneos-arm64e
-Version: 1.2-9+debug
+Version: 1.2-1
 Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 14980
-Pre-Depends: rootless-compat(>= 0.9)
-Conflicts: com.choco.tgextra
-Filename: ./debs/com.jtis.tgextras_1.2-9+debug_iphoneos-arm64e.deb
-Size: 4608792
-MD5sum: 0c2c07a57f83fa5fa404175fc87d08ff
-SHA1: 273da09f3b7ae211ec47b7cd49cd93e8fd997ad4
-SHA256: ac12581f21de3c6a26fb782c79a04a3d663a4b318ef6ded4293314bbf0d0874e
-SHA512: fc82b9430e0a1224de8a21f391312d6c2df2e36e4f6e21e1cfbda76d1c3df417a5be03abb86160693a33cad17ad6771dcba47d0a8ce8bd9ff348355d228d77db
-Description: Thêm các chức năng cho ứng dụng Swiftgram.
-Name: Swwiftgram TGExtra (Roothide)
-Author: choco
+Maintainer: waruhachi
+Conflicts: com.choco.tg
+Filename: ./debs/com.jtis.tgextra_1.2-1_iphoneos-arm64e.deb
+Size: 4651652
+MD5sum: 4e19fa0fdea7904d0285e1821d772bb9
+SHA1: 0b46fe56d8e708bd1011cd3b36221c15fc74b61f
+SHA256: 8345d108e1b93c8a5967e786c5f71aa5fc8a1990b70ab25be1a10668f8e2662d
+SHA512: a0ef131d6ed0971155b01d5fdb075e3f3b9987e830d9aedb1956f7ae9fe067686809518613f3eae1905a14c95e0277ec492111e114b85faed0cd4b1e162bb6f2
+Description: Thêm các chức năng tiện ích cho ứng dụng Swiftgram
+Name: TGExtra(RootHide)
 Icon: https://i.imgur.com/OKvuaJN.jpeg
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 
