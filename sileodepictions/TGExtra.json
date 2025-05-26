@@ -12,7 +12,7 @@
     "title":"Mô tả & Giới thiệu"
     },
     {
-"markdown":"# TGExtra.\n\n- Thêm các chức năng cho ứng dụng Swiftgram.\n\n- Tắt Quảng Cáo\n\n- Chế độ Ẩn danh (Ghost Mode)\n\n- Tắt thông báo đã đọc tin nhắn và xem story.\n\n- Và còn 1 số chức năng khác nữa...\n\n- Sử dụng bằng cách nhấn 5 lần vào tab Chats\n\n- Chi tiết xem thêm hình ảnh bên dưới",
+"markdown":"# TGExtra.\n\n- Thêm các chức năng tiện ích cho ứng dụng Swiftgram.\n\n- Tắt Quảng Cáo\n\n- Chế độ Ẩn danh (Ghost Mode)\n\n- Tắt thông báo đã đọc tin nhắn và xem story.\n\n- Và còn 1 số chức năng khác nữa...\n\n- Sử dụng bằng cách nhấn 5 lần vào tab Chats\n\n- Chi tiết xem thêm hình ảnh bên dưới",
 "class":"DepictionMarkdownView"
 },
 {
@@ -67,7 +67,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"6/5/2025"
+"text":"26/5/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -89,7 +89,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1.2\n\n- Hỗ trợ Rootless vat Roothide Jailbreak"
+"markdown":"#### Phiên bản 1.2.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Trong cài đặt TGExtra chọn ngôn ngữ English rồi áp dụng là xong\n\n- Hỗ trợ Rootless vat Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",
