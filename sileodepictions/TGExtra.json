@@ -59,6 +59,7 @@
 "title":"Tác giả",
 "text":"choco"
 },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2.1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
