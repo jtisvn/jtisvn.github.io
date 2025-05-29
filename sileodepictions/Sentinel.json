@@ -1,0 +1,107 @@
+{
+    "minVersion":"0.4",
+    "headerImage":"https://i.imgur.com/j9qvwvE.jpeg",
+    "tintColor":"#5777B8",
+    "tabs":[
+    {
+    "tabname":"Chi tiết",
+    "views":[
+    { "class":"DepictionHeaderView", "title":"" },
+    {
+    "class":"DepictionHeaderView",
+    "title":"Mô tả & Giới thiệu"
+    },
+    {
+"markdown":"# Sentinel-Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn.\n\n Screenshots là gì?\n\n- Sentinel giúp bạn tránh phải jailbreak lại thiết bị khi bị sập nguồn do hết pin\n\n- Khi pin giảm xuống mức phần trăm mà bạn đã đặt, tweak sẽ kích hoạt chế độ tắt máy giả để bảo vệ máy\n\n- So với các tweak trả phí tương tự, Sentinel hoạt động ổn định và bền bỉ hơn nhờ được thử nghiệm kỹ lưỡng. Hoàn toàn miễn phí.\n\n- Mẹo Nếu muốn thoát khỏi chế độ tắt máy giả của Sentinel, bấm nút tăng âm lượng 3 lần hoặc nhiều lần liên tiếp\n\n Cơ chế hoạt động\n\n- Khi pin giảm xuống mức nhất định mặc định là 3%, Sentinel sẽ kích hoạt chế độ tắt máy giả.\n\n- Chế độ này dùng tiện ích Hibernation có sẵn trong iOS để Vô hiệu hóa hoàn toàn SpringBoard.\n\n- Mọi thông báo, cuộc gọi, báo thức, sẽ không hiện\n\n- Giảm tối đa mức tiêu thụ pin Giúp bạn có đủ thời gian cắm sạc mà không bị mất jailbreak\n\n- Chi tiết xem thêm hình ảnh bên dưới\n\n",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView", "title":"Hình ảnh" },
+{
+    "class":"DepictionScreenshotsView",
+    "screenshots":[
+    {
+    "url":"https://jtisvn.github.io/infodeb/Sentinel/Screenshots/1.png",
+    "accessibilityText":"Screenshot"
+    },
+    {
+    "url":"https://jtisvn.github.io/infodeb/Sentinel/Screenshots/2.png",
+    "accessibilityText":"Screenshot"
+    },
+    {"url":"https://jtisvn.github.io/infodeb/Sentinel/Screenshots/3.png",
+    "accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm "
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"MegaDev"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.3.2" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweak"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"29/5/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 12.0 đến 16.6.1"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"#### Phiên bản 1.3.2\n\n- trợ Rootless & Roothide Jailbreak"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
