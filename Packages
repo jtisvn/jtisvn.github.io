@@ -881,6 +881,25 @@ Name: PrimeDeck (Roothide)
 Author: 0xkuj
 
 Package: com.jtis.sentinel
+Architecture: iphoneos-aảm64
+Version: 1.3.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 752
+Depends: mobilesubstrate,ws.hbang.common,preferenceloader,com.opa334.ccsupport
+Filename: ./debs/com.jtis.sentinel_1.3.2_iphoneos-aảm64.deb
+Size: 78040
+MD5sum: c789f12d37a88678238991b68fd22b15
+SHA1: 28263bb91b8083eeba0905229f55073699096ec3
+SHA256: 4b01a437bd8cf1c54d9090a59042ee382d85bb51e3c5342085a5e848ce7227bf
+SHA512: ea8fd1576c49d1df5087e17742a8558dcb317aac6c137a66da4ee1462bc944be35f57a29f9568ef9c1acdb8f8f3010a72c74477a8fa5dd6a0ef5fb66c2daee04
+Description: Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn.
+Name: Sentinel (Rootless)
+Author: MegaDev
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
+Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
+
+Package: com.jtis.sentinel
 Architecture: iphoneos-arm64e
 Version: 1.3.2
 Section: Tweaks
