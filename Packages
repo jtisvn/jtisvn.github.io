@@ -356,6 +356,42 @@ Author: CydiaGeek <lucaluca86@aol.com>
 dev: lucaluca86
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ByeHomeBottomBarX.json
 
+Package: com.jtis.callassist15
+Architecture: iphoneos-arm64e
+Version: 2.1.7
+Priority: optional
+Section: Tweaks
+Maintainer: JTIS Repo
+Depends: firmware (>= 15.0), ellekit, preferenceloader,com.opa334.libsandy
+Filename: ./debs/com.jtis.callassist15_2.1.7_iphoneos-arm64e.deb
+Size: 2446512
+MD5sum: 4be98bd756eca755a5dbce398a192c8a
+SHA1: 51df422b2efe4d9102b156ae42fe652844dd3dff
+SHA256: df7b80200d026f78631b666defcdef7646a934dd6943d0862a5bf46e14a08975
+SHA512: 18dba6afe4cd8442402a71ddf8045f134ff650c8f3d31b53ef290be8b07f2b724175c06f98f4d0dc00fd360dc14483cef71d60d57749a7115830612d4821c8df
+Description: Trợ lý cuộc gọi mạnh mẽ, Hỗ trợ thiết IOS 15.0 - 15.9
+Name: Callassist15 (Roothide)
+Author: xybp888vh
+SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
+
+Package: com.jtis.callassist16
+Architecture: iphoneos-arm64e
+Version: 1.7.2
+Priority: optional
+Section: Tweaks
+Maintainer: JTIS Repo
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/com.jtis.callassist16_1.7.2_iphoneos-arm64e.deb
+Size: 2752000
+MD5sum: cf83f396ef9a72d2f5c4f01b8924381f
+SHA1: f0db4b7175b5a30b16fb4eb9a4368e178558dcca
+SHA256: 62c7b894e8cc350884061977e047dd31fa6b3bfbf3677d83fe68c57ab75cd8e3
+SHA512: aca0c07676eb11bf3ccc9747ce1b6a99c4cd99b0f3c23060450a300cc57d17b313971568835b0f390b985cfeb73033c17a221d96b5e0ae49611c5dc3f3de09ad
+Description: Trợ lý cuộc gọi mạnh mẽ, Hỗ trợ thiết IOS 16.0 - 16.5
+Name: Callassist16 (Roothide)
+Author: xybp888vh
+SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
+
 Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-arm64e
 Version: 1.0.9
