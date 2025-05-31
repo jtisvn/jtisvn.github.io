@@ -16,6 +16,25 @@ Name: SafariX-New(Roothde)
 Author: 0xkuj
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 
+Package: com.LLSwitch.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.LLSwitch.roothide_1.0_iphoneos-arm64e.deb
+Size: 17172
+MD5sum: d507b02d7f88c8b1085ab0fd65862312
+SHA1: 93a762093b3e54c6003d1f69a40f981442541798
+SHA256: 72d9501f55607cf6398a863c84a8b71278c8df3b15d66a1188447ebdb26032de
+SHA512: 15cb06fa756d07877414f8777181df4e1b64281bf90e7f9edd0f3ccee5fdafe662f8bd880095e8103ee53fd9096df2c0b64128c5485bb6f2ec951d77dbac4437
+Description: Sweitch nút On/Off mặt cười
+Name: LLSwitch (Roothide)
+Author: Simon <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/llswitch.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
+
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64e
 Version: 1.5.8
