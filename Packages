@@ -1514,6 +1514,25 @@ Name: Touch-Viz Gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.langkhach.adblockpro
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: JTIS Repo
+Installed-Size: 172	.dragon/_
+Depends: mobilesubstrate
+Filename: ./debs/com.langkhach.adblockpro_0.0.1_iphoneos-arm64.deb
+Size: 8600
+MD5sum: b4199cbbf4317b1156e400c4b5ed381f
+SHA1: dded5927252890b923e1aa215ade50aad9b40d23
+SHA256: 0d5b7e3e90fd4808b901990ef5db36002dc7a4e51edffdf84e74c154aa5bab0b
+SHA512: e6ef5cff0b6f6bf2e2428db2466473df17bf40b24d911b969335943dba80448bb292b1bb85a8418f507737c26201d0709ad13088ebebd1b0b3ca5e38806e78dc
+Description: Kích hoạt gói cao cấp ứng dụng AdBlockPro
+Author: Lang khach
+Name: AdblockPro
+Icom: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
+
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
 Version: 1.3.13-2-15+debug
