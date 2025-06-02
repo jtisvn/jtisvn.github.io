@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"AdBlockPro.\n\n- Kích hoạt gói cao cấp ứng dụng AdBlockPro trình chặn quảng cáo Safari.\n\n",
+"markdown":"AdBlockPro.\n\n- Kích hoạt gói Gold cho ứng dụng PicsArt\n\n- Hỗ trợ phiên bản mới nhất..\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/AdBlockPro/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/PicsartGold/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -61,12 +61,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"2/6/2025"
+"text":"5/5/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 16.0 đến 17.0"
+"text":"iOS 15.0 đến 17.0"
 },
 {
 "class":"DepictionLabelView",
