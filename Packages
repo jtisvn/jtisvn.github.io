@@ -1523,14 +1523,14 @@ Installed-Size: 172	.dragon/_
 Depends: mobilesubstrate
 Filename: ./debs/com.langkhach.adblockpro_0.0.1_iphoneos-arm64.deb
 Size: 8600
-MD5sum: b4199cbbf4317b1156e400c4b5ed381f
-SHA1: dded5927252890b923e1aa215ade50aad9b40d23
-SHA256: 0d5b7e3e90fd4808b901990ef5db36002dc7a4e51edffdf84e74c154aa5bab0b
-SHA512: e6ef5cff0b6f6bf2e2428db2466473df17bf40b24d911b969335943dba80448bb292b1bb85a8418f507737c26201d0709ad13088ebebd1b0b3ca5e38806e78dc
+MD5sum: 5cccb003a2b4f0f61eacb4412b1e55c2
+SHA1: 320aafec0353c6ccb2fe64900b80346fda5e8db8
+SHA256: 8157bb1765a952b360737e2da7e03d738de207c8483c96bff5b6d0d136bffee0
+SHA512: 7140960e3d8d89424bb20afe2c3bf8aa10bd4608caf9e1f29ad0eff80643160c61cb4e28bc813fd739ab0feccfa86b72a114108e51689456edef8d7595041959
 Description: Kích hoạt gói cao cấp ứng dụng AdBlockPro
 Author: Lang khach
 Name: AdblockPro
-Icom: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
+Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
 
 Package: com.opa334.ccsupport
