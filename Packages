@@ -907,15 +907,16 @@ Installed-Size: 1049
 Depends: mobilesubstrate
 Conflicts: com.jtis.picsart-rootless
 Filename: ./debs/com.jtis.picsart_1.0.2_iphoneos-arm64.deb
-Size: 9036
-MD5sum: 32172c08a75d4289ffb0773ec9731aa6
-SHA1: cca991477401aa92b7137e80395e5a8f908d91a6
-SHA256: 8cb777ecb57dd2fdb67036cd1e735c973fa50be16ec0aed9ddd44d86a34f024e
-SHA512: 9c00981a394f010ad63672e792fd3ee1da4b0eaaa6908c29feaab2ff2472601ededffbaa0c09c60e771d7132f98b379b0ce43a8e230b32d9091b52866b3c7176
-Description: Mở khóa Gold cho ứng dụng PicsArt-hỗ trợ phiên bản mới nhất.
-Author: Lãng Khách
+Size: 9068
+MD5sum: cc6acc54abd25c9d5650a2ea81f7a05f
+SHA1: ced9973962c2f90e0e1964d02da2fe48e3869125
+SHA256: f96171b2bfe3f51c0d9719096181e32c168e02898cd0ff7c3a1864cac2354eff
+SHA512: 27e32d81faf55eb428a47bb13747f9526e01d58af276fcd6465d362c71f3cc704d5b2b07f9e5b6737db66aff9a33872c65f9b3316e0932c35f29312d26df838b
+Description: Kích hoạt gói Gold cho ứng dụng PicsArt-hỗ trợ phiên bản mới nhất.
+Author: Lang Khach
 Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
 Name: PicsArt Gold
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
 
 Package: com.jtis.primedeck
 Architecture: iphoneos-arm64e
