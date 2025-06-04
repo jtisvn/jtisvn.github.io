@@ -16,6 +16,25 @@ Name: SafariX-New(Roothde)
 Author: 0xkuj
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 
+Package: com.LLSwitch.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.LLSwitch.roothide_1.0_iphoneos-arm64e.deb
+Size: 17172
+MD5sum: d507b02d7f88c8b1085ab0fd65862312
+SHA1: 93a762093b3e54c6003d1f69a40f981442541798
+SHA256: 72d9501f55607cf6398a863c84a8b71278c8df3b15d66a1188447ebdb26032de
+SHA512: 15cb06fa756d07877414f8777181df4e1b64281bf90e7f9edd0f3ccee5fdafe662f8bd880095e8103ee53fd9096df2c0b64128c5485bb6f2ec951d77dbac4437
+Description: Sweitch nút On/Off mặt cười
+Name: LLSwitch (Roothide)
+Author: Simon <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/llswitch.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
+
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64e
 Version: 1.5.8
@@ -888,15 +907,16 @@ Installed-Size: 1049
 Depends: mobilesubstrate
 Conflicts: com.jtis.picsart-rootless
 Filename: ./debs/com.jtis.picsart_1.0.2_iphoneos-arm64.deb
-Size: 9036
-MD5sum: 32172c08a75d4289ffb0773ec9731aa6
-SHA1: cca991477401aa92b7137e80395e5a8f908d91a6
-SHA256: 8cb777ecb57dd2fdb67036cd1e735c973fa50be16ec0aed9ddd44d86a34f024e
-SHA512: 9c00981a394f010ad63672e792fd3ee1da4b0eaaa6908c29feaab2ff2472601ededffbaa0c09c60e771d7132f98b379b0ce43a8e230b32d9091b52866b3c7176
-Description: Mở khóa Gold cho ứng dụng PicsArt-hỗ trợ phiên bản mới nhất.
-Author: Lãng Khách
+Size: 9068
+MD5sum: cc6acc54abd25c9d5650a2ea81f7a05f
+SHA1: ced9973962c2f90e0e1964d02da2fe48e3869125
+SHA256: f96171b2bfe3f51c0d9719096181e32c168e02898cd0ff7c3a1864cac2354eff
+SHA512: 27e32d81faf55eb428a47bb13747f9526e01d58af276fcd6465d362c71f3cc704d5b2b07f9e5b6737db66aff9a33872c65f9b3316e0932c35f29312d26df838b
+Description: Kích hoạt gói Gold cho ứng dụng PicsArt-hỗ trợ phiên bản mới nhất.
+Author: Lang Khach
 Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
 Name: PicsArt Gold
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
 
 Package: com.jtis.primedeck
 Architecture: iphoneos-arm64e
@@ -1494,6 +1514,25 @@ Description: Thêm ngôn ngữ Tiếng Việt cho tweak Touch-viz
 Name: Touch-Viz Gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.langkhach.adblockpro
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: JTIS Repo
+Installed-Size: 172	.dragon/_
+Depends: mobilesubstrate
+Filename: ./debs/com.langkhach.adblockpro_0.0.1_iphoneos-arm64.deb
+Size: 8600
+MD5sum: 5cccb003a2b4f0f61eacb4412b1e55c2
+SHA1: 320aafec0353c6ccb2fe64900b80346fda5e8db8
+SHA256: 8157bb1765a952b360737e2da7e03d738de207c8483c96bff5b6d0d136bffee0
+SHA512: 7140960e3d8d89424bb20afe2c3bf8aa10bd4608caf9e1f29ad0eff80643160c61cb4e28bc813fd739ab0feccfa86b72a114108e51689456edef8d7595041959
+Description: Kích hoạt gói cao cấp ứng dụng AdBlockPro
+Author: Lang khach
+Name: AdblockPro
+Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
