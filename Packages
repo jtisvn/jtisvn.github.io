@@ -383,15 +383,15 @@ Section: Tweaks
 Maintainer: JTIS Repo
 Depends: firmware (>= 15.0), ellekit, preferenceloader,com.opa334.libsandy
 Filename: ./debs/com.jtis.callassist15_2.1.7_iphoneos-arm64e.deb
-Size: 2446512
-MD5sum: 4be98bd756eca755a5dbce398a192c8a
-SHA1: 51df422b2efe4d9102b156ae42fe652844dd3dff
-SHA256: df7b80200d026f78631b666defcdef7646a934dd6943d0862a5bf46e14a08975
-SHA512: 18dba6afe4cd8442402a71ddf8045f134ff650c8f3d31b53ef290be8b07f2b724175c06f98f4d0dc00fd360dc14483cef71d60d57749a7115830612d4821c8df
+Size: 2446456
+MD5sum: 8242fac713e62502556d1128f34dec4d
+SHA1: 08c8d762297c3d20eea28a44d34a78d75d6db99a
+SHA256: de21a7da67eb438e89553570addffda75f16b114ab3f50d2139b51516667153a
+SHA512: 4913f42da43bf0a07ddcb1f411910b79877abd81d58f3c4e85e60887c293911cb22d7cb2830934db93d8dbcecab922ca143783f3dfc347b38c8431b1a4cbc458
 Description: Trợ lý cuộc gọi mạnh mẽ, Hỗ trợ thiết IOS 15.0 - 15.9
 Name: Callassist15 (Roothide)
 Author: xybp888vh
-SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist15.json
 
 Package: com.jtis.callassist16
 Architecture: iphoneos-arm64e
@@ -937,25 +937,6 @@ Name: PrimeDeck (Roothide)
 Author: 0xkuj
 
 Package: com.jtis.sentinel
-Architecture: iphoneos-aảm64
-Version: 1.3.2
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 752
-Depends: mobilesubstrate,ws.hbang.common,preferenceloader,com.opa334.ccsupport
-Filename: ./debs/com.jtis.sentinel_1.3.2_iphoneos-aảm64.deb
-Size: 78040
-MD5sum: c789f12d37a88678238991b68fd22b15
-SHA1: 28263bb91b8083eeba0905229f55073699096ec3
-SHA256: 4b01a437bd8cf1c54d9090a59042ee382d85bb51e3c5342085a5e848ce7227bf
-SHA512: ea8fd1576c49d1df5087e17742a8558dcb317aac6c137a66da4ee1462bc944be35f57a29f9568ef9c1acdb8f8f3010a72c74477a8fa5dd6a0ef5fb66c2daee04
-Description: Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn.
-Name: Sentinel (Rootless)
-Author: MegaDev
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
-Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
-
-Package: com.jtis.sentinel
 Architecture: iphoneos-arm64e
 Version: 1.3.2
 Section: Tweaks
@@ -971,6 +952,25 @@ SHA256: 658c2c43059d63eaa51a28b4f015cd8211ddc3116258687f743aa16af329efff
 SHA512: b3a688fde446ddb0dc10d7c8da294ff6a956d71abe4f017c51db594b1fcdd13b3c3eafbaca2576a9ffb747b789413c4ff86d57501ffb2c90a0dea17ebb9aff3b
 Description: Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn.
 Name: Sentinel (Roothide)
+Author: MegaDev
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
+Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
+
+Package: com.jtis.sentinel
+Architecture: iphoneos-aảm64
+Version: 1.3.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 752
+Depends: mobilesubstrate,ws.hbang.common,preferenceloader,com.opa334.ccsupport
+Filename: ./debs/com.jtis.sentinel_1.3.2_iphoneos-aảm64.deb
+Size: 78040
+MD5sum: c789f12d37a88678238991b68fd22b15
+SHA1: 28263bb91b8083eeba0905229f55073699096ec3
+SHA256: 4b01a437bd8cf1c54d9090a59042ee382d85bb51e3c5342085a5e848ce7227bf
+SHA512: ea8fd1576c49d1df5087e17742a8558dcb317aac6c137a66da4ee1462bc944be35f57a29f9568ef9c1acdb8f8f3010a72c74477a8fa5dd6a0ef5fb66c2daee04
+Description: Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn.
+Name: Sentinel (Rootless)
 Author: MegaDev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
 Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
