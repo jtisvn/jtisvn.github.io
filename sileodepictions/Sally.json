@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Công cụ quản lý & cài đặt file.deb tưeaks iOS19\n\n- Thêm repo có thể xem thông tin tweaks và package thông qua sally.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
+"markdown":" Công cụ quản lý & cài đặt file.deb\n\n- Thêm repo có thể xem thông tin tweaks và package thông qua sally.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -56,7 +56,7 @@
 "title":"Nhà phát triển",
 "text":"Sally Team"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"3.0" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",

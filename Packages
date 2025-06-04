@@ -1787,6 +1787,28 @@ Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
 Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
 
+Package: wiki.qaq.chromatic.rootless
+Architecture: iphoneos-arm64
+Version: 3.0-rootless-release-1726897475.c88adb3
+Section: Applications
+Maintainer: Saily Team <support.0xa1@qaq.wiki>
+Pre-Depends: firmware (>= 13.0), dpkg, uikittools
+Conflicts: wiki.qaq.chromatic
+Filename: ./debs/wiki.qaq.chromatic.rootless_3.0-rootless-release-1726897475.c88adb3_iphoneos-arm64.deb
+Size: 3351032
+MD5sum: 6435fc008d9bc61cf2d5264eee9b753f
+SHA1: 64445660bc5bec635e6524f3d6a58c871a35686a
+SHA256: 1b942fef0c685c78226d1b62c9f4fd6c10c75b73bafd2ccc8baed33042caab91
+SHA512: 3918f2d37e205793b78d6cbb305b7e17317cbe0b91afb6351df500f0d55713d49e6066848f88ad089f88647ff70945892ba53d8081f544cdcd5aa3cf968c9b18
+Homepage: https://sailyteam.github.io/Saily/index.html
+Description: Modern. Fast. Beautiful.
+Name: Saily (Rootless)
+Author: Saily Team <support.0xa1@qaq.wiki>
+Website: https://sailyteam.github.io/Saily/index.html
+Depiction: https://sailyteam.github.io/Saily/index.html
+Icon: https://sailyteam.github.io/Saily/Resources/icon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Sally.json
+
 Package: ws.hbang.alderis
 Architecture: iphoneos-arm64e
 Version: 1.2.3-8+debug
