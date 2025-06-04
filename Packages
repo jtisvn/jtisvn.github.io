@@ -89,6 +89,23 @@ Author: Yangji
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.CircleMaskiOS19
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.CircleMaskiOS19_1.0_iphoneos-arm64.deb
+Size: 20852
+MD5sum: e197d7c8b3c7b6f2119cbff9a35dbbc1
+SHA1: 18ed1d823bb442532e13c57a172aae5845e5dc3c
+SHA256: 040a7650d1d4325ad10aa4bf5d62d812f5110843bede8451af3a9f51c7238f6f
+SHA512: a706d1bb40b8cca3ee63ebd3d597cd4c57675de5f57c80f12900032e56f7efcea04a0916c30385cda8434bf5b876511f1d89fa9c2211c311f87830a63e4c29ab
+Description: Cài đặt MaskAE IOS 19 bo tròn qua tinh chỉnh Snowboard cho IPhone của bạn
+Name: CircleMaskiOS19
+Author: Zhuti
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MaskIOS19.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
 Version: 0.1
