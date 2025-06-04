@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"callassist16 Trợ lý cuộc gọi mạnh mẽ, |Hỗ trợ thiết bị IOS 1.0 - 15.9\n\n Các tính năng gồm:\n\n- Ghi âm cuộc gọi\n\n- Hợp nhất lịch sử cuộc gọi\n\n- Bàn phím T9 chọn thẻ SIM kép khi quay số\n\n- Gửi SMS chọn thẻ SIM kép\n\n- Hiển thị thông tin vùng gọi đến/gọi đi\n\n-Danh sách đen\n\n- Chặn cuộc gọi quấy rối\n\n- Thay thế biểu tượng thanh trạng thái\n\n- Tùy chỉnh định dạng thời gian\n\n- Các tiện ích nhỏ thường dùng và nhiều tính năng mạnh mẽ khác trong một plugin toàn diện.\n\n",
+"markdown":"callassist16 Trợ lý cuộc gọi mạnh mẽ, |Hỗ trợ thiết bị IOS 15.0 - 15.9\n\n Các tính năng gồm:\n\n- Ghi âm cuộc gọi\n\n- Hợp nhất lịch sử cuộc gọi\n\n- Bàn phím T9 chọn thẻ SIM kép khi quay số\n\n- Gửi SMS chọn thẻ SIM kép\n\n- Hiển thị thông tin vùng gọi đến/gọi đi\n\n-Danh sách đen\n\n- Chặn cuộc gọi quấy rối\n\n- Thay thế biểu tượng thanh trạng thái\n\n- Tùy chỉnh định dạng thời gian\n\n- Các tiện ích nhỏ thường dùng và nhiều tính năng mạnh mẽ khác trong một plugin toàn diện.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -66,7 +66,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 15.3"
+"text":"iOS 15.0 đến 15.9"
 },
 {
 "class":"DepictionLabelView",
