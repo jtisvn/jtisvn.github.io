@@ -974,6 +974,27 @@ Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
 Name: PicsArt Gold
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
 
+Package: com.jtis.picsart
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Mở khoá ứng dụng
+Maintainer: JTIS Repo
+Installed-Size: 1049
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.jtis.picsart-rootless
+Filename: ./debs/com.jtis.picsart_1.0.2_iphoneos-arm64e.deb
+Size: 11864
+MD5sum: 791c695af71492777a63c6e52a86087f
+SHA1: ae0a99780afa8d8901dffbc3fdf13c048d37d019
+SHA256: d4c4bef249a2df879f5b15a6400b24e8d14cd9dde470dc6387600701c8ac5361
+SHA512: d3fdb528a7318b783bcd55b75567e499ae8fa93171c4f118dd6da7d3e706c96e6ddeeb38ec8813bf9d2b1f007fba35671173ed681bd95bda3ad3cefed407c69f
+Description: Kích hoạt gói Gold cho ứng dụng PicsArt-hỗ trợ phiên bản mới nhất.
+Author: Lang Khach
+Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
+Name: PicsArt Gold
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
+
 Package: com.jtis.primedeck
 Architecture: iphoneos-arm64e
 Version: 1.3.0
