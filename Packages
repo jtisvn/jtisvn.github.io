@@ -428,6 +428,26 @@ Name: Callassist16 (Roothide)
 Author: xybp888vh
 SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
 
+Package: com.jtis.copylogfix16
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0)
+Conflicts: com.0xkuj.copylogfix16
+Filename: ./debs/com.jtis.copylogfix16_1.0.1_iphoneos-arm64e.deb
+Size: 7584
+MD5sum: 285869b56d0c92029680a49321a1ee4b
+SHA1: 597420affeefdde3516cb2d9c965be1ab110b6b4
+SHA256: a48dccb9dda3cf7217202c392f96bb16e32763f28ff8bfb1ed402bb85556fb68
+SHA512: 81b7100d68dc8ac48105295c5ddc3bd456d2ca184fa2e6a88e22ba1c6ded71ebaaef011a143b94919dee21b1adae3c1c25fc3ef053595f6857c77696f2c5be0a
+Description: Sửa lỗi tinh chỉnh Copylog không hoạt động trên thiết bị iOS16+
+Name: CopyLogFix16 (Roothide)
+Icon: https://files.catbox.moe/aa1rb5.avif
+Author: 0xkuj
+
 Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-arm64e
 Version: 1.0.9
