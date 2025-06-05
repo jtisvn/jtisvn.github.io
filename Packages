@@ -429,6 +429,25 @@ Author: xybp888vh
 SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
 
 Package: com.jtis.copylogfix16
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 168
+Depends: firmware (>= 16.0)
+Conflicts: com.0xkuj.copylogfix16
+Filename: ./debs/com.jtis.copylogfix16_1.0.1_iphoneos-arm64.deb
+Size: 6412
+MD5sum: d3758c15bc1b58c0f45023e4777b5bfe
+SHA1: 4ff4475ac54f9e3ee28857d0a6dd9e9853984e7b
+SHA256: b6ab7bf1eccba123d474da32f5975fb119a7be80f2e6d57c4d4a96a6432bafe7
+SHA512: f5fd678e3bc6610ab8eaaf514e94927b453b39bf65eaa06b3939ca706f376fbc79ba1bdf0e67a77d8b7a0e12ade2c140af56d4e46d5eacf76704d6a5a077747e
+Description: Sửa lỗi tinh chỉnh Copylog không hoạt động trên thiết bị iOS16+
+Name: CopyLogFix16 (Rootless)
+Icon: https://files.catbox.moe/aa1rb5.avif
+Author: 0xkuj
+
+Package: com.jtis.copylogfix16
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
