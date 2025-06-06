@@ -1676,14 +1676,15 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.c1d3r.pulloverpro
 Filename: ./debs/com.netskao.pulloverpro_2.1.6_iphoneos-arm64e.deb
-Size: 700132
-MD5sum: cf416980056d12136fd8ff0f20474591
-SHA1: b71940d4e74a4e55ff851716a1c485f97388576a
-SHA256: 35c0105c55ef74299a0e4d6c05f20a6809f5d32ad63583b459d91ba4660b08c4
-SHA512: 03fea62d3f2c8db512bee9f20428825aa0d93bdcb4c8ce931423b731086b18e96caaae6c068f83ca27e5359a8efed45a7c3212cea50b066f5087ee2f6b1b5c55
+Size: 700160
+MD5sum: 44d7b3f562c98258dd4d6fb625e836df
+SHA1: 9cf658dcc44740a4b7e9caea125afa79ed4cbf7e
+SHA256: eceac8924a0dbe436b61680cc5c2c9b8ad45a2ffeffe836ead74321052ef8c84
+SHA512: effd5e2884887b286b9ba3bb3ac3f254c19f775c5b389287ce7b1e8ac09664469d2a651a7812b8346c1f8e3f90ecc3825cc7eebdf90565828784cc548a31d45a
 Description: Dễ dàng truỵ cập nhanh ứng dụng qua bong bóng chat ở cạnh màn hình - Hồi trợ IOS15+
-Name: PullOver Pro
+Name: PullOver Pro (Roothide)
 Author: c1d3r
+Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
 
 Package: com.opa334.ccsupport
