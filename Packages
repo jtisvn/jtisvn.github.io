@@ -35,6 +35,43 @@ Author: Simon <qiaozhani000@163.com>
 Icon: https://axs66.github.io/repo/icon/llswitch.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
 
+Package: com.bvn.vizagevh
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Depends: mobilesubstrate
+Filename: ./debs/com.bvn.vizagevh_1.0.2_iphoneos-arm64.deb
+Size: 1640
+MD5sum: 65337095b98253a2d76f2ee8df569864
+SHA1: b3a5a322211a6f48555bd55e5c8ee749a92771de
+SHA256: 4ceedfa87ce4cc11093b51a57cc5f48d1cf589051d673ee2ef5faf4dba4026fc
+SHA512: 129fbbfdb761476c58dea8ae4441e889a2c941abc6f1c06d441ea00dbcd699d47a5621b7e5bf372d09362ca513e4604426e47f0a5a768617834294b18f1c821b
+Description: Patch Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đã thanh toán trên nguồn Havoc.
+Name: Vizage Gói Việt Hoá (Rootless)
+Author: JTIS Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.bvn.vizagevh
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.bvn.vizagevh_1.0.2_iphoneos-arm64e.deb
+Size: 2076
+MD5sum: 651d004d8b7bda24d2a6a48d5c210c8e
+SHA1: 676b6a226d7db5547291e7dd1393aa9560d29ee9
+SHA256: 5ced296ca136635107b15fabbc6c36998ffd90500a0b1f3afec4e58dd8075de4
+SHA512: 2080fc23bfecd026e9e083eceec445a05b050959c35155125d4ad4d775e7c6547c6da0d3051fe3eb43757dd3eee3de9ef5ea2d88c67dbb566d85d9d7074a0bf9
+Description: Thêm ngôn ngữ Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đã thanh toán trên nguồn Havoc.
+Name: Vizage Gói Việt Hoá (Roothide)
+Author: JTIS Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64e
 Version: 1.5.8
