@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"Intent là Ứng dụng thứ 3 của Telegram tương tự như Nicegr, Swifgram....\n\n- Kích hoạt gói Pro cho ứng dụng Intent\n\n- Hỗ trợ phiên bản mới nhất..\n\n",
+"markdown":"Kích hoạt gói Pro cho ứng dụng Intent\n\n- Hỗ trợ phiên bản mới nhất.\n\n-Intent là Ứng dụng thứ 3 của Telegram tương tự như Nicegram, Swifgram...\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Intent/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/IntentPro/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -50,7 +50,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Hung Anh"
+"text":"Lang Khach & Hung Anh"
 },
 { "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.1" },
 {
