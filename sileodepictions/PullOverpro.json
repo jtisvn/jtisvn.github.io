@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Kích hoạt gói Pro cho ứng dụng Intent\n\n- Hỗ trợ phiên bản mới nhất.\n\n- Intent là Ứng dụng thứ 3 của Telegram tương tự như Nicegram, Swifgram...\n\n",
+"markdown":"# PullOver Pro\n\n- Thanh công cụ bong bóng chat cạnh màn hình giúp bạn truy cập nhanh ứng dụng gần đây hoặc yêu thích mà không cần thoát ứng dụng đang dùng.\n\n- Ban có thể thay đổi vị trí trái/phải, bật chế độ tối, điều chỉnh kích thước biểu tượng.\n\n- Hỗ trợ phiên bản IOS 15+.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,9 +21,17 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/IntentPro/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/PullOverpro/Screenshots/1.png",
 "accessibilityText":"Screenshot"
-}
+},
+{
+"url":"https://jtisvn.github.io/infodeb/PullOverpro/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/PullOverpro/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+}    
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
@@ -50,9 +58,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Lang Khach & Hung Anh"
+"text":"c1d3r"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.1" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.1.6" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -66,7 +74,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 17.0"
+"text":"iOS 15.0 đến 16.6.1"
 },
 {
 "class":"DepictionLabelView",
@@ -83,7 +91,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiẻn bản 2.1.6\n\n- Sửa lỗi và tăng tốc độ vào app mượt hơn\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",
