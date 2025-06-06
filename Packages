@@ -1214,11 +1214,11 @@ Section: Tweaks
 Maintainer: waruhachi
 Conflicts: com.choco.tg
 Filename: ./debs/com.jtis.tgextra_1.2-1_iphoneos-arm64e.deb
-Size: 4651652
-MD5sum: 4e19fa0fdea7904d0285e1821d772bb9
-SHA1: 0b46fe56d8e708bd1011cd3b36221c15fc74b61f
-SHA256: 8345d108e1b93c8a5967e786c5f71aa5fc8a1990b70ab25be1a10668f8e2662d
-SHA512: a0ef131d6ed0971155b01d5fdb075e3f3b9987e830d9aedb1956f7ae9fe067686809518613f3eae1905a14c95e0277ec492111e114b85faed0cd4b1e162bb6f2
+Size: 4652776
+MD5sum: f9ae0676e34d7b86ec23510da29d28c9
+SHA1: 6356c3c52a991996aaf2d53519b4c9e7869441f7
+SHA256: c3d1912123b35cd4cbc6349e173c7ae5c12aea6ee0fdf266f5428cecb5b05d91
+SHA512: 2b7dcd11a9ec3ad6718cdfcf0fb13d27cd110917a25945cd84079573f96e3ea7e3a50de45f57821646a10d980d3a0fabd0193b7c1d67122c20122b06269be886
 Description: Thêm các chức năng tiện ích cho ứng dụng Swiftgram
 Name: TGExtra(RootHide)
 Icon: https://i.imgur.com/OKvuaJN.jpeg

@@ -90,7 +90,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1.2.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Trong cài đặt TGExtra chọn ngôn ngữ English rồi áp dụng là xong\n\n- Hỗ trợ Rootless vat Roothide Jailbreak"
+"markdown":"#### Phiên bản 1.2.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless vat Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",
