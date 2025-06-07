@@ -877,17 +877,17 @@ Author: jjolano
 Package: com.jtis.iamlazy
 Architecture: iphoneos-arm64
 Version: 2.6.2
-Section: Gói
+Section: Applications
 Maintainer: Lightmann <lightmanns11@gmail.com>
 Installed-Size: 542
 Depends: apt, uikittools, firmware (>= 13.0)
 Conflicts: me.lightmann.iamlazy-cli
 Filename: ./debs/com.jtis.iamlazy_2.6.2_iphoneos-arm64.deb
-Size: 196428
-MD5sum: a2b60298301b7327bd2ce8c80be4b0fd
-SHA1: 383491cf9dc1094ebe58d44f17ed2db43f70c4c9
-SHA256: f13622fc33797a22e28f86a7d0a33aa61069bf9df107c6a76318a93d73a721e8
-SHA512: f3086895e7e843d83bd90ada6658c7e6c1646c7915e3773958d215fefd535e84eccd13c2982a6d6539b491700ea7a5966bbe67284c23cc2a1cb4baaa7f794f23
+Size: 196408
+MD5sum: 93def7925d038c1519428bb490a57c44
+SHA1: f69737ec965f41fba8b9d1c354229af7e1425406
+SHA256: 02810cbc5584d31ca8e2b80b54d83e8384cc96c8a249e4f68dd6c9f57f12b8a8
+SHA512: 67f8bb178c4362bf9835e463b733a70d2981986ed3581486e74d7003a6dc8e03845487cffd30e39e9699d5d0515b15257f008aa2573fc64b72b7531c28edb5a8
 Description: Sao lưu và khôi phục các Tweaks đã cải đặt.
 Tag: compatible_min::ios13.0
 Author: Lightmann <lightmanns11@gmail.com>
