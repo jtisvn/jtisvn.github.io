@@ -1667,6 +1667,26 @@ Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
 
 Package: com.netskao.pulloverpro
+Architecture: iphoneos-arm64
+Version: 2.1.6
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 2440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/com.netskao.pulloverpro_2.1.6_iphoneos-arm64.deb
+Size: 696376
+MD5sum: f496fa736412a2bf16e5949bc2454546
+SHA1: e62d2e8fb322ad4be72b63b3e621be6992c8f236
+SHA256: 77cfccbaa24c600f37552f8fa2930bd584bb77bec0e8b3131f6e6d6cbec7e188
+SHA512: cc6f836d8620bfd45a3c16cc614cd1b01979a5494218d48671571c0dd590fb2b1ee66c621db26b0fa19f888b2d30a79f14bed347fcdb3b85db147e374a640150
+Description: Dễ dàng truỵ cập nhanh ứng dụng qua bong bóng chat ở cạnh màn hình - Hồi trợ IOS15+
+Name: PullOver Pro (Rootless)
+Author: c1d3r
+Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
+
+Package: com.netskao.pulloverpro
 Architecture: iphoneos-arm64e
 Version: 2.1.6
 Section: Netskao-Tweaks
