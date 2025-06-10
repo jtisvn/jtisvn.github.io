@@ -1188,6 +1188,44 @@ Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức
 Name: Snapper 3 Crack (Roothide)
 Author: Jonathan Winger-lang
 
+Package: com.jtis.stealthcc
+Architecture: iphoneos-arm64
+Version: 0.9.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 364
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.stealthcc_0.9.0_iphoneos-arm64.deb
+Size: 21452
+MD5sum: 463f361e5ed809fc661b8607a7863277
+SHA1: ae018f8e353edbf6be6d470d888e57a36ebf9815
+SHA256: b0f8d4eb381ae005060d1232133e7f8f88bf7b106bb2202da5ba5f4337d48f96
+SHA512: b00a48769328a7b5f453b4d35aa11250b848db9ba3a08ea05be4f157a3bbff8f64ef99ab192242e9b78eaa2348cc0513b638603893663f184121b9ec734ecb71
+Description: Điều chỉnh chế độ trong suốt trung tâm điều khiên
+Name: StealthCC (Rootless)
+Author: Luki
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.stealthcc
+SileoDepiction: https://jtisvn.github.io/sileodepictions/StealthCC.json
+
+Package: com.jtis.stealthcc
+Architecture: iphoneos-arm64e
+Version: 0.9.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.stealthcc_0.9.0_iphoneos-arm64e.deb
+Size: 23368
+MD5sum: 49e8ec2326b3a348488a5c74253ed74a
+SHA1: b0917ce79fc55fc35e81df67b33d4ceeb766393c
+SHA256: f8daff366a0feff4f868806ab0fd4119d114f54698e9ae15a31df5c9e221ea92
+SHA512: 4108d4ebdd05fe01a8d447ee1e783e4b18e23c3ea44439fe82fdba3df6c583e6c7679c66b7adbf34fdba9c0e65c5871752aee32f93293c880cfec22f4bc4300a
+Description: Điều chỉnh chế độ trong suốt trung tâm điều khiên
+Name: StealthCC (Roothide)
+Author: Luki
+SileoDepiction: https://jtisvn.github.io/sileodepictions/StealthCC.json
+
 Package: com.jtis.sugarcane
 Architecture: iphoneos-arm64
 Version: 1.2.4.4
