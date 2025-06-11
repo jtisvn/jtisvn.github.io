@@ -1704,6 +1704,26 @@ Name: AdblockPro
 Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
 
+Package: com.mrgcgamer.libgcuniversal
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Section: Development
+Maintainer: MrGcGamer
+Installed-Size: 380
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Filename: ./debs/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64e.deb
+Size: 74482
+MD5sum: b45849ec827c45980aeed019924d8760
+SHA1: 091ee093f38fdd18c72530a9031bdf681d5c6bff
+SHA256: 5bfc9d9a053a43bd8c019b1c642d354018935be7526da62c6f3fd1a50e8a5c63
+SHA512: 6d73594c281676b7a81c3997bf0954ef4bb26117420278608e59039f9103229c2c0a0cb09d9cdd87349b4d0ca9aa5270f59849e17cfaed820efa62bd0e7f09c7
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: LibGcUniversal
+Author: MrGcGamer
+
 Package: com.netskao.pulloverpro
 Architecture: iphoneos-arm64
 Version: 2.1.6
