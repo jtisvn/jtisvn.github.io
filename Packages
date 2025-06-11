@@ -241,14 +241,14 @@ Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Conflicts: com.midnightchips.bettersettings
 Filename: ./debs/com.jtis.april_3.1_iphoneos-arm64.deb
 Size: 393164
-MD5sum: e9505e2d01c85c954801b831d77da24c
-SHA1: fb803f5c2c50f02361e6a5d629e54fe1e02f4f33
-SHA256: 78b85939d605983e3a1240da1368457fc694e6bf29e6392d8cbf4d7ddc0bb063
-SHA512: d2abfb9eb6a4fbeb8d152dcf772d62c17c15efd96355191357f71ddc61985774d651ee06ee60eaf8391ebecbcf0c55f5d8d361be9e2cd5f8116a050151b3c082
+MD5sum: d496a990f72c2ef2eb964f6c41ce9635
+SHA1: 6b573d8f4217692f2e385cf42e92812806cbc12e
+SHA256: 09c3416fe6e0aba34e77c780f8ba367c9fd7cfb80aae26188fe787d9a38d3f1e
+SHA512: 6396f05aa42254d433cce167b4f6044a68b6b8ef503770840b17706c5b979fc16d15b44f911317619986035094728aac71b74f5b47986c6535cf0b9d7f832253
 Description: Nâng tầm thẩm mỹ cho ứng dụng Cài đặt của bạn một cách dễ dàng.
 Name: April (Rootless)
 Author: Luki
-Icon: https://jtisvn.github.io/sectionIcons/April.pmg
+Icon: https://jtisvn.github.io/sectionIcons/April.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/April.json
 
 Package: com.jtis.april
@@ -262,14 +262,14 @@ Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Conflicts: com.midnightchips.bettersettings
 Filename: ./debs/com.jtis.april_3.1_iphoneos-arm64e.deb
 Size: 395284
-MD5sum: 25857860edff0882c82c66cf7e31231c
-SHA1: d76d82be8bed617aa11136c8f83f264596616956
-SHA256: 0652f8a309f0f29fa4d0f586a9357cd692c75182fa2af4d289c9d63d7e5a9831
-SHA512: cea487d2bbb2b94f55af562fe64e7850fa6448bdfad31d7b7d76c8747ea7c0e117e2ee9dfb50a694a01dd7576601e5e8bbbab8162f9193369db2b5544e1c284b
+MD5sum: d5757769915cc303adc95347e022bd6d
+SHA1: 5616c6781e70e538821d0bdd37da0a6a8c30c99b
+SHA256: a9d964381031c071d1de4e8436905924636e24fe2a424cf3523da1018d6aec84
+SHA512: c6de0268a92a0581a62002fc7e09477ecb4001ae222f32731401caa3b1a6e9a4b7a44e093b1c3f8afdd637f89810ac66b9523b6575306da940e99c35df45b371
 Description: Nâng tầm thẩm mỹ cho ứng dụng Cài đặt của bạn một cách dễ dàng.
 Name: April (Roothide)
 Author: Luki
-Icon: https://jtisvn.github.io/sectionIcons/April.pmg
+Icon: https://jtisvn.github.io/sectionIcons/April.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/April.json
 
 Package: com.jtis.autofaceunlock-rootless
