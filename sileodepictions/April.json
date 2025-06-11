@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" April\n\n- Nâng tầm thẩm mỹ cho ứng dụng Cài đặt của bạn một cách dễ dàng.\n\n-\n\n- Hình nền tùy chỉnh cho chế độ tối và sáng.\n\n- Hình nền theo lịch trình: buổi sáng (8h), buổi chiều (12h), hoàng hôn (18h) và nửa đêm (22h).\n\n- Hiệu ứng làm mờ tùy chọn: nhẹ, tối, mạnh, tự động, chất liệu mỏng và Gaussian.\n\n- Độ trong suốt tùy chỉnh cho các ô bảng.\n\n- Gradient màu với các hướng tùy chọn và hiệu ứng chuyển động tùy chọn.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
+"markdown":" April\n\n- Nâng tầm thẩm mỹ cho ứng dụng Cài đặt của bạn một cách dễ dàng.\n\n- Tùy chỉnh hình nền cho chế độ tối và sáng.\n\n- Hình nền theo lịch trình: buổi sáng, buổi chiều, hoàng hôn và nửa đêm.\n\n- Hiệu ứng làm mờ tùy chọn: nhẹ, tối, mạnh, tự động, chất liệu mỏng và Gaussian.\n\n- Tùy chỉnh độ trong suốt cho các ô bảng thư mục.\n\n- Gradient màu với các hướng tùy chọn và hiệu ứng chuyển động tùy chọn.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },

@@ -231,6 +231,47 @@ Icon: https://repo.cypwn.xyz/packages/AppLecard-Rootless/icon.png
 Name: App Lecard (Roothide)
 Author: Crassna
 
+Package: com.jtis.april
+Architecture: iphoneos-arm64
+Version: 3.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 808
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: com.midnightchips.bettersettings
+Filename: ./debs/com.jtis.april_3.1_iphoneos-arm64.deb
+Size: 393164
+MD5sum: e9505e2d01c85c954801b831d77da24c
+SHA1: fb803f5c2c50f02361e6a5d629e54fe1e02f4f33
+SHA256: 78b85939d605983e3a1240da1368457fc694e6bf29e6392d8cbf4d7ddc0bb063
+SHA512: d2abfb9eb6a4fbeb8d152dcf772d62c17c15efd96355191357f71ddc61985774d651ee06ee60eaf8391ebecbcf0c55f5d8d361be9e2cd5f8116a050151b3c082
+Description: Nâng tầm thẩm mỹ cho ứng dụng Cài đặt của bạn một cách dễ dàng.
+Name: April (Rootless)
+Author: Luki
+Icon: https://jtisvn.github.io/sectionIcons/April.pmg
+SileoDepiction: https://jtisvn.github.io/sileodepictions/April.json
+
+Package: com.jtis.april
+Architecture: iphoneos-arm64e
+Version: 3.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: com.midnightchips.bettersettings
+Filename: ./debs/com.jtis.april_3.1_iphoneos-arm64e.deb
+Size: 395284
+MD5sum: 25857860edff0882c82c66cf7e31231c
+SHA1: d76d82be8bed617aa11136c8f83f264596616956
+SHA256: 0652f8a309f0f29fa4d0f586a9357cd692c75182fa2af4d289c9d63d7e5a9831
+SHA512: cea487d2bbb2b94f55af562fe64e7850fa6448bdfad31d7b7d76c8747ea7c0e117e2ee9dfb50a694a01dd7576601e5e8bbbab8162f9193369db2b5544e1c284b
+Description: Nâng tầm thẩm mỹ cho ứng dụng Cài đặt của bạn một cách dễ dàng.
+Name: April (Roothide)
+Author: Luki
+Icon: https://jtisvn.github.io/sectionIcons/April.pmg
+SileoDepiction: https://jtisvn.github.io/sileodepictions/April.json
+
 Package: com.jtis.autofaceunlock-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-7
