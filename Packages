@@ -1014,6 +1014,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/OCD.json
 Icon: https://jtisvn.github.io/sectionIcons/OCD.png
 
 Package: com.jtis.oledkeyboard
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.oledkeyboard_0.0.3_iphoneos-arm64.deb
+Size: 4720
+MD5sum: c3c1425c27138f25066d1531957c4fae
+SHA1: a850bbf976c4a9ea7225c0780b8152b4922ebb94
+SHA256: 81a417c82908a6313323e0b1859986a3a8d122f43d6119ef11933c84a27f87db
+SHA512: c40a7cf354b170e454a98bd72516ab644594a6d5a1793cc7af755d8fc8cd4686e846ed7ce9b840f749c9c67cf36491e2755ae84d03320360a0c7ea6b83f6cf0c
+Description: Thêm chế độ tối Oled cho bàn phím trên thiết bị IOS.
+Name: OledKeyboard (Rootless)
+Author: dvntm
+Icon: https://jtisvn.github.io/sectionIcons/OledKeyboard.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/OledKeyboard.json
+
+Package: com.jtis.oledkeyboard
 Architecture: iphoneos-arm64e
 Version: 0.0.3
 Section: Tweaks
