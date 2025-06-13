@@ -657,6 +657,45 @@ Description: Chọn video làm nền màn hình cho IOS
 Name: Eneko (Roothide)
 Author: Traurige <hello@traurige.dev>
 
+Package: com.jtis.flow
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.flow_1.0_iphoneos-arm64.deb
+Size: 229612
+MD5sum: b0d5e5e6033ee8d4857a92b2851eac97
+SHA1: 8fd9ebc2f636f39954b4a0a110f63c2352b7a4c9
+SHA256: 7ace2b080fb94d946ff74961e8321086656bb69aa077158560601f37cfa91fff
+SHA512: 6dfb97824df71bcc71e3388255a60ea965c81ddf19fed48f7f21d66429343a36818d5c65da69fc05c58af298edbdf34c3b1fe86764a9c65e532a85f4733d78f9
+Description: Chức năng tiện ích cho ứng dụng Messenger
+Name: Flow for Messenger
+Author: dvntm, nowesr1
+Icon: https://jtisvn.github.io/sectionIcons/FlowMerss.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FlowMerss.json
+
+Package: com.jtis.flow
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 532
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.flow_1.0_iphoneos-arm64e.deb
+Size: 231232
+MD5sum: c5f0d721f6737271e74a5c5b988ca2a8
+SHA1: 44d4a8221fe3db9e6c1eac45cd6648d87989b7ed
+SHA256: 135a645de26fb5528ec7da82678261e0e5744361442eb360a1e31374281f340e
+SHA512: 1b03682d3eb6343649c7b5f43d55874c9ff6fbd1e20e8621c813d774d20dd61a46fdeb288ab4fa05292e31b731a87a0beb75c9218645651f718f47a666ae7458
+Description: Chức năng tiện ích cho ứng dụng Messenger
+Name: Flow for Messenger
+Author: dvntm, nowesr1
+Icon: https://jtisvn.github.io/sectionIcons/FlowMerss.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FlowMerss.json
+
 Package: com.jtis.fmwk.hookkit
 Architecture: iphoneos-arm64
 Version: 1.0.15

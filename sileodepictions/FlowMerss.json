@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Flow cho Messager Tính năng tiện ích cho ủng dụng Mmessager.\n\n- Chức năng gốm có:\n\n- Chận quảng cáo.\n\n- Tải story của người khác nút 3 chấm\n\n- Chặn đã đpc tin nhắn và xem story.\n\n- Ẩn trạng thái đang gõ tin nhắn\n\n- xác nhận khi gọi thoại video.\n\n- Mở menu bằng cách nhấn vào Mục cài đặt - góc phải trên - chọn Menu flow.\n\n",
+"markdown":" Flow cho Messenger\n\n Tính năng tiện ích cho ủng dụng Messenger.\n\n- Chức năng gốm có:\n\n- Chận quảng cáo.\n\n- Tải story của người khác bằng nút 3 chấm\n\n- Chặn đã đpc tin nhắn và xem story.\n\n- Ẩn trạng thái đang gõ tin nhắn\n\n- xác nhận khi gọi thoại video.\n\n- Mở menu bằng cách nhấn vào Mục cài đặt - góc phải trên - chọn Menu flow.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
