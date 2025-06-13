@@ -1,0 +1,105 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":" Flow cho Messager Tính năng tiện ích cho ủng dụng Mmessager.\n\n- Chức năng gốm có:\n\n- Chận quảng cáo.\n\n- Tải story của người khác nút 3 chấm\n\n- Chặn đã đpc tin nhắn và xem story.\n\n- Ẩn trạng thái đang gõ tin nhắn\n\n- xác nhận khi gọi thoại video.\n\n- Mở menu bằng cách nhấn vào Mục cài đặt - góc phải trên - chọn Menu flow.\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/FlowMerss/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/FlowMerss/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+}
+],
+
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm"
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin "
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"dvntm"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweak"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"13/6/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 14.0 đến 16.7.10"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Hỗ trợ Roothide Jailbreak"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTIS",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
