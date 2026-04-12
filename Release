@@ -1,11 +1,1 @@
-Origin: JTISVN Repo
-Label: iPhone/iPad-Jailbreak
-Suite: stable
-Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-Components: main
-Description: Apple-Support
-MD5Sum:
- 74e1bc00c953820465894b6aead44488 1083655 Packages
- 408838e185708452b28230151acea5b8 253028 Packages.bz2
+
