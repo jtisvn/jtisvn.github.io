@@ -23116,6 +23116,24 @@ Name: turdus merula
 Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
 Author: Clarity, kok3shidoll, Mineek
 
+Package: com.jtisvn.solstice
+Architecture: all
+Version: 3.0.7
+Section: Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/lsolstice_3.0.7_all.deb
+Size: 52413332
+MD5sum: 2941414ce173870b67fde6a0a362207f
+SHA1: a1371caeac533c661b43261c3e5e9b5cd4525498
+SHA256: df47761c493837d787b73922c6009ee3e722dcdbbceb2fe44820fec2dbd90210
+SHA512: 508beaa402eba885488eef3be3729fb12982c601134eefd1a96274c93299856a165e407c99a36a5481e3e1ba292f6db829281ab5456d5e84c97452eb150ed30c
+Description: Chủ đề Solstice iOS18 Dark
+Name: Solstice Theme
+Author: Rifai
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Solstice.json
+Depiction: https://jtisvn.github.io/depictions/Solstice.html
+Icon: https://jtisvn.github.io/sectionIcons/Solstice.png
+
 Package: me.ahmedbafkir.dleasy
 Architecture: iphoneos-arm64
 Version: 2.14.9
