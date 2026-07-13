@@ -1,0 +1,224 @@
+{
+"minVersion": "0.1",
+"headerImage": "https://k37ios.pages.dev/banner/banner.png",
+"tintColor": "#4facfe",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://k37ios.pages.dev/info/Screenshots/Zone/1.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://k37ios.pages.dev/info/Screenshots/Zone/2.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://k37ios.pages.dev/info/Screenshots/Zone/3.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://k37ios.pages.dev/info/Screenshots/Zone/4.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://k37ios.pages.dev/info/Screenshots/Zone/5.png",
+"accessibilityText": "Screenshot"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "### Zone\n\n- Tinh chỉnh quản lý hình nền mạnh mẽ cho iOS, mang đến không gian sống động với hình nền video và tương tác định dạng (.tendies).\n\n- **Tính năng nổi bật:**\n- Tùy chỉnh độc lập: Cài đặt hình nền riêng biệt hoặc chung cho Màn hình khóa và Màn hình chính.\n- Sức mạnh Engine: Tương thích hoàn hảo với Chế độ tối, hỗ trợ can thiệp sâu để sửa từng lớp (nền, nổi, tiền cảnh) và mã CAML.\n- Tiện ích đi kèm: Chạm kép để khóa màn hình, tùy chỉnh đổ bóng chữ và tốc độ hoạt ảnh.\n\n- **Tối ưu Pin & Hiệu năng:**\n- Ép xung Render: Cho phép giảm độ phân giải xuống 70%, 50% hoặc 25% để máy luôn mượt và tiết kiệm pin.\n- Quản lý RAM thông minh: Tự động đóng băng hình nền, giải phóng bộ nhớ khi bạn mở ứng dụng khác hoặc khi thiết bị bật Chế độ nguồn điện thấp.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iosdump",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14/06/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.0.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1,21 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.0.0\n\n- Thêm đầy đủ ngôn ngữ Tiếng Việt.\n- Sửa lỗi.\n\n### Phiên bản 1.3.0\n\n- Thêm ngôn ngữ Tiếng Việt."
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Hệ Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"title": "Xem mô tả",
+"action": "https://k37ios.pages.dev/info/depictions/Zone.html",
+"icon": "https://img.icons8.com/ios-filled/50/4facfe/document.png"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": 1,
+"title": "Tham gia nhóm chat Telegram",
+"action": "https://t.me/jtisvietnamrepo",
+"icon": "https://img.icons8.com/ios-filled/50/4facfe/telegram-app.png"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": 1,
+"title": "Liên hệ tôi",
+"action": "https://t.me/Kitsudo",
+"icon": "https://img.icons8.com/ios-filled/50/4facfe/telegram-app.png"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": 1,
+"title": "Ủng hộ tôi",
+"action": "https://k37ios.pages.dev",
+"icon": "https://img.icons8.com/ios-filled/50/4facfe/hearts.png"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

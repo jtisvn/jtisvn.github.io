@@ -18603,6 +18603,46 @@ Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
 
+Package: com.jtisvn.zone
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 1148
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: ./debs/com.jtisvn.zone_2.0.0_iphoneos-arm64.deb
+Size: 220068
+MD5sum: a5760e3768ae1b14fd7a0b80eda5234f
+SHA1: 38456b31ca682286ea79d87919f389709b1a15c0
+SHA256: 3c832ef2fcd9c169748cb1bc87f73211c72dff902cb6da38d77678d85daa1fe5
+SHA512: 3e076489f6cc113e57512a452b5b3af1885a8b1aac5e47cead273670b93382b226652ee973dbe89c2c7cb0d4cf5a8d6af87a29a23c235b00acd6dbaaef57d8b6
+Description: Zone là tinh chỉnh giúp cài đặt hình nền tương tác định dạng .tendies hình nền video. Hỗ trợ iOS 14 - 17.
+Name: Zone (Rootless)
+Author: iosdump
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Zone.json
+Depiction: https://jtisvn.github.io/depictions/Zone.html
+Icon: https://k37ios.pages.dev/assets/Zone.png
+
+Package: com.jtisvn.zone
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 1144
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: ./debs/com.jtisvn.zone_2.0.0_iphoneos-arm64e.deb
+Size: 218740
+MD5sum: e88f7ba06149e8f47a2650f040e1bc58
+SHA1: 1d89c91728273e9cda652b5bd9055163ac580ae0
+SHA256: 1d7f7a8c3229122e9cd6a24c40826379d190774322b04a3f4e6dfb4d9fea0f25
+SHA512: 62d26d5fae3aed6c78db590c6f40a56782c21be8b6d175568f560b696be922aa3b047ac35b02f565218d229f098bc2ec71e4a266e501511a728e4cbe0fc5ac6c
+Description: Zone là tinh chỉnh giúp cài đặt hình nền tương tác định dạng .tendies hình nền video. Hỗ trợ iOS 14 - 17.
+Name: Zone (Roothide)
+Author: iosdump
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Zone.json
+Depiction: https://jtisvn.github.io/depictions/Zone.html
+Icon: https://k37ios.pages.dev/assets/Zone.png
+
 Package: com.julioverne.appellancy11
 Architecture: iphoneos-arm
 Version: 1.1-20b
