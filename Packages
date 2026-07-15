@@ -74,6 +74,26 @@ Name: Orion Runtime (iOS 14 – 17)
 Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
 Depiction: https://chariz.com/get/orion-runtime14
 
+Package: com.roothide.manager
+Architecture: iphoneos-arm64e
+Version: 1.3.9
+Section: System
+Maintainer: roothide
+Installed-Size: 1108
+Depends: firmware (>= 15.0)
+Filename: ./debs/RootHide Manager-1.3.9-iphoneos-arm64e.deb
+Size: 754942
+MD5sum: 2aa7b4019445708e6fdaa6f1ee6f4a66
+SHA1: 513bdf4b3d83baa07b73131dd0d7877b99beb943
+SHA256: b8f075e1844709845962900b22fe71136a66369a2c35bb1201087f2fd9476b7d
+SHA512: 971b2e4fdfeab9727964152b0830cc43de889273c96f6107d3744cb118ef058966ac567b4f9a73a73d45de232deb4a04f89e57d080a1f191394ba1c8604f84c8
+Description: Configuare RootHide's Features
+Name: RootHide Manager
+Author: roothide
+Icon:
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
+
 Package: ai.akemi.appsyncunified
 Architecture: iphoneos-arm64
 Version: 112.0
