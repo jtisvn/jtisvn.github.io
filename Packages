@@ -953,6 +953,26 @@ Depiction: http://jtisvn.github.io/depiction/Touchviz.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Touchviz.json
 Icon: https://jtisvn.github.io/sectionIcons/Touchviz.png
 
+Package: com.82flex.touchvis
+Architecture: iphoneos-arm64e
+Version: 4.0.2
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.82flex.touchvis_4.0.2_iphoneos-arm64e.deb
+Size: 915852
+MD5sum: de6330004b267344da35b4a626f16eb6
+SHA1: 29dcecc5e8e724fb0b05092036bc9f10d32e29a6
+SHA256: c2e07bb808e7cf3809df571ba33501f13afca8ab3b0ee114845d4a8517d7485a
+SHA512: db9d206b12c91ab05e7839011f2e8e5561434289a99ad4b86624a2ed1f737e3d2b6fec22e723e79ad84fbedea9d1053245f1be0ae790b236e82952dffc351dac
+Description: Hiển thị cảm ứng tương tác của bạn trên màn hình.
+Name: Touch-Viz (Roothide)
+Author: Lessica <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Touchviz.json
+Icon: https://jtisvn.github.io/sectionIcons/Touchviz.png
+
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -21566,6 +21586,45 @@ Author: Ryan Nair <ryannairtweaks@gmail.com>
 Name: AudioSnapshotServer 2
 Icon: https://img.chariz.cloud/icon/audiosnapshotserver2/icon@3x.png
 Depiction: https://chariz.com/get/audiosnapshotserver2
+
+Package: com.sini.filzaswipeselect
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini.filzaswipeselect_0.0.2_iphoneos-arm64.deb
+Size: 8764
+MD5sum: 1bec53227ef7ce8c2256a5fee089e96e
+SHA1: 546394dc6f0a775fe8bff020db97544962f50a76
+SHA256: 4f137cd52e13fb55ab739d6d77310b1c161994495a82001fdeed70fde84d9f67
+SHA512: 0758a9d41f18d1f94185884db6a5d6ee97942dec6497ca87e8f861037a9901494cb2c13683dcb9d50d09883acb1bb72bf67d76c3b806802ab4b75a183a04de86
+Description: Tính năng vuốt để chọn nhiều file trong Filza. Không cần phải nhấn chọn từng file một nữa。
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzaswipeselect/js.json
+Name: FilzaSwipeSelect (Rootless)
+Author: korboy <korboybeats@gmail.com>
+
+Package: com.sini.filzaswipeselect
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini.filzaswipeselect_0.0.2_iphoneos-arm64e.deb
+Size: 8952
+MD5sum: 43ebd112509fa68fb269f28aaa0f11a0
+SHA1: e5d293af9b10e7caa036d8cab42eacc15623f97a
+SHA256: 320fd6990556fd7e54dd10bfad0fdd0e92c46063fce481c04c659edbd1f8edab
+SHA512: 1d29e9158b7b05f785342af78551f1e7301aa11b121b208e5648f06798cc36b169db9c348ea230ae34b5f7ea8e141b03988c6e8c52c2b8f5d6a4b5a454f1a017
+Description: Tính năng vuốt để chọn nhiều file trong Filza. Không cần phải nhấn chọn từng file một nữa。
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzaswipeselect/js.json
+Name: FilzaSwipeSelect (Roothide)
+Author: korboy <korboybeats@gmail.com>
 
 Package: com.skypain.cclocation
 Architecture: iphoneos-arm64
