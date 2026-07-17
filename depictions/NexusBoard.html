@@ -104,27 +104,35 @@
             to { opacity: 1; }
         }
 
+        /* --- CSS CHO CUỘN ẢNH BÊN NGOÀI --- */
         .screenshots-scroll {
             display: flex;
             overflow-x: auto;
             gap: 12px;
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
-            scrollbar-width: none; 
+            scrollbar-width: none; /* Firefox */
             justify-content: flex-start;
+            cursor: grab; /* Hiện con trỏ bàn tay */
         }
         .screenshots-scroll::-webkit-scrollbar {
-            display: none; 
+            display: none; /* Chrome, Safari, Opera */
+        }
+        .screenshots-scroll:active {
+            cursor: grabbing; /* Đổi con trỏ khi đang kéo */
         }
 
         .screenshot-img {
             width: 160px;
             height: auto;
-            border-radius: 0px; /* Cập nhật itemCornerRadius: 0 từ JSON */
+            border-radius: 0px; 
             border: 1px solid var(--separator-color); 
-            cursor: pointer;
+            /* Chặn hành vi kéo thả ảnh mặc định của trình duyệt để vuốt không bị lỗi */
+            user-select: none;
+            -webkit-user-drag: none;
         }
 
+        /* --- CSS MODAL (FULL MÀN HÌNH) --- */
         .modal {
             display: none; 
             position: fixed; 
@@ -138,30 +146,64 @@
             backdrop-filter: blur(5px);
         }
 
-        .modal-content {
+        .modal-content-container {
+            position: relative;
             margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 80%;
+        }
+
+        .modal-content {
             display: block;
-            width: 85%;
-            max-width: 700px;
+            max-width: 85%;
+            max-height: 100%;
             border-radius: 8px;
             animation: zoom 0.3s;
+            object-fit: contain;
+            user-select: none; 
         }
 
         @keyframes zoom {
-            from {transform:scale(0)} 
-            to {transform:scale(1)}
+            from {transform:scale(0.9); opacity: 0;} 
+            to {transform:scale(1); opacity: 1;}
         }
 
         .close {
             position: absolute;
             top: 15px;
-            right: 35px;
+            right: 25px;
             color: #f1f1f1;
             font-size: 40px;
             font-weight: bold;
             cursor: pointer;
+            z-index: 10001;
         }
 
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 15px;
+            user-select: none;
+            transition: color 0.3s;
+            z-index: 10000;
+        }
+        .nav-btn:hover { color: white; }
+        .prev-btn { left: 5%; }
+        .next-btn { right: 5%; }
+
+        @media (max-width: 768px) {
+            .nav-btn { display: none; }
+        }
+
+        /* --- CÁC THÀNH PHẦN KHÁC --- */
         ul { padding-left: 20px; margin-top: 5px;}
         li { margin-bottom: 8px; line-height: 1.5; }
         p { line-height: 1.5; margin-bottom: 10px; }
@@ -244,20 +286,21 @@
         
         <div id="info" class="tab-content active">
             
-            <div class="screenshots-scroll">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/3.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/4.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/5.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/6.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/7.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/8.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/9.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/10.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/11.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/12.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/13.png" class="screenshot-img" onclick="openImage(this)">
+            <div class="screenshots-scroll" id="screenshot-container">
+                <!-- Chuyển onclick trực tiếp sang event listener trong Javascript -->
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/1.png" class="screenshot-img" data-index="0">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/2.png" class="screenshot-img" data-index="1">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/3.png" class="screenshot-img" data-index="2">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/4.png" class="screenshot-img" data-index="3">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/5.png" class="screenshot-img" data-index="4">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/6.png" class="screenshot-img" data-index="5">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/7.png" class="screenshot-img" data-index="6">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/8.png" class="screenshot-img" data-index="7">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/9.png" class="screenshot-img" data-index="8">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/10.png" class="screenshot-img" data-index="9">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/11.png" class="screenshot-img" data-index="10">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/12.png" class="screenshot-img" data-index="11">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/13.png" class="screenshot-img" data-index="12">
             </div>
 
             <div>
@@ -399,12 +442,18 @@
 
     </div>
 
-    <div id="myImageModal" class="modal" onclick="closeImage()">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
+    <!-- LIGHTBOX -->
+    <div id="myImageModal" class="modal">
+        <span class="close" onclick="closeImage()">&times;</span>
+        <span class="nav-btn prev-btn" onclick="changeImage(-1)">&#10094;</span>
+        <div class="modal-content-container">
+            <img class="modal-content" id="img01">
+        </div>
+        <span class="nav-btn next-btn" onclick="changeImage(1)">&#10095;</span>
     </div>
 
     <script>
+        // XỬ LÝ TAB
         function openTab(evt, tabName) {
             var i, tabcontent, tablinks, tabNav;
             tabcontent = document.getElementsByClassName("tab-content");
@@ -430,14 +479,132 @@
             evt.currentTarget.className += " active";
         }
 
-        function openImage(element) {
-            var modal = document.getElementById("myImageModal");
-            var modalImg = document.getElementById("img01");
+        // ============================================
+        // LOGIC KÉO CHUỘT (DRAG) ĐỂ CUỘN ẢNH BÊN NGOÀI
+        // ============================================
+        const slider = document.getElementById('screenshot-container');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+        let isDragging = false; // Phân biệt giữa bấm mở ảnh và đang giữ để lướt
+
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            isDragging = false; // Reset trạng thái drag
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+        });
+
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+        });
+
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 1.5; // Tốc độ cuộn (nhân 1.5)
+            
+            if (Math.abs(walk) > 5) {
+                isDragging = true; // Nếu chuột di chuyển > 5px thì tính là đang lướt
+            }
+            
+            slider.scrollLeft = scrollLeft - walk;
+        });
+
+        // ============================================
+        // XỬ LÝ CLICK MỞ MODAL & VUỐT MODAL (BÊN TRONG)
+        // ============================================
+        var currentImgIndex = 0;
+        var imageArray = [];
+        var modal = document.getElementById("myImageModal");
+        var modalImg = document.getElementById("img01");
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if(slider) {
+                var imgs = slider.getElementsByTagName('img');
+                for (var i = 0; i < imgs.length; i++) {
+                    imageArray.push(imgs[i].src);
+                    
+                    // Xử lý click: Nếu đang lướt (kéo thả) thì KHÔNG mở ảnh
+                    imgs[i].addEventListener('click', function(e) {
+                        if (isDragging) {
+                            e.preventDefault(); // Chặn việc click nếu đang kéo chuột
+                            return;
+                        }
+                        var index = parseInt(this.getAttribute('data-index'));
+                        openImage(index);
+                    });
+                }
+            }
+        });
+
+        function openImage(index) {
+            currentImgIndex = index;
             modal.style.display = "block";
-            modalImg.src = element.src; 
+            modalImg.src = imageArray[currentImgIndex];
+            
+            modalImg.style.animation = 'none';
+            modalImg.offsetHeight; 
+            modalImg.style.animation = 'zoom 0.3s';
         }
 
-        function closeImage() { document.getElementById("myImageModal").style.display = "none"; }
+        function closeImage() { 
+            modal.style.display = "none"; 
+        }
+
+        function changeImage(direction) {
+            currentImgIndex += direction;
+            if (currentImgIndex >= imageArray.length) currentImgIndex = 0;
+            if (currentImgIndex < 0) currentImgIndex = imageArray.length - 1;
+
+            modalImg.src = imageArray[currentImgIndex];
+            modalImg.style.animation = 'none';
+            modalImg.offsetHeight; 
+            modalImg.style.animation = 'fadeIn 0.2s';
+        }
+
+        // Đóng khi bấm ra viền đen Modal
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                closeImage();
+            }
+        }
+
+        // Phím mũi tên
+        document.addEventListener('keydown', function(event) {
+            if (modal.style.display === "block") {
+                if (event.key === "ArrowLeft") changeImage(-1);
+                else if (event.key === "ArrowRight") changeImage(1);
+                else if (event.key === "Escape") closeImage();
+            }
+        });
+
+        // Vuốt trên màn hình cảm ứng trong Modal
+        var touchStartX = 0;
+        var touchEndX = 0;
+        var swipeThreshold = 50;
+
+        modal.addEventListener('touchstart', function(event) {
+            touchStartX = event.changedTouches[0].screenX;
+        }, false);
+
+        modal.addEventListener('touchend', function(event) {
+            touchEndX = event.changedTouches[0].screenX;
+            handleSwipe();
+        }, false);
+
+        function handleSwipe() {
+            var diff = touchEndX - touchStartX;
+            if (Math.abs(diff) > swipeThreshold) {
+                if (diff < 0) changeImage(1); // Vuốt trái -> Tiếp
+                else changeImage(-1);         // Vuốt phải -> Lùi
+            }
+        }
     </script>
 </body>
 </html>
