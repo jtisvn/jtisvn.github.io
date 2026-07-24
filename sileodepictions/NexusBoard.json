@@ -198,6 +198,54 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
+"markdown":"### Phiên bản 5.1\n- Thêm tuỳ chọn màu viền các mô đun Trung tâm điều khiển\n- Thêm tuy chọn màu cuộc gọi đến, gọi đi và gọi nhỡ trong tab gần đây\n- Sửa lỗi tính năng hiển thị tên dưới biểu tượng thanh Dock k hoạt động\n- Sửa lỗi đen màn cài đặt.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
+{
+"markdown":"### Phiên bản 5.0\n- Thêm thời gian chính xác cuộc gọi gần đây\n- Thêm bỏ qua xác nhận xoá ảnh & video\n- Sửa lỗi bị đè biểu tượng chọn tuỳ chỉnh thư mục 5x5 6x6\n- Sửa lại tách riêng ẩn tên ứng dụng MHC và trong thư mục",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
+{
+"markdown":"### Phiên bản 4.9\n- Thêm tuỳ chỉnh video hiển thị trên Trung tâm điều khiển\n- Thêm tuỳ chọn vị trí nút X trong Đa nhiệm\n- Sửa lỗi lệch tỉ lệ Trung tâm điều khiển khi bật tính năng đa nhiệm iPad.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
+{
+"markdown":"### Phiên bản 4.8\n- Thêm xoá tiền tố URL trong Safari\n- Thêm hiển thị đầy đủ URL trong Safari\n- Thêm hiển thị thanh trạng thái trong đa nhiệm\n- Sửa lỗi.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
+{
+"markdown":"### Phiên bản 4.7\n- Thêm tự động bật/tắt chế độ nguồn điện thấp khi không sạc hoặc đang sạc\n- Thêm ẩn nền biểu tượng thư mục Màn hình chính\n- Sửa lỗi Safemode trên 1 số thiết bị.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
+{
+"markdown":"### Phiên bản 4.6\n- Thêm tự động cuộn video tiếp thro sau khi xem hết video hiện tại\n- Thêm ẩn logo phần thưởng sự kiện ứng dụng TikTok.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
+{
 "markdown":"### Phiên bản 4.5\n- Thêm mục thông tin, liên hệ báo cáo lỗi & yêu cầu tính năng\n- Thêm video bìa trên mục iCloud trong cài đặt\n- Thay đổi & sửa một số lỗi.",
 "useSpacing":true,
 "class":"DepictionMarkdownView"
