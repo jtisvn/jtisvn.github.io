@@ -18480,6 +18480,43 @@ Depiction: http://jtisvn.github.io/depiction/KineWall.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/KineWall.json
 Icon: https://jtisvn.github.io/sectionIcons/KineWall.png
 
+Package: com.jtisvn.kroppenroud
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14)
+Filename: ./debs/com.jtisvn.kroppenroud_1.0_iphoneos-arm64.deb
+Size: 7328
+MD5sum: 1dc43d4780551d9f0235840c4c59ccad
+SHA1: 5245da4f2769c429a7464940661e243ab7416abe
+SHA256: b3b9cf7c65afd68a66aac87156e78b63b075081e611d34fd87f00a86dd1dcea8
+SHA512: 752b05857f4952f8a0324b9e0efb5ad439b808db91f198090d5b9c99943040f37f14c315e9ffccc1e83f5b529faea8e2d8d3bdc44edc9df307467e78fbdc6dab
+Description: Cài đặt phông chữ kích hoạt qua AIM
+sileodepiction: https://jtisvn.github.io/sileodepictions/KroppenRound.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Name: Kroppen Round
+Author: Alexman & Kennyroo
+
+Package: com.jtisvn.kroppenroud
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14)
+Filename: ./debs/com.jtisvn.kroppenroud_1.0_iphoneos-arm64e.deb
+Size: 9140
+MD5sum: 87a96dbe8b5ecedb5c01fb763fa01b0d
+SHA1: 92f040b680d1d6de2716afecadfa85d8caf8c88a
+SHA256: d561c0847d52ad16e666f9a275256072e0d49aeba0b0d02a6ee5b64909637fdc
+SHA512: 60c420483f36be1a78bf2c44aa31015823d6372041051b8508b88c8f7722d551c8abeaceb0781dac5c8a0790c194f328d24508171ec2b1e5add24ba7bedf3a8f
+Description: Cài đặt phông chữ kích hoạt qua AIM
+sileodepiction: https://jtisvn.github.io/sileodepictions/KroppenRound.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Name: Kroppen Round
+Author: Alexman & Kennyroo
+
 Package: com.jtisvn.laetus
 Architecture: iphoneos-arm64
 Version: 3.5.1
@@ -18685,6 +18722,61 @@ Name: SettingsRevamp (Roothide)
 Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
+
+Package: com.jtisvn.slipstream
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14)
+Filename: ./debs/com.jtisvn.slipstream_1.0_iphoneos-arm64.deb
+Size: 56964
+MD5sum: b901d09e44dd08052a5f7542b30651b9
+SHA1: 2d8bcfe8ecd216d95c3b93efaaa00cc591e2fd1a
+SHA256: 56cd3a73bdaa2ec1b382d96ba3223c1712171476f070beedac461e4972e5f682
+SHA512: a98f2429e7d0608a2c13a67d8a8ac466e874a7b6081cdc2220143d55345387180fa9c28a6593a019082a46eb44f359416e0850f4857eb82f0014091bceb5991d
+Description: Cài đặt phông chữ kích hoạt qua AIM
+sileodepiction: https://jtisvn.github.io/sileodepictions/SlipstreamLET.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Name: Slipstream_LETf
+Author: legionfonts
+
+Package: com.jtisvn.slipstream
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14)
+Filename: ./debs/com.jtisvn.slipstream_1.0_iphoneos-arm64e.deb
+Size: 65826
+MD5sum: 8c2c4be7e02f3d43ab87a31d42a14b33
+SHA1: 553633ee5736fe7e57bb054585cf230507b15d51
+SHA256: 15bbee968144d0bb3deeb4e4ba379892990eb49a1394c2730fb6e7d21dcb973d
+SHA512: 2d47da5c3f1f5564d22092321a21594af5e42d9360444b4dfe3b38d2adae3550a6dd127e0f49dc8c8af4b84d1edd8f52c1ea9e96d56b76ec760cb66497b2db48
+Description: Cài đặt phông chữ kích hoạt qua AIM
+sileodepiction: https://jtisvn.github.io/sileodepictions/SlipstreamLET.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Name: Slipstream_LETf
+Author: legionfonts
+
+Package: com.jtisvn.solidglass27
+Architecture: all
+Version: 3.0
+Section: Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtisvn.solidglass27_3.0_all.deb
+Size: 29530952
+MD5sum: 118ecb3dfc29e2dbed8c4b6bdaac58d8
+SHA1: ed6d3fd30a8dda07bac89ebee111eb7dd812a633
+SHA256: 94833fc89333a5400d3e75cb050f67e0c1842acb150a84292b26a1838cc4288c
+SHA512: c8cce63c8f8a9fb5c16946856804c09c3a55b89001944b80a3252906b75278f5a5076b955196edcddf839b8e89c5d9ebd5759f859525c480afad3dc077dda6ff
+Description: iOS 27 icons for older devices. Theme kích hoạt qua snowboard.
+Name: Solid Glass 27
+Author: Unknown
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SolidGlass27.json
+Depiction: https://jtisvn.github.io/depictions/SolidGlass27.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtisvn.zone
 Architecture: iphoneos-arm64
