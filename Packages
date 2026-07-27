@@ -18351,6 +18351,49 @@ Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/InfiniteMedia.json
 Icon: https://jtisvn.github.io/icons/apps/avatar.webp
 
+Package: com.jtisvn.infinitemedia
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 484
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.infinitemedia_1.0.2_iphoneos-arm64.deb
+Size: 65380
+MD5sum: a808503654a9bd136813507dbedb903f
+SHA1: 6eab92a7c5f3e7014d24e8f0fdb45cc6732d1fb4
+SHA256: 9aef41d971bb84a6397c4a506b498ceb1a1e56df91c2ac1a97882527ad3867c9
+SHA512: 619505be727b4beef165557fa2f8a6eb5ccfb325f222de4b5ce9036ef0e404249292b42af33c47b2d7a3fad389900c8ef33f69e73503a910ed552f6ea41149cc
+Homepage: https://jtisvn.github.io
+Description: Nâng cao trải nghiệm thư vuện Ảnh & Camera.
+Name: InfiniteMedia (Rootless)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
+SileoDepiction:  https://k37ios.pages.dev/info/sileodepictions/InfiniteMedia.json
+Icon: https://k37ios.pages.dev/assets/InfiniteMedia.png
+
+Package: com.jtisvn.infinitemedia
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 484
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.infinitemedia_1.0.2_iphoneos-arm64e.deb
+Size: 65380
+MD5sum: 0cf706d53d14d4e951125e8e67513f9a
+SHA1: 6c9664b3817bb8950a5f3ba45b21808151549795
+SHA256: b660235f0fa608fa6dd5b2131e9277d52f446b9139f4283a392f28ae972c0da1
+SHA512: cb2a66523a89d14ac1d58e7a0fbd5ded3dc19f4a2fa4fd5e8e1f256d2851fe1612f390dbed2f31416b7d729a1265b6e1dd0153f3d8f890cb0cf583bd248f80f9
+Homepage: https://jtisvn.github.io
+Description: Nâng cao trải nghiệm thư vuện Ảnh & Camera.
+Name: InfiniteMedia (Roothide)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
+SileoDepiction:  https://k37ios.pages.dev/info/sileodepictions/InfiniteMedia.json
+Icon: https://k37ios.pages.dev/assets/InfiniteMedia.png
+
 Package: com.jtisvn.kinewall
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -19028,6 +19071,49 @@ Description: Thêm đầy đủ ngôn ngữ Tiếng Viet cho tweak HideSerialNum
 Name: HideSerialNumber gói Việt Hóa
 Author: Kitsudo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.lockbuttoncall
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 172
+Depends: mobilesubstrate (>= 15.0)
+Filename: ./debs/com.kitsudo.lockbuttoncall_0.0.1_iphoneos-arm64.deb
+Size: 6052
+MD5sum: 50c11242ebb68717b48e49e637c146bc
+SHA1: 664be573159d1c8a4fea2bf235b8f5bf2fc993c8
+SHA256: deee907e5491f1ce4a9fee47f86993db47262acdd537c5b37260d0a09bcac54a
+SHA512: ad990ce877a135593a038be71a35e0a11f3e2fd6b42995795ba66f01c5f5fc7fee426ecb25cce9fda674f6e70c664acdbee93ad199d7f7dc1d54c61c64776e46
+Description: Replace "slide to answer" with Answer/Decline buttons on Lock Screen.
+  	 *  Thay thế thanh trượt trả lời cuộc gọi bằng nút bấm Chấp nhận/Từ chối trên màn hình khóa.
+Name: LockButtonCall (Rootless)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/ClockTimeFont.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/LockButtonCall.json
+Icon: https://k37ios.pages.dev/assets/LockButtonCall.png
+
+Package: com.kitsudo.lockbuttoncall
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 15.0)
+Filename: ./debs/com.kitsudo.lockbuttoncall_0.0.1_iphoneos-arm64e.deb
+Size: 6060
+MD5sum: fb537cde975e467d471b7a5a8f931b69
+SHA1: 748701d539dd6e677ed3855c8e876d9acef00139
+SHA256: 85e25eae3b028273ab712a863d33c8005a00baa49470e7b32aca008949fce9fa
+SHA512: 37bf6dd23924069d6081eb1bca612bc8a00534a586b027b045a9fca96a45cbd9c7c85805ae592da2044f2916af83d92f3da00e7dead07635ba5f845f5c383e81
+Description: Replace "slide to answer" with Answer/Decline buttons on Lock Screen.
+  	 *  Thay thế thanh trượt trả lời cuộc gọi bằng nút bấm Chấp nhận/Từ chối trên màn hình khóa.
+Name: LockButtonCall (Roothide)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/ClockTimeFont.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/LockButtonCall.json
+Icon: https://k37ios.pages.dev/assets/LockButtonCall.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64
