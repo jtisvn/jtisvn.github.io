@@ -84,7 +84,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0",
+"text": "1.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -125,7 +125,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản mod lại bởi Kitsudo\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.1\n\n- Chủ đề mod lại bởi Kitsudo."
 }
 ],
 "class":"DepictionStackView"
