@@ -11688,6 +11688,23 @@ Name: Limneos Crack (Roothide)
 Author: CBZ
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.limneos-crack
+Architecture: iphoneos-arm64
+Version: 3.1
+Section: TweaksIcon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.limneos-crack_3.1_iphoneos-arm64.deb
+Size: 4464
+MD5sum: f57700c1a0b1e87f37f76da46edbb0f4
+SHA1: 21aab26769e5d15fddbc86ddced99cf64fbc7bdc
+SHA256: 9d979a6bb89e306926e5dcd2994969881b2bb134e134c2c131079045975b1cad
+SHA512: 154b277abd159d32075c983a2c49da6722b7bd7a4f34fdd8abd4092ffa75a50568d4e81e5cd489285a185dcfc3abc1c62af4cf89e173c3d84cb1629839158bd9
+Description: Crack các tinh chỉnh của Limneos bởi CBZ. Compiled using NewABI
+Name: Limneos Crack (Rootless)
+Author: CBZ
+
 Package: com.jtis.limneos
 Architecture: iphoneos-arm
 Version: 3.1-1
@@ -17030,18 +17047,17 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
 
 Package: com.jtis.vibett
 Architecture: iphoneos-arm64
-Version: 1.72
+Version: 1.75-1+debug
 Section: Tweaks
 Maintainer: DeNsor
-Installed-Size: 864
+Installed-Size: 1476
 Depends: mobilesubstrate (>= 0.9.5000)
-Replaces: com.den.vibett
-Filename: ./debs/com.jtis.vibett_1.72_iphoneos-arm64.deb
-Size: 137520
-MD5sum: 6ba79e261bb3036c0eecd72d91ebc364
-SHA1: aa54c7c621a4aed404fcd562aa8d941aadf807d6
-SHA256: d20b168d26cf00344a0f7cd785549ce40f1cb6419cabed52a324ace55df47a0b
-SHA512: 026f8d308457d50c49c63099765d9b7dee64f9972bba9a4022e56fd51b4f34aac6c01cd1649098da9c3a95469a69f496d7caa4081c2df51fc1300c662f566be1
+Filename: ./debs/com.jtis.vibett_1.75-1+debug_iphoneos-arm64.deb
+Size: 227552
+MD5sum: a701301ee0043b5349103543d06b679a
+SHA1: 359637ba05bcccd885ae6286573ffc5cdf255d63
+SHA256: 88474576a61be872ae4031e1d2f52a413986896558cb8f9555d5002cb04e8d9f
+SHA512: 13d93da1fcae4a9c248aab78dedb54aea567d78a1a2386be990ef4c09c0acb3837774854bc761c13f154e93b7c4c62c90ad27250800ba8b844a3422eebda7e01
 Description: Make TikTok Better!
 Name: VibeTok (Rootless)
 Author: DeNsor
@@ -17051,60 +17067,18 @@ Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
 
 Package: com.jtis.vibett
 Architecture: iphoneos-arm64e
-Version: 1.72
+Version: 1.75-1+debug
 Section: Tweaks
 Maintainer: DeNsor
-Installed-Size: 864
+Installed-Size: 1476
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Replaces: com.den.vibett
-Filename: ./debs/com.jtis.vibett_1.72_iphoneos-arm64e.deb
-Size: 132652
-MD5sum: 6bac18c6604cca724da5451c738bf1b2
-SHA1: bbb48babaff2cf39a734ea69c9999ba572447680
-SHA256: 21528baeb71fe9b5a389f73adff4ddc74b39dcdd22955e55cf1ecddc7a22b0aa
-SHA512: 3bd4e18044ce1aea1df42d07539e4ebb8600e14a7d8aec3cdb4d229b46f426a6fc002c90cc423697c62219fbd0e513608659315467f2e829afd6f711d3cf3476
-Description: Make TikTok Better!
-Name: VibeTok (Roothide)
-Author: DeNsor
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
-Depiction: http://jtisvn.github.io/depiction/VibeTok.html
-Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
-
-Package: com.jtis.vibett
-Architecture: iphoneos-arm64
-Version: 1.73
-Section: Tweaks
-Maintainer: DeNsor
-Installed-Size: 1032
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.73_iphoneos-arm64.deb
-Size: 169108
-MD5sum: a47e752f6c2c41f4789c2d14ce8e7ece
-SHA1: eee456f85e27ba28ba9006e740e45c14a8a8eed9
-SHA256: 56028dd7100b513b7dc3f6711c185244e6f66b2eee10f015070ad4a3dbaa5aeb
-SHA512: 84028ab714c9a771ed13f90878a03b275c84dcd4fba8581191e5c05ee970fa9ced30f52a90658ad08342576d2480d660f3c6b6d6ec28ca0ae7b72cebd8616151
-Description: Make TikTok Better!
-Name: VibeTok (Rootless)
-Author: DeNsor
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
-Depiction: http://jtisvn.github.io/depiction/VibeTok.html
-Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
-
-Package: com.jtis.vibett
-Architecture: iphoneos-arm64e
-Version: 1.73
-Section: Tweaks
-Maintainer: DeNsor
-Installed-Size: 1032
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.73_iphoneos-arm64e.deb
-Size: 162600
-MD5sum: 32f5a2c3f63e0e6f7dd1eaa59cea1b85
-SHA1: c616179aa5990729b1bf9328651c587cd2ce81dd
-SHA256: e1226c4c15db3c9e4275b0e02387d68f5fe2d9704316efdf6242a7f6ee29ac5d
-SHA512: 9b62e048a63ac84685d0fb295d7aae5c7e531a7b9ca53cfbbd98d20b03219019dbe69dfa6c4cd1688597d891e9f393c5a3d990b100d6aeed714e52d7dea3b0b2
+Filename: ./debs/com.jtis.vibett_1.75-1+debug_iphoneos-arm64e.deb
+Size: 221488
+MD5sum: 4ade1f6278305a1456e19baa75539bb5
+SHA1: a0a785d4d51ef3cf5216b2d611586d478a93cb12
+SHA256: 73246a49345f065c0eee27d8a59ddfe40916ee126f71229f4d2a0b4e53722acc
+SHA512: ffd342ec11da87001277060712fc97b0e81afe4fe351d2464a0b893ab6cef52bf9f85b081423a10fca693f7ebaf4e6aead60e3370973e1c721fb4c9ecca17c84
 Description: Make TikTok Better!
 Name: VibeTok (Roothide)
 Author: DeNsor
@@ -18777,6 +18751,45 @@ Author: Unknown
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SolidGlass27.json
 Depiction: https://jtisvn.github.io/depictions/SolidGlass27.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtisvn.switchicon
+Architecture: iphoneos-arm64
+Version: 5.2.0-131
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 836
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.switchicon_5.2.0-131_iphoneos-arm64.deb
+Size: 123572
+MD5sum: 5f6a40100c778660e14f81402df86720
+SHA1: 380e6b4852c4cb55c8392ebde39c8386cf158b57
+SHA256: 5914caadcce806c0d9ae37e43d525b83bbe84205ff908b2e21a6e4313d65f67d
+SHA512: 8bf9e53cf68e4054b239573ec879afc39ab6d6950fb57e059db56db79bc95310420be868ea2382e7f03e00db9e2794e680c31c5e6e3ad92a155e624fdf50685d
+Description: Tùy biến toàn bộ công tắc hệ thống (UISwitch), mang lại giao diện cá tính và độc đáo hơn cho các nút bật/tắt nguyên bản。
+Name: Switch Icon (Rootless)
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/switchicon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchIcon.json
+
+Package: com.jtisvn.switchicon
+Architecture: iphoneos-arm64e
+Version: 5.2.0-131
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 836
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.switchicon_5.2.0-131_iphoneos-arm64e.deb
+Size: 120340
+MD5sum: 3932472a074b26cc34a8a89b00af40de
+SHA1: 7c12487fb7b98175eb2ea9256e722cc46a7e768c
+SHA256: 374c3bfb5beb87d251cb3cfd9a21742a50d36866c55262a6148740581c0dc415
+SHA512: 41d47dcc73dfe7f5054a3927fbe3d452ede31916f774fbba68cbf3f0966794fc5ac553d251e5431523c3e331e6aa58dcb240042808952fe237759132209c3b39
+Description: Tùy biến toàn bộ công tắc hệ thống (UISwitch), mang lại giao diện cá tính và độc đáo hơn cho các nút bật/tắt nguyên bản.
+Name: Switch Icon (Roothide)
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/switchicon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchIcon.json
 
 Package: com.jtisvn.zone
 Architecture: iphoneos-arm64
