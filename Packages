@@ -10766,18 +10766,40 @@ Section: Chủ đề
 Maintainer: JTISVN Repo
 Depends: firmware (>=15.0)
 Filename: ./debs/com.jtis.iOS17Deluxe_354_iphoneos-arm64.deb
-Size: 3034356
-MD5sum: 5ab07b38dffb2016aed16a751c8e946f
-SHA1: 5ea0b7db2de40963573854122ae996c254e5ec86
-SHA256: f9721e247ee9585adb2473698c22162bb5932e4b66e3c25b26ea14309c61bd25
-SHA512: 22f1547974860c219611b2ce02e365b49dd61d01e0f4bae5b620874713e96dd6c8013541b6ce07b4b3428440dd350c0bfb8913aa9f80822b0cf6dc35003fb44b
+Size: 3034260
+MD5sum: 2aa397ff38c55e41750ce075a49c8acb
+SHA1: 71708194634b4373801807f90f9cb92ea17cdec7
+SHA256: 041dbe63a66ca8579e65839427788c8fae2b2c25eca57b0c98da10495807524a
+SHA512: 791d4741e81d239e12e7e89b976342e49d45081c6139a86e3b3447f02e06f7124f73f3ca6fa6f9a2838745e8b21de0981ee2a5505eee7e8227de5cfe722b09d3
 Homepage: https://jtisvn.github.io/
 Description: Chủ đề iOS 17
 Name: iOS 17 Deluxe
 Author: 𝙾𝚇𝚃𝙵𝚁𝙳𝚂 𝙳𝙴𝚂𝙸𝙶𝙽
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS17Deluxe.json
 Depiction: https://jtisvn.github.io/depictions/iOS17Deluxe.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+Icon: https://jtisvn.github.io/sectionIcons/iOS17Deluxe.png
+Tags: compatible_min::ios15.0, compatible_max::ios17.9
+
+Package: com.jtis.iOS17Deluxe
+Architecture: iphoneos-arm64e
+Version: 354
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=15.0)
+Filename: ./debs/com.jtis.iOS17Deluxe_354_iphoneos-arm64e.deb
+Size: 3033984
+MD5sum: 400f81db1d015620fe8950bcfaaebacb
+SHA1: 52e6af11c1dd4b079d7f924c6d2f20d675e3ca27
+SHA256: e2bec34469310b87187488d805fafb7a67949a2f90026ab6b16d2a6aef758e80
+SHA512: 761246ad888d134b9bac1531e8cf77b7d838bc22eb5bab5d6bd89b15693481298c4c83a1627d6e9ee2d4fa768cc91a8d97b0fadd8e170a2a63bb27aa7371ae7a
+Homepage: https://jtisvn.github.io/
+Description: Chủ đề iOS 17
+Name: iOS 17 Deluxe
+Author: 𝙾𝚇𝚃𝙵𝚁𝙳𝚂 𝙳𝙴𝚂𝙸𝙶𝙽
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS17Deluxe.json
+Depiction: https://jtisvn.github.io/depictions/iOS17Deluxe.html
+Icon: https://jtisvn.github.io/sectionIcons/iOS17Deluxe.png
 Tags: compatible_min::ios15.0, compatible_max::ios17.9
 
 Package: com.jtis.iOS26
@@ -11189,28 +11211,6 @@ Description: Panel xem chi tiết pin, máy, RAM, mạng... bật bằng cách c
 Name: InfoBattery Panel
 Author: BVN <repobvn@bvnrepo.xyz>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
-Package: com.jtis.iOS17Deluxe
-Architecture: iphoneos-arm64e
-Version: 354
-Section: Chủ đề
-Maintainer: JTISVN Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>=15.0)
-Filename: ./debs/com.jtis.ios17deluxe_354_iphoneos-arm64e.deb
-Size: 6432400
-MD5sum: 016abfd6bdfb4077ba12fc70c15d8954
-SHA1: 81d1a588e541bfbc5980b1700e97eb1aaebdc225
-SHA256: c301019df2ec4c41cd6e9d26a8bb294be5d0e11ceee84fae34aabf4da68040c4
-SHA512: e7ed6cd817f54c982908784a06b5709b857e20f351e7ec3cc30d1e8a42e9c9dbd12a047d78655c3420ba2e63aaadbe43bc30bdbaa0b6778d1d67577b47ba844d
-Homepage: https://jtisvn.github.io/
-Description: Chủ đề iOS 17
-Name: iOS 17 Deluxe
-Author: 𝙾𝚇𝚃𝙵𝚁𝙳𝚂 𝙳𝙴𝚂𝙸𝙶𝙽
-SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS17Deluxe.json
-Depiction: https://jtisvn.github.io/depictions/iOS17Deluxe.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
-Tags: compatible_min::ios15.0, compatible_max::ios17.9
 
 Package: com.jtis.iOS26
 Architecture: iphoneos-arm64e
@@ -19583,6 +19583,53 @@ SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
 Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64
+Version: 5.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 3588
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_5.5_iphoneos-arm64.deb
+Size: 839108
+MD5sum: 01a496b0e4736da12d0ccb76a84656c7
+SHA1: dadafba7a7865a3012203837374fa86d16e2a22a
+SHA256: 92ee538afce8f178bc2bf6408e45450334bd0d5e66b9236d88eb2eb0df56f0fd
+SHA512: 7cb66360b57d6934ec6d5b4232e67b7fef335ee1074754f8960aa9f993957afc2615c818352c68cf49457cb573907950289b779ae7bf5b34a275b30e4bd81f3d
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64e
+Version: 5.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 3588
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_5.5_iphoneos-arm64e.deb
+Size: 838636
+MD5sum: 7b6f51dfe32f84caaac5a3b8db86b229
+SHA1: c0ae9c5e2d03d3c77d8973060c1b318635ae842c
+SHA256: c451c626837137e1979e1ec1273cc1928927a41893d746afc57f65ac10c8209d
+SHA512: 5a2fedaf21eed522d935b8e50099a9a4a44c0ef4f4114f944a5f009c5e9ec9802e5f9b9a39a123d0a73cf620e166d51bd1284434af06bfdb11ef263e8d7b50cf
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
 Package: com.kitsudo.picturemodulevh
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -24738,17 +24785,17 @@ Version: 1.0
 Section: Themes
 Maintainer: JTISVN Repo
 Filename: ./debs/snokeddark_1.0_all.deb
-Size: 7575200
-MD5sum: 9dcd7c1a88c4c43230c6e50f4188a323
-SHA1: 089e95e86b4f697aca4143776d5e6c41778cfad7
-SHA256: 9747da5dbe44b95cb5b0e6bd8dbce0cfd223c390b7f8dd5429acec2e7b1a9e88
-SHA512: b6deff7d14a0ee6254af0df59326a38dd66e97c73241dbe0cc58952e6f9111f669b2839528ae991a14379da3031125bc0e98746cdc48f3fba3cf315b3c6bfd0d
+Size: 7575224
+MD5sum: 8e5f3b79c6678d06c57472f0d06283cd
+SHA1: 4871abb43c79b8d01d405e8a75ba15474d533dd7
+SHA256: 3d18088716d507514202e13bb06e508ccf344fcf9de39a1a438002b0202c1bb0
+SHA512: eb382cc656ab8ac2ffb72371d8f977b11845e7819922f407201c7f35e2b55150f0aa51ef9724452968ae0b5ee0d6b1c2b16d70e37a269e09ea74a2c6d83370b0
 Description: Chủ đề Snoked Glass Dark
 Name: Snoked Glass
 Author: Nguyên Tokuda
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SG-dark.json
 Depiction: https://jtisvn.github.io/depictions/SG-dark.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+Icon: https://jtisvn.github.io/sectionIcons/Snokeddark.png
 
 Package: com.spark.snowboard.dock
 Architecture: iphoneos-arm64e
