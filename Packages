@@ -18132,49 +18132,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AmmiFX.json
 Depiction: https://jtisvn.github.io/depictions/AmimFX.html
 Icon: https://jtisvn.github.io/sectionIcons/AnimFX.png
 
-Package: com.jtisvn.backgroundcaller
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 556
-Depends: mobilesubstrate, firmware (>= 14.0), oldabi-stub
-Filename: ./debs/com.jtisvn.backgroundcaller_1.0.0_iphoneos-arm64.deb
-Size: 40460
-MD5sum: 5be65b1985979d8c9c2c21422c68ec7f
-SHA1: 8c71dbf88ac64a40e3828c5c63cb4497177c54db
-SHA256: a9d8c026260632fe3e4584c8a65dc013e2304c95c93f32266b6c7e5b2a861b10
-SHA512: 7678965dcc612a3134dfdf47373d41fe1f974d29a9b4548a8b98d539954d8b93800beb952a45484002db6630c41319b7e8fda004e94d5d57efbca2bcc0c19c31
-Homepage: https://jtisvn.github.io/
-Description: Thêm hình nền video cuộc gọi đến
-Name: BackgroundCaller
-Author: Kitsudo
-Depiction: http://jtisvn.github.io/depiction/BackgroundCaller.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/BackgroundCaller.json
-Icon: https://jtisvn.github.io/sectionIcons/BackgroundCaller.png
-
-Package: com.jtisvn.backgroundcaller
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 556
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0), oldabi
-Filename: ./debs/com.jtisvn.backgroundcaller_1.0.0_iphoneos-arm64e.deb
-Size: 40396
-MD5sum: a9a593aa7d72f7d6128476fd8393eb3f
-SHA1: 2169ff1dd1d973e7ace1330f2629bbc79d1b6f67
-SHA256: 2b14582753d9f79783e0ede360cd45fc0b8cfc48ad8c6edfeea703b27f18537d
-SHA512: a38686f3b215b69ea97c8b090229174150b336c7d463f5aca41b78f4c940fd66631fc435ac2f2ae6f68ef163d10a000fdc7664ada3723573adbff8a212558f70
-Homepage: https://jtisvn.github.io/
-Description: Thêm hình nền video cuộc gọi đến
-Name: BackgroundCaller (Roothide)
-Author: Kitsudo
-Depiction: http://jtisvn.github.io/depiction/BackgroundCaller.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/BackgroundCaller.json
-Icon: https://jtisvn.github.io/sectionIcons/BackgroundCaller.png
-
 Package: com.jtisvn.capcutcrack
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -19025,6 +18982,49 @@ Name: AppData gói Việt Hóa (Roothide)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.backgroundcaller
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 496
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.backgroundcaller_1.0.2_iphoneos-arm64.deb
+Size: 40488
+MD5sum: b436a4f37e3168af23a06d0f30685493
+SHA1: 171e21f4863265d215cc0e46a9beeea63b649626
+SHA256: 2939ed4d78025d84ab6f8ede062b9277a8aa2b873edf8ad9d9836ddac12b6c86
+SHA512: 5d112f2aab11ffe476f04ef4c94e7e33c7b7967c40399e43f2462c6bb18fff075906ff0456665e50880dafab8e76bcbcebcc05a367a45c20d719bb7e0601505b
+Homepage: https://jtisvn.github.io/
+Description: Thêm hình nền ảnh hoặc video cho cuộc gọi đến và cuộc gọi đi.
+Name: BackgroundCaller (Rootless)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/BackgroundCaller.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BackgroundCaller.json
+Icon: https://jtisvn.github.io/sectionIcons/BackgroundCaller.png
+
+Package: com.kitsudo.backgroundcaller
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 496
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.backgroundcaller_1.0.2_iphoneos-arm64e.deb
+Size: 40564
+MD5sum: ce6a1765c881b8a9fc7bb4f19da498f1
+SHA1: 5569b261d809eede303c9a2b7e42a4c8a3d52978
+SHA256: 8e2b6a6f9748832f31afde9204b76db639c83337b9261804eb00e26cf32166fb
+SHA512: 94e331dcd3a9ea31f6f0567d3b47c9c98d0f14cdbc1828d87b147457d0efb17f7e769f3e01b3c68f88ddbadfe6098778a5a9b7fcee8ff32eb24948b2b29d2ec0
+Homepage: https://jtisvn.github.io/
+Description: Thêm hình nền ảnh hoặc video cho cuộc gọi đến và cuộc gọi đi.
+Name: BackgroundCaller (Roothide)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/BackgroundCaller.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BackgroundCaller.json
+Icon: https://jtisvn.github.io/sectionIcons/BackgroundCaller.png
 
 Package: com.kitsudo.ccmusicviethoa
 Architecture: iphoneos-arm64
