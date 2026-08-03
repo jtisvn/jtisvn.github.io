@@ -32,7 +32,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### ExplosiveIcons\n\n- Làm nổ tung các biểu tượng khi bạn xoá ứng dụng bất kỳ\n\n- Lưu ý: Không hỗ trợ chung với tưeak Atria.",
+"markdown":"### ExplosiveIcons\n\n- Làm nổ tung các biểu tượng khi bạn xoá ứng dụng bất kỳ\n\n- Lưu ý: Không hỗ trợ chung với tweak Atria.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
