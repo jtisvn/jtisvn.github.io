@@ -33,6 +33,27 @@ Tag: role::developer
 Name: libaurora
 Author: Ayden Panhuyzen
 
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.2
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: ./debs/ElleKit-1.2-iphoneos-arm64e.deb
+Size: 143768
+MD5sum: 22abcac3a5f481f54e55b5d56a145c4e
+SHA1: d31199f7a2175e3547dfdd3d69eea4916f072cc7
+SHA256: 3f05acea159f0afe6295ae3da3f3cda56958bcff33a6a9abcbbf83ebc6abaa2c
+SHA512: 9c6ecd5740cd6ae6b5e48cdc49ac8e21ac321b42ed7b873964fc770cd82b51574f7d0bebc20d6d1de6cb849a592909beff6267b5c57f23e2bf6da1daf2e146a4
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
 Package: com.foxfort.foxforttools
 Architecture: iphoneos-arm64e
 Version: 1.4.13
@@ -5544,6 +5565,26 @@ Depiction: http://jtisvn.github.io/depiction/Appdataplus.html
 Name: AppData Plus (Roothide)
 Author: Fouad Raheb & Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
+
+Package: com.jtis.appdataplus
+Architecture: iphoneos-arm
+Version: 1.4.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 13548
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.appdataplus_1.4.4_iphoneos-arm.deb
+Size: 5050556
+MD5sum: 1b2a808d35e7f53379cf5cdaf7686451
+SHA1: 4b2fc07cd453e34f01e86f818ec01e4eb0ed1cf2
+SHA256: 1556d69a2dab5efe9069d21867129809c0ebf729c964053af9bf4b553fc42f62
+SHA512: 4c405c20d4e46b52c564603a044ca0ff12043e19cd923573328bd60dfe22ffc998c6b576875d1c241634c384c2e681fd8335c355da59db9c2acf4d5a5b1b6042
+Description: View & Manage Applications Data from your Home Screen
+Name: AppData
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
+Depiction: https://jtisvn.github.io/depictions/Appdataplus.html
+Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
+Author: Fouad Raheb
 
 Package: com.jtis.appdataplus
 Architecture: iphoneos-arm64
@@ -18239,6 +18280,45 @@ Depiction: http://jtisvn.github.io/depiction/ClockTimeFont.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockTimeFont.json
 Icon: https://jtisvn.github.io/sectionIcons/ClockTimeFont.png
 
+Package: com.jtisvn.explosiveicons
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.jtisvn.explosiveicons_1.1.1_iphoneos-arm64.deb
+Size: 40804
+MD5sum: 1b76edca62270e2ac7812193c1129586
+SHA1: c27e7f77942653cb93aab28d108d2739563974c0
+SHA256: d2702283c6449e24c312ef60a1acd3a92f31541262ad424444b7141c4b5f65fd
+SHA512: 1b1e5173a5c591bc0192a98849a5f67254ef03e3cb8916e0ff3efeb037fcaa65b6e41850195459becdb4275e57ea634d7688acfb5c0b205b9dbada87be10f861
+Homepage: https://jtisvn.github.io/
+Description: Làm nổ tung các biểu tượng của bạn khi xóa ứng dụng. Không hoạt động với Atria.
+Name: ExplosiveIcons (Rootless)
+Author: Wes
+Depiction: http://jtisvn.github.io/depiction/ExplosiveIcons.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ExplosiveIcons.json
+Icon: https://jtisvn.github.io/sectionIcons/ExplosiveIcons.png
+
+Package: com.jtisvn.explosiveicons
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.jtisvn.explosiveicons_1.1.1_iphoneos-arm64e.deb
+Size: 39972
+MD5sum: d71725a16097ae43341e5c0a81170633
+SHA1: f25f45ac6037e738b4112885a377f78784bc3581
+SHA256: cf1f6cf7ee662f7e5dc5c09792b74c3f217132b9f1370d075485c76c7132be20
+SHA512: c9efd0c4ccc8b828ffae9d4eea1de09b349e71b2f1aaa41e6f638b763b86c4b9812179294dd3ca5da92f301f2e1f856c7a1cb7308d0c64eb48e85e6cf9c04e1e
+Description: Làm nổ tung các biểu tượng của bạn khi xóa ứng dụng. Không hoạt động với Atria.
+Name: ExplosiveIcons (Roothide)
+Author: Wes
+Depiction: http://jtisvn.github.io/depiction/ExplosiveIcons.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ExplosiveIcons.json
+Icon: https://jtisvn.github.io/sectionIcons/ExplosiveIcons.png
+
 Package: com.jtisvn.infinitemedia
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -18747,6 +18827,68 @@ Name: Switch Icon (Roothide)
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/switchicon.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchIcon.json
+
+Package: com.jtisvn.tvlock
+Architecture: iphoneos-arm
+Version: 1.2.2
+Section: Tweaks
+Maintainer: Wes <wes.hamster@gmail.com>
+Installed-Size: 600
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.0)
+Filename: ./debs/com.jtisvn.tvlock_1.2.2_iphoneos-arm.deb
+Size: 48240
+MD5sum: d9e431f0570dfd531ff837bb7708ac9a
+SHA1: ae1a9546b87d70ae0b60a5559e7f53209f204418
+SHA256: e67cef20b24b2625c81ed8e8622ddc0a548a3de936eb559095c2841b6f9a9489
+SHA512: 78117bbd49757802d8c6e8422b9c4822b3b9e1a081d4072a51c02d298582e2d65a97f0c17f57005b94057c926ac436dbd9d7186c7a3c79bc729a732027d876a9
+Homepage: https://jtisvn.github.io/
+Description: Hiệu ứng tắt màn hình kiểu TV cũ khi khóa thiết bị.
+Name: TVLock
+Author: Wes <wes.hamster@gmail.com>
+Depiction: http://jtisvn.github.io/depiction/TVLock.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TVLock.json
+Icon: https://jtisvn.github.io/sectionIcons/TVLock.png
+
+Package: com.jtisvn.tvlock
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.jtisvn.tvlock_1.2.3_iphoneos-arm64.deb
+Size: 32868
+MD5sum: a90e02b0053e9dba907d72a971d36e33
+SHA1: ff5afff2f8c5f6439f49205bedf6bc91f5c494b3
+SHA256: 96ac364a5290974dc0e1b635ee888392358097d6754fda3ab0cc838453e7484e
+SHA512: 9d5573277461535d550d045b57fb96109eb49511e7407994902cee9cb23ca0251fb0792fc7afcd1b62dcdae3bd6c6c3a50038165d07e2959fbede3d2b06c5f00
+Homepage: https://jtisvn.github.io/
+Description: Hiệu ứng tắt màn hình kiểu TV cũ khi khóa thiết bị.
+Name: TVLock (Rootless)
+Author: Wes
+Depiction: http://jtisvn.github.io/depiction/TVLock.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TVLock.json
+Icon: https://jtisvn.github.io/sectionIcons/TVLock.png
+
+Package: com.jtisvn.tvlock
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.jtisvn.tvlock_1.2.3_iphoneos-arm64e.deb
+Size: 32064
+MD5sum: e4e7c82813f11db95f735ad91fcf0f15
+SHA1: a758af3e070e245fcc272213f42a1cfb9a3a00d6
+SHA256: 9c0523a0c96a0bfafc9e90b5a70c178f970451229616b507cd64303753bf3561
+SHA512: e46837577cb0595a82addd82abc231ad21d60051d6187cef07e607f981e39da52d09c9fc8ed07304d1aa27ca92b27d892800ca7b282f86b2b61bfc4b988b495c
+Homepage: https://jtisvn.github.io/
+Description: Hiệu ứng tắt màn hình kiểu TV cũ khi khóa thiết bị.
+Name: TVLock (Roothide)
+Author: Wes
+Depiction: http://jtisvn.github.io/depiction/TVLock.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TVLock.json
+Icon: https://jtisvn.github.io/sectionIcons/TVLock.png
 
 Package: com.jtisvn.zone
 Architecture: iphoneos-arm64
