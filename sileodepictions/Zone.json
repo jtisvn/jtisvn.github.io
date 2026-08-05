@@ -113,7 +113,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.2.0",
+"text": "2.1.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -166,7 +166,7 @@
 "tabname": "Nhật ký thay đổi",
 "views": [
 {
-"markdown": "### Phiên bản 2.2.0\n- Sửa sự cố không thể gọi Poster Board (bảng poster) ở màn hình khóa khi chưa bật tính năng \"Chạm 2 lần để khóa màn hình\".\n- Sửa lỗi màn hình bị đen khi bật tweak mà chưa chọn hình nền.\n- Thêm tùy chọn bật/tắt lặp lại (Loop) cho video làm hình nền Màn hình khóa / Màn hình chính.\n- Tối ưu hóa lại giao diện Cài đặt.",
+"markdown": "### Phiên bản 2.1.0\n- Sửa sự cố không thể gọi Poster Board (bảng poster) ở màn hình khóa khi chưa bật tính năng \"Chạm 2 lần để khóa màn hình\".\n- Sửa lỗi màn hình bị đen khi bật tweak mà chưa chọn hình nền.\n- Thêm tùy chọn bật/tắt lặp lại (Loop) cho video làm hình nền Màn hình khóa / Màn hình chính.\n- Tối ưu hóa lại giao diện Cài đặt.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
