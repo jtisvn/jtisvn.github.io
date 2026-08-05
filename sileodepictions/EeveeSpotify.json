@@ -87,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "17/2/2026",
+"text": "06/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "6.6.2",
+"text": "6.6.7",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 6.2.6\n\n- Thêm hỗ trợ trên Spotify phiên bản 9.1.6 mới nhất\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 6.6.7\n\n-Tính năng mới: Không có (ngoại trừ việc hỗ trợ build Roothide mới).\n\n- Hỗ trợ tương  thích Spotify v9.1.66 & v9.1.68\n\n- Cập nhật thêm 3 Icon mới từ cộng đồng"
 }
 ],
 "class":"DepictionStackView"

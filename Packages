@@ -15893,6 +15893,47 @@ Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
 Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
 
+Package: com.jtis.spotify
+Architecture: iphoneos-arm64
+Version: 6.6.7
+Section: Tweaks
+Maintainer: jaydenjcpy
+Installed-Size: 24284
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./debs/com.jtis.spotify_6.6.7_iphoneos-arm64.deb
+Size: 1982612
+MD5sum: 2a0e37bcea97b2d4aa85c58b41afab59
+SHA1: a42140042be1ddb0b4d80a4e044b361ad8b26d54
+SHA256: a3c91a39a9d8d96629015db0fde1a3595e282372e955ce3ab51607b7044636a5
+SHA512: 5c781b0e20954865ba02afb185cc1b5668c2cdbda2a65839ed8f92fdaf7e6fc8babb89a5483bf529fcc32878021e976e014c3ec3cd7d01d99ff7a54df481a547
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify (Rootless)
+Author: Eevee
+Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
+
+Package: com.jtis.spotify
+Architecture: iphoneos-arm64e
+Version: 6.6.7
+Section: Tweaks
+Maintainer: jaydenjcpy
+Installed-Size: 24284
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./debs/com.jtis.spotify_6.6.7_iphoneos-arm64e.deb
+Size: 2015428
+MD5sum: 82de797a79c4c209aeb6c58875c4fbaf
+SHA1: ba40cfccbbe590d29ea563ad2032320ec21885b8
+SHA256: e086f88e99de4e39d23dc3a9e7d0ced4fb298fb3ac89b7e7e4d78e8a247cf69c
+SHA512: 50ecf9801f40f1f9fd45891d040657e65e628c0408897b02adaf27d81a4628c9c719abba1ac858840d05600e944ac0c772bdb9834b44f451f9b65f616ff03206
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify (Roothide)
+Author: Eevee
+Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
+
 Package: com.jtis.starfalltheme
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -18930,6 +18971,67 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Zone.json
 Depiction: https://jtisvn.github.io/depictions/Zone.html
 Icon: https://k37ios.pages.dev/assets/Zone.png
 
+Package: com.jtisvn.zone
+Architecture: iphoneos-arm
+Version: 2.1.0
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 1164
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: ./debs/com.jtisvn.zone_2.1.0_iphoneos-arm.deb
+Size: 223488
+MD5sum: 748b161e6e0844f0357044a0aa967e94
+SHA1: d1d799cedb22cc9b82dcaa51992b8cb6ebecd514
+SHA256: b25da5e326ea8e4d738cdaf7bcadcaf74fb3f7f9b35ce800afb290d126e8fac4
+SHA512: 03eb3829430f5a68a7af393b342d728554064246a168fa57b7fead326eba533f0a13e526b3570c46b0c9cc5cd53c1782af2cd5762ac18a75311eece784a81386
+Description: Zone là tinh chỉnh giúp cài đặt hình nền tương tác định dạng .tendies hình nền video. Hỗ trợ iOS 14 - 17.
+Name: Zone
+Author: iosdump
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Zone.json
+Depiction: https://jtisvn.github.io/depictions/Zone.html
+Icon: https://k37ios.pages.dev/assets/Zone.png
+
+Package: com.jtisvn.zone
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 1164
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: ./debs/com.jtisvn.zone_2.1.0_iphoneos-arm64.deb
+Size: 223548
+MD5sum: a3c73212a895f5fda9dd5e2629cb3481
+SHA1: 61fff725c8d2ab6abc039955769257bc71cad6ad
+SHA256: b2f461e87003a81ccda55a121284de02787cdd50094e5bd4819086bccdb13b0c
+SHA512: e46f10c940d0d73538bb43c95e2159babb468b76d9339277ba19aaf9d808b5dfc0afc941f80de85cabb45de422357baf79ecc212c49a6b968a14aca3f59c554b
+Description: Zone là tinh chỉnh giúp cài đặt hình nền tương tác định dạng .tendies hình nền video. Hỗ trợ iOS 14 - 17.
+Name: Zone (Rootless)
+Author: iosdump
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Zone.json
+Depiction: https://jtisvn.github.io/depictions/Zone.html
+Icon: https://k37ios.pages.dev/assets/Zone.png
+
+Package: com.jtisvn.zone
+Architecture: iphoneos-arm64e
+Version: 2.1.0
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 1164
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: ./debs/com.jtisvn.zone_2.1.0_iphoneos-arm64e.deb
+Size: 219040
+MD5sum: 07ed49b4d3e1d0f7392e6532309e4961
+SHA1: 9c7535ae8ba6bed05400cb38ceb6a7761ce2bd9e
+SHA256: 4401aa85d822303b2bd2b6bfb4dd8ea10bcf66731087e57ca3baf6f592e8d902
+SHA512: 3ccb5ab78f7c2f18c832832b089cba72515c2315cd037496c4ffcf47b8044a42a643510c8c43eaae640984bc1831b3dbff3d3be423a8adda861824cdfeaf6df3
+Description: Zone là tinh chỉnh giúp cài đặt hình nền tương tác định dạng .tendies hình nền video. Hỗ trợ iOS 14 - 17.
+Name: Zone (Roothide)
+Author: iosdump
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Zone.json
+Depiction: https://jtisvn.github.io/depictions/Zone.html
+Icon: https://k37ios.pages.dev/assets/Zone.png
+
 Package: com.julioverne.appellancy11
 Architecture: iphoneos-arm
 Version: 1.1-20b
@@ -19743,15 +19845,15 @@ Architecture: iphoneos-arm64
 Version: 5.5
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 3632
+Installed-Size: 3812
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
 Filename: ./debs/com.kitsudo.nexusboard_5.5_iphoneos-arm64.deb
-Size: 840436
-MD5sum: 5284d7f78ff0ef2c92f3838d0e3635ed
-SHA1: 09ba210f424730fba1a68a6b9a7506697f942940
-SHA256: 1a8afa2d116aec7fdab0c56c37f8142f60cf150891cf6fd7697b74a521603976
-SHA512: 87253839ffd5fc24b2a13212f1d58d6feaea81e4119a1e4be55a0aa66a4853090534c4c01000f985fd48a4c33793f36a291fc9cfa56aa3660a9f5b253598c193
+Size: 869832
+MD5sum: a1a955244a33446e1a115e88faa64489
+SHA1: 7b537d09110626a632227eedd0216424422b53f7
+SHA256: 5b8d67d53b1f6559a105820f8091c5529d1aabcdac40966ae7848433e94bee91
+SHA512: 15f067301b57af5ce3d5336f5070110016d51f19ab8a6a622748e626ab340cd65d78c995371587aaf69571da0ce333d26558a225ba230e54b693d3dce2439fd9
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -19766,16 +19868,16 @@ Architecture: iphoneos-arm64e
 Version: 5.5
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 3632
+Installed-Size: 3812
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
 Filename: ./debs/com.kitsudo.nexusboard_5.5_iphoneos-arm64e.deb
-Size: 840364
-MD5sum: bd0eda0812be4bbcbe1307445b312ed0
-SHA1: 8b7a82a80849f13626aa21fb85fc7f150c354d00
-SHA256: 8131dd686c379d667edab459e9caaebe64789066153b096e631b26bcde8c761b
-SHA512: 6b500357a8df3fc0bb2c6cc9b423ed736871bde0846f8eefda15f9a303b908aab9adebdee2890d3d997e4dfc5ae8936bf72a0edc6047b1c328ac86a9d4626c46
+Size: 866460
+MD5sum: eac83fd00b4f9643db7ab293b809a465
+SHA1: 3cef7691108deafaf058614826965f85c10780e4
+SHA256: 67337fc09fe4c794c888cfd4ae0e66c503f7e66d1f7adc0506f838d6fbbb48da
+SHA512: 1280531ac9a3700bea9f7ad640bcb4790f0c8934134deddff8d50f99d123fa4d5c411740539affd5f04cdb8941daa38fb746802ee2c86041b39ba2ea45326536
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -19823,6 +19925,47 @@ Name: PictureModule gói Việt Hoá
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PictureModuleVH.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.poweractions
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 552
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.poweractions_1.0.3_iphoneos-arm64.deb
+Size: 79824
+MD5sum: 238271871631cb2db7b5b0c3d2b62655
+SHA1: a95b4a54f48eaf2d08813e2402d1740b120da7e6
+SHA256: 5949d86c1bc2cfbfce187b181939b4695b340ca8343264950d3317609c8efc8e
+SHA512: 7a23ac1b223b9cc254099223a067a2311eb664188f395a455af26b8982e425e54ed7d148454a38558d9dd02bbc7184dba8f850f7107dcca291e9ad53014d78be
+Description: PowerActions Menu Tweak with Preferences.
+Name: PowerActions (Rootless)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/PowerActions.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/PowerActions.json
+Icon: https://k37ios.pages.dev/assets/PowerActions.png
+
+Package: com.kitsudo.poweractions
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 552
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.poweractions_1.0.3_iphoneos-arm64e.deb
+Size: 79844
+MD5sum: 97ef9e51fe8ff33d2cbda1c3c1f4c9f5
+SHA1: e7b237ea49be4f14bb4cb200bae1ecc127207a0f
+SHA256: 3c9db9d9adb9f2dbfda3b6bc3331537c296e6c04a7a950d69c7ab406e38d2235
+SHA512: 0bab48ec3c8b0c030c763df0f4c71c1c517581f9aa1c558bca79189eeb279244e9bcc29c3fe97f01081b82114d9de9e7979cf6195c2e326de5caaa1282947fd0
+Description: PowerActions Menu Tweak with Preferences.
+Name: PowerActions (Roothide)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/PowerActions.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/PowerActions.json
+Icon: https://k37ios.pages.dev/assets/PowerActions.png
 
 Package: com.kitsudo.powerselectorvh
 Architecture: iphoneos-arm64
@@ -23044,6 +23187,47 @@ Description: Kích hoạt cử chỉ màn hình chính của iPhone X trên các
 Name: HomeGesture
 Author: VitaTaf/MidnightChips/PINPAL
 Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+
+Package: com.vivostyle.tweak
+Architecture: iphoneos-arm64
+Version: 1.0.0k
+Section: Tweaks
+Maintainer: huy
+Installed-Size: 412
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.vivostyle.tweak_1.0.0k_iphoneos-arm64.deb
+Size: 37360
+MD5sum: dd91adb41505388acf154228c9067566
+SHA1: ab25364cc10f1c3292df5879eef3598988f71f9d
+SHA256: a53cb20ac928e6912b80a78df0295a0d5a45f0b5cee5289aa57d61351e4b0fed
+SHA512: 594a7d76c833efc30f5cc4486dfed2a61f7ec3b72a619bca163ac4f93ab88b936d57ff427a0d4c7e57410c31d704406e928166462d73791b8d66b9370c4e0a79
+Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
+Name: VivoStyle (Rootless)
+Author: huy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
+Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.vivostyle.tweak
+Architecture: iphoneos-arm64e
+Version: 1.0.0k
+Section: Tweaks
+Maintainer: huy
+Installed-Size: 412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.vivostyle.tweak_1.0.0k_iphoneos-arm64e.deb
+Size: 37328
+MD5sum: cf7adc15c0fdcdf2dccecb9e8629ff35
+SHA1: 6b4567ff9c53299dc53bdfae945064c602499bcb
+SHA256: 2bb9a51ed85cd4aa59c036972344472427d7d8bac4fd032aa47ebbaf0eb026b7
+SHA512: a80a952f7c192853291ca8c12f9ba6c4bd1756b7844941c02f20fdebf3bb59dac9249004fee92baf972183f93abd30205ca5fb40ebdee31e8030ae6775eabde7
+Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
+Name: VivoStyle (Roothide)
+Author: huy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
+Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
