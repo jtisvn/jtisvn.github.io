@@ -23229,6 +23229,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
 Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.vivostyle.tweak
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: huy
+Installed-Size: 540
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.vivostyle.tweak_1.0.1_iphoneos-arm64.deb
+Size: 51320
+MD5sum: ec50501943eea83506ee62ed689c7c5b
+SHA1: e35729f66be9b8b579eab86e122612d5bccd5a9c
+SHA256: 147f44c98dd67fa3e82e7c1b7b94616c4d1e0e3c91a60121d23d29ea35ffad00
+SHA512: e7ac8e8cf2f8376ec098eda9d509b597b15c6a329e4ada917eee39bdd4194a8e048b366f3721b6002391914346cbcb0aaddd2c16e79c25bddfc5f25f935188e8
+Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
+Name: VivoStyle (Rootless)
+Author: huy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
+Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.vivostyle.tweak
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: huy
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.vivostyle.tweak_1.0.1_iphoneos-arm64e.deb
+Size: 51552
+MD5sum: e4ed20e18082ba58185e3754c865aaf8
+SHA1: 4fe37a97d0168d7fb8f5193a6b022d0a71f11fe8
+SHA256: 93b650728571fd466edddf15708b8d65e147d5275719f116ea050c688b44d45d
+SHA512: 69c853388664fc2a243261aec24a0132f813e2ca21835f514d26c1855c6fa30230c03675d2dc1d5c6aa626510a685f75892e545756e2d98af3b10ba2ddaaf860
+Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
+Name: VivoStyle (Roothide)
+Author: huy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
+Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
 Version: 0.0.3-1+debug

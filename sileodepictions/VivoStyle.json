@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"###VivoStyle\n\n- Mang hiệu ứng hình nền màn hình khoá \"thẻ lật\" (Flip Card) của các dòng điện thoại vivo lên thiết bị iOS.\n- Chỉ cần nghiêng điện thoại sang trái/phải, các bức ảnh trên màn hình khoá của bạn sẽ chuyển đổi qua lại nhờ cảm biến con quay hồi chuyển.\n\n- **Tính năng nổi bật:**\n- Lật Ảnh 3D: Chọn nhiều ảnh tuỳ thích. Lướt ảnh liên tục khi nghiêng máy.\n- Hình nền Video: Hỗ trợ dùng một đoạn video phát lặp lại (tắt tiếng) làm hình nền.\n- Tuỳ chỉnh vật lý: Chỉnh độ nhạy nghiêng, chiều sâu (thị sai) và độ mượt của chuyển động.\n- 4 Hiệu ứng chuyển cảnh: Mờ dần (Cross-fade), Lăng kính (Lenticular), Kính mờ (Frosted Glass) và Chiều sâu trường ảnh (Depth).\n- Khung hình: Tuỳ chọn phóng to ảnh kín màn hình hoặc giữ ảnh gốc (kèm viền mờ).",
+"markdown":"### VivoStyle\n\n- Mang hiệu ứng hình nền màn hình khoá \"thẻ lật\" (Flip Card) của các dòng điện thoại vivo lên thiết bị iOS.\n- Chỉ cần nghiêng điện thoại sang trái/phải, các bức ảnh trên màn hình khoá của bạn sẽ chuyển đổi qua lại nhờ cảm biến con quay hồi chuyển.\n\n- **Tính năng nổi bật:**\n- Lật Ảnh 3D: Chọn nhiều ảnh tuỳ thích. Lướt ảnh liên tục khi nghiêng máy.\n- Hình nền Video: Hỗ trợ dùng một đoạn video phát lặp lại (tắt tiếng) làm hình nền.\n- Tuỳ chỉnh vật lý: Chỉnh độ nhạy nghiêng, chiều sâu (thị sai) và độ mượt của chuyển động.\n- 4 Hiệu ứng chuyển cảnh: Mờ dần (Cross-fade), Lăng kính (Lenticular), Kính mờ (Frosted Glass) và Chiều sâu trường ảnh (Depth).\n- Khung hình: Tuỳ chọn phóng to ảnh kín màn hình hoặc giữ ảnh gốc (kèm viền mờ).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -83,7 +83,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "05/08/2026",
+"text": "09/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.0",
+"text": "1.0.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -154,8 +154,16 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
+"markdown": "### Phiên bản 1.0.1\n- Sửa lỗi tình trạng văng Cài đặt và treo\"Đang nhập...\"khi chọn ảnh.\n- Sửa lỗi hình nền bị kẹt lại ở màn hình chính sau khi vuốt mở khoá.(Chỉ cho hoạt động trên Màn hình khoá).\n- Phiên bản được sửa dựa trên mã nguồn mở của Huy Nguyen 34306.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1..0\n\n- Thêm ngôn ngữ Tiếng Việt."
+"markdown":"### Phiên bản 1.0.0\n- Thêm ngôn ngữ Tiếng Việt."
 }
 ],
 "class":"DepictionStackView"
