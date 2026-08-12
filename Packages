@@ -11793,13 +11793,13 @@ Maintainer: dylv
 Installed-Size: 3756
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.jtis.liquidglass26_0.0.9a_iphoneos-arm64.deb
-Size: 1370064
-MD5sum: 72fbabf61082ba710df3894e36041cce
-SHA1: 270ea60bde24b2075c0a6ba476ac508e15f3732d
-SHA256: e7666df1e88a26948f076a0d36bc28591f2caf6772972409612ff11bb5e15416
-SHA512: dfda3c571eee89b728a1378b4970227b3524772aa5b158c832ded2153509a1f25ff7832bcc8558eb5b9f9038379dd7494880fdfad9db47c2a58ff947e9513df5
+Size: 1368660
+MD5sum: 9b076913c5f9bb6f5e998cf3d2287a1b
+SHA1: 219c07716c61f1f80b520aa9bec85b214b0dab4c
+SHA256: a76e9510c2b0eaa073a352eb6e99dab9e121934a66f5317e3a96e1eddd0230c7
+SHA512: 313e0c98ed981043358c0a4b99316aa0b8a10f5e3c5a409d9471f2bf6b506a8e5d30b0ed9a558352d2786a8e7e7d536c52332a0e1eb57cb6b27dc117c0b0cdd7
 Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
-Name: Liquid(Gl)ass 26 (Rootless)
+Name: Liquid (Gl)ass (Rootless)
 Author: dylv
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
 Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
@@ -11821,6 +11821,67 @@ SHA256: 742fc118067802a74e8ac06c2c58e8e47c20ec47fa38478759415778360edfbe
 SHA512: e337f513475b1f40f06c926e41ee7201a03b3469cfde5f1ef664af1539ed2ac7dddb1323b29c989c58fb7c3cb3e8d63ace8385daed60032e93c1336847c68df5
 Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
 Name: Liquid(Gl)ass 26 (Roothide)
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: com.jtis.liquidglass26
+Architecture: iphoneos-arm
+Version: 0.1.0b
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 3596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: ./debs/com.jtis.liquidglass26_0.1.0b_iphoneos-arm.deb
+Size: 1305656
+MD5sum: 57708de552ea306b9a6a979ffecd6e11
+SHA1: 24f48988bbedb579f08c086d18ebb34891147ee1
+SHA256: e3e227ab74a2a388d129b162d1413d7e2793d9a8221fdd891eed277177273ed5
+SHA512: 152ce6edb1c69ad1967fcdce354128ea92c418ec5e7886085d1505deec84656b13cc9302d8ac4fb9b0f349420ca6915548f9b83829d779c607592a98a49bbc94
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Name: Liquid (Gl)ass
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: com.jtis.liquidglass26
+Architecture: iphoneos-arm64
+Version: 0.1.0b
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 3596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: ./debs/com.jtis.liquidglass26_0.1.0b_iphoneos-arm64.deb
+Size: 1302580
+MD5sum: f6fe6bf20d1c3a6391751183b7a6fa90
+SHA1: 1a0e111f87c9cc722aa68a8fe6ff701456ad78f8
+SHA256: 262470cf0f373e7e3b038da5ff9d87ab2d7bd3f267e7c70a8e7e4edd8d6e370a
+SHA512: 830d25e52a962c0c80b54a14edc27a26949adc9ea8e335a64f64e8160548adcffadf053ff9073a4b0b797b266dda2ccfdc3596eb5aa39e1c018887b5644a87b2
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Name: Liquid (Gl)ass (Rootless)
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: com.jtis.liquidglass26
+Architecture: iphoneos-arm64e
+Version: 0.1.0b
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 3596
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: ./debs/com.jtis.liquidglass26_0.1.0b_iphoneos-arm64e.deb
+Size: 1295032
+MD5sum: 94c843a463e46e826cec4ed355bf00e8
+SHA1: f5edc27d1e071d0a6f0bdd20fc2b9fcb4d789454
+SHA256: 26a41b19352e6090577acb8b44259321c7919a79e4f580ce669499f990b0c697
+SHA512: ab0d8da0029c0b4dd7c078fc767d23405c6c6f8a59d3071fc03d75b1a5097f9d98faa22b34d62c51e1ccae00e1b2b66085aef2455fa8b02267ee35b2467e970f
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Name: Liquid (Gl)ass (Roothide)
 Author: dylv
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
 Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
@@ -18772,6 +18833,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
 Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
+Package: com.jtisvn.opaboutphone
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Section: Tweaks
+Maintainer: Lumid
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.opaboutphone_1.2.0_iphoneos-arm64.deb
+Size: 125580
+MD5sum: a00e41b49c03827160975b00a4650f2a
+SHA1: ba961751a209d6dab73fba8110baa8ea1d2857b4
+SHA256: e77166bccd020e1bf0b9f3e70be00b34c6ad8505196b29578547571e3247cea6
+SHA512: a88ffe4005002de041b258660b1a00270be348491490e79f21ea6a0fff2ca77c2dd4d68cea94446d094e00ea12f3fff54dbb368a9dc4c320f12cffd15111e548
+Description: Tuỳ chỉnh mục Giới thiệu theo phong cách OxygenOS/ColorOS cho ứng dụng Cài đặt iOS.
+Name: OP About Phone (Rootless)
+Author: Lumid
+SileoDepiction: https://jtisvn.github.io/sileodepictions/OPAboutPhone.json
+Depiction: https://jtisvn.github.io/depictions/OPAboutPhone.html
+Icon: https://jtisvn.github.io/sectionIcons/OPAboutPhone.png
+
+Package: com.jtisvn.opaboutphone
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Section: Tweaks
+Maintainer: Lumid
+Installed-Size: 556
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.opaboutphone_1.2.0_iphoneos-arm64e.deb
+Size: 125652
+MD5sum: c27895f05169f88cfd795dc4427ff2d5
+SHA1: 88a044cc855472872f2712eae234112d4079fa34
+SHA256: df2790e2d0a18dbe6ec587ec281bf776e46163997b04cf45a8e077bd894ae75c
+SHA512: dbfca291bb1ba590dc292db397c85d60bd9e5178236ceb36ee4cc9a8233bffb763b2b070e63815172caf2058af00581712190637fac999cde1bd48b5762a65cb
+Description: Tuỳ chỉnh mục Giới thiệu theo phong cách OxygenOS/ColorOS cho ứng dụng Cài đặt iOS.
+Name: OP About Phone (Roothide)
+Author: Lumid
+SileoDepiction: https://jtisvn.github.io/sileodepictions/OPAboutPhone.json
+Depiction: https://jtisvn.github.io/depictions/OPAboutPhone.html
+Icon: https://jtisvn.github.io/sectionIcons/OPAboutPhone.png
+
 Package: com.jtisvn.scribblefix
 Architecture: iphoneos-arm64e
 Version: 1.0.0
@@ -21012,6 +21114,47 @@ Name: PullOver Pro (Roothide)
 Author: c1d3r
 Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
+
+Package: com.ngkhoi.26cam-legacy
+Architecture: iphoneos-arm64
+Version: 0.0.3-beta
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 520
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.ngkhoi.26cam-legacy_0.0.3-beta_iphoneos-arm64.deb
+Size: 81620
+MD5sum: 221019f17a78e75bf3ceb446aef9cd76
+SHA1: b0b8b0decd033149bf303d7f1cb8dbb5cbc8503b
+SHA256: 5f5930e949c80486ec8edd00831c67aa137d57d9f6f39820c9195ae92b38326d
+SHA512: 5fca167c667b2d70e015076f04838bb169fb779b3a3b30b69a3435f364932898eda7dcc8bef253e210bdb5c5880f3ceab2fba6d9fe57fb99cb655cf603210ec5
+Description: iOS 26 camera style tweak (requires dylv's liquidass for Liquid Glass), currently supports devices between iPhone X and iPhone SE 1st Gen (Rootless).
+Name: 26Cam (Legacy)
+Author: ngkhoi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/26Cam.json
+Depiction: https://jtisvn.github.io/depictions/26Cam.html
+Icon: https://jtisvn.github.io/sectionIcons/26Cam.png
+
+Package: com.ngkhoi.26cam-legacy
+Architecture: iphoneos-arm64e
+Version: 0.0.3-beta
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 520
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.ngkhoi.26cam-legacy_0.0.3-beta_iphoneos-arm64e.deb
+Size: 81724
+MD5sum: f15dcde5fc4b86d83a4914c6a8b50ccb
+SHA1: 8d25c088b9cc78cc6dc270e9722cfbd4ae484ecf
+SHA256: f74f5d9296e1649c81a3f83f8adf75c90a9892daab88053e48f8691600ce480a
+SHA512: 260fbab8e396dfb19f621cdf02e0009bd7828eff54c57e757369591766e12787fe6202353c42f5abbdad20c5c232c3997332aed1691af6ca856fa3be93b7c7d4
+Description: iOS 26 camera style tweak (requires dylv's liquidass for Liquid Glass), currently supports devices between iPhone X and iPhone SE 1st Gen (Rootless).
+Name: 26Cam (Legacy)
+Author: ngkhoi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/26Cam.json
+Depiction: https://jtisvn.github.io/depictions/26Cam.html
+Icon: https://jtisvn.github.io/sectionIcons/26Cam.png
 
 Package: com.nguyenasang.snmessenger
 Architecture: iphoneos-arm64

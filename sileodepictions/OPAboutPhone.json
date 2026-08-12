@@ -1,44 +1,26 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/LiquidGlass26.png",
-"tintColor":"#3399FF",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#FF6600",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
 {
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm chat Telegram",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": 1
+},
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/OPAboutPhone/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/4.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/5.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/6.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/7.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/8.png",
+"url":"https://jtisvn.github.io/infodeb/OPAboutPhone/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -46,7 +28,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### Liquid (Glass)\n\n- Mang đến trải nghiệm hiệu ứng kính LiquidGlass phong cách iOS 26 lên các thiết bị iOS đời thấp.\n\n- **Các chức năng chính:**\n\n- Tùy chỉnh hiệu ứng màn hình khóa.\n- Tùy chỉnh hiệu ứng màn hình chính.\n- Tùy chỉnh hiệu ứng thư viện ứng dụng.\n- Tùy chỉnh hiệu ứng thư mục.\n- Tùy chỉnh hiệu ứng menu 3D.\n- Tùy chỉnh hiệu ứng thông báo.\n- Tùy chỉnh hiệu ứng công tắc.\n- Tùy chỉnh hiệu ứng thanh tìm kiếm.",
+"markdown":"### OPAboutPhone\n\n- Tuỳ chỉnh mục **Giới thiệu** theo phong cách OxygenOS/ColorOS cho ứng dụng Cài đặt trên iOS.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -81,7 +63,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "dylv",
+"text": "Lumid",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -107,7 +89,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "11/08/2026",
+"text": "10/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -125,7 +107,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.0b",
+"text": "1.2.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -138,7 +120,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2,1 MB",
+"text": "496,4 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -151,7 +133,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.7.15",
+"text": "15.x - 18.x",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -172,14 +154,15 @@
 "alignment":1
 }
 ],
-"class": "DepictionStackView"
+"class":"DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.1.0b\n\n- Thêm hiệu ứng kính bàn phím\n\n- Thêm hiệu ứng kính Trung tâm điều khiển\n\n- Thêm hiệu ứng kính thông báo popup \n\n- Thêm hiệu ứng kinh các tab bar\n\n ### Phiên bản 0.0.9a\n\n- **Icon & Widget:** Sửa lỗi hiển thị biểu tượng ứng dụng và widget (hy vọng là đã hết lỗi).\n- **Nút gạt Display-Link thủ công:** Thêm tùy chọn bật/tắt \"per-surface display-link\" riêng lẻ (tính năng giúp giao diện mượt đẹp và giống iOS 26 hơn, nhưng đổi lại sẽ hơi giật lag máy).\n- **Màn hình khóa:** Thực sự đã fix được lỗi các nút bấm nhập mật khẩu (passcode).\n- **Hiệu năng:** Tối ưu hóa hệ thống, giúp giảm tình trạng hao pin và nóng máy.\n- **Live Capture:** Tối ưu hóa tính năng quay chụp trực tiếp + sửa lỗi bị mờ (fix lỗi #18).\n- **Trung tâm điều khiển:** Thử nghiệm giao diện Control Center mới.\n- **App Library:** Sửa lỗi Thư viện ứng dụng tự động kích hoạt display-link liên tục chỉ vì nó đang được bật.\n- **Trang cài đặt mới:** Thêm trang cấu hình phụ cho tính năng Live Capture.\n- **Custom Views:** Thêm tính năng (Nâng cao: cho phép nhúng hiệu ứng kính/glass vào bất kỳ thành phần nào của SpringBoard)."
+"markdown":"### Phiên bản 1.2.0\n- Thêm ngôn ngữ Tiếng Việt.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
 },
 {
 "class":"DepictionLabelView",
@@ -198,7 +181,7 @@
 "class":"DepictionTableButtonView",
 "openExternal": 1,
 "title": "Kênh Telegram",
-"action": "https://t.me/jtisvn"
+"action": "https://t.me/k37ios"
 },
 {
 "class":"DepictionTableButtonView",
