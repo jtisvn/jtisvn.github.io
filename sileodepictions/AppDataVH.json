@@ -83,7 +83,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "17/4/2026",
+"text": "12/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.0",
+"text": "1.0.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -187,7 +187,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.0\n\n- Thêm ngôn ngữ Tiếng Việt."
+"markdown":"### Phiên bản 1.0.1 Thêm đầy đủ Tiếng Việt cho tweak AppData Mod của iosdump\n\n ### Phiên bản 1.0.0\n\n- Thêm ngôn ngữ Tiếng Việt."
 },
 {
 "class":"DepictionLabelView",

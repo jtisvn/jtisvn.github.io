@@ -32,7 +32,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### AppData Phiên bản chỉnh sửa bởi iosdump\n\n- Công cụ hỗ trợ xem và quản lý dữ liệu ứng dụng trực tiếp từ màn hình chính iOS một cách nhanh chóng và tiện lợi.\n- **Tính năng nổi bật:**\n- Quản lý dữ liệu: Xóa bộ nhớ đệm (Cache), xóa toàn bộ dữ liệu ứng dụng, đặt lại quyền hệ thống hoặc hạ cấp ứng dụng.\n- Tùy chỉnh biểu tượng: Đổi tên biểu tượng, ẩn ứng dụng và quản lý bố cục menu nhanh.\n- Chạy nền & Chặn ứng dụng: Hỗ trợ tính năng chạy nền nâng cao (Backgrounding), chặn ứng dụng mở hoặc bị mở, và chặn tự động cập nhật.\n- Lược đồ & Định danh: Xem nhanh Bundle ID, Container Path, App Groups, URL Schemes và mở nhanh vị trí thư mục trong Filza.\n- Thao tác nhanh: Tích hợp tùy chọn vuốt hoặc dùng Menu 3D Touch trên biểu tượng ứng dụng.",
+"markdown":"### AppData Phiên bản chỉnh sửa bởi iosdump\n\n- Công cụ hỗ trợ xem và quản lý dữ liệu ứng dụng trực tiếp từ màn hình chính iOS một cách nhanh chóng và tiện lợi.\n- **Tính năng nổi bật:**\n- Quản lý dữ liệu: Xóa bộ nhớ đệm (Cache), xóa toàn bộ dữ liệu ứng dụng, đặt lại quyền hệ thống hoặc hạ cấp ứng dụng.\n- Tùy chỉnh biểu tượng: Đổi tên biểu tượng, ẩn ứng dụng và quản lý bố cục menu nhanh.\n- Chạy nền & Chặn ứng dụng: Hỗ trợ tính năng chạy nền nâng cao (Backgrounding), chặn ứng dụng mở hoặc bị mở, và chặn tự động cập nhật.\n- Lược đồ & Định danh: Xem nhanh Bundle ID, Container Path, App Groups, URL Schemes và mở nhanh vị trí thư mục trong Filza.\n- Thao tác nhanh: Tích hợp tùy chọn vuốt hoặc dùng Menu 3D Touch trên biểu tượng ứng dụng.|\n- **Lưu ý:** Xoá tweak AppData gốc trước khi cài đặt để tránh lỗi xung đột.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -93,7 +93,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "11/08/2026",
+"text": "12/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -111,7 +111,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.6.8",
+"text": "2.6.9",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -164,7 +164,15 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown":"### Phiên bản 2.6.8\n- Thêm đầy dủ ngôn ngữ Tiếng Việt.\n- Bổ sung thêm Tiếng Anh\n- Tối ưu lại giao diện panel.\n- Thêm tính năng chặn app tự động cập nhật.",
+"markdown":"### Phiên bản 2.6.9.\n- Điều chỉnh hiệu ứng kính mờ của bảng điều khiển khi ở chế độ sáng.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
+{
+"markdown":"### Phiên bản 2.6.8\\n- Bổ sung thêm Tiếng Anh\n- Tối ưu lại giao diện panel.\n- Thêm tính năng chặn app tự động cập nhật.",
 "useSpacing":true,
 "class":"DepictionMarkdownView"
 },

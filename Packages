@@ -18214,6 +18214,67 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AmmiFX.json
 Depiction: https://jtisvn.github.io/depictions/AmimFX.html
 Icon: https://jtisvn.github.io/sectionIcons/AnimFX.png
 
+Package: com.jtisvn.appdata
+Architecture: iphoneos-arm
+Version: 2.6.9
+Section: Tweaks
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.jtisvn.appdata_2.6.9_iphoneos-arm.deb
+Size: 1716136
+MD5sum: ea9f3500669f67ca5d34f59cccedd41a
+SHA1: bc0c4a2bf978ee9384990cda2b00e790bb5e342d
+SHA256: 5cfda2ff86ca03fea1adfc3f6baa21e495f7fa58afd6b62ca3d0614cef05d323
+SHA512: be7e0e0d79f8afbcb22906a6cfec0cd44135debbebe0a05986df6fcd737a555781fe6bb81a1e66ccd6446a4f3117e8c7bf18d409cdbd3b0ff55bfb2fe29d404a
+Description: Xem dữ liệu ứng dụng và quản lý ứng dụng trên màn hình chính.
+Name: AppData
+Author: iosdump
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppData.json
+Depiction: https://jtisvn.github.io/depictions/AppData.html
+Icon: https://jtisvn.github.io/sectionIcons/AppData.png
+
+Package: com.jtisvn.appdata
+Architecture: iphoneos-arm64
+Version: 2.6.9
+Section: Tweaks
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.jtisvn.appdata_2.6.9_iphoneos-arm64.deb
+Size: 1711384
+MD5sum: 79edc766413cf33e48992af34172a660
+SHA1: 4d235224182b24612c030f6691ffe809404f9dfc
+SHA256: 44fd62bdbbfc3a9c063726e9103bd0b2f5b99524edb5d1b0d92952d8bcbc8443
+SHA512: bedff11d6a95c826763a9bb4d50387d36c791b688544f202657e694ed78905c884004fcee19553cd38c1609b00df901f9d4ffe3d0e4ef5a03de8de15338d4b53
+Description: Xem dữ liệu ứng dụng và quản lý ứng dụng trên màn hình chính.
+Name: AppData (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppData.json
+Depiction: https://jtisvn.github.io/depictions/AppData.html
+Icon: https://jtisvn.github.io/sectionIcons/AppData.png
+Author: iosdump
+
+Package: com.jtisvn.appdata
+Architecture: iphoneos-arm64e
+Version: 2.6.9
+Section: Tweaks
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.jtisvn.appdata_2.6.9_iphoneos-arm64e.deb
+Size: 1700200
+MD5sum: 324cd1b8b426daf6db4ab26157c2c45d
+SHA1: 2469fc378b452e285078ad5ef5b05b27128d97aa
+SHA256: 224a84c4a48ca0c031c5d3fc48ca63b6f33f72cb28747b4b392ba3bd42874940
+SHA512: 592097d5e591bd70947bafd8af93f968f751d103fbfcc4ee8f53c050671d97de53d814b1acbb0f10f9ab63d2b4cc9be0581ca2122b10ee7cc76ddbb59bd9882a
+Description: Xem dữ liệu ứng dụng và quản lý ứng dụng trên màn hình chính.
+Name: AppData (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppData.json
+Depiction: https://jtisvn.github.io/depictions/AppData.html
+Icon: https://jtisvn.github.io/sectionIcons/AppData.png
+Author: iosdump
+
 Package: com.jtisvn.capcutcrack
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -19221,6 +19282,67 @@ MD5sum: fef9b32ad333fe97280f7d3244ee7360
 SHA1: 5d13383429fb965b08fdd560f985f976bcbb2295
 SHA256: 79d2d1d0b1bb8aa3dc42f26dd624b44955b0653da575de4257cd02d75b31e589
 SHA512: 4a48f87a91d1ba4248e3f8b3f463f3330b123d0cd8e0ae953d908234a6fe8064feb2dccef6343b59208b9cb920ccfa6cdce74d6631723a6a1aa372d9a51b2ac5
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
+Name: AppData gói Việt Hóa (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.appdataviethoa
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.bvn.appdatavn
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.1_iphoneos-arm.deb
+Size: 12900
+MD5sum: cdfcdf91033185a174124b1d25d14a2d
+SHA1: 121ce320e728af4e5086922d4ca3da09274e8dd4
+SHA256: 6589ab17f44742fe878420a52f381f36d2fba9d7466b5b00a3d7bd513b1cc8ed
+SHA512: 3bef92251c772158a55c67a00cfd96e190c24d88b5333a9a372247352227425ae0757b4510ff9b2b5313c1b58cce498c53d7c9cf9ba2ab30fb8437a01cec585f
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
+Name: AppData gói Việt Hóa
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.appdataviethoa
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.bvn.appdatavn
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.1_iphoneos-arm64.deb
+Size: 12988
+MD5sum: 9789c6fc10ead6d3197a45dac6dac405
+SHA1: a9b5f3f0b3434e1a70b15c2881533a969a8d5d69
+SHA256: c42797a0ace0095f40218720e9a4f687670a4ac8194bf5609fd5c0efe2464040
+SHA512: 6fccf35cf4931712f7e47bec736349ef8d44958807bd272fd395b544e20da1cd3a831ef429ff69acdc6d5d9512b1280277dba82feb90bd0167afb5e2a7da4596
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
+Name: AppData gói Việt Hóa (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.appdataviethoa
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.bvn.appdatavn
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.1_iphoneos-arm64e.deb
+Size: 13096
+MD5sum: 651269f190aadbcde81043197122572b
+SHA1: e6ebd121e30e4223d8fd9fbcb39ed7843f236a33
+SHA256: dd7e558d9533e992bdc6c6a0e3f097286c1f65e4d85be118d98fa6cc26cf125d
+SHA512: 41748a89e4908e62b9d18fbbd1631429de05a0510c47c81314c7ca20dbf72c9d0ed934a00daf96f2405dcc58a52d7c46b121a4420474b2576cd018f05a721a7f
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
 Name: AppData gói Việt Hóa (Roothide)
 Author: Kitsudo
