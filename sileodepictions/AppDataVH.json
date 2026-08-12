@@ -187,7 +187,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.1 Thêm đầy đủ Tiếng Việt cho tweak AppData Mod của iosdump\n\n ### Phiên bản 1.0.0\n\n- Thêm ngôn ngữ Tiếng Việt."
+"markdown":"### Phiên bản 1.0.1\n\n- Thêm đầy đủ Tiếng Việt cho tweak AppData Mod của iosdump\n\n ### Phiên bản 1.0.0\n\n- Thêm ngôn ngữ Tiếng Việt."
 },
 {
 "class":"DepictionLabelView",
