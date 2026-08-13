@@ -4837,13 +4837,13 @@ Installed-Size: 392
 Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
 Conflicts: com.ivanc.accent
 Filename: ./debs/com.jtis.accentcustom_2.2.1_iphoneos-arm64.deb
-Size: 26880
-MD5sum: 49fd97cd0dc0ed703477590558ebcde1
-SHA1: 41f20207a4812bba68cfe4e2ac3d48f3f6c44cdd
-SHA256: 0786857bdf5aaac4a1c3d0719b19399020a065379ca2d5b00a0d2aeb43ca1c03
-SHA512: d196e00a7e4bf4efa8f72c0c99a81592c53f210e53d1b38bdf4ec16249b40cb77886730d0321238fcc5c9d5f46e9c312ad326d10cd9450859329ebed72438163
+Size: 26848
+MD5sum: d377527863060d2e24c8acef8bd7adc9
+SHA1: ee1deb3008553d3bc8f0e1205401e9cd0b3357f9
+SHA256: 9e6c8575923f0181eaee5638ebde57ed9ef08db9636b706e7a7a2f9f9132a751
+SHA512: 108583003ccd6f3dfb2739cb66679c5ed5775d3f7e646e86ebb73b97c99ef93f4fef78e7756fae4d48cbd8f721123c9589c6fb3aa8c6a58870e33f01a8365401
 Description: Thag đổi màu sắc nhấn của iOS theo phong cách macOS.
-Name: Accent Custom (Roôtless)
+Name: Accent Custom (Rootless)
 Author: Lillie & Hitori
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Accent.json
 Icon: https://Jtisvn.github.io/sectionIcons/Accent.png
@@ -7720,6 +7720,50 @@ Description: Mang phong cách mới IO26 gọn gàng cho trung tâm điều khi�
 Name: CC26 (Roothide)
 Author: therealhoodboy
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
+Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.cc26
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Tweaks
+Maintainer: therealhoodboy
+Installed-Size: 1496
+Provides: com.cureux.cc26
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 13.0), firmware (<< 18.0), com.jtisvn.cc26glass
+Conflicts: com.dvntm.cc18
+Filename: ./debs/com.jtis.cc26_1.0.6_iphoneos-arm64.deb
+Size: 835284
+MD5sum: f9749760b8a7ac140f265bc766790bc6
+SHA1: cfa08ae0fc0f2b7afba63e38703567c7dabee977
+SHA256: bd1f57a1c68500031c96581eba90735e220a7cb34effc8b7f8f33f5a12f65058
+SHA512: 0f455f3c5548d4d3f2ca520d93c80579feaf3d5510086383ce811dde1f09af887abc9cc70039c60b8ec0d39311079c9f6dd4a4422057f243b34de8740d0eca51
+Description: A sleek reimagination of Control Center.
+Name: CC26 (Rootless)
+Author: therealhoodboy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
+Depiction: https://jtisvn.github.io/depictions/CC26.html
+Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.cc26
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: therealhoodboy
+Installed-Size: 1500
+Provides: com.cureux.cc26
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 13.0), firmware (<< 18.0), com.jtisvn.cc26glass
+Conflicts: com.dvntm.cc18
+Filename: ./debs/com.jtis.cc26_1.0.7_iphoneos-arm64e.deb
+Size: 834376
+MD5sum: 1a51d2af821f77293be3ecbff6a59ee4
+SHA1: 3b5b44052fbd8e49592f02a8cf205e2cc72a519d
+SHA256: 6980348970a231a38e2c606d16359192f2ce4ff037c174b3ae7579c8f9fea78a
+SHA512: 9166fa34801e636f826eeb3dce9004fb48f8b051e6c903a9f21cd7117ec99fc81f8c54e041c289017fb4da4dec2b099047e8a17a248656f8f686777e6122fdb8
+Description: A sleek reimagination of Control Center.
+Name: CC26 (Roothide)
+Author: therealhoodboy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
+Depiction: https://jtisvn.github.io/depictions/CC26.html
 Icon: https://jtisvn.github.io/sectionIcons/CC26.png
 
 Package: com.jtis.ccadsbegone
@@ -18400,6 +18444,43 @@ Depiction: https://jtisvn.github.io/depictions/CapcutPro.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CapcutPro.json
 Icon: https://jtisvn.github.io/sectionIcons/CapcutPro.png
 
+Package: com.jtisvn.cc26glass
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: therealhoodboy
+Installed-Size: 256
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 13.0), firmware (<< 18.0)
+Filename: ./debs/com.jtisvn.cc26glass_1.0.4_iphoneos-arm64.deb
+Size: 30924
+MD5sum: 7d4c848ebcdf661bf891d46f083b2d1c
+SHA1: 6cdf6fad8fd818b5c6db526e46f23989190d0ad7
+SHA256: b2a32ea22a3458ee22480ea40b1e715a12906e207caa64df888d9d8cb95bb775
+SHA512: 9da23a8b83c0391254b38b3acbb7acdc892e1df45069ea231afc8dc4df1fe1d89474d4071bff2c3b9f21a5b2d8f64cb15d5cce6faac4a6511790db995e80e31b
+Description: iOS 26-style liquid glass effect for Control Center modules.
+Name: CC26 Liquid Glass
+Author: therealhoodboy
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtisvn.cc26glass
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: therealhoodboy
+Installed-Size: 256
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 13.0), firmware (<< 18.0)
+Filename: ./debs/com.jtisvn.cc26glass_1.0.4_iphoneos-arm64e.deb
+Size: 30316
+MD5sum: 0b713273c37981a818d03bedca2bdccb
+SHA1: 61f741d3c333199ac5a6df451cd48bcebc461908
+SHA256: 04784a013ac6e926057b7b7ef478f59e4595d73fe11343d3746628a5fc43ad16
+SHA512: 8a7348f3579927fd62252ec717754338227edf4e30f88ae94e47ff9d5ddfdf39c6e3be6b822faad8558d79e749714ad2723b99a05b0475c2ce1541f0e72c2592
+Description: iOS 26-style liquid glass effect for Control Center modules.
+Name: CC26 Liquid Glass
+Author: therealhoodboy
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtisvn.clocktimefont
 Architecture: iphoneos-arm64
 Version: 1.0.0+debug
@@ -18873,6 +18954,46 @@ Author: Lumid
 SileoDepiction: https://jtisvn.github.io/sileodepictions/OPAboutPhone.json
 Depiction: https://jtisvn.github.io/depictions/OPAboutPhone.html
 Icon: https://jtisvn.github.io/sectionIcons/OPAboutPhone.png
+
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: daodao
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
+Replaces: com.mlgm.pulloverx.preferences
+Filename: ./debs/com.jtisvn.pulloverx_1.5_iphoneos-arm64.deb
+Size: 188424
+MD5sum: 7d81d6f8a105daeea28005eb21b75aca
+SHA1: 14a450a166c58383b3f6bb6dfd423d6901b912b9
+SHA256: 8beb9348b26251710379e663b1408b75c4319ded680c60b7f07ee996708dd8c1
+SHA512: dfe1e81293f93dfecd464b139c2b526aa264a916dfafebec75e0c833f0c5b52b89850752bd6e65d32db1e7a13ca1d24928b3cf300f116e3e492a984f3756a4aa
+Description: Công cụ cửa sổ đa nhiệm nổi, dựa trên nguồn từ PullOver X của mlgm, cải thiện hiệu suất và độ ổn định.
+Name: PullOver X (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: Tweaks
+Maintainer: daodao
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
+Replaces: com.mlgm.pulloverx.preferences
+Filename: ./debs/com.jtisvn.pulloverx_1.5_iphoneos-arm64e.deb
+Size: 186796
+MD5sum: e04316191d67641e7e1bbc6256f015ea
+SHA1: 0ecdf8ba1b2dc3a1eb47ae487a7347d7ec231461
+SHA256: d820e16fb1f2af6d8064a56b2046235e879cd3092cfa42166eaeccc7963c7a48
+SHA512: aa4c1b84215f080ff5b783f13056c69dfa35758d0c2e7d3d46966242c0099408c1da3631ee730820e0a100448a6f6a37f919404fa660a89da10cb2b9e64c5d41
+Description: Công cụ cửa sổ đa nhiệm nổi, dựa trên nguồn từ PullOver X của mlgm, cải thiện hiệu suất và độ ổn định.
+Name: PullOver X (RootHide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
 
 Package: com.jtisvn.scribblefix
 Architecture: iphoneos-arm64e

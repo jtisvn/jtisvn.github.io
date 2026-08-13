@@ -5,7 +5,7 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Apple-Support
+Description: JTISVN Repo • A Repository for iOS Jailbreak Tweaks
 MD5Sum:
- 6e9f1e44541a5f060dadc7346b5aa6f9 1168197 Packages
- 8b73f8aac7256a7f7c4ed0c3ad2a4694 269850 Packages.bz2
+ 9e18004303207ae259ea2c68f5d01441 1173639 Packages
+ baef77727904fcab58a223705ba8ff31 271139 Packages.bz2
