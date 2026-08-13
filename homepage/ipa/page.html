@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>JTISVN - Kho Lưu Trữ Tệp IPA</title>
+    <title>JTISVN • Kho Lưu Trữ Tệp IPA</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,6 +29,183 @@
         
         /* Ẩn thanh cuộn nhưng vẫn cuộn được */
         ::-webkit-scrollbar { width: 0px; background: transparent; }
+
+        /* Card catalogue: make long descriptions easier to scan. */
+        .new-item {
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, .06);
+        }
+        .dark .new-item { box-shadow: 0 12px 30px rgba(0, 0, 0, .18); }
+        .new-item::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 1.25rem; right: 1.25rem;
+            height: 2px;
+            background: #cbd5e1;
+            opacity: .85;
+        }
+        .dark .new-item::before { background: #475569; }
+        .card-copy { line-height: 1.65; }
+        .card-label {
+            display: inline-flex;
+            align-items: center;
+            margin: 0 .25rem .2rem 0;
+            padding: .08rem .45rem;
+            border-radius: 999px;
+            font-size: .68rem;
+            letter-spacing: .04em;
+            text-transform: uppercase;
+            color: #0891b2;
+            background: #ecfeff;
+        }
+        .dark .card-label { color: #67e8f9; background: rgba(8, 145, 178, .18); }
+        .new-item img { background: linear-gradient(135deg, #e0f2fe, #f3e8ff); }
+        /* Unified primary actions: download and TrollStore-install buttons. */
+        .new-item a[class*="bg-gray-100"] {
+            position: relative;
+            isolation: isolate;
+            overflow: hidden;
+            min-height: 2.8rem;
+            border: 1px solid #dbe3ee;
+            background: #ffffff;
+            box-shadow: 0 2px 6px rgba(15, 23, 42, .05);
+            transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease, color .22s ease;
+        }
+        .dark .new-item a[class*="bg-gray-100"] {
+            border-color: #374151;
+            background: #1f2937;
+        }
+        .new-item a[class*="bg-gray-100"]:hover {
+            transform: translateY(-2px);
+            border-color: #94a3b8;
+            color: #0f172a;
+            background: #f8fafc;
+            box-shadow: 0 7px 16px rgba(15, 23, 42, .10);
+        }
+        .dark .new-item a[class*="bg-gray-100"]:hover { color: #f8fafc; background: #273449; border-color: #64748b; }
+        .new-item a[class*="bg-gray-100"]:active { transform: translateY(0); }
+        .new-item a[class*="bg-gray-100"]:focus-visible {
+            outline: 3px solid rgba(100, 116, 139, .45);
+            outline-offset: 3px;
+        }
+        .new-item a[class*="bg-gray-100"] > i {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.65rem;
+            height: 1.65rem;
+            margin-left: -.15rem;
+            border-radius: 999px;
+            color: #475569;
+            background: #f1f5f9;
+            transition: color .22s ease, background .22s ease, transform .22s ease;
+        }
+        .dark .new-item a[class*="bg-gray-100"] > i { color: #cbd5e1; background: #374151; }
+        .new-item a[class*="bg-gray-100"]:hover > i {
+            color: #334155;
+            background: #e2e8f0;
+            transform: translateY(-1px);
+        }
+        .dark .new-item a[class*="bg-gray-100"]:hover > i { color: #f8fafc; background: #475569; }
+        /* Navigation switches to a compact disclosure menu on phone-sized portrait screens. */
+        .site-nav-desktop { display: none !important; }
+        .site-nav-mobile-menu[hidden] { display: none; }
+        /* Liquid Glass navigation */
+        .site-nav-mobile,
+        .site-nav-desktop {
+            border-color: rgba(255, 255, 255, .70) !important;
+            background: rgba(255, 255, 255, .46) !important;
+            color: #334155 !important;
+            -webkit-backdrop-filter: blur(20px) saturate(155%);
+            backdrop-filter: blur(20px) saturate(155%);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .82), 0 10px 28px rgba(15, 23, 42, .10);
+        }
+        .site-nav-mobile:hover,
+        .site-nav-desktop:hover {
+            border-color: rgba(255, 255, 255, .92) !important;
+            background: rgba(255, 255, 255, .62) !important;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .95), 0 14px 32px rgba(15, 23, 42, .14);
+        }
+        .site-nav-desktop a:not(.site-brand),
+        .site-nav-desktop button { color: #475569 !important; }
+        .site-nav-desktop a:not(.site-brand):hover,
+        .site-nav-desktop button:hover { background: rgba(255, 255, 255, .58) !important; color: #0f172a !important; }
+        .site-nav-mobile-menu {
+            border-color: rgba(255, 255, 255, .72) !important;
+            background: rgba(255, 255, 255, .72) !important;
+            -webkit-backdrop-filter: blur(22px) saturate(160%);
+            backdrop-filter: blur(22px) saturate(160%);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .85), 0 16px 36px rgba(15, 23, 42, .14);
+        }
+        html.dark .site-nav-mobile,
+        html.dark .site-nav-desktop {
+            border-color: rgba(255, 255, 255, .16) !important;
+            background: rgba(30, 41, 59, .54) !important;
+            color: #e2e8f0 !important;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .12), 0 12px 30px rgba(0, 0, 0, .28);
+        }
+        html.dark .site-nav-mobile:hover,
+        html.dark .site-nav-desktop:hover { background: rgba(51, 65, 85, .64) !important; }
+        html.dark .site-nav-desktop a:not(.site-brand),
+        html.dark .site-nav-desktop button { color: #cbd5e1 !important; }
+        html.dark .site-nav-desktop a:not(.site-brand):hover,
+        html.dark .site-nav-desktop button:hover { background: rgba(255, 255, 255, .10) !important; color: #fff !important; }
+        html.dark .site-nav-mobile-menu {
+            border-color: rgba(255, 255, 255, .14) !important;
+            background: rgba(30, 41, 59, .72) !important;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .12), 0 16px 36px rgba(0, 0, 0, .30);
+        }
+        .site-navigation {
+            align-self: stretch;
+            display: flex;
+            justify-content: flex-end;
+        }
+        @media (min-width: 1024px), (min-width: 768px) and (orientation: landscape) {
+            /* `flex` is a Tailwind utility, so force the mobile controls off on wide screens. */
+            .site-nav-mobile { display: none !important; }
+            .site-nav-desktop {
+                display: flex !important;
+                width: 100%;
+                min-height: 4.5rem;
+                justify-content: space-between;
+                padding: .55rem clamp(1rem, 5vw, 5rem) !important;
+                border-width: 0 0 1px !important;
+                border-radius: 0 !important;
+            }
+            /* Offset the main padding and extend the desktop header to both page edges. */
+            .site-navigation {
+                width: 100vw;
+                align-self: center;
+                justify-content: center;
+                margin-top: -2rem;
+                margin-left: 0;
+            }
+            .site-nav-desktop .site-brand,
+            .site-nav-desktop .site-brand:hover {
+                display: inline-flex;
+                align-items: center;
+                padding: 0 .9rem;
+                font-size: clamp(1.1rem, 1.7vw, 1.45rem);
+                font-weight: 800;
+                letter-spacing: -.025em;
+                color: transparent !important;
+            }
+            .desktop-nav-links { display: flex; align-items: center; gap: .3rem; }
+            .desktop-nav-links a { padding: .65rem 1rem !important; }
+            .desktop-nav-links a.is-current {
+                color: #4338ca !important;
+                background: rgba(99, 102, 241, .14) !important;
+            }
+            html.dark .desktop-nav-links a.is-current {
+                color: #e9d5ff !important;
+                background: rgba(196, 181, 253, .18) !important;
+            }
+            .hero-title { display: none; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+        }
     </style>
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -83,23 +260,74 @@
         <main class="container mx-auto px-4 py-8">
             
             <div class="flex flex-col items-center justify-center text-center mb-10 animate-fade-down">
-                <div class="inline-flex justify-center items-center bg-white/80 dark:bg-zinc-900/60 backdrop-blur-xl border border-gray-200 dark:border-white/10 rounded-full p-1.5 mb-8 shadow-lg gap-1 transition-colors duration-300">
-                    <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html" class="px-4 py-2 rounded-full font-bold text-sm text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-white/10 dark:hover:text-white transition-all">Kho Dylib</a>
-                    <a href="https://jtisvn.github.io/" class="px-4 py-2 rounded-full font-bold text-sm text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-white/10 dark:hover:text-white transition-all">Repository</a>
-                    <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="px-4 py-2 rounded-full font-bold text-sm text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-white/10 dark:hover:text-white transition-all">Ủng Hộ</a>
-                    <button id="theme-toggle-btn" class="px-3 py-2 rounded-full font-bold text-sm text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-white/10 dark:hover:text-white transition-all cursor-pointer">
-                        <i class="fas fa-sun" id="theme-icon"></i>
-                    </button>
-                </div>
+                <nav class="site-navigation mb-8 -mt-8 -mx-4 lg:mx-0 relative z-50" aria-label="Điều hướng chính">
+                    <!-- Mobile Nav (Thanh điều hướng tràn viền, sát đỉnh 100%) -->
+                    <div class="site-nav-mobile relative flex items-center justify-between w-full px-5 py-3.5 border-b transition-all z-50">
+                        
+                        <!-- Tên Web bên trái -->
+                        <a href="#top" class="site-brand text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-purple-600 to-pink-600 dark:from-cyan-400 dark:via-white dark:to-purple-400 drop-shadow-lg font-extrabold text-[1.15rem]">JTISVN IPA LIBRARY</a>
+                        
+                        <!-- Nút Hamburger bên phải -->
+                        <div class="flex items-center">
+                            <button id="nav-menu-toggle" type="button" aria-expanded="false" aria-controls="nav-mobile-menu" class="flex items-center justify-center w-10 h-10 rounded-xl text-slate-700 dark:text-slate-200 hover:bg-black/5 dark:hover:bg-white/10 transition-colors">
+                                <i class="fas fa-bars text-xl"></i>
+                            </button>
+                        </div>
+
+                        <!-- Menu Dropdown xổ xuống (Có Icon, vạch màu chuẩn) -->
+                        <div id="nav-mobile-menu" class="site-nav-mobile-menu absolute left-0 right-0 top-full z-[100] border-b transition-all" hidden>
+                            <div class="flex flex-col py-1">
+                                <!-- Trang chủ -->
+                                <a href="#top" class="flex items-center gap-3 relative px-6 py-4 text-sm font-bold text-purple-600 dark:text-purple-400 hover:bg-slate-50 dark:hover:bg-white/5 border-b border-gray-100 dark:border-white/5 transition-colors">
+                                    <i class="fas fa-home w-5 text-center"></i>
+                                    Trang chủ
+                                    <!-- Vạch màu đã được sửa để tràn đều khớp với chữ -->
+                                    <span class="absolute bottom-0 left-6 right-6 h-[2px] bg-purple-600 dark:bg-purple-400 rounded-t-full"></span>
+                                </a>
+                                <!-- Kho Dylib -->
+                                <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html" class="flex items-center gap-3 px-6 py-4 text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/5 border-b border-gray-100 dark:border-white/5 transition-colors">
+                                    <i class="fas fa-box-archive w-5 text-center text-slate-400"></i>
+                                    Kho Dylib
+                                </a>
+                                <!-- Repository -->
+                                <a href="https://jtisvn.github.io/" class="flex items-center gap-3 px-6 py-4 text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/5 border-b border-gray-100 dark:border-white/5 transition-colors">
+                                    <i class="fas fa-code-branch w-5 text-center text-slate-400"></i>
+                                    Repository
+                                </a>
+                                <!-- Ủng Hộ -->
+                                <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="flex items-center gap-3 px-6 py-4 text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/5 border-b border-gray-100 dark:border-white/5 transition-colors">
+                                    <i class="fas fa-heart w-5 text-center text-slate-400"></i>
+                                    Ủng Hộ
+                                </a>
+                                <!-- Đổi giao diện -->
+                                <button type="button" data-theme-toggle class="flex items-center justify-between w-full px-6 py-4 text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors">
+                                    <span class="flex items-center gap-3">
+                                        <i class="fas fa-sun w-5 text-center text-slate-400" data-theme-icon></i>
+                                        Chuyển đổi giao diện
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Desktop Nav (Giữ nguyên không ảnh hưởng đến PC) -->
+                    <div class="site-nav-desktop items-center border border-slate-700 bg-slate-800 shadow-md dark:border-slate-600">
+                        <a href="#top" class="site-brand text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-purple-600 to-pink-600 dark:from-cyan-400 dark:via-white dark:to-purple-400 drop-shadow-lg" aria-label="JTISVN IPA Library — Trang chủ">JTISVN IPA LIBRARY</a>
+                        <div class="desktop-nav-links">
+                            <a href="#top" class="is-current rounded-xl text-sm font-bold transition">Trang chủ</a>
+                            <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html" class="rounded-xl text-sm font-bold transition">Kho Dylib</a>
+                            <a href="https://jtisvn.github.io/" class="rounded-xl text-sm font-bold transition">Repository</a>
+                            <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="rounded-xl text-sm font-bold transition">Ủng Hộ</a>
+                            <span class="mx-1 h-5 w-px bg-slate-200/60 dark:bg-white/15"></span>
+                            <button type="button" data-theme-toggle aria-label="Đổi giao diện" title="Đổi giao diện" class="rounded-xl px-3 py-2 text-sm font-bold transition"><i class="fas fa-sun" data-theme-icon></i></button>
+                        </div>
+                    </div>
+                </nav>
 
                 <div class="relative group mb-6">
                     <div class="absolute -inset-1 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-full opacity-60 blur group-hover:opacity-100 transition duration-500"></div>
                     <img src="https://jtisvn.github.io/icons/apps/avatar.webp" alt="Avatar" class="relative w-32 h-32 rounded-full border-4 border-cyan-400 bg-black shadow-2xl object-cover transition-transform duration-700 ease-in-out hover:rotate-[360deg]">
                 </div>
-                
-                <h1 class="text-4xl font-extrabold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 dark:from-cyan-400 dark:via-white dark:to-purple-400 animate-gradient-text drop-shadow-lg pb-1">
-                    JTISVN IPA LIBRARY
-                </h1>
                 
                 <p class="mt-2 text-lg text-gray-700 dark:text-gray-300 font-medium max-w-2xl text-shadow">
                     Kho lưu trữ các công cụ ký IPA và Jailbreak tốt nhất để tối ưu hóa trải nghiệm iPhone/iPad của bạn.
@@ -174,7 +402,7 @@
 
             <div class="text-center mb-8 animate-fade-up">
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Công cụ sign IPA</h2>
-                <p class="text-lg text-gray-600 dark:text-gray-400">Dưới đây là công cụ sign các tệp IPA ứng dụng cho thiết bị IOS</p>
+                <p class="text-lg text-gray-600 dark:text-gray-400">Chọn công cụ phù hợp để ký và cài tệp IPA trên iPhone hoặc iPad.</p>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 item-grid animate-fade-up delay-[150ms]">
@@ -236,7 +464,7 @@
 
             <div class="text-center mb-8 animate-fade-up">
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Kho IPA</h2>
-                <p class="text-lg text-gray-600 dark:text-gray-400">Các tệp IPA ứng dụng tương thích với Trollstore và Jailbreak</p>
+                <p class="text-lg text-gray-600 dark:text-gray-400">Ứng dụng và tiện ích dành cho TrollStore hoặc thiết bị đã Jailbreak.</p>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 item-grid animate-fade-up delay-[200ms]">
@@ -341,7 +569,7 @@
                     <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/opa334/Dopamine" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
                     <div class="flex flex-col gap-2 mt-auto">
                         <a href="https://github.com/opa334/Dopamine/releases/download/2.4.9/Dopamine.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
-                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/opa334/Dopamine/releases/download/2.4.9/Dopamine.tipa')" class="w-full py-2 rounded-xl ng-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/opa334/Dopamine/releases/download/2.4.9/Dopamine.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
                     </div>
                 </div>
 
@@ -805,6 +1033,27 @@
             window.location.href = "apple-magnifier://install?url=" + encodedUrl;
         }
 
+        // Keep the catalogue consistent without duplicating presentation markup in every card.
+        document.querySelectorAll('.new-item').forEach(card => {
+            const title = card.querySelector('h2')?.textContent.trim();
+            const image = card.querySelector('img');
+            if (image && title && !image.alt) image.alt = `Biểu tượng ${title}`;
+
+            card.querySelectorAll('p').forEach(paragraph => {
+                paragraph.classList.add('card-copy');
+                paragraph.querySelectorAll('b').forEach(label => label.classList.add('card-label'));
+                // Older cards place compatibility notes after a line break without a label.
+                paragraph.innerHTML = paragraph.innerHTML.replace(
+                    /<br>\s*(?=(?:iOS|Yêu cầu|Hỗ trợ))/i,
+                    '<br><span class="card-label">Yêu cầu</span> '
+                );
+            });
+        });
+
+        document.querySelectorAll('a[target="_blank"]').forEach(link => {
+            link.rel = 'noopener noreferrer';
+        });
+
         const searchInput = document.getElementById('ipa-search-input');
         const items = document.querySelectorAll('.new-item');
 
@@ -832,28 +1081,50 @@
             });
         });
 
-        const themeToggleBtn = document.getElementById('theme-toggle-btn');
-        const themeIcon = document.querySelector('#theme-toggle-btn i');
-        const body = document.body;
-        const currentTheme = localStorage.getItem('theme') || 'dark';
+        const themeToggleButtons = document.querySelectorAll('[data-theme-toggle]');
+        const themeIcons = document.querySelectorAll('[data-theme-icon]');
+        const currentTheme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
         
         function setTheme(theme) {
             if (theme === 'dark') {
                 document.documentElement.classList.add('dark');
-                if(themeIcon) themeIcon.className = 'fas fa-sun';
+                themeIcons.forEach(icon => icon.className = 'fas fa-sun w-4 text-slate-400');
             } else {
                 document.documentElement.classList.remove('dark');
-                if(themeIcon) themeIcon.className = 'fas fa-moon';
+                themeIcons.forEach(icon => icon.className = 'fas fa-moon w-4 text-slate-400');
             }
             localStorage.setItem('theme', theme);
         }
 
         setTheme(currentTheme);
         
-        if(themeToggleBtn) {
-            themeToggleBtn.addEventListener('click', () => {
+        themeToggleButtons.forEach(button => {
+            button.addEventListener('click', () => {
                 const isDark = document.documentElement.classList.contains('dark');
                 setTheme(isDark ? 'light' : 'dark');
+            });
+        });
+
+        const navMenuToggle = document.getElementById('nav-menu-toggle');
+        const navMobileMenu = document.getElementById('nav-mobile-menu');
+        if (navMenuToggle && navMobileMenu) {
+            const closeMenu = () => {
+                navMobileMenu.hidden = true;
+                navMenuToggle.setAttribute('aria-expanded', 'false');
+            };
+
+            navMenuToggle.addEventListener('click', () => {
+                const willOpen = navMobileMenu.hidden;
+                navMobileMenu.hidden = !willOpen;
+                navMenuToggle.setAttribute('aria-expanded', String(willOpen));
+            });
+            navMobileMenu.querySelectorAll('a, button').forEach(item => item.addEventListener('click', closeMenu));
+            document.addEventListener('click', event => {
+                if (!event.target.closest('.site-nav-mobile')) closeMenu();
+            });
+            document.addEventListener('keydown', event => {
+                if (event.key === 'Escape') closeMenu();
             });
         }
     </script>
