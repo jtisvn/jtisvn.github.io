@@ -73,13 +73,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "9/10/2025",
+"text": "09/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -97,7 +97,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.4.9.9k",
+"text": "1.0.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -123,7 +123,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.7.10",
+"text": "14.0 - 17.5.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -151,7 +151,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.4.9.9k\n\n- Sửa lỗi.\n\n### Phiên bản 0.4.1b\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 0.4.9.9k\n\n- Sửa lỗi."
 }
 ],
 "class":"DepictionStackView"

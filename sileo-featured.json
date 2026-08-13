@@ -4,6 +4,10 @@
     "itemCornerRadius": 10,
     "banners": [
         {
+            "title": "VIETNAM NUMBER ONE",
+            "package": "com.kitsudo.vietnam37",
+            "url": "https://jtisvn.github.io/coverimage/vietnam37.png"},
+{
             "title": "NexusBoard",
             "package": "com.kitsudo.nexusboard",
             "url": "https://jtisvn.github.io/coverimage/NexusBoard.png"},
@@ -12,13 +16,13 @@
             "package": "com.leftyfl1p.carbridge13",
             "url": "https://jtisvn.github.io/coverimage/CarBridge2.png"},
 {
+           "title": "Liquid (G)lass",
+            "package": "com.jtis.liquidglass26",
+            "url": "https://jtisvn.github.io/coverimage/LiquidGlass26.png"},
+{
            "title": "Liquid Glass",
             "package": "com.jtisvn.lg26",
             "url": "https://jtisvn.github.io/coverimage/LiquidGlass.png"},
-{
-           "title": "Capcut Pro",
-            "package": "com.jtisvn.capcutcrack",
-            "url": "https://jtisvn.github.io/coverimage/CapcutPro.png"},
 {
            "title": "Designer",
             "package": "com.jtis.designer",

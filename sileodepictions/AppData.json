@@ -172,7 +172,7 @@
 "class":"DepictionSeparatorView"
 },
 {
-"markdown":"### Phiên bản 2.6.8\\n- Bổ sung thêm Tiếng Anh\n- Tối ưu lại giao diện panel.\n- Thêm tính năng chặn app tự động cập nhật.",
+"markdown":"### Phiên bản 2.6.8\n- Bổ sung thêm Tiếng Anh\n- Tối ưu lại giao diện panel.\n- Thêm tính năng chặn app tự động cập nhật.",
 "useSpacing":true,
 "class":"DepictionMarkdownView"
 },

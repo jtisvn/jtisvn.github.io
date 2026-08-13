@@ -10475,6 +10475,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Gravitation.json
 
 Package: com.jtis.gravitation
 Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1264
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.gravitation_0.1.1_iphoneos-arm64.deb
+Size: 108220
+MD5sum: f55da67aff5d645e6d1b1f4f6f32e413
+SHA1: f390eef8008ccb5bfd58d7a566afee0657845906
+SHA256: c74f278a085e57952287ea2d1cb66745414db0aa2b6b26fde618f1a8481c48c3
+SHA512: cc6f46a3765f603e143661b89d55d2908c861fbaa9399a77b9d3693f6c4a84450e333d572dda441880dc0071f625b8c1cd17e01e1abfd6d6b1a1d8f29f5df645
+Description: Lắc điện thoại của bạn để làm rơi các biểu tượng trên màn hình chính!
+Name: Gravitation (Rootless)
+Author: Kritanta
+Depiction: https://jtisvn.github.io/depictions/Gravitation.html
+Icon: https://jtisvn.github.io/sectionIcons/Gravitation.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gravitation.json
+
+Package: com.jtis.gravitation
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1264
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.gravitation_0.1.1_iphoneos-arm64e.deb
+Size: 108268
+MD5sum: 8a0af92186321934063c5ddb41a8c33c
+SHA1: fbce5f55f383bed953ace59adfd6270e02d74e0b
+SHA256: 2fa94bafcfae5283bed449a6baf5d182abe473df3b2ce7637dbbf979e5d6c082
+SHA512: 708351a432674fc8f1f8c30f1cb6a8b9dc11231ec77143bc4359468c1431771e1f7a06f3514e2864c7bff4cdacb01478a15bb401f30814d70c5810fe9aff712e
+Description: Lắc điện thoại của bạn để làm rơi các biểu tượng trên màn hình chính!
+Name: Gravitation (Roothide)
+Author: Kritanta
+Depiction: https://jtisvn.github.io/depictions/Gravitation.html
+Icon: https://jtisvn.github.io/sectionIcons/Gravitation.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gravitation.json
+
+Package: com.jtis.gravitation
+Architecture: iphoneos-arm64
 Version: 4.0
 Section: Tweaks
 Maintainer: JTIS Repo
