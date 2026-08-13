@@ -23658,44 +23658,44 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.vivostyle.tweak
 Architecture: iphoneos-arm64
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: huy
-Installed-Size: 540
+Installed-Size: 568
 Depends: ellekit, preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.vivostyle.tweak_1.0.1_iphoneos-arm64.deb
-Size: 51320
-MD5sum: ec50501943eea83506ee62ed689c7c5b
-SHA1: e35729f66be9b8b579eab86e122612d5bccd5a9c
-SHA256: 147f44c98dd67fa3e82e7c1b7b94616c4d1e0e3c91a60121d23d29ea35ffad00
-SHA512: e7ac8e8cf2f8376ec098eda9d509b597b15c6a329e4ada917eee39bdd4194a8e048b366f3721b6002391914346cbcb0aaddd2c16e79c25bddfc5f25f935188e8
+Filename: ./debs/com.vivostyle.tweak_1.0.2_iphoneos-arm64.deb
+Size: 74736
+MD5sum: ba17adc8e6916c1de97cf5f6b4e87825
+SHA1: 63635ef6bb9a29562115b79ca80c6a1f93f1e95c
+SHA256: 1b9f1073e2df9feab8bb9acd72498d4e44818dd80d38cc7726e9c2466900522f
+SHA512: 758f1e473bccef317fea3a559adaceaf0cde95b9414bdf86370a7796de3db07141c9121072cbdffc34153f1efd1c722df71a7e53a22d77e06285fe41e49eecf8
 Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
 Name: VivoStyle (Rootless)
 Author: huy
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
 Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/VivoStyle.png
 
 Package: com.vivostyle.tweak
 Architecture: iphoneos-arm64e
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: huy
-Installed-Size: 540
+Installed-Size: 568
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: ellekit, preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.vivostyle.tweak_1.0.1_iphoneos-arm64e.deb
-Size: 51552
-MD5sum: e4ed20e18082ba58185e3754c865aaf8
-SHA1: 4fe37a97d0168d7fb8f5193a6b022d0a71f11fe8
-SHA256: 93b650728571fd466edddf15708b8d65e147d5275719f116ea050c688b44d45d
-SHA512: 69c853388664fc2a243261aec24a0132f813e2ca21835f514d26c1855c6fa30230c03675d2dc1d5c6aa626510a685f75892e545756e2d98af3b10ba2ddaaf860
+Filename: ./debs/com.vivostyle.tweak_1.0.2_iphoneos-arm64e.deb
+Size: 74908
+MD5sum: 7ca1ee58449a8ac5c9dc001b7bec4bbf
+SHA1: aa4f778d25cedad142b8f4667331417aa7796f44
+SHA256: 5d5eedf82c96fce883a48d3205b2d039fdf3941b94263e2599ead6f79cff8a63
+SHA512: 07710b286cb6f14e953ae149197b075889fc08aa65fe6dacaa1d6b787602eb77f6896ed7e02d901a9b369c13f01ba8fa017272092ec8381157bb4ed6c36478e9
 Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
 Name: VivoStyle (Roothide)
 Author: huy
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
 Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/VivoStyle.png
 
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
@@ -25815,6 +25815,40 @@ Description: UI Extension for SnowBoard
 Name: SnowBoard UI Extension
 Author: Spark
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
+
+Package: com.vivostyle.tweak
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: huy
+Installed-Size: 412
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/vivostyle_roothide.deb
+Size: 29220
+MD5sum: 80229b3b7aae0beaaeb4b8fa1b53e848
+SHA1: 3f00ccdb2059acade93ab659515bfda24c2ebdb3
+SHA256: a404bffdea1e07ec7015c7b0a6e371c448749477e4ce25ac7bbd52c6e0bb64cf
+SHA512: 5959421147dd4927f784ac586da1f3e356fe91fbb41b54ecc7cf915a91eae542085d6f5c3d2c3e9e69abbe5c2af09cd8f55a98c7bfd02234dfd27aa843538d0f
+Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
+Name: VivoStyle
+Author: huy
+
+Package: com.vivostyle.tweak
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: huy
+Installed-Size: 412
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/vivostyle_rootless.deb
+Size: 30270
+MD5sum: 98f64294f64014c11814d38c7bf6be8d
+SHA1: 5cc0ad9d63c11436a70448e3dfe24a09373242dd
+SHA256: b1ba7078635714224775be6aad382f774741330bcdd4e77197401c3951021f33
+SHA512: 40fc368a4d5e897f60369834c1896840fb3daff4f9e37902182d78dcedda04fceaf5ef5913764116b8d0a6fbb4677f5793a8cf9e765e63b6e5327702bbb0cea3
+Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
+Name: VivoStyle
+Author: huy
 
 Package: wiki.qaq.chromatic.rootless
 Architecture: iphoneos-arm64
