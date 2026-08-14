@@ -23617,17 +23617,17 @@ Icon: https://cdn.discordapp.com/attachments/418170831592488972/4652687760912548
 
 Package: com.vivostyle.tweak
 Architecture: iphoneos-arm64
-Version: 1.0.0k
+Version: 1.0.1
 Section: Tweaks
 Maintainer: huy
 Installed-Size: 412
 Depends: ellekit, preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.vivostyle.tweak_1.0.0k_iphoneos-arm64.deb
-Size: 37360
-MD5sum: dd91adb41505388acf154228c9067566
-SHA1: ab25364cc10f1c3292df5879eef3598988f71f9d
-SHA256: a53cb20ac928e6912b80a78df0295a0d5a45f0b5cee5289aa57d61351e4b0fed
-SHA512: 594a7d76c833efc30f5cc4486dfed2a61f7ec3b72a619bca163ac4f93ab88b936d57ff427a0d4c7e57410c31d704406e928166462d73791b8d66b9370c4e0a79
+Filename: ./debs/com.vivostyle.tweak_1.0.1_iphoneos-arm64.deb
+Size: 37460
+MD5sum: bab5a1be349b22cd993d6b4e7f3799c9
+SHA1: 8d3bd06b476df684ad14a2f437a1940963ea6c52
+SHA256: d21213ffdc814d99172a9482629f41322df935aa9238a3210e6b8982eb8e7fa3
+SHA512: a5ef0c86e02832759ce794abb96e10048171e7b4259de17bd3639152b76d92d3301c578b3dd1df4694b1207fa3cf5fa9590e507165bb9cf85811664ff2f3ce49
 Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
 Name: VivoStyle (Rootless)
 Author: huy
@@ -23637,18 +23637,18 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.vivostyle.tweak
 Architecture: iphoneos-arm64e
-Version: 1.0.0k
+Version: 1.0.1
 Section: Tweaks
 Maintainer: huy
 Installed-Size: 412
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: ellekit, preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.vivostyle.tweak_1.0.0k_iphoneos-arm64e.deb
-Size: 37328
-MD5sum: cf7adc15c0fdcdf2dccecb9e8629ff35
-SHA1: 6b4567ff9c53299dc53bdfae945064c602499bcb
-SHA256: 2bb9a51ed85cd4aa59c036972344472427d7d8bac4fd032aa47ebbaf0eb026b7
-SHA512: a80a952f7c192853291ca8c12f9ba6c4bd1756b7844941c02f20fdebf3bb59dac9249004fee92baf972183f93abd30205ca5fb40ebdee31e8030ae6775eabde7
+Filename: ./debs/com.vivostyle.tweak_1.0.1_iphoneos-arm64e.deb
+Size: 37372
+MD5sum: ba41d0a8e8196930e3a7058f955b0a93
+SHA1: 5fa6d5aeb96c04cd7312299fea1d38eb8beefcdd
+SHA256: 234e80eecdae110a211b755665b7ef80416d68c22e07a9fc827d682a5bcfebd5
+SHA512: e1743c11d9d487f5bd596d91af7225c442151b418dd0fe592f09ae4b8575b39fa48165b5c298feafae186f212dfe4e78d0aea54f5b3853afe305824265c1070c
 Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
 Name: VivoStyle (Roothide)
 Author: huy
