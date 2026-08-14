@@ -19036,6 +19036,70 @@ Depiction: https://jtisvn.github.io/depictions/PullOverX.html
 Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
 Author: mlgm
 
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: daodao
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_2.0_iphoneos-arm.deb
+Size: 145304
+MD5sum: a78711949e59779a105d850d53e64db8
+SHA1: 33d5f52d106930f92853247ed806d07f7a6713e0
+SHA256: 0e3c9b528275f1f0251e23b3bc0f8a2a45de2409a30b8f068b2b1e08d074f55f
+SHA512: 8baf27480e06c4a4b87a7a684332bb1ab9ef20b9c05592b0e94750afbb0d2d34ebe11858e85435e76d149024dc377133e6b8fa6ab0b83883b746d5f92fcb37de
+Description: Công cụ cửa sổ đa nhiệm nổi, dựa trên nguồn từ PullOver X của mlgm,
+Name: PullOverX
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: daodao
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_2.0_iphoneos-arm64.deb
+Size: 190268
+MD5sum: 3cbbb1c9930ad100034f9a4e630126fb
+SHA1: 5479d28e4b6bc8eee5d8d24eca3e4c2adcf3410d
+SHA256: 3f876bd3262c96f855f6f89f5028638c413e08ace36cb3a4b453835cbf1b419d
+SHA512: 3a43ceb4890ed78493866f18156c3826579d2bf2d9bc34aa206b27ac802fbc16d45f9a980e2d5791c1aa86e01985e5dfb9810829aabaeb2f6ecfe0745d9d3b33
+Description: Công cụ cửa sổ đa nhiệm nổi, dựa trên nguồn từ PullOver X của mlgm.
+Name: PullOver X (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: daodao
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_2.0_iphoneos-arm64e.deb
+Size: 187472
+MD5sum: c1bf3aa39d470fc2f4ffb14a3ac30175
+SHA1: a3f7dfbb7955421b8f020f3d5a19a3e8229b3db2
+SHA256: 0addac5fd829c97326d707d72f5e57dbb2fb357cf4b6001a8bfc3924fc1eb3cd
+SHA512: d3c352bd5671308182201f1296e698f1cd38c76fa65fd88b53f76be3a67f8b35c5db1dbf624c0b39ce57f31260e7a2a393cc29294fb71ea07d3e91665644dce0
+Description: Công cụ cửa sổ đa nhiệm nổi, dựa trên nguồn từ PullOver X của mlgm.
+Name: PullOver X (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
 Package: com.jtisvn.scribblefix
 Architecture: iphoneos-arm64e
 Version: 1.0.0

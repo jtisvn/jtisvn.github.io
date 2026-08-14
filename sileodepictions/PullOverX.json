@@ -91,7 +91,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12/08/2026",
+"text": "14/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +109,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.5",
+"text": "2.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -122,7 +122,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2,3 MB",
+"text": "759,7 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -161,6 +161,15 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 2.0\n- Thêm 3 tùy chọn kích thước cửa sổ nổi\n\n- Tăng khả năng tương thích giữa các phiên bản iOS.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 1.5\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Tăng cường hiệu năng & độ ổn định."
