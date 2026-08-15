@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.2",
+"text": "1.0.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -153,6 +153,15 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.0.1\n- Sửa lỗi treo và đen màn hình.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "markdown": "### Phiên bản 1.0.2\n- Sửa lỗi tình trạng văng Cài đặt và treo\"Đang nhập...\"khi chọn ảnh.\n- Sửa lỗi hình nền bị kẹt lại ở màn hình chính sau khi vuốt mở khoá.(Chỉ cho hoạt động trên Màn hình khoá).\n- Phiên bản được sửa dựa trên mã nguồn mở của Huy Nguyen 34306.",
 "useSpacing": true,

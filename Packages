@@ -2279,6 +2279,40 @@ Description: Be the god of your games!
 Name: iGameGod
 Author: iGameGod
 
+Package: com.gamegod.igg
+Architecture: iphoneos-arm64
+Version: 0.8.8
+Section: Utilities
+Maintainer: iGameGod
+Installed-Size: 35320
+Depends: mobilesubstrate (>= 0.9.5000), ldid, fakeroot, odcctools
+Filename: ./debs/com.gamegod.igg_0.8.8_iphoneos-arm64.deb
+Size: 6540388
+MD5sum: 65824ede1bb13a343f9714dc090ea226
+SHA1: bf904772101e0dfea2933401f8b1d01c77817cb0
+SHA256: e4d79b6a3f010e76f5b640b38389ce7d02ecd675613282b600728f8ec7e824c8
+SHA512: 2a9baf3c663acb097dd9b46be6049f56787d6a6aba8e234734426d8d8689449a5313a187adaab195862a7f15edf098baf23c8a0d6e2af8127aa9932fbda425a9
+Description: Be the god of your games!
+Name: iGameGod (Rootless)
+Author: iGameGod
+
+Package: com.gamegod.igg
+Architecture: iphoneos-arm64e
+Version: 0.8.8
+Section: Utilities
+Maintainer: iGameGod
+Installed-Size: 35320
+Depends: mobilesubstrate (>= 0.9.5000), ldid, fakeroot, odcctools
+Filename: ./debs/com.gamegod.igg_0.8.8_iphoneos-arm64e.deb
+Size: 6543980
+MD5sum: ef1e8a2a9cf9e739516f1022f24ccbae
+SHA1: b169ad87542c98f4f3246339db3144d12da5b92d
+SHA256: e6a5244e0ca8f5321bbe711d1ce4373a8d5c416b2d401d7a0e515d93a4c20f62
+SHA512: eb6e6c959ff9c304481e7979594d0e1b76b8c5982459170f79038415f834a380618ea62e2f3e4a86b42268045e3332d619334ca9043b43492080e14cd9c2e0c4
+Description: Be the god of your games!
+Name: iGameGod (Roothide)
+Author: iGameGod
+
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
 Version: 1.1.0
@@ -19100,6 +19134,27 @@ Depiction: https://jtisvn.github.io/depictions/PullOverX.html
 Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
 Author: mlgm
 
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Tweaks
+Maintainer: daodao
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_2.1_iphoneos-arm64e.deb
+Size: 188544
+MD5sum: 388416e324484eceefd571dcc98f848b
+SHA1: 0166787334ad4c5613c5fad1aefc3c2d14863913
+SHA256: bb4216f14e3512d78951d124863ae50800aae27dd7d6d987ae1eaa3ba83c3dce
+SHA512: 46f116fd15d6a5b9b9bfc1d2f6b63c1781df808c405d76806713a07eed216bd09eb0a205e76c1100bc2f47b997e8ebd2d160a6cdc2c31b8d5bb0e452587dc638
+Description: Công cụ cửa sổ đa nhiệm nổi, dựa trên mã nguồn từ PullOver X của mlgm, cải thiện hiệu suất và độ ổn định.
+Name: PullOver X (RootHide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
 Package: com.jtisvn.scribblefix
 Architecture: iphoneos-arm64e
 Version: 1.0.0
@@ -20634,6 +20689,24 @@ Author: SquidForce
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HidePullOverPro.json
 
+Package: com.lclrc.recordanywhere
+Architecture: iphoneos-arm64e
+Version: 1.1.0-1
+Section: Tweaks
+Maintainer: Muirey03 & lclrc
+Depends: mobilesubstrate
+Filename: ./debs/com.lclrc.recordanywhere_1.1.0-1_iphoneos-arm64e.deb
+Size: 4284
+MD5sum: de4d9edb720b565063af883c57ff5680
+SHA1: 319be8683972571bb5411994bc3e7dcd7f1eff78
+SHA256: 36d6792a0f4a69cf0f4e19fa9ac51554c9040d72ad35b2cae7988a34782985e1
+SHA512: edbb85162eb533dc47cdbcf9aaa3e07a37f802dc4e32a1e927e8259b562e71509c610e334477234510c0a4181a142d6462576ab15eb16f8498f294b190454328
+Description: luôn bật trình ghi màn hình hoạt động ngay cả khi đã tắt màn hình khóa
+Name: RecordAnywhere (Roothide)
+Author: Muirey03 & lclrc
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RecordAnywhere.json
+Icon: https://jtisvn.github.io/sectionIcons/RecordAnywhere.png
+
 Package: com.leftyfl1p.carbridge13
 Architecture: iphoneos-arm
 Version: 1.0.9.5
@@ -21448,6 +21521,49 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: niceios
 Sponsor: niceios
 
+Package: com.nightwind.boldersreborn
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Section: Tweaks
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 5808
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.ichitaso.iconorder
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, gsc.ipad, com.lizynz.folderx.rootless, com.lizynz.folderx
+Filename: ./debs/com.nightwind.boldersreborn_1.1.2_iphoneos-arm64.deb
+Size: 4865212
+MD5sum: c9e9e86289d074592677d6baeab3f37e
+SHA1: 3002138bdc9e402e450ac0dea2a8831ae23a48b5
+SHA256: da68516cc0f2aa8b95e152fc30f749b4ebc0bb5edef53e75c374eef37f189ff2
+SHA512: 082dad4804ffb8f3b2231608801398fbbb3a302752740c4683a7ea0dda414c45a351b324f436b1584348713f689cbdcef30f02d2accc41d9ffb86575ebc9cd80
+Description: Bigger and bolder folders, remade!
+Tag: compatible_min::ios14.0
+Author: Nightwind <nightwinddev@gmail.com>
+Name: Bolders Reborn (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BoldersReborn.json
+Depiction: https://chariz.com/get/boldersreborn
+Icon: https://img.chariz.cloud/icon/boldersreborn/icon@3x.png
+
+Package: com.nightwind.boldersreborn
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 5620
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.ichitaso.iconorder
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, gsc.ipad, com.lizynz.folderx.rootless, com.lizynz.folderx
+Filename: ./debs/com.nightwind.boldersreborn_1.1.2_iphoneos-arm64e.deb
+Size: 4864452
+MD5sum: 990f84c83bdaf0b29fdcfc10985f5c5b
+SHA1: de4566c104e7bc76e716b155c09d1af586f10622
+SHA256: cdec3a7b69d58ed23e25594448db5c4c2de6c73ef02560bc61b79aa6e9d6ebfe
+SHA512: 979a7421ab1f97965bd7de2555b85b477199e2c12670c1aa944326399263b270254a3009fdaea0950487b11f87027311f552f60f9a2b03ed16f9c1e1a7b6f7bd
+Description: Bigger and bolder folders, remade!
+Name: Bolders Reborn (Roothide)
+Author: candoizo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BoldersReborn.json
+Depiction: https://chariz.com/get/boldersreborn
+Icon: https://img.chariz.cloud/icon/boldersreborn/icon@3x.png
+
 Package: com.nightwind.cephei-compat
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -21695,6 +21811,25 @@ Name: Choicy (Roothide)
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Author: opa334 <opa334@protonmail.com>
 Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcydia.saurik.com%2Ficon%2Fcom.opa334.choicy.png&s=180x180&f=webp
+
+Package: com.opa334.choicy
+Architecture: iphoneos-arm64
+Version: 1.5.4-2
+Section: Tweaks
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1120
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader, com.kitsudo.choicy
+Filename: ./debs/com.opa334.choicy_1.5.4-2_iphoneos-arm64.deb
+Size: 161864
+MD5sum: a0b17d287ef6ba17d3b97110f4c717b0
+SHA1: 3e87c82dd2da2f8ac1d76c055f84508f8d3d5c67
+SHA256: ee4a36824656e6875f0c37c7e821926d2f6b69b170a90433186ee7bbbfd7013a
+SHA512: 7cd9762766dbbe4dc2066f0377c12d15ffd59d8d5e57803c41b781068824981752042d6a591c1e338619da86b47017a801705108ca8a520d219958db7f2fc97e
+Description: Advanced Tweak Configuration!
+Name: Choicy (Rootless)
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcydia.saurik.com%2Ficon%2Fcom.opa334.choicy.png&s=180x180&f=webp
+Author: opa334 <opa334@protonmail.com>
 
 Package: com.opa334.crane
 Architecture: iphoneos-arm64
@@ -23761,6 +23896,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
 Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
 Icon: https://jtisvn.github.io/sectionIcons/VivoStyle.png
 
+Package: com.vivostyle.tweak
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: huy
+Installed-Size: 424
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Conflicts: com.vivostyle.tweak
+Filename: ./debs/com.vivostyle.tweak_1.0.3_iphoneos-arm64.deb
+Size: 63960
+MD5sum: 58a429d261af36e0d7a9a10cf1d9f471
+SHA1: 8f544d3249132ca45348c1f4cc1b05c3af3b9c84
+SHA256: 84c004498d8bf10db53b91375e13c337b80f283de7093f5fe3b048fa40bcfe49
+SHA512: 834e5a64bc9de03f5ff18479bedd7c31555cee1384f53872045fadb31008207e6cabc88c5c910fe0d90b3d6649489f266186f2306b66b0570f1e4326fee65190
+Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
+Name: VivoStyle (Rootless)
+Author: huy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
+Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
+Icon: https://jtisvn.github.io/sectionIcons/VivoStyle.png
+
+Package: com.vivostyle.tweak
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: huy
+Installed-Size: 424
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Conflicts: com.vivostyle.tweak
+Filename: ./debs/com.vivostyle.tweak_1.0.3_iphoneos-arm64e.deb
+Size: 62864
+MD5sum: 5974829aef2353c155e9aa614efc16a5
+SHA1: d2c30dce667021ab9cb812d9bc92b8f96593b1e8
+SHA256: e8df94a9cce3e7509caf42d7039fb4b98b7666a978567f2b226547bad9b8d34a
+SHA512: ee920d45aed63f3983c5eeae64556ada8a265ff9959c55fb74e6f754a95dfac4d79f21acfe83d1fb4ceac41d6f1f40881f8e1eceb6d95dae611157303b602200
+Description: vivo OriginOS-style gyroscope "Flip Card" lock screen wallpapers — tilt to cross-fade between your own photos, with parallax depth. Configurable in Settings.
+Name: VivoStyle (Roothide)
+Author: huy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
+Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
+Icon: https://jtisvn.github.io/sectionIcons/VivoStyle.png
+
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
 Version: 0.0.3-1+debug
@@ -24254,6 +24432,23 @@ Author: TQM
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Galaxy.json
 Depiction: https://jtisvn.github.io/depictions/Galaxy.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.gamegod.igg
+Architecture: iphoneos-arm
+Version: 0.8.8
+Section: Utilities
+Maintainer: iGameGod
+Installed-Size: 35352
+Depends: mobilesubstrate (>= 0.9.5000), ldid, fakeroot, odcctools
+Filename: ./debs/iGameGod-0.8.8-iphoneos-arm.deb
+Size: 6479154
+MD5sum: 2cc1ce3257d9c9b64d17a973bf71389e
+SHA1: 8cbf58b71f1757e67616db3ef15646c8c640b525
+SHA256: c08d261cb259e7f8ad1a1142e0c83fb62b1a8b8a7671faea4c8d7da3cb6c14e7
+SHA512: ef3c96c9bab4508b7e2fb92d8c634521250b5c4d25ad0d5bf0d4d3fc7ebf1e43a7b30b35d8188fd76032a0ad87f2cd298cd334708f9dfab8ede71a7e54ce8f8a
+Description: Be the god of your games!
+Name: iGameGod
+Author: iGameGod
 
 Package: com.34306.trolldecryptjb
 Architecture: iphoneos-arm64
