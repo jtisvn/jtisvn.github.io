@@ -109,7 +109,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.0",
+"text": "2.1-1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -161,6 +161,15 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 2.1-1\n- Sửa lỗi.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 2.0\n- Thêm 3 tùy chọn kích thước cửa sổ nổi\n\n- Tăng khả năng tương thích giữa các phiên bản iOS.",
