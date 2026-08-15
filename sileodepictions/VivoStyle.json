@@ -83,7 +83,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "09/08/2026",
+"text": "15/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -155,7 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.1\n- Sửa lỗi treo và đen màn hình.",
+"markdown":"### Phiên bản 1.0.3\n- Sửa lỗi treo và đen màn hình.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
