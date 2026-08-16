@@ -109,7 +109,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.3.17",
+"text": "1.3.18",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -161,6 +161,15 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1..3.18.3\n- Sửa lỗi thông báo k hoạt động trên iOS 17+.\n\n- Thêm hỗ trợ ios 26.0-26.0.1",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 1.3.17\n\n- Thêm hỗ trở iOS 16.4 trở lên."

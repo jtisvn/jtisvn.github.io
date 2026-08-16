@@ -1,0 +1,220 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/Homescreen18.png",
+"tintColor":"#3399FF",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Homescreen18/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Homescreen18/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Homescreen18/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Homescreen18/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Homescreen18/Screenshots/5.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Homescreen18/Screenshots/6.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Homescreen18/Screenshots/7.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"### Homescreen18Appdata\n\n- Thêm khả năng tùy biến màn hình chính độc đáo từ iOS 18 xuống các dòng máy chạy iOS 16 và 17.\n\n Hỗ trợ menu popup chuyển đổi nhanh các giao diện biểu tượng ngay trên màn hình chính và cài đặt:\n\n- Bổ sung nút Tùy chỉnh vào menu chỉnh sửa màn hình chính mặc định của hệ thống.\n\n- Thay đổi giao diện icon theo sở thích hoặc chọn Tự động để đồng bộ theo chế độ sáng/tối của hệ thống.\n\n- Tự do phối màu và điều chỉnh độ bão hòa để biểu tượng đồng bộ hoàn hảo với hình nền.\n\n-Tùy chỉnh Kích thước giao diên biểu tượng Small (hiển thị nhãn tên) và Large (ẩn tên ứng dụng, giúp màn hình gọn gàng hơn).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "evgeniy",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "08/08/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "87,1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "16.0 - 17.7",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.0.0\n\n- Hỗ trợ iOS 16 trở lên."
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên hệ Hỗ trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

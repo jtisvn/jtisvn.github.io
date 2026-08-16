@@ -18638,6 +18638,46 @@ Depiction: http://jtisvn.github.io/depiction/ExplosiveIcons.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ExplosiveIcons.json
 Icon: https://jtisvn.github.io/sectionIcons/ExplosiveIcons.png
 
+Package: com.jtisvn.homescreen18
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: evgeniy
+Installed-Size: 99024
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.ellekit | mobilesubstrate
+Filename: ./debs/com.jtisvn.homescreen18_1.0_iphoneos-arm64.deb
+Size: 83186724
+MD5sum: b505b4aafb0ce73232d86f10f286b9ab
+SHA1: 5263bed36c216a52f0eda5189c8491f6083d3911
+SHA256: 8138178ebcac850482cbb6e74cc02084d009b20bc8804ceeee0903fc039592cb
+SHA512: 1dcde29bd02b51b0cf79bd31713713e2e9ebcb8484b469384e69bbf9cfd667462322415ec6ceb4072c47e8a1a8b47f57114e621225a7805a6a1fd4215bcce0e9
+Description: Adds homescreen customization like on iOS 18. Supports iOS 16.0-17.7 Dopamine, NathanLR Rootless.
+Name: Homescreen18 (Rootless)
+Author: evgeniy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Homescreen18.json
+Depiction: https://jtisvn.github.io/depictions/Homescreen18.html
+Icon: https://jtisvn.github.io/sectionIcons/Homescreen18.png
+
+Package: com.jtisvn.homescreen18
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: evgeniy
+Installed-Size: 98208
+Depends: firmware (>= 16.0), preferenceloader, mobilesubstrate | substitute | libhooker
+Filename: ./debs/com.jtisvn.homescreen18_1.0_iphoneos-arm64e.deb
+Size: 83098656
+MD5sum: b4c0645a7ef312f1586e26bf704e18a7
+SHA1: ed29c4b975b8a218c914fed4e9443b244d162e9e
+SHA256: c0928f2bd5ae1c28ab3f10a48443c15f92d1dd2064b73f8b7c4436af90ce45d2
+SHA512: f3559ce81ca5e7df103873a31579050a0f36c383634628540d1ae530d8a0839a6d8ae19aaffebe210d4b1dc83c1784448b9b90d0e0428be08314c36b706981dc
+Description: Adds homescreen customization like on iOS 18. Supports iOS 16.0-17.3.1 Dopamine, Relaxin, Bootstrap Roothide.
+Name: Homescreen18 (Roothide)
+Author: evgeniy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Homescreen18.json
+Depiction: https://jtisvn.github.io/depictions/Homescreen18.html
+Icon: https://jtisvn.github.io/sectionIcons/Homescreen18.png
+
 Package: com.jtisvn.infinitemedia
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -19333,6 +19373,47 @@ Name: Switch Icon (Roothide)
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/switchicon.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchIcon.json
+
+Package: com.jtisvn.texgyre
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Depends: firmware (>=15.0)
+Filename: ./debs/com.jtisvn.texgyre_1.0.0_iphoneos-arm64.deb
+Size: 4887616
+MD5sum: 90cc966077343d4e06845a7fc1945eff
+SHA1: 63c73eeb61e1b715f1613edbc3e9067f1014c382
+SHA256: 71828bee69ab3959caebb0d46822ff1325682e5d93338dacbbddfa570a600713
+SHA512: 6ed2a7fff1e902dbfd823600111ba0533cd1f15294995cb9cb69b0b1979e2824a476830bf6df429e2c4f7222b0e2ed74c558441b6f5852295c0832fc20c2fda0
+Description: Phông chữ sử dụng qua tiện ích Snowboard
+Name: Tex Gyre
+Author: Herb Lubalin
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TexGyre.json
+Depiction: https://jtisvn.github.io/depictions/TexGyre.html
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Tags: compatible_min::ios15.0, compatible_max::ios15.7.4
+
+Package: com.jtisvn.texgyre
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=15.0)
+Filename: ./debs/com.jtisvn.texgyre_1.0.0_iphoneos-arm64e.deb
+Size: 4889900
+MD5sum: 6745f77af11666616530e2fd77571f2b
+SHA1: 7d330313be9da396b1132fd80065a158781f96ef
+SHA256: 1243a39b3cc80ca2c00637bc2d8da514d0c5b229a734678bc55e6a5355273cdb
+SHA512: f96944ef7e11d9cba200f1f648298cf3d78686223fa3e4e8ae8c31b8afbbbab59dfbe1b9ab6db1dbff49fa677ffdb1ab1e2f82b62de4e9fee0493452ef18c37a
+Description: Phông chữ sử dụng qua tiện ích Snowboard
+Name: Tex Gyre
+Author: Herb Lubalin
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TexGyre.json
+Depiction: https://jtisvn.github.io/depictions/TexGyre.html
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Tags: compatible_min::ios15.0, compatible_max::ios15.7.4
 
 Package: com.jtisvn.tvlock
 Architecture: iphoneos-arm
@@ -21940,6 +22021,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Crane.json
 Depiction: https://jtisvn.github.io/depictions/Crane.html
 Icon: https://jtisvn.github.io/sectionIcons/Crane.png
 
+Package: com.opa334.crane
+Architecture: iphoneos-arm64
+Version: 1.3.18
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 3268
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_1.3.18_iphoneos-arm64.deb
+Size: 608704
+MD5sum: cbf32ce19482895194a4a3a0a171671f
+SHA1: bab7b4b6b31e39b2a0b414776f6988ee5d585f60
+SHA256: ae82eb27381b2b2600abbfd1f808a8990a7114a6342867ec9cb3ab4e9fd1c6b1
+SHA512: 708f89ec774635e607fa508246c7f635e88ccd505b83dc43b02ee8c71b64087393f86b184ccf1002655d787ec93d370070ac7afaa4b088312f5c6767e82a2383
+Description: Multiple containers for your applications!
+Name: Crane (Rootless)
+Author: opa334
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Crane.json
+Depiction: https://jtisvn.github.io/depictions/Crane.html
+Icon: https://jtisvn.github.io/sectionIcons/Crane.png
+
+Package: com.opa334.crane
+Architecture: iphoneos-arm64e
+Version: 1.3.18
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 3268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_1.3.18_iphoneos-arm64e.deb
+Size: 609116
+MD5sum: 25033d7976380368b7615d87fe33644b
+SHA1: f03f9963984b7049aedfdee9fc07bd487631cbe4
+SHA256: d551757d36c90df9b666ac7c2922739fa23dafe08800c7604571f16e36995c1b
+SHA512: 033d3775548acdab1785ff2d3ce0b0175612d5b39b04a94cf047f93f6389d7ac3eb3c0441cb123b0e29b1d4eff302e7f54807f3915bc5707ea10d0aba2c58624
+Description: Multiple containers for your applications!
+Name: Crane (Roothide)
+Author: opa334
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Crane.json
+Depiction: https://jtisvn.github.io/depictions/Crane.html
+Icon: https://jtisvn.github.io/sectionIcons/Crane.png
+
 Package: com.opa334.libundirect
 Architecture: iphoneos-arm64
 Version: 1.1.6
@@ -22256,6 +22380,26 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
 
 Package: com.ps.amber
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Filename: ./debs/com.ps.amber_1.2.3_iphoneos-arm64e.deb
+Size: 8540
+MD5sum: 5afe1c3c9010dfccc3c1cebc321e4098
+SHA1: 5f1ecac83ddb3e12bf40bbf87b66c49811b978bc
+SHA256: a0facd29ac3a3bda7b76e04add50bdee53a055d646679b6063968ece55362239
+SHA512: 222002965c6a2e88a73a708cd8febce06be88faff4e48acc09f283553ff7a3e7c5fdfc9fa6f7e6114c3d4237e762e7e7ecde77fddc01e88b270b1204538d64a6
+Description: Amber-ify your flashlight LEDs.
+Name: Amber (Roothide)
+Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Amber.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
+
+Package: com.ps.amber
 Architecture: iphoneos-arm64
 Version: 1.2.4
 Section: Tweaks
@@ -22263,15 +22407,15 @@ Maintainer: JTISVN Repo
 Installed-Size: 304
 Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
 Filename: ./debs/com.ps.amber_1.2.4_iphoneos-arm64.deb
-Size: 8880
-MD5sum: e00908bcaf0c5fb649a0586232245906
-SHA1: 548c2589226532e792640fee5914289401e289e9
-SHA256: 172e0a6bfa4ea45c4e4017ecc2ca3c2d2a55d12afed97a4acfdde468ef4be1c0
-SHA512: b9d0b1eea03fe684bbbe75bc1912ba01efa79d10c1ed971bb302f9a8aee24154a41f8dc6512e6b405430e3a9b0f598091fa8f79e4b948959a3925143f5ab62fe
+Size: 8864
+MD5sum: b8939bea0d61cfd7087737186538bc9b
+SHA1: 73802953fe1b75c2b1b2bab46217e6c8987ea915
+SHA256: fac5ffc2b5a1e355ceb3014f51bd4f17b72ba9bcf3bdaac5f7b4bc420a34014f
+SHA512: 886bb22a44764d5b7d18c72fca8e854f8b30c67b2d79a32ac1fb349122bc29654b599ee8cba1a4070339afc43c10f27e20f20b8dc9efba40fa97d58e50a1aed2
 Description: Amber-ify your flashlight LEDs.
 Name: Amber (Rootless)
 Author: PoomSmart
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/Amber.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
 
 Package: com.ps.cconandoff
