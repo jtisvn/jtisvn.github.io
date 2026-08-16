@@ -18638,46 +18638,6 @@ Depiction: http://jtisvn.github.io/depiction/ExplosiveIcons.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ExplosiveIcons.json
 Icon: https://jtisvn.github.io/sectionIcons/ExplosiveIcons.png
 
-Package: com.jtisvn.homescreen18
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Tweaks
-Maintainer: evgeniy
-Installed-Size: 99024
-Depends: firmware (>= 16.0), preferenceloader, com.opa334.ellekit | mobilesubstrate
-Filename: ./debs/com.jtisvn.homescreen18_1.0_iphoneos-arm64.deb
-Size: 83186724
-MD5sum: b505b4aafb0ce73232d86f10f286b9ab
-SHA1: 5263bed36c216a52f0eda5189c8491f6083d3911
-SHA256: 8138178ebcac850482cbb6e74cc02084d009b20bc8804ceeee0903fc039592cb
-SHA512: 1dcde29bd02b51b0cf79bd31713713e2e9ebcb8484b469384e69bbf9cfd667462322415ec6ceb4072c47e8a1a8b47f57114e621225a7805a6a1fd4215bcce0e9
-Description: Adds homescreen customization like on iOS 18. Supports iOS 16.0-17.7 Dopamine, NathanLR Rootless.
-Name: Homescreen18 (Rootless)
-Author: evgeniy
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Homescreen18.json
-Depiction: https://jtisvn.github.io/depictions/Homescreen18.html
-Icon: https://jtisvn.github.io/sectionIcons/Homescreen18.png
-
-Package: com.jtisvn.homescreen18
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: evgeniy
-Installed-Size: 98208
-Depends: firmware (>= 16.0), preferenceloader, mobilesubstrate | substitute | libhooker
-Filename: ./debs/com.jtisvn.homescreen18_1.0_iphoneos-arm64e.deb
-Size: 83098656
-MD5sum: b4c0645a7ef312f1586e26bf704e18a7
-SHA1: ed29c4b975b8a218c914fed4e9443b244d162e9e
-SHA256: c0928f2bd5ae1c28ab3f10a48443c15f92d1dd2064b73f8b7c4436af90ce45d2
-SHA512: f3559ce81ca5e7df103873a31579050a0f36c383634628540d1ae530d8a0839a6d8ae19aaffebe210d4b1dc83c1784448b9b90d0e0428be08314c36b706981dc
-Description: Adds homescreen customization like on iOS 18. Supports iOS 16.0-17.3.1 Dopamine, Relaxin, Bootstrap Roothide.
-Name: Homescreen18 (Roothide)
-Author: evgeniy
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Homescreen18.json
-Depiction: https://jtisvn.github.io/depictions/Homescreen18.html
-Icon: https://jtisvn.github.io/sectionIcons/Homescreen18.png
-
 Package: com.jtisvn.infinitemedia
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -19373,47 +19333,6 @@ Name: Switch Icon (Roothide)
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/switchicon.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchIcon.json
-
-Package: com.jtisvn.texgyre
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Section: Fonts
-Maintainer: JTISVN Repo
-Depends: firmware (>=15.0)
-Filename: ./debs/com.jtisvn.texgyre_1.0.0_iphoneos-arm64.deb
-Size: 4887616
-MD5sum: 90cc966077343d4e06845a7fc1945eff
-SHA1: 63c73eeb61e1b715f1613edbc3e9067f1014c382
-SHA256: 71828bee69ab3959caebb0d46822ff1325682e5d93338dacbbddfa570a600713
-SHA512: 6ed2a7fff1e902dbfd823600111ba0533cd1f15294995cb9cb69b0b1979e2824a476830bf6df429e2c4f7222b0e2ed74c558441b6f5852295c0832fc20c2fda0
-Description: Phông chữ sử dụng qua tiện ích Snowboard
-Name: Tex Gyre
-Author: Herb Lubalin
-SileoDepiction: https://jtisvn.github.io/sileodepictions/TexGyre.json
-Depiction: https://jtisvn.github.io/depictions/TexGyre.html
-Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
-Tags: compatible_min::ios15.0, compatible_max::ios15.7.4
-
-Package: com.jtisvn.texgyre
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Section: Fonts
-Maintainer: JTISVN Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>=15.0)
-Filename: ./debs/com.jtisvn.texgyre_1.0.0_iphoneos-arm64e.deb
-Size: 4889900
-MD5sum: 6745f77af11666616530e2fd77571f2b
-SHA1: 7d330313be9da396b1132fd80065a158781f96ef
-SHA256: 1243a39b3cc80ca2c00637bc2d8da514d0c5b229a734678bc55e6a5355273cdb
-SHA512: f96944ef7e11d9cba200f1f648298cf3d78686223fa3e4e8ae8c31b8afbbbab59dfbe1b9ab6db1dbff49fa677ffdb1ab1e2f82b62de4e9fee0493452ef18c37a
-Description: Phông chữ sử dụng qua tiện ích Snowboard
-Name: Tex Gyre
-Author: Herb Lubalin
-SileoDepiction: https://jtisvn.github.io/sileodepictions/TexGyre.json
-Depiction: https://jtisvn.github.io/depictions/TexGyre.html
-Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
-Tags: compatible_min::ios15.0, compatible_max::ios15.7.4
 
 Package: com.jtisvn.tvlock
 Architecture: iphoneos-arm
