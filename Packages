@@ -18638,6 +18638,26 @@ Depiction: http://jtisvn.github.io/depiction/ExplosiveIcons.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ExplosiveIcons.json
 Icon: https://jtisvn.github.io/sectionIcons/ExplosiveIcons.png
 
+Package: com.jtisvn.homescreen18
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: evgeniy
+Installed-Size: 99024
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.ellekit | mobilesubstrate
+Filename: ./debs/com.jtisvn.homescreen18_1.0_iphoneos-arm64.deb
+Size: 83186724
+MD5sum: b505b4aafb0ce73232d86f10f286b9ab
+SHA1: 5263bed36c216a52f0eda5189c8491f6083d3911
+SHA256: 8138178ebcac850482cbb6e74cc02084d009b20bc8804ceeee0903fc039592cb
+SHA512: 1dcde29bd02b51b0cf79bd31713713e2e9ebcb8484b469384e69bbf9cfd667462322415ec6ceb4072c47e8a1a8b47f57114e621225a7805a6a1fd4215bcce0e9
+Description: Adds homescreen customization like on iOS 18. Supports iOS 16.0-17.7 Dopamine, NathanLR Rootless.
+Name: Homescreen18 (Rootless)
+Author: evgeniy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Homescreen18.json
+Depiction: https://jtisvn.github.io/depictions/Homescreen18.html
+Icon: https://jtisvn.github.io/sectionIcons/Homescreen18.png
+
 Package: com.jtisvn.infinitemedia
 Architecture: iphoneos-arm64
 Version: 1.0.1
