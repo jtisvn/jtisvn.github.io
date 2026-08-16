@@ -19637,6 +19637,47 @@ Icon: https://jtisvn.github.io/sectionIcons/Stella.png
 Name: Stella (Roothide)
 Author: yan
 
+Package: com.kirby-swift.sidemenu
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: kirby_swift
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: ./debs/com.kirby-swift.sidemenu_1.0.0-1+debug_iphoneos-arm64.deb
+Size: 23912
+MD5sum: 7460d9cda4ff0f1e9dbe04c3fc1810b6
+SHA1: c294200c3de404daec78cbcb35d684cdb83c4168
+SHA256: afc9c07cd4c3fe9f1e78cfb4c24d99a4c405ff1428fdfcb72c9f6c53b121b820
+SHA512: 8720d06647f5ea5a180a52cce79a7769bf2aec13ab73a201449c0191e65fe2a97e35999898ae0d7494d36999a87fbd10ae24a0035d200c51fee26e5cbfd97208
+Description: Power menu on side button hold instead of Siri
+Name: SideMenu (Rootless)
+Author: kirby_swift
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SideMenu.json
+Depiction: https://jtisvn.github.io/depictions/SideMenu.html
+Icon: https://jtisvn.github.io/sectionIcons/SideMenu.png
+
+Package: com.kirby-swift.sidemenu
+Architecture: iphoneos-arm64e
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: kirby_swift
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kirby-swift.sidemenu_1.0.0-1+debug_iphoneos-arm64e.deb
+Size: 24308
+MD5sum: 5fe14846dd31d757a7924a367b34f0f5
+SHA1: 2bcb986b6c1c4f85d4db4f22003989cc0b784951
+SHA256: 536fcacc56dbcb3f0e2cb568becfbea521bf8e6d4465a77e9335a0cd57b5163c
+SHA512: c45c391e17fd4db5903b1bc1f12d93c26c9bdc027580b5747e63def01d26060e10d42d10ec53aaed1c2307fe4ab8e79323b4d2b11e6f7a6bf294414790efa807
+Description: Power menu on side button hold instead of Siri
+Name: SideMenu (Roothide)
+Author: kirby_swift
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SideMenu.json
+Depiction: https://jtisvn.github.io/depictions/SideMenu.html
+Icon: https://jtisvn.github.io/sectionIcons/SideMenu.png
+
 Package: com.kitsudo.SquidGestureProVH
 Architecture: iphoneos-arm64
 Version: 1.0.1b
