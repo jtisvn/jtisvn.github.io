@@ -18658,6 +18658,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Homescreen18.json
 Depiction: https://jtisvn.github.io/depictions/Homescreen18.html
 Icon: https://jtisvn.github.io/sectionIcons/Homescreen18.png
 
+Package: com.jtisvn.homescreen18
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: evgeniy
+Installed-Size: 98208
+Depends: firmware (>= 16.0), preferenceloader, mobilesubstrate | substitute | libhooker
+Filename: ./debs/com.jtisvn.homescreen18_1.0_iphoneos-arm64e.deb
+Size: 83098656
+MD5sum: b4c0645a7ef312f1586e26bf704e18a7
+SHA1: ed29c4b975b8a218c914fed4e9443b244d162e9e
+SHA256: c0928f2bd5ae1c28ab3f10a48443c15f92d1dd2064b73f8b7c4436af90ce45d2
+SHA512: f3559ce81ca5e7df103873a31579050a0f36c383634628540d1ae530d8a0839a6d8ae19aaffebe210d4b1dc83c1784448b9b90d0e0428be08314c36b706981dc
+Description: Adds homescreen customization like on iOS 18. Supports iOS 16.0-17.3.1 Dopamine, Relaxin, Bootstrap Roothide.
+Name: Homescreen18 (Roothide)
+Author: evgeniy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Homescreen18.json
+Depiction: https://jtisvn.github.io/depictions/Homescreen18.html
+Icon: https://jtisvn.github.io/sectionIcons/Homescreen18.png
+
 Package: com.jtisvn.infinitemedia
 Architecture: iphoneos-arm64
 Version: 1.0.1
