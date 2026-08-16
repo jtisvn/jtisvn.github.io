@@ -42,7 +42,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### Homescreen18Appdata\n\n- Thêm khả năng tùy biến màn hình chính độc đáo từ iOS 18 xuống các dòng máy chạy iOS 16 và 17.\n\n Hỗ trợ menu popup chuyển đổi nhanh các giao diện biểu tượng ngay trên màn hình chính và cài đặt:\n\n- Bổ sung nút Tùy chỉnh vào menu chỉnh sửa màn hình chính mặc định của hệ thống.\n\n- Thay đổi giao diện icon theo sở thích hoặc chọn Tự động để đồng bộ theo chế độ sáng/tối của hệ thống.\n\n- Tự do phối màu và điều chỉnh độ bão hòa để biểu tượng đồng bộ hoàn hảo với hình nền.\n\n-Tùy chỉnh Kích thước giao diên biểu tượng Small (hiển thị nhãn tên) và Large (ẩn tên ứng dụng, giúp màn hình gọn gàng hơn).",
+"markdown":"### Homescreen18Appdata\n\n Thêm khả năng tùy biến màn hình chính độc đáo từ iOS 18 xuống các dòng máy chạy iOS 16 và 17, Hỗ trợ menu popup chuyển đổi nhanh các giao diện biểu tượng ngay trên màn hình chính và cài đặt:\n\n- Bổ sung nút Tùy chỉnh vào menu chỉnh sửa màn hình chính mặc định của hệ thống.\n\n- Thay đổi giao diện icon theo sở thích hoặc chọn Tự động để đồng bộ theo chế độ sáng/tối của hệ thống.\n\n- Tự do phối màu và điều chỉnh độ bão hòa để biểu tượng đồng bộ hoàn hảo với hình nền.\n\n- Tùy chỉnh Kích thước giao diên biểu tượng Small (hiển thị nhãn tên) và Large (ẩn tên ứng dụng, giúp màn hình gọn gàng hơn).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
