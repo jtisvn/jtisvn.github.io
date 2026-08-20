@@ -24796,6 +24796,51 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
 Depiction: https://jtisvn.github.io/depictions/Airaw.html
 Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
 
+Package: jp.dcsyhi.carcast
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 2374
+Depends: mobilesubstrate, preferenceloader, firmware (>=16.0), jp.dcsyhi.airaw (>=1.7.0)
+Conflicts: com.leftyfl1p.carbridge13
+Replaces: jp.dcsyhi.carcast
+Filename: ./debs/jp.dcsyhi.carcast_1.0_iphoneos-arm64.deb
+Size: 1516776
+MD5sum: 71d96e39398dbe99bd21a0e062d8c2dd
+SHA1: 9f8815ce282b26d9ba042637c37172a3c34c2832
+SHA256: 60fdc5ffa2178f160bf5a7af2f27e93df990be08a95f041ad5a4351821d4a7af
+SHA512: c8614a106af101c036e1ad771bb7a10a2c8cda442b5eeb118a03130d9726851d19852853f766672c74dc2f7d01020430a0d0957b5f70dde0598cc98e38fd2e83
+Description: Pin non-CarPlay apps to the CarPlay dashboard. Requires Airaw. Tested on iOS 17 and iOS 26. iOS 17+.
+Name: CarCast (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CarCast.json
+Depiction: https://jtisvn.github.io/depictions/CarCast.html
+Icon: https://jtisvn.github.io/sectionIcons/CarCast.png
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+
+Package: jp.dcsyhi.carcast
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 2374
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>=16.0), jp.dcsyhi.airaw (>=1.7.0)
+Conflicts: com.leftyfl1p.carbridge13
+Replaces: jp.dcsyhi.carcast
+Filename: ./debs/jp.dcsyhi.carcast_1.0_iphoneos-arm64e.deb
+Size: 1516680
+MD5sum: e37601afa9c93aed3385aaa8feecb0d0
+SHA1: ec6932d2980dda1b66ba87c8d3f43032dede501f
+SHA256: a3b72f8bde3ce85116c84922bda182a5a1c23ce2960c8c9b85f965ee751e19e4
+SHA512: b2cd2be513976cfa302adf0cdcadac4406b78abebf0c7a4690f2a636777b0483edb93ab2f4b2a8395e0ebb1c2bf5b11a5b5a1f95b36495bbdd5fe138f044cc0a
+Description: Pin non-CarPlay apps to the CarPlay dashboard. Requires Airaw. Tested on iOS 17 and iOS 26. iOS 17+.
+Name: CarCast (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CarCast.json
+Depiction: https://jtisvn.github.io/depictions/CarCast.html
+Icon: https://jtisvn.github.io/sectionIcons/CarCast.png
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+
 Package: jp.uzra.aerial
 Architecture: iphoneos-arm64
 Version: 3.6.1
