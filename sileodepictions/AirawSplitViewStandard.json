@@ -155,7 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Mở khóa tính năng Split View chạy song song ứng dụng CarPlay gốc (Yêu cầu iOS 16+ & Airaw 1.7.0+).n- Phát hành lần đầu."
+"markdown":"### Phiên bản 1.0\n\n- Mở khóa tính năng Split View chạy song song ứng dụng CarPlay gốc (Yêu cầu iOS 16+ & Airaw 1.7.0+).\n- Phát hành lần đầu."
 },
 {
 "class":"DepictionLabelView",
