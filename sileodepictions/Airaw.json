@@ -1,6 +1,6 @@
 {
-"minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/Araw.png",
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/Airaw.png",
 "tintColor":"#FF6633",
 "tabs":[
 {
@@ -38,11 +38,11 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Airaw là tinh chỉnh mạnh mẽ giúp bạn làm chủ giao diện và mở rộng chức năng cho Apple CarPlay, vượt qua giới hạn mặc định.\n\n- Cac tính năng chính:\n\n- 🎨 Bố cục Icon & Giao diện:\n\n- Tùy chỉnh lưới ứng dụng: Tăng số hàng (2-4) và số cột (4-6) để hiển thị nhiều app hơn\n\n- Thay đổi kích thước, vị trí, tạo icon trong suốt (kết hợp với CarBridge).\n\n- Đổi màu chữ, cỡ chữ, ẩn tên ứng dụng hoặc ẩn nền mờ của tên.\n\n- Tùy chỉnh màu sắc thông báo (badge) trên icon\n\n- 🖼️ Hình nền (Wallpaper):\n\n- Cài đặt hình nền tùy chỉnh từ thư viện ảnh (Hỗ trợ cả ảnh động GIF).\n\n- Chế độ Slideshow (trình chiếu) tự động thay đổi nhiều hình nền.\n\n- 📊 Thanh trạng thái (Status Bar):\n\n- Tự do dời thanh trạng thái sang Trái/Phải/Trên/Dưới.\n\n- Hiển thị thêm Thời tiết, Nhiệt độ, Ngày giờ (kèm giây).\n\n- Tùy chỉnh màu nền, màu icon (Pin, Wifi, Sóng...).\n\n- Ẩn icon pin, thay đổi icon nút Home.\n\n- 📦 Widget (Tiện ích):\n\n- Thêm, di chuyển và thay đổi kích thước Widget trên màn hình chính.\n\n- Hỗ trợ Widget HTML trên iOS 16.\n\n- 🛠️ Các tiện ích khác:\n\n- Hỗ trợ hiển thị full màn hình cho CarBridge và các thiết bị có tai thỏ (Notch).\n\n- Loại bỏ các góc bo đen thừa thãi của CarPlay.\n\n- Cho phép sử dụng bàn phím số (Keypad) không bị chặn khi lái xe.\n\n- Bật chế độ tối (Dark mode) cho Apple Maps.",
+"markdown":"### Airaw\n\n- Tinh chỉnh mạnh mẽ giúp bạn làm chủ giao diện và mở rộng chức năng cho Apple CarPlay, vượt qua mọi giới hạn mặc định.\n\n- **Các tính năng chính:**\n\n- 🎨 **Bố cục Icon & Giao diện:**\n  - Tùy chỉnh lưới ứng dụng: Tăng số hàng (2-4) và số cột (4-6) để hiển thị nhiều app hơn.\n  - Thay đổi kích thước, vị trí, tạo icon trong suốt (kết hợp với CarBridge).\n  - Đổi màu chữ, cỡ chữ, ẩn tên ứng dụng hoặc ẩn nền mờ của tên.\n  - Tùy chỉnh màu sắc thông báo (badge) trên icon.\n\n- 🖼️ **Hình nền (Wallpaper):**\n  - Cài đặt hình nền tùy chỉnh từ thư viện ảnh (Hỗ trợ cả ảnh động GIF).\n  - Chế độ Slideshow tự động thay đổi nhiều hình nền ngẫu nhiên.\n\n- 📊 **Thanh trạng thái (Status Bar):**\n  - Tự do dời thanh trạng thái sang Trái / Phải / Trên / Dưới.\n  - Hiển thị thêm Thời tiết, Nhiệt độ, Ngày giờ (kèm giây).\n  - Tùy chỉnh màu nền, màu icon (Pin, Wi-Fi, Sóng...).\n  - Ẩn icon pin, thay đổi icon nút Home.\n\n- 📦 **Widget (Tiện ích):**\n  - Thêm, di chuyển và thay đổi kích thước Widget trên màn hình chính.\n  - Hỗ trợ Widget HTML trên iOS 16.\n\n- 🛠️ **Các tiện ích khác:**\n  - Hỗ trợ hiển thị full màn hình cho CarBridge và các thiết bị có tai thỏ (Notch).\n  - Loại bỏ các góc bo đen thừa thãi của CarPlay.\n  - Cho phép sử dụng bàn phím số (Keypad) không bị chặn khi lái xe.\n  - Bật chế độ tối (Dark mode) cho Apple Maps.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -103,7 +103,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "28/11/2025",
+"text": "20/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -121,7 +121,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.6.7",
+"text": "1.7.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -175,7 +175,23 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.6.7\n\n- Hỗ trợ tiện ích HTML IOS16.\n\n- Xóa đường viền góc màu đen của CarPlay.\n\n- Bật cài đặt 3D Touch cho từng ứng dụng.\n\n- Hiển thị thời gian bao gồm cả giây.\n\n- Tùy chỉnh màu huy hiệu biểu tượng.\n\n- Đã bật chế độ hiển thị ứng dụng toàn màn hình ở chế độ khởi chạy CarBridge.\n\n- Thay đổi kích thước phông chữ của nhãn biểu tượng.\n\n- Cho phép thay đổi nút trang chủ của CarPlay bằng cách chọn biểu tượng từ thư mục ảnh.\n\n- Có thể gọi các phương pháp cập nhật tiện ích được cải tiến bằng cách sử dụng Airaw API.\n\n- Thêm mô-đun trung tâm điều khiển.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.7.0\n- Thêm hỗ trợ CarPlay trên iOS 26.\n- Hỗ trợ cài đặt các add-on cho Airaw. Hai chế độ Split View Native và Split View Standard giúp mở khóa tính năng chạy song song 2 ứng dụng trên iOS 16+.\n- Thêm hỗ trợ CarCast để thay thế cho CarBridge. Chỉ cài một trong hai — không cài cả hai cùng lúc.\n- Ẩn các mục cài đặt Hosted Scene và Split View trên iOS 15 trở xuống do thiết bị không hỗ trợ.\n- Thiết lập lần đầu mới sau màn hình chào mừng: chọn vị trí tay lái (bên lái), vị trí thanh trạng thái và Bật Airaw.\n- Thiết kế lại giao diện Cài đặt với biểu tượng SF Symbols và các nhãn hiển thị rõ ràng hơn.\n- Khung xem trước vị trí widget hiện đã khớp với tỷ lệ khung hình màn hình CarPlay.\n- Trình chọn widget kiểu thẻ mới — chạm để đặt vị trí, nhấn dấu + để thêm.\n- Widget dạng module (.bundle) hoạt động từ iOS 14 trở lên. Widget HTML hoạt động trên iOS 14–15; trên iOS 16+ có thể thêm vào nhưng hoạt động không chính xác.\n- Giao diện nhật ký thay đổi mới theo phong cách dòng thời gian (timeline).\n- Sửa nhiều lỗi khác nhau liên quan đến CarPlay và phần Cài đặt.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.6.7\n- Hỗ trợ tiện ích HTML iOS 16.\n- Xóa đường viền góc màu đen của CarPlay.\n- Bật cài đặt 3D Touch cho từng ứng dụng.\n- Hiển thị thời gian bao gồm cả giây.\n- Tùy chỉnh màu huy hiệu biểu tượng.\n- Đã bật chế độ hiển thị ứng dụng toàn màn hình ở chế độ khởi chạy CarBridge.\n- Thay đổi kích thước phông chữ của nhãn biểu tượng.\n- Cho phép thay đổi nút trang chủ của CarPlay bằng cách chọn biểu tượng từ thư mục ảnh.\n- Có thể gọi các phương pháp cập nhật tiện ích được cải tiến bằng cách sử dụng Airaw API.\n- Thêm mô-đun trung tâm điều khiển.\n- Hỗ trợ Rootless & Roothide Jailbreak.",
+"useSpacing": true
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
 }
 ],
 "class":"DepictionStackView"
@@ -197,11 +213,13 @@
 },
 {
 "class":"DepictionTableButtonView",
+"openExternal": 1,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
+"openExternal": 1,
 "title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },

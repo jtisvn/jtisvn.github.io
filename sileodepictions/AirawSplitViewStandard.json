@@ -1,0 +1,209 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://cdn.chariz.cloud/asset/airaw-native/esocZk1gnk7YMp1J9ShR8DeBAyfxITwL/assets/xkcNylGAsQfeWomugLSINYILuT2flyFBqQy7wwBV2r268jfbQJlFTsitFraTsHEXdNTSavy4bph-SNdSQHjtzw.jpg",
+"tintColor":"#476892",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://cdn.chariz.cloud/asset/airaw-native/esocZk1gnk7YMp1J9ShR8DeBAyfxITwL/assets/cxXPpaAWLZK0fGZG8zwOEXbz7oCVhcg9UE0-Po4SZhrsWCPdCiKKSXHnW7LJssJ43jhG8R0Fc-AxcvaiN2ZsRA.jpg",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://cdn.chariz.cloud/asset/airaw-native/esocZk1gnk7YMp1J9ShR8DeBAyfxITwL/assets/s6GT9vxHkKy-gEhcHuy1MvEfuLiJWE-iDlrjt4gw8-8ijgNduv-JwSYHI7BBmLiN8sicjZy8XCS03W-wnW0x1g.jpg",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"### Airaw Split Native\n\n- Add-on mở rộng cao cấp dành cho **Airaw**, giúp mở khóa tính năng **chia đôi màn hình (Split View)** cho các ứng dụng CarPlay chính thức của Apple (Bản đồ, Nhạc, Podcasts, Tin nhắn, Điện thoại...).\n\n- **Tính năng nổi bật:**\n\n- **Chia đôi màn hình gốc (Native Split View):** Sử dụng song song 2 ứng dụng cùng lúc trên giao diện CarPlay (ví dụ: vừa xem Bản đồ vừa điều khiển Nhạc).\n- **Thêm ứng dụng tùy ý:** Hỗ trợ đưa thêm các ứng dụng khác từ Thư viện ứng dụng (App Library) vào chế độ chia đôi.\n- **Tùy biến khung nhìn linh hoạt:** Tự do điều chỉnh tỷ lệ chia ban đầu, đặt khung chia bên trái/phải, phóng to toàn màn hình và ẩn thanh Dock khi phóng to.\n\n*Yêu cầu bắt buộc: Thiết bị chạy iOS 16.0 trở lên và đã cài đặt Airaw (phiên bản 1.7.0 trở lên). Cấu hình trực tiếp trong Cài đặt → Airaw → Split View Native.*",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Dcsyhi",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "20/08/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "364,4 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "16.0 - 18.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.0\n\n- Mở khóa tính năng Split View chạy song song ứng dụng CarPlay gốc (Yêu cầu iOS 16+ & Airaw 1.7.0+).n- Phát hành lần đầu."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

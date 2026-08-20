@@ -24673,6 +24673,49 @@ Description: Decrypt Appstore App that require higher iOS
 Name: TrollDecryptJB
 Author: 34306, khanhduytran0
 
+Package: jp.dcsyhi.airaw.splitnative
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 408
+Depends: mobilesubstrate, firmware (>=16.0), com.999.airaw (>=1.7.0)
+Replaces: jp.dcsyhi.airaw.splitstandard
+Filename: ./debs/jp.dcsyhi.airaw.splitnative_1.0_iphoneos-arm64.deb
+Size: 20820
+MD5sum: 199e190115d4d71bd52258f13181ea54
+SHA1: 736266fce09cfb8c725182f0dc6be44fb6dd7661
+SHA256: 5a6151554b20a4026f9e38acda72465c8cdf3d90d0c401c93b3f7ade7286120a
+SHA512: c15f725debc4f9d052d403133fafc85ef7f2d7eacaedb2fbc719789c58bda24038516cc39acc66a3feda0018bc11d0de44ec0d38b04565c8cb5953f9729b9b46
+Description: Split View for native CarPlay apps (Maps, Music, …). Requires Airaw and iOS 16+. Settings open from Airaw only.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AirawSplitViewStandard.json
+Depiction: https://jtisvn.github.io/depictions/AirawSplitViewStandard.html
+Icon: https://jtisvn.github.io/sectionIcons/AirawSplitViewStandard.png
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw Split View Standard (Rootless)
+
+Package: jp.dcsyhi.airaw.splitnative
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>=16.0), com.999.airaw (>=1.7.0)
+Replaces: jp.dcsyhi.airaw.splitstandard
+Filename: ./debs/jp.dcsyhi.airaw.splitnative_1.0_iphoneos-arm64e.deb
+Size: 20860
+MD5sum: dfbbe38da478c9de7d45fce58ae164a8
+SHA1: 48f698dc665724d116b537217326e59920138325
+SHA256: 6adc469913dba0533e118ddf8c40b53d8075fd7ae642500c979ffe787a8278e7
+SHA512: c7af074f96ea643dad0797efe1b1cd2897191302c145b8b38016b182d8cad374e57101f996b032227cd9730f0c22638a8705d0c85c635b692d4f8839466f4477
+Description: Split View for native CarPlay apps (Maps, Music, …). Requires Airaw and iOS 16+. Settings open from Airaw only.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AirawSplitViewStandard.json
+Depiction: https://jtisvn.github.io/depictions/AirawSplitViewStandard.html
+Icon: https://jtisvn.github.io/sectionIcons/AirawSplitViewStandard.png
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw Split View Standard (Roothide)
+
 Package: jp.dcsyhi.airaw
 Architecture: iphoneos-arm64
 Version: 1.6.7
@@ -24710,6 +24753,47 @@ Description: Một tinh chỉnh CarPlay tuyệt vời.
 Name: Airaw (Roothide)
 Author: Dcsyhi <dcsyhi1998@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
+Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
+
+Package: jp.dcsyhi.airaw
+Architecture: iphoneos-arm64
+Version: 1.7.0
+Section: Tweaks
+Maintainer: BVN Repo
+Installed-Size: 12000
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Replaces: jp.dcsyhi.airaw
+Filename: ./debs/jp.dcsyhi.airaw_1.7.0_iphoneos-arm64.deb
+Size: 8472648
+MD5sum: cb9fde690ce94b5f32b1b51dce305fd3
+SHA1: 407da79937c6ac75a10547132ac087b93bff534d
+SHA256: 2a35fd6585f8ab5ed87b9e0e83e1d7048b60e1b8f472c89bdd8a554e5d2bff99
+SHA512: 4fc67995c2363f647c46d9eba686e861cc2afda7c0089c72fe5bcfd0922a46259408530ae42a333cd567065769ad669825e2e18e2cb1a3d89b1cebd092107a02
+Name: Airaw (Rootless)
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
+Depiction: https://jtisvn.github.io/depictions/Airaw.html
+Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
+
+Package: jp.dcsyhi.airaw
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12000
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Replaces: jp.dcsyhi.airaw
+Filename: ./debs/jp.dcsyhi.airaw_1.7.0_iphoneos-arm64e.deb
+Size: 8474204
+MD5sum: 68fefe164918a81ca92e167c3298e650
+SHA1: 0b7e1f9a36aec4030d233e2d456a3dc122a931d9
+SHA256: 47080d1eb9c2a3458ad644e4c04856379d82db9d5160128036333e2740928a52
+SHA512: c7bc0df0c225a199dae8c85fdd33bbf06231cbdd2445c2d74124ac1b8cd04551770e0ee4c91fa3277bb5f521ae75e24cb044dc7a38770770a22145627d63d02a
+Name: Airaw (Roothide)
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
+Depiction: https://jtisvn.github.io/depictions/Airaw.html
 Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
 
 Package: jp.uzra.aerial
