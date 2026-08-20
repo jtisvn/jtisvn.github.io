@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/CarCast2DockX/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/CarCast/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### CarCast\n\n- Giải pháp thay thế CarBridge hoàn hảo cho **iOS 17 trở lên**, cho phép bạn đưa mọi ứng dụng iPhone yêu thích lên màn hình chính CarPlay.\n\n- **Tính năng nổi bật:**\n\n- **Đưa app ngoài lên CarPlay:** Ghim và mở trực tiếp các ứng dụng như YouTube, Safari, Cài đặt... ngay trên bảng điều khiển CarPlay.\n- **Không ảnh hưởng app gốc:** Giữ nguyên vẹn các ứng dụng CarPlay mặc định của Apple (Bản đồ, Nhạc, Tin nhắn) và bảo toàn bố cục ban đầu.\n- **Quản lý ứng dụng trực quan:** Thêm (+), xóa (-) hoặc kéo thả sắp xếp lại danh sách app ngay trong Cài đặt và áp dụng tức thì khi đang kết nối CarPlay.\n- **Hoạt động cùng Airaw:** Tùy biến sâu từng ứng dụng qua Airaw (chọn chế độ mở app, menu 3D Touch, gán app yêu thích, xử lý tai thỏ notch...).\n\n*Yêu cầu & Lưu ý: Hỗ trợ iOS 17.0 trở lên và cần cài đặt kèm Airaw. Không cài đặt chung với CarBridge để tránh xung đột. Nội dung video có bảo vệ bản quyền DRM (Netflix, Prime Video...) sẽ không hiển thị hình ảnh do giới hạn của Apple.*",
+"markdown":"### CarCast\n\n- Giải pháp thay thế CarBridge trên dòng máy *iOS 17 trở lê*, cho phép bạn đưa mọi ứng dụng iPhone yêu thích lên màn hình chính bảng điều khiển CarPlay.\n\n- **Tính năng nổi bật:**\n\n- **Đưa app ngoài lên CarPlay:** Ghim và mở trực tiếp các ứng dụng như YouTube, Safari, Cài đặt... ngay trên bảng điều khiển CarPlay.\n- **Không ảnh hưởng app gốc:** Giữ nguyên vẹn các ứng dụng CarPlay mặc định của Apple (Bản đồ, Nhạc, Tin nhắn) và bảo toàn bố cục ban đầu.\n- **Quản lý ứng dụng trực quan:** Thêm (+), xóa (-) hoặc kéo thả sắp xếp lại danh sách app ngay trong Cài đặt và áp dụng tức thì khi đang kết nối CarPlay.\n- **Hoạt động cùng Airaw:** Tùy biến sâu từng ứng dụng qua Airaw (chọn chế độ mở app, menu 3D Touch, gán app yêu thích, xử lý tai thỏ notch...).\n\n- *Yêu cầu & Lưu ý: Hỗ trợ iOS 17.0 trở lên và cần cài đặt kèm Airaw. Không cài đặt chung với CarBridge để tránh xung đột. Nội dung video có bảo vệ bản quyền DRM (Netflix, Prime Video...) sẽ không hiển thị hình ảnh do giới hạn của Apple.*",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
