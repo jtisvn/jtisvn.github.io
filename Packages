@@ -24677,16 +24677,57 @@ Package: jp.dcsyhi.airaw.splitnative
 Architecture: iphoneos-arm64
 Version: 1.0
 Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 442
+Depends: mobilesubstrate, firmware (>=16.0), jp.dcsyhi.airaw (>=1.7.0)
+Filename: ./debs/jp.dcsyhi.airaw.splitnative_1.0_iphoneos-arm64.deb
+Size: 29664
+MD5sum: bb59c4a774eb31f40002b298b77d5562
+SHA1: 4c5e224e496f05037688937f69c7d18cfceb5a07
+SHA256: 402d765d505f2c867d5e56fd4f1f74d6878a19e4bef4859cc8aeffdbc15382ce
+SHA512: 16935c3761b796e760c209ae4b0c68082c8f74e65d124e53712587774583ea2bacdffea16c0025524a186b835d591ba784629922c5f88ed09b1eae032b3696b9
+Description: Split View cho các ứng dụng CarPlay gốc (Bản đồ, Âm nhạc, ...). Yêu cầu Airaw và iOS 16+. Cài đặt chỉ mở từ Airaw.
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw Split View Native
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AirawSplitViewNative.json
+Depiction: https://jtisvn.github.io/depictions/AirawSplitViewNative.html
+Icon: https://jtisvn.github.io/sectionIcons/AirawSplitViewNative.png
+
+Package: jp.dcsyhi.airaw.splitnative
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 442
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>=16.0), jp.dcsyhi.airaw (>=1.7.0)
+Filename: ./debs/jp.dcsyhi.airaw.splitnative_1.0_iphoneos-arm64e.deb
+Size: 29724
+MD5sum: 6f0a67eb5f74b112a5aea26b57f9cf4e
+SHA1: d0c2249241c04d1f1f6640d1460d1f740a4199e8
+SHA256: bc293cd589b0570fcaead2e22a510a19331442bdc47778659b55171073e3326e
+SHA512: 5e0ade869f88f16da65510a45dcd60da3dc181281e4803592bcb01a481e392033d4f09121b1a78464bb6230858f905b56a91a6ebf7b8655fe952db04d668cdab
+Description: Split View cho các ứng dụng CarPlay gốc (Bản đồ, Âm nhạc, ...). Yêu cầu Airaw và iOS 16+. Cài đặt chỉ mở từ Airaw.
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw Split View Native
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AirawSplitViewNative.json
+Depiction: https://jtisvn.github.io/depictions/AirawSplitViewNative.html
+Icon: https://jtisvn.github.io/sectionIcons/AirawSplitViewNative.png
+
+Package: jp.dcsyhi.airaw.splitstandard
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
 Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
 Installed-Size: 408
-Depends: mobilesubstrate, firmware (>=16.0), com.999.airaw (>=1.7.0)
+Depends: mobilesubstrate, firmware (>=16.0), jp.dcsyhi.airaw (>=1.7.0)
 Replaces: jp.dcsyhi.airaw.splitstandard
-Filename: ./debs/jp.dcsyhi.airaw.splitnative_1.0_iphoneos-arm64.deb
-Size: 20820
-MD5sum: 199e190115d4d71bd52258f13181ea54
-SHA1: 736266fce09cfb8c725182f0dc6be44fb6dd7661
-SHA256: 5a6151554b20a4026f9e38acda72465c8cdf3d90d0c401c93b3f7ade7286120a
-SHA512: c15f725debc4f9d052d403133fafc85ef7f2d7eacaedb2fbc719789c58bda24038516cc39acc66a3feda0018bc11d0de44ec0d38b04565c8cb5953f9729b9b46
+Filename: ./debs/jp.dcsyhi.airaw.splitstandard_1.0_iphoneos-arm64.deb
+Size: 20840
+MD5sum: 49621f977fb2b0de3701712f7f19e55b
+SHA1: 203fcefcc0a57addbecfa655fb209daf14177ccc
+SHA256: afa41e3c4a8935925e0e86d5509b5446f37874a95066508212cadb78911cf1be
+SHA512: 30519b7ab0f464b3cd47f8714120a5322e233345103160398a57be6b591c7f65a363c510c224988e248fb3070e1246657fd7c422b47f5ea43ce297e9ad2f2b76
 Description: Split View for native CarPlay apps (Maps, Music, …). Requires Airaw and iOS 16+. Settings open from Airaw only.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AirawSplitViewStandard.json
 Depiction: https://jtisvn.github.io/depictions/AirawSplitViewStandard.html
@@ -24694,21 +24735,21 @@ Icon: https://jtisvn.github.io/sectionIcons/AirawSplitViewStandard.png
 Author: Dcsyhi <dcsyhi1998@gmail.com>
 Name: Airaw Split View Standard (Rootless)
 
-Package: jp.dcsyhi.airaw.splitnative
+Package: jp.dcsyhi.airaw.splitstandard
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
 Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
 Installed-Size: 408
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>=16.0), com.999.airaw (>=1.7.0)
+Depends: mobilesubstrate, firmware (>=16.0), jp.dcsyhi.airaw (>=1.7.0)
 Replaces: jp.dcsyhi.airaw.splitstandard
-Filename: ./debs/jp.dcsyhi.airaw.splitnative_1.0_iphoneos-arm64e.deb
-Size: 20860
-MD5sum: dfbbe38da478c9de7d45fce58ae164a8
-SHA1: 48f698dc665724d116b537217326e59920138325
-SHA256: 6adc469913dba0533e118ddf8c40b53d8075fd7ae642500c979ffe787a8278e7
-SHA512: c7af074f96ea643dad0797efe1b1cd2897191302c145b8b38016b182d8cad374e57101f996b032227cd9730f0c22638a8705d0c85c635b692d4f8839466f4477
+Filename: ./debs/jp.dcsyhi.airaw.splitstandard_1.0_iphoneos-arm64e.deb
+Size: 20832
+MD5sum: 422a43fce54ddeaba7bea2f02f3f16d5
+SHA1: 9c8481e5cef85d0ac4f2b9a747060ef2ae0aa114
+SHA256: 0e0a331a1e625e1cbf8eb5758cb84fc1a137b29d1f4768fd684c79026f6e7dd2
+SHA512: 51e73029fc3f2b659dde2bd9948649d82839e980a314cfa5cb8c0b6a564378d790df177ac77989372829bf08b6e3bed3f976a33bbf2292bce969f4147a649bfc
 Description: Split View for native CarPlay apps (Maps, Music, …). Requires Airaw and iOS 16+. Settings open from Airaw only.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AirawSplitViewStandard.json
 Depiction: https://jtisvn.github.io/depictions/AirawSplitViewStandard.html
@@ -24759,16 +24800,17 @@ Package: jp.dcsyhi.airaw
 Architecture: iphoneos-arm64
 Version: 1.7.0
 Section: Tweaks
-Maintainer: BVN Repo
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
 Installed-Size: 12000
 Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
 Replaces: jp.dcsyhi.airaw
 Filename: ./debs/jp.dcsyhi.airaw_1.7.0_iphoneos-arm64.deb
-Size: 8472648
-MD5sum: cb9fde690ce94b5f32b1b51dce305fd3
-SHA1: 407da79937c6ac75a10547132ac087b93bff534d
-SHA256: 2a35fd6585f8ab5ed87b9e0e83e1d7048b60e1b8f472c89bdd8a554e5d2bff99
-SHA512: 4fc67995c2363f647c46d9eba686e861cc2afda7c0089c72fe5bcfd0922a46259408530ae42a333cd567065769ad669825e2e18e2cb1a3d89b1cebd092107a02
+Size: 8473724
+MD5sum: 8c059c9e8c43da4f86b0606275fe8a67
+SHA1: 2f10bbfbf3b0b19d1240fdb4022bfffb6928669e
+SHA256: 0122d0b5f6d0bca5798699e98deaae9f2125ca11becf927a9349c08d7c7cab2a
+SHA512: 30be32ff57f39c4a29c87089cbd78092ed7109583734e93b346fb7540cc10ef412ef795314e98641010c5eb171911398a8cfe7160ac6dd9fb783ca9a64fdef19
+Description: An awesome CarPlay tweak.
 Name: Airaw (Rootless)
 Author: Dcsyhi <dcsyhi1998@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
@@ -24785,11 +24827,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
 Replaces: jp.dcsyhi.airaw
 Filename: ./debs/jp.dcsyhi.airaw_1.7.0_iphoneos-arm64e.deb
-Size: 8474204
-MD5sum: 68fefe164918a81ca92e167c3298e650
-SHA1: 0b7e1f9a36aec4030d233e2d456a3dc122a931d9
-SHA256: 47080d1eb9c2a3458ad644e4c04856379d82db9d5160128036333e2740928a52
-SHA512: c7bc0df0c225a199dae8c85fdd33bbf06231cbdd2445c2d74124ac1b8cd04551770e0ee4c91fa3277bb5f521ae75e24cb044dc7a38770770a22145627d63d02a
+Size: 8473252
+MD5sum: 6b3cb67f2320dd1ddd9d064852c22fb0
+SHA1: 0d616fd8a68c983d807606fd0578c0d5eb2441b6
+SHA256: aaabd1e4290028d5042ce6ccd7610f9803f57c2b7b72e4c01dd47f4deac42764
+SHA512: 98e175080172a341b9675e090035fe48883d889ae7fcc9c461de82c47731762ec93f069b4277ce46dd0b45875eb7a9bd71d9e275108e4fb30ea0c426652dd7b3
+Description: An awesome CarPlay tweak.
 Name: Airaw (Roothide)
 Author: Dcsyhi <dcsyhi1998@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json

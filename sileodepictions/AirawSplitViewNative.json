@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://cdn.chariz.cloud/asset/airaw-standard/UmR8vSBha3H38pjYH03kNW4SNyXIFyri/assets/BZzAbr7qjswclEDGno__GFFwkjX9__F8wHtls6iHjP0fTM-GRsV4wJqAcIWgxZeYSPMQju6VPezi0zBVfJpBAw.jpg",
-"tintColor":"#f66303",
+"headerImage":"https://cdn.chariz.cloud/asset/airaw-native/esocZk1gnk7YMp1J9ShR8DeBAyfxITwL/assets/xkcNylGAsQfeWomugLSINYILuT2flyFBqQy7wwBV2r268jfbQJlFTsitFraTsHEXdNTSavy4bph-SNdSQHjtzw.jpg",
+"tintColor":"#476892",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,7 +10,11 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://cdn.chariz.cloud/asset/airaw-standard/UmR8vSBha3H38pjYH03kNW4SNyXIFyri/assets/3vbQFq-qPN-mc7iUVnpIbO73u42G_yBSeGu_Y-jEhBGmfHiGJmxy5bswoYQqU3ISCTAm3yJx9FScie8-ThLirw.jpg",
+"url":"https://cdn.chariz.cloud/asset/airaw-native/esocZk1gnk7YMp1J9ShR8DeBAyfxITwL/assets/cxXPpaAWLZK0fGZG8zwOEXbz7oCVhcg9UE0-Po4SZhrsWCPdCiKKSXHnW7LJssJ43jhG8R0Fc-AxcvaiN2ZsRA.jpg",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://cdn.chariz.cloud/asset/airaw-native/esocZk1gnk7YMp1J9ShR8DeBAyfxITwL/assets/s6GT9vxHkKy-gEhcHuy1MvEfuLiJWE-iDlrjt4gw8-8ijgNduv-JwSYHI7BBmLiN8sicjZy8XCS03W-wnW0x1g.jpg",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -18,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### Airaw Split Standard\n\n- Add-on mở rộng cao cấp dành cho **Airaw**, giúp mở khóa tính năng **chia đôi màn hình (Split View)** cho các ứng dụng bên thứ ba không hỗ trợ CarPlay mặc định (được thêm thông qua **CarCast** hoặc **CarBridge**).\n\n- **Tính năng nổi bật:**\n\n- **Chia đôi màn hình ứng dụng ngoài (Standard Split View):** Sử dụng song song 2 ứng dụng bất kỳ (như YouTube, Safari, bản đồ ngoài...) cùng lúc trên màn hình CarPlay.\n- **Quản lý ứng dụng độc lập:** Dễ dàng bật hoặc tắt quyền kích hoạt Split View cho từng ứng dụng trong danh sách.\n- **Ghi nhớ tỷ lệ chia:** Tự do đặt tỷ lệ chia màn hình mặc định và ghi nhớ riêng cấu hình tỷ lệ cho từng ứng dụng.\n\n*Yêu cầu & Lưu ý: Hỗ trợ iOS 16.0 trở lên, yêu cầu đã cài đặt Airaw (1.7.0 trở lên) cùng với CarCast hoặc CarBridge (không cài cả hai cùng lúc). Cấu hình trực tiếp trong Cài đặt → Airaw → Split View Standard.*",
+"markdown":"### Airaw Split Native\n\n- Add-on mở rộng cao cấp dành cho **Airaw**, giúp mở khóa tính năng **chia đôi màn hình (Split View)** cho các ứng dụng CarPlay chính thức của Apple (Bản đồ, Nhạc, Podcasts, Tin nhắn, Điện thoại...).\n\n- **Tính năng nổi bật:**\n\n- **Chia đôi màn hình gốc (Native Split View):** Sử dụng song song 2 ứng dụng cùng lúc trên giao diện CarPlay (ví dụ: vừa xem Bản đồ vừa điều khiển Nhạc).\n- **Thêm ứng dụng tùy ý:** Hỗ trợ đưa thêm các ứng dụng khác từ Thư viện ứng dụng (App Library) vào chế độ chia đôi.\n- **Tùy biến khung nhìn linh hoạt:** Tự do điều chỉnh tỷ lệ chia ban đầu, đặt khung chia bên trái/phải, phóng to toàn màn hình và ẩn thanh Dock khi phóng to.\n\n*Yêu cầu bắt buộc: Thiết bị chạy iOS 16.0 trở lên và đã cài đặt Airaw (phiên bản 1.7.0 trở lên). Cấu hình trực tiếp trong Cài đặt → Airaw → Split View Native.*",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -110,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Không xác định",
+"text": "364,4 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -123,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "16.0 - 26.0",
+"text": "16.0 - 18.0",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -151,7 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Kích hoạt tính năng Split View chạy song song các ứng dụng bên thứ ba (Yêu cầu iOS 16+, Airaw 1.7.0+ và CarCast/CarBridge).\n- Phát hành lần đầu."
+"markdown":"### Phiên bản 1.0\n\n- Mở khóa tính năng Split View chạy song song ứng dụng CarPlay gốc (Yêu cầu iOS 16+ & Airaw 1.7.0+).\n- Phát hành lần đầu."
 },
 {
 "class":"DepictionLabelView",
