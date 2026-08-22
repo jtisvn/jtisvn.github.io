@@ -18288,6 +18288,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/youtubex.json
 Depiction: https://jtisvn.github.io/depictions/youtubex.html
 Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
 
+Package: com.jtis.ytx
+Architecture: iphoneos-arm64
+Version: 1.7.22
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/com.jtis.ytx_1.7.22_iphoneos-arm64.deb
+Size: 5932
+MD5sum: 8703814cac2d3c603ad145435b6600ad
+SHA1: af472073faa6bb32aeed2cea4d5af01e8ae85d44
+SHA256: 52eeaa751363177015e9d26c15f18b1879193e40d0a1230d73e2c06cc37036f0
+SHA512: 16bed926f31975aa5af04705810ad7af5bc254b084a325d2a9236978d21196e0ce94a8512fc00a7c4da6d88b06e60457cfb40796b84d7b5e97537a198a89b69d
+Description: A YouTube improvement tweak.
+Name: YouTube X (Rootless)
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/youtubex.json
+Depiction: https://jtisvn.github.io/depictions/youtubex.html
+Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
+
+Package: com.jtis.ytx
+Architecture: iphoneos-arm64e
+Version: 1.7.22
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/com.jtis.ytx_1.7.22_iphoneos-arm64e.deb
+Size: 5896
+MD5sum: 024dea083b5790371487befd8d8da8c4
+SHA1: 7d0af94222c08723c4f09e976fc8bc72b95ea994
+SHA256: 57128b9195e517dd18dd0a8f7e885f79600915695946a75d05cc097df8b3499f
+SHA512: 80ad937b52715c64fd31ad2d2b5093e729867eae4e4a23bcb42bb7d3171097da2aa426d686955febf3834c3ac56e3caaf12f79c74bb97645f34fd4402c3258b7
+Description: A YouTube improvement tweak.
+Name: YouTube X (Roothide)
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/youtubex.json
+Depiction: https://jtisvn.github.io/depictions/youtubex.html
+Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
+
 Package: com.jtis.zaire
 Architecture: iphoneos-arm64
 Version: 0.9.0
@@ -20786,6 +20827,84 @@ Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PowerSelect
 Name: PowerSelector gói Việt Hoá (Roothide)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.rainmhzvh
+Architecture: iphoneos-arm64
+Version: 1.0-1+debug
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.rainmhzvh_1.0-1+debug_iphoneos-arm64.deb
+Size: 21932
+MD5sum: 616061aab63ff6c6436e000e93f0fc5d
+SHA1: 2a27f487b80f7e2c916567e22f2f9c04ce3c0e47
+SHA256: 8cfd52bd988326c33b35a308ec530d14ca0c4a438c8a5f7254fc894cda33a373
+SHA512: 47fffef1397f3b336b14399e11fdea9f89ef58582f448ddd384e13e51772ac5325ec85359acf9b645fa6dbc3bcb5ef8dbd846b3a82b7246f6fb7016bd905157c
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak RainMhz
+Name: RainMhz gói Việt Hoá (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RainMhzVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.rainmhzvh
+Architecture: iphoneos-arm64e
+Version: 1.0-1+debug
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.rainmhzvh_1.0-1+debug_iphoneos-arm64e.deb
+Size: 21968
+MD5sum: f8ec386acb31ddb90d767709e4f5de14
+SHA1: 8af5f666730875e97944e2f659460d434e96cd3f
+SHA256: 9370ce1b82904c0312b4c11fe85a0ac43833c8832a32b51d64e95d72f030c912
+SHA512: 0345eb0173463389e6e60a3b34e7ff6add451190ed1a12fae904c28a301126169bf1585eba8b1069f3427313e728059df6cd88dbfce753898810d63b1f49af37
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak RainMhz
+Name: RainMhz gói Việt Hoá (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RainMhzVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.rovh
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 352
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.rovh_1.0_iphoneos-arm64.deb
+Size: 29724
+MD5sum: cecf0fdccf100a5f874549e309b77099
+SHA1: 06c6f40b197629d097c8f8c0f291f80a46a38b3c
+SHA256: 9bccee4d946d9bb682e2a712b903b5545e66dae20cdf837379ef22a6a7de4217
+SHA512: 98a73f1c1478a3c3666e74980dc811078401425f731b1cab350a95638f1a7c6da1e1359d4ce79a61bbaa2ddb3d66fa504eddcad08d764871e4a0712f7c8df1f4
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak o2Pro
+Name: o2Pro gói Việt Hoá (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/o2ProVh.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.rovh
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 352
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.rovh_1.0_iphoneos-arm64e.deb
+Size: 29988
+MD5sum: 1445ce8ed705366d4264f9c7c712b645
+SHA1: b19de814d5905ade3b82f8c667e644e5a0067a73
+SHA256: 10866df56b342d8a009089ac87b040663511c4d96844c403ab783ee1c2a44fab
+SHA512: 01c4449df2aa68e4d770abc656b29345f792ae27c2c63f8dea05e3c92c681208701ca3994b8ea257989fe13f2c1fcf8787a610a6632dedd1ab24a098db260041
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak o2Pro
+Name: o2Pro gói Việt Hoá (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/o2ProVh.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.tiktokautoswipe

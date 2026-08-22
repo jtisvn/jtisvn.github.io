@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#FFFF99",
+"tintColor":"#00FF66",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,27 +10,15 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Copylog/Screenshots/1.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/Copylog/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/Copylog/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/Copylog/Screenshots/4.png",
+"url":"https://jtisvn.github.io/infodeb/RainMhzVH/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Copylog\n\n- Là ứng dụng quản lý lịch sử bảng tạm tiện lợi trên iOS giúp bạn theo dõi lưu lại, sắp xếp, tìm kiếm và quản lý nhanh các đoạn văn bản và hình ảnh đã sao chép.\n\n- Ứng dụng hoạt động ngầm, hỗ trợ chia sẻ, xem trước liên kết, và có tính năng danh sách đen để lọc nội dung không mong muốn.\n\n- Giao diện dễ nhìn sử dụng với cử chỉ vuốt từ bàn phím và nút đọc chính tả.\n\n- Hỗ trợ thiết bị A9-A15), cả iPhone và iPad.\n\n- Hỗ trợ Dopamine & Xina.",
+"markdown":"RainMhzVH gói Việt Hóa\n\n- Gói ngôn ngữ Tiếng Việt hiển thị đầy đủ cho cài đặt của tinh chỉnh **ARainMhz**.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -65,7 +53,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "TomT000",
+"text": "Kitsudo",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -85,13 +73,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày cập nhật",
+"text": "Ngày tải lên",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "25/7/2025",
+"text": "22/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +97,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "17.3-end",
+"text": "1.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -122,7 +110,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "68 MB",
+"text": "148,3 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -135,7 +123,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12.0 - 17.7",
+"text": "14.0 - 17.0",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -149,39 +137,16 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class": "DepictionStackView"
+"class": "DepictionSeparatorView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 17.3\n\n- Sửa lỗi\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak"
-}
-],
-"class":"DepictionStackView"
-},
-{
-"tabname":"Liên hệ Hỗ trợ",
-"views":[
-{
-"class":"DepictionTableButtonView",
-"openExternal": 1,
-"title": "Kênh Telegram",
-"action": "https://t.me/jtisvn"
-},
-{
-"class":"DepictionTableButtonView",
-"openExternal": 1,
-"title": "Nhóm Facebook",
-"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+"class": "DepictionLabelView",
+"text": "Liên kết & Hỗ trợ",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
 "class":"DepictionTableButtonView",
@@ -190,8 +155,35 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Ủng hộ tôi",
-"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+"title":"Ủng hộ tôi",
+"action":"https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.0\n\n- Thêm ngôn ngữ Tiếng Việt trong cài đặt RainMhz."
 },
 {
 "class":"DepictionLabelView",
