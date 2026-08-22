@@ -16114,6 +16114,47 @@ Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
 Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
 
+Package: com.jtis.spotify
+Architecture: iphoneos-arm64
+Version: 6.6.8
+Section: Tweaks
+Maintainer: jaydenjcpy
+Installed-Size: 24348
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./debs/com.jtis.spotify_6.6.8_iphoneos-arm64.deb
+Size: 1998112
+MD5sum: d157daa140e588dd61f41ca77bcdfa38
+SHA1: d6fe6c7e4e4593be935a8b75a1d331cf7b86261f
+SHA256: bd5d3276cb8b5996aacc9ffe137acbbdb78d0c7359add4186cc3b83d7d48e70e
+SHA512: 040a50a6119447f145366dcddf53e8fc13096b7ae60356af0ca5ab74b53352eb3883ced33f23e250b3deca7973cce8747a4f1e3aee6b7cfb3828f93f48f9bc7a
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify (Rootless)
+Author: Eevee
+Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
+
+Package: com.jtis.spotify
+Architecture: iphoneos-arm64e
+Version: 6.6.8
+Section: Tweaks
+Maintainer: jaydenjcpy
+Installed-Size: 24348
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./debs/com.jtis.spotify_6.6.8_iphoneos-arm64e.deb
+Size: 2031636
+MD5sum: fbc37e558a524c96f1cb594e2aba3978
+SHA1: 62a1ac49f3b69ea944f8f3e65ffa1c371b199ae5
+SHA256: 2d0659a7b58858f02e43e478c1589488c6a0e339bd539258081cb8c491ea4fb9
+SHA512: 07d7fb5cd132b150690561d149f2e346c5e961a687c3f4f244dc322befa98af7697cbbd7fcab8cf94b27d6721c9b84a3540a43421d957526dcc29eb7d88f0ad3
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify (Roothide)
+Author: Eevee
+Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
+
 Package: com.jtis.starfalltheme
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -19071,6 +19112,52 @@ Depiction: https://jtisvn.github.io/depictions/OPAboutPhone.html
 Icon: https://jtisvn.github.io/sectionIcons/OPAboutPhone.png
 
 Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm
+Version: 1.4
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_1.4_iphoneos-arm.deb
+Size: 201812
+MD5sum: 7561a3e2a47a88d77d7b13b3dad273b8
+SHA1: bc6b2b1ca85ac28b02137199ce927e69966fc859
+SHA256: 4c5f5ffb8260b998eefb38bfbc99e434304b1163e3ff3313ed19744668e5f162
+SHA512: 9bb2e0b846f32fc89cfc7e40e92460e2688c29bc5fb56db2d11e037ef32aeaf39764bfa67109e8d6a2551475a75b91ea5fbf1c3a86fca1a46946db0d2bff61c1
+Description: Công cụ cửa sổ đa nhiệm nổi, được sửa đổi dựa trên Pullover Pro.
+Name: PullOver X
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+dev: mlgm
+
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.4
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_1.4_iphoneos-arm64.deb
+Size: 281444
+MD5sum: 5dac900cbe7469832d671080fa18c6dc
+SHA1: 7e529900678cb9bd1fa1c9c1c0630e858b4dfac5
+SHA256: 28ea1517183cefb96782ecee8d3edc2cfc8ed0a6373125ef895ae909b085b1aa
+SHA512: 356aa67d0ada1ca47d0ea38a94b3e8799002d89d154917b75808feeda1501aab14523239e7b2e5f66cde019857807116e0836409660d70c91e05649f6bad8369
+Description: Công cụ cửa sổ đa nhiệm nổi, được sửa đổi dựa trên Pullover Pro.
+Name: PullOver X (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+dev: mlgm
+
+Package: com.jtisvn.pulloverx
 Architecture: iphoneos-arm64
 Version: 1.5
 Section: Tweaks
@@ -20526,6 +20613,53 @@ MD5sum: 9dc37d457705c935848439dd6c687f65
 SHA1: 580460a533dc7b0e5819d807c12ac02ecbf887f5
 SHA256: 90ee3b168ef7a1f50777d033fdcbfe1d27fbfd5a016fea892213366671badfc2
 SHA512: a8803fb0859a656858c312c9ac993fdc54b24f9ed2ebdf97f449a33167fb9c4ee00a92cb98a576399b1dbf43f25f1f6e2c9f3e9a69ca5376ca53422ce249643b
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64
+Version: 5.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4000
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_5.6_iphoneos-arm64.deb
+Size: 908920
+MD5sum: e0f5cb2c7b371b0cc9da3288e51ff164
+SHA1: 3aaa98c9468a337dc452486067d4417314b17f1a
+SHA256: 21ace142b945c3eb3bca4b93f622d0bf43be7ccb1f00e1a0404dbfd61f33af65
+SHA512: 930d2d46c0dedf1a141d195ff90e1950ed86e1e146eb9e2b94487cf1356d3e1cbb3b48c1e90582a0e8888202ebb8b8f9225726fc23c53f706011ed9b6a1b93a6
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64e
+Version: 5.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4000
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_5.6_iphoneos-arm64e.deb
+Size: 908604
+MD5sum: 3e48843305b8abccaed809e509939dab
+SHA1: 300845567742f5a3a523cf50990c4a010019f3fc
+SHA256: f69f544b022ec668cfbfcaf6beefcb3dde39ec566cc9e0e8f21b7f76d7702f30
+SHA512: 1bc7bb76b62a561a24f3bd1c2ab66cfacc3eb74ebbc81d8db0d7c38cce4ec29c025824e02e60f01241c66eff5cd21ec1c41f3d6e01a8e03d9ea4eeb53127338e
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
