@@ -159,7 +159,16 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 6.6.7\n\n-Tính năng mới: Không có (ngoại trừ việc hỗ trợ build Roothide mới).\n\n- Hỗ trợ tương  thích Spotify v9.1.66 & v9.1.68\n\n- Cập nhật thêm 3 Icon mới từ cộng đồng"
+"markdown":"### Phiên bản 6.6.8\n- Hỗ trợ Spotify 9.1.72 và 9.1.74.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 6.6.7\n\n- Tính năng mới: Không có (ngoại trừ việc hỗ trợ build Roothide mới).\n\n- Hỗ trợ tương  thích Spotify v9.1.66 & v9.1.68\n\n- Cập nhật thêm 3 Icon mới từ cộng đồng"
 }
 ],
 "class":"DepictionStackView"
