@@ -19344,6 +19344,72 @@ Depiction: https://jtisvn.github.io/depictions/PullOverX.html
 Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
 Author: mlgm
 
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm
+Version: 2.2.2
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_2.2.2_iphoneos-arm.deb
+Size: 177440
+MD5sum: 2b0f7a95a9b9c5a9c408faf718dc92ad
+SHA1: a5ff2e3f81816068ac4a8e29195b6e542f316354
+SHA256: 6ccb0655d4e7d9e48a8b052bb70a2ab49be7bc1f9240bf8fc903ec68534a47fa
+SHA512: 68e5616e2aa4c08d2bdeb108523de7bb70d7de9ea4ac6957fb5e39be3728342fd482e2b92b4ff831369977689cb34358f890d7e6c191ca6bc45c8ec333f59d5a
+Description: Công cụ cửa sổ đa nhiệm nổi, một phiên bản tùy chỉnh dựa trên PullOver X của mlgm.
+Name: PullOver X
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64
+Version: 2.2.2
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_2.2.2_iphoneos-arm64.deb
+Size: 177644
+MD5sum: 1def0af5d3a1b723738c43a4e889982c
+SHA1: 98ce6839ac3e4218fbfcd895130ed8bc2e26715e
+SHA256: 664afdcfd6041159457140f0bc6227cf03c30f9c9f527febf61e81c1bb7d3c93
+SHA512: 06b7e365febf2da51bef2775b7b18e47a215d47ebf3459935398fee03841c47594d92285ce5db724e43323ebd2c6c67e3f4f3589b33fe9853d8fcb59b9889d7e
+Description: Công cụ cửa sổ đa nhiệm nổi, một phiên bản tùy chỉnh dựa trên PullOver X của mlgm.
+Name: PullOver X (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.2.2
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_2.2.2_iphoneos-arm64e.deb
+Size: 178056
+MD5sum: 06b8932442f9cd849a143d30f2c2471d
+SHA1: 89631e4b45df5c2b4ce8f1bbcc60dd483ffeb5c1
+SHA256: 48ae7980d7219fbbcfea0b4b917f85cfa2fed4865ae9eb3b8dd6c85927ca08e7
+SHA512: 7622c922034d5d1a2751ec6c296ba259867a1b566a75e432422ba0ea7944a7b885642349f01e94ea6e6f11185b6d38008751ccca55102da6fe1292f323adf7fe
+Description: Công cụ cửa sổ đa nhiệm nổi, một phiên bản tùy chỉnh dựa trên PullOver X của mlgm.
+Name: PullOver X (RootHide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
 Package: com.jtisvn.scribblefix
 Architecture: iphoneos-arm64e
 Version: 1.0.0
@@ -26963,6 +27029,47 @@ Name: NewTerm 3 Beta
 Support: https://hashbang.productions/support/
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Depiction: https://chariz.com/get/newterm-beta
+
+Package: xc.lzsxcl.o2pro
+Architecture: iphoneos-arm64
+Version: 18.9.17-6
+Section: Tweaks
+Maintainer: lzsxcl
+Installed-Size: 32212
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/xc.lzsxcl.o2pro_18.9.17-6_iphoneos-arm64.deb
+Size: 13308064
+MD5sum: ff9c116b24d421c068053795b7cc63e3
+SHA1: 300501114e79b4a7ef883092277fef2cd4949920
+SHA256: 19e4aab02a845e1152adf4c6544403f7918b693dde576904cf7b21fde1dd7190
+SHA512: e6e164cca983764b53c4410c87ae914a29831ff4a6b3bbf02acd6f3bbb5021f2e62731bf523c3ff14547a3d2bbca4207132834eb95b69dacfa4517b9851efee3
+Description: 注重设计与用户体验的优雅产品。
+Name: o2Pro (Rootless)
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+Icon: https://jtisvn.github.io/sectionIcons/o2Pro.png
+
+Package: xc.lzsxcl.o2pro
+Architecture: iphoneos-arm64e
+Version: 18.9.17-6
+Section: Tweaks
+Maintainer: lzsxcl
+Installed-Size: 32212
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/xc.lzsxcl.o2pro_18.9.17-6_iphoneos-arm64e.deb
+Size: 13158592
+MD5sum: 1032ae429b8a47687578adb81d3cc52b
+SHA1: eb8fdcffae88e39d1dd317c21bef74650dd6663d
+SHA256: 412ef107e3087fa4cc3c36724aafd809b7b31894a6970f39d60b09caf8f526cc
+SHA512: d434beb2c2d2365e05a32eac7cc85726a6baf140db5c432172c78d82a96f397da5eeb7fb23a97de141eed4365076035e20959d7a25d648e3f47a1fdffa84eae0
+Description: 注重设计与用户体验的优雅产品。
+Name: o2Pro (Roothide)
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+Icon: https://jtisvn.github.io/sectionIcons/o2Pro.png
 
 Package: xyz.cypwn.cephei-compat
 Architecture: iphoneos-arm64e

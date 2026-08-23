@@ -30,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"PullOver X\n\n- Thanh công cụ dạng bong bóng nổi cạnh màn hình giúp bạn truy cập nhanh ứng dụng gần đây hoặc yêu thích mà không cần thoát ứng dụng đang dùng.\n\n- Tính năng nổi bật:\n\n- Ẩn biểu tượng khi chụp màn hình\n\n- Ẩn hoặc phóng to bàn phím khi ở chế độ ngang\n\n- Thay đổi vị trí trái/phải thanh kéo nổi\n\n- Điều chỉnh kích thước biểu tượng.\n\n- Phản hồi rung khi nhấn vao biểu tượng thanh kéo",
+"markdown":"### PullOver X\n\n- Thanh công cụ dạng bong bóng nổi cạnh màn hình giúp bạn truy cập nhanh ứng dụng gần đây hoặc yêu thích mà không cần thoát ứng dụng đang dùng.\n\n- **Tính năng nổi bật:**\n\n- Ẩn biểu tượng khi chụp màn hình.\n- Ẩn hoặc phóng to bàn phím khi ở chế độ xoay ngang.\n- Thay đổi vị trí Trái / Phải của thanh kéo nổi.\n- Điều chỉnh kích thước biểu tượng linh hoạt.\n- Phản hồi rung xúc giác (Haptic Feedback) khi nhấn vào biểu tượng thanh kéo.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -91,7 +91,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14/08/2026",
+"text": "23/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +109,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.1-1",
+"text": "2.2.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -163,25 +163,39 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 2.2.2\n- Tăng giới hạn ứng dụng yêu thích lên tối đa 20 ứng dụng, đồng thời bổ sung giới hạn khi chạy (runtime limits).\n- Tối ưu khoảng cách viền bảng điều khiển và khoảng cách giữa các icon, giúp bố cục đồng nhất hơn.\n- Tinh chỉnh độ bo góc của bảng điều khiển và khung nét đứt chuyển nhanh để khớp với góc bo mặc định của icon hệ thống.\n- Loại bỏ hiệu ứng phóng to/thu nhỏ icon khi vuốt chọn ứng dụng trên panel, chỉ giữ lại hiệu ứng chuyển động vị trí.\n- Thay đổi biểu tượng hiển thị phía trên thông báo \"Ứng dụng hiện tại đã mở\".",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 2.1-1\n- Sửa lỗi.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
+"useSpacing": true
 },
 {
 "class": "DepictionSeparatorView"
 },
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0\n- Thêm 3 tùy chọn kích thước cửa sổ nổi\n\n- Tăng khả năng tương thích giữa các phiên bản iOS.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
+"markdown":"### Phiên bản 2.0\n- Thêm 3 tùy chọn kích thước cửa sổ nổi.\n- Tăng khả năng tương thích giữa các phiên bản iOS.",
+"useSpacing": true
 },
 {
 "class": "DepictionSeparatorView"
 },
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Tăng cường hiệu năng & độ ổn định."
+"markdown":"### Phiên bản 1.5\n- Thêm ngôn ngữ Tiếng Việt.\n- Tăng cường hiệu năng & độ ổn định.",
+"useSpacing": true
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
 }
 ],
 "class":"DepictionStackView"
@@ -203,11 +217,13 @@
 },
 {
 "class":"DepictionTableButtonView",
+"openExternal": 1,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
+"openExternal": 1,
 "title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
