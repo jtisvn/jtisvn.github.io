@@ -348,6 +348,49 @@ Icon: https://repo.igerman.cc/assets/cc.igerman.taptapslumber/icon.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
 
+Package: cc.igerman.yahhider
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: iGerman <igerman@igerman.cc>
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/cc.igerman.yahhider_0.0.3_iphoneos-arm64.deb
+Size: 8664
+MD5sum: be1eecc368599e50b812ffc00a6b02f7
+SHA1: d45e206691d376fc3855cfb9919012252eab4b55
+SHA256: 6d700d268e5ca89472dbf691cc59d22fadb052ef388a92d8c038f9205886ac83
+SHA512: cef3a8b84fefbec0755b0641fbf246f7cfd3441478904893e64d65323fda80ba26b798bfd3c3411b17f0a4e1a6371a2ece37bb7a7b052981e98bc44c2987888d
+Description: Ẩn thanh trang chủ (Homebar) trên thiết bị iOS & iPad
+Name: YetAnotherHomeBarHider
+Depiction: https://repo.igerman.cc/depiction/web/cc.igerman.yahhider.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YetAnotherHomeBarHider.json
+ModernDepiction: https://repo.igerman.cc/depiction/native/cc.igerman.yahhider.json
+Icon: https://repo.igerman.cc/assets/cc.igerman.yahhider/icon.png
+Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
+Author: iGerman <igerman@igerman.cc>
+
+Package: cc.igerman.yahhider
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: iGerman <igerman@igerman.cc>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/cc.igerman.yahhider_0.0.3_iphoneos-arm64e.deb
+Size: 10708
+MD5sum: 1233ff9ff2eedb872e4837f58cc540fd
+SHA1: f026158539c6e5246db3193a3d2cff08eaa66ec0
+SHA256: a56157291087f5d820f9b011b1418b12cf73056d55fedbb1404e6367f3eb0e69
+SHA512: f1ced10833319bb3239fa76fc4657135871c73c96d42013ef5bf628292d249e8dd09a2ce57d02e50506bbba2eb450f1f5fa2d55b04d4a4f522bbb5aa98d9b272
+Description: Ẩn thanh trang chủ (Homebar) trên thiết bị iOS & iPad
+Name: YetAnotherHomeBarHider
+Depiction: https://repo.igerman.cc/depiction/web/cc.igerman.yahhider.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YetAnotherHomeBarHider.json
+ModernDepiction: https://repo.igerman.cc/depiction/native/cc.igerman.yahhider.json
+Icon: https://repo.igerman.cc/assets/cc.igerman.yahhider/icon.png
+Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
+Author: iGerman <igerman@igerman.cc>
+
 Package: chaoge.ChargeLimiter
 Architecture: iphoneos-arm64e
 Version: 1.6
@@ -17010,15 +17053,16 @@ Section: Tweaks
 Maintainer: iGerman <igerman@igerman.cc>
 Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
 Filename: ./debs/com.jtis.trim_0.0.2_iphoneos-arm64.deb
-Size: 13780
-MD5sum: a3a79602c2c56d99f6607a6a5924131a
-SHA1: 29effc5aff5fa27e5bbc010c477a0249fa4af64f
-SHA256: 402dc7cf1fdb46b57136ac3c6439a26fd442c71ae875c730866975ba999118ec
-SHA512: 175fcb60e405d530686dbca7da10b2fa5c902f6aac94385f402e05556aa07d88338a317a3a511446292c8e76540177fadc8ef0a6088e93206f00588d512ccfb0
+Size: 13804
+MD5sum: 9540a08c0720b491d9fbd1e29c322025
+SHA1: 3957a73c3c5fe2b6a0e91fb84c45892ab4d8cf00
+SHA256: e5a339da38318c3d918acead6ff7c3c106a555af434110eb24c964cb09d44ac5
+SHA512: 0b26f7d1eef98f3a6cba1c70499d062d94c571b42f58cf252a8fec2a0a953d3c34caeab47dbd6c46711c7ba0f8490387f260e12ac5797da2c810ee761aa95b3c
 Homepage: https://shuga.co/
-Description: Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên thiết nút home đời thấp.
+Description: Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên dòng máy iPhone 8 trở xuống.
 Name: Trim (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Trim.json
+Depiction: https://jtisvn.github.io/depictions/Trim.html
 Icon: https://jtisvn.github.io/sectionIcons/Trim.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
@@ -17031,15 +17075,16 @@ Maintainer: iGerman <igerman@igerman.cc>
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
 Filename: ./debs/com.jtis.trim_0.0.2_iphoneos-arm64e.deb
-Size: 15792
-MD5sum: e0b75628f6e7bdd3903036718e4e9d77
-SHA1: 3328daa7b6eb1db288a494e86e3d982ec0f1cf7e
-SHA256: f4ff9ce523cbf79e8c1022a5ebc581f6656fc677dbed8d322e0633c132f79dc5
-SHA512: 715f1df225da5167b01e329db9ef76efcf0c33952c651a997fbb64d696afddb6aebad5984fec9f0b67486c89288afdcf3a1ff62ce9778e25ec76c4ef06215dcc
+Size: 13300
+MD5sum: f6a701ae62c216d442c4332c8c915f55
+SHA1: a3819576dd9f6d57bc249348defecbc9a18b7da1
+SHA256: 69f001f7f4b0bdd845907643abde64c0eb10592d7af618d261cbe1059fe45f36
+SHA512: 7f13536a86d5d86657ad44bca737295ced83403b5662bb6f6ed84a22bbeda69846b848f5d29f644176d007226c2c4cfaa77a15e7e5274e31458079a5f1f9adf8
 Homepage: https://shuga.co/
-Description: Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên thiết nút home đời thấp.
+Description: Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên dòng máy iPhone 8 trở xuống.
 Name: Trim (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Trim.json
+Depiction: https://jtisvn.github.io/depictions/Trim.html
 Icon: https://jtisvn.github.io/sectionIcons/Trim.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
