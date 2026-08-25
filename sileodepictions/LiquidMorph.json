@@ -155,15 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.1.5\n- Thêm 3 tùy chọn kích thước cửa sổ nổi.\n- Tăng khả năng tương thích giữa các phiên bản iOS.",
-"useSpacing": true
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5\n- Cải thiện tối ưu Animation và một số điều chỉnh nhỏ khác Thêm ngôn ngữ Tiéng Anh & Tiếng Việt.",
+"markdown":"### Phiên bản 0.1.5\n- Cải thiện tối ưu Animation và một số điều chỉnh nhỏ khác Thêm ngôn ngữ Tiéng Anh & Tiếng Việt.",
 "useSpacing": true
 },
 {
