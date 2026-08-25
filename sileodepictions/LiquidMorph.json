@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### Liquid Morph\n\n- Mang hiệu ứng Animation đóng mở ứng dụng mượt mà theo phong cách iOS 26 lên các dòng máy iOS thấp.\n\n- **Tính năng nổi bật:**\n\n- Tuỳ chọn 3 kiểu hiệu ứng:\n- Liquid Moỏph\n- HyperOS 4\n- Liquid Morph & HyperOS 4\n- Tuỳ chỉnh tốc độ Animetion, độ nảy và bo góc cao nhất đến khi kết thúc.",
+"markdown":"### Liquid Morph\n\n- Mang hiệu ứng Animation đóng mở ứng dụng mượt mà theo phong cách iOS 26 lên các dòng máy iOS thấp.\n\n- **Tính năng nổi bật:**\n\n- Tuỳ chọn 3 kiểu hiệu ứng:\n- Liquid Morph\n- HyperOS 4\n- Liquid Morph & HyperOS 4\n- Tuỳ chỉnh tốc độ Animation, độ nảy và bo góc cao nhất đến khi kết thúc.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
