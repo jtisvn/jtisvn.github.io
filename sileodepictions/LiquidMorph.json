@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#FF00FF",
+"tintColor":"#00CCFF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,19 +10,11 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/PullOverX/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/LiquidMorph/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/PullOverX/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/PullOverX/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/PullOverX/Screenshots/4.png",
+"url":"https://jtisvn.github.io/infodeb/LiquidMorph/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -30,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### PullOver X\n\n- Thanh công cụ dạng bong bóng nổi cạnh màn hình giúp bạn truy cập nhanh ứng dụng gần đây hoặc yêu thích mà không cần thoát ứng dụng đang dùng.\n\n- **Tính năng nổi bật:**\n\n- Ẩn biểu tượng khi chụp màn hình.\n- Ẩn hoặc phóng to bàn phím khi ở chế độ xoay ngang.\n- Thay đổi vị trí Trái / Phải của thanh kéo nổi.\n- Điều chỉnh kích thước biểu tượng linh hoạt.\n- Phản hồi rung xúc giác (Haptic Feedback) khi nhấn vào biểu tượng thanh kéo.",
+"markdown":"### Liquid Morph\n\n- Mang hiệu ứng Animation đóng mở ứng dụng mượt mà theo phong cách iOS 26 lên các dòng máy iOS thấp.\n\n- **Tính năng nổi bật:**\n\n- Tuỳ chọn 3 kiểu hiệu ứng:\n- Liquid Moỏph\n- HyperOS 4\n- Liquid Morph & HyperOS 4\n- Tuỳ chỉnh tốc độ Animetion, độ nảy và bo góc cao nhất đến khi kết thúc.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -65,7 +57,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "migm & daodao",
+"text": "Fujb",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.2.3",
+"text": "0.1.5",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -122,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "759,7 KB",
+"text": "369,6 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -135,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.x - 17.x",
+"text": "15.x - 17.x",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -163,7 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.2.3\n- Tăng giới hạn ứng dụng yêu thích lên tối đa 20 ứng dụng, đồng thời bổ sung giới hạn khi chạy (runtime limits).\n- Tối ưu khoảng cách viền bảng điều khiển và khoảng cách giữa các icon, giúp bố cục đồng nhất hơn.\n- Tinh chỉnh độ bo góc của bảng điều khiển và khung nét đứt chuyển nhanh để khớp với góc bo mặc định của icon hệ thống.\n- Loại bỏ hiệu ứng phóng to/thu nhỏ icon khi vuốt chọn ứng dụng trên panel, chỉ giữ lại hiệu ứng chuyển động vị trí.\n- Thay đổi biểu tượng hiển thị phía trên thông báo \"Ứng dụng hiện tại đã mở\".",
+"markdown":"### Phiên bản 0.1.5\n- Thêm 3 tùy chọn kích thước cửa sổ nổi.\n- Tăng khả năng tương thích giữa các phiên bản iOS.",
 "useSpacing": true
 },
 {
@@ -171,23 +163,7 @@
 },
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.1-1\n- Sửa lỗi.",
-"useSpacing": true
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0\n- Thêm 3 tùy chọn kích thước cửa sổ nổi.\n- Tăng khả năng tương thích giữa các phiên bản iOS.",
-"useSpacing": true
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5\n- Thêm ngôn ngữ Tiếng Việt.\n- Tăng cường hiệu năng & độ ổn định.",
+"markdown":"### Phiên bản 1.5\n- Cải thiện tối ưu Animation và một số điều chỉnh nhỏ khác Thêm ngôn ngữ Tiéng Anh & Tiếng Việt.",
 "useSpacing": true
 },
 {
