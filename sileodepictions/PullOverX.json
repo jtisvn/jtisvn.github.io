@@ -91,7 +91,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "23/08/2026",
+"text": "26/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +109,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.2.3",
+"text": "2.2.9",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -161,6 +161,14 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"markdown":"### Phiên bản 2.2.9.\n- Sửa lỗi và mốt số diều chỉnh nhỏ khác.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
 {
 "class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 2.2.3\n- Tăng giới hạn ứng dụng yêu thích lên tối đa 20 ứng dụng, đồng thời bổ sung giới hạn khi chạy (runtime limits).\n- Tối ưu khoảng cách viền bảng điều khiển và khoảng cách giữa các icon, giúp bố cục đồng nhất hơn.\n- Tinh chỉnh độ bo góc của bảng điều khiển và khung nét đứt chuyển nhanh để khớp với góc bo mặc định của icon hệ thống.\n- Loại bỏ hiệu ứng phóng to/thu nhỏ icon khi vuốt chọn ứng dụng trên panel, chỉ giữ lại hiệu ứng chuyển động vị trí.\n- Thay đổi biểu tượng hiển thị phía trên thông báo \"Ứng dụng hiện tại đã mở\".",

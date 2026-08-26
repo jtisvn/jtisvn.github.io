@@ -93,7 +93,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12/08/2026",
+"text": "26/08/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -111,7 +111,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.6.9",
+"text": "2.7.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -164,7 +164,15 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown":"### Phiên bản 2.6.9.\n- Điều chỉnh hiệu ứng kính mờ của bảng điều khiển khi ở chế độ sáng.",
+"markdown":"### Phiên bản 2.7.1\n- Sửa lỗi văng ứng dụng (crash do mảng vượt quá giới hạn - out of bounds) và lỗi nút Blacklist không hiển thị khi chuyển nút này ra trang giao diện chính.\n- Thêm tính năng chặn ứng dụng tự động tắt màn hình (giữ màn hình luôn sáng).\n- Bổ sung công tắc bật/tắt nhanh danh sách đen (RootHide Blacklist) của ứng dụng ngay trong trang chức năng mở rộng.\n- Tối ưu hóa logic tải biểu tượng (icon loading), giảm tần suất đọc ổ đĩa và giảm tải I/O, giúp nâng cao độ mượt mà.\n- Sửa lỗi xung đột khiến tính năng kéo thông báo xuống để chia đôi màn hình của tweak FV không hoạt động khi sử dụng AppData.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
+{
+"markdown":"### Phiên bản 2.6.9\n- Điều chỉnh hiệu ứng kính mờ của bảng điều khiển khi ở chế độ sáng.",
 "useSpacing":true,
 "class":"DepictionMarkdownView"
 },

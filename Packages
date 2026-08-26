@@ -18582,6 +18582,67 @@ Depiction: https://jtisvn.github.io/depictions/AppData.html
 Icon: https://jtisvn.github.io/sectionIcons/AppData.png
 Author: iosdump
 
+Package: com.jtisvn.appdata
+Architecture: iphoneos-arm
+Version: 2.7.1
+Section: Tweaks
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.jtisvn.appdata_2.7.1_iphoneos-arm.deb
+Size: 1718636
+MD5sum: 40dcab5765d782ecfeb5e4a373f4ad00
+SHA1: ba5c369e0e6103556eccb8724ead6ef3ad744c37
+SHA256: da8b63abcc4b5348b8e1130bed6cf417e21337a00762c1212a50af56b6d9fd96
+SHA512: c0a5ec4795a6327cc31884b104a7be2ff47f8a3ef33388886ad4d48df6e11606d2a1d155f8725b9939381f6a9d6b054ea9cc7d96486e4c7f4459d4c469d572a3
+Description: Xem dữ liệu ứng dụng và quản lý ứng dụng trên màn hình chính.
+Name: AppData
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppData.json
+Depiction: https://jtisvn.github.io/depictions/AppData.html
+Icon: https://jtisvn.github.io/sectionIcons/AppData.png
+Author: iosdump
+
+Package: com.jtisvn.appdata
+Architecture: iphoneos-arm64
+Version: 2.7.1
+Section: Tweaks
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.jtisvn.appdata_2.7.1_iphoneos-arm64.deb
+Size: 1718740
+MD5sum: 6a610af32d17a05b184973cedc3c6801
+SHA1: 139b1dcdba1c8695519982347fa4f207d54f94f0
+SHA256: e4bae3f3a0dcf7c2762d415b965823e43f6b6a9ceec2bf1e010f6f5a9ab748a3
+SHA512: 73638381057739d7d2e4837b69389d3c99f9009b2e0af6f60267cb4b27db888e6daa0d8e729cdb454afed51584a9cda61f93d75744fbb4de114b0fc74dbb549a
+Description: Xem dữ liệu ứng dụng và quản lý ứng dụng trên màn hình chính.
+Name: AppData (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppData.json
+Depiction: https://jtisvn.github.io/depictions/AppData.html
+Icon: https://jtisvn.github.io/sectionIcons/AppData.png
+Author: iosdump
+
+Package: com.jtisvn.appdata
+Architecture: iphoneos-arm64e
+Version: 2.7.1
+Section: Tweaks
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.jtisvn.appdata_2.7.1_iphoneos-arm64e.deb
+Size: 1706844
+MD5sum: f3cc6656c8d2aeb2101d254598c4f921
+SHA1: 1a44fb9eccf7333ac00a1f0af2ccaf341315c24a
+SHA256: 7f13a96c075772f7404e0fdbd2e71b594d8e26d3a8a0a045ae40b199f9ae60e8
+SHA512: ee80d51b16c03d0ce079a7cb8a4d2b630de630407206459810d772bcaefb7503175b7a35d5a5fefbc8b63178d112c380bb19e33855a376e2e41ab6d94a12d77c
+Description: Xem dữ liệu ứng dụng và quản lý ứng dụng trên màn hình chính.
+Name: AppData (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppData.json
+Depiction: https://jtisvn.github.io/depictions/AppData.html
+Icon: https://jtisvn.github.io/sectionIcons/AppData.png
+Author: iosdump
+
 Package: com.jtisvn.capcutcrack
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -19434,6 +19495,51 @@ Depiction: https://jtisvn.github.io/depictions/PullOverX.html
 Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
 Author: mlgm
 
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64
+Version: 2.2.9
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 812
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_2.2.9_iphoneos-arm64.deb
+Size: 181652
+MD5sum: de3b9cdbe1b3b38ccb194896b1715cb7
+SHA1: 3ac9d651f91b1daf05ef0d7e2b44710d9d84b0ef
+SHA256: c0add193bf2f294ce76db5ea9874f48f8a22b5a36d5191620643738b18a9eeae
+SHA512: 4dc4f9cbd00328ac8774e48b4fedec84c13472b82b8c45d577a5725dc081d080d945312678d7110913c21047698b5f5a306fae31fd181e290f1d49367a349ac1
+Description: Công cụ cửa sổ đa nhiệm nổi, một phiên bản tùy chỉnh dựa trên PullOver X của mlgm.
+Name: PullOver X (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
+Package: com.jtisvn.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.2.9
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 812
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.jtisvn.pulloverx_2.2.9_iphoneos-arm64e.deb
+Size: 178768
+MD5sum: 6e9f981e645af4a6c7bd390f12a45b17
+SHA1: 63b5222f0e0d488f7638197a7ab815afb559c006
+SHA256: 2a8f168000a504c517548bf0d84bee054ba29e6caac439acb2214e4153a53cc3
+SHA512: bc9894b930d5451af6e8f221691e3757779ce59cf860424f8916ac8ed73945dbebd53691af76c90c882772e846b2763ada88500d4c93e8ec3d8e44967279e94f
+Description: Công cụ cửa sổ đa nhiệm nổi, một phiên bản tùy chỉnh dựa trên PullOver X của mlgm.
+Name: PullOver X (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverX.json
+Depiction: https://jtisvn.github.io/depictions/PullOverX.html
+Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
+Author: mlgm
+
 Package: com.jtisvn.scribblefix
 Architecture: iphoneos-arm64e
 Version: 1.0.0
@@ -20034,18 +20140,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.appdataviethoa
 Architecture: iphoneos-arm
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 204
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.1_iphoneos-arm.deb
-Size: 12900
-MD5sum: cdfcdf91033185a174124b1d25d14a2d
-SHA1: 121ce320e728af4e5086922d4ca3da09274e8dd4
-SHA256: 6589ab17f44742fe878420a52f381f36d2fba9d7466b5b00a3d7bd513b1cc8ed
-SHA512: 3bef92251c772158a55c67a00cfd96e190c24d88b5333a9a372247352227425ae0757b4510ff9b2b5313c1b58cce498c53d7c9cf9ba2ab30fb8437a01cec585f
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2_iphoneos-arm.deb
+Size: 13132
+MD5sum: e1d8f5ab2e967c7b381e28ec6b0533d1
+SHA1: 00785efa99faf43077f895735d2a6b56c3aa0736
+SHA256: e9e12377b2cbed048d32c377741731e70a251ddf474fba212cf02df8b7020b61
+SHA512: a240fa7145c2044ded5dd0e011914517cefdae003567dcb59fc7187ca52fb2536fd12b5b487cebe9f3be9687c807ca7f5efb3fbc3bfb12b51a6de813af6dfe73
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
 Name: AppData gói Việt Hóa
 Author: Kitsudo
@@ -20054,18 +20160,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.appdataviethoa
 Architecture: iphoneos-arm64
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 204
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.1_iphoneos-arm64.deb
-Size: 12988
-MD5sum: 9789c6fc10ead6d3197a45dac6dac405
-SHA1: a9b5f3f0b3434e1a70b15c2881533a969a8d5d69
-SHA256: c42797a0ace0095f40218720e9a4f687670a4ac8194bf5609fd5c0efe2464040
-SHA512: 6fccf35cf4931712f7e47bec736349ef8d44958807bd272fd395b544e20da1cd3a831ef429ff69acdc6d5d9512b1280277dba82feb90bd0167afb5e2a7da4596
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2_iphoneos-arm64.deb
+Size: 13184
+MD5sum: fb85dc6ce22d0d12591dd8ca38cf2c30
+SHA1: 3aebc230cc45988b9a1d89ef4c31e7bf4136b583
+SHA256: 3c64f9638a93043dbaa1a2c69280c2a3f0228d862196e6ad39c239b2d87a9578
+SHA512: 14d4fe0620bc19e6429d6bab7d7d9c01f7c6f29cf811055085848099352db1ea82d29129dfa25d0f5c7285c7257471e9c7c481d48a5798ba539d7404d963ed57
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
 Name: AppData gói Việt Hóa (Rootless)
 Author: Kitsudo
@@ -20074,19 +20180,19 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.appdataviethoa
 Architecture: iphoneos-arm64e
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 204
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.1_iphoneos-arm64e.deb
-Size: 13096
-MD5sum: 651269f190aadbcde81043197122572b
-SHA1: e6ebd121e30e4223d8fd9fbcb39ed7843f236a33
-SHA256: dd7e558d9533e992bdc6c6a0e3f097286c1f65e4d85be118d98fa6cc26cf125d
-SHA512: 41748a89e4908e62b9d18fbbd1631429de05a0510c47c81314c7ca20dbf72c9d0ed934a00daf96f2405dcc58a52d7c46b121a4420474b2576cd018f05a721a7f
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2_iphoneos-arm64e.deb
+Size: 13168
+MD5sum: 5b954c1e5ffe5be70d376c71f4186277
+SHA1: f77278b98e166e6627525d3ee46d94ef65eb23b5
+SHA256: 1381f2a71bb2f3d6751fff7747aec93e0141b1e3c236837f000d5116b3aa704b
+SHA512: b3a2f2df5980491d05e9e63daf4643028a0a45e3c0bb69cd0b4e9b444226ffc1110749b6d3a4b70c5c06e1df03586026a96d0a1744eb4788cd21f83e4975f803
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
 Name: AppData gói Việt Hóa (Roothide)
 Author: Kitsudo
@@ -20885,6 +20991,53 @@ MD5sum: 6d9bfb2c538b80f513b58ed7283ab032
 SHA1: 1ea5942d259417f3dd4aced802d952f4e9428823
 SHA256: 8bb76dce96190f1a29668453a15c2d258ffb6c01799df6101eec43955c196155
 SHA512: f6c5ad0fb4a05080ec3b729507c053fd89877cd8cc1b2a627cfe601587a4596f0da853ebe08d9e105b176c2d92d378b2e839181e7eb1b0ce4be1f97243a70047
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64
+Version: 5.9
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4244
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_5.9_iphoneos-arm64.deb
+Size: 947736
+MD5sum: 59824a0bffb79b64c435a8d07e6d3cd3
+SHA1: dc2f3ce62dd67697bed2335fb1c2abd73a65f846
+SHA256: a3782c5cef4caca485519994add98bf86ebd287c35cccd6dbcf3352c1651105e
+SHA512: 23c087eab1d36d0fd16479c0395935e26a41600eae530cae5e536b96d60ca1115a2b31633031009726d9dc5aa959cf72aeaa63d6e79ae458ce0fac12979a481d
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64e
+Version: 5.9
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4244
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_5.9_iphoneos-arm64e.deb
+Size: 946596
+MD5sum: c7c28d440125d32bbcfe3a0ad9859f27
+SHA1: d2fe3772896467e472989edc8e4b59a3ce7ca92f
+SHA256: f645c185abe967ea94fe24438474cba98a9112108ffb4045744d2ba2bdbd3a84
+SHA512: 10a29a33217ff91a2ab97331da437afac1457b6d5c8574e3c64508b13fd048f4d5ab57d78ebdb78b0b1243e178edf9035e350d713d337224575310e89cab03f5
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
