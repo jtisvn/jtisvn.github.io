@@ -79,7 +79,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "7/5/2025",
+"text": "17/08/6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -97,7 +97,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.7",
+"text": "1.0.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -150,8 +150,16 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
+"markdown":"### Phiên bản 1.0.3\n- Thêm hỗ trợ chính thức cho iOS 18 và iOS 26.\n- Loại bỏ gói phụ thuộc runtime của Orion.\n- chuyển đổi công cụ móc nối từ Orion sang Shook [Swift-Hook](https://github.com/ginsudev/Shook/tree/main)",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
+{
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.7\n\n- Thêm bộ lọc tông màu áp dụng cho ký tự đồng hồ.\n\n- Hỗ trợ Rootless Jailbreak."
+"markdown":"### Phiên bản 1.0.2\n\n- Thêm bộ lọc tông màu áp dụng cho ký tự đồng hồ.\n\n- Hỗ trợ Rootless Jailbreak."
 }
 ],
 "class":"DepictionStackView"

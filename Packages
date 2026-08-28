@@ -21047,6 +21047,53 @@ SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
 Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64
+Version: 6.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4368
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_6.0_iphoneos-arm64.deb
+Size: 963776
+MD5sum: b6d005be3d1d7e87143f690ed9db6eae
+SHA1: 52b49451ee92424ddd5b60d499ebb04b3cd84697
+SHA256: c956c80d02c1a13ad6332587c58b7eb4457597110d4b01be560a5e1d2e08854d
+SHA512: 4376798ece6ec8545646b8ee0f0c965c2bcfd2c94de951bf8f965379a78790709d5076fcf62312e65629da27f6034971beab1100d4b0a6824ca46b124904eb61
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64e
+Version: 6.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4368
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_6.0_iphoneos-arm64e.deb
+Size: 963236
+MD5sum: a06de7c4aa02e3d2f8d636db87a86c16
+SHA1: b07ee28e953fcf7a6d16732daf0b19e172590e28
+SHA256: 7c1eb737ddcca2b12df662af2788f4960da4ce593560d57a5b5552e1f9b50d7b
+SHA512: 4f734eb707abb90e5b7366485f8d0115b9bd160509b88e4d42461d64efb5a2cd63cf9548820f4eed984f14af1505b3040a6e8b3d7d9c74d9277a91378c73dd64
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
 Package: com.kitsudo.picturemodulevh
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -24497,6 +24544,66 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/PopOutButtons.json
 Icon: https://Jtisvn.github.io/sectionIcons/PopOutButtons.png
 Depiction: https://chariz.com/get/popoutbuttons
 
+Package: com.tigisoftware.appdatamanager
+Architecture: iphoneos-arm
+Version: 1.8.2-4
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 5236
+Filename: ./debs/com.tigisoftware.appdatamanager_1.8.2-4_iphoneos-arm.deb
+Size: 1450480
+MD5sum: 316a6feb0a82e91932eac01c38b18f6b
+SHA1: 311277ff87fafbbd11a62d5d1f3522fd8f0449d3
+SHA256: 78e02442d1984b6b3355cff374263c0b37f8541f6b161cebeb5661f2573f7c7c
+SHA512: 62474375bfd310fc65c09d7ecf827df0291986a67341a9711ae1461d260284d17592de03463af0b9040dc5474476b14b5d4b18a82c7ac69d48f985da0d2cdb6b
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Name: Apps Manager
+Author: TIGI Software
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
+Depiction: https://jtisvn.github.io/depictions/AppsManager.html
+Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
+
+Package: com.tigisoftware.appdatamanager
+Architecture: iphoneos-arm64
+Version: 1.8.2-4
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 5236
+Recommends: ldid
+Filename: ./debs/com.tigisoftware.appdatamanager_1.8.2-4_iphoneos-arm64.deb
+Size: 1450516
+MD5sum: 8f2cd1e5fba380e847656af31fdd0968
+SHA1: b5024495aba8f173b5d93bcd92d65bcefce79fc7
+SHA256: 3b44851819805d74c5b3ab2776a0595c55e5f91c8168f45576fcbca216bab754
+SHA512: 7f4656e9288c68be673d94ddf0c478bcf6264db0e45a599c91897c7197df4e99c107fab238306be07a36447ffac12cde69ed7c56f15e396639c6f659277ce8ea
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Name: Apps Manager (Rootless)
+Author: TIGI Software
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
+Depiction: https://jtisvn.github.io/depictions/AppsManager.html
+Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
+
+Package: com.tigisoftware.appdatamanager
+Architecture: iphoneos-arm64e
+Version: 1.8.2-4
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 5236
+Pre-Depends: rootless-compat(>= 0.9)
+Recommends: ldid
+Filename: ./debs/com.tigisoftware.appdatamanager_1.8.2-4_iphoneos-arm64e.deb
+Size: 1426384
+MD5sum: 1b28e07c12609d286698870beae7382f
+SHA1: 4322f92ecfa9f849bcd5ace37fc328a3bb0b94b1
+SHA256: d0374e6b0a2d875e5324c8f9ead7859f3fb7fe8c2659a4ddbffdc302c5cae125
+SHA512: 33f033fa30b0f11b1b3bb70704d8821208c17017f039cc84e8af838ea7eabee9fa58a0e71b1ccbd9e9b9a5597144bd03972a97d65c2ce190734170990d30eb13
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Name: Apps Manager (Roothide)
+Author: TIGI Software
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
+Depiction: https://jtisvn.github.io/depictions/AppsManager.html
+Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
+
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm64
 Version: 4.0.1-4
@@ -24888,6 +24995,45 @@ Description: Animated anime characters as your clock digits.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
+Author: yan
+
+Package: com.yan.anitime
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1432
+Depends: firmware (>= 14.0), com.ginsu.comet
+Filename: ./debs/com.yan.anitime_1.0.3_iphoneos-arm64.deb
+Size: 387728
+MD5sum: 51d38f32368e5b7a69206a775c5632cf
+SHA1: 5f6d6ea846551f1931091197fdac12e7bc58a0e4
+SHA256: 0b151fafa6480835b17332b34cc77fd5c79adb87efe294db708c786424ea0c79
+SHA512: 3a9f88ad060e3b15238fc132dcb994f9c7a44e6ae5836f6b89e2bd1c86be12472f232669d88a6d5fed417e072a57f64053cc83aa0d4af0afc1274d0e1a352882
+Description: Animated anime characters as your clock digits.
+Name: AniTime (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
+Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
+Author: yan
+
+Package: com.yan.anitime
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), com.ginsu.comet
+Filename: ./debs/com.yan.anitime_1.0.3_iphoneos-arm64e.deb
+Size: 387848
+MD5sum: f4afbdf317d09296f3b4dcbc59b80e34
+SHA1: 26cd52f2ea8a99f225a27894bd9e528fd5a6d3e8
+SHA256: 9d39238b3e1613732031263c4707a21160fd7153c6d48de40520b7731bfe0ef2
+SHA512: ad3877731b2fd9967a565e23ef8c9112c1c9f0b1d55c2df1ee8a3940a6b6b8d711e26039a68979e26deb15acce1192c01f6f13cb6388b10cef9f3cf6b65c7552
+Description: Animated anime characters as your clock digits.
+Name: AniTime (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
+Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Author: yan
 
 Package: com.yourepo.cydiageek.lsvibrantclockdate
@@ -25509,6 +25655,51 @@ SHA1: ec6932d2980dda1b66ba87c8d3f43032dede501f
 SHA256: a3b72f8bde3ce85116c84922bda182a5a1c23ce2960c8c9b85f965ee751e19e4
 SHA512: b2cd2be513976cfa302adf0cdcadac4406b78abebf0c7a4690f2a636777b0483edb93ab2f4b2a8395e0ebb1c2bf5b11a5b5a1f95b36495bbdd5fe138f044cc0a
 Description: Pin non-CarPlay apps to the CarPlay dashboard. Requires Airaw. Tested on iOS 17 and iOS 26. iOS 17+.
+Name: CarCast (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CarCast.json
+Depiction: https://jtisvn.github.io/depictions/CarCast.html
+Icon: https://jtisvn.github.io/sectionIcons/CarCast.png
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+
+Package: jp.dcsyhi.carcast
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 2359
+Depends: mobilesubstrate, preferenceloader, firmware (>=17.0), jp.dcsyhi.airaw (>=1.7.0)
+Conflicts: com.leftyfl1p.carbridge13
+Replaces: jp.dcsyhi.carcast
+Filename: ./debs/jp.dcsyhi.carcast_1.2_iphoneos-arm64.deb
+Size: 1516428
+MD5sum: 0b0ef17e707cafa7855323cf19c76b33
+SHA1: fcfed4e7c0559c074111bb9809839a50a9cb4077
+SHA256: 0ee7ec0d8e1028e6612a72c0659e1be90fc22cc8ccbe6b954f722b03a1db77ea
+SHA512: 5e6b29af32f30c4b8fee8c2eaf9a5164d04482c2623644964b3208fb1b52068e38d6a4738cbf2d8c20b4a84fb0ff7b901ec8a367e4cba5c81d75738c5cb0d227
+Description: Pin non-CarPlay apps to the CarPlay dashboard. Requires Airaw. Tested on iOS 17, iOS 18, and iOS 26.
+Name: CarCast (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CarCast.json
+Depiction: https://jtisvn.github.io/depictions/CarCast.html
+Icon: https://jtisvn.github.io/sectionIcons/CarCast.png
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+
+Package: jp.dcsyhi.carcast
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 2359
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>=17.0), jp.dcsyhi.airaw (>=1.7.0)
+Conflicts: com.leftyfl1p.carbridge13
+Replaces: jp.dcsyhi.carcast
+Filename: ./debs/jp.dcsyhi.carcast_1.2_iphoneos-arm64e.deb
+Size: 1516576
+MD5sum: a12b5fcb0ad9bf3ecf8282471da05b73
+SHA1: 4497ff6c653527bf40ab32200ccd4466cb153258
+SHA256: 68ceeeaff8c668dee5ed0ebdc0e89c13d750abf5db40bfa666e231ff82bc9c1e
+SHA512: b408fa6d21fe9d1d563657634036a010c28ad91b599470eef4ab02efb9e37e3245ad796ade4da973207128b8e0b609d19ba0ddc57a187282c7dd46953224da60
+Description: Pin non-CarPlay apps to the CarPlay dashboard. Requires Airaw. Tested on iOS 17, iOS 18, and iOS 26.
 Name: CarCast (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CarCast.json
 Depiction: https://jtisvn.github.io/depictions/CarCast.html
