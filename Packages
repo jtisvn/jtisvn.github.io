@@ -74,6 +74,23 @@ Tag: role::developer
 Name: FoxFort Tools
 Author: FoxfortMobile
 
+Package: oldabi
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 68
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: ./debs/Legacy arm64e Support-2.0-iphoneos-arm64e.deb
+Size: 3206
+MD5sum: badcb9d02a41d2c692b5f92d4fc174f0
+SHA1: 0af0dbb9f18de725ddbde563c4846dcb16e36b4c
+SHA256: 5ed15e9f7bb3103c51bc360d2783fbcfcfe37ec4d5dc8e7319d30ce16fdd2654
+SHA512: a0e51169570086779861174437f864c0761ed06c2a20c835cf600b08c607e1e41902c26acc163afd84819b1a3338d09c5fa8caea995bf62d4048996d0e5d8b0a
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Name: Legacy arm64e Support
+Author: Nightwind
+
 Package: dev.theos.orion14
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -20021,17 +20038,17 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.aerialviethoa
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.1-1
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.aerialviethoa_1.0.0_iphoneos-arm64.deb
-Size: 5296
-MD5sum: cd81b3fa4f0b1b1911386ab985d65b46
-SHA1: 9c7234f28fac28dca3935bca07bc59334f36e284
-SHA256: cb53e126e5a8269d83d1c8833adbb2fc16843710ca6699cc28c1fa5d3e48ae6a
-SHA512: 92fb255c002c4502388b641265fc03d05340ef5c0c075cd2aeaefdc5ae8b4d72b9241881436424744c39026997743b05c181bf23d33750ca5816286761710888
+Filename: ./debs/com.kitsudo.aerialviethoa_1.0.1-1_iphoneos-arm64.deb
+Size: 7016
+MD5sum: 81883121eade3480b31637d56fb2d550
+SHA1: 3403c2d611268c021737dbb617de9b2655cb46a2
+SHA256: 1071e3a1e2c8022d97b94d52eeeceadd25fb79d97b2488dc3095a37ad956ef3d
+SHA512: 921abd660247e6c3ddaee80e9514017930757802142956d9f9999113b59b1052bdfcde691990b14203e483f72197d4f6a855c7590308d3470fe88d26a0a24dcb
 Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
 Name: Aerial gói Việt Hóa (Rootless)
 Author: Kitsudo
@@ -20040,57 +20057,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.aerialviethoa
 Architecture: iphoneos-arm64e
-Version: 1.0.0
+Version: 1.0.1-1
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.aerialviethoa_1.0.0_iphoneos-arm64e.deb
-Size: 5520
-MD5sum: 52e1eaa31137883bed31a8ff758619bb
-SHA1: 308509576c8a50c6df922f28ece701cb0ddeddc2
-SHA256: f696253c613e9017139e66709e166ccad82ad391396a739c4921608110d1405f
-SHA512: 5c9de15a4fba631d553dea1ceb7fec813859ae820175aaf25161d0ecad2103babe3cdc30fc6e74a40afe8de5b6edec732372836a0c0e6b0b1089c1e641e7960a
-Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
-Name: Aerial gói Việt Hóa (Roothide)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.aerialviethoa
-Architecture: iphoneos-arm64
-Version: 1.0.1
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.aerialviethoa_1.0.1_iphoneos-arm64.deb
-Size: 8064
-MD5sum: 85c0ad0ef6bd6773931ccf47ed25a01d
-SHA1: 5088e2fce1cbb94026db4670326e76d145d0a28e
-SHA256: 215e54764fded52331ea3d37830d31aa2f01bd6f5cffbf485ea5d2d5a107977a
-SHA512: 783898f698870ba74605f58b90f714b7de59bcd0780b4976237657e1ff5d66b3657e05a0cd74c7fa6a5770021ba067b9f2090367c4ead2e0a037eb7d2243a717
-Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
-Name: Aerial gói Việt Hóa (Rootless)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.aerialviethoa
-Architecture: iphoneos-arm64e
-Version: 1.0.1
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.aerialviethoa_1.0.1_iphoneos-arm64e.deb
-Size: 8260
-MD5sum: c0918448bb76cab22755a906c2a68e94
-SHA1: e59a0f0bc3259a97854c8ab2cf5c004914deb661
-SHA256: 4662d6981c2b5b9b9ba12d5223f0928cfc0ba817a93abba99a43b760ecfb78f0
-SHA512: 20aa6988bea3f392bd4f3c6f061644116afe291b116019e9106f27151a9fd77b5cc5d489853f38e298a5e08d3dd8840ebdf368ccb6f04c707b029ed4edd93058
+Filename: ./debs/com.kitsudo.aerialviethoa_1.0.1-1_iphoneos-arm64e.deb
+Size: 6892
+MD5sum: c2f9d396c357f76f7ae85dcfc2407d81
+SHA1: aabcb921160735a2997c6fd136026b4601e1e997
+SHA256: 98bbd9deff566a32e640eb9863b11b9125b83542ef77e7adbf8434057890b932
+SHA512: d37d616272d6277ef18fbf99db275c36e263ef62f1a671db8baafc867c82c066cf0cb58ae032007b3943ae50464d593a0d1e3d9dee1daf7a34c6b7f5cce21d9f
 Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
 Name: Aerial gói Việt Hóa (Roothide)
 Author: Kitsudo
@@ -20132,6 +20110,47 @@ MD5sum: fef9b32ad333fe97280f7d3244ee7360
 SHA1: 5d13383429fb965b08fdd560f985f976bcbb2295
 SHA256: 79d2d1d0b1bb8aa3dc42f26dd624b44955b0653da575de4257cd02d75b31e589
 SHA512: 4a48f87a91d1ba4248e3f8b3f463f3330b123d0cd8e0ae953d908234a6fe8064feb2dccef6343b59208b9cb920ccfa6cdce74d6631723a6a1aa372d9a51b2ac5
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
+Name: AppData gói Việt Hóa (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.appdataviethoa
+Architecture: iphoneos-arm64
+Version: 1.0.2-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.bvn.appdatavn
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2-1_iphoneos-arm64.deb
+Size: 11496
+MD5sum: 7ca2abe4cf12f7da7217a4e4969396bf
+SHA1: f664a352c8d87c5d4b7ba66d1773f1b68e55a24a
+SHA256: f1eac4a03eb8c0b313602ad1541c2ad52617cde73acdbb14a73e08bec37538e9
+SHA512: 16b92fabae314a197c140c97a5d7efe5d9a3788a6f69d7dd181c19e8237982960577cbc4afbedd623df31c9521c89ff2973a62694942ed5da2cd57f7fb3cdec1
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
+Name: AppData gói Việt Hóa (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.appdataviethoa
+Architecture: iphoneos-arm64e
+Version: 1.0.2-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.bvn.appdatavn
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2-1_iphoneos-arm64e.deb
+Size: 11104
+MD5sum: 5287c38364fcd0184aab79c7b7c81021
+SHA1: d2cc1e2a68fe4f03ce79fce590e10e2c9740f6f2
+SHA256: 6fe112d669cf71a16217de8bd0b98d330ce64f7de76918b7d69d26bccc426593
+SHA512: 4142c7b919fb0fe68cbb9af9a4af16f47b2273c7190e782fb23f28151451bd67de86c0815c3fa31932751dc4d2a0c1a7c8b3cdae42ca359c657cb7065db91315
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
 Name: AppData gói Việt Hóa (Roothide)
 Author: Kitsudo
@@ -20438,18 +20457,18 @@ Icon: https://k37ios.pages.dev/assets/LockButtonCall.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64
-Version: 6.2
+Version: 6.2.1
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 8120
-Depends: mobilesubstrate, ws.hbang.alderis, preferenceloader, ws.hbang.alderis, firmware (>= 15.0)
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.2_iphoneos-arm64.deb
-Size: 1632528
-MD5sum: cf6c3e124533a4e8cf3d949bf6ed8995
-SHA1: b6ab11c576dc41de5c9ee40dc854ad5852dcecae
-SHA256: 3416f0795253d4f8eb3e755dddfd0349d0eac6212313bca02071ef52fec36c63
-SHA512: 3642872eae5c0588fd3747863af253a6e6a1e1d4c37d30504a0c3d71c842c2e45f640c72776cf3d3d984a66edbb4604367af7302e8f90bc6c910f8fbd69a07ff
+Installed-Size: 6180
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0)
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_6.2.1_iphoneos-arm64.deb
+Size: 1355688
+MD5sum: 668f6ae00f3762225b923ad81adb732a
+SHA1: 3b48f91e1334e73ced38fddbf96682305f03259b
+SHA256: 872d9b566eacb02ea526a60a080d600cfa6284802cc84b02480e0511cdc8b167
+SHA512: ca70f19ee73b96da88153e8ae497561624561e55baa0be7967cc76988f68edfecf195477567fa1f6840b950e25e3aa9c42290f4807fd9c8a39c980d2721c00b6
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -20461,19 +20480,19 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64e
-Version: 6.2
+Version: 6.2.1
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 8120
+Installed-Size: 6180
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), oldabi
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0)
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.2_iphoneos-arm64e.deb
-Size: 1630972
-MD5sum: 347375105ad8c9847fd759b299aa2438
-SHA1: 9724d77a7a741f38269aa1f851c20eb338959ef6
-SHA256: 26bc47a4b2b50e4ab8a48981aeafda5d38580bd96204bee38e5a5e1694f031ee
-SHA512: db40a5856d33096f552e851effd5f207b5d386c914c90535a5b4ab527ff3cf118d41e92ace7c6788b855f67607aaecbfed60785e7a49d579ddcf037b47a45b36
+Filename: ./debs/com.kitsudo.nexusboard_6.2.1_iphoneos-arm64e.deb
+Size: 1343904
+MD5sum: 8bb7801678c4f5b6dbe596bb84318793
+SHA1: bbabbdb90eb03daf61c41c3c8768963834fdd9b0
+SHA256: a8b981551a5c2bd384024e75cbc721f19a3b1674b9bbaa976cba9ad2a2e1be62
+SHA512: 987c3090b61531c2f01f60d67e86836df9564a95a2ef9a189a3c692eddf612e9c8dc8dd9ac96887ebdf858bc2c4ec76ff28a00d42474c4c5224f453b46a6092c
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -20565,56 +20584,56 @@ Icon: https://k37ios.pages.dev/assets/PowerActions.png
 
 Package: com.kitsudo.powerselectorvh
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.1
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 172
+Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.powerselectorvh_1.0.0_iphoneos-arm64.deb
-Size: 10276
-MD5sum: 30c5ee6932eed35c9c1cb4a42776ce04
-SHA1: 4abb7f0adc0b8a86937a4e52afddf3a06e13d388
-SHA256: 63b7bd48c933ea23623f25fa1a66e82f2dcdef2ced2fc8a5b278ab786e7651f2
-SHA512: 2ee52a8cf5967f844f142eb99c7fd6226537c6a28aed8e4d979c446310a382c07031256380e8d7766c95818e68bfc48c64ab6a30937a00179278fdfad702da7f
-Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PowerSelector
-Name: PowerSelector gói Việt Hoá (Rootless)
-Author: Kitsudo
+Filename: ./debs/com.kitsudo.powerselectorvh_1.1_iphoneos-arm64.deb
+Size: 8880
+MD5sum: bd3221ee8f28fb73dcb3ed958b71308a
+SHA1: 46300dffe55c0d427cb150c3a3558e5850eed275
+SHA256: 5d1f1793053f9f5d06ba9c9e3b1eed7cc1433f3f84fe0ad15a6671128ecc97e8
+SHA512: f174aad07e1a1a8071ebe9e3753fcf9c2d3375d7ba71f4a07a6cf155d1d182fea829995b25db4ba92eb547b5e4206f7e295354266fa36be3c3b00327c28e830f
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
+Name: PoơerSelector gói Việt Hoá (Rootless)
+Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.powerselectorvh
 Architecture: iphoneos-arm64e
-Version: 1.0.0
+Version: 1.1
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 172
+Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.powerselectorvh_1.0.0_iphoneos-arm64e.deb
-Size: 10504
-MD5sum: 8bf15ad51f2a129429101c9f2760a168
-SHA1: dc700ecacfb4223baa696e7a5e531cae50002df5
-SHA256: 36ce86f65ba14f31992a1d96d4da82b689e9f7ba0edc5a8f9ca1ea61240f46d3
-SHA512: 43391df93688b2de5493e3ea3288196172b15569c58ef9c16de24adf1a5d4d836ab50184500a6535534477bd52616a30b66f3130fbc83e6e5806dc5c46b027d5
-Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PowerSelector
-Name: PowerSelector gói Việt Hoá (Roothide)
-Author: Kitsudo
+Filename: ./debs/com.kitsudo.powerselectorvh_1.1_iphoneos-arm64e.deb
+Size: 8596
+MD5sum: 85cad2210741f00eaf0e23ccdc15d439
+SHA1: 9dc0cf0781eb6cc56752f4e6cadf0434ae7a2ed5
+SHA256: 35659af0a49f65e2743932168bb8e52c1e0e156d79e5cb6bb2c3aa919df6782f
+SHA512: 1c3340b31212af66377e20809c55e451a08b6d6e05d445938cf6e782d6753d2cb1e46ffae4a4f22009c37f7bc547a62ff0b73a06fc4d4b64cd0ffa0a71197e7c
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
+Name: PoơerSelector gói Việt Hoá (Roothide)
+Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.rainmhzvh
 Architecture: iphoneos-arm64
-Version: 1.0-1+debug
+Version: 1.0-1
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 240
+Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.rainmhzvh_1.0-1+debug_iphoneos-arm64.deb
-Size: 21932
-MD5sum: 616061aab63ff6c6436e000e93f0fc5d
-SHA1: 2a27f487b80f7e2c916567e22f2f9c04ce3c0e47
-SHA256: 8cfd52bd988326c33b35a308ec530d14ca0c4a438c8a5f7254fc894cda33a373
-SHA512: 47fffef1397f3b336b14399e11fdea9f89ef58582f448ddd384e13e51772ac5325ec85359acf9b645fa6dbc3bcb5ef8dbd846b3a82b7246f6fb7016bd905157c
+Filename: ./debs/com.kitsudo.rainmhzvh_1.0-1_iphoneos-arm64.deb
+Size: 20476
+MD5sum: 96ecb8a063c3af5283bffffe185c2d10
+SHA1: 6429840f64497c8dd4055857744298235ecb6153
+SHA256: e0655c0e5e592a4b6bb2ec35fc6793b3f8793fb040547f52e886f54088c8a018
+SHA512: f3b4545b19df01d4e43c501c4c584a9b7a5373887211f9b60980f7141cdab236f407ba582583da348e13d62b5380ee3470022121c2fe20550b8356a6145b37d5
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak RainMhz
 Name: RainMhz gói Việt Hoá (Rootless)
 Author: Kitsudo
@@ -20623,18 +20642,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.rainmhzvh
 Architecture: iphoneos-arm64e
-Version: 1.0-1+debug
+Version: 1.0-1
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 240
+Installed-Size: 204
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.rainmhzvh_1.0-1+debug_iphoneos-arm64e.deb
-Size: 21968
-MD5sum: f8ec386acb31ddb90d767709e4f5de14
-SHA1: 8af5f666730875e97944e2f659460d434e96cd3f
-SHA256: 9370ce1b82904c0312b4c11fe85a0ac43833c8832a32b51d64e95d72f030c912
-SHA512: 0345eb0173463389e6e60a3b34e7ff6add451190ed1a12fae904c28a301126169bf1585eba8b1069f3427313e728059df6cd88dbfce753898810d63b1f49af37
+Filename: ./debs/com.kitsudo.rainmhzvh_1.0-1_iphoneos-arm64e.deb
+Size: 20192
+MD5sum: f4e818ab32fd43a0e6a1d17366c489df
+SHA1: 64f54485d74b98de8bf7c0e6dfb9a1e3018e476d
+SHA256: 6078f6877ac5b4a493b5c3c09d271c03fd13c0488565189fdd51320f1152f388
+SHA512: c5c0a5652e3b4767a4c72dbf4a92d4f2d9539748dbe9317c8ac1ff803f07163bd786716d45697db4a82618b2d6ab4cf42a2a7c03ecb808f01d538d440bac4510
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak RainMhz
 Name: RainMhz gói Việt Hoá (Roothide)
 Author: Kitsudo
@@ -26981,6 +27000,24 @@ Description: Fixes an incompatibility with new versions of Cephei that certain p
 Name: Cephei-compat
 Author: Nightwind
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: xyz.cypwn.classdumpc
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Development
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/xyz.cypwn.classdumpc_1.0.0_iphoneos-arm64e.deb
+Size: 154096
+MD5sum: abf2be478fe107b9fefdf90330049697
+SHA1: 68a1b46fd49141e457618d71deeaf73b9aceea1b
+SHA256: 3dd166c5bc10a8aee967d0ed098150bf8859cdca9f47af25578dc09b421c5cb8
+SHA512: 4e0ab08b067de9a73421abfb802b80d22f3502bcff15c09716314c920010658e23cd7a88b4afaa1c50bdbaea093cd21a925a8fc4b24e4be41d6b49e170731f48
+Description: Command-line utility for examining the Objective-C segment of Mach-O files.
+Depiction: https://repo.cypwn.xyz/depiction/3042
+Icon: https://repo.cypwn.xyz/packages/classdumpc-Rootless/icon.png
+Name: classdumpc
+Author: lechium
 
 Package: xyz.cypwn.doodle
 Architecture: iphoneos-arm64
