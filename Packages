@@ -33,6 +33,46 @@ Tag: role::developer
 Name: libaurora
 Author: Ayden Panhuyzen
 
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 28628
+Depends: mobilesubstrate
+Filename: ./debs/26home_1.1.7_iphoneos-arm64.deb
+Size: 20395576
+MD5sum: 3d7457916d4df43920a2c6c6c4e06ea4
+SHA1: df22532c3c91faaa5950f3ccff14261adaa44b95
+SHA256: 21a19147405a5b2ecbf5b6131ec793805ef1e7f5d1f18b65453a9be3f63f486c
+SHA512: c6a24a23de82d5c4b9190fe902cc1ef4faf5da908874e67e9de9782d930a77d1c145cd251d9224255f695d70d0868010a4b2af79f4f3c219ceb51c8c90a71f1e
+Description: iOS 26 Homescreen customization.
+Name: 26Home (Rootless)
+Author: ngkhoi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/26Home.json
+Depiction: https://jtisvn.github.io/depictions/26Home.html
+Icon: https://jtisvn.github.io/sectionIcons/26Home.png
+
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 28608
+Depends: mobilesubstrate
+Filename: ./debs/26home_1.1.7_iphoneos-arm64e.deb
+Size: 20392608
+MD5sum: 490cf01a8ca97865bdfc835161f4ef07
+SHA1: a204422158abb430ab5fbcf81d6bb7eed50b8b05
+SHA256: 063b9688a9425c62169260e3928054aa5b4ee913354c55811c52e9e586224522
+SHA512: ea494e6929d252d6d89cc3d5a92e88fbd2db4ca72e505fdb01296fdf957f81fdc5110a40d32b13d9b325a6463cecdcee4d2b903a412451d3529b23939bb8c1d1
+Description: iOS 26 Homescreen customization.
+Name: 26Home (Roothide)
+Author: ngkhoi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/26Home.json
+Depiction: https://jtisvn.github.io/depictions/26Home.html
+Icon: https://jtisvn.github.io/sectionIcons/26Home.png
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2
@@ -2277,6 +2317,26 @@ Description: Helper tools for Foxfort tweaks
 Tag: role::developer
 Name: FoxFort Tools
 Author: FoxfortMobile
+
+Package: com.foxfort.krashkop
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: FoxfortMobile
+Installed-Size: 428
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.foxfort.krashkop_1.0.2_iphoneos-arm64e.deb
+Size: 189800
+MD5sum: 231601fbdf1eac87dd564b190c4f93f5
+SHA1: 31856d2ccc2326dda9244eabb631348f553266ee
+SHA256: 458f76509050e66276345741b4b6df54a688b5c9863d59a8aa4a79796a67273b
+SHA512: 0c80f41f1863b58f0dea10cde379aeaddd2cdd4d3bf3b7fccf93b5470229baa463c73d465c2ffe24000d04565c87843744a075795a654fb289810a0d84d13387
+Description: Lightweight crash reporter
+Name: KrashKop (Roothide)
+Author: FoxfortMobile
+depiction: https://havoc.app/depiction/krashkop
+Icon: https://media.havoc.app/63edc5070a347a438decacfb
 
 Package: com.foxfort.libfoxfortutils
 Architecture: iphoneos-arm64e
@@ -18969,6 +19029,49 @@ Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
 SileoDepiction:  https://k37ios.pages.dev/info/sileodepictions/InfiniteMedia.json
 Icon: https://k37ios.pages.dev/assets/InfiniteMedia.png
 
+Package: com.jtisvn.infinitemedia
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.infinitemedia_1.0.3_iphoneos-arm64.deb
+Size: 54164
+MD5sum: d14fd6b4507a7b207b6436a6dacc5e85
+SHA1: 310a8e79980af778a00e8212f180926138d164a8
+SHA256: ad83de6b876b4b5cded9219f222e18e513d7a6f19ba999cf895f3c7c1bf25ce5
+SHA512: 701012a234572837c6af0082351708bcaef7b80e7bdacf1a8ee980e277e9871bf15974268d4ce54b60b9836d2218aa335a497b516bbd935b394b44bbbbf24086
+Homepage: https://jtisvn.github.io
+Description: Nâng cao trải nghiệm thư vuện Ảnh & Camera.
+Name: InfiniteMedia (Rootless)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
+SileoDepiction:  https://k37ios.pages.dev/info/sileodepictions/InfiniteMedia.json
+Icon: https://k37ios.pages.dev/assets/InfiniteMedia.png
+
+Package: com.jtisvn.infinitemedia
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 444
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.infinitemedia_1.0.3_iphoneos-arm64e.deb
+Size: 53212
+MD5sum: 98fa9d2d068f061d1a1d392eee75fa1b
+SHA1: cb0b286fe8e4ceee86e2302e95f3094621c619e9
+SHA256: 60146a77ec5c359077af0cd973c9d7389c4218779f5790935dc1f66dcaeb58ed
+SHA512: e4caa114c4003d19f01a28126398d120bdc6126cebc146fe2dbff40740d913e5d70b3d80e9b4f63e0a92844efedb150e699178727dfd3e85bab64c3f294f22f7
+Homepage: https://jtisvn.github.io
+Description: Nâng cao trải nghiệm thư vuện Ảnh & Camera.
+Name: InfiniteMedia (Roothide)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
+SileoDepiction:  https://k37ios.pages.dev/info/sileodepictions/InfiniteMedia.json
+Icon: https://k37ios.pages.dev/assets/InfiniteMedia.png
+
 Package: com.jtisvn.kinewall
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -20261,6 +20364,49 @@ Depiction: http://jtisvn.github.io/depiction/BackgroundCaller.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BackgroundCaller.json
 Icon: https://jtisvn.github.io/sectionIcons/BackgroundCaller.png
 
+Package: com.kitsudo.backgroundcaller
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 400
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.backgroundcaller_1.0.3_iphoneos-arm64.deb
+Size: 30660
+MD5sum: bebc5e9256a7398074af05d16d8e42c9
+SHA1: 4795dba8d4b718b23948490b1b13b4bf0543d896
+SHA256: 7f95513c4db937f0c88ce7c01a9999cbcc446eb47a8d8caee6f6f401dc9d986b
+SHA512: 6e988751ac323e5ec5b3587e8db160003b1a3e216ef2cd4a5c37eaf83502ed03557c12ac8582d513fc5910d5da1c36d781881fa4ae89b421d93c8a22a9c7d775
+Homepage: https://k37ios.pages.dev
+Description: Thêm hình nền ảnh hoặc video cho cuộc gọi đến và cuộc gọi đi.
+Name: BackgroundCaller (Rootless)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/BackgroundCaller.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/BackgroundCaller.json
+Icon: https://k37ios.pages.dev/assets/BackgroundCaller.png
+
+Package: com.kitsudo.backgroundcaller
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.backgroundcaller_1.0.3_iphoneos-arm64e.deb
+Size: 29820
+MD5sum: e87dd5476e0007f79e0142646c7934fd
+SHA1: 56cdbbc2b38ff57a257de41a6ce111aedd542dda
+SHA256: daaa81b0c5355d6c17984ae63aee112f77abc10448b384824f6eb9a6325a212c
+SHA512: 94e27623e06389b5128b782ad712406b612acd8391c2be94217cd78e8f99197976e760681251b3449100918e0b7cef30eafcb0c8dce7b4ccde2a78935cc46936
+Homepage: https://k37ios.pages.dev
+Description: Thêm hình nền ảnh hoặc video cho cuộc gọi đến và cuộc gọi đi.
+Name: BackgroundCaller (Roothide)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/BackgroundCaller.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/BackgroundCaller.json
+Icon: https://k37ios.pages.dev/assets/BackgroundCaller.png
+
 Package: com.kitsudo.ccmusicviethoa
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -20455,23 +20601,68 @@ Depiction: https://k37ios.pages.dev/info/depictions/ClockTimeFont.html
 SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/LockButtonCall.json
 Icon: https://k37ios.pages.dev/assets/LockButtonCall.png
 
-Package: com.kitsudo.nexusboard
+Package: com.kitsudo.lockbuttoncall
 Architecture: iphoneos-arm64
-Version: 6.2.1
+Version: 1.1
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 6180
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0)
+Installed-Size: 168
+Depends: mobilesubstrate (>= 15.0)
+Filename: ./debs/com.kitsudo.lockbuttoncall_1.1_iphoneos-arm64.deb
+Size: 4888
+MD5sum: 760d094f57c7be1ddd652cfe9a68a48b
+SHA1: c5ae50f8ac0be77ffc03f93acf3a42900b523c8b
+SHA256: f9534c94b849e69a6c8acc21f53b60f76ca9398d813c3b4acf3f764da2b3f5b8
+SHA512: 92fd15cbda5c301164594efb1f8659c3e03ae27537d07ec42ae28a2aec4b47e065f50305079a5be505e8ebd29615fd5c85b0566a9a4db9db5d9942d4f478a635
+Description: Replace "slide to answer" with Answer/Decline buttons on Lock Screen.
+ .
+ 🇻🇳 Thay thế thanh trượt trả lời cuộc gọi bằng nút bấm Chấp nhận/Từ chối trên màn hình khóa.
+Name: LockButtonCall (Rootless)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/ClockTimeFont.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/LockButtonCall.json
+Icon: https://k37ios.pages.dev/assets/LockButtonCall.png
+
+Package: com.kitsudo.lockbuttoncall
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 15.0)
+Filename: ./debs/com.kitsudo.lockbuttoncall_1.1_iphoneos-arm64e.deb
+Size: 4768
+MD5sum: 66dd0b89e01fd4fe2333f5ef454cb037
+SHA1: 2a27279d57c1a96484c191b755d5ca0c4e730402
+SHA256: e3bc515e475c0aed2e033cd1841347346dd1e412b10bdae296bc0a938329f18d
+SHA512: abd26b5ef266eb8ac68f0aab9032b1894fa2c96c3a5a60937cfa78fc1833b0971d41128ff82e05605d4a73c3baaa7da7142b61c6e3e1ced9f040bbd9b84bbe10
+Description: Replace "slide to answer" with Answer/Decline buttons on Lock Screen.
+ .
+ 🇻🇳 Thay thế thanh trượt trả lời cuộc gọi bằng nút bấm Chấp nhận/Từ chối trên màn hình khóa.
+Name: LockButtonCall (Roothide)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/ClockTimeFont.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/LockButtonCall.json
+Icon: https://k37ios.pages.dev/assets/LockButtonCall.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64
+Version: 6.3
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 6404
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.2.1_iphoneos-arm64.deb
-Size: 1355688
-MD5sum: 668f6ae00f3762225b923ad81adb732a
-SHA1: 3b48f91e1334e73ced38fddbf96682305f03259b
-SHA256: 872d9b566eacb02ea526a60a080d600cfa6284802cc84b02480e0511cdc8b167
-SHA512: ca70f19ee73b96da88153e8ae497561624561e55baa0be7967cc76988f68edfecf195477567fa1f6840b950e25e3aa9c42290f4807fd9c8a39c980d2721c00b6
+Filename: ./debs/com.kitsudo.nexusboard_6.3_iphoneos-arm64.deb
+Size: 1378520
+MD5sum: 1882e9f7cf02aa1701826260f8aeadef
+SHA1: ead2a72b564c8c316cf67b4329b9c96be2a061f4
+SHA256: 06a0e5660ce3e440fa489851be8757e9774246baad9cc13c98e8ac0b871addb2
+SHA512: f55ae4983fa5414b0a3db9f9214771bfc18117166123b2e4e43bc27f8792055ba098aa4bdc0172361db4214df8cfccd81c252c74b6af54e7b13c854123e8f991
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
-  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+    * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: NexusBoard (Rootless)
 Author: Kitsudo
 SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
@@ -20480,22 +20671,22 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64e
-Version: 6.2.1
+Version: 6.3
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 6180
+Installed-Size: 6404
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.2.1_iphoneos-arm64e.deb
-Size: 1343904
-MD5sum: 8bb7801678c4f5b6dbe596bb84318793
-SHA1: bbabbdb90eb03daf61c41c3c8768963834fdd9b0
-SHA256: a8b981551a5c2bd384024e75cbc721f19a3b1674b9bbaa976cba9ad2a2e1be62
-SHA512: 987c3090b61531c2f01f60d67e86836df9564a95a2ef9a189a3c692eddf612e9c8dc8dd9ac96887ebdf858bc2c4ec76ff28a00d42474c4c5224f453b46a6092c
+Filename: ./debs/com.kitsudo.nexusboard_6.3_iphoneos-arm64e.deb
+Size: 1365000
+MD5sum: dfd2780fe2ae4cb7806bce045e827422
+SHA1: 1fd66613db7492fe8857452ba36c5fd2c421f13d
+SHA256: 325629311c40ef0001a4e979cd221ec18290a1b1fe782353b69f6c1e3aff586d
+SHA512: e6b123bb7cda58c3644e5e378af3978f2aa19042d5cb2711efa68a79e8b99a63472bbace976f878cf4d199a3da23b8cb153eb6916fea5250eb1c30df812832c7
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
-  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+    * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: NexusBoard (Roothide)
 Author: Kitsudo
 SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
