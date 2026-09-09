@@ -172,6 +172,47 @@ Icon:
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 
+Package: com.hoanganh.unlockwave
+Architecture: iphoneos-arm64e
+Version: 1.4.5
+Section: Tweaks
+Maintainer: Hoang Anh
+Installed-Size: 376
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), ellekit (>= 1.0), preferenceloader
+Filename: ./debs/UnlockWave_1.4.5_roohide.deb
+Size: 18168
+MD5sum: 77fef5e6b4345484714d804fb2be5927
+SHA1: 2217606c6e05325ea2dfee6f94c8e5c064b939a2
+SHA256: ba5e5cab8d358443379b589f3f158946ca61e4f626e9685dd1287ac6e146a902
+SHA512: 84ee5c8eaf3808a686c5b5591ee3b274e0e1bf007cf94ac62bacde4825f49fb18820bad71193416716f2cf2e4f7f1f8a05ca6c33fd6fcfe01c7f98988b2ebabe
+Description: Exact lock-screen-to-home-screen wave from the supplied HTML prototype.
+Name: Unlock Wave (Roothide)
+Author: Hoang Anh
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockWave.json
+Depiction: https://jtisvn.github.io/depictions/UnlockWave.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.hoanganh.unlockwave
+Architecture: iphoneos-arm64
+Version: 1.4.5
+Section: Tweaks
+Maintainer: Hoang Anh
+Installed-Size: 376
+Depends: firmware (>= 15.0), ellekit (>= 1.0), preferenceloader
+Filename: ./debs/UnlockWave_1.4.5_rootless.deb
+Size: 18880
+MD5sum: 36547b2502cd5d1362f5736da9e32c5c
+SHA1: 8f478f8a95b0dcd5417eab6e05dbabbe7e3386fa
+SHA256: 9153091b8c9903d85441fc5d087930a95c669a7836b67d374dd60c9c3460eda2
+SHA512: a9fb02e60366e33f815d88d66c192e9634eb49fc039b792e4cfbd5cda1ac28046fbe99339898f69f72ba1e37f718e0e96d8f5b1b19b7df4270cff7abe0b7ecaf
+Description: Exact lock-screen-to-home-screen wave from the supplied HTML prototype.
+Name: Unlock Wave (Rootless)
+Author: Hoang Anh
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockWave.json
+Depiction: https://jtisvn.github.io/depictions/UnlockWave.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: ai.akemi.appsyncunified
 Architecture: iphoneos-arm64
 Version: 112.0
@@ -12086,47 +12127,6 @@ Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
 Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
 
 Package: com.jtis.liquidglass26
-Architecture: iphoneos-arm64
-Version: 0.1.0b
-Section: Tweaks
-Maintainer: dylv
-Installed-Size: 3596
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
-Filename: ./debs/com.jtis.liquidglass26_0.1.0b_iphoneos-arm64.deb
-Size: 1302580
-MD5sum: f6fe6bf20d1c3a6391751183b7a6fa90
-SHA1: 1a0e111f87c9cc722aa68a8fe6ff701456ad78f8
-SHA256: 262470cf0f373e7e3b038da5ff9d87ab2d7bd3f267e7c70a8e7e4edd8d6e370a
-SHA512: 830d25e52a962c0c80b54a14edc27a26949adc9ea8e335a64f64e8160548adcffadf053ff9073a4b0b797b266dda2ccfdc3596eb5aa39e1c018887b5644a87b2
-Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
-Name: Liquid (Gl)ass (Rootless)
-Author: dylv
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
-Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
-Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
-
-Package: com.jtis.liquidglass26
-Architecture: iphoneos-arm64e
-Version: 0.1.0b
-Section: Tweaks
-Maintainer: dylv
-Installed-Size: 3596
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
-Filename: ./debs/com.jtis.liquidglass26_0.1.0b_iphoneos-arm64e.deb
-Size: 1295032
-MD5sum: 94c843a463e46e826cec4ed355bf00e8
-SHA1: f5edc27d1e071d0a6f0bdd20fc2b9fcb4d789454
-SHA256: 26a41b19352e6090577acb8b44259321c7919a79e4f580ce669499f990b0c697
-SHA512: ab0d8da0029c0b4dd7c078fc767d23405c6c6f8a59d3071fc03d75b1a5097f9d98faa22b34d62c51e1ccae00e1b2b66085aef2455fa8b02267ee35b2467e970f
-Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
-Name: Liquid (Gl)ass (Roothide)
-Author: dylv
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
-Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
-Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
-
-Package: com.jtis.liquidglass26
 Architecture: iphoneos-arm
 Version: 7.2.alpha
 Section: Tweaks
@@ -20655,11 +20655,11 @@ Installed-Size: 6404
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
 Filename: ./debs/com.kitsudo.nexusboard_6.4_iphoneos-arm64.deb
-Size: 1380660
-MD5sum: cd799248fb7617653741a5ff745268c3
-SHA1: 2002746c1dd0ab2396baf3af1732b10a8df85a6d
-SHA256: 8bb8e12e8f7cc4682d0b8fa58c1745b1605d40e27c0787cd513c97978a2f75e5
-SHA512: 3f4f105e227f4c11252bd4f079433a42ff7e6d37a06a72fb6be3f668e22ea10a752c5d669ee4c30314eea2aea6ace2f347bb48c39f3da9f458dd82f77e86712b
+Size: 1378980
+MD5sum: 6a65db7b9f9c2a6fc713e84edaaa9398
+SHA1: 6726ff361e593fc5ebf15f30993ea52bd7551cc5
+SHA256: 06ace6f1ebd3bab5d36a4dfb1450a34ed04f91f2f0b7c0e01bad69207a460f94
+SHA512: 2ce42de7a7ff0b04d75c2bd183e8a80813291e13d0c8b1fed697a8b05812b437ad82de00eab161e9aa668f85f5f4333a3253ec2ea9ef9b8fef9a73b39439b0b0
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
     * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -20679,11 +20679,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
 Filename: ./debs/com.kitsudo.nexusboard_6.4_iphoneos-arm64e.deb
-Size: 1366800
-MD5sum: 640b36cb84b58c68af730a5f666ad83d
-SHA1: a6d1fb632aa2db725ffa980fe02cd9cb9cf11f42
-SHA256: dd8bc1edcfb1e91dff045c1eeed00876f9653ee0e690495f13733944f89899ee
-SHA512: 3ea0c30885e9319150fd8ca3595659a24c4e3431264adcd87ee83e2e280794ac4654fe0f9a3f75a132fa4df8aaa3c5b757b9113522df0d85c1bd9c89c9eca9f2
+Size: 1364732
+MD5sum: cbf9586716c76c90e2bf5eb978d3f2b1
+SHA1: c064dc0b4c5146898c468535ef2b16afd8a125d5
+SHA256: 09ad98400e03a7117052c890da27bf63320ad7d9274251b3f72bf8f5004c722f
+SHA512: cc93e8dedd15f733ea0b0e114a396c27d0dc778b93dda5eae4703803389cdceecf49b5ee69e8403d7c408727336b0092662b10efbe95b59a610bd4c32df37068
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
     * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -24651,6 +24651,45 @@ Description: Vibrant Clock/Date on LS!
 Name: LSVibrantClockDate
 Author: CydiaGeek <lucaluca86@aol.com>
 
+Package: com.zjer.photoscore
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: Tweaks
+Maintainer: zjer
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.zjer.photoscore_1.2.2_iphoneos-arm64.deb
+Size: 212112
+MD5sum: 13016c08faa4bc14327ac0d606857e92
+SHA1: d8bdd4ad1393d531016f862f01300b49793a9eb1
+SHA256: 0e1ca53ea8c1537416dcfdb27b8c6a532afa3479bce329425eb11e85a32bf9bf
+SHA512: 75db5b817d53d4ba2e89a163b0ad195ff127b16d1d40046709f144e5b8458ba6e1da508e148a783b6d7a87f0cde7baa96d30796f2b385785796c0394ff03c948
+Description: Enhance Apple Photos with customizable viewing, navigation, layouts, and album. Cracked by Nya
+Name: PhotosCore (Rootless)
+Author: zjer
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PhotosCore.json
+Depiction: https://jtisvn.github.io/depictions/PhotosCore.html
+Icon: https://jtisvn.github.io/sectionIcons/PhotosCore.png
+
+Package: com.zjer.photoscore
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: Tweaks
+Maintainer: zjer
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.zjer.photoscore_1.2.2_iphoneos-arm64e.deb
+Size: 207060
+MD5sum: 6d0cf4fb0d6da9325d83e772b4d47c5c
+SHA1: f2eb7efdf19dedca53107fe0e4ef83467c38da7a
+SHA256: 9636614828b7280d4181480cd814b0a8ba3096d72d25356198e4226131ed8faf
+SHA512: 8e620185adb1b14113648fe580356907dcc12146e6ab94cca89690b3ef1c2a1b81b73451bb11ac0393c1295a4720d16fd9c12f34070812140af9d5f26628a118
+Description: Enhance Apple Photos with customizable viewing, navigation, layouts, and album. Cracked by Nya
+Name: PhotosCore (Roothide)
+Author: zjer
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PhotosCore.json
+Depiction: https://jtisvn.github.io/depictions/PhotosCore.html
+Icon: https://jtisvn.github.io/sectionIcons/PhotosCore.png
+
 Package: cydia-dark
 Architecture: iphoneos-arm
 Version: 1.9.3~b5
@@ -24838,6 +24877,51 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DKMM.json
 Depiction: https://jtisvn.github.io/depictions/DKMM.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.1b
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 8560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Conflicts: dylv.blurless
+Replaces: dylv.blurless
+Filename: ./debs/dylv.liquidass_0.1.1b_iphoneos-arm64.deb
+Size: 3694360
+MD5sum: a17b854cd96edf89d1e689badb56f7df
+SHA1: a37c565531ca53f08fce3c6c64dfbbe2645989a6
+SHA256: d2a7143e98c37b51578e2c190da80ae0447ad4063d3b81593cbd4c1ca0375fee
+SHA512: 75a799d8cc48c867b5b830bd24ae9dead23f169403f93cec05b6e8fefb09fccfd7393703e50a79e273eda1ae8679e93981e0d8bb8e7cd3058c38e12e7ff4e6b2
+Description: next level diarrhea
+Name: Liquid (Gl)ass (Rootless)
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.1b
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 8560
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Conflicts: dylv.blurless
+Replaces: dylv.blurless
+Filename: ./debs/dylv.liquidass_0.1.1b_iphoneos-arm64e.deb
+Size: 3683632
+MD5sum: 7c05e279805b8d1aeb9dfd2efaa22677
+SHA1: 239932c50ee1430a3a514050a5ae217e60777163
+SHA256: 330da0e4dca5721abd43736376f29c4c0294a1a5f75d9d471839431b3593ca57
+SHA512: 9fe48e658974e4777b3d31dbe601e7d779400e7b03e9cabf2d91752ac248840005a44128284b60f50cd25cd9cc138b481bf0c70dec2ab2819888eedba8f3c71c
+Description: next level diarrhea
+Name: Liquid (Gl)ass (Roothide)
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
 
 Package: eg.anubistweaks.translux
 Architecture: iphoneos-arm64

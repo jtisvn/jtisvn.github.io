@@ -1,0 +1,242 @@
+{
+"minVersion": "0.1",
+"headerImage": "https://media.havoc.app/6a868c51324f05e66acdf88b",
+"tintColor": "#007AFF",
+"class": "DepictionTabView",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"url": "https://media.havoc.app/6a867ab8324f05e66acd7c68",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://media.havoc.app/6a867ac8324f05e66acd7ccd",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://media.havoc.app/6a867ae0324f05e66acd7d72",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://media.havoc.app/6a867de9324f05e66acd9473",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://media.havoc.app/6a8b9452730995ac5321742f",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://media.havoc.app/6a8b9460730995ac5321747a",
+"accessibilityText": "Screenshot"
+}
+]
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### PhotosCore\n\n- Tinh chỉnh nâng cao ứng dụng **Ảnh (Photos)** mặc định trên iOS, mang đến khả năng tùy biến toàn diện giao diện xem ảnh, lưới thu nhỏ, thanh điều hướng và quản lý album.\n\n- **Tính năng nổi bật:**\n\n- **Xem ảnh & Điều hướng Album:**\n  - Tùy chọn ẩn hoặc hiển thị thanh công cụ phía dưới (hỗ trợ cả iPad).\n  - Cho phép ẩn/hiện thanh mốc thời gian Ngày - Tháng - Năm.\n  - **Xem ảnh toàn màn hình:** Căn giữa hình ảnh đầy đủ không gian hiển thị, loại bỏ tình trạng bị thanh bên che khuất và giữ nguyên độ thu phóng khi chạm.\n  - Tự động mở Album ở vị trí cuối cùng (ảnh mới nhất) thay vì cuộn từ trên cùng.\n  - Bắt buộc ứng dụng Ảnh luôn chạy ở giao diện Tối (Dark Mode).\n  - Bảng thông tin chi tiết dạng nổi (Floating Info Panel) tiện lợi.\n\n- **Tùy biến lưới ảnh thu nhỏ (Thumbnails):**\n  - Thay thế số cột mặc định bằng hệ thống chỉnh cột linh hoạt từ 1 đến 100 cột.\n  - Cung cấp sẵn thiết lập nhanh từ 1 đến 9 cột hoặc chế độ Tùy chỉnh tự do.\n  - Điều chỉnh khoảng cách đường viền và mật độ hiển thị badge (Live Photo, Video...).\n  - Lưu và khôi phục cấu hình số cột ưa thích cá nhân.\n\n- **Tùy biến Tìm kiếm & Thanh bên (iPad):**\n  - Thêm / Bớt / Sắp xếp lại các danh mục tìm kiếm: Khoảnh khắc, Con người, Địa điểm, Thể loại, Lịch sử tìm kiếm.\n  - Quản lý ẩn/hiện các mục trên thanh bên iPad như Thư viện, Cho bạn, Yêu thích, Gần đây...",
+"useSpacing": false
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "zjer",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "05/09/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.2.2",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "206,88 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.7.16",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"tabname": "Nhật ký thay đổi",
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.2.2\n- Thêm mục \"Cài đặt Ảnh\" cho phép ẩn hoặc hiển thị lối vào tinh chỉnh trong menu ứng dụng gốc.\n- Thêm tính năng \"Chỉ hiển thị ảnh chưa có trong Album\", giúp dễ dàng lọc và dọn dẹp Thư viện ảnh.\n- Sửa lỗi hiển thị Văn bản trực tiếp (Live Text) khi bật chế độ Xem toàn màn hình.\n- Tối ưu hóa trải nghiệm tính năng Xem toàn màn hình.\n- Cải thiện hiệu năng và sửa các lỗi nhỏ khác.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.1.0\n- Thêm tùy chọn ẩn thanh thời gian Ngày, Tháng, Năm.\n- Bổ sung Bảng thông tin chi tiết dạng nổi (Floating Info Panel).\n- Thêm tùy chọn tắt trang trí ảnh thu nhỏ và hỗ trợ lưu cấu hình số cột.\n- Tối ưu hóa cơ chế lưu thiết lập và sửa lỗi đè bảng chi tiết khi mở ảnh toàn màn hình.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.0.0\n- Phát hành lần đầu, hỗ trợ đầy đủ cho iOS 15.",
+"useSpacing": true
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"tabname": "Liên Hệ Hỗ Trợ",
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": 1,
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": 1,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": 1,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": 1,
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
