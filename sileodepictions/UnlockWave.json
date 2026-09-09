@@ -1,0 +1,226 @@
+{
+"minVersion": "0.1",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#0084FF",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "UnlockWave",
+"fontWeight": "semibold",
+"fontSize": 22,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"markdown": "\n\n Mang đến hiệu ứng chuyển động gợn sóng (wave) mượt mà cho các biểu tượng ứng dụng và widget ngay khi bạn mở khóa từ Màn hình khóa vào Màn hình chính.\n\n Hiệu ứng sóng xuất hiện tự nhiên khi unlock thiết bị.\n\n Cho phép tùy chỉnh linh hoạt độ nảy (bounce) và tốc độ chuyển động của ứng dụng & widget.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"itemCornerRadius": 8,
+"itemSize": "{285,500}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Tinhchinh/Screenshots/1.png"
+}
+],
+"class": "DepictionScreenshotsView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "HoangAnh",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "02/09/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.4.5",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "297,5 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Liên kết & Hỗ trợ",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionTableButtonView",
+"title": "Mô tả tinh chỉnh",
+"action": "https://jtisvn.github.io/depictions/Tinhchinh.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionTableButtonView",
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.4.5\n\n- Tối ưu hóa hiệu năng, hoạt động mượt mà và tiết kiệm pin."
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

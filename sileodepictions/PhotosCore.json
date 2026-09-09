@@ -41,7 +41,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "### PhotosCore\n\n- Tinh chỉnh nâng cao ứng dụng **Ảnh (Photos)** mặc định trên iOS, mang đến khả năng tùy biến toàn diện giao diện xem ảnh, lưới thu nhỏ, thanh điều hướng và quản lý album.\n\n- **Tính năng nổi bật:**\n\n- **Xem ảnh & Điều hướng Album:**\n  - Tùy chọn ẩn hoặc hiển thị thanh công cụ phía dưới (hỗ trợ cả iPad).\n  - Cho phép ẩn/hiện thanh mốc thời gian Ngày - Tháng - Năm.\n  - **Xem ảnh toàn màn hình:** Căn giữa hình ảnh đầy đủ không gian hiển thị, loại bỏ tình trạng bị thanh bên che khuất và giữ nguyên độ thu phóng khi chạm.\n  - Tự động mở Album ở vị trí cuối cùng (ảnh mới nhất) thay vì cuộn từ trên cùng.\n  - Bắt buộc ứng dụng Ảnh luôn chạy ở giao diện Tối (Dark Mode).\n  - Bảng thông tin chi tiết dạng nổi (Floating Info Panel) tiện lợi.\n\n- **Tùy biến lưới ảnh thu nhỏ (Thumbnails):**\n  - Thay thế số cột mặc định bằng hệ thống chỉnh cột linh hoạt từ 1 đến 100 cột.\n  - Cung cấp sẵn thiết lập nhanh từ 1 đến 9 cột hoặc chế độ Tùy chỉnh tự do.\n  - Điều chỉnh khoảng cách đường viền và mật độ hiển thị badge (Live Photo, Video...).\n  - Lưu và khôi phục cấu hình số cột ưa thích cá nhân.\n\n- **Tùy biến Tìm kiếm & Thanh bên (iPad):**\n  - Thêm / Bớt / Sắp xếp lại các danh mục tìm kiếm: Khoảnh khắc, Con người, Địa điểm, Thể loại, Lịch sử tìm kiếm.\n  - Quản lý ẩn/hiện các mục trên thanh bên iPad như Thư viện, Cho bạn, Yêu thích, Gần đây...",
+"markdown": "### PhotosCore\n\n Tinh chỉnh nâng cao ứng dụng **Ảnh (Photos)** mặc định trên iOS, mang đến khả năng tùy biến toàn diện giao diện xem ảnh, lưới thu nhỏ, thanh điều hướng và quản lý album.\n\n **Tính năng nổi bật:**\n\n- **Xem ảnh & Điều hướng Album:**\n  - Tùy chọn ẩn hoặc hiển thị thanh công cụ phía dưới (hỗ trợ cả iPad).\n  - Cho phép ẩn/hiện thanh mốc thời gian Ngày - Tháng - Năm.\n  - **Xem ảnh toàn màn hình:** Căn giữa hình ảnh đầy đủ không gian hiển thị, loại bỏ tình trạng bị thanh bên che khuất và giữ nguyên độ thu phóng khi chạm.\n  - Tự động mở Album ở vị trí cuối cùng (ảnh mới nhất) thay vì cuộn từ trên cùng.\n  - Bắt buộc ứng dụng Ảnh luôn chạy ở giao diện Tối (Dark Mode).\n  - Bảng thông tin chi tiết dạng nổi (Floating Info Panel) tiện lợi.\n\n- **Tùy biến lưới ảnh thu nhỏ (Thumbnails):**\n  - Thay thế số cột mặc định bằng hệ thống chỉnh cột linh hoạt từ 1 đến 100 cột.\n  - Cung cấp sẵn thiết lập nhanh từ 1 đến 9 cột hoặc chế độ Tùy chỉnh tự do.\n  - Điều chỉnh khoảng cách đường viền và mật độ hiển thị badge (Live Photo, Video...).\n  - Lưu và khôi phục cấu hình số cột ưa thích cá nhân.\n\n- **Tùy biến Tìm kiếm & Thanh bên (iPad):**\n  - Thêm / Bớt / Sắp xếp lại các danh mục tìm kiếm: Khoảnh khắc, Con người, Địa điểm, Thể loại, Lịch sử tìm kiếm.\n  - Quản lý ẩn/hiện các mục trên thanh bên iPad như Thư viện, Cho bạn, Yêu thích, Gần đây...",
 "useSpacing": false
 },
 {
@@ -174,22 +174,6 @@
 {
 "class": "DepictionMarkdownView",
 "markdown": "### Phiên bản 1.2.2\n- Thêm mục \"Cài đặt Ảnh\" cho phép ẩn hoặc hiển thị lối vào tinh chỉnh trong menu ứng dụng gốc.\n- Thêm tính năng \"Chỉ hiển thị ảnh chưa có trong Album\", giúp dễ dàng lọc và dọn dẹp Thư viện ảnh.\n- Sửa lỗi hiển thị Văn bản trực tiếp (Live Text) khi bật chế độ Xem toàn màn hình.\n- Tối ưu hóa trải nghiệm tính năng Xem toàn màn hình.\n- Cải thiện hiệu năng và sửa các lỗi nhỏ khác.",
-"useSpacing": true
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.1.0\n- Thêm tùy chọn ẩn thanh thời gian Ngày, Tháng, Năm.\n- Bổ sung Bảng thông tin chi tiết dạng nổi (Floating Info Panel).\n- Thêm tùy chọn tắt trang trí ảnh thu nhỏ và hỗ trợ lưu cấu hình số cột.\n- Tối ưu hóa cơ chế lưu thiết lập và sửa lỗi đè bảng chi tiết khi mở ảnh toàn màn hình.",
-"useSpacing": true
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.0.0\n- Phát hành lần đầu, hỗ trợ đầy đủ cho iOS 15.",
 "useSpacing": true
 },
 {
