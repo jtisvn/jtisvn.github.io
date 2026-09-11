@@ -164,7 +164,7 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown": "#### Phiên bản 2.7.3n- Thay đổi và xây dựng lại hạ cấp ứng đụng.",
+"markdown": "#### Phiên bản 2.7.3\n- Thay đổi và xây dựng lại hạ cấp ứng đụng.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
