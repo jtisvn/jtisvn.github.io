@@ -103,7 +103,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "20/08/2026",
+"text": "12/09/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -121,7 +121,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.7.0",
+"text": "1.7.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -173,6 +173,14 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.7.1\n- Cho phép chạm để mở ứng dụng ở chế độ Host Mode (Host Scene).\n- Cải thiện thanh nắm Host Menu: mở rộng vùng chạm, tăng độ nhạy vuốt.\n- Host Menu tự đóng khi chạm ra ngoài/vùng trống và tự ẩn sau 5 giây.\n- Thanh Host Menu toàn màn hình: mở bằng cách chạm hoặc vuốt, tăng độ nhạy vuốt.\n- Thanh phân chia Split View: kéo đổi kích thước, nhấn giữ hoặc chạm 2 lần để mở menu.\n- Sửa lỗi ngắt kết nối CarPlay khi bật Split View gây văng Safe Mode.\n- Sửa lỗi crash khi đóng Split View từ menu thanh phân chia.\n- Sửa lỗi crash SpringBoard do mở/đóng ứng dụng Host liên tục.\n- Giải phóng Host Scene ngay khi thoát app Host để tránh lỗi khởi động sau.\n- Host Scene: Thêm tùy chọn \"Alternative Display Path\" sửa lỗi hiển thị hình ảnh.\n- Cập nhật mô tả Airaw & Host Scene (giải thích tỷ lệ iPhone/CarPlay, khuyến nghị dùng Host Scene).",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 1.7.0\n- Thêm hỗ trợ CarPlay trên iOS 26.\n- Hỗ trợ cài đặt các add-on cho Airaw. Hai chế độ Split View Native và Split View Standard giúp mở khóa tính năng chạy song song 2 ứng dụng trên iOS 16+.\n- Thêm hỗ trợ CarCast để thay thế cho CarBridge. Chỉ cài một trong hai — không cài cả hai cùng lúc.\n- Ẩn các mục cài đặt Hosted Scene và Split View trên iOS 15 trở xuống do thiết bị không hỗ trợ.\n- Thiết lập lần đầu mới sau màn hình chào mừng: chọn vị trí tay lái (bên lái), vị trí thanh trạng thái và Bật Airaw.\n- Thiết kế lại giao diện Cài đặt với biểu tượng SF Symbols và các nhãn hiển thị rõ ràng hơn.\n- Khung xem trước vị trí widget hiện đã khớp với tỷ lệ khung hình màn hình CarPlay.\n- Trình chọn widget kiểu thẻ mới — chạm để đặt vị trí, nhấn dấu + để thêm.\n- Widget dạng module (.bundle) hoạt động từ iOS 14 trở lên. Widget HTML hoạt động trên iOS 14–15; trên iOS 16+ có thể thêm vào nhưng hoạt động không chính xác.\n- Giao diện nhật ký thay đổi mới theo phong cách dòng thời gian (timeline).\n- Sửa nhiều lỗi khác nhau liên quan đến CarPlay và phần Cài đặt.",

@@ -131,6 +131,23 @@ Description: Support for legacy arm64e ABI in iOS 15.0+
 Name: Legacy arm64e Support
 Author: Nightwind
 
+Package: oldabi
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 68
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: ./debs/Legacy arm64e Support-2.0.1-iphoneos-arm64e.deb
+Size: 3206
+MD5sum: 3ef2a47b7ef7183aa6357da76870b9da
+SHA1: b465040912110338f51dbc149b15b7cbf8f1f7ca
+SHA256: f0c69f940ec74d1fd141e809878b13cb38eae4ef95d75b5000c14125861ddf7c
+SHA512: 1e5de6aeb2fe97bd9b6e9730778aa97e73f54ca81d16caf61fd2b7c3550ed3200af926950a40000798f6cb64b40404b45bae5e8cf6b47c43c025ff856b395441
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Name: Legacy arm64e Support
+Author: Nightwind
+
 Package: dev.theos.orion14
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -151,6 +168,25 @@ Author: Theos Team <support@theos.dev>
 Name: Orion Runtime (iOS 14 – 17)
 Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
 Depiction: https://chariz.com/get/orion-runtime14
+
+Package: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.3
+Section: System
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 380
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: preferenceloader-legacy
+Replaces: preferenceloader-legacy
+Filename: ./debs/PreferenceLoader-2.3-iphoneos-arm64e.deb
+Size: 29804
+MD5sum: 8b7923455819b928e21e90a4cf51a525
+SHA1: fa5369b1313caaeaa921c1c9b5af2ec3906da6ec
+SHA256: 34f45fbfa947b32249330d5301efecb9faddc5ba04a2fa14fa868d5bb05ab3a5
+SHA512: 2ba06d957971a48692202bf466c5222db7800df6f2cbf671c9ae09ca66afb23335d20fae7c7a47a23198d3bd8c137d54a6836600fe492031fdcb09a8ce3d0f05
+Description: A MobileSubstrate-based utility that allows developers to add entries to the Settings application
+Name: PreferenceLoader
+Author: Dustin Howett <dustin@howett.net>
 
 Package: com.roothide.manager
 Architecture: iphoneos-arm64e
@@ -19233,6 +19269,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Laetus.json
 Icon: https://jtisvn.github.io/sectionIcons/Laetus.png
 Author: Spark
 
+Package: com.jtisvn.letter
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.jtisvn.letter_1.0_iphoneos-arm64.deb
+Size: 8904
+MD5sum: e9954d707e4f98a0053f4b964fdca882
+SHA1: 097a7091818f33a8b8d1aa1225e96f3288d6454d
+SHA256: 336db8e971d086908aa6407f07ce7a8284b171058b2dab2e575f5a83789c4c84
+SHA512: 1d044d9ddc74074bd8d1c1d554507bbfd090a16749aea87e9ee5ceec719c1baaf0c43aefbd2bc57b94a9e1a41fb7f3326381e759bb528233eab6c1f0391a7862
+Description: Thay dổi màu bàn phím theo màu biểu tượng ứng dụng.
+Name: Letter (Rootless)
+Author: alexandra
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Letter.json
+Depiction: https://jtisvn.github.io/depictions/Letter.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtisvn.letter
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.jtisvn.letter_1.0_iphoneos-arm64e.deb
+Size: 8700
+MD5sum: 37cc921fd030f280a62154fed1dfdc7f
+SHA1: 752778eddfcac291766e45030c3e4ec76a404053
+SHA256: bee2087fae5a6ed97931278ac69b2e3bf880140f504b0fe5ea9452ec76b55cd5
+SHA512: 6a4b9102adb1baff9e8d747e5ced14f22c08f986567293a3fd1efb97fad15723caa912ddc7346f0fd48901a1bb713e569e39a84ab2bff61781506c5f658e7f53
+Description: Thay dổi màu bàn phím theo màu biểu tượng ứng dụng.
+Name: Letter (Roothide)
+Author: alexandra
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Letter.json
+Depiction: https://jtisvn.github.io/depictions/Letter.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtisvn.lightshield
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -19335,6 +19412,45 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
 Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
+Package: com.jtisvn.nocshare
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Section: Tweaks
+Maintainer: Devvix
+Depends: mobilesubstrate
+Filename: ./debs/com.jtisvn.nocshare_1.1.4_iphoneos-arm64.deb
+Size: 7072
+MD5sum: 9a49b0dde7ccb3e346e456b6f700dbe1
+SHA1: 346e27fafcb37fb63a26d34e804559ac04806e3d
+SHA256: 9f449c92f010f12e7d08be344a19ae9d06a740a2c4b139a8f0d17f6bafd88949
+SHA512: 3e411ea3588d0284ebde44e0eeaa1594653767055d8280f718d771fe34a39aade6c740c556232878c7d0c2666f2e81d7762ac7a5968fa613da79366e2f780338
+Description: Ẩn airdrop và mục danh bạ khỏi menu chia sẻ.
+Name: NoCShare (Rootless)
+Author: Devvix
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoCShare.json
+Depiction: https://jtisvn.github.io/depictions/NoCShare.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtisvn.nocshare
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Section: Tweaks
+Maintainer: Devvix
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtisvn.nocshare_1.1.4_iphoneos-arm64e.deb
+Size: 7160
+MD5sum: 81700ad0ec26e810721f25e2723850ea
+SHA1: 68b6e5b0406ec4e7ca6311d8ca37773fb7a3a32b
+SHA256: 57497608a68a8dfd9c9e8f9d66b392fad98e8848c9c18488262da9916c01f0b8
+SHA512: bb609d0d8a52fd5a576f1cd01048b05233f6da657fc82c18554a7b5adfcbdf778ecf6c7d781ea1fdae2f84c063d638f44eb00363a23b3972ec2ce3ba556fdd05
+Description: Ẩn airdrop và mục danh bạ khỏi menu chia sẻ.
+Name: NoCShare (Roothide)
+Author: Devvix
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoCShare.json
+Depiction: https://jtisvn.github.io/depictions/NoCShare.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtisvn.opaboutphone
 Architecture: iphoneos-arm64
@@ -20985,6 +21101,45 @@ Author: LK
 Name: Revenuecat (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.layii.ccrnd
+Architecture: iphoneos-arm64
+Version: 0.0.1k
+Section: Tweaks
+Maintainer: LaYii
+Installed-Size: 168
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.layii.ccrnd_0.0.1k_iphoneos-arm64.deb
+Size: 4336
+MD5sum: e4ca9232c11dd03b50a1596446315c62
+SHA1: 2424219117159be0f496be4f6c32d10c2b8063dc
+SHA256: ce99c599421764b2600db2b4c3b5cd61ed4044a78dbdf43326a566d910399f82
+SHA512: de9a45154ab2436fbe61b0de78ca129bbaad80042ca49665f9ebd9a4d0e8eee536acc802677ad29578dce296e8f147880c83ec2e431c92a9ccd1fac78df531d9
+Description: Loại bỏ độ trễ 3 giây ghi màn hình trên Trung tâm điều khiển.
+Name: CCRecordNoDelay (Rootless)
+Author: LaYii
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCRecordNoDelay.json
+icon: https://huayuarc.github.io/icon/ccrnd.jpg
+
+Package: com.layii.ccrnd
+Architecture: iphoneos-arm64e
+Version: 0.0.1k
+Section: Tweaks
+Maintainer: LaYii
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.layii.ccrnd_0.0.1k_iphoneos-arm64e.deb
+Size: 4520
+MD5sum: d315fa06684cabd179b8547ccbc348ec
+SHA1: 6c4d4e95eb22847f603fe770d2360c94b2c1b8f2
+SHA256: 21f27619a2dd870a1dec89d1e0de2b89b9d27d1dce04525b25365af6d1ffdf25
+SHA512: d6467858f41e132a017f44d1396c77b726719397fe780a649cbb6465116fa035e3f23f9ebc552ac1f66c9356c5df47264b02f330ce08509b022f754d3e01ed45
+Description: Loại bỏ độ trễ 3 giây ghi màn hình trên Trung tâm điều khiển.
+Name: CCRecordNoDelay (Roothide)
+Author: LaYii
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCRecordNoDelay.json
+icon: https://huayuarc.github.io/icon/ccrnd.jpg
+
 Package: com.lclrc.hammerit
 Architecture: iphoneos-arm64
 Version: 1.7.0
@@ -21275,6 +21430,46 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/XenHTML.json
 Icon: https://jtisvn.github.io/sectionIcons/XenHTML.png
 Tags: compatible_min::ios9.0, compatible_max::ios14.8.1
 Author: Matt Clarke
+
+Package: com.milkyway.reborn
+Architecture: iphoneos-arm64
+Version: 1.0.0-23+debug
+Section: Tweaks
+Maintainer: MilkyWay Reborn
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.milkyway.reborn_1.0.0-23+debug_iphoneos-arm64.deb
+Size: 52972
+MD5sum: e16d25d49dee39270c39a13589597233
+SHA1: ddc6599c356abd3c99c2ab966675222c103123f7
+SHA256: 537427dabf21d64aec0643261df8be85590c8850425ec18f981c40c40bb973b9
+SHA512: 1b1e1f73b8cf16bcbfb76f8f7f9785a037f523d8e356a7f8a98aa79a6ddb5e3c3487f8792682be92e20153896f341a14d61129af2c660c67a71a745d8e79de9c
+Description: Windowed multitasking for iOS 17-18 and 26. A modern rewrite of MilkyWay2 by akusio.
+Name: MilkyWay Reborn (Rootless)
+Author: MilkyWay Reborn
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MilkyWayReborn.json
+Depiction: https://jtisvn.github.io/depictions/MilkyWayReborn.html
+Icon: https://jtisvn.github.io/sectionIcons/MilkyWayReborn.png
+
+Package: com.milkyway.reborn
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: MilkyWay Reborn
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.milkyway.reborn_1.0.0_iphoneos-arm64e.deb
+Size: 35920
+MD5sum: b483cca09bd386eb16ddcba2f1f762be
+SHA1: 320eb502f9bdbff7caaf0ba71658839ff9351a46
+SHA256: 711ecd3132d103e86b2f193e65cd688c1318455a415729594b3c3ad7999540fb
+SHA512: afb971f03730b2e0910c9419741567a33e24bdc7399a0c587fff63f85dccb690e19279b4eb629383222cd5bb7c07e2ac5b8d94f4775e2fd79916461e9721498a
+Description: Windowed multitasking for iOS 17-18 and 26. A modern rewrite of MilkyWay2 by akusio.
+Name: MilkyWay Reborn (Roothide)
+Author: MilkyWay Reborn
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MilkyWayReborn.json
+Depiction: https://jtisvn.github.io/depictions/MilkyWayReborn.html
+Icon: https://jtisvn.github.io/sectionIcons/MilkyWayReborn.png
 
 Package: com.mrgcgamer.libgcuniversal
 Architecture: iphoneos-arm64e
@@ -23492,6 +23687,47 @@ Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzaswipeselect/j
 Name: FilzaSwipeSelect (Roothide)
 Author: korboy <korboybeats@gmail.com>
 
+Package: com.skypain.ccautobrightness
+Architecture: iphoneos-arm64
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 168
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccautobrightness_1.0.0-1_iphoneos-arm64.deb
+Size: 18064
+MD5sum: 3c7995bb7fd8f1617fcdda633d437b6d
+SHA1: aa812f5aa3c29cf0167e374a31704b76a16313d9
+SHA256: 723856b91f49169fbd0a56a1535bf94ae1db4afa715200b1bdc5c5a82d7f2064
+SHA512: 72d075f34ccaf25d1fd859e2912acab363b5dac40c2f603bd38124875595156577b9ae5313e2fd8707ee4a06d3eefe99905288feeedd8d9d8170f7bb2e389959
+Description: 控制中心自动亮度模块
+Name: CCAutoBrightness (Rootless)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+icon: https://skypain.github.io/repo/src/ccautobrightness/Icon.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/CCAutoBrightness.json
+
+Package: com.skypain.ccautobrightness
+Architecture: iphoneos-arm64e
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccautobrightness_1.0.0-1_iphoneos-arm64e.deb
+Size: 18148
+MD5sum: 276f5af8c761c3e3e3fc31f40a00aacc
+SHA1: 7b6a15d0e101421cc6b7004d64fe6ed1aeb167db
+SHA256: 48c6291a2a1cb69e72e2edb536cef091c20b5c1da6c99b3afa154ad1c37ccc9c
+SHA512: 85f34ad6a768fe267abef6d6b897cedbfcc0276d3ef8b61b733edda6aeb3412db0e88ddf8e3983c7e64389ce9aff4244b7e80912416e23d29fcbef49c02632a4
+Homepage: https://skypain.github.io/repo/
+Description: Adds a module for AutoBrightness in the control center ; supports iOS15.0 ~ iOS16.5 .
+Name: CCAutoBrightness (Roothide)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://skypain.github.io/repo/src/ccautobrightness/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=ccautobrightness
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCAutoBrightness.json
+
 Package: com.skypain.cclocation
 Architecture: iphoneos-arm64
 Version: 1.1.0-1
@@ -25298,6 +25534,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
 Depiction: https://jtisvn.github.io/depictions/Airaw.html
 Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
 
+Package: jp.dcsyhi.airaw
+Architecture: iphoneos-arm64
+Version: 1.7.1
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12029
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), com.opa334.ccsupport
+Filename: ./debs/jp.dcsyhi.airaw_1.7.1_iphoneos-arm64.deb
+Size: 8526676
+MD5sum: 11e114eabf59bafb7b05e7111783f2c4
+SHA1: 7ef848b162e9fac49920df3f4340613aaf3f689a
+SHA256: 3fc2c88c9c75f25c6e53f215815badd84ef1c2856f3351848f77f195690cc1e7
+SHA512: 964bfd3b60f0bbcf02d46fef1ae939b5962204d886f69bae7836d39c6b77f88c23c5eba8557da04a8b9736effe66edc4c7a2f744f5dfeb7bf8d08d9b1d997b59
+Description: An awesome CarPlay tweak.
+Name: Airaw (Rootless)
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
+Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
+
+Package: jp.dcsyhi.airaw
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12029
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), com.opa334.ccsupport
+Filename: ./debs/jp.dcsyhi.airaw_1.7.1_iphoneos-arm64e.deb
+Size: 8524444
+MD5sum: 94daca7d4fc0aa0a1d7cd61c72d39ade
+SHA1: e02779f2e4a847af337d4df110c517f5f3fa1090
+SHA256: b7288aa61320b16d43e672661a681c0d4f3c4e802d08887a9cb0372cb581c84a
+SHA512: 1ac48d53a232c9c8f09453d5b8d19e385391acdabc4e594f9f09678824d618dc7fbd3b0f214ca65d416131c0057c9ed5437a5fdfd19e2931ebaaf57060c19c6e
+Description: An awesome CarPlay tweak.
+Name: Airaw (Roothide)
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
+Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
+
 Package: jp.dcsyhi.carcast
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -26628,6 +26903,24 @@ Description: An awesome library of some sort!!
 Tag: role::developer
 Name: libcolorpicker
 Author: Bailey Seymour
+
+Package: org.wuffs.flickplus
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate, ws.hbang.common (>= 1.13)
+Filename: ./debs/org.wuffs.flickplus_0.1.2_iphoneos-arm64e.deb
+Size: 34732
+MD5sum: aa46ea1f3e19f26c2802b990c16aa2e5
+SHA1: fcd176531717529332742992774337ddaacf7dc9
+SHA256: 0b9213a6b42d8ed1dc04d4cc2279073100fc8f29dbd528d9ad8c8ecfeb9a5e9e
+SHA512: bdcc695c2e71ef4d8ac0762a533e679e241a34ce010821fb8ddc109855f5cafcfc446bf2b1b355e4948a00888838c64216b542ff5e457db52e347cf578aed030
+Description: Phím gõ nhẹ kiểu iPad trên iPhone
+Name: FlicksForAll (Roothide)
+Depiction: https:///depiction/web/org.wuffs.flickplus.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FlicksForAll.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Tags: compatible_min::ios15.0, compatible_max::ios17.0
 
 Package: preferenceloader
 Architecture: iphoneos-arm64e
