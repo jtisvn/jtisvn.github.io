@@ -20598,6 +20598,49 @@ Name: Choicy gói Việt Hoá (Rootless)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.chromaflow
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.kitsudo.chromaflow_1.0.0_iphoneos-arm64.deb
+Size: 8028
+MD5sum: a215fe22756ebcfb25cf7e5d9319a870
+SHA1: bd15aab9e66160eda7e0867223e60972c9595030
+SHA256: 67d8c3ef70fd568d04e58af7caf0314b7afdf914c3e94204ed211f59fd3c0a34
+SHA512: 15923e1ab72bf1531dad854f1a951b00932508b76858312b87c28dfcba188a88671b60d2b1d4c8e981d6affc0aedfeddfae6226d4738a5fb919108e416fb5e47
+Homepage: https://k37ios.pages.dev
+Description: Change the media player background color based on the artwork color.
+Name: ChromaFlow (Rootless)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/ChromaFlow.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/ChromaFlow.json
+Icon: https://k37ios.pages.dev/assets/ChromaFlow.png
+
+Package: com.kitsudo.chromaflow
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.kitsudo.chromaflow_1.0.0_iphoneos-arm64e.deb
+Size: 7848
+MD5sum: e4bce8bc2f12ba0737c85824934feb0c
+SHA1: 96d5e738db02f1bee936bd61a432ea458e434b87
+SHA256: 5963a074275e8c9d8e5e4b564132c8c46f7fde467b2c2c396280eaf0f7727c56
+SHA512: 353e9ff4876e51bedcbdbdbc0eb453d6722d5b8fc62b2b80357869403585338b906c1725b7ce05a5947a0088fcd783483f298d00c6f656243d4a761e817ac2f3
+Homepage: https://k37ios.pages.dev
+Description: Change the media player background color based on the artwork color.
+Name: ChromaFlow (Roothide)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/ChromaFlow.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/ChromaFlow.json
+Icon: https://k37ios.pages.dev/assets/ChromaFlow.png
+
 Package: com.kitsudo.fixstatusbarrdar
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -20763,18 +20806,18 @@ Icon: https://k37ios.pages.dev/assets/LockButtonCall.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64
-Version: 6.5
+Version: 6.6
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 6420
+Installed-Size: 6484
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.5_iphoneos-arm64.deb
-Size: 1388416
-MD5sum: be0a97bd59a9306a6c30022089e879d3
-SHA1: ef14b9fa3994bb4fc6c514da91e82e314cff4eb6
-SHA256: c5d2a0594e1496c77c4eb2844065bfc872394f91d70961d22e3735818f528267
-SHA512: 00f451ac2682ac8cb9ece2c18afc4ad37915b47d2ceffd7b6082f5c37f6d2a0247340febf0c306af62aeacf24f969fc8dc2df2f979abf0ec59543fae5889ded1
+Filename: ./debs/com.kitsudo.nexusboard_6.6_iphoneos-arm64.deb
+Size: 1405348
+MD5sum: aaf2627b7b49deef4c8f4f1f8c2ded82
+SHA1: c2df5b1f08ee88d9f9b686c1cbd7e94ac2878056
+SHA256: d03af436a8091396107d1016e3e522a238c8901faeb5be75c2a18f52d8148a8f
+SHA512: 0321ee2abdd73a0b4417d2e63041939e15cbd0c8837181abaf8803ee06bba9a2ab69366fa51d039333ed7b7a8fbe55fc6cff56ea1a6c3a127f9da0f11526cf55
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
     * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -20786,19 +20829,19 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64e
-Version: 6.5
+Version: 6.6
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 6420
+Installed-Size: 6484
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.5_iphoneos-arm64e.deb
-Size: 1375700
-MD5sum: ed902021e04dc2d42a7fb4c40e1eb297
-SHA1: 4628c9dd44431958480ca488c3c8418b2cd24612
-SHA256: 82023298bdcd8b7988cbdad46f1fef89475806dcdbe2df17049a9b20ea537871
-SHA512: 5f038da851a8adcfb402a66033ecfa02681ffcd15818a4e91fe0b4d5e4a5fd3ad8a5db4049a5d3cb8c984f2061f9f93c5b0f0b753445c52bc53e47e9e0e44f7d
+Filename: ./debs/com.kitsudo.nexusboard_6.6_iphoneos-arm64e.deb
+Size: 1391240
+MD5sum: 5d0055dbeb741421f560f9a34e9792fa
+SHA1: 1925895979333946ae17f9ba4a450720025f9bc2
+SHA256: fb8970eb5f235419b829a7e90dfbe526648c0df522dc1b4bf0930c694b1c0cb9
+SHA512: d902b9ff410baa56a2671fce6723625ebc9ee3ffaf3077de529171c784c31dff61454ff1fabb136fbbf21fc934ab0062b24663622da773699509b28e78c29d6c
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
     * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -25367,6 +25410,47 @@ SHA512: b3a9805ed8e2897c42e60ec3380d22dfadbe2452d78febe61730cac3ac4656aebb6739d6
 Description: Decrypt Appstore App that require higher iOS
 Name: TrollDecryptJB
 Author: 34306, khanhduytran0
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 0.1.15k
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 632
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/iya.banana.iphoneduoicon_0.1.15k_iphoneos-arm64.deb
+Size: 82996
+MD5sum: 1812696f37c8815b804df6e5ba25cdee
+SHA1: b70aea11d6ddf7c4ee6169d027d2b07970403177
+SHA256: f46ca80dcadaf2bb6919f7bd3a71cf553bc30b568a145275b80b211489e1ea16
+SHA512: 294e81393f3c611482d22bf577ac9f1f1f76edce2b22547276bcf4fdcd2d796ad0df5cf242feff2e379bac809547977dd20435deb44418064bdf6d87707db284
+Description: Điều chỉnh trạng thái biểu tượng di động, pin, Wi-Fi và hai dòng kết hợp. Pin, Wi-Fi và tín hiệu di động là ba trong một, hỗ trợ hiển thị tín hiệu độc lập hai SIM.
+Name: iPhoneDuoIcon (Rootless)
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 0.1.15k
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 632
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/iya.banana.iphoneduoicon_0.1.15k_iphoneos-arm64e.deb
+Size: 82972
+MD5sum: ae8d64da19a5134b144f4d9db6a7ceea
+SHA1: fc9f99421a1f8f6b92ac4bc13e3ea09cfc92fbb8
+SHA256: d826d808a563d192ee3c415f087fc4bf7958aff6762dcc7db2878be5eb992a7e
+SHA512: 9a73791fbeacf093cf73a2024e5b68227df257d4dcf0b9da9640b018ef8e8a11d05ad529d4bd57153dd6c7266cc60b8a9dcb2b10646f601266a439fce64683da
+Description: Điều chỉnh trạng thái biểu tượng di động, pin, Wi-Fi và hai dòng kết hợp. Pin, Wi-Fi và tín hiệu di động là ba trong một, hỗ trợ hiển thị tín hiệu độc lập hai SIM.
+Name: iPhoneDuoIcon (Roothide)
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
 
 Package: jp.dcsyhi.airaw.splitnative
 Architecture: iphoneos-arm64

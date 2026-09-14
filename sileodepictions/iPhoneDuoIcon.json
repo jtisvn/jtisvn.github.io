@@ -1,0 +1,213 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#6699FF",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"### iPhoneDuoIcon\n\n- Làm gọn không gian thanh trạng thái (status bar) của bạn. Tinh chỉnh này gộp chung các biểu tượng hiển thị pin, Wi-Fi và sóng di động (hỗ trợ cả 2 SIM) thành một biểu tượng duy nhất, mang lại giao diện tinh tế và hiện đại hơn..\n\n- **Tính năng nổi bật:**\n\n- Hiển thị thông minh: Kết hợp các biểu tượng trạng thái mạng và pin vào một khối thống nhất.\n- Tương tác chạm vào biểu tượng kết hợp trên thanh trạng thái để mở rộng và xem các biểu tượng gốc của hệ thống. Sau 3 giây, chúng sẽ tự động thu gọn lại để tiết kiệm không gian.\n- Tự động tô màu xanh lá cho biểu tượng mạng khi thiết bị kết nối VPN, giúp bạn dễ dàng nhận biết trạng thái bảo mật (có tùy chọn đảo ngược màu khi ngắt kết nối).\n- Điều chỉnh khoảng cách (từ 0 pt trở lên) để dịch chuyển Capsule sang trái, giúp tinh chỉnh tương thích hoàn hảo với phần khuyết màn hình (notch/Dynamic Island) của từng dòng máy.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Banana",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14/09/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.1.15",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1,1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "16.0 - 18.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"markdown":"### Phiên bản 0.1.13k\n- Thêm ngôn ngữ Tiếng Việt.",
+"useSpacing": true
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
