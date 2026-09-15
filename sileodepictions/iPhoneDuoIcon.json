@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.15",
+"text": "0.1.16",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -158,8 +158,17 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
+"markdown": "#### Phiên bản 0.1.16k\n- Thêm hiển thị phần trăm pin",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
 "markdown":"### Phiên bản 0.1.13k\n- Thêm ngôn ngữ Tiếng Việt.",
-"useSpacing": true
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
 "class":"DepictionLabelView",

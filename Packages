@@ -25452,6 +25452,47 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
 
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 0.1.16k
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 632
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/iya.banana.iphoneduoicon_0.1.16k_iphoneos-arm64.deb
+Size: 85952
+MD5sum: a06899b86a8bcdcca741d603300f25ab
+SHA1: 0ef607054439c16c6bbdba5129d53e01b2d2eb86
+SHA256: c058746368a022a52901dcdec1ad60c366774abaa6f5ec5e7d2d9267cd4f8688
+SHA512: 02d60604621a6f48561cfb18d8cf5d011ffd21297c546c184c1408dc9eee5b42e5f9db8ac89b913ec024ac0783782dcc3f156e57075d43d2c1aaf88ef57b8796
+Description: Điều chỉnh trạng thái biểu tượng di động, pin, Wi-Fi và hai dòng kết hợp. Pin, Wi-Fi và tín hiệu di động là ba trong một, hỗ trợ hiển thị tín hiệu độc lập hai SIM.
+Name: iPhoneDuoIcon (Rootless)
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 0.1.16k
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 632
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/iya.banana.iphoneduoicon_0.1.16k_iphoneos-arm64e.deb
+Size: 85768
+MD5sum: 9e66f93e471e0f70f0ace052d109535f
+SHA1: 8b3e5666a54c570919a98f263497b0ac395bf252
+SHA256: 8bcbaa7bae475d8108a8b0a98f5b2406e3b689e022122ccea214803d2dc1b680
+SHA512: 867e1fdd81b51263b64bb555f764b61a2636e7efd4783d26d42f165ec50881f79e95d829edc6843d0c7141e3dd2e8612a0d2147699d6ad7c85856ad94f27cd55
+Description: Điều chỉnh trạng thái biểu tượng di động, pin, Wi-Fi và hai dòng kết hợp. Pin, Wi-Fi và tín hiệu di động là ba trong một, hỗ trợ hiển thị tín hiệu độc lập hai SIM.
+Name: iPhoneDuoIcon (Roothide)
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+
 Package: jp.dcsyhi.airaw.splitnative
 Architecture: iphoneos-arm64
 Version: 1.0
