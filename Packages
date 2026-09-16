@@ -208,6 +208,26 @@ Icon:
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 
+Package: com.roothide.manager
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: System
+Maintainer: roothide
+Installed-Size: 1968
+Depends: firmware (>= 15.0)
+Filename: ./debs/RootHide Manager-2.0-iphoneos-arm64e.deb
+Size: 1154868
+MD5sum: f29d0f7f2028016e659369533eb3cd66
+SHA1: 5a575ad0023aa9dd5e11e4ffaca2e8f2c3346b3c
+SHA256: 550e05301858e81335d0b75b66ab34903e2f197f0cae9325fabb737eb3507627
+SHA512: 40837feec0c7d1b9e541970802ff39e2ee08b3df67f33432bcc416505f99f08a934b34062584cc52498db6f50b2fc8b7dc18ce8118051662420d120ac1e29f3b
+Description: Configuare RootHide's Features
+Name: RootHide Manager
+Author: roothide
+icon: https://huayuarc.github.io/icon/manager.png
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
+
 Package: com.hoanganh.unlockwave
 Architecture: iphoneos-arm64e
 Version: 1.4.5
@@ -25510,19 +25530,19 @@ Author: 34306, khanhduytran0
 
 Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64
-Version: 0.1.21k
+Version: 0.1.24k
 Section: Tweaks
 Maintainer: Banana
-Installed-Size: 728
+Installed-Size: 864
 Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.singlevpn
-Filename: ./debs/iya.banana.iphoneduoicon_0.1.21k_iphoneos-arm64.deb
-Size: 107552
-MD5sum: 0f1b632a7f34794c6ac31e4f4a405022
-SHA1: a1e17eeee5c0a8a7a43e3fc4ce5f486fc1cd4743
-SHA256: c80d00c0624d0b26a68747fbea42d28f7bfd312aaa13e37b29c63b8760676567
-SHA512: bc10b64b9d425af21548c8abeef1879814b4a89e99497135ee91ca0789322ce639bb82c9e179718af14e64c336a25019ccf7cf0af6cf3011e6ef5f7f23f991ea
-Description: Điều chỉnh trạng thái biểu tượng di động, pin, Wi-Fi và hai dòng kết hợp. Pin, Wi-Fi và tín hiệu di động là ba trong một, hỗ trợ hiển thị tín hiệu độc lập hai SIM.
+Filename: ./debs/iya.banana.iphoneduoicon_0.1.24k_iphoneos-arm64.deb
+Size: 151180
+MD5sum: cf6ef1d0ed6f1fae569d5191422d86a2
+SHA1: 4f45b917d96c9a586580d66ebe03eee11211935f
+SHA256: 311edb4d28b04e43d3d414c8666179e7d5758c8c2e1c2456d67a434fc40172d4
+SHA512: 2a154656536f45089f56ee63a9658a0604f1b2b220620f9e2a517bf55e13af97d97832c52829e8bdf4b2a281d5207180d46f08bd14eb5cd8143b1e09cfcac715
+Description: Combined battery, Wi-Fi and dual-line Điều chỉnh trạng thái biểu tượng di động, pin, Wi-Fi và hai dòng kết hợp. Pin, Wi-Fi và tín hiệu di động là ba trong một, hỗ trợ hiển thị tín hiệu độc lập hai SIM.
 Name: iPhoneDuoIcon (Rootless)
 Author: Banana
 icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
@@ -25530,18 +25550,19 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
 
 Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64e
-Version: 0.1.21k
+Version: 0.1.24k
 Section: Tweaks
 Maintainer: Banana
-Installed-Size: 720
+Installed-Size: 864
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.singlevpn
-Filename: ./debs/iya.banana.iphoneduoicon_0.1.21k_iphoneos-arm64e.deb
-Size: 106316
-MD5sum: 28b2f8b7543d321ddbec23c42b4a0c06
-SHA1: b9b740ad941115ab6702d805a41e0ea4c475667f
-SHA256: 6c656e654ee8ec3eda1a24dadf3ecf0e8769980b2750bc32fe1cd584293f9db8
-SHA512: 8652422a13b45ab1a40a87eacc7d02bc8dc513162fd6504aef9c13a2c0730f5fab69dddbdb572e6d69bafd3d458bf4fcb8d64f9cc3aeaf30863a44a8863aa4b6
+Filename: ./debs/iya.banana.iphoneduoicon_0.1.24k_iphoneos-arm64e.deb
+Size: 151028
+MD5sum: b1246771f62af6f491327395e64d1e6d
+SHA1: e44b1c3be6e6f86024760240be34ab78b1e23f1f
+SHA256: ecfe588bce51a60eee6e1604216941aabe96d2d9d1521d94424aa2ad558dbfba
+SHA512: 90da838e3618db55cdfd1210e6768a252250d8c2cc6cf7aa19c82a6fe1e3bcf397f270c79642ae29b766549aebdd80a396c65a8ae318463f7f880012042a72d5
 Description: Combined battery, Wi-Fi and dual-line Điều chỉnh trạng thái biểu tượng di động, pin, Wi-Fi và hai dòng kết hợp. Pin, Wi-Fi và tín hiệu di động là ba trong một, hỗ trợ hiển thị tín hiệu độc lập hai SIM.
 Name: iPhoneDuoIcon (Roothide)
 Author: Banana
