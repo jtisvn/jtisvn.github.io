@@ -1,32 +1,38 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#6699FF",
+"minVersion":"0.3",
+"headerImage":"https://raw.githubusercontent.com/kernelrw/kernelrw.github.io/main/SileoDepiction/DuoCap/DuoCap.png",
+"tintColor":"#99FFFF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
 {
+"class": "DepictionSpacerView",
+"spacing": 12
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"url":"https://jtisvn.github.io/infodeb/DuoCap/Screenshots/1.png",
+"accessibilityText":"Screenshot 1"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"url":"https://jtisvn.github.io/infodeb/DuoCap/Screenshots/2.png",
+"accessibilityText":"Screenshot 2"
 }
 ],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
+"itemCornerRadius":12,
+"itemSize":"{160,346}"
 },
 {
-"markdown":"### iPhoneDuoIcon\n\n- Làm gọn không gian thanh trạng thái (status bar) của bạn. Tinh chỉnh này gộp chung các biểu tượng hiển thị pin, Wi-Fi và sóng di động (hỗ trợ cả 2 SIM) thành một biểu tượng duy nhất, mang lại giao diện tinh tế và hiện đại hơn..\n\n- **Tính năng nổi bật:**\n\n- Hiển thị thông minh: Kết hợp các biểu tượng trạng thái mạng và pin vào một khối thống nhất.\n- Tương tác chạm vào biểu tượng kết hợp trên thanh trạng thái để mở rộng và xem các biểu tượng gốc của hệ thống. Sau 3 giây, chúng sẽ tự động thu gọn lại để tiết kiệm không gian.\n- Tự động tô màu xanh lá cho biểu tượng mạng khi thiết bị kết nối VPN, giúp bạn dễ dàng nhận biết trạng thái bảo mật (có tùy chọn đảo ngược màu khi ngắt kết nối).\n- Điều chỉnh khoảng cách (từ 0 pt trở lên) để dịch chuyển Capsule sang trái, giúp tinh chỉnh tương thích hoàn hảo với phần khuyết màn hình (notch/Dynamic Island) của từng dòng máy.",
+"markdown":"### DuoCap\n\n- Mang phong cách Duo lên các thiết bị iOS đời cũ, tích hợp hiển thị pin, thông số mạng và trạng thái kết nối thành một vòng tròn tinh tế ngay trên thanh trạng thái.\n\n- **Tính năng nổi bật:**\n\n- Biểu tượng gộp thông minh: Thay thế các biểu tượng rườm rà bằng một vòng tròn động tích hợp dung lượng pin, sóng di động và Wi-Fi.\n- Tùy chỉnh hiển thị phần trăm pin trong vòng tròn, tự động đổi màu  khi sạc, pin yếu hoặc sắp hết.\n- Tùy chỉnh kích thước vòng tròn bằng thanh trượt để vừa vặn với phần khuyết màn hình (notch/Dynamic Island).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -61,7 +67,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Banana",
+"text": "kernelrw",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -81,13 +87,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày cập nhật",
+"text": "Ngày tải lên",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "15/09/2026",
+"text": "16/09/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +111,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.21",
+"text": "1.0.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -118,7 +124,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1,1 MB",
+"text": "1.2 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -131,7 +137,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "16.0 - 18.0",
+"text": "15.0 - 17.7",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -158,7 +164,23 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown": "#### Phiên bản 0.1.21k\n- Thêm ẩn định dạng thời gian 12 giờ AM/PM\n- Thèm tuỳ chỉnh vị trí bố cục biểu tượng quỹ đạo và viền thuốc\n- Thêm tuỳ chọn màu các biểu tượng  Pin, Wi-Fi, SIM cho Duo.",
+"markdown": "#### Phiên bản 1.0.2\n- Sửa lỗi",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "#### Phiên bản 1.0.1\n- Thêm điều chỉnh vị trí ngang trái phai biểu tượng\n- Thêm hỗ trợ iOS 15",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 1.0\n- Bản phát hành đầu tiên của DuoCap.\n- Vòng tròn trạng thái động kết hợp Wi-Fi, sóng di động và pin.\n- Tích hợp Cài đặt cho phép đổi kích thước trực tiếp, bật/tắt phần trăm pin và hỗ trợ đa ngôn ngữ.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
