@@ -73,6 +73,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/26Home.json
 Depiction: https://jtisvn.github.io/depictions/26Home.html
 Icon: https://jtisvn.github.io/sectionIcons/26Home.png
 
+Package: com.cokepokes.appstoreplus
+Architecture: iphoneos-arm
+Version: 2.3.15-1
+Priority: optional
+Section: Utilities
+Maintainer: CokePokes
+Depends: firmware (>= 12.0)
+Conflicts:
+Replaces: com.cokepokes.asppapp
+Filename: ./debs/AppStorePlus_2.3.15-1_iphoneos-arm.deb
+Size: 11040422
+MD5sum: 2bde0bbf4530637a3eb414b446991fd3
+SHA1: 62220cc3f9caff8d25df9e1629f8b19bc7651174
+SHA256: 9a8c4301bf65e2165d339cd8541f46d10df37a19efe7ac6c446e34b0eb9f9af4
+SHA512: 1a68ae53840dacb551e894f9d1333508329204ca7ba3204f48f4284d4fdb148613397a25fcc6b2020eb1ebd7984875b0870b7e7fe3608b94759dc13151e69de4
+Description: App Store companion for jailbroken iOS devices
+Name: AppStore++
+Author: CokePokes
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2
@@ -20959,6 +20978,53 @@ MD5sum: 5d0055dbeb741421f560f9a34e9792fa
 SHA1: 1925895979333946ae17f9ba4a450720025f9bc2
 SHA256: fb8970eb5f235419b829a7e90dfbe526648c0df522dc1b4bf0930c694b1c0cb9
 SHA512: d902b9ff410baa56a2671fce6723625ebc9ee3ffaf3077de529171c784c31dff61454ff1fabb136fbbf21fc934ab0062b24663622da773699509b28e78c29d6c
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+    * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64
+Version: 6.7
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 6704
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_6.7_iphoneos-arm64.deb
+Size: 1425176
+MD5sum: d31bfe0b2dc6af299464ef0081b52268
+SHA1: 7117e0de62a9cf664b7ba0610db7bab5bd432373
+SHA256: 0a1518897b58c1271d513403909891a7e79720e531d4e54613db68b6751884e8
+SHA512: 84f425c142c884684687faf5cdd2b8809d9166fff1ca673c116d0cd058001deca0c1cee0e74878ae9ec76004a1f54ab39258b540d8a6cdaa286df4cb7b4481df
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+    * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64e
+Version: 6.7
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 6704
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_6.7_iphoneos-arm64e.deb
+Size: 1412792
+MD5sum: a763d199247610aceff2f0a2002735cf
+SHA1: 6bb2017a91815f8b26a1dc20dd4ca20d963501d7
+SHA256: 52d2844ee583caf6d987371eae7efe49db13d80b4a9b2627ab6d11c2fc091a50
+SHA512: 1d7b0a1fd2fb570366b3f0d464ccc01ff99e952a330f9ac883e62068fba1f4be578b170126d0fe0a36f7f27dc563ca9c91c5397e9292f2cc3109dffe354ac66d
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
     * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
