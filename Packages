@@ -18940,17 +18940,18 @@ Icon: https://jtisvn.github.io/sectionIcons/ClockTimeFont.png
 
 Package: com.jtisvn.duocap
 Architecture: iphoneos-arm64
-Version: 1.0.2
+Version: 1.0.3
 Section: Tweaks
 Maintainer: Kernelrw
 Installed-Size: 428
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
-Filename: ./debs/com.jtisvn.duocap_1.0.2_iphoneos-arm64.deb
-Size: 45620
-MD5sum: 64b7d6be5b23878f6443b0ff34e254c4
-SHA1: 5455873a28a492f6bf85ea295751a38e9255a065
-SHA256: a6d55038d88c3ccd0b839d480e05ce5688b2ae243739e3178b10cd027eb6a3f9
-SHA512: d22c22e29240b688c07e39945ba6bcc1cc1d0ff9ad694fded4c2b1f9138090515ed44fa9b6799b6f616de2e114ac339d357eaf9a79b9a6a80487f04ca3dd8814
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: com.axs.duostatus, com.callassist.caiphoneduostatus, iya.banana.iphoneduoicon, com.34306.duobars, com.34306.duobar
+Filename: ./debs/com.jtisvn.duocap_1.0.3_iphoneos-arm64.deb
+Size: 46408
+MD5sum: 56cb5eec3b68840a3cbc4ef40d513090
+SHA1: 8f5421521092dd3e04db98c873849f3c3d13a522
+SHA256: 692bfacbfde211af7525834de133ab5b3d3007ebd0ed15c4d8f63509d9e5413d
+SHA512: b2dd99e495f0d5c578f6b3a355326650ff5274d259a467da21843ec1fa4f84d6a92bea0216a53802027966da15d0cb602120c3bea164d17e951bff64c2de4315
 Description: Brings iPhone Duo status orbit to older devices.
 Name: DuoCap (Rootless)
 Author: Kernelrw
@@ -18959,76 +18960,19 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/DuoCap.json
 
 Package: com.jtisvn.duocap
 Architecture: iphoneos-arm64e
-Version: 1.0.2
+Version: 1.0.3
 Section: Tweaks
 Maintainer: Kernelrw
 Installed-Size: 428
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
-Filename: ./debs/com.jtisvn.duocap_1.0.2_iphoneos-arm64e.deb
-Size: 45684
-MD5sum: 70591dc57ab8bd114f5a2b9521eb0516
-SHA1: f9d5793622e1a1307c4e9046c798c5f2634599e1
-SHA256: 64fbaac0e3f19b02e96ec6607d42751e8fb8b0b078b777e53c7baa839dd545b0
-SHA512: 726fdef15a9780e6b433a92ecb1de048cbdc45b0d7156ff5a971e717b055cbd0e006425016c2cb442842f726da84b6bd95d67793b98846626f390bdd65d53474
-Description: Brings iPhone Duo status orbit to older devices.
-Name: DuoCap (Roothide)
-Author: Kernelrw
-Icon: https://jtisvn.github.io/sectionIcons/DuoCap.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DuoCap.json
-
-Package: com.jtisvn.duocap
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Tweaks
-Maintainer: Kernelrw
-Installed-Size: 420
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.jtisvn.duocap_1.0_iphoneos-arm.deb
-Size: 42112
-MD5sum: af8765c7954798d20d6757d98e639073
-SHA1: 53761846d96e642650692d06116769717805c494
-SHA256: 4b589fa74fd644bbd396753d1e59deb933d0face6c0c44f4fc7e4781497b50fc
-SHA512: bb24568053491ea109a0a94516645014baac9dc3fb26d5b95aed369ec4010cbfc0dfa270d54c045556880e1bbe9b9dd72f548ae4582225c594b4d3cc16b6fcb7
-Description: Mang quỹ đạo trạng thái iPhone Duo đến các thiết bị cũ hơn.
-Name: DuoCap
-Author: Kernelrw
-Icon: https://jtisvn.github.io/sectionIcons/DuoCap.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DuoCap.json
-
-Package: com.jtisvn.duocap
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Tweaks
-Maintainer: Kernelrw
-Installed-Size: 420
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.jtisvn.duocap_1.0_iphoneos-arm64.deb
-Size: 42164
-MD5sum: 20a3d71aa30905dbe7289d852d8f91df
-SHA1: aebabafca9ceb5a4b5feecdad64c13c5e000c69a
-SHA256: 03b950b06c5284dcc6376cc63dfa9e878e02f9afff7a9547f5c2e9df8bb98cc4
-SHA512: 907396e677cfbb6015685eeca11d1d6f20811067dafe38cee68979e1c12c49bd918a330d8f08fbad86c96e55dc15e94e34855f21539427b18e6655e4e3d932cd
-Description: Brings iPhone Duo status orbit to older devices.
-Name: DuoCap (Rootless)
-Author: Kernelrw
-Icon: https://jtisvn.github.io/sectionIcons/DuoCap.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DuoCap.json
-
-Package: com.jtisvn.duocap
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: Kernelrw
-Installed-Size: 420
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.jtisvn.duocap_1.0_iphoneos-arm64e.deb
-Size: 42164
-MD5sum: 40f186e5e5ec751b05d79122c93ff1a5
-SHA1: 7fac363dad818d8e6d6a62450d992b6619817c0b
-SHA256: d6194f8f0e074da6caf310ec8bae13abbdb39524524745407d8811ba418b72bc
-SHA512: 6f11fa433e43850b33b28b21e7f9724005ccb0de9cf7b91a6866e984184ba1069ef60a772e5652bb22b62f285d02ef6a9994990762c0d5d03525bc3524208d55
+Conflicts: com.axs.duostatus, com.callassist.caiphoneduostatus, iya.banana.iphoneduoicon, com.34306.duobars, com.34306.duobar
+Filename: ./debs/com.jtisvn.duocap_1.0.3_iphoneos-arm64e.deb
+Size: 46432
+MD5sum: 40cc282d681c7f4b83c70892d0f065a4
+SHA1: cbef97fd1c54d6a239929af2a3e3d590f645e616
+SHA256: c62a15570ef055606bfd002b7a62df44f83eb7b93ef67dc9f8bf15bffcfbfffc
+SHA512: 1e179f70eceb900d0cc4fb3f8e42b556a7efc6d8dd641137eea17e106626de6655195fb3791a2be0b542a1017c5d1a9dc4fd0d86eac2e4fab70d0ce03ebb3228
 Description: Brings iPhone Duo status orbit to older devices.
 Name: DuoCap (Roothide)
 Author: Kernelrw
@@ -20942,18 +20886,18 @@ Icon: https://k37ios.pages.dev/assets/LockButtonCall.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64
-Version: 6.6
+Version: 6.8
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 6484
+Installed-Size: 11068
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.6_iphoneos-arm64.deb
-Size: 1405348
-MD5sum: aaf2627b7b49deef4c8f4f1f8c2ded82
-SHA1: c2df5b1f08ee88d9f9b686c1cbd7e94ac2878056
-SHA256: d03af436a8091396107d1016e3e522a238c8901faeb5be75c2a18f52d8148a8f
-SHA512: 0321ee2abdd73a0b4417d2e63041939e15cbd0c8837181abaf8803ee06bba9a2ab69366fa51d039333ed7b7a8fbe55fc6cff56ea1a6c3a127f9da0f11526cf55
+Filename: ./debs/com.kitsudo.nexusboard_6.8_iphoneos-arm64.deb
+Size: 4272608
+MD5sum: 6b0fe364fa0267b453107ad96d103b7a
+SHA1: 0597748ffc6fbc0371298166e590c33fc6466cb9
+SHA256: 97ee2de373618843d7e96b58e4671bd70af12a4ae8a85ff10c447020749fa08d
+SHA512: 576ea25bbc8d948c2d535b9e145e51f7fbab82080e4bdaad5ee4c42ed0281b6d5db748319408fd10da55c7a8e8b99a29c63fb63448b1d07de58cd6ec7efe3355
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
     * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -20965,66 +20909,19 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64e
-Version: 6.6
+Version: 6.8
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 6484
+Installed-Size: 11068
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.6_iphoneos-arm64e.deb
-Size: 1391240
-MD5sum: 5d0055dbeb741421f560f9a34e9792fa
-SHA1: 1925895979333946ae17f9ba4a450720025f9bc2
-SHA256: fb8970eb5f235419b829a7e90dfbe526648c0df522dc1b4bf0930c694b1c0cb9
-SHA512: d902b9ff410baa56a2671fce6723625ebc9ee3ffaf3077de529171c784c31dff61454ff1fabb136fbbf21fc934ab0062b24663622da773699509b28e78c29d6c
-Homepage: https://jtisvn.github.io/
-Description: Customize SpringBoard with many useful features for iOS.
-    * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
-Name: NexusBoard (Roothide)
-Author: Kitsudo
-SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
-Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
-Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
-
-Package: com.kitsudo.nexusboard
-Architecture: iphoneos-arm64
-Version: 6.7
-Section: Tweaks
-Maintainer: Kitsudo
-Installed-Size: 6704
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.7_iphoneos-arm64.deb
-Size: 1425176
-MD5sum: d31bfe0b2dc6af299464ef0081b52268
-SHA1: 7117e0de62a9cf664b7ba0610db7bab5bd432373
-SHA256: 0a1518897b58c1271d513403909891a7e79720e531d4e54613db68b6751884e8
-SHA512: 84f425c142c884684687faf5cdd2b8809d9166fff1ca673c116d0cd058001deca0c1cee0e74878ae9ec76004a1f54ab39258b540d8a6cdaa286df4cb7b4481df
-Homepage: https://jtisvn.github.io/
-Description: Customize SpringBoard with many useful features for iOS.
-    * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
-Name: NexusBoard (Rootless)
-Author: Kitsudo
-SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
-Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
-Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
-
-Package: com.kitsudo.nexusboard
-Architecture: iphoneos-arm64e
-Version: 6.7
-Section: Tweaks
-Maintainer: Kitsudo
-Installed-Size: 6704
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.7_iphoneos-arm64e.deb
-Size: 1412792
-MD5sum: a763d199247610aceff2f0a2002735cf
-SHA1: 6bb2017a91815f8b26a1dc20dd4ca20d963501d7
-SHA256: 52d2844ee583caf6d987371eae7efe49db13d80b4a9b2627ab6d11c2fc091a50
-SHA512: 1d7b0a1fd2fb570366b3f0d464ccc01ff99e952a330f9ac883e62068fba1f4be578b170126d0fe0a36f7f27dc563ca9c91c5397e9292f2cc3109dffe354ac66d
+Filename: ./debs/com.kitsudo.nexusboard_6.8_iphoneos-arm64e.deb
+Size: 4259196
+MD5sum: 0bc02b7903d3e04b009bcad8a88006df
+SHA1: eacbecc016722ebfe96f2165728208a55cfc0373
+SHA256: 4c2bdb0570047832e6c1db3d5f801e4f0f05e6bb7b481e745853be1a68570765
+SHA512: 4622ebe879c2786275a7a004a585a1b989b7968f3572d8ab55bc625e24a301d340aaa5239911e909dd274b02ab5026e84ded7ceae0ceb785e653d33e4e8fd865
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
     * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -21593,6 +21490,27 @@ Author: leftyfl1p <carbridge@havoc.app>
 Icon: https://jtisvn.github.io/sectionIcons/CarBridge.png
 Depiction: https://jtisvn.github.io/depictions/CarBridge.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CarBridge.json
+
+Package: com.liam.chatgbefree
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Liam
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.liam.chatgbefree_1.0.0_iphoneos-arm64e.deb
+Size: 3540
+MD5sum: b03efaeefbf3116e032abe8faff18858
+SHA1: 146ef4d5bd1bfc59acbca7eef0ae3739446ea159
+SHA256: 6afc4530f9face00d458198a9ef2819a69e30d5dc732dfcb3d34d418f5fbf9f3
+SHA512: 88ae767ae128c7b635515c4078e123d5fc20ab2dcd129da99d22532e8b18d5c0f8b425269706b8b5595b943fc720e2eac337e8d800a65a478506c7271b73a646
+Description: Bypass the forced 'sunset' upgrade screen in the ChatGPT app.
+Name: ChatGBeFree (Roothide)
+Author: Liam
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ChatGBeFree.json
+Depiction: https://jtisvn.github.io/depictions/ChatGBeFree.html
+Icon: https://jtisvn.github.io/sectionIcons/Càidat.png
 
 Package: com.liquid.morph
 Architecture: iphoneos-arm64
