@@ -15797,6 +15797,45 @@ Name: Snapper 3 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
 Author: Jonathan Winger-lang
 
+Package: com.jtis.snapper3
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
+Filename: ./debs/com.jtis.snapper3_1.2.1_iphoneos-arm64.deb
+Size: 1032156
+MD5sum: 854bb36d4ba28bfaa308e78b099669d0
+SHA1: a891b021c8b62b385d7ff205313c02c0cf8773f2
+SHA256: 46bc046fd43a2829113dfbcc4acb528d4510d2f1a2215372ee9ae9612f132f64
+SHA512: bf8b469c79aa515ac2c1533776420faefd9d188b1dfe12c11cef48f1630f4452756a2174e16dab14c41c77c0f85cf6702536413f8eee38219a67eebe9f11640c
+Description: Snapper 3 là công cụ chụp ảnh màn hình với nhiều chức năng cho IOS.  - Chức năng: - Ghim ảnh chụp đã cắt để hiển thị thông tin xuyên suốt các ứng dụng. - Sao chép, chia sẻ và lưu nhanh vùng màn hình đã chọn. - Nhận diện văn bản (OCR) trực tiếp từ ảnh hoặc ảnh chụp màn hình. - Quét mã QR ngay trên màn hình. - Xem lại lịch sử Snapper 3 để quản lý ảnh đã lưu. - Tải ảnh trực tiếp lên Imgur. - Hỗ trợ plugin như Translomatic, Tranzlo, HammerIt để dịch thuật và quản lý văn bản
+Name: Snapper 3 (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
+Author: Jonathan Winger-lang
+
+Package: com.jtis.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
+Filename: ./debs/com.jtis.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 1023036
+MD5sum: a78b193e43ade3bb9f637455ae3d3727
+SHA1: 6dc95f9aebdc3666be1fcb0f5aa8fe4711fa864d
+SHA256: edfe7d8d8e9109794ddc8b2a79dd98314b247899f7923a06ab5043c5f89b2e1a
+SHA512: b3303cefd42a5417ea9e8eaed5aff8cfc17d42f329ac05523d68e7aa6faace16bae036865c1956b3b3baa442e7a40106b6f6dc9aa186318f7a7fcb655db1cbbb
+Description: Snapper 3 là công cụ chụp ảnh màn hình với nhiều chức năng cho IOS.  - Chức năng: - Ghim ảnh chụp đã cắt để hiển thị thông tin xuyên suốt các ứng dụng. - Sao chép, chia sẻ và lưu nhanh vùng màn hình đã chọn. - Nhận diện văn bản (OCR) trực tiếp từ ảnh hoặc ảnh chụp màn hình. - Quét mã QR ngay trên màn hình. - Xem lại lịch sử Snapper 3 để quản lý ảnh đã lưu. - Tải ảnh trực tiếp lên Imgur. - Hỗ trợ plugin như Translomatic, Tranzlo, HammerIt để dịch thuật và quản lý văn bản
+Name: Snapper 3 (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
+Author: Jonathan Winger-lang
+
 Package: com.jtis.sneakycam
 Architecture: iphoneos-arm64
 Version: 2.0.7
@@ -18794,6 +18833,67 @@ Depiction: https://jtisvn.github.io/depictions/AppData.html
 Icon: https://jtisvn.github.io/sectionIcons/AppData.png
 Author: iosdump
 
+Package: com.jtisvn.appdata
+Architecture: iphoneos-arm
+Version: 2.7.5
+Section: Tweaks
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.jtisvn.appdata_2.7.5_iphoneos-arm.deb
+Size: 1719512
+MD5sum: e5b26f6795509403f4931d54a713c421
+SHA1: 14728e259dc16e49b32bbeb03e6c5ba514f56b22
+SHA256: 5ad75f732dc944f890967d46d2c00a77e3ef9858c1a9c231a6d92a89856a64a2
+SHA512: adbf4a6e96d3fa2fe2862951a162240e7043de64fcaa456e941f1207f63941fa61bd2bf05109ed141daeb6b5464dc929d432ad497e774a45b28cdcdce9a854d4
+Description: Xem dữ liệu ứng dụng và quản lý ứng dụng trên màn hình chính.
+Name: AppData
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppData.json
+Depiction: https://jtisvn.github.io/depictions/AppData.html
+Icon: https://jtisvn.github.io/sectionIcons/AppData.png
+Author: iosdump
+
+Package: com.jtisvn.appdata
+Architecture: iphoneos-arm64
+Version: 2.7.5
+Section: Tweaks
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.jtisvn.appdata_2.7.5_iphoneos-arm64.deb
+Size: 1719140
+MD5sum: 0bf7b25fa57d795217e067310051309c
+SHA1: 9b3c05fee2b63bd4723a302613b78b7a94eddf4a
+SHA256: 3975da82d4270664dcd186cc9b08cea2798e4698b3dc4192943f0f41d9f0d990
+SHA512: ce8eed177bc547e8a4834b3e1a619b196314ef86143d725a3c12070ed17ade87700343389566e312faed04278528ee344b04201495d7fe98d387c2bbbe4969a0
+Description: Xem dữ liệu ứng dụng và quản lý ứng dụng trên màn hình chính.
+Name: AppData (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppData.json
+Depiction: https://jtisvn.github.io/depictions/AppData.html
+Icon: https://jtisvn.github.io/sectionIcons/AppData.png
+Author: iosdump
+
+Package: com.jtisvn.appdata
+Architecture: iphoneos-arm64e
+Version: 2.7.5
+Section: Tweaks
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.jtisvn.appdata_2.7.5_iphoneos-arm64e.deb
+Size: 1707572
+MD5sum: 9cd27fb934667c1e1a207eba1a1e68e9
+SHA1: c5cf72be89866b70b0865001c9b50707f22c64b0
+SHA256: 6bd96b20f99139177facb8d947ef15eb42e2e491af29a39202020ead2dbf057c
+SHA512: 4e4fd5f69f67bc7448652067880d635ece9a073357e3ab235972a9118d944b7ff7bec67c7bb9196a1179d09e4862557c9c58d45e64e32855ef31a25489111814
+Description: Xem dữ liệu ứng dụng và quản lý ứng dụng trên màn hình chính.
+Name: AppData (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppData.json
+Depiction: https://jtisvn.github.io/depictions/AppData.html
+Icon: https://jtisvn.github.io/sectionIcons/AppData.png
+Author: iosdump
+
 Package: com.jtisvn.capcutcrack
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -20374,101 +20474,19 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.appdataviethoa
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.0_iphoneos-arm64.deb
-Size: 7872
-MD5sum: dd709bbc5f184a49459ce4a454fab952
-SHA1: 79efc4f7cdca037e31072895e838bb96bd257c99
-SHA256: 517088d6a85cc7ee706122e6a099145008209d33ab0a95859703fe83467cb655
-SHA512: fc9af0aefbb935234aa9a069fbe2676aa1d227d6f4103aec61c841f34eee42c24b8970d3ffa25cdd4cfacf21ecd3a89f2fca8a2d31fad9232cc3a54b5a0a9491
-Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
-Name: AppData gói Việt Hóa (Rootless)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.appdataviethoa
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.0_iphoneos-arm64e.deb
-Size: 8048
-MD5sum: fef9b32ad333fe97280f7d3244ee7360
-SHA1: 5d13383429fb965b08fdd560f985f976bcbb2295
-SHA256: 79d2d1d0b1bb8aa3dc42f26dd624b44955b0653da575de4257cd02d75b31e589
-SHA512: 4a48f87a91d1ba4248e3f8b3f463f3330b123d0cd8e0ae953d908234a6fe8064feb2dccef6343b59208b9cb920ccfa6cdce74d6631723a6a1aa372d9a51b2ac5
-Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
-Name: AppData gói Việt Hóa (Roothide)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.appdataviethoa
-Architecture: iphoneos-arm64
-Version: 1.0.2-1
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2-1_iphoneos-arm64.deb
-Size: 11496
-MD5sum: 7ca2abe4cf12f7da7217a4e4969396bf
-SHA1: f664a352c8d87c5d4b7ba66d1773f1b68e55a24a
-SHA256: f1eac4a03eb8c0b313602ad1541c2ad52617cde73acdbb14a73e08bec37538e9
-SHA512: 16b92fabae314a197c140c97a5d7efe5d9a3788a6f69d7dd181c19e8237982960577cbc4afbedd623df31c9521c89ff2973a62694942ed5da2cd57f7fb3cdec1
-Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
-Name: AppData gói Việt Hóa (Rootless)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.appdataviethoa
-Architecture: iphoneos-arm64e
-Version: 1.0.2-1
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2-1_iphoneos-arm64e.deb
-Size: 11104
-MD5sum: 5287c38364fcd0184aab79c7b7c81021
-SHA1: d2cc1e2a68fe4f03ce79fce590e10e2c9740f6f2
-SHA256: 6fe112d669cf71a16217de8bd0b98d330ce64f7de76918b7d69d26bccc426593
-SHA512: 4142c7b919fb0fe68cbb9af9a4af16f47b2273c7190e782fb23f28151451bd67de86c0815c3fa31932751dc4d2a0c1a7c8b3cdae42ca359c657cb7065db91315
-Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
-Name: AppData gói Việt Hóa (Roothide)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.appdataviethoa
 Architecture: iphoneos-arm
-Version: 1.0.2
+Version: 1.0.3
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 204
+Installed-Size: 220
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2_iphoneos-arm.deb
-Size: 13132
-MD5sum: e1d8f5ab2e967c7b381e28ec6b0533d1
-SHA1: 00785efa99faf43077f895735d2a6b56c3aa0736
-SHA256: e9e12377b2cbed048d32c377741731e70a251ddf474fba212cf02df8b7020b61
-SHA512: a240fa7145c2044ded5dd0e011914517cefdae003567dcb59fc7187ca52fb2536fd12b5b487cebe9f3be9687c807ca7f5efb3fbc3bfb12b51a6de813af6dfe73
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.3_iphoneos-arm.deb
+Size: 14040
+MD5sum: a5a6ce6af00835ef44344cd435e637e4
+SHA1: 5b48c3a3b0f67fdcb900a1ee39a84fe598c309d1
+SHA256: d1f842c2738deb97fd93d4daf33477309a347426abcc6658e77c75728c5126a5
+SHA512: 76fb29245fbc81cc6c88918ad2e1f6eb0566102b16728f7bba8682cc53dcb80e65128a2f4895bf2565eca0ee08f13a92baa0ef9f6d844a5e9fb4a0f06bc1863e
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
 Name: AppData gói Việt Hóa
 Author: Kitsudo
@@ -20477,18 +20495,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.appdataviethoa
 Architecture: iphoneos-arm64
-Version: 1.0.2
+Version: 1.0.3
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 204
+Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2_iphoneos-arm64.deb
-Size: 13184
-MD5sum: fb85dc6ce22d0d12591dd8ca38cf2c30
-SHA1: 3aebc230cc45988b9a1d89ef4c31e7bf4136b583
-SHA256: 3c64f9638a93043dbaa1a2c69280c2a3f0228d862196e6ad39c239b2d87a9578
-SHA512: 14d4fe0620bc19e6429d6bab7d7d9c01f7c6f29cf811055085848099352db1ea82d29129dfa25d0f5c7285c7257471e9c7c481d48a5798ba539d7404d963ed57
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.3_iphoneos-arm64.deb
+Size: 11800
+MD5sum: 1f8785d065963274266e33bdb328e225
+SHA1: d78a1e2a8651c16db7d0da9409aebabaa3431de5
+SHA256: d6745325aaf0d7dd20b4773d5f144371ccd6ed94f64c55450923a72700cbccc4
+SHA512: 0944250813b8f822f557eb6bc8c919c86df6d3a5a86249c02521e67f6cbfa83e485e4500b29ba9f147e01a410bf3a2305a7d29364d3b4298e14dc31292c5511a
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
 Name: AppData gói Việt Hóa (Rootless)
 Author: Kitsudo
@@ -20497,19 +20515,19 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.appdataviethoa
 Architecture: iphoneos-arm64e
-Version: 1.0.2
+Version: 1.0.3
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 204
+Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.2_iphoneos-arm64e.deb
-Size: 13168
-MD5sum: 5b954c1e5ffe5be70d376c71f4186277
-SHA1: f77278b98e166e6627525d3ee46d94ef65eb23b5
-SHA256: 1381f2a71bb2f3d6751fff7747aec93e0141b1e3c236837f000d5116b3aa704b
-SHA512: b3a2f2df5980491d05e9e63daf4643028a0a45e3c0bb69cd0b4e9b444226ffc1110749b6d3a4b70c5c06e1df03586026a96d0a1744eb4788cd21f83e4975f803
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.3_iphoneos-arm64e.deb
+Size: 11416
+MD5sum: af5ef510fafcd3fb0273cfe640a8a5d9
+SHA1: 66b7ef6358a02230b14e093752daabdde7b06021
+SHA256: 9baf96567411b781b48772714750cb95581d6c80ea5dfcedd985019b47ef913d
+SHA512: 0aa0ba8e028fe542116e692c955bf0e60bdb12c63dcafae5fd24fbbbe9edb553937c80217d57c0f9fcd34f806ca381a0c9585722b9b12e5728d677150a3804f2
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
 Name: AppData gói Việt Hóa (Roothide)
 Author: Kitsudo
@@ -21168,6 +21186,45 @@ Author: Kitsudo
 Depiction: https://k37ios.pages.dev/info/depictions/TikTokAutoSwipe.html
 SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/TikTokAutoSwipe.json
 Icon: https://k37ios.pages.dev/assets/TikTokAutoSwipe.png
+
+Package: com.kitsudo.transalt
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: KÃitsudo
+Installed-Size: 392
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.transalt_1.0.0_iphoneos-arm64.deb
+Size: 34040
+MD5sum: 3db14ae36dcff72bdb0179a80734ee6f
+SHA1: 10a8c9f77bc4378aa455d7f08f31f9592530cc88
+SHA256: d5b3b54ea898c88b1d650b07a9e3c58ca503fe1bd8103a4b7205caa5c52535df
+SHA512: eb354e0779f91d7f5008e995a7be9df8dc1a86d0e0478a85f2f8270b2cfadb8d999e14622e6b580c121785cd58dbdeba13fcbaca7dee53bc1a8c5c510caa481f
+Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
+Name: TransAlT (Rootless)
+Author: KÃitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TransAlT.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.transalt
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: KÃitsudo
+Installed-Size: 392
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.transalt_1.0.0_iphoneos-arm64e.deb
+Size: 32564
+MD5sum: 005cdc519913278eded63cfb40619ba3
+SHA1: 4f4fd6627ccffb53dad79cc8ba7cdf81c25c48c3
+SHA256: 1d1c3207ba3a9daad66856e66d1d2f6c3c081aa14d05ee20427a521c2046b9cf
+SHA512: c6d0bfc3f2e4e9cad4b7f306c7cd557338e2dda0aee5b3b7ae6ed74389712b2fa37adc82816e22559fed1fba43d78bd135e71a7cd5dfa06a420a5b0c21fd3569
+Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
+Name: TransAlT (Roothide)
+Author: KÃitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TransAlT.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.trollstoreviethoa
 Architecture: iphoneos-arm64

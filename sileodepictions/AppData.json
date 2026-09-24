@@ -93,7 +93,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "10/09/2026",
+"text": "24/09/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -111,7 +111,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.7.3",
+"text": "2.7.5",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -163,6 +163,14 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"markdown": "#### Phiên bản 2.7.5\n- Thêm tùy chọn trình quản lý tệp Filza mới (tự động chuyển hướng từ trang cài đặt / bảng điều khiển).\n- Thêm danh sách xem các ứng dụng đang bị chặn tự động cập nhật.\n- Bổ sung thêm các tùy chọn tắt âm thông báo ứng dụng.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "markdown": "#### Phiên bản 2.7.3\n- Thay đổi và xây dựng lại hạ cấp ứng đụng.",
 "useSpacing": true,
