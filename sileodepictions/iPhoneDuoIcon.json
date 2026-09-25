@@ -1,5 +1,5 @@
 {
-"minVersion":"0.1",
+"minVersion":"0.3",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#6699FF",
 "tabs":[
@@ -7,26 +7,65 @@
 "tabname":"Giới thiệu",
 "views":[
 {
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### Lunora\n\n- Tinh chỉnh tùy biến thanh trạng thái toàn diện dành cho iOS, kết hợp hoàn hảo giữa các viên Capsule thông tin hiệu ứng kính, vòng trạng thái Duo / Orbit và thanh mini Dock đa năng.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
 "url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"accessibilityText":"Screenshot 1"
 },
 {
 "url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"accessibilityText":"Screenshot 2"
 },
 {
 "url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-}
-],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
+"accessibilityText":"Screenshot 3"
 },
 {
-"markdown":"### iPhoneDuoIcon\n\n- Làm gọn không gian thanh trạng thái (status bar) của bạn. Tinh chỉnh này gộp chung các biểu tượng hiển thị pin, Wi-Fi và sóng di động (hỗ trợ cả 2 SIM) thành một biểu tượng duy nhất, mang lại giao diện tinh tế và hiện đại hơn..\n\n- **Tính năng nổi bật:**\n\n- Hiển thị thông minh: Kết hợp các biểu tượng trạng thái mạng và pin vào một khối thống nhất.\n- Tương tác chạm vào biểu tượng kết hợp trên thanh trạng thái để mở rộng và xem các biểu tượng gốc của hệ thống. Sau 3 giây, chúng sẽ tự động thu gọn lại để tiết kiệm không gian.\n- Tự động tô màu xanh lá cho biểu tượng mạng khi thiết bị kết nối VPN, giúp bạn dễ dàng nhận biết trạng thái bảo mật (có tùy chọn đảo ngược màu khi ngắt kết nối).\n- Điều chỉnh khoảng cách (từ 0 pt trở lên) để dịch chuyển Capsule sang trái, giúp tinh chỉnh tương thích hoàn hảo với phần khuyết màn hình (notch/Dynamic Island) của từng dòng máy.",
+"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/4.png",
+"accessibilityText":"Screenshot 4"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/5.png",
+"accessibilityText":"Screenshot 5"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/6.png",
+"accessibilityText":"Screenshot 6"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/7.png",
+"accessibilityText":"Screenshot 7"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/8.png",
+"accessibilityText":"Screenshot 8"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Lunora/Screenshots/9.png",
+"accessibilityText":"Screenshot 9"
+}
+],
+"itemCornerRadius":12,
+"itemSize":"{160,346}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Capsule thông tin bên trái:** Tùy chọn nhiều giao diện kính độc đáo (Classic, Glass, Split, Liquid Glass) tích hợp modun Giờ/Ngày, Nhà mạng, Thời tiết, Nhạc, Pin, Lịch và Âm lượng.\n- **Khu vực bên phải & Duo Orbit:** Vòng trạng thái gọn gàng hiển thị Wi-Fi, sóng di động, 5G/LTE và Pin. Hỗ trợ đổi màu từng thành phần và tùy chỉnh VPN độc lập.\n- **Thanh mini Dock:** Khay ứng dụng nhanh chứa từ 4 đến 8 ứng dụng cố định hoặc ứng dụng mở gần đây, cho phép mở ứng dụng trực tiếp từ thanh trạng thái.\n- **Tùy biến & Tương tác chi tiết:** Tùy chỉnh màu nền, đường viền pin động, cảnh báo Bluetooth và thiết lập cấu hình riêng biệt cho Màn hình khóa, Màn hình chính, CC hay In-App.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -87,7 +126,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15/09/2026",
+"text": "16/09/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +144,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.24",
+"text": "1.0.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -118,7 +157,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1,1 MB",
+"text": "2,8 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -131,7 +170,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "16.0 - 18.0",
+"text": "16.0 - 17.7",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -158,7 +197,7 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown": "#### Phiên bản 0.1.21k\n- Thêm ẩn định dạng thời gian 12 giờ AM/PM\n- Thèm tuỳ chỉnh vị trí bố cục biểu tượng quỹ đạo và viền thuốc\n- Thêm tuỳ chọn màu các biểu tượng  Pin, Wi-Fi, SIM cho Duo.",
+"markdown": "### Phiên bản 1.0.3\n- Sửa lỗi và thêm tính năng mới.\n- Cập nhật thêm Tiếng Việt.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },

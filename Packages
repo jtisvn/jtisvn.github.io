@@ -19287,6 +19287,49 @@ Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
 SileoDepiction:  https://k37ios.pages.dev/info/sileodepictions/InfiniteMedia.json
 Icon: https://k37ios.pages.dev/assets/InfiniteMedia.png
 
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3248
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.3_iphoneos-arm64.deb
+Size: 580060
+MD5sum: b3308fafe74541520d24d333e9e897f7
+SHA1: 57cbff19a28e8cbe87afa99c1a659dd430507301
+SHA256: 52222d8a00a631ac684c6e00a9e0bfd787c0151e99154bc313f63ad0ee78c464
+SHA512: 7d491cfed789906fc931ce4ac97415cb8dd690221c7b3c9f3445bdfa38a5bcd80f79f7c8243cdf050a25f5498717a9ef0aa5a09362326ba629b81f42ff742758
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3248
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.3_iphoneos-arm64e.deb
+Size: 574908
+MD5sum: 3b6c40c67810eea369499a5ac8ae876c
+SHA1: 86aa37980a2210007ae7a2b99279fe6800fc466f
+SHA256: 77c31f02b516d9636235e8166b46505c7d30fe22c6a9da451e37f2feada90f35
+SHA512: f55d53930fdfcaaf1a5e1f6d7379d52abbd15544d3a0f21f90f689b58a413102b02e0213cf17e4f0486c9a6c449fffe9c431a8911349aba2a17556e3b019d65c
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
 Package: com.jtisvn.kinewall
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -25568,47 +25611,6 @@ SHA512: b3a9805ed8e2897c42e60ec3380d22dfadbe2452d78febe61730cac3ac4656aebb6739d6
 Description: Decrypt Appstore App that require higher iOS
 Name: TrollDecryptJB
 Author: 34306, khanhduytran0
-
-Package: iya.banana.iphoneduoicon
-Architecture: iphoneos-arm64
-Version: 0.1.24k
-Section: Tweaks
-Maintainer: Banana
-Installed-Size: 864
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: ./debs/iya.banana.iphoneduoicon_0.1.24k_iphoneos-arm64.deb
-Size: 151180
-MD5sum: cf6ef1d0ed6f1fae569d5191422d86a2
-SHA1: 4f45b917d96c9a586580d66ebe03eee11211935f
-SHA256: 311edb4d28b04e43d3d414c8666179e7d5758c8c2e1c2456d67a434fc40172d4
-SHA512: 2a154656536f45089f56ee63a9658a0604f1b2b220620f9e2a517bf55e13af97d97832c52829e8bdf4b2a281d5207180d46f08bd14eb5cd8143b1e09cfcac715
-Description: Combined battery, Wi-Fi and dual-line Điều chỉnh trạng thái biểu tượng di động, pin, Wi-Fi và hai dòng kết hợp. Pin, Wi-Fi và tín hiệu di động là ba trong một, hỗ trợ hiển thị tín hiệu độc lập hai SIM.
-Name: iPhoneDuoIcon (Rootless)
-Author: Banana
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
-
-Package: iya.banana.iphoneduoicon
-Architecture: iphoneos-arm64e
-Version: 0.1.24k
-Section: Tweaks
-Maintainer: Banana
-Installed-Size: 864
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: ./debs/iya.banana.iphoneduoicon_0.1.24k_iphoneos-arm64e.deb
-Size: 151028
-MD5sum: b1246771f62af6f491327395e64d1e6d
-SHA1: e44b1c3be6e6f86024760240be34ab78b1e23f1f
-SHA256: ecfe588bce51a60eee6e1604216941aabe96d2d9d1521d94424aa2ad558dbfba
-SHA512: 90da838e3618db55cdfd1210e6768a252250d8c2cc6cf7aa19c82a6fe1e3bcf397f270c79642ae29b766549aebdd80a396c65a8ae318463f7f880012042a72d5
-Description: Combined battery, Wi-Fi and dual-line Điều chỉnh trạng thái biểu tượng di động, pin, Wi-Fi và hai dòng kết hợp. Pin, Wi-Fi và tín hiệu di động là ba trong một, hỗ trợ hiển thị tín hiệu độc lập hai SIM.
-Name: iPhoneDuoIcon (Roothide)
-Author: Banana
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
 
 Package: jp.dcsyhi.airaw.splitnative
 Architecture: iphoneos-arm64
