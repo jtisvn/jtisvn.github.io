@@ -189,6 +189,42 @@ Description: Support for legacy arm64e ABI in iOS 15.0+
 Name: Legacy arm64e Support
 Author: Nightwind
 
+Package: com.jtis.modern6
+Architecture: all
+Version: 2.1.2
+Section: Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/Modern6_2.1.2_all.deb
+Size: 7902144
+MD5sum: 513a3081aac531f5aa05f427d79be843
+SHA1: 3aa14555fb35a8a62f2f1dc0672045289049cb89
+SHA256: 8fc0c351207ed8c15673a9e5caa60acbb4fe6e69de62d8a656d4f1fde12693e4
+SHA512: 0096e8224c0f6ccf908fcdc3d9e566944811e6831ea199aa22fed6c7ebd503cce77e584df7882cd4d6b00c957486b70a8617dcb8570dbd52e13f41ae7e5ad00a
+Description: Chủ đề iOS 6 cổ điển.
+Name: Modern 6 Theme
+Author: IceCool Tech
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Modern6.json
+Depiction: https://jtisvn.github.io/depictions/Modern6.html
+Icon: https://jtisvn.github.io/sectionIcons/Modern6.png
+
+Package: com.jtis.onyx
+Architecture: all
+Version: 1.6
+Section: Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/Onyx_1.6_all.deb
+Size: 24403996
+MD5sum: 49de36bbb71ccf57b41d0d49be2a9383
+SHA1: 850dd125a30b3a5bc75521eb795a20eda1961a75
+SHA256: 82baada469a6547e2a4943e70eaa34ea07c4969635333ae6f668773af6180a62
+SHA512: 82a84b3bc4c7f688fbcea5a4d73400c7b9865cc4205a9eeb1a7312574756e08c6075277995f3840e3119a23166c0ac714e8ff49324e6b67d35097336088af0c6
+Description: Chủ đề Onyx.
+Name: Onyx
+Author: theprestigext
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Onyx.json
+Depiction: https://jtisvn.github.io/depictions/Onyx.html
+Icon: https://jtisvn.github.io/sectionIcons/Onyx.png
+
 Package: dev.theos.orion14
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -13211,43 +13247,6 @@ Author: Phuc Do
 SileoDepiction: https://jtisvn.github.io/sileodepictions/MiuminUIPro.json
 Icon: https://dobabaophuc1706.github.io/repo/package/CC/icon.png
 
-Package: com.jtis.modern6
-Architecture: iphoneos-arm64
-Version: 2.1.2
-Section: Chủ đề
-Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.modern6_2.1.2_iphoneos-arm64.deb
-Size: 7902348
-MD5sum: 001d15cb9fc3b7ee4d8cb5f7283fcd38
-SHA1: d0540965465e4e1c4d68f32a4c00fb58718b5134
-SHA256: 3c2acd749d19e08c670621759187b781a06a44c8577288fe6f4706213cedf0f1
-SHA512: 5f79e9aa457843ffac8616bbbbd1f18c3318257f04d3c42100c4056402554a06ce0aa43529deea5fbfb0ee8ad58e6be1f612e8320f869dbc07f5fb35a558936f
-Description: Chủ đề iOS 6
-Name: Modern 6
-Author: IceCool Tech
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Modern6.json
-Depiction: https://jtisvn.github.io/depictions/Modern6.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
-
-Package: com.jtis.modern6
-Architecture: iphoneos-arm64e
-Version: 2.1.2
-Section: Chủ đề
-Maintainer: JTISVN Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.jtis.modern6_2.1.2_iphoneos-arm64e.deb
-Size: 7901080
-MD5sum: 098d2ade59b533f332fcb2d42a53585a
-SHA1: fd7a7f763e9ba41a60232436cc609938fa66020d
-SHA256: b327608a9411169e90d4c2a6da4dde7d40096dffc1477db86f36061ba1e0c40a
-SHA512: c56cfdb7c1639cf6eeff71a7ade6894da351997ec7812089ba1cad81b3001ae41f376fa024b58fb46d085fbad1dc0252ed6ec7dc70247d88e9873a992682c592
-Description: Chủ đề iOS 6
-Name: Modern 6
-Author: IceCool Tech
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Modern6.json
-Depiction: https://jtisvn.github.io/depictions/Modern6.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
-
 Package: com.jtis.modernsettings
 Architecture: iphoneos-arm
 Version: 1.1
@@ -13955,43 +13954,6 @@ Name: OneSettings (Roothide)
 Author: Nightwind
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Onesetings.json
 Icon: https://jtisvn.github.io/sectionIcons/Onesettings.png
-
-Package: com.jtis.onyx
-Architecture: iphoneos-arm64
-Version: 1.6
-Section: Chủ đề
-Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.onyx_1.6_iphoneos-arm64.deb
-Size: 24404028
-MD5sum: 147bb0dbb9f95f5dc0265e3dac9e3e36
-SHA1: 5b01008bcb8ee052af04d1859c0ec92a261b174b
-SHA256: 2edc47df0400af2efc7ce392b5f89eea74fb1b7ab98ba95e5729fcb0934bccf1
-SHA512: 1557041db5b20f94ea8018ac495e9069674db6166aecf32c917fa1c9a7825faae3b09eb031727da5487e8e2c03b8eba65070602b04d78df923ad32739567df26
-Homepage: https://jtisvn.github.io/
-Description: Chủ đề Onyx
-Name: Onyx
-Author: theprestigext
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Onyx.json
-Depiction: https://jtisvn.github.io/depictions/Onyx.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
-
-Package: com.jtis.onyx
-Architecture: iphoneos-arm64e
-Version: 1.6
-Section: Chủ đề
-Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.onyx_1.6_iphoneos-arm64e.deb
-Size: 24403004
-MD5sum: 55b0f4ceb430b7d255432417330eee55
-SHA1: fbff1459df2ed8041552de022c17bc09c631684c
-SHA256: d15b6925daa6ca68e4168665cbf667b930bd5e561605c21c07b0d241c3e710eb
-SHA512: febfb88e7c376d289b0315034005dfdbd73242849b3dd3a031be82b0078ee095513db32a752fd6b1168c711a1071e9e7d3b07cf3c8072197c63d6b5af0247f26
-Description: Chủ đề Onyx
-Name: Onyx
-Author: theprestigext
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Onyx.json
-Depiction: https://jtisvn.github.io/depictions/Onyx.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.passtext
 Architecture: iphoneos-arm64
