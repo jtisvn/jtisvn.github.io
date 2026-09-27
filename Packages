@@ -92,6 +92,28 @@ Description: App Store companion for jailbroken iOS devices
 Name: AppStore++
 Author: CokePokes
 
+Package: ai.akemi.appsyncunified
+Architecture: iphoneos-arm64e
+Version: 116.0
+Section: System
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Provides: appsync, net.angelxwind.appsyncunified
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Filename: ./debs/AppSync Unified-116.0-iphoneos-arm64e.deb
+Size: 34988
+MD5sum: cae0d43ada786f9a9ab03e4ab4b5297e
+SHA1: c815cea9a0cd2d7c3818fe5223839020579403b1
+SHA256: 54b42828a318de5a5d37d5828092d1932c61ed779a06b43866f4db11ad705a8c
+SHA512: 4897f7690eb8924cb366a9ee4fd69c0c8fa4e20aea4c07fc0a12b3189b98209b4edc6c775634ceea1a5226977482e7ef98828e5d9577dc1f78e60943c5c4ad5f
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2
@@ -207,6 +229,23 @@ Description: A MobileSubstrate-based utility that allows developers to add entri
 Name: PreferenceLoader
 Author: Dustin Howett <dustin@howett.net>
 
+Package: xyz.cypwn.python314
+Architecture: iphoneos-arm64
+Version: 3.14.3
+Priority: optional
+Section: Development
+Maintainer: CyPwn
+Installed-Size: 147920
+Filename: ./debs/Python 3.14.3-3.14.3-iphoneos-arm64.deb
+Size: 48929424
+MD5sum: 0d1f392a4637ec9e99d01732db2586dd
+SHA1: 84e392107d515968625ffb52f862358a626f91aa
+SHA256: 52732561df361e892efcbb00378a2de043d5703562aae219c2eab23fdce8d2eb
+SHA512: 4cd86e4da3d322c33d3a8890c27c31f91260cc5dc38b9ce81664cb7bd6853646bcdd34384bd3adf1966eacf42f991895592e1aa0920658966de13deda48f3fc3
+Description: Python 3.14.3 for jailbroken iOS.- Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2, zstd), curses, and dbm/gdbm. Multi-version safe.- Install pip:python3.14 -m ensurepip
+Icon: https://huayuarc.github.io/icon/python.jpg
+Name: Python 3.14.3
+
 Package: com.roothide.manager
 Architecture: iphoneos-arm64e
 Version: 1.3.9
@@ -246,6 +285,25 @@ Author: roothide
 icon: https://huayuarc.github.io/icon/manager.png
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
+
+Package: wiki.qaq.umbra
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 1880
+Depends: firmware (>= 15.0)
+Conflicts: com.roothide.manager
+Replaces: com.roothide.manager
+Filename: ./debs/Umbra (RootHide Manager)-2.0-iphoneos-arm64e.deb
+Size: 1018384
+MD5sum: 7a45709ffea5211b15d7f95bda1a3293
+SHA1: 7dd51770f92a1d28db4bfbdab9ed08e484f88a4e
+SHA256: d62cb01efe2cf2ec41df96fa2c5eaf19b2c1ef5a689f6b14ee677967e3f3ef3f
+SHA512: 8315beeb9b592c53d938886ffb5b8862661cf57d040b5d977732ce7df566019d3eabda46127d236fcd4b22e1d37b2a5ce247c5d1e69c508df3a17ffbc2c5aa8d
+Description: Manage jailbreak concealment in RootHide environments.
+Name: Umbra (RootHide Manager)
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: com.hoanganh.unlockwave
 Architecture: iphoneos-arm64e
@@ -489,15 +547,15 @@ Section: Themes
 Maintainer: JTISVN Repo
 Filename: ./debs/cartoon_1.1_all.deb
 Size: 371920
-MD5sum: eb1a1a95f43d92a53a7a7f5760a2db3b
-SHA1: d4ac1112ca0cb9393aee306263dafea39938e2b0
-SHA256: ed413a0ac27558e5be434b3afeb914d52e09bdac2955300a2385f7d9f7338437
-SHA512: ed2b0e2302297e5738ac0c25f024b146392d3f757052aa8b17387d574f1c88a40ed298c45531afabe8e553c87cfa64d6763a077b5730ea301c3003e5f339d9c8
+MD5sum: c8266f5d7456a7cd2ac957d493fe29f1
+SHA1: 6dee686d9e04f657bbb408557dbe88cf3eebd43c
+SHA256: c06a87640084e33ee277822eba5c091ea87525b4b0217f0f4ab9b5bd89e6afe5
+SHA512: 48cb8d66ba6ba48435a2e3db9f65ba975b4f4fe6314b210fdb7afda5ca8ef7aff6be6da9c8682ba934694c475ee80d96adcfb1756f4a7d0c3659fbe5cf0237a6
 Description: Chủ đề Cartoon cho trình quay số & mặt khẩu màn hình khoá.
 Name: Cartoon Dialer Passcode
 Author: Yangon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+Icon: https://jtisvn.github.io/sectionIcons/Cartoo.png
 
 Package: cc.igerman.taptapslumber
 Architecture: iphoneos-arm64
@@ -25595,6 +25653,56 @@ Description: Be the god of your games!
 Name: iGameGod
 Author: iGameGod
 
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 19496
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: ./debs/iGhostVT-1.0.3-iphoneos-arm64.deb
+Size: 9084920
+MD5sum: f7f51e2b4140a4719fb702dd119e4a9e
+SHA1: fff21e323cd70765d37f84e206c593dc6fc8acde
+SHA256: 244972400cbc80412f8243ec54b3c5fb1bde1e29fd06d53e599a659f4d94e11a
+SHA512: 4acb906c44756c6aabc167dc5987302b0de19ba32cda208e2fed9a010e279eeef1faf414d47c3bfd462bc665de87e45567eb39599943420ee8bd384b4abf85ff
+Description: Ghostty-powered terminal for iOS and visionOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone, iPad and Apple Vision Pro.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: xros-arm64e
+Version: 1.0.3
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 12308
+Depends: firmware (>= 1.0), uikittools, launchctl, shell-cmds
+Filename: ./debs/iGhostVT-1.0.3-xros-arm64e.deb
+Size: 5018866
+MD5sum: af855c421f606124d90f4a7c10dc6629
+SHA1: 145abb0f15e0556eed8295d43b285d25383604f7
+SHA256: 52699f85fdc1be47bbdb41f76d2bbbbfe1c21352e0110e6af18652a99966b685
+SHA512: 243c4ea0deba54a34e67e890b52e2daada843bf319c340a4dbc594a9f563b766dee117bb2c5eb7bee69d086fcac0c82ad47b940868a164eeaab6aec455e85c29
+Description: Ghostty-powered terminal for iOS and visionOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone, iPad and Apple Vision Pro.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
 Package: com.34306.trolldecryptjb
 Architecture: iphoneos-arm64
 Version: 1.3.1-1+debug
@@ -27269,14 +27377,14 @@ Architecture: all
 Version: 1.0
 Section: Themes
 Maintainer: JTISVN Repo
-Filename: ./debs/snokeddark_1.0_all.deb
-Size: 7575224
-MD5sum: 8e5f3b79c6678d06c57472f0d06283cd
-SHA1: 4871abb43c79b8d01d405e8a75ba15474d533dd7
-SHA256: 3d18088716d507514202e13bb06e508ccf344fcf9de39a1a438002b0202c1bb0
-SHA512: eb382cc656ab8ac2ffb72371d8f977b11845e7819922f407201c7f35e2b55150f0aa51ef9724452968ae0b5ee0d6b1c2b16d70e37a269e09ea74a2c6d83370b0
-Description: Chủ đề Snoked Glass Dark
-Name: Snoked Glass
+Filename: ./debs/snokedios26dark_1.0_all.deb
+Size: 7575208
+MD5sum: 706f324cd95b7f0a8a7f99262fd5a6e7
+SHA1: c8cae6fa2efe1225711da3ac15a987586c91fd6a
+SHA256: 6c5cb11e097e94f36e33caaef8104cbcbf97a51fb006e1867a77b76d934bde16
+SHA512: 8f4c56c7b755670efe66e9515b76941e1796e9997173af82897e76fafb4f37af1b31ad3631737dfb59e5a40d1025959ddff95a1fc20b9c3d1c6ac3ea09cbb667
+Description: Chủ đề Snoked Glass iOS 26 Dark
+Name: iOS26 Dark Theme
 Author: Nguyên Tokuda
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SG-dark.json
 Depiction: https://jtisvn.github.io/depictions/SG-dark.html

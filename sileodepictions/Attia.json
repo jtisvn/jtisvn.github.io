@@ -45,7 +45,7 @@
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- Tính năng:\n\n- Bố cục và điểu chỉnh biều tượng cho mỗi trang.\n\n- Tự động định vị và tương thích widget.\n\n- Tự động lưu trạng thái biểu tượng.\n\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng\n\n- Tùy chỉnh tỷ lệ biểu tượng widget\n\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n\n- Tùy chỉnh khoảng cách trang và widget.\n\n- Bật/Tắt Thư viện Ứng dụng\n\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục\n\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng\n\n- Tuỳ chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.n\n- Tùy chỉnh vị trí dấu chấm trang\n\n- Xuất và nhập các chuỗi cài đặt đặt trước\n\n- Và còn nhiều tùy chọn khác nữa.",
+"markdown": "- **Tính năng nổi bật:**\n\n- Bố cục và điểu chỉnh biều tượng cho mỗi trang.\n\n- Tự động định vị và tương thích widget.\n\n- Tự động lưu trạng thái biểu tượng.\n\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng\n\n- Tùy chỉnh tỷ lệ biểu tượng widget\n\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n\n- Tùy chỉnh khoảng cách trang và widget.\n\n- Bật/Tắt Thư viện Ứng dụng\n\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục\n\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng\n\n- Tuỳ chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.n\n- Tùy chỉnh vị trí dấu chấm trang\n\n- Xuất và nhập các chuỗi cài đặt đặt trước\n\n- Và còn nhiều tùy chọn khác nữa.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

@@ -41,7 +41,7 @@
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- Chức năng:\n\n- Gom thông báo: Tự động nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n\n- Tương tác nhanh: Chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n\n- Tuỳ chỉnh: Cho phép điều chỉnh vị trí và giao diện của các biểu tượng phù hợp theo sở thích của bạn.",
+"markdown": "- **Tính năng nổi bật:**\n\n- Gom thông báo: Tự động nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n\n- Tương tác nhanh: Chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n\n- Tuỳ chỉnh: Cho phép điều chỉnh vị trí và giao diện của các biểu tượng phù hợp theo sở thích của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

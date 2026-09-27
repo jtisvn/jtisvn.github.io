@@ -1,11 +1,11 @@
 {
-"minVersion":"0.3",
-"headerImage":"https://raw.githubusercontent.com/kernelrw/kernelrw.github.io/main/SileoDepiction/DuoCap/DuoCap.png",
-"tintColor":"#66FFFF",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://raw.githubusercontent.com/kernelrw/kernelrw.github.io/main/SileoDepiction/DuoCap/DuoCap.png",
+"tintColor": "#CCFFFF",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
 "class": "DepictionSpacerView",
 "spacing": 12
@@ -17,22 +17,27 @@
 "openExternal": true
 },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/DuoCap/Screenshots/1.png",
-"accessibilityText":"Screenshot 1"
+"markdown": "### DuoCap\n\n- Mang phong cách Duo lên các thiết bị iOS đời cũ, tích hợp hiển thị pin, thông số mạng và trạng thái kết nối thành một vòng tròn tinh tế ngay trên thanh trạng thái.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/DuoCap/Screenshots/2.png",
-"accessibilityText":"Screenshot 2"
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/DuoCap/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DuoCap/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
 }
 ],
-"itemCornerRadius":12,
-"itemSize":"{160,346}"
+"itemCornerRadius": 12,
+"itemSize": "{160,346}"
 },
 {
-"markdown":"### DuoCap\n\n- Mang phong cách Duo lên các thiết bị iOS đời cũ, tích hợp hiển thị pin, thông số mạng và trạng thái kết nối thành một vòng tròn tinh tế ngay trên thanh trạng thái.\n\n- **Tính năng nổi bật:**\n\n- Biểu tượng gộp thông minh: Thay thế các biểu tượng rườm rà bằng một vòng tròn động tích hợp dung lượng pin, sóng di động và Wi-Fi.\n- Tùy chỉnh hiển thị phần trăm pin trong vòng tròn, tự động đổi màu  khi sạc, pin yếu hoặc sắp hết.\n- Tùy chỉnh kích thước vòng tròn bằng thanh trượt để vừa vặn với phần khuyết màn hình (notch/Dynamic Island).",
+"markdown": "- **Tính năng nổi bật:**\n\n- Biểu tượng gộp thông minh: Thay thế các biểu tượng rườm rà bằng một vòng tròn động tích hợp dung lượng pin, sóng di động và Wi-Fi.\n- Tùy chỉnh hiển thị phần trăm pin trong vòng tròn, tự động đổi màu  khi sạc, pin yếu hoặc sắp hết.\n- Tùy chỉnh kích thước vòng tròn bằng thanh trượt để vừa vặn với phần khuyết màn hình (notch/Dynamic Island).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -151,70 +156,70 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
 "markdown": "### Phiên bản 1.0.3\n- Sửa lỗi.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Liên Hệ Hỗ Trợ",
-"views":[
+"tabname": "Liên Hệ Hỗ Trợ",
+"views": [
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Kênh Telegram",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

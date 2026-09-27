@@ -1,11 +1,16 @@
 {
 "minVersion":"0.4",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#FFCCFF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo"
+},
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -30,7 +35,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Accent Custom\n\n- Một tinh chỉnh cho phép bạn thay đổi và tùy chỉnh màu sắc nhấn (accent color) theo phong cách macOS trên toàn bộ hệ thống iOS, mang lại một giao diện được cá nhân hóa và đồng bộ hơn.",
+"markdown":"### Accent Custom\n\n- Một tinh chỉnh cho phép bạn thay đổi và tùy chỉnh màu sắc nhấn (accent color) theo phong cách macOS trên toàn bộ hệ thống iOS, mang lại một giao diện được cá nhân hóa và đồng bộ hơn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

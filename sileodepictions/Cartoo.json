@@ -7,6 +7,11 @@
 "tabname":"Giới thiệu",
 "views":[
 {
+"class": "DepictionButtonView",
+"text": "Nhóm chat Telegram",
+"action": "https://t.me/jtisvietnamrepo"
+},
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -18,7 +23,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Cartoo Passcode\n\n- Chủ đề giao diện hoạt hình (Cartoon) cho Trình quay số (Dialer) & Mật khẩu màn hình khoá (Passcode), được thiết kế lại bởi **Kitsudo**.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"markdown":"### Cartoo Passcode\n\n- Chủ đề giao diện hoạt hình (Cartoon) cho Trình quay số (Dialer) & Mật khẩu màn hình khoá (Passcode), được thiết kế lại bởi **Kitsudo**.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

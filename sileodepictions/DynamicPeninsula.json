@@ -1,11 +1,16 @@
 {
 "minVersion":"0.4",
 "headerImage":"https://jtisvn.github.io/coverimage/DynamicPeninsula.png",
-"tintColor":"#5777B8",
+"tintColor":"#0033CC",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo"
+},
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[

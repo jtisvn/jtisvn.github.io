@@ -7,6 +7,11 @@
 "tabname":"Giới thiệu",
 "views":[
 {
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo"
+},
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {

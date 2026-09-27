@@ -1,11 +1,16 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#00CCFF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo"
+},
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[

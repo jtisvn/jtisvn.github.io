@@ -1,28 +1,43 @@
 {
-"minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/A-Font.png",
-"tintColor":"#79CDCD",
-"tabs":[
+"minVersion": "0.4",
+"headerImage": "https://jtisvn.github.io/coverimage/A-Font.png",
+"tintColor": "#79CDCD",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/A-Font/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"spacing": 12,
+"class": "DepictionSpacerView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/A-Font/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown": "- A-Font - Thay Đổi Phông Chữ Hệ Thống\n\n- Tinh chỉnh cho phép thay thế phông chữ mặc định của iOS bằng bất kỳ phông chữ nào bạn muốn, tùy chỉnh giao diện theo phong cách riêng.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/A-Font/Screenshots/1.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/A-Font/Screenshots/2.png",
+"accessibilityText": "Screenshot"
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"\n\n- A-Font - Thay Đổi Phông Chữ Hệ Thống\n\n- Tinh chỉnh cho phép thay thế phông chữ mặc định của iOS bằng bất kỳ phông chữ nào bạn muốn, tùy chỉnh giao diện theo phong cách riêng.\n\n- Chức năng chính:\n\n- Thay đổi font toàn hệ thống: Áp dụng phông chữ cho mọi nơi, từ ứng dụng đến giao diện hệ thống.\n\n- Loại trừ ứng dụng: Dễ dàng vô hiệu hóa tinh chỉnh trên các ứng dụng bạn chọn để tránh lỗi hiển thị.\n\n- Tùy chỉnh linh hoạt: Hỗ trợ điều chỉnh kích thước và áp dụng font cho cả nội dung web (WebKit).\n\n- Dễ dàng thêm font mới: Chỉ cần sao chép file font (.ttf, .otf) vào đường dẫn /Library/A-Font/ để sử dụng ngay.",
+"markdown": "- Tính năng chính:\n\n- Thay đổi font toàn hệ thống: Áp dụng phông chữ cho mọi nơi, từ ứng dụng đến giao diện hệ thống.\n\n- Loại trừ ứng dụng: Dễ dàng vô hiệu hóa tinh chỉnh trên các ứng dụng bạn chọn để tránh lỗi hiển thị.\n\n- Tùy chỉnh linh hoạt: Hỗ trợ điều chỉnh kích thước và áp dụng font cho cả nội dung web (WebKit).\n\n- Dễ dàng thêm font mới: Chỉ cần sao chép file font (.ttf, .otf) vào đường dẫn /Library/A-Font/ để sử dụng ngay.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -141,61 +156,61 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"tintColor":"#79CDCD",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"tintColor": "#79CDCD",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootfull, Rootless & Roothide Jailbreak"
+"class": "DepictionMarkdownView",
+"markdown": "### Hỗ trợ Rootfull, Rootless & Roothide Jailbreak"
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
-"views":[
+"tabname": "Liên hệ Hỗ trợ",
+"views": [
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Kênh Telegram",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }
