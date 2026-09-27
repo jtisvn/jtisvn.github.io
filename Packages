@@ -27494,6 +27494,47 @@ Name: SnowBoard UI Extension
 Author: Spark
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
 
+Package: tf.festival.rescale2
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: Nezuko
+Installed-Size: 864
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/tf.festival.rescale2_2.0_iphoneos-arm64.deb
+Size: 170452
+MD5sum: 438e4304b46dff4bc8003691150ebad5
+SHA1: 4a814405cecf6628b4820080ba703a4236fc2009
+SHA256: 832e4eae8a97b36b1090682f09c149ccefc2a057cd8a7cf9d8cc34bd8e8ef6a2
+SHA512: b906c7870acf398da4315307079887d37080b91a80119f07fa60523d732f0a6e989834d9dd929bf9e4b617662a6614663c7bd234d8e19197e643ed1167b38283
+Description: A modern (and safe) Upscale alternative!
+Name: Re:Scale 2 (Rootless)
+Icon: https://siieo.github.io/sileodepictions/ReScale2/icon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ReScale2.json
+Depiction: https://jtisvn.github.io/depictions/ReScale2.html
+Author: Sniper_GER & Nezuko <sniperger@festival.ml>
+
+Package: tf.festival.rescale2
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: Nezuko
+Installed-Size: 864
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/tf.festival.rescale2_2.0_iphoneos-arm64e.deb
+Size: 170136
+MD5sum: ae70a243c1015cd46c812918295888ae
+SHA1: 8582982f19a9c80cf8a3e823e2bb1ad14eb08698
+SHA256: d8771afae5ed05f5a82461bb4977318e242b5d6e339670d42fb94b58a0232fb0
+SHA512: 937360793fcfd342e910f05a8219da076c8ca1cd7b31823ece30b3278bcf332e5e71d0d2bebaff9cb22cd65683be358ffe502c2dd7da46ed6eda501178c49ff2
+Description: A modern (and safe) Upscale alternative!
+Name: Re:Scale 2 (Roothide)
+Icon: https://siieo.github.io/sileodepictions/ReScale2/icon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ReScale2.json
+Depiction: https://jtisvn.github.io/depictions/ReScale2.html
+Author: Sniper_GER & Nezuko <sniperger@festival.ml>
+
 Package: com.vivostyle.tweak
 Architecture: iphoneos-arm64e
 Version: 1.0.0
