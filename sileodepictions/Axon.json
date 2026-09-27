@@ -1,32 +1,47 @@
 {
-"minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
-"tabs":[
+"minVersion": "0.4",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#5777B8",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/Axon/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"spacing": 12,
+"class": "DepictionSpacerView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Axon/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Axon/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"markdown": "Axon\n\n- Xem và gom nhóm thông báo trên màn hình khoá.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/Axon/Screenshots/1.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Axon/Screenshots/2.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Axon/Screenshots/3.png",
+"accessibilityText": "Screenshot"
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"Axon\n\n- Xem và gom nhóm thông báo trên màn hình khoá.\n\n- Chức năng:\n\n- Gom thông báo: Tự động nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n\n- Tương tác nhanh: Chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n\n- Tuỳ chỉnh: Cho phép điều chỉnh vị trí và giao diện của các biểu tượng phù hợp theo sở thích của bạn.",
+"markdown": "- Chức năng:\n\n- Gom thông báo: Tự động nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n\n- Tương tác nhanh: Chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n\n- Tuỳ chỉnh: Cho phép điều chỉnh vị trí và giao diện của các biểu tượng phù hợp theo sở thích của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -145,60 +160,60 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.6\n\n- Thêm chuyển đổi Respring ngay lập tức khi chọn kiểu\n\n- Sửa lỗi và tối ưu hoá thông báo\n\n- Thêm ngôn ngữ Tiếng Việt."
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.6\n\n- Thêm chuyển đổi Respring ngay lập tức khi chọn kiểu\n\n- Sửa lỗi và tối ưu hoá thông báo\n\n- Thêm ngôn ngữ Tiếng Việt."
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
-"views":[
+"tabname": "Liên hệ Hỗ trợ",
+"views": [
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Kênh Telegram",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

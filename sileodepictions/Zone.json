@@ -7,6 +7,21 @@
 "tabname": "Giới thiệu",
 "views": [
 {
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown": "### Zone\n\n- Tinh chỉnh quản lý hình nền mạnh mẽ cho iOS, mang đến không gian sống động với hình nền video và tương tác định dạng (.tendies).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
 "class": "DepictionScreenshotsView",
 "screenshots": [
 {
@@ -34,7 +49,7 @@
 "itemSize": "{185,400}"
 },
 {
-"markdown": "### Zone\n\n- Tinh chỉnh quản lý hình nền mạnh mẽ cho iOS, mang đến không gian sống động với hình nền video và tương tác định dạng (.tendies).\n\n- **Tính năng nổi bật:**\n- Tùy chỉnh độc lập: Cài đặt hình nền riêng biệt hoặc chung cho Màn hình khóa và Màn hình chính.\n- Sức mạnh Engine: Tương thích hoàn hảo với Chế độ tối, hỗ trợ can thiệp sâu để sửa từng lớp (nền, nổi, tiền cảnh) và mã CAML.\n- Tiện ích đi kèm: Chạm kép để khóa màn hình, tùy chỉnh đổ bóng chữ và tốc độ hoạt ảnh.\n\n- **Tối ưu Pin & Hiệu năng:**\n- Ép xung Render: Cho phép giảm độ phân giải xuống 70%, 50% hoặc 25% để máy luôn mượt và tiết kiệm pin.\n- Quản lý RAM thông minh: Tự động đóng băng hình nền, giải phóng bộ nhớ khi bạn mở ứng dụng khác hoặc khi thiết bị bật Chế độ nguồn điện thấp.",
+"markdown": "- **Tính năng nổi bật:**\n- Tùy chỉnh độc lập: Cài đặt hình nền riêng biệt hoặc chung cho Màn hình khóa và Màn hình chính.\n- Sức mạnh Engine: Tương thích hoàn hảo với Chế độ tối, hỗ trợ can thiệp sâu để sửa từng lớp (nền, nổi, tiền cảnh) và mã CAML.\n- Tiện ích đi kèm: Chạm kép để khóa màn hình, tùy chỉnh đổ bóng chữ và tốc độ hoạt ảnh.\n\n- **Tối ưu Pin & Hiệu năng:**\n- Ép xung Render: Cho phép giảm độ phân giải xuống 70%, 50% hoặc 25% để máy luôn mượt và tiết kiệm pin.\n- Quản lý RAM thông minh: Tự động đóng băng hình nền, giải phóng bộ nhớ khi bạn mở ứng dụng khác hoặc khi thiết bị bật Chế độ nguồn điện thấp.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -199,8 +214,8 @@
 {
 "class": "DepictionTableButtonView",
 "openExternal": 1,
-"title": "Tham gia nhóm chat Telegram",
-"action": "https://t.me/jtisvietnamrepo",
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn",
 "icon": "https://img.icons8.com/ios-filled/50/4facfe/telegram-app.png"
 },
 {

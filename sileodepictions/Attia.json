@@ -1,36 +1,51 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/Atria.png",
-"tintColor":"#996666",
-"tabs":[
+"minVersion": "0.1",
+"headerImage": "https://jtisvn.github.io/coverimage/Atria.png",
+"tintColor": "#996666",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/Atria/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"spacing": 12,
+"class": "DepictionSpacerView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Atria/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Atria/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"markdown": "Atria\n\n- Mang đến một hệ thống cấu hình bố cục màn hình chính linh động cho người dùng iOS",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Atria/Screenshots/4.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/1.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/2.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/3.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/4.png",
+"accessibilityText": "Screenshot"
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"Atria\n\n- Mang đến một hệ thống cấu hình bố cục màn hình chính linh động cho người dùng iOS\n\n- Tính năng:\n\n- Bố cục và điểu chỉnh biều tượng cho mỗi trang.\n\n- Tự động định vị và tương thích widget.\n\n- Tự động lưu trạng thái biểu tượng.\n\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng\n\n- Tùy chỉnh tỷ lệ biểu tượng widget\n\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n\n- Tùy chỉnh khoảng cách trang và widget.\n\n- Bật/Tắt Thư viện Ứng dụng\n\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục\n\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng\n\n- Tuỳ chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.n\n- Tùy chỉnh vị trí dấu chấm trang\n\n- Xuất và nhập các chuỗi cài đặt đặt trước\n\n- Và còn nhiều tùy chọn khác nữa.",
+"markdown": "- Tính năng:\n\n- Bố cục và điểu chỉnh biều tượng cho mỗi trang.\n\n- Tự động định vị và tương thích widget.\n\n- Tự động lưu trạng thái biểu tượng.\n\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng\n\n- Tùy chỉnh tỷ lệ biểu tượng widget\n\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n\n- Tùy chỉnh khoảng cách trang và widget.\n\n- Bật/Tắt Thư viện Ứng dụng\n\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục\n\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng\n\n- Tuỳ chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.n\n- Tùy chỉnh vị trí dấu chấm trang\n\n- Xuất và nhập các chuỗi cài đặt đặt trước\n\n- Và còn nhiều tùy chọn khác nữa.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -149,60 +164,60 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"###  Phiên bản 1.4.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"class": "DepictionMarkdownView",
+"markdown": "###  Phiên bản 1.4.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
-"views":[
+"tabname": "Liên hệ Hỗ trợ",
+"views": [
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Kênh Telegram",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

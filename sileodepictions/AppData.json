@@ -1,38 +1,47 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#CCCCFF",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#99CCFF",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
 {
 "class": "DepictionButtonView",
-"text": "Tham gia nhóm chat Telegram",
+"text": "Tham gia nhóm K37•JTISVN",
 "action": "https://t.me/jtisvietnamrepo",
-"openExternal": 1
+"openExternal": true
 },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/AppData/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"markdown": "### AppData (Chỉnh sửa bởi iosdump)\n\n- Công cụ hỗ trợ xem và quản lý dữ liệu ứng dụng trực tiếp từ màn hình chính iOS một cách nhanh chóng và tiện lợi.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/AppData/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/AppData/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/AppData/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/AppData/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/AppData/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 }
 ],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"### AppData Phiên bản chỉnh sửa bởi iosdump\n\n- Công cụ hỗ trợ xem và quản lý dữ liệu ứng dụng trực tiếp từ màn hình chính iOS một cách nhanh chóng và tiện lợi.\n- **Tính năng nổi bật:**\n- Quản lý dữ liệu: Xóa bộ nhớ đệm (Cache), xóa toàn bộ dữ liệu ứng dụng, đặt lại quyền hệ thống hoặc hạ cấp ứng dụng.\n- Tùy chỉnh biểu tượng: Đổi tên biểu tượng, ẩn ứng dụng và quản lý bố cục menu nhanh.\n- Chạy nền & Chặn ứng dụng: Hỗ trợ tính năng chạy nền nâng cao (Backgrounding), chặn ứng dụng mở hoặc bị mở, và chặn tự động cập nhật.\n- Lược đồ & Định danh: Xem nhanh Bundle ID, Container Path, App Groups, URL Schemes và mở nhanh vị trí thư mục trong Filza.\n- Thao tác nhanh: Tích hợp tùy chọn vuốt hoặc dùng Menu 3D Touch trên biểu tượng ứng dụng.|\n- **Lưu ý:** Xoá tweak AppData gốc trước khi cài đặt để tránh lỗi xung đột.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Quản lý dữ liệu:** Xóa bộ nhớ đệm (Cache), xóa toàn bộ dữ liệu ứng dụng, đặt lại quyền hệ thống hoặc hạ cấp ứng dụng.\n- **Tùy chỉnh biểu tượng:** Đổi tên biểu tượng, ẩn ứng dụng và quản lý bố cục menu nhanh.\n- **Chạy nền & Chặn ứng dụng:** Hỗ trợ tính năng chạy nền nâng cao (Backgrounding), chặn ứng dụng mở hoặc bị mở, và chặn tự động cập nhật.\n- **Lược đồ & Định danh:** Xem nhanh Bundle ID, Container Path, App Groups, URL Schemes và mở nhanh vị trí thư mục trong Filza.\n- **Thao tác nhanh:** Tích hợp tùy chọn vuốt hoặc dùng Menu 3D Touch trên biểu tượng ứng dụng.\n\n- **Lưu ý:** Xoá tweak AppData gốc trước khi cài đặt để tránh lỗi xung đột.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -124,7 +133,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "375,7 KB",
+"text": "375.7 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -139,7 +148,7 @@
 "class": "DepictionLabelView",
 "text": "14.0 - 17.0",
 "fontWeight": "semibold",
-"fontSize": 17,
+"fontSize": "17.0",
 "usePadding": false
 }
 ]
@@ -151,20 +160,20 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"markdown": "#### Phiên bản 2.7.5\n- Thêm tùy chọn trình quản lý tệp Filza mới (tự động chuyển hướng từ trang cài đặt / bảng điều khiển).\n- Thêm danh sách xem các ứng dụng đang bị chặn tự động cập nhật.\n- Bổ sung thêm các tùy chọn tắt âm thông báo ứng dụng.",
+"markdown": "### Phiên bản 2.7.5\n- Thêm tùy chọn trình quản lý tệp Filza mới (tự động chuyển hướng từ trang cài đặt / bảng điều khiển).\n- Thêm danh sách xem các ứng dụng đang bị chặn tự động cập nhật.\n- Bổ sung thêm các tùy chọn tắt âm thông báo ứng dụng.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -172,7 +181,7 @@
 "class": "DepictionSeparatorView"
 },
 {
-"markdown": "#### Phiên bản 2.7.3\n- Thay đổi và xây dựng lại hạ cấp ứng đụng.",
+"markdown": "### Phiên bản 2.7.3\n- Thay đổi và xây dựng lại tính năng hạ cấp ứng dụng.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -180,81 +189,81 @@
 "class": "DepictionSeparatorView"
 },
 {
-"markdown":"### Phiên bản 2.7.1\n- Sửa lỗi văng ứng dụng (crash do mảng vượt quá giới hạn - out of bounds) và lỗi nút Blacklist không hiển thị khi chuyển nút này ra trang giao diện chính.\n- Thêm tính năng chặn ứng dụng tự động tắt màn hình (giữ màn hình luôn sáng).\n- Bổ sung công tắc bật/tắt nhanh danh sách đen (RootHide Blacklist) của ứng dụng ngay trong trang chức năng mở rộng.\n- Tối ưu hóa logic tải biểu tượng (icon loading), giảm tần suất đọc ổ đĩa và giảm tải I/O, giúp nâng cao độ mượt mà.\n- Sửa lỗi xung đột khiến tính năng kéo thông báo xuống để chia đôi màn hình của tweak FV không hoạt động khi sử dụng AppData.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
-},
-{
-"class":"DepictionSeparatorView"
-},
-{
-"markdown":"### Phiên bản 2.6.9\n- Điều chỉnh hiệu ứng kính mờ của bảng điều khiển khi ở chế độ sáng.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
-},
-{
-"class":"DepictionSeparatorView"
-},
-{
-"markdown":"### Phiên bản 2.6.8\n- Bổ sung thêm Tiếng Anh\n- Tối ưu lại giao diện panel.\n- Thêm tính năng chặn app tự động cập nhật.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
-},
-{
-"class":"DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 2.6.7\n- Thẻm ngôn ngữ Tiếng Anh.\n- Thêm tính năng tắt âm thanh khi khởi động ứng dụng.\n- Thêm hiển thị chỉ báo ứng dụng đang chạy, bật trong trang cài đặt.\n- Tối  ưu hóa tính năng hạ cấp ứng dụng.",
+"markdown": "### Phiên bản 2.7.1\n- Sửa lỗi văng ứng dụng (crash do mảng vượt quá giới hạn - out of bounds) và lỗi nút Blacklist không hiển thị khi chuyển nút này ra trang giao diện chính.\n- Thêm tính năng chặn ứng dụng tự động tắt màn hình (giữ màn hình luôn sáng).\n- Bổ sung công tắc bật/tắt nhanh danh sách đen (RootHide Blacklist) của ứng dụng ngay trong trang chức năng mở rộng.\n- Tối ưu hóa logic tải biểu tượng (icon loading), giảm tần suất đọc ổ đĩa và giảm tải I/O, giúp nâng cao độ mượt mà.\n- Sửa lỗi xung đột khiến tính năng kéo thông báo xuống để chia đôi màn hình của tweak FV không hoạt động khi sử dụng AppData.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
+"class": "DepictionSeparatorView"
 },
 {
-"tabname":"Liên Hệ Hỗ Trợ",
-"views":[
+"markdown": "### Phiên bản 2.6.9\n- Điều chỉnh hiệu ứng kính mờ của bảng điều khiển khi ở chế độ sáng.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 2.6.8\n- Bổ sung thêm Tiếng Anh.\n- Tối ưu lại giao diện panel.\n- Thêm tính năng chặn ứng dụng tự động cập nhật.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 2.6.7\n- Thêm ngôn ngữ Tiếng Anh.\n- Thêm tính năng tắt âm thanh khi khởi động ứng dụng.\n- Thêm hiển thị chỉ báo ứng dụng đang chạy, bật trong trang cài đặt.\n- Tối ưu hóa tính năng hạ cấp ứng dụng.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Hệ Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Kênh Telegram",
-"action": "https://t.me/k37ios"
+"action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

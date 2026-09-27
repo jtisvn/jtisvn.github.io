@@ -1,216 +1,186 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#6A5ACD",
-"tabs":[
+"minVersion": "0.1",
+"headerImage": "https://k37ios.pages.dev/banner/banner.png",
+"tintColor": "#6A5ACD",
+"class": "DepictionTabView",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới Thiệu",
+"class": "DepictionStackView",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/KineWall/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSpacerView",
+"spacing": 12
 },
 {
-"url":"https://jtisvn.github.io/infodeb/KineWall/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm chat Telegram",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/KineWall/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-}
-],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
+"class": "DepictionSpacerView",
+"spacing": 16
 },
 {
-"markdown":"### KineWall\n\n- Ứng dụng cho phép bạn cài đặt Video làm hình nền cho Màn hình khóa và Màn hình chính một cách dễ dàng.\n\n- Chỉ hoạt động trên thiết bị chip A12 chạy iOS 16 trở lên\n\n- Tính năng:\n\n+ Tùy chọn video riêng biệt cho màn hình khóa và màn hình chính.\n\n+ Hỗ trợ bật/tắt âm thanh của video.\n\n+ Thanh trượt điều chỉnh mức âm lượng video.\n\n- Hẹn giờ đổi video tự động theo ý muốn\n\n- Lưu ý: Yêu cầu tài gói **oldabi-stub** (Rootless) và **oldabi** (Roothide) trước khi cài đặt tweak này.",
-"useSpacing": false,
+"markdown": "## KineWall\nỨng dụng cho phép bạn cài đặt Video làm hình nền cho Màn hình khóa và Màn hình chính một cách dễ dàng.\n\n**Lưu ý:** Chỉ hoạt động trên thiết bị chip A12 trở lên chạy iOS 16 trở lên.\n\n**Tính năng:**\n- Tùy chọn video riêng biệt cho màn hình khóa và màn hình chính.\n- Hỗ trợ bật/tắt âm thanh của video.\n- Thanh trượt điều chỉnh mức âm lượng video.\n- Hẹn giờ đổi video tự động theo ý muốn.\n\n*Yêu cầu cài gói **oldabi-stub** (Rootless) và **oldabi** (Roothide) trước khi cài đặt tweak này.*",
+"useSpacing": true,
 "class": "DepictionMarkdownView"
 },
 {
-"spacing": 20,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 16
 },
 {
 "class": "DepictionSeparatorView"
 },
 {
-"class": "DepictionLabelView",
-"text": "Thông tin chi tiết",
-"fontWeight": "semibold",
-"fontSize": 16,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class": "DepictionSpacerView",
+"spacing": 16
 },
 {
-"class": "DepictionStackView",
-"orientation": "landscape",
-"views": [
-{
-"class": "DepictionStackView",
-"views": [
-{
-"class": "DepictionLabelView",
-"text": "Tác giả",
-"textColor": "#777",
-"margins": "{16,0,8,0}"
+"class": "DepictionHeaderView",
+"title": "Ảnh màn hình",
+"useBoldText": true,
+"useBottomMargin": false
 },
 {
-"class": "DepictionLabelView",
-"text": "Kitsudo",
-"fontWeight": "semibold",
-"fontSize": 16,
-"usePadding": false
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/KineWall/Screenshots/1.png",
+"accessibilityText": "Screenshot"
 },
 {
-"class": "DepictionLabelView",
-"text": "Thể loại",
-"textColor": "#777",
-"margins": "{16,0,8,0}"
+"url": "https://jtisvn.github.io/infodeb/KineWall/Screenshots/2.png",
+"accessibilityText": "Screenshot"
 },
 {
-"class": "DepictionLabelView",
-"text": "Applications",
-"fontWeight": "semibold",
-"fontSize": 16,
-"usePadding": false
-},
-{
-"class": "DepictionLabelView",
-"text": "Ngày cập nhật",
-"textColor": "#777",
-"margins": "{16,0,8,0}"
-},
-{
-"class": "DepictionLabelView",
-"text": "15/1/2026",
-"fontWeight": "semibold",
-"fontSize": 16,
-"usePadding": false
+"url": "https://jtisvn.github.io/infodeb/KineWall/Screenshots/3.png",
+"accessibilityText": "Screenshot"
 }
 ]
 },
 {
-"class": "DepictionStackView",
-"views": [
-{
-"class": "DepictionLabelView",
-"text": "Phiên bản",
-"textColor": "#777",
-"margins": "{16,0,8,0}"
+"class": "DepictionSpacerView",
+"spacing": 16
 },
 {
-"class": "DepictionLabelView",
-"text": "1.0.1",
-"fontWeight": "semibold",
-"fontSize": 16,
-"usePadding": false
+"class": "DepictionSeparatorView"
 },
 {
-"class": "DepictionLabelView",
-"text": "Kích thước",
-"textColor": "#777",
-"margins": "{16,0,8,0}"
+"class": "DepictionSpacerView",
+"spacing": 16
 },
 {
-"class": "DepictionLabelView",
-"text": "493,1 KB",
-"fontWeight": "semibold",
-"fontSize": 16,
-"usePadding": false
+"class": "DepictionHeaderView",
+"title": "Thông Tin"
 },
 {
-"class": "DepictionLabelView",
-"text": "Tương thích iOS",
-"textColor": "#777",
-"margins": "{16,0,8,0}"
+"class": "DepictionTableTextView",
+"title": "Tác giả",
+"text": "Kitsudo"
 },
 {
-"class": "DepictionLabelView",
-"text": "16.0 - 16.6.1",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": false
-}
-]
-}
-]
+"class": "DepictionTableTextView",
+"title": "Phiên bản",
+"text": "1.0.1"
 },
 {
-"spacing": 25,
-"class": "DepictionSpacerView"
+"class": "DepictionTableTextView",
+"title": "Thể loại",
+"text": "Applications"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
+"class": "DepictionTableTextView",
+"title": "Ngày cập nhật",
+"text": "14/01/2026"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.1\n\n- Thêm chức năng hẹn giờ đổi video tự động\n\n- Sửa lỗi mất tiếng trên iOS 16.5.1-16.6.1 (Nathanir & Bootstrap)\n\n ### Phiên bản 1.0.0\n\n- Phát hành lần đầu.\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"class": "DepictionTableTextView",
+"title": "Kích thước",
+"text": "493,1 KB"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
+"class": "DepictionTableTextView",
+"title": "Tương thích",
+"text": "iOS 16.0 - 16.6.1"
 },
 {
-"tabname":"Liên Hệ Hỗ Trợ",
-"views":[
-{
-"class":"DepictionTableButtonView",
-"title": "Xem mô tả tinh chỉnh",
-"action": "https://jtisvn.github.io/depictions/KineWall.html"
+"class": "DepictionSpacerView",
+"spacing": 8
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 8
+},
+{
+"class": "DepictionTableButtonView",
+"title": "Xem mô tả",
+"action": "https://k37ios.pages.dev/info/depictions/KineWall.html",
 "openExternal": 1,
-"title": "Kênh Telegram",
-"action": "https://t.me/jtisvn"
+"icon": "https://img.icons8.com/ios-filled/50/6A5ACD/document.png"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
+"title": "Liên hệ tôi",
+"action": "https://t.me/Kitsudo",
 "openExternal": 1,
-"title": "Nhóm Facebook",
-"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+"icon": "https://img.icons8.com/ios-filled/50/6A5ACD/telegram-app.png"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Paypal",
-"action": "https://paypal.me/HiuKitsudo"
-},
-{
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "title": "Ủng hộ tôi",
-"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+"action": "https://k37ios.pages.dev/info/depictions/donate.html",
+"openExternal": 1,
+"icon": "https://img.icons8.com/ios-filled/50/6A5ACD/hearts.png"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionSpacerView",
+"spacing": 24
+},
+{
+"class": "DepictionImageView",
+"URL": "https://k37ios.pages.dev/CydiaIcon.png",
+"width": 40,
+"height": 40,
+"alignment": 1,
+"cornerRadius": 8
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Được tạo bởi ❤️ K37 Repo </div>",
+"useRawFormat": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
 }
-],
-"class":"DepictionStackView"
+]
+},
+{
+"tabname": "Nhật Ký Cập Nhật",
+"class": "DepictionStackView",
+"views": [
+{
+"markdown": "#### Phiên bản: 1.0.1\n- Thêm chức năng hẹn giờ đổi video tự động.\n- Sửa lỗi mất tiếng trên iOS 16.5.1-16.6.1 (Nathanir & Bootstrap).",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "#### Phiên bản: 1.0.0\n- Phát hành lần đầu.\n- Hỗ trợ Rootless & Roothide Jailbreak.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 }
-],
-"class":"DepictionTabView"
+]
+}
+]
 }

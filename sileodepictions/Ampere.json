@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/Ampere.png",
-"tintColor":"#339999",
+"tintColor":"#00FF06",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Ampere\n\n- Tùy chỉnh giao diện và phong cách hiển thị pin trên iOS 15 giống kiểu của iOS 16.\n\n- Thay đổi màu sắc phần trăm pin khi ở chế độ Mặc định, Khi sạc hoặc Tiết kiệm pin.\n\n- Tuỳ chỉnh kích thước và màu sắc số phần trăm pin hiển thị.",
+"markdown":"### Ampere\n\n- Tùy chỉnh giao diện và phong cách hiển thị pin trên iOS 15 giống kiểu của iOS 16.\n\n- Thay đổi màu sắc phần trăm pin khi ở chế độ Mặc định, Khi sạc hoặc Tiết kiệm pin.\n\n- Tuỳ chỉnh kích thước và màu sắc số phần trăm pin hiển thị.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

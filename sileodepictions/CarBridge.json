@@ -1,44 +1,59 @@
 {
-"minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/CarBridge.png",
-"tintColor":"#339999",
-"tabs":[
+"minVersion": "0.4",
+"headerImage": "https://jtisvn.github.io/coverimage/CarBridge.png",
+"tintColor": "#339999",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/CarBridge/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"spacing": 12,
+"class": "DepictionSpacerView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CarBridge/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CarBridge/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"markdown": "- Chào mừng bạn đến với CarBridge\n\n- Mang sức mạnh vượt trội lên xe ô tô của bạn với CarBridge!\n\n- Hỗ trợ bất kỳ ứng dụng nào từ điện thoại và sử dụng trên ô tô có hỗ trợ CarPlay!",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CarBridge/Screenshots/4.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/CarBridge/Screenshots/1.png",
+"accessibilityText": "Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CarBridge/Screenshots/5.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/CarBridge/Screenshots/2.png",
+"accessibilityText": "Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CarBridge/Screenshots/6.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/CarBridge/Screenshots/3.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/CarBridge/Screenshots/4.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/CarBridge/Screenshots/5.png",
+"accessibilityText": "Screenshot"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/CarBridge/Screenshots/6.png",
+"accessibilityText": "Screenshot"
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"\n\n- Chào mừng bạn đến với CarBridge\n\n- Mang sức mạnh vượt trội lên xe ô tô của bạn với CarBridge!\n\n- Hỗ trợ bất kỳ ứng dụng nào từ điện thoại và sử dụng trên ô tô có hỗ trợ CarPlay!\n\n- Các tính năng nổi bật:\n\n- Mở mọi ứng dụng iOS trên CarPlay (ngoại trừ các ứng dụng phát video trực tuyến có bảo vệ bản quyền DRM).\n\n- Giữ nguyên giao diện: Ứng dụng hiển thị trên xe với giao diện y hệt của iOS, trải nghiệm tốt không gian màn hình trên ôtô.\n\n- Đa nhiệm mạnh mẽ: Tận dụng toàn bộ sức mạnh của ứng dụng không giới hạn. Bạn có thể vừa dùng một ứng dụng trên xe, vừa dùng ứng dụng khác trên điện thoại cùng lúc.\n\n- Điều khiển trực tiếp: Xem và thao tác điện thoại ngay trên màn hình cảm ứng của ô tô mà không cần cầm điện thoại lên.\n\n- Ẩn ứng dụng thừa: Bạn thích dùng Spotify? Tạm biệt Apple Music nhé! Fan cứng Google Maps? Chào thân ái Apple Maps luôn. Bạn có thể ẩn nhiều icon mặc định của CarPlay hơn trước.",
+"markdown": "- Các tính năng nổi bật:\n\n- Mở mọi ứng dụng iOS trên CarPlay (ngoại trừ các ứng dụng phát video trực tuyến có bảo vệ bản quyền DRM).\n\n- Giữ nguyên giao diện: Ứng dụng hiển thị trên xe với giao diện y hệt của iOS, trải nghiệm tốt không gian màn hình trên ôtô.\n\n- Đa nhiệm mạnh mẽ: Tận dụng toàn bộ sức mạnh của ứng dụng không giới hạn. Bạn có thể vừa dùng một ứng dụng trên xe, vừa dùng ứng dụng khác trên điện thoại cùng lúc.\n\n- Điều khiển trực tiếp: Xem và thao tác điện thoại ngay trên màn hình cảm ứng của ô tô mà không cần cầm điện thoại lên.\n\n- Ẩn ứng dụng thừa: Bạn thích dùng Spotify? Tạm biệt Apple Music nhé! Fan cứng Google Maps? Chào thân ái Apple Maps luôn. Bạn có thể ẩn nhiều icon mặc định của CarPlay hơn trước.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -157,61 +172,60 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
 "class": "DepictionStackView"
 },
 {
-
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0.15\n\n- Sửa lỗi\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak."
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.0.15\n\n- Sửa lỗi\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak."
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
-"views":[
+"tabname": "Liên hệ Hỗ trợ",
+"views": [
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Kênh Telegram",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": 1,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }
