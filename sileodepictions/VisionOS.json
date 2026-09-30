@@ -1,0 +1,221 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://siieo.github.io/sileodepictions/Themes/VisionOS/banner.jpg",
+"tintColor":"#CCCCFF",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### Chủ đề VisionOS\n\n- Bộ giao diện biểu tượng (icon) trong suốt với hiệu ứng kính mờ (glassy), lấy cảm hứng từ ngôn ngữ thiết kế visionOS của Apple.\n- Dành cho những người dùng yêu thích sự tối giản và thanh lịch, mang lại một màn hình chính gọn gàng.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://siieo.github.io/sileodepictions/Themes/VisionOS/1.avif",
+"accessibilityText":"Screenshot 1"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{160,346}"
+},
+{
+"markdown":"- **Phong cách Glassmorphism:** Hiệu ứng chiều sâu, độ mờ và dải màu (gradient) cực kỳ mượt mà, hiện đại.\n- **Đa dạng chế độ:** Tích hợp 2 chế độ giao diện mới là Noir (Tối) và Blanc (Sáng) với 1600 biểu tượng mỗi loại.\n- **Số lượng khủng:** Tổng cộng hơn 2000 biểu tượng được tinh chỉnh thủ công.\n- Kích hoạt qua tinh chỉnh SnowBoard.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Lokki",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Themes",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "21/07/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.5.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "9.9 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 18.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"markdown": "### Phiên bản 3.5.1\n- Bổ sung hơn 50 biểu tượng mới.\n- Ra mắt 2 chế độ giao diện mới: Noir (Tối) và Blanc (Sáng) với 1600 biểu tượng mỗi chế độ.\n- Hỗ trợ cho Odyssey và biểu tượng Substitute mới.\n- Sửa lỗi hiển thị của biểu tượng Đồng hồ.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

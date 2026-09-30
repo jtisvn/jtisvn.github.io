@@ -382,6 +382,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockWave.json
 Depiction: https://jtisvn.github.io/depictions/UnlockWave.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: ccom.maxpatchs.visionos
+Architecture: all
+Version: 3.5.1
+Section: Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/Visionos_3.5.1_all.deb
+Size: 9918816
+MD5sum: ebc0d333ba15138ad502039059b1bed1
+SHA1: fde197d28d4173b93b1008b3e363f7d1a8c51aa3
+SHA256: 956864e6325d5d3fce650accb1aa39b68d71783b8bb13227c4f29ffc1389e98c
+SHA512: e5fcc17f406b08774a96a1348de1998e15ff643d8cdab4b8593b87617c917711a5e2f5dcd146e63ba12eb457564d4ec883977c7a920c03a03936a0b466f0234c
+Description: Chủ đề VisionOS.
+Name: VisionOS Theme
+Author: Lokki
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VisionOS.json
+Depiction: https://jtisvn.github.io/depictions/VisionOS.html
+Icon: https://siieo.github.io/sileodepictions/Themes/VisionOS/icon.png
+
 Package: ai.akemi.appsyncunified
 Architecture: iphoneos-arm64
 Version: 112.0
@@ -657,6 +675,24 @@ ModernDepiction: https://repo.igerman.cc/depiction/native/cc.igerman.yahhider.js
 Icon: https://repo.igerman.cc/assets/cc.igerman.yahhider/icon.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
+
+Package: ccom.jtisvn.ango
+Architecture: all
+Version: 6.5
+Section: Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/ccom.jtisvn.ango_6.5_all.deb
+Size: 68855096
+MD5sum: eb3e2ef4799d4c0f1306c672f2fde98d
+SHA1: 765009c61511e6b2b712bc164a047eabfcb8f526
+SHA256: 725c3c6f6fe2ff3189ffc88528afd1a34c3b40d89a8730a9f0390a12a64a3849
+SHA512: ae9f9b8cb160dd01ea858b03c5dee7c053b7ec93fda40ac7f6083db15bdc417563e15024a334c8e49b7e59828bd2625b49a4764c17a51d0d3fce216bd03214b9
+Description: Chủ đề Ango Full.
+Name: Ango Full Theme
+Author: Max Patchs
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AngoFull.json
+Depiction: https://jtisvn.github.io/depictions/AngoFull.html
+Icon: https://media.havoc.app/6396e4b443e084e9841b2d9a
 
 Package: chaoge.ChargeLimiter
 Architecture: iphoneos-arm64e
@@ -19350,6 +19386,55 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
 Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
 Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
 
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4680
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Replaces: com.ryannair05.audiosnapshotserver2
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.8_iphoneos-arm64.deb
+Size: 785708
+MD5sum: ecbb757cf2525dcba25f32afabd501eb
+SHA1: a9028007f994fc37dd37f40f8868ba259e87dc85
+SHA256: a2df0fad456275b9af49de54824ed6e043c684f9e754c7c9ed7858bbf70b6a77
+SHA512: 2c56d824c8721d1afedb6f8e3a5d0f9f55040f6a959c8a2de4771ef9cda2d6afcb1ce56499528c1c78639e918100892f98618c9bc5ce28f7faeebf94766ba61b
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4680
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Replaces: com.ryannair05.audiosnapshotserver2
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.8_iphoneos-arm64e.deb
+Size: 780448
+MD5sum: a58cb122f6afb689a5294fddee11cb5d
+SHA1: 1e71e54235a9a1f28ff29b9df885d6dcfd24594a
+SHA256: 50121e492639bc78f9a067f3f9b3a5cbd4676173e2e8a9fa87f11b51a26621be
+SHA512: 565c6a571aa6fb5b3b3748737e3bcaf5b3d4aa87f4ba5c992a78edc2884799c88f49a4d3ccfae9fc2debada117da79b2346e7e6627f742d58f0ec7be286c4438
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
 Package: com.jtisvn.kinewall
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -23723,6 +23808,55 @@ Author: roothide
 Icon:
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.rpetrich.powercuff
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 176
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.rpetrich.powercuff_0.1_iphoneos-arm64.deb
+Size: 14172
+MD5sum: 869ea3a9694fd84b668ce4413416355d
+SHA1: c1a728873ed824ae340a8b9651875100636f4420
+SHA256: 3fe48fec33fd4af607f09ea61f215e37bb62d274c00cd6d2ad6fa625352cf913
+SHA512: 904605a716078cc26f965260ec43353544e9cb4dd2aedd6064e75718ca601d2490c5ba0b3c3b4e689750683d45d1ee1c15c7a45a771ab2c41038df33028c7247
+Homepage: http://rpetri.ch/cydia/powercuff/
+Description: Select from additional low power device states
+Tag: purpose::extension
+Name: Powercuff (Rootless)
+Depiction: http://rpetri.ch/cydia/powercuff/
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Powercuff.json
+Icon: https://jtisvn.github.io/sectionIcons/Powercuff.png
+Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+
+Package: com.rpetrich.powercuff
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 176
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.rpetrich.powercuff_0.1_iphoneos-arm64e.deb
+Size: 13932
+MD5sum: 68d23cd34bf3c52217549d88e790a79b
+SHA1: 15fabf232530521cf5158fb03441ba3650f5cd9a
+SHA256: 5d2f40db46d4e469643799f9a26965cd9a47b97e377c12492fca1d2e0e2da81e
+SHA512: ee1e2eecfbfe3830c968ebe2e6f2646e7e42b6753456cdf5b36545e4652e91d5af14a2c4ea79c8dd2cf5c82573564ee7560e65686d035138b8baaef004073ca5
+Homepage: http://rpetri.ch/cydia/powercuff/
+Description: Select from additional low power device states
+Tag: purpose::extension
+Name: Powercuff (Roothide)
+Depiction: http://rpetri.ch/cydia/powercuff/
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Powercuff.json
+Icon: https://jtisvn.github.io/sectionIcons/Powercuff.png
+Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
 
 Package: com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm64
