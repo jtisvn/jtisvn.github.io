@@ -1,0 +1,221 @@
+{
+    "minVersion":"0.3",
+    "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+    "tintColor":"#9900FF",
+    "tabs":[
+    {
+    "tabname":"Giới thiệu",
+    "views":[
+    {
+    "spacing": 12,
+    "class": "DepictionSpacerView"
+    },
+    {
+    "class": "DepictionButtonView",
+    "text": "Tham gia nhóm K37•JTISVN",
+    "action": "https://t.me/jtisvietnamrepo",
+    "openExternal": true
+    },
+    {
+    "markdown":"### LockScreenGradientClock\n\n Tweak mở rộng cao cấp dành riêng cho Liquidify, mang đến khả năng tùy biến màu chuyển sắc (Gradient) 5 sắc độ cực kỳ mượt mà lên đồng hồ Màn hình khóa.\n Hòa trộn trực tiếp vào lớp thủy tinh lỏng của Liquidify mà không tạo thêm đồng hồ phụ, giúp giữ trọn vẹn hiệu ứng khúc xạ, điểm sáng và phông chữ nguyên bản.",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+    },
+    {
+    "class":"DepictionScreenshotsView",
+    "screenshots":[
+    {
+    "url":"https://jtisvn.github.io/infodeb/LockScreenGradientClock/Screenshots/1.png",
+    "accessibilityText":"Screenshot 1"
+    }
+    ],
+    "itemCornerRadius":8,
+    "itemSize":"{285,500}"
+    },
+    {
+    "markdown":"- **Tính năng nổi bật:**\n\n- **Chuyển màu 5 sắc độ:** Tùy chỉnh 5 dải màu tự do, đổi góc xoay (0° - 360°) hoặc tự động lấy màu tiệp với hình nền.\n- **Hòa trộn thủy tinh:** Giữ nguyên hiệu ứng bóng, khúc xạ và phông chữ của Liquidify.\n- **Viền màu & Điểm sáng:** Thêm đường viền chữ đổi màu mềm mại và hiệu ứng lướt sáng trang trí mỗi khi mở màn hình.\n- **Tự động thông minh:** Đổi màu theo thời gian thực trong ngày, xoay góc theo thị sai hình nền và tự động chuyển cấu hình Sáng/Tối (07:00 / 19:00).\n- **Quản lý & Chia sẻ:** Lưu nhiều bộ màu cá nhân, hỗ trợ xuất/nhập file JSON để chia sẻ nhanh chóng.\n- **Mượt & Tiết kiệm pin:** Tự động tạm dừng hiệu ứng khi bật Chế độ nguồn điện thấp (Low Power Mode) hoặc Giảm chuyển động.\n\n- **Lưu ý:** Yêu cầu phải cài đặt sẵn tweak gốc **Liquidify** để có thể hoạt động.",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+    },
+    {
+    "spacing": 20,
+    "class": "DepictionSpacerView"
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Thông tin chi tiết",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": true,
+    "useMargins": true,
+    "margins": "{10,0,8,0}"
+    },
+    {
+    "class": "DepictionStackView",
+    "orientation": "landscape",
+    "views": [
+    {
+    "class": "DepictionStackView",
+    "views": [
+    {
+    "class": "DepictionLabelView",
+    "text": "Tác giả",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "MoWang",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Thể loại",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Tweaks",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Ngày cập nhật",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "01/10/2026",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    }
+    ]
+    },
+    {
+    "class": "DepictionStackView",
+    "views": [
+    {
+    "class": "DepictionLabelView",
+    "text": "Phiên bản",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "1.7.7",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Kích thước",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "709.0 KB",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Tương thích iOS",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "15.0 - 17.5.1",
+    "fontWeight": "semibold",
+    "fontSize": 17,
+    "usePadding": false
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "spacing": 25,
+    "class": "DepictionSpacerView"
+    },
+    {
+    "class":"DepictionLabelView",
+    "text":"Copyright © 2025 - 2030 by JTISVN",
+    "textColor":"#999999",
+    "fontSize":"10.0",
+    "alignment":1
+    }
+    ],
+    "class": "DepictionStackView"
+    },
+    {
+    "tabname":"Nhật ký thay đổi",
+    "views":[
+    {
+    "markdown": "### Phiên bản 1.7.7\n- Thêm ngôn ngữ Tiếng Việt.",
+    "useSpacing": true,
+    "class": "DepictionMarkdownView"
+    },
+    {
+    "class":"DepictionLabelView",
+    "text":"Copyright © 2025 - 2030 by JTISVN",
+    "textColor":"#999999",
+    "fontSize":"10.0",
+    "alignment":1
+    }
+    ],
+    "class":"DepictionStackView"
+    },
+    {
+    "tabname":"Liên Hệ Hỗ Trợ",
+    "views":[
+    {
+    "class":"DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Kênh Telegram",
+    "action": "https://t.me/jtisvn"
+    },
+    {
+    "class":"DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Nhóm Facebook",
+    "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+    },
+    {
+    "class":"DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Paypal",
+    "action": "https://paypal.me/HiuKitsudo"
+    },
+    {
+    "class":"DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Ủng hộ tôi",
+    "action": "https://jtisvn.github.io/homepage/donate/donate.html"
+    },
+    {
+    "class":"DepictionLabelView",
+    "text":"Copyright © 2025 - 2030 by JTISVN",
+    "textColor":"#999999",
+    "fontSize":"10.0",
+    "alignment":1
+    }
+    ],
+    "class":"DepictionStackView"
+    }
+    ],
+    "class":"DepictionTabView"
+    }

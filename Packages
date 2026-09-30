@@ -12095,6 +12095,47 @@ Depiction: http://jtisvn.github.io/depiction/Leftpan.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Leftpan.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
 
+Package: com.jtis.leftpan
+Architecture: iphoneos-arm64
+Version: 2.0
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: ./debs/com.jtis.leftpan_2.0_iphoneos-arm64.deb
+Size: 33296
+MD5sum: 94c37a209a747f861ea6726540a6e139
+SHA1: b1768a7f97bdc3785830b6bad6ade50e26dc2480
+SHA256: 74c62efaa1c1073937457eae29c097e6797f2ccc76a2360a6b5fab2368635e95
+SHA512: d20a3ae7dd8c016693c84fa9622c7adedae9e6f2911c711cd5a977651bdaca5e1f91a211c3e62176d20e832f9cac7327a7d461726e0b59ed2e28638de36c877c
+Description: Vuốt sang trái ở cạnh phải để quay lại trang trước.
+Name: LeftPan (Rootless)
+Author: Mao
+Depiction: http://jtisvn.github.io/depiction/Leftpan.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Leftpan.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
+
+Package: com.jtis.leftpan
+Architecture: iphoneos-arm64e
+Version: 2.0
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: ./debs/com.jtis.leftpan_2.0_iphoneos-arm64e.deb
+Size: 32616
+MD5sum: f40df0555145f2a37b3fc8a3af425db8
+SHA1: be6dc57e28424f2cba6e479de6500ebfdc64971e
+SHA256: 5043ac5b8a98837a65ed3a9ab62ce3ac027063548f6d02e71860c45feb3690c2
+SHA512: b2fa2b041f30596dc138cb8e9e9732b6bec7ea955c4e4591fbe7920d3a3968b69f0449cc35102ae7f8d1d0be10f17f32c9633824936f25899a83e8450488b08b
+Description: Vuốt sang trái ở cạnh phải để quay lại trang trước.
+Name: LeftPan (Roothide)
+Author: Mao
+Depiction: http://jtisvn.github.io/depiction/Leftpan.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Leftpan.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
+
 Package: com.jtis.letmeknow
 Architecture: iphoneos-arm64
 Version: 1.4.2
@@ -19677,6 +19718,67 @@ Author: Taj C (forcequit)
 Icon: https://raw.githubusercontent.com/forcequitOS/Lightshield/main/icon_medium.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Lightshield.json
 
+Package: com.jtisvn.liquidify
+Architecture: iphoneos-arm64
+Version: 1.3.7-4
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 40597
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtisvn.liquidify_1.3.7-4_iphoneos-arm64.deb
+Size: 10726272
+MD5sum: 534193770271c9e1b9fa2099c660ef40
+SHA1: 0e4e6e3a03d276af3317b635a83dc75afe6f9d2d
+SHA256: 38e0d332530473efa7904f9b564515bd30cfff51e549d4a307b6138f6a9370bc
+SHA512: ff20360237488d16cfe7b2e34fd3bd1aec1155fe9db69ae26be6e4da74faf1271483d2e406b555184657aa8687e71961da3b998c0a30b54081e20cbe18e98682
+Description: Tuỳ biến hiệu ứng kính lỏng.
+Name: Liquidify (Rootless)
+Author: 一刀
+icon: https://huayuarc.github.io/icon/LiquidAss.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidify.json
+Depiction: https://jtisvn.github.io/depictions/Liquidify.html
+
+Package: com.jtisvn.liquidify
+Architecture: iphoneos-arm64e
+Version: 1.3.7-4
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 40597
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtisvn.liquidify_1.3.7-4_iphoneos-arm64e.deb
+Size: 10550420
+MD5sum: 1dcc89f1d6f21e26045bae4c6a49c54f
+SHA1: 5ec88c3f7e018c64e3c1d831ccdade9c818f7004
+SHA256: f8311523c4a1eb9563907ec6e77ef98b08e3db216cd7aceee2309bbf35b0d3f7
+SHA512: 8e229242a9c53a908b028d5ba17b83edb0baf6b8bcf7da0cdc97eafb04476a233fca909a33341d01e63f442aad2cc9724ec2aa18d32b25ba6b9389cf2af44591
+Description: Tuỳ biến hiệu ứng kính lỏng.
+Name: Liquidify (Roothide)
+Author: 一刀
+icon: https://huayuarc.github.io/icon/LiquidAss.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidify.json
+Depiction: https://jtisvn.github.io/depictions/Liquidify.html
+
+Package: com.jtisvn.lockscreengradientclock
+Architecture: iphoneos-arm64
+Version: 1.7.7
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 756
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtisvn.lockscreengradientclock_1.7.7_iphoneos-arm64.deb
+Size: 217396
+MD5sum: c25f2103081d1ad2661f3316cb795ca6
+SHA1: 5832ec3ebaafae1a201b2f90ed0fdd75efb4ce01
+SHA256: 292c61dbba053f28ea78d18839cea1ee788ca62452b2ddb9bfb8f11cc17dd431
+SHA512: 9a9cd3cb7bc878c7e3233274ff93996dc002379c6b6c404edf6b96480292e3d851dec77e68211e0b053cb886b946e15f3d827b79da111d3ea209875297f163b1
+Description: Tweak mở rộng dành riêng cho Liquidify, mang đến khả năng tùy biến màu chuyển sắc (Gradient) 5 sắc độ lên đồng hồ Màn hình khóa.
+Name: LockScreenGradientClock
+Author: MoWang
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LockScreenGradientClock.json
+Depiction: https://jtisvn.github.io/depictions/LockScreenGradientClock.html
+Icon: https://jtisvn.github.io/sectionIcons/LockScreenGradientClock.png
+
 Package: com.jtisvn.lunartimebar
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -23138,6 +23240,47 @@ Name: SafariBlocker (Roothide)
 Author: P2KDev <p2kdev@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariBlocker.json
 Icon: https://jtisvn.github.io/sectionIcons/SafariBlocker.png
+
+Package: com.phucbakhi.nc26
+Architecture: iphoneos-arm64
+Version: 1.0.2b
+Section: Tweaks
+Maintainer: tranhoangphuc
+Installed-Size: 204
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.phucbakhi.nc26_1.0.2b_iphoneos-arm64.deb
+Size: 21628
+MD5sum: 17bce3693c4be5a3524bd0d30a5cf81b
+SHA1: 2ca2a942858d247b2a3c86c7b8656b4da968d0af
+SHA256: 11928e80a189f803d949fe1957fdc4506b7baf6e38444ee6a61738a0252906b6
+SHA512: eb5abe0530de5d204de58ab9587dffc78fd74c48a9418cbd94ed0a23691e0ca5f0661c770398b9855825430ded6e0d05af5649ee2baa6f3fef42530337d91700
+Description: Giao diện thông báo iOS 26.
+Name: Notification26 (Rootless)
+Author: tranhoangphuc
+SileoDepiction: https://jtisvn.github.io/sileodepictions/notification26.json
+Depiction: https://jtisvn.github.io/depictions/notification26.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.phucbakhi.nc26
+Architecture: iphoneos-arm64e
+Version: 1.0.2b
+Section: Tweaks
+Maintainer: tranhoangphuc
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, oldabi
+Filename: ./debs/com.phucbakhi.nc26_1.0.2b_iphoneos-arm64e.deb
+Size: 21800
+MD5sum: c506984845fc6edc2618cdeb2e47cac5
+SHA1: 50798cc97d90dfa7c438bd1659b3b0554c64c947
+SHA256: 5d52fba3909390567d8d3d357a8139a7f2dcd86ff4ad3964ebdf87d6fe15409a
+SHA512: 2309ed65ffc8bfda475bc8b46400106770447a7dc01aabb45fc1beb45f3edf89a420e910124919ea78b3ac7dd96634f3a0deade829f18bd826085e9b6214b450
+Description: Giao diện thông báo iOS 26.
+Name: Notification26 (Roothide)
+Author: tranhoangphuc
+SileoDepiction: https://jtisvn.github.io/sileodepictions/notification26.json
+Depiction: https://jtisvn.github.io/depictions/notification26.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.phucdo.badgebreathing
 Architecture: iphoneos-arm64

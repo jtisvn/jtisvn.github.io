@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Leftpan\n\n- Vuốt sang trái ở bên phải màn hình để quay lại trang trước",
+"markdown":"Leftpan\n\n- Công cụ điều hướng bằng cử chỉ vuốt mép màn hình bên trái quay laị trang trước trên iOS.\n- Tính năng chính:\n- Vuốt từ mép màn hình bên trái để đóng các cửa sổ bật lên (Modal View) hoặc thoát nhanh về Màn hình chính khi đã ở trang gốc của ứng dụng.\n- Tùy chỉnh độ rộng / độ nhạy của khu vực nhận cử chỉ vuốt trái.\n- Phản hồi rung khi vuốt với 3 mức độ (Nhẹ, Vừa, Mạnh).\n- Chế độ Danh sách đen (Blacklist) hoặc Danh sách trắng (Whitelist) để bật/tắt cử chỉ vuốt trên từng ứng dụng cụ thể.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0-6",
+"text": "2.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -127,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12.0 - 16.5",
+"text": "12.0 - 17.3",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -153,6 +153,14 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.0\n- Thêm đóng cửa sổ bật lên.\n- Thêm trở về Màn hình chính.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 1.0-6\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootfull & Rootless Jailbreak"
