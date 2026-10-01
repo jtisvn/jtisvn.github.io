@@ -34,7 +34,7 @@
     }
     ],
     "itemCornerRadius":8,
-    "itemSize":"{285,500}"
+    "itemSize":"{160,346}"
     },
     {
     "markdown":"- **Tính năng nổi bật:**\n\n- **Hàng phím số cố định:** Thêm hàng số riêng biệt phía trên bàn phím mặc định với giao diện chuẩn iOS.\n- **Chuyển đổi ký tự thông minh:** Bấm phím Shift hoặc 123 để đổi hàng phím số thành các dấu câu thường dùng.\n- **Đổi tên phím tùy ý:** Cho phép chỉnh sửa nhãn hiển thị cho phím ABC và 123 (tối đa 5 ký tự).\n- **Tính năng nâng cao (Pro):** Tự do tùy chỉnh 10 ký tự trên cả 2 hàng phím, chỉnh chiều cao bàn phím và bật chế độ luôn hiện 5 hàng.\n- **Quản lý linh hoạt:** Hỗ trợ loại trừ từng ứng dụng riêng biệt (Blacklist), bật/tắt nhanh và đặt lại cài đặt gốc chỉ bằng 1 chạm.\n- **Lưu ý:** Chỉ hỗ trợ bàn phím hệ thống chiều dọc trên iPhone, không hỗ trợ bàn phím bên thứ ba.",
