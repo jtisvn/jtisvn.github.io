@@ -1455,6 +1455,47 @@ Author: Bandar Alruwaili
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
 Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
 
+Package: com.blacknoisy.prism
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Section: Tweaks
+Maintainer: blacknoisy
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Conflicts: cn.blacknoisy.prism
+Filename: ./debs/com.blacknoisy.prism_1.6.2_iphoneos-arm64.deb
+Size: 1073252
+MD5sum: 01cd3135e23e9d4a117de8c2074fbb21
+SHA1: 65ab94985d2d41029ee7f8948097e0e51eecd37b
+SHA256: 4bc760840cebf8354ca39dd673b74283ce5603965e7e3aa76346b762dcdb9758
+SHA512: 85b8318402da266e523b62426066a8696baeb7fb51b6b15cc4803077e4926c845144ec19a28f7e48a9d6a4361c3cc4a7fefe5610f7ad65ed9a07127506ea6203
+Description: Capture, annotate, scrolling screenshots, OCR, translate, and pin.
+Name: Prism (Rootless)
+Author: blacknoisy
+Depiction: https://havoc.app/depiction/prism
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Prism.json
+Icon: https://jtisvn.github.io/sectionIcons/Prism.png
+
+Package: com.blacknoisy.prism
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Section: Tweaks
+Maintainer: blacknoisy
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Conflicts: cn.blacknoisy.prism
+Filename: ./debs/com.blacknoisy.prism_1.6.2_iphoneos-arm64e.deb
+Size: 1072164
+MD5sum: b2df7674b6dae662e55c98b594ccc43e
+SHA1: 3695bbf97bcd32d8bfb4a3eb1f1a12f73c5673bf
+SHA256: ba7c15cd93c873575e4d10145edab022b70e168f41840fa4baea26f5ce13634f
+SHA512: daec07a743d52b933acb894ffbbf05f70fc78f7301da337f05114f877cd8283d266597d5b21738b12d53cfafc4b383d584061d60e63e176c0c493c4d49a1cfdd
+Description: Capture, annotate, scrolling screenshots, OCR, translate, and pin.
+Name: Prism (Roothide)
+Author: blacknoisy
+Depiction: https://havoc.app/depiction/prism
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Prism.json
+Icon: https://jtisvn.github.io/sectionIcons/Prism.png
+
 Package: com.boo.libscribble
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -19726,15 +19767,15 @@ Maintainer: 一刀
 Installed-Size: 40597
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtisvn.liquidify_1.3.7-4_iphoneos-arm64.deb
-Size: 10726272
-MD5sum: 534193770271c9e1b9fa2099c660ef40
-SHA1: 0e4e6e3a03d276af3317b635a83dc75afe6f9d2d
-SHA256: 38e0d332530473efa7904f9b564515bd30cfff51e549d4a307b6138f6a9370bc
-SHA512: ff20360237488d16cfe7b2e34fd3bd1aec1155fe9db69ae26be6e4da74faf1271483d2e406b555184657aa8687e71961da3b998c0a30b54081e20cbe18e98682
+Size: 10721452
+MD5sum: 9160289c644eadab05f0e25b5394d9fc
+SHA1: 4ea4b8338968bd1fbe4390f2b0922effbb6ec750
+SHA256: 377bcbef60c831c56f9d9671fc4cd40d722fca27a91b1e6e39ef9ea93a9a0ed0
+SHA512: 7434c76d6023a69d8a7de36ad782974fc5ae62b1ffcab1ec2f358a0ab141e020e569d6851838ee281ce2147cb20fa71c19cac262341b6f61cf66bed6df3ff781
 Description: Tuỳ biến hiệu ứng kính lỏng.
 Name: Liquidify (Rootless)
 Author: 一刀
-icon: https://huayuarc.github.io/icon/LiquidAss.png
+icon: https://jtisvn.github.io/sectionIcons/Liquidify.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidify.json
 Depiction: https://jtisvn.github.io/depictions/Liquidify.html
 
@@ -19747,15 +19788,15 @@ Installed-Size: 40597
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtisvn.liquidify_1.3.7-4_iphoneos-arm64e.deb
-Size: 10550420
-MD5sum: 1dcc89f1d6f21e26045bae4c6a49c54f
-SHA1: 5ec88c3f7e018c64e3c1d831ccdade9c818f7004
-SHA256: f8311523c4a1eb9563907ec6e77ef98b08e3db216cd7aceee2309bbf35b0d3f7
-SHA512: 8e229242a9c53a908b028d5ba17b83edb0baf6b8bcf7da0cdc97eafb04476a233fca909a33341d01e63f442aad2cc9724ec2aa18d32b25ba6b9389cf2af44591
+Size: 10552848
+MD5sum: b5adcfe902538fef482cfb51fbdc9e52
+SHA1: cd11295784982780882beafac1928c126dae5a14
+SHA256: a67a03a06b142b741254044d22be1afbe00c97f0486294498fcdb9b311932e6f
+SHA512: 42656ea2ffc16ee8118a3ad3cdf27e99a0f5503b03b9263a052ad0182b72aa6d2b7b2d4e74d10a047920fdaadd0fb8a68399a2d27b7081da6680271bbaf4fd58
 Description: Tuỳ biến hiệu ứng kính lỏng.
 Name: Liquidify (Roothide)
 Author: 一刀
-icon: https://huayuarc.github.io/icon/LiquidAss.png
+icon: https://jtisvn.github.io/sectionIcons/Liquidify.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidify.json
 Depiction: https://jtisvn.github.io/depictions/Liquidify.html
 

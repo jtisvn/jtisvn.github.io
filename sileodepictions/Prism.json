@@ -1,0 +1,257 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://media.havoc.app/6a7835029e5377f2c5170dce",
+"tintColor":"#9900FF",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### Prism\n\n Nâng tầm trải nghiệm chụp màn hình mặc định của iOS thành một công cụ xử lý công việc đa năng. Tích hợp trọn bộ tính năng: khoanh vùng chụp, ghi chú, lấy mã màu, trích xuất văn bản (OCR), dịch thuật AI và ghim ảnh nổi ngay trên màn hình.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://media.havoc.app/6a7834f49e5377f2c5170d12",
+"accessibilityText":"Screenshot 1"
+},
+{
+"url":"https://media.havoc.app/6a7834fc9e5377f2c5170d93",
+"accessibilityText":"Screenshot 2"
+},
+{
+"url":"https://media.havoc.app/6a78350a9e5377f2c5170e29",
+"accessibilityText":"Screenshot 3"
+},
+{
+"url":"https://media.havoc.app/6a7835189e5377f2c5170ed9",
+"accessibilityText":"Screenshot 4"
+},
+{
+"url":"https://media.havoc.app/6a95b109e4a1cfb6bd9536c0",
+"accessibilityText":"Screenshot 5"
+},
+{
+"url":"https://media.havoc.app/6a95b11ae4a1cfb6bd953734",
+"accessibilityText":"Screenshot 6"
+},
+{
+"url":"https://media.havoc.app/6aad9ddad0f9c7b80d3c90e2",
+"accessibilityText":"Screenshot 7"
+},
+{
+"url":"https://media.havoc.app/6a95b127e4a1cfb6bd95379f",
+"accessibilityText":"Screenshot 8"
+},
+{
+"url":"https://media.havoc.app/6a95b132a17e3c6f98a149eb",
+"accessibilityText":"Screenshot 9"
+},
+{
+"url":"https://media.havoc.app/6a95b142e4a1cfb6bd95384a",
+"accessibilityText":"Screenshot 10"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{160,346}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Chụp vùng tự do:** Chụp bất kỳ khu vực nào trên màn hình để tập trung vào nội dung quan trọng nhất.\n- **Chú thích mạnh mẽ:** Đánh dấu ý tưởng với các công cụ bút vẽ, đường thẳng, mũi tên, hình chữ nhật và thêm văn bản.\n- **Tùy chỉnh kiểu dáng linh hoạt:** Dễ dàng điều chỉnh màu sắc, độ dày viền, độ mờ, hiệu ứng tô nền và viền chữ.\n- **Cắt và chỉnh sửa chuẩn xác:** Di chuyển, thay đổi kích thước vùng chọn với thông số đo lường hiển thị trực tiếp theo thời gian thực.\n- **Lấy màu trực tiếp:** Lấy mẫu màu ngay từ ảnh vừa chụp để phần ghi chú hòa quyện tự nhiên với nội dung.\n- **Nhận dạng mã QR:** Quét QR trực tiếp từ vùng chọn. Mở nhanh liên kết hoặc chuyển tiếp các mã thanh toán WeChat sang ứng dụng gốc.\n- **Nhận dạng văn bản (OCR):** Trích xuất văn bản nhanh chóng bằng OCR trực tiếp trên thiết bị hoặc qua đám mây (Cloud OCR yêu cầu tự cấu hình API).\n- **Tách từ thông minh (Big Bang):** Tách đoạn văn bản đã nhận dạng thành các từ, dấu câu, khoảng trắng riêng biệt để chọn lọc, sao chép hoặc dịch thuật chính xác.\n- **Dịch thuật AI (LLM):** Dịch văn bản với sức mạnh của các mô hình ngôn ngữ lớn, hỗ trợ xuất văn bản theo luồng (streaming) và chuyển đổi ngôn ngữ.\n- **Ghim ảnh màn hình (Pinboard):** Ghim các vùng đã chụp lên trên cùng của màn hình để tiện đối chiếu, so sánh và làm việc đa nhiệm.\n- **Nút lơ lửng & Control Center:** Kích hoạt Prism mọi lúc qua nút bấm nổi trên màn hình (có thể tự động ẩn) hoặc trực tiếp từ Trung tâm điều khiển (Control Center).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "blacknoisy",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "29/09/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.6.2",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.04 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "16.0 - 17.3.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"markdown": "### Phiên bản 1.6.2\n- Thêm cài đặt \"Công cụ mặc định\" (Default Tool) ở mục Tính năng.\n- Thêm chế độ \"Đơn\" (Single) và \"Liên tục\" (Continuous) cho bút vẽ.\n- Thêm kiểu nét vẽ \"Đồng đều\" (Uniform) và \"Áp lực\" (Force) cho bút vẽ.\n- Thêm tùy chọn \"Tự động hút vùng chọn\" (Selection Auto-Snap).",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
