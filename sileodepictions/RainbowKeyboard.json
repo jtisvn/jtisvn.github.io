@@ -1,0 +1,240 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#339999",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### RainbowKeyboard\n\n Mang hiệu ứng ánh sáng LED/RGB rực rỡ và các chủ đề màu sắc độc đáo lên bàn phím mặc định trên iOS.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/RainbowKeyboard/Screenshots/1.png",
+"accessibilityText":"Screenshot 1"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/RainbowKeyboard/Screenshots/2.png",
+"accessibilityText":"Screenshot 2"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/RainbowKeyboard/Screenshots/3.png",
+"accessibilityText":"Screenshot 3"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/RainbowKeyboard/Screenshots/4.png",
+"accessibilityText":"Screenshot 4"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/RainbowKeyboard/Screenshots/5.png",
+"accessibilityText":"Screenshot 5"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- 🌈 **Hiệu ứng ánh sáng động:** Đa dạng kiểu hiệu ứng khi gõ phím như Gợn sóng, Lan tỏa, Chạm nhẹ và Dải sáng nền.\n- 🎨 **Kho Chủ đề phong phú:** Tích hợp sẵn nhiều Preset tuyệt đẹp (Cyberpunk, Neon, Cực quang, Băng tinh, Xanh Cyber,...).\n- 💡 **Dải màu Thanh gợi ý:** Tùy biến thanh từ gợi ý với dải màu Gradient chuyển động đẹp mắt.\n- 🌗 **Đồng bộ Sáng/Tối:** Tự động chuyển đổi kiểu hiệu ứng ban ngày và ban đêm theo giao diện hệ thống.\n- ⚡ **Chế độ mượt mà thông minh:** Tự động tinh chỉnh và giảm hiệu ứng khi gặp giật lag, đảm bảo tốc độ phản hồi gõ phím luôn siêu mượt.\n- 🛠️ **Tùy biến chi tiết:** Cho phép tinh chỉnh quầng sáng nền, độ rộng lan tỏa; hỗ trợ cả bàn phím hệ thống mặc định và bộ gõ WeType/WeChat.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "MoWang",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Themes",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "01/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.2.52",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.5 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 17.3",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.2.52\n- Tắt tính năng Chủ đề (chỉ áp dụng khắc phục cho các thiết bị gặp lỗi treo/đóng băng màn hình)."
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
