@@ -27692,6 +27692,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/FlicksForAll.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Tags: compatible_min::ios15.0, compatible_max::ios17.0
 
+Package: pawxed.ccock18
+Architecture: iphoneos-arm64
+Version: 0.0.4a
+Section: Tweaks
+Maintainer: pawxed
+Installed-Size: 884
+Depends: firmware (>= 14.0), firmware (<< 17.4), ellekit, com.opa334.ccsupport, mobilesubstrate, preferenceloader
+Filename: ./debs/pawxed.ccock18_0.0.4a_iphoneos-arm64.deb
+Size: 170332
+MD5sum: 70fd12bac774059fb612ef69d44d0810
+SHA1: bc1c63f819aaedbf7c7b0699492e220fd70551c7
+SHA256: e714010abcb365d06d4f71871da0c1f5e17bfdeca12109bd35bcd5cb1cfcc9c4
+SHA512: 673aae2bdfdf777faf720fab3eedcc2ee2602ca55bb1953214c0e4b024ef0dd5f81c213f9b769fd2b4f9f327718ec50f6e09febbbadb0ed41672d55ad4d9cd6a
+Description: iOS 18 like control center, well not an exact replica for sure
+Name: ccock18 (Rootless)
+Author: pawxed
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ccock18.json
+Depiction: https://jtisvn.github.io/depictions/ccock18.html
+Icon: https://jtisvn.github.io/sectionIcons/ccock18.png
+
+Package: pawxed.ccock18
+Architecture: iphoneos-arm64e
+Version: 0.0.4a
+Section: Tweaks
+Maintainer: pawxed
+Installed-Size: 884
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), firmware (<< 17.4), ellekit, com.opa334.ccsupport, mobilesubstrate, preferenceloader
+Filename: ./debs/pawxed.ccock18_0.0.4a_iphoneos-arm64e.deb
+Size: 169440
+MD5sum: 45d4fafa20e4dcc9c0c22bc65a9685b9
+SHA1: 127c5b74e8029537fe3e077a622e29895f27f656
+SHA256: 8ca70421cc971bf4fa5bdd5b74b650e82a082cc35174d74a4fb9ef78405ce1ec
+SHA512: 885bf7cd1ae34003200f0aee3ebbd4cf5b35a4518ab1d26c5ca10d4ef33ec7845bd35ab378380fd7e1c5d4734135429b9c57fb66a5fe635244ed7289aad5c4ed
+Description: iOS 18 like control center, well not an exact replica for sure
+Name: ccock18 (Roothide)
+Author: pawxed
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ccock18.json
+Depiction: https://jtisvn.github.io/depictions/ccock18.html
+Icon: https://jtisvn.github.io/sectionIcons/ccock18.png
+
 Package: preferenceloader
 Architecture: iphoneos-arm64e
 Version: 2.2.6-11+debug
