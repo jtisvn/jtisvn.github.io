@@ -20246,6 +20246,47 @@ Depiction: https://jtisvn.github.io/depictions/PullOverX.html
 Icon: https://jtisvn.github.io/sectionIcons/PullOverX.png
 Author: mlgm
 
+Package: com.jtisvn.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.2.52
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1328
+Depends: mobilesubstrate, preferenceloader, com.kitsudo.transalt
+Filename: ./debs/com.jtisvn.rainbowkeyboard_1.2.52_iphoneos-arm64.deb
+Size: 617936
+MD5sum: 2b143f51b833bca0128bc48cfe163fa8
+SHA1: 6b8a05765a428771791cedd8beb82ee93d7e84d8
+SHA256: e5150a416c7422b15788938147295ec5cecbdb5f9ad2e7be7778a8a9437da811
+SHA512: 800d667bf7cc42342e98fadf33a5c2b0091f2c6033e67dc7a65c9be3a0d8c2c28d38f9a95840ac51979c88a221e88e40abc383e5c2b929fa9cf0897158114ddd
+Description: 'ang đến hiệu ứng ánh sáng LED/RGB sống động và mượt mà cho bàn phím trên iOS.
+Name: RainbowKeyboard (Rootless)
+Author: MoWang
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RainbowKeyboard.json
+Depiction: https://jtisvn.github.io/depictions/RainbowKeyboard.html
+Icon: https://jtisvn.github.io/sectionIcons/RainbowKeyboard.png
+
+Package: com.jtisvn.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.2.52
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1328
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.kitsudo.transalt
+Filename: ./debs/com.jtisvn.rainbowkeyboard_1.2.52_iphoneos-arm64e.deb
+Size: 616628
+MD5sum: b585e310e3d579ed2f7e3eca3cde9c50
+SHA1: 337f9f36cdbe2c561c537f6c76ce80313eccba9d
+SHA256: f4cd0c512824e38e12e08694666611c0604f1ed28b2b0638e620db6e47a2186a
+SHA512: d9fa37d498d4ee4f248e4b23323e186d64b79ae1477343b675b66d09c2902add561cd4fa141c99224eab13062ba72c51a27aa562784e05a880f0eaf70f6f94ea
+Description: 'ang đến hiệu ứng ánh sáng LED/RGB sống động và mượt mà cho bàn phím trên iOS.
+Name: RainbowKeyboard (Roothide)
+Author: MoWang
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RainbowKeyboard.json
+Depiction: https://jtisvn.github.io/depictions/RainbowKeyboard.html
+Icon: https://jtisvn.github.io/sectionIcons/RainbowKeyboard.png
+
 Package: com.jtisvn.scribblefix
 Architecture: iphoneos-arm64e
 Version: 1.0.0
@@ -21480,17 +21521,17 @@ Icon: https://k37ios.pages.dev/assets/TikTokAutoSwipe.png
 
 Package: com.kitsudo.transalt
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.1
 Section: Tweaks
 Maintainer: KÃitsudo
-Installed-Size: 392
+Installed-Size: 492
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.transalt_1.0.0_iphoneos-arm64.deb
-Size: 34040
-MD5sum: 3db14ae36dcff72bdb0179a80734ee6f
-SHA1: 10a8c9f77bc4378aa455d7f08f31f9592530cc88
-SHA256: d5b3b54ea898c88b1d650b07a9e3c58ca503fe1bd8103a4b7205caa5c52535df
-SHA512: eb354e0779f91d7f5008e995a7be9df8dc1a86d0e0478a85f2f8270b2cfadb8d999e14622e6b580c121785cd58dbdeba13fcbaca7dee53bc1a8c5c510caa481f
+Filename: ./debs/com.kitsudo.transalt_1.0.1_iphoneos-arm64.deb
+Size: 40448
+MD5sum: 4ed41803cd5de539a2c4a9963613e695
+SHA1: 620117b854d1b372609f0e55fd1b87e363a0160d
+SHA256: 3e48e05c1293d9be482804b75c8eb9c3fd11538b577c1aa024ab0d7c59b2f8f3
+SHA512: 67a4fb05cc8a96885635f07602a02f10808ac827021eb632f84c4457fdbe99174b4279bfa5f282b2a1ac125ac60db5daaa7f688c0b642235723e2589d233f219
 Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
 Name: TransAlT (Rootless)
 Author: KÃitsudo
@@ -21499,18 +21540,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.transalt
 Architecture: iphoneos-arm64e
-Version: 1.0.0
+Version: 1.0.1
 Section: Tweaks
 Maintainer: KÃitsudo
-Installed-Size: 392
+Installed-Size: 492
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.transalt_1.0.0_iphoneos-arm64e.deb
-Size: 32564
-MD5sum: 005cdc519913278eded63cfb40619ba3
-SHA1: 4f4fd6627ccffb53dad79cc8ba7cdf81c25c48c3
-SHA256: 1d1c3207ba3a9daad66856e66d1d2f6c3c081aa14d05ee20427a521c2046b9cf
-SHA512: c6d0bfc3f2e4e9cad4b7f306c7cd557338e2dda0aee5b3b7ae6ed74389712b2fa37adc82816e22559fed1fba43d78bd135e71a7cd5dfa06a420a5b0c21fd3569
+Filename: ./debs/com.kitsudo.transalt_1.0.1_iphoneos-arm64e.deb
+Size: 38680
+MD5sum: 3eac1e97e127457d6e03cb661b185df3
+SHA1: d965920cad4af0535a7b50188c41455e2d1c92b6
+SHA256: ea189871584fcc9a51719a95963b0943ea071607fb0e1ce08a08ddc77046ac5d
+SHA512: 04ad0934123e9a9f7430a4a5e114f948b534e7811c96dfb13cab066af790bf1a8a3776519d25a1f5809b6aa18bccbbccb6755aa0ab115e2d3e97c4ecfcdaf5fc
 Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
 Name: TransAlT (Roothide)
 Author: KÃitsudo
@@ -23363,6 +23404,103 @@ Author: Phuc Do
 Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Badgebreathing.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.pitroytech.5row
+Architecture: iphoneos-arm64
+Version: 1.16.7
+Section: Keyboard
+Maintainer: PitroyTech
+Installed-Size: 552
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: ./debs/com.pitroytech.5row_1.16.7_iphoneos-arm64.deb
+Size: 102416
+MD5sum: ee37a58feb9018a291ed0886733a5f70
+SHA1: 9548902b9b4b0a37814c540c6032fcd1985a7f79
+SHA256: cba8db375e3eef047819d48ebed23711243e98392c8040363bbd2c18969d484e
+SHA512: 0991815ee439ad1ace426030da4802f90721ccb543d7d29ad99b751dda62c9839f63baed0cfde40c369207c67eb5fe4698b0fd357fb724fb0397c644fb228c5a
+Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
+ Features:
+ Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
+ Rename the ABC and 123 keys, up to five characters each.
+ Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
+ Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
+ Pro adds:
+ All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
+ Separate packages are available for Rootless and RootHide.
+ Notes:
+ iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
+ Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
+ If something goes wrong, turn on the diagnostic log in Settings, reproduce the problem, then copy the log and email it to asdlkjlkjasd@gmail.com.
+ .
+ Thêm hàng phím số thứ 5 mà Apple bao nhiêu năm qua vẫn không làm cho iPhone.
+ Tính năng:
+ 5Row thêm một hàng phím vào bàn phím gốc một cách tự nhiên. Nhấn Shift hoặc 123 thì hàng đó chuyển sang ký tự hay dùng, nên không còn cảnh hai hàng chữ số.
+ Đổi nhãn phím ABC và phím 123, tối đa năm ký tự mỗi phím.
+ Hỗ trợ bàn phím Latin và nhiều bố cục non-Latin. Các bố cục hoạt động có thể khác nhau theo phiên bản iOS.
+ Bật/tắt, loại trừ từng ứng dụng, và đặt lại toàn bộ về mặc định bằng một chạm.
+ Bản Pro có thêm:
+ Cả mười phím của hai hàng, chọn hàng nào hiện ra trong từng trường hợp, chiều cao bàn phím, và công tắc luôn 5 hàng.
+ Có gói riêng cho Rootless và RootHide.
+ Lưu ý:
+ Chỉ dành cho iPhone và bàn phím theo chiều dọc. Chưa hỗ trợ bàn phím viết tay và bàn phím bên thứ ba.
+ Đã có người dùng xác nhận chạy trên iOS 15.4, 16.4, 16.5, 16.6, 16.7 và 17.0.
+ Nếu có lỗi, hãy bật log chẩn đoán trong Cài đặt, tái hiện lỗi, rồi sao chép log và gửi tới asdlkjlkjasd@gmail.com.
+Name: 5Row (Rootless)
+Author: PitroyTech
+SileoDepiction: https://jtisvn.github.io/sileodepictions/5Row.json
+Depiction: https://jtisvn.github.io/depictions/5Row.html
+Icon: https://pitroytech.github.io/repo/icons/5row.png
+
+Package: com.pitroytech.5row
+Architecture: iphoneos-arm64e
+Version: 1.16.7k
+Section: Keyboard
+Maintainer: PitroyTech
+Installed-Size: 552
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: ./debs/com.pitroytech.5row_1.16.7k_iphoneos-arm64e.deb
+Size: 100904
+MD5sum: 84876b04d741a3829af6b155e023f10d
+SHA1: e5f3a9a0f435f5634c69c1e54f77f1d85cbd1a0e
+SHA256: 68d7b1a265062d9a6631b576b27f3d2a0af815ae91c254468747c42e262c3917
+SHA512: 617bccb8fcc6b15b91bfa2355b44e688933319cdf8f9f9df44b7c613204d8a9f0999c1bd9cb51045690eb6674795f74be3ad21cce7665339f7fda0e0b94e61c6
+Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
+ Features:
+ Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
+ Rename the ABC and 123 keys, up to five characters each.
+ Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
+ Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
+ Pro adds:
+ All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
+ Separate packages are available for Rootless and RootHide.
+ Notes:
+ iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
+ Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
+ If something goes wrong, turn on the diagnostic log in Settings, reproduce the problem, then copy the log and email it to asdlkjlkjasd@gmail.com.
+ .
+ Thêm hàng phím số thứ 5 mà Apple bao nhiêu năm qua vẫn không làm cho iPhone.
+ Tính năng:
+ 5Row thêm một hàng phím vào bàn phím gốc một cách tự nhiên. Nhấn Shift hoặc 123 thì hàng đó chuyển sang ký tự hay dùng, nên không còn cảnh hai hàng chữ số.
+ Đổi nhãn phím ABC và phím 123, tối đa năm ký tự mỗi phím.
+ Hỗ trợ bàn phím Latin và nhiều bố cục non-Latin. Các bố cục hoạt động có thể khác nhau theo phiên bản iOS.
+ Bật/tắt, loại trừ từng ứng dụng, và đặt lại toàn bộ về mặc định bằng một chạm.
+ Bản Pro có thêm:
+ Cả mười phím của hai hàng, chọn hàng nào hiện ra trong từng trường hợp, chiều cao bàn phím, và công tắc luôn 5 hàng.
+ Có gói riêng cho Rootless và RootHide.
+ Lưu ý:
+ Chỉ dành cho iPhone và bàn phím theo chiều dọc. Chưa hỗ trợ bàn phím viết tay và bàn phím bên thứ ba.
+ Đã có người dùng xác nhận chạy trên iOS 15.4, 16.4, 16.5, 16.6, 16.7 và 17.0.
+ Nếu có lỗi, hãy bật log chẩn đoán trong Cài đặt, tái hiện lỗi, rồi sao chép log và gửi tới asdlkjlkjasd@gmail.com.
+Name: 5Row (Roothide)
+Author: PitroyTech
+SileoDepiction: https://jtisvn.github.io/sileodepictions/5Row.json
+Depiction: https://jtisvn.github.io/depictions/5Row.html
+Icon: https://pitroytech.github.io/repo/icons/5row.png
 
 Package: com.pixelomer.shijima-ios
 Architecture: iphoneos-arm64e
