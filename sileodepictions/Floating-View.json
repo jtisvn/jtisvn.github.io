@@ -1,0 +1,232 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#339999",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### Floating-View\n\n- Đa nhiệm toàn diện cho iOS, hỗ trợ mở cửa sổ nổi, chia nhiều màn hình và kích hoạt nhanh ứng dụng qua menu vòm ARC.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Floating-View/Screenshots/1.png",
+"accessibilityText":"Screenshot 1"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Floating-View/Screenshots/2.png",
+"accessibilityText":"Screenshot 2"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Floating-View/Screenshots/3.png",
+"accessibilityText":"Screenshot 3"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Menu vòm ARC thông minh:** Bật mở ứng dụng và công cụ hệ thống mượt mà qua các thao tác cử chỉ cạnh màn hình.\n- **Chia màn hình & Cửa sổ nổi:** Hỗ trợ mở ứng dụng dạng cửa sổ nổi hoặc chế độ 3 màn hình; tự động tùy chỉnh bo góc, bóng đổ, khoảng cách Notch và vị trí hiển thị.\n- **Tùy biến lớp & Phân cấp phím tắt:** Cấu hình phân tầng từ 1 đến 4 lớp linh hoạt cho cả danh sách ứng dụng và thanh công cụ; tùy chỉnh bán kính và kích thước nút bấm.\n- **Thao tác nhanh hệ thống:** Tích hợp sẵn phím tắt Khóa xoay, Chụp/Ghi màn hình, Dọn dẹp ứng dụng ngầm, Respring, Bật/Tắt Wi-Fi, Đèn pin, Khóa màn hình và chế độ Sáng/Tối.\n- **Tối ưu trải nghiệm sử dụng:** Tích hợp phản hồi rung Haptic, âm thanh cảm ứng, tự động ẩn ARC khi chụp/quay màn hình và cố định cửa sổ ở trung tâm.\n- **Quản lý cấu hình tiện lợi:** Cho phép sao lưu, khôi phục, xuất/nhập tệp cấu hình tùy chỉnh hoặc đặt lại mặc định nhanh chóng.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "huge",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "21/08/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.6.0-6",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.5 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 17.3",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.6.0-6\n- Sửa một số lỗi hệ thống để cải thiện độ ổn định."
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

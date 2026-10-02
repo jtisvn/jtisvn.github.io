@@ -1455,6 +1455,47 @@ Author: Bandar Alruwaili
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
 Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
 
+Package: com.be-huge.floating-view
+Architecture: iphoneos-arm64
+Version: 1.6.0-6
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 2700
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.kitsudo.transalt
+Filename: ./debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64.deb
+Size: 652484
+MD5sum: 836ebaa518030bba90bfbb0b04c8a6ed
+SHA1: 4e6ed5929721fd4e474229c48c5db71beba3a0db
+SHA256: b8a1fe3e7b71c13dc8e951dacbec5a40fcac25f531e0b966878b48644569a10a
+SHA512: 9bffe461dddc5c6e4a3b447afafbad03071c65fb2bd129abdd7a3748476ebe1fd7ee704d37b59fe21d02812a33406c9f87569c849c362fa8dd4331b174034bd9
+Description: Chia Màn Hình Và Nhiều Chức Năng Khác
+Name: Floating-View (Rootless)
+Author: be-huge
+Icon: https://jtisvn.github.io/sectionIcons/Floating-View.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Floating-View.json
+Depiction: https://jtisvn.github.io/depictions/Floating-View.html
+
+Package: com.be-huge.floating-view
+Architecture: iphoneos-arm64e
+Version: 1.6.0-6
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 2700
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.kitsudo.transalt
+Filename: ./debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 651344
+MD5sum: 965a0968dfd1acf566c37f050e153c52
+SHA1: 9a91b3ab255386ac97573f0dd6c4e7170f79f873
+SHA256: 0b83075fc569fc193ec957045370c93acaac5719f25106c685a450956eddc241
+SHA512: 189a80c3f0df9cc57d64acee68283b585c3586e7d0c8e599013f779fac76e0772211d9aeb38fe3b32807a4c21d04cb1d5f40eaa745eddedd00247f0b52c12531
+Description: Chia Màn Hình Và Nhiều Chức Năng Khác
+Name: Floating-View (Roothide)
+Author: be-huge
+Icon: https://jtisvn.github.io/sectionIcons/Floating-View.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Floating-View.json
+Depiction: https://jtisvn.github.io/depictions/Floating-View.html
+
 Package: com.blacknoisy.prism
 Architecture: iphoneos-arm64
 Version: 1.6.2
