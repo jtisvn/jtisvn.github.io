@@ -17,7 +17,7 @@
 "openExternal": true
 },
 {
-"markdown":"### Floating-View\n\n- Tuỳ chỉnh đa nhiệm toàn diện cho iOS, hỗ trợ mở cửa sổ nổi, chia nhiều màn hình và kích hoạt nhanh ứng dụng qua menu vòm ARC.",
+"markdown":"### Floating-View\n\n Tuỳ chỉnh đa nhiệm toàn diện cho iOS, hỗ trợ mở cửa sổ nổi, chia nhiều màn hình và kích hoạt nhanh ứng dụng qua menu vòm ARC.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

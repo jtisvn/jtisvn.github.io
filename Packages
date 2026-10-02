@@ -26179,6 +26179,43 @@ Description: Decrypt Appstore App that require higher iOS
 Name: TrollDecryptJB
 Author: 34306, khanhduytran0
 
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
+Version: 1.1.12
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13396
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/iya.banana.spatialscene_1.1.12_iphoneos-arm64.deb
+Size: 6388832
+MD5sum: 19bd280eb676dc1a63197ee6f120fc4c
+SHA1: 25b4baae402d845279f2753075f29ed4f998d783
+SHA256: b790941e09f2c8c1120dfb54daed52e944eb5c0156c3f746ba982f65d0bfc8e1
+SHA512: bcbf16046705a4be4629d0d02a977dd62d86723c973e557d354a3f1e35a7ec9e778dd9996dde56ca7bd8448a172bf69e3f6ba83045ea6ab766ec5b56de4c50ab
+Description: Hình nền cảnh không gian 3D cho Màn hình khóa, được nhập, xem trước và quản lý qua ứng dụng SpatialScene.
+Name: SpatialScene (Rootless)
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.12
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13396
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/iya.banana.spatialscene_1.1.12_iphoneos-arm64e.deb
+Size: 6388192
+MD5sum: c9494352cd2c7452b6c006c70f3b36a2
+SHA1: 1cbbed2df151fdd3ef3fc5186677ea49dac161bc
+SHA256: 15020426658a83088cef3f5b01f9d56df5c514c23dc1a9ddc87f0dafb999e1f9
+SHA512: ef4b928d354afd62027e127697a8a0699acb610ac4a4252904004b179e0d9c3917bfbb0902e5159b07931dd4fb1f5a9a79ab02a2ca3a965c3a37058eb1cfea67
+Description: Hình nền cảnh không gian 3D cho Màn hình khóa, được nhập, xem trước và quản lý qua ứng dụng SpatialScene.
+Name: SpatialScene (Roothide)
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
 Package: jp.dcsyhi.airaw.splitnative
 Architecture: iphoneos-arm64
 Version: 1.0
