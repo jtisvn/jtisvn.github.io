@@ -17,7 +17,7 @@
 "openExternal": true
 },
 {
-"markdown":"### Floating-View\n\n- Đa nhiệm toàn diện cho iOS, hỗ trợ mở cửa sổ nổi, chia nhiều màn hình và kích hoạt nhanh ứng dụng qua menu vòm ARC.",
+"markdown":"### Floating-View\n\n- Tuỳ chỉnh đa nhiệm toàn diện cho iOS, hỗ trợ mở cửa sổ nổi, chia nhiều màn hình và kích hoạt nhanh ứng dụng qua menu vòm ARC.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -35,6 +35,18 @@
 {
 "url":"https://jtisvn.github.io/infodeb/Floating-View/Screenshots/3.png",
 "accessibilityText":"Screenshot 3"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Floating-View/Screenshots/4.png",
+"accessibilityText":"Screenshot 4"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Floating-View/Screenshots/5.png",
+"accessibilityText":"Screenshot 5"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Floating-View/Screenshots/6.png",
+"accessibilityText":"Screenshot 6"
 }
 ],
 "itemCornerRadius":8,
