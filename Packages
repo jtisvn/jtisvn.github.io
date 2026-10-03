@@ -1496,6 +1496,53 @@ Icon: https://jtisvn.github.io/sectionIcons/Floating-View.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Floating-View.json
 Depiction: https://jtisvn.github.io/depictions/Floating-View.html
 
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64
+Version: 0.1.38.1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 828
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64.deb
+Size: 60060
+MD5sum: efe6f15cbba580d244afdcf7e8e5b0b9
+SHA1: 10e36ac788732af84e97b07b74979f18c8e2f4f9
+SHA256: 7db4f01eb350c3ab5fe577cfe17304bd19c6fe68dbadec713caf9ffb35a649a4
+SHA512: 11ad39acc8ebfc1585ecdda85cca3ee9d4e4b1a2238c1230a161b976eba15bda5a4f9b6fda36fe8b1a15d427874beac6bc1210dfbaed7d9b61c8f8a7fdd6edf6
+Description: Gỡ bỏ kiểm soát nhiệt độ và giữ cho mọi thứ tối giản. Hỗ trợ chuyển đổi chế độ thông qua dòng lệnh (CLI):
+ 	  *  Kiểm soát nhiệt độ gốc của hệ thống 
+ 	  *  Mô phỏng hiệu năng tiết kiệm pin
+ 	  *  Chống bóp hiệu năng do nhiệt
+Name: insulation (Rootless)
+Author: be-huge & doimty
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Insulation.json
+Depiction: https://jtisvn.github.io/depictions/Insulation.html
+Icon: https://jtisvn.github.io/sectionIcons/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.38.1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 828
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64e.deb
+Size: 58428
+MD5sum: 15a1a549285a60864b04ef41b0e0a251
+SHA1: 82d391a2992b626591a4648c6c3815999de45051
+SHA256: 022f5b8f03f8a6ea02f87d5b4d82266e47ad2602e4370be8811b43b83682a2c3
+SHA512: 35c17c50e0376a45022c746cd660ab751c51b6971d8205b2c8ded4afa8d509f5e735ece8f3dde46452816eed035a752de3357af614435bdef88552f78c61fc0d
+Description: Gỡ bỏ kiểm soát nhiệt độ và giữ cho mọi thứ tối giản. Hỗ trợ chuyển đổi chế độ thông qua dòng lệnh (CLI):
+ 	  *  Kiểm soát nhiệt độ gốc của hệ thống 
+ 	  *  Mô phỏng hiệu năng tiết kiệm pin
+ 	  *  Chống bóp hiệu năng do nhiệt
+Name: insulation (Roothide)
+Author: be-huge & doimty
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Insulation.json
+Depiction: https://jtisvn.github.io/depictions/Insulation.html
+Icon: https://jtisvn.github.io/sectionIcons/Insulation.png
+
 Package: com.blacknoisy.prism
 Architecture: iphoneos-arm64
 Version: 1.6.2
@@ -22615,27 +22662,6 @@ MD5sum: 221019f17a78e75bf3ceb446aef9cd76
 SHA1: b0b8b0decd033149bf303d7f1cb8dbb5cbc8503b
 SHA256: 5f5930e949c80486ec8edd00831c67aa137d57d9f6f39820c9195ae92b38326d
 SHA512: 5fca167c667b2d70e015076f04838bb169fb779b3a3b30b69a3435f364932898eda7dcc8bef253e210bdb5c5880f3ceab2fba6d9fe57fb99cb655cf603210ec5
-Description: iOS 26 camera style tweak (requires dylv's liquidass for Liquid Glass), currently supports devices between iPhone X and iPhone SE 1st Gen (Rootless).
-Name: 26Cam (Legacy)
-Author: ngkhoi
-SileoDepiction: https://jtisvn.github.io/sileodepictions/26Cam.json
-Depiction: https://jtisvn.github.io/depictions/26Cam.html
-Icon: https://jtisvn.github.io/sectionIcons/26Cam.png
-
-Package: com.ngkhoi.26cam-legacy
-Architecture: iphoneos-arm64e
-Version: 0.0.3-beta
-Section: Tweaks
-Maintainer: ngkhoi
-Installed-Size: 520
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.ngkhoi.26cam-legacy_0.0.3-beta_iphoneos-arm64e.deb
-Size: 81724
-MD5sum: f15dcde5fc4b86d83a4914c6a8b50ccb
-SHA1: 8d25c088b9cc78cc6dc270e9722cfbd4ae484ecf
-SHA256: f74f5d9296e1649c81a3f83f8adf75c90a9892daab88053e48f8691600ce480a
-SHA512: 260fbab8e396dfb19f621cdf02e0009bd7828eff54c57e757369591766e12787fe6202353c42f5abbdad20c5c232c3997332aed1691af6ca856fa3be93b7c7d4
 Description: iOS 26 camera style tweak (requires dylv's liquidass for Liquid Glass), currently supports devices between iPhone X and iPhone SE 1st Gen (Rootless).
 Name: 26Cam (Legacy)
 Author: ngkhoi
