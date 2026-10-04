@@ -1,0 +1,257 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://media.havoc.app/666bbc5ef0419252d37ef1b1",
+"tintColor":"#339999",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"text": "Mua bản quyền chính hãng",
+"action": "https://shop.wangchengq.com/links/8ED56D12",
+"class": "DepictionButtonView",
+"openExternal": true
+},
+{
+"text": "Mua bản quyền (Trang dự phòng)",
+"action": "https://faka.squidforce.eu.org",
+"class": "DepictionButtonView",
+"openExternal": true
+},
+{
+"markdown":"### CopyVault\n\n> ⚠️ **Lưu ý quan trọng:** Gói cài đặt này chỉ dành cho người dùng đã có hoặc cần mua mã kích hoạt. Nếu bạn không sử dụng mã kích hoạt, vui lòng **không** cài đặt phiên bản này.\n\n- Trình quản lý bộ nhớ tạm (Clipboard) siêu gọn nhẹ, đa năng và cực kỳ dễ sử dụng. Tweak giúp bạn phá bỏ giới hạn hệ thống để lưu trữ không giới hạn văn bản, liên kết, hình ảnh đã sao chép, đi kèm khả năng tìm kiếm chính xác và phân loại nhóm thông minh.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://lclrc.github.io/repo/assets/repo/Screenshots/copyvault/1.jpg",
+"accessibilityText":"Screenshot 1"
+},
+{
+"url":"https://lclrc.github.io/repo/assets/repo/Screenshots/copyvault/2.jpg",
+"accessibilityText":"Screenshot 2"
+},
+{
+"url":"https://lclrc.github.io/repo/assets/repo/Screenshots/copyvault/3.jpg",
+"accessibilityText":"Screenshot 3"
+},
+{
+"url":"https://lclrc.github.io/repo/assets/repo/Screenshots/copyvault/4.jpg",
+"accessibilityText":"Screenshot 4"
+},
+{
+"url":"https://lclrc.github.io/repo/assets/repo/Screenshots/copyvault/5.jpg",
+"accessibilityText":"Screenshot 5"
+}
+],
+"itemCornerRadius":14,
+"itemSize":"{160,346}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Giao diện trực quan:** Thiết kế thân thiện, dễ dàng làm quen và thao tác.\n- **Lưu trữ đa định dạng:** Hỗ trợ lưu Văn bản thường, Văn bản có định dạng (Rich text), Liên kết (URL) và Hình ảnh.\n- **Lưu trữ chọn lọc:** Hỗ trợ sử dụng Biểu thức chính quy (Regex) để tự động nhận diện và lưu nội dung theo điều kiện.\n- **Tích hợp kịch bản:** Khả năng mở rộng mạnh mẽ với tập lệnh JavaScript.\n- **Tổ chức thông minh:** Cho phép thêm ghi chú và phân nhóm tùy chỉnh cho các mục trong danh sách Yêu thích.\n- **Hệ thống tìm kiếm siêu việt:** Tìm kiếm linh hoạt theo nội dung văn bản, theo định dạng (nhập từ khóa như: `txt`, `url`, `img`), theo tên ứng dụng nguồn gốc, theo thời gian sao chép hoặc bằng ghi chú đính kèm (hỗ trợ nhận diện thông minh chữ hoa/chữ thường).\n- **Thao tác gọi nhanh (Gestures):** Vuốt lên từ bàn phím hoặc sử dụng phím tắt trên bàn phím rời để mở nhanh giao diện CopyVault.\n- **Tùy biến linh hoạt:** Tự do cá nhân hóa giao diện và thao tác (Nhấn giữ / Vuốt trái / Vuốt phải vào một mục để xem thêm menu chức năng).\n- **Hệ sinh thái kết nối:** Tương thích hoàn hảo với các Tweak khác như SquidGesture, DockX, Hammer It, Snapper,...",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"title": "Yêu cầu phụ thuộc",
+"text": "AltList",
+"class": "DepictionTableTextView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "lclrc",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "04/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.9.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.5 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 17.3",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.9.0\n- **Thêm Cài đặt nâng cao:** Bổ sung tùy chọn tự động hiển thị thanh tìm kiếm khi người dùng cuộn lên đầu trang.\n- **Thêm Cài đặt nâng cao:** Cho phép tùy chỉnh hiển thị thời gian hoặc biểu tượng ứng dụng làm mặc định khi sử dụng Chế độ tối giản (Minimalist Mode).\n- **Menu Tùy chọn (Góc trái):** Thêm tính năng chuyển đổi nhanh qua lại giữa việc hiển thị thời gian và biểu tượng ứng dụng khi đang ở trong Chế độ tối giản."
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

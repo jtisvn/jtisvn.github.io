@@ -793,6 +793,49 @@ Depiction: http://jtisvn.github.io/depiction/HideNotiPlayer.html
 Icon: https://jtisvn.github.io/sectionIcons/HideNotiPlayer.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNotiPlayer.json
 
+Package: cn.octoforce.copyvault
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6220
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64.deb
+Size: 1669896
+MD5sum: 8dce9680546caf2fb116dbb74bde2c98
+SHA1: 422c774c2c84c24dcb3a6718580c4cff2c26b0d7
+SHA256: b235f647dd621f37eb9ba82bb6d77f312910179fa8ddffd7947cb024fdf245f2
+SHA512: 411584e54f5b2e5a0cac36450f104234dc28592c8ca619a66d6380418c7f01eca8208a9a2e62e03ba97e8b10ae2f6e4a8595eb00a0b5fa70acd50228451d4bbe
+Description: Your Copy Vault, Your Pasteboard
+Name: CopyVault (Rootless)
+Author: SquidForce, Backup
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CopyVault.json
+Depiction: https://jtisvn.github.io/depictions/CopyVault.html
+icon: https://media.havoc.app/66424f2de151fb3d56c76edb
+
+Package: cn.octoforce.copyvault
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6220
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 1640896
+MD5sum: 0044832e28159f2c5ce90d5e6d0298fb
+SHA1: e1693af972677262f595009e0589d0f023e12b2d
+SHA256: 10dcac68316d6b99438db6fb19a9748ec1c95f6f6b76d9f42157a8deb32b4202
+SHA512: b092ba31b63db375be8a77c09323925b254214525bc33f841acf917950707869ea7c41936c2217d63932da389d7eb6259571913afed7986f17d8c083b71a651c
+Description: Your Copy Vault, Your Pasteboard
+Name: CopyVault (Roothide)
+Author: SquidForce, Backup
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CopyVault.json
+Depiction: https://jtisvn.github.io/depictions/CopyVault.html
+icon: https://media.havoc.app/66424f2de151fb3d56c76edb
+
 Package: cn.zqbb.disupdateapp
 Architecture: iphoneos-arm64
 Version: 2.0.0-6
