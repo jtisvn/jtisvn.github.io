@@ -1,0 +1,236 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://media.havoc.app/62255e57013b3ed73b6d303d",
+"tintColor":"#9FB6CD",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### KillBackground13\n\n Tweak giúp đóng toàn bộ ứng dụng chạy ngầm cực kỳ nhanh gọn và tinh tế cho iOS 13 đến iOS 26, hỗ trợ đầy đủ iPhone, iPad và iPod Touch.\n- Dễ dàng làm sạch bộ nhớ ngầm chỉ bằng thao tác vuốt xuống trong màn hình Chuyển đổi ứng dụng (App Switcher) hoặc sử dụng các nút bấm tiện lợi.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/KillBackground13/Screenshots/1.png",
+"accessibilityText":"Screenshot 1"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/KillBackground13/Screenshots/2.png",
+"accessibilityText":"Screenshot 2"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/KillBackground13/Screenshots/3.png",
+"accessibilityText":"Screenshot 3"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/KillBackground13/Screenshots/4.png",
+"accessibilityText":"Screenshot 4"
+}
+],
+"itemCornerRadius":14,
+"itemSize":"{160,346}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Nút xoá nhanh (Kill Buttons):** Thêm nút bấm chuyên dụng vào màn hình App Switcher để đóng toàn bộ ứng dụng lập tức.\n- **Vuốt xuống thông minh:** Thao tác vuốt xuống trên thẻ ứng dụng để đóng tất cả ngầm (hỗ trợ bật hộp thoại xác nhận).\n- **Danh sách ngoại lệ (Whitelist):** Loại trừ các ứng dụng quan trọng không bị đóng ngầm.\n- **Tùy chọn đóng ứng dụng Nhạc:** Tùy chỉnh giữ lại hoặc đóng ứng dụng đang phát nhạc khi thực hiện dọn dẹp.\n- **Phím tắt Trung tâm điều khiển:** Tích hợp nút bấm vào Control Center (yêu cầu CCSupport), hỗ trợ nhấn giữ để thực hiện URL Scheme.\n- **Tự động thoát App Switcher:** Tự động đóng giao diện chuyển đổi ứng dụng ngay sau khi dọn dẹp xong.\n- **Cá nhân hóa giao diện:** Cho phép ẩn banner ứng dụng, nhấn giữ ứng dụng trong danh sách trắng để chuyển nhanh và nhiều tùy chọn nâng cao khác.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "ichitaso",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "01/09/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.1.4",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "286.9 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "13.0 - 26.0.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.1.4\n- **Tối ưu giao diện:** Điều chỉnh và sắp xếp lại bố cục hiển thị trong ứng dụng Cài đặt.\n- **Tương thích:** Tối ưu hóa hiệu năng cho các phiên bản iOS mới (iOS 26)."
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

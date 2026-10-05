@@ -3607,6 +3607,45 @@ SileoDepiction: https://cydia.ichitaso.com/depiction/iconorder.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 dev: ichitaso
 
+Package: com.ichitaso.killbackground13
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Section: Tweaks
+Maintainer: ichitaso
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Filename: ./debs/com.ichitaso.killbackground13_1.1.4_iphoneos-arm64.deb
+Size: 293552
+MD5sum: 3151101e9b2c2a1cb0909e4d2fcae116
+SHA1: 3647d7b765ac5a6c2209d38a369c9aaf7536f18e
+SHA256: 494be4bf1b91677991e8e382504709418788f3f291d9bd9a108d0457210d7d38
+SHA512: 1d2806dfe88c19920771ce489730532eb551a11e7ee87c01676dd7f3b4453eb9ce6c9e8c1be44a5912ad2535fe0b49d9e0c29d7e85e1f705f3b5ad569f8d930a
+Description: Tắt các ứng dụng chạy ngầm một cách dễ dàng và phong cách cho iOS 13 đến 26.
+Name: KillBackground13 (Rootless)
+Author: ichitaso
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KillBackground13.json
+Depiction: https://jtisvn.github.io/depictions/KillBackground13.html
+Icon: https://jtisvn.github.io/sectionIcons/KillBackground13.png
+
+Package: com.ichitaso.killbackground13
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Section: Tweaks
+Maintainer: ichitaso
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Filename: ./debs/com.ichitaso.killbackground13_1.1.4_iphoneos-arm64e.deb
+Size: 293692
+MD5sum: 9b5435c005b12caf0b27287502cd44ac
+SHA1: 41726c21091194b4bc699515de8ee4b0a6a92891
+SHA256: c00a39c4b0c8446e7db7da2b73d905161eb7a5ccd82d6607cad147fd1a5aa5b8
+SHA512: 2835a835c7d686d73eb8d3165b74ac6c93b7966cd034e40a5129705f7f79531cb70de54f90e90ca088a1ab13fa05fe50f85630482c6336d6b642e88abd256e83
+Description: Tắt các ứng dụng chạy ngầm một cách dễ dàng và phong cách cho iOS 13 đến 26.
+Name: KillBackground13 (Roothide)
+Author: ichitaso
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KillBackground13.json
+Depiction: https://jtisvn.github.io/depictions/KillBackground13.html
+Icon: https://jtisvn.github.io/sectionIcons/KillBackground13.png
+
 Package: com.ichitaso.locationservicecc
 Architecture: iphoneos-arm64
 Version: 0.1-6
