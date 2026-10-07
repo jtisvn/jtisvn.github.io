@@ -20623,17 +20623,17 @@ Version: 3.0
 Section: Themes
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtisvn.solidglass27_3.0_all.deb
-Size: 29530952
-MD5sum: 118ecb3dfc29e2dbed8c4b6bdaac58d8
-SHA1: ed6d3fd30a8dda07bac89ebee111eb7dd812a633
-SHA256: 94833fc89333a5400d3e75cb050f67e0c1842acb150a84292b26a1838cc4288c
-SHA512: c8cce63c8f8a9fb5c16946856804c09c3a55b89001944b80a3252906b75278f5a5076b955196edcddf839b8e89c5d9ebd5759f859525c480afad3dc077dda6ff
+Size: 35487736
+MD5sum: e635e986390b9b3bc5e05a49377ebd5c
+SHA1: f7d2b968f09ff4fd6fe4935ae7fde521ebbffcdf
+SHA256: f1f3c450c9433666e332704aea4898aae00c0d1197cd65c106d1b9e7dd79fc57
+SHA512: 164e2e3c70b2340725a310e9e316f89a77c0db425d9b8f582b46efdb9649c7f4a74c8713d88d89f521555b3b4b5829f62c4745725c6fa33c334446064d1d1c95
 Description: iOS 27 icons for older devices. Theme kích hoạt qua snowboard.
 Name: Solid Glass 27
 Author: Unknown
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SolidGlass27.json
 Depiction: https://jtisvn.github.io/depictions/SolidGlass27.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+Icon: https://jtisvn.github.io/sectionIcons/SolidGlass27.png
 
 Package: com.jtisvn.switchicon
 Architecture: iphoneos-arm64

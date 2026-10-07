@@ -7,5 +7,5 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: JTISVN Repo • A Repository for iOS Jailbreak Tweaks
 MD5Sum:
- f33a4c1fc69f32e1951f33b16d204788 1298624 Packages
- 124e0409b99bd8e897e298addfaeca9f 299594 Packages.bz2
+ c8e19457a843747bd4c8ee6aa64a6b11 1298630 Packages
+ 53cb76c454172327167c45e926a9636d 299515 Packages.bz2
