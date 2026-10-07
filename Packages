@@ -20599,6 +20599,24 @@ Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
 Name: Slipstream_LETf
 Author: legionfonts
 
+Package: com.jtisvn.snokeddark
+Architecture: all
+Version: 1.2
+Section: Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtisvn.snokeddark_1.2_all.deb
+Size: 19170512
+MD5sum: 341eee2cbdfeed1887ee0ffbf2e56480
+SHA1: 6faf5c5bf0928da9d74834c897802c9187815030
+SHA256: 0d48a427e4182f7565fe79526557d3f11f7a83aac3895dea6f347be33ca2a7d1
+SHA512: efb6ef20bc786e641e04b1c5a008190c40fdea1a6557b8eba5453a59029ae40632589935efabeed670b6337b9d2a2da3d92d3b3fe9f215644cdfce26b00f35a0
+Description: Chủ đề Snoked Glass iOS 26 Dark
+Name: iOS26 Dark Theme
+Author: Nguyên & Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SG-dark.json
+Depiction: https://jtisvn.github.io/depictions/SG-dark.html
+Icon: https://jtisvn.github.io/sectionIcons/Snokeddark.png
+
 Package: com.jtisvn.solidglass27
 Architecture: all
 Version: 3.0

@@ -7,18 +7,32 @@
 "tabname":"Giới thiệu",
 "views":[
 {
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
 "url":"https://jtisvn.github.io/infodeb/GL-dark/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/GL-dark/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/GL-dark/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 }
 ],
 "itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Chủ đề iOS26 Dark\n\n- được thiết kế bởi **Nguyên Tokuda**.\n\n- Gồm 100 biểu tượng & Dock UI.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.\n\n- Các bạn muốn đầy đủ icon còn thiếu thì liên hệ tác giả bên dưới để mua ủng hộ bác ấy nhé, xin cảm ơn!\n\n- Ủng hộ chủ mod 👉 [**Facebook Tác Giả**](https://www.facebook.com/share/1BSw42sn6x/?mibextid=wwXIfr)",
+"markdown":"\n\n- Chủ đề iOS26 Dark\n\n- được thiết kế bởi **Nguyên Tokuda & Kitsudo**.\n\n- Gồm 280 biểu tượng & Dock UI.\n\n- 150 biểu tương cài đặt\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.\n\n- Các bạn muốn đầy đủ icon còn thiếu thì liên hệ tác giả bên dưới để mua ủng hộ bác ấy nhé, xin cảm ơn!\n\n- Ủng hộ chủ mod 👉 [**Facebook Tác Giả**](https://www.facebook.com/share/1BSw42sn6x/?mibextid=wwXIfr)",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -53,7 +67,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Nguyên Tokuda",
+"text": "Nguyên & Kitsudo",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -73,13 +87,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "16/9/2025",
+"text": "16/05/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -97,7 +111,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1",
+"text": "1.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -110,7 +124,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "774,2 KB",
+"text": "1.0 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -149,6 +163,14 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"markdown": "### Phiên bản 1.2\n- Thêm các biểu tượng cài đặt (Setiings) đc mod bởi Kitsudo.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 1.1\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak."

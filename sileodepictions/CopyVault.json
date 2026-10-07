@@ -56,7 +56,7 @@
 }
 ],
 "itemCornerRadius": 14,
-"itemSize": "{160,346}"
+"itemSize": "{185,400}"
 },
 {
 "markdown": "- **Tính năng nổi bật:**\n\n- **Giao diện trực quan:** Thiết kế thân thiện, dễ dàng làm quen và thao tác.\n- **Lưu trữ đa định dạng:** Hỗ trợ lưu Văn bản thường, Văn bản có định dạng (Rich text), Liên kết (URL) và Hình ảnh.\n- **Lưu trữ chọn lọc:** Hỗ trợ sử dụng Biểu thức chính quy (Regex) để tự động nhận diện và lưu nội dung theo điều kiện.\n- **Tích hợp kịch bản:** Khả năng mở rộng mạnh mẽ với tập lệnh JavaScript.\n- **Tổ chức thông minh:** Cho phép thêm ghi chú và phân nhóm tùy chỉnh cho các mục trong danh sách Yêu thích.\n- **Hệ thống tìm kiếm siêu việt:** Tìm kiếm linh hoạt theo nội dung văn bản, theo định dạng (nhập từ khóa như: `txt`, `url`, `img`), theo tên ứng dụng nguồn gốc, theo thời gian sao chép hoặc bằng ghi chú đính kèm (hỗ trợ nhận diện thông minh chữ hoa/chữ thường).\n- **Thao tác gọi nhanh (Gestures):** Vuốt lên từ bàn phím hoặc sử dụng phím tắt trên bàn phím rời để mở nhanh giao diện CopyVault.\n- **Tùy biến linh hoạt:** Tự do cá nhân hóa giao diện và thao tác (Nhấn giữ / Vuốt trái / Vuốt phải vào một mục để xem thêm menu chức năng).\n- **Hệ sinh thái kết nối:** Tương thích hoàn hảo với các Tweak khác như SquidGesture, DockX, Hammer It, Snapper,...",

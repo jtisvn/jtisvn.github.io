@@ -42,7 +42,7 @@
 }
 ],
 "itemCornerRadius":14,
-"itemSize":"{160,346}"
+"itemSize":"{185,400}"
 },
 {
 "markdown":"- **Tính năng nổi bật:**\n\n- **Nút xoá nhanh (Kill Buttons):** Thêm nút bấm chuyên dụng vào màn hình App Switcher để đóng toàn bộ ứng dụng lập tức.\n- **Vuốt xuống thông minh:** Thao tác vuốt xuống trên thẻ ứng dụng để đóng tất cả ngầm (hỗ trợ bật hộp thoại xác nhận).\n- **Danh sách ngoại lệ (Whitelist):** Loại trừ các ứng dụng quan trọng không bị đóng ngầm.\n- **Tùy chọn đóng ứng dụng Nhạc:** Tùy chỉnh giữ lại hoặc đóng ứng dụng đang phát nhạc khi thực hiện dọn dẹp.\n- **Phím tắt Trung tâm điều khiển:** Tích hợp nút bấm vào Control Center (yêu cầu CCSupport), hỗ trợ nhấn giữ để thực hiện URL Scheme.\n- **Tự động thoát App Switcher:** Tự động đóng giao diện chuyển đổi ứng dụng ngay sau khi dọn dẹp xong.\n- **Cá nhân hóa giao diện:** Cho phép ẩn banner ứng dụng, nhấn giữ ứng dụng trong danh sách trắng để chuyển nhanh và nhiều tùy chọn nâng cao khác.",
