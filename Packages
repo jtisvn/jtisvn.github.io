@@ -1810,6 +1810,48 @@ Author: CreatureSurvive <support@creaturecoding.com>
 Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
 SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
 
+Package: com.dao.little16
+Architecture: iphoneos-arm64
+Version: 0.0.10
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.michaelmelita1.little16
+Filename: ./debs/com.dao.little16_0.0.10_iphoneos-arm64.deb
+Size: 7768
+MD5sum: be8e7cc93332d62b6fe2023ed4924458
+SHA1: 2c1259f08192f58856cd18cb8f31d4bc646829ed
+SHA256: e26d77a52467ad3adfdafcdf979187f55862af3772fc4c069d76bfc9af29bfc4
+SHA512: 46bb9428212c82c1658e0ff9625ea01db3408ebf12061726bbe822f5408426eaad0bd2b335739415f783bdd2619d85a1301f759c2273795a06473e6c2d558f5d
+Description: Giải pháp mang các thao tác vuốt cử chỉ kiểu iPhone X và giao diện iPad lên các dòng iPhone sử dụng nút.
+Name: Little16 (Rootless)
+Author: michaelmelita1 & daodao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Little16.json
+Depiction: https://jtisvn.github.io/depictions/Little16.html
+Icon: https://jtisvn.github.io/sectionIcons/Little16.png
+
+Package: com.dao.little16
+Architecture: iphoneos-arm64e
+Version: 0.0.10
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.michaelmelita1.little16
+Filename: ./debs/com.dao.little16_0.0.10_iphoneos-arm64e.deb
+Size: 7708
+MD5sum: bb66fe9b9ca555f5e0a4cb4cdc724603
+SHA1: 4857622a9808c97fe46492cb20ea96a8c47fc3bc
+SHA256: f9ea26781eb6a00f3c070f9e7ec957739eb07c7689a7eb6297593402c678b2fa
+SHA512: dea31828dce764ec941a92fd50d4546f4d4b0b2a6907002165986a6f5924ed0c1adb1c227e8ba3a36e38e5df338d67978c9c38ea894cecc0da6e4c74581861f0
+Description: Giải pháp mang các thao tác vuốt cử chỉ kiểu iPhone X và giao diện iPad lên các dòng iPhone sử dụng nút.
+Name: Little16 (Roothide)
+Author: michaelmelita1 & daodao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Little16.json
+Depiction: https://jtisvn.github.io/depictions/Little16.html
+Icon: https://jtisvn.github.io/sectionIcons/Little16.png
+
 Package: com.den.igformat
 Architecture: iphoneos-arm64
 Version: 1.85-2+debug
@@ -3338,25 +3380,24 @@ Package: com.iarrays.biolocker
 Architecture: iphoneos-arm64e
 Version: 1.15.0-beta-2
 Section: Utilities
-Maintainer: IArrays <support@iarrays.com>
+Maintainer: JTISVN REPO
 Installed-Size: 2916
-Pre-Depends: rootless-compat(>= 0.9), firmware (>=15.0)
-Depends: mobilesubstrate, preferenceloader, com.iarrays.libiarrays.rootless (>= 1.0.16), com.jtis.iarrays-crack
-Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect, com.iarrays.biolocker.r-o-o-t-l-e-s-s-
+Pre-Depends: firmware (>=15.0)
+Depends: mobilesubstrate, preferenceloader, com.iarrays.libiarrays.roothide (>= 1.0.16), com.jtis.iarrays-crack
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect, com.iarrays.biolocker.rootless
 Filename: ./debs/com.iarrays.biolocker_1.15.0-beta-2_iphoneos-arm64e.deb
-Size: 652888
-MD5sum: 327085e9f5efdb3693500caa05965ac8
-SHA1: 4a5302a9551196bb254d422b055a6bd2ebf40ba4
-SHA256: a08a702dd87e4add01a0ba92e5242466c0c96a69ffd0d093f2d052e7ef242577
-SHA512: d99f778a22da686544d31a85b59d56d8294c8f71abfc9eafaa2d7276ce5e80c8da4772932803ee7d125c432d10a20921d18bffd58df0b9d4d510bbd557d15d4b
-Homepage: https://jtisvn.github.io
+Size: 663768
+MD5sum: d83fafb37f867d805f155c8f82f615a0
+SHA1: c8ba278bddee7bcfc9328ebb4236cc6eea562c2a
+SHA256: 26edfcd82704eeca9665650da00fef6692eaba0d3a70e43716af6267add5ae1e
+SHA512: 7272c4400420ac3b1b8334bad653b23770086b12e55f57cf57486f17eb9efebefd72ad9bd1d0c7f8a0e387cd2b7eb929922c15f95e7f76b50546be6f7cb5f7fa
 Description: Simple, light weight and elegant locker for your apps. Protect your apps with Face ID or Touch ID or a custom passcode.
 Name: Bio Locker (Roothide)
 Depiction: http://iarrays.com/depiction/biolocker
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BioLocker.json
+Icon: https://jtisvn.github.io/sectionIcons/BioLocker.png
 Author: IArrays <support@iarrays.com>
 Sponsor: IArrays
-Icon: https://jtisvn.github.io/sectionIcons/BioLocker.png
 
 Package: com.iarrays.calllogpro.rootless
 Architecture: iphoneos-arm64
@@ -25124,6 +25165,45 @@ Name: Debra (Rootless)
 Author: Sudo
 Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
 
+Package: com.sugiuta.lpmnotification
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: sugiuta
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.sugiuta.lpmnotification_1.0.0_iphoneos-arm64.deb
+Size: 7444
+MD5sum: 1d935f5aab09727e36477d4806c146c5
+SHA1: 03fb921da7f7f4482a45c96ed5b24ebc75b3dac6
+SHA256: 0d78f02d74b63e7491bf2a238d3b96e790a2c756ff8770464f4cd18249e8a198
+SHA512: 145f23594239c4fe6f59f6f50534bca935f908a9eef0afcf22cc8c30274a09fbb3e35a0fe60a5a46a6339e3dcaa484064610e36a1b9b7355a82a4c25e44b073d
+Description: Loại bỏ cảnh báo pin yếu cho iOS 16.
+Name: LPMNotification (Rootless)
+Depiction: https://sugiuta.github.io/descriptions/index.html?p=com.sugiuta.lpmnotification
+Author: sugiuta
+Icon: https://sugiuta.github.io/repo/images/icons/LPMNotification.png
+
+Package: com.sugiuta.lpmnotification
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: sugiuta
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.sugiuta.lpmnotification_1.0.0_iphoneos-arm64e.deb
+Size: 7352
+MD5sum: 46f6b1b0f2f581efd563507183b17453
+SHA1: 8c9917762df5d9a75e4bdf0e6a83e1cc966a834e
+SHA256: 8234b629483f263a0169787ae1de61c2f9f6c02aa214b968031f2d4d7b6d7978
+SHA512: 4df2c1a350172b34e87b08b403cd752bf39f2b3b4280fba8003a15967e839a33b727adb4d456cb1c5271d2edac03aa4b5ec0d1d05588f6bb2595cfaa4561dab3
+Description: Loại bỏ cảnh báo pin yếu cho iOS 16.
+Name: LPMNotification (Roothide)
+Depiction: https://sugiuta.github.io/descriptions/index.html?p=com.sugiuta.lpmnotification
+Author: sugiuta
+Icon: https://sugiuta.github.io/repo/images/icons/LPMNotification.png
+
 Package: com.sunshinesong.split-view-pro-helper
 Architecture: iphoneos-arm64
 Version: 999.1
@@ -27345,6 +27425,47 @@ Description: An awesome tool of some sort!!
 Tag: role::hacker
 Name: mount_bindfs
 Author: misty
+
+Package: moe.waru.nokeyboardglobe
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/moe.waru.nokeyboardglobe_1.0.0_iphoneos-arm64.deb
+Size: 3856
+MD5sum: 13ca8198e01d6a564a3ecd8be97033c5
+SHA1: 8901dccd5e8d87adf63df00ed6af76021ab8e539
+SHA256: c36d55bf70bb86076304a5e20c3918243f404489b35f6ec0668a0c9220dd1b91
+SHA512: 2faaf97232a32c033c9d0728e0611626b15bc9f1d3baf6da479d6830673200b22dc2d55c6f7264444b39dc7792bd83644cecdf25a6ab5e834081e423d1afc821
+Description: Xoá biểu tượng địa cầu trên bàn phím.
+Name: NoKeyboardGlobe (Rootless)
+Author: waruhachi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoKeyboardGlobe.json
+Depiction: https://jtisvn.github.io/depictions/NoKeyboardGlobe.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: moe.waru.nokeyboardglobe
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/moe.waru.nokeyboardglobe_1.0.0_iphoneos-arm64e.deb
+Size: 3716
+MD5sum: 0ef8a8ab26320fd0c86771f48372f584
+SHA1: 1a08c58795502271bf1a1250acad48c19b095c61
+SHA256: ab5d77f415a93124283abb80a13170f77bd7700579c0ef95f4f6d87af420b6ba
+SHA512: 51f42af33be43fbf3e963e673d748e1920639616306f67f6d65f7129096a7f4dfd8a794b70ddbeb62e8d897345e3e20ea2bf5bd14ed8253c6ae5d724cf17ddcc
+Description: Xoá biểu tượng địa cầu trên bàn phím.
+Name: NoKeyboardGlobe (Roothide)
+Author: waruhachi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoKeyboardGlobe.json
+Depiction: https://jtisvn.github.io/depictions/NoKeyboardGlobe.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: net.jtid.randomiconsflip
 Architecture: iphoneos-arm64e
