@@ -1852,6 +1852,69 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Little16.json
 Depiction: https://jtisvn.github.io/depictions/Little16.html
 Icon: https://jtisvn.github.io/sectionIcons/Little16.png
 
+Package: com.dao.little16
+Architecture: iphoneos-arm
+Version: 0.0.11
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.michaelmelita1.little16
+Filename: ./debs/com.dao.little16_0.0.11_iphoneos-arm.deb
+Size: 10172
+MD5sum: fdbb4127e942638fde5824ab49ba9f77
+SHA1: 1270f3206d7603bc2270769ab40a7c7d9a28815e
+SHA256: e6d70faba8280fcb78dd896f126a4863560065aa6069ce961acc36335b7fc1cd
+SHA512: 730061c4e7258782e44b97934599c7c4c69636f4449c7bd3559279418452f92d7433a811af9f69d9d193211d6ddbe2898c04f5965f1879a597c1476c1a846b24
+Description: Mang các cử chỉ của iPhone X lên các thiết bị màn hình phẳng (iPhone 7/8/SE2, v.v.) và hỗ trợ thanh trạng thái, Dock và các phím tắt trên màn hình khóa kiểu iPad (đèn pin/máy ảnh) mà không cần cấu hình.
+Name: Little16
+Author: michaelmelita1 & daodao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Little16.json
+Depiction: https://jtisvn.github.io/depictions/Little16.html
+Icon: https://jtisvn.github.io/sectionIcons/Little16.png
+
+Package: com.dao.little16
+Architecture: iphoneos-arm64
+Version: 0.0.11
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.michaelmelita1.little16
+Filename: ./debs/com.dao.little16_0.0.11_iphoneos-arm64.deb
+Size: 10260
+MD5sum: 2891c6c0c596321a5bd1b7e0177f1b52
+SHA1: e659fb136c33841a1d1d5b2922c364e8ecd331f7
+SHA256: d62c2bbee4de4c8c002c664b7f0b050b734905e57810af68e330abb5da0870d8
+SHA512: 62183abb702f0d12b21652e87bc62f42a9b6f695284175e2550f78c4e2dd087a644a45924c4d28355f9fc5ab8de0e4946f64ce26e6f3e66e6c7d8cd7fc5fc20a
+Description: Mang các cử chỉ của iPhone X lên các thiết bị màn hình phẳng (iPhone 7/8/SE2, v.v.) và hỗ trợ thanh trạng thái, Dock và các phím tắt trên màn hình khóa kiểu iPad (đèn pin/máy ảnh) mà không cần cấu hình.
+Name: Little16 (Rootless)
+Author: michaelmelita1 & daodao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Little16.json
+Depiction: https://jtisvn.github.io/depictions/Little16.html
+Icon: https://jtisvn.github.io/sectionIcons/Little16.png
+
+Package: com.dao.little16
+Architecture: iphoneos-arm64e
+Version: 0.0.11
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.michaelmelita1.little16
+Filename: ./debs/com.dao.little16_0.0.11_iphoneos-arm64e.deb
+Size: 10208
+MD5sum: c29d6acb002b3c85905bcd1341b51dcf
+SHA1: 09a5b48543596ef4d703ccd585a4170736222cd1
+SHA256: 813781b0abafdb8997488bfe8c4426ad3a2aefef9fa0e1cd11ac80ff939f01da
+SHA512: 0e4b5bd961d8c849e1e9524b1a729ab28548ca6184cf7012fb15daa171db16aa345116e3a1c190510874818c4565299f4f50d1ee4cd2b9372b9f9bfa82183408
+Description: Mang các cử chỉ của iPhone X lên các thiết bị màn hình phẳng (iPhone 7/8/SE2, v.v.) và hỗ trợ thanh trạng thái, Dock và các phím tắt trên màn hình khóa kiểu iPad (đèn pin/máy ảnh) mà không cần cấu hình.
+Name: Little16 (RootHide)
+Author: michaelmelita1 & daodao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Little16.json
+Depiction: https://jtisvn.github.io/depictions/Little16.html
+Icon: https://jtisvn.github.io/sectionIcons/Little16.png
+
 Package: com.den.igformat
 Architecture: iphoneos-arm64
 Version: 1.85-2+debug
