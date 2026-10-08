@@ -28164,6 +28164,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/ccock18.json
 Depiction: https://jtisvn.github.io/depictions/ccock18.html
 Icon: https://jtisvn.github.io/sectionIcons/ccock18.png
 
+Package: pawxed.setthead
+Architecture: iphoneos-arm64
+Version: 0.0.1a
+Section: Tweaks
+Maintainer: pawxed
+Installed-Size: 140
+Depends: firmware (>= 14.0), firmware (<< 17.4), ellekit, mobilesubstrate, preferenceloader
+Filename: ./debs/pawxed.setthead_0.0.1a_iphoneos-arm64.deb
+Size: 28776
+MD5sum: 2cdb5e1afc9dc5f87d0b7aecc6333ae1
+SHA1: 76d27115902237b69fb0f223ba1c3792d8d4ea39
+SHA256: 1449bf0a7965b4e1f6ff27cce59c2d88b8d3793526de44e175053e3fbfdbe8e9
+SHA512: 637d944f2d75cbe7f8188bd238b1ae1170510ef99c959edc7155c607609eaa4f421d066f4e29697267d28b6a2f20689b2c5ce0f608ae3b37d449a88593d8df6b
+Description: Thêm tiêu đề cài đặt iOS 18
+Name: setthead (Rootless)
+Author: pawxed
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Setthead.json
+Depiction: https://jtisvn.github.io/depictions/Setthead.html
+Icon: https://jtisvn.github.io/sectionIcons/Setthead.png
+
+Package: pawxed.setthead
+Architecture: iphoneos-arm64e
+Version: 0.0.1a
+Section: Tweaks
+Maintainer: pawxed
+Installed-Size: 140
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), firmware (<< 17.4), ellekit, mobilesubstrate, preferenceloader
+Filename: ./debs/pawxed.setthead_0.0.1a_iphoneos-arm64e.deb
+Size: 28916
+MD5sum: e00a99d3fd0ddfbbff04da8f8fbb0f72
+SHA1: 87aa2d012e3e778b9e1e5c8ad0508eaea8347db5
+SHA256: 702020a83f6df6fef7965d0de60c5ebf1593cae4f74b03633d443bb2e0982dcc
+SHA512: 9e1170ece38be88c75bfae0f597e9072cbed678655545d4dd81ff37ac952f61fc10bc5067a50915f906693eba2854a7cb291ed1782d1f24005d561dd5d4b901b
+Description: Thêm tiêu đề cài đặt iOS 18
+Name: setthead (Roothide)
+Author: pawxed
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Setthead.json
+Depiction: https://jtisvn.github.io/depictions/Setthead.html
+Icon: https://jtisvn.github.io/sectionIcons/Setthead.png
+
 Package: preferenceloader
 Architecture: iphoneos-arm64e
 Version: 2.2.6-11+debug

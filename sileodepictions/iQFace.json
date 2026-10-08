@@ -47,13 +47,17 @@
 {
 "url": "https://jtisvn.github.io/infodeb/iQFace/Screenshots/6.png",
 "accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/iQFace/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
 }
 ],
 "itemCornerRadius": 8,
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- **Chặn quảng cáo:** Loại bỏ hoàn toàn các bài viết tài trợ và quảng cáo trên bảng tin.\n- **Tải Video & Reels:** Hỗ trợ tải trực tiếp video về thiết bị với thanh tiến trình hiển thị rõ ràng.\n- **Chế độ ẩn danh:** Thoải mái xem Tin (Story) của bạn bè mà không bị hiện trạng thái \"Đã xem\".\n- 🧹 **Dọn dẹp Bảng tin:** Tự động ẩn Reels gợi ý, nhóm gợi ý và mục \"Những người bạn có thể biết\" gây rối mắt.\n- **Xác nhận an toàn:** Hiển thị hộp thoại hỏi lại trước khi Thích, Chia sẻ, Bình luận, Đăng bài hoặc Gửi tin nhắn để tránh thao tác nhầm.\n- **Tiện ích mở rộng:** Tự động chuyển tiếp Reels, tách riêng các nút chức năng và ép mở liên kết bằng trình duyệt Safari.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Chặn quảng cáo:** Loại bỏ hoàn toàn các bài viết tài trợ và quảng cáo trên bảng tin.\n- **Tải Video & Reels:** Hỗ trợ tải trực tiếp video về thiết bị với thanh tiến trình hiển thị rõ ràng.\n- **Chế độ ẩn danh:** Thoải mái xem Tin (Story) của bạn bè mà không bị hiện trạng thái \"Đã xem\".\n- **Dọn dẹp Bảng tin:** Tự động ẩn Reels gợi ý, nhóm gợi ý và mục \"Những người bạn có thể biết\" gây rối mắt.\n- **Xác nhận an toàn:** Hiển thị hộp thoại hỏi lại trước khi Thích, Chia sẻ, Bình luận, Đăng bài hoặc Gửi tin nhắn để tránh thao tác nhầm.\n- **Tiện ích mở rộng:** Tự động chuyển tiếp Reels, tách riêng các nút chức năng và ép mở liên kết bằng trình duyệt Safari.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
