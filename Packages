@@ -22692,6 +22692,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCCXI.json
 Icon: https://jtisvn.github.io/sectionIcons/BetterCCXI.png
 Author: ATWiiks
 
+Package: com.nekobj.roundassistivetouch
+Architecture: iphoneos-arm64
+Version: 1.3.19-1-1+debug
+Section: Tweaks
+Maintainer: nekojb
+Installed-Size: 116
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.nekobj.roundassistivetouch_1.3.19-1-1+debug_iphoneos-arm64.deb
+Size: 14028
+MD5sum: 86da026817e8238eb52cc5e44dd181be
+SHA1: a2c89f0216d9a974c043fce27ed697829064c271
+SHA256: ccca226a1da4f331f3f6c112cd3bc8e15122ae5ca6ea3af049cf874e8d79b994
+SHA512: b8c7213b7923c308772ce4cc87cd8af3dcfda7065a26c13eda89d13bfa15abc85577352d20fda5f64c404c0ae671fa0630f60f0e4e62738391f5710d8113cced
+Description: AssistiveTouch26 iOS 15 - stronger whole-bubble bounce, bright center and squish drag effect
+Name: AssistiveTouch26 (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AssistiveTouch26.json
+Depiction: https://jtisvn.github.io/depictions/AssistiveTouch26.html
+Icon: https://jtisvn.github.io/sectionIcons/AssistiveTouch26.png
+
+Package: com.nekobj.roundassistivetouch
+Architecture: iphoneos-arm64e
+Version: 1.3.19-1-1+debug
+Section: Tweaks
+Maintainer: nekojb
+Installed-Size: 116
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.nekobj.roundassistivetouch_1.3.19-1-1+debug_iphoneos-arm64e.deb
+Size: 14212
+MD5sum: d7fa9281259f686ab20f5f7b6ccbff8d
+SHA1: 96f8d64c908baf398469704c5cbe34cf5efd4bf6
+SHA256: f8c8964a2082e497521639da229579016112beb29ff7544478b00ff63b9aedd0
+SHA512: ca61c47fdb6e399d6c2867fd8db772c39095b59b74c142770a22fa21f696bd2ae0eb6c93c9ce41c5a663c4fe17ec5145976b09039956800812d55a43f24da34d
+Description: AssistiveTouch26 iOS 15 - stronger whole-bubble bounce, bright center and squish drag effect
+Name: AssistiveTouch26 (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AssistiveTouch26.json
+Depiction: https://jtisvn.github.io/depictions/AssistiveTouch26.html
+Icon: https://jtisvn.github.io/sectionIcons/AssistiveTouch26.png
+
 Package: com.netskao.dumpdecrypter
 Architecture: iphoneos-arm64
 Version: 1.5-1
@@ -22872,6 +22911,47 @@ Author: ngkhoi
 SileoDepiction: https://jtisvn.github.io/sileodepictions/26Cam.json
 Depiction: https://jtisvn.github.io/depictions/26Cam.html
 Icon: https://jtisvn.github.io/sectionIcons/26Cam.png
+
+Package: com.ngkhoi.assistivetouch
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 252
+Depends: mobilesubstrate
+Filename: ./debs/com.ngkhoi.assistivetouch_0.0.1_iphoneos-arm64.deb
+Size: 31752
+MD5sum: e8cd82f968933709574fc70233efb03e
+SHA1: 71687361b0add6c1a37e5d22be94777ca616400c
+SHA256: 2205b85f89ec56aad70819ef4af88050db5cc82e40e3403777c0ed3a35c10a70
+SHA512: 768ed8316e91c6fd7b5b8e7923580f8e702961fd791c6883bf97b1bf6d15f0e8d2e0deb81cb5e9245f0e675b8fb993ac9ef81e172f8cf2e69b01573aea2b0917
+Description: whoever reading this is gay
+Name: (Ass)istiveTouch (Rootless)
+Author: ngkhoi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/(Ass)istiveTouch.json
+Depiction: https://jtisvn.github.io/depictions/(Ass)istiveTouch.html
+Icon: https://jtisvn.github.io/sectionIcons/(Ass)istiveTouch.png
+
+Package: com.ngkhoi.assistivetouch
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 252
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.ngkhoi.assistivetouch_0.0.1_iphoneos-arm64e.deb
+Size: 31904
+MD5sum: a5ad3e600d7ed7a8971ceb6a9e5b9ace
+SHA1: 523139e70ae5a8cc7f95a770bcb8c40b3adf6271
+SHA256: bc7eb158b35e62ab5104dfd5db709619772a58b876d39d1b3b1b735919c205df
+SHA512: e00a9af75ba2a710fa1a5b7f131ed32d3a10b51432ae8c34d4295127933c6f94034032a87e75bf61ee9cedc4a16f3df0a40820590940ccd33917fcc9c83535cd
+Description: whoever reading this is gay
+Name: (Ass)istiveTouch (Roothide)
+Author: ngkhoi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/(Ass)istiveTouch.json
+Depiction: https://jtisvn.github.io/depictions/(Ass)istiveTouch.html
+Icon: https://jtisvn.github.io/sectionIcons/(Ass)istiveTouch.png
 
 Package: com.nguyenasang.snmessenger
 Architecture: iphoneos-arm64
