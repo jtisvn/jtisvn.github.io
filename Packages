@@ -26448,6 +26448,49 @@ Description: Decrypt Appstore App that require higher iOS
 Name: TrollDecryptJB
 Author: 34306, khanhduytran0
 
+Package: com.7md.iqface
+Architecture: iphoneos-arm64e
+Version: 1.2-20260925.111919
+Section: Tweaks
+Maintainer: 7md
+Installed-Size: 15564
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/iQFace_1.2_roothide.deb
+Size: 5654204
+MD5sum: 727cffebecdfd2f90d3410f0f1f83c3e
+SHA1: 65e08990384099a93d8adcd31c4bf4c4dae05552
+SHA256: a03dc3e1ba58adf86645927a95a08acc6f8b6abb0f934c16488400a1a7fdeb7d
+SHA512: 6f7240def91894116e59d6e3bceb077420f9886d28273b892c8b8b1500c43184b59fc865e7db605f24994b83d4bcf12c061f8c6777e82a85ad2577589a168435
+Homepage: https://t.me/r71il
+Description: best Tweak for Facebook
+Name: iQFace (Roothide)
+Author: 7md
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iQFace.json
+Depiction: https://jtisvn.github.io/depictions/iQFace.html
+Icon: https://jtisvn.github.io/sectionIcons/iQFace.png
+
+Package: com.7md.iqface
+Architecture: iphoneos-arm64
+Version: 1.2-20260925.111919
+Section: Tweaks
+Maintainer: 7md
+Installed-Size: 15564
+Depends: mobilesubstrate
+Filename: ./debs/iQFace_1.2_rootless.deb
+Size: 5738852
+MD5sum: 496d789179ac9f940e74e3c7b9cf389b
+SHA1: 0ca50d92479dd14789590fd1b4063dae786e9bd3
+SHA256: c312b4f122306248102ae3852d51d568603c8b589e19956391c19e9a67640bba
+SHA512: acc1b55d94a080b31b75cb68122f3bde3e7201cbed50c7e6e372131c805c7024fcbbae96e00ab148c10af0e9b5de722dfc17a832ad5650bfcba4b3e6e4ca8d4a
+Homepage: https://t.me/r71il
+Description: best Tweak for Facebook
+Name: iQFace (Rootless)
+Author: 7md
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iQFace.json
+Depiction: https://jtisvn.github.io/depictions/iQFace.html
+Icon: https://jtisvn.github.io/sectionIcons/iQFace.png
+
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64
 Version: 1.1.12
