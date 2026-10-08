@@ -1,225 +1,233 @@
 {
-    "minVersion":"0.3",
-    "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-    "tintColor":"#B5B5B5",
-    "tabs":[
-    {
-    "tabname":"Giới thiệu",
-    "views":[
-    {
-    "spacing": 12,
-    "class": "DepictionSpacerView"
-    },
-    {
-    "class": "DepictionButtonView",
-    "text": "Tham gia nhóm K37•JTISVN",
-    "action": "https://t.me/jtisvietnamrepo",
-    "openExternal": true
-    },
-    {
-    "markdown":"### 5Row\n\n Bổ sung hàng phím số thứ 5 tiện lợi ngay trên bàn phím gốc của iPhone, giúp trải nghiệm gõ phím nhanh chóng và mượt mà hơn.",
-    "useSpacing": false,
-    "class": "DepictionMarkdownView"
-    },
-    {
-    "class":"DepictionScreenshotsView",
-    "screenshots":[
-    {
-    "url":"https://jtisvn.github.io/infodeb/5Row/Screenshots/1.png",
-    "accessibilityText":"Screenshot 1"
-    },
-    {
-    "url":"https://jtisvn.github.io/infodeb/5Row/Screenshots/2.png",
-    "accessibilityText":"Screenshot 2"
-    }
-    ],
-    "itemCornerRadius":8,
-    "itemSize":"{185,400}"
-    },
-    {
-    "markdown":"- **Tính năng nổi bật:**\n\n- **Hàng phím số cố định:** Thêm hàng số riêng biệt phía trên bàn phím mặc định với giao diện chuẩn iOS.\n- **Chuyển đổi ký tự thông minh:** Bấm phím Shift hoặc 123 để đổi hàng phím số thành các dấu câu thường dùng.\n- **Đổi tên phím tùy ý:** Cho phép chỉnh sửa nhãn hiển thị cho phím ABC và 123 (tối đa 5 ký tự).\n- **Tính năng nâng cao (Pro):** Tự do tùy chỉnh 10 ký tự trên cả 2 hàng phím, chỉnh chiều cao bàn phím và bật chế độ luôn hiện 5 hàng.\n- **Quản lý linh hoạt:** Hỗ trợ loại trừ từng ứng dụng riêng biệt (Blacklist), bật/tắt nhanh và đặt lại cài đặt gốc chỉ bằng 1 chạm.\n- **Lưu ý:** Chỉ hỗ trợ bàn phím hệ thống chiều dọc trên iPhone, không hỗ trợ bàn phím bên thứ ba.",
-    "useSpacing": false,
-    "class": "DepictionMarkdownView"
-    },
-    {
-    "spacing": 20,
-    "class": "DepictionSpacerView"
-    },
-    {
-    "class": "DepictionSeparatorView"
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "Thông tin chi tiết",
-    "fontWeight": "semibold",
-    "fontSize": 16,
-    "usePadding": true,
-    "useMargins": true,
-    "margins": "{10,0,8,0}"
-    },
-    {
-    "class": "DepictionStackView",
-    "orientation": "landscape",
-    "views": [
-    {
-    "class": "DepictionStackView",
-    "views": [
-    {
-    "class": "DepictionLabelView",
-    "text": "Tác giả",
-    "textColor": "#777",
-    "margins": "{16,0,8,0}"
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "PitroyTech",
-    "fontWeight": "semibold",
-    "fontSize": 16,
-    "usePadding": false
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "Thể loại",
-    "textColor": "#777",
-    "margins": "{16,0,8,0}"
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "Tweaks",
-    "fontWeight": "semibold",
-    "fontSize": 16,
-    "usePadding": false
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "Ngày cập nhật",
-    "textColor": "#777",
-    "margins": "{16,0,8,0}"
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "01/10/2026",
-    "fontWeight": "semibold",
-    "fontSize": 16,
-    "usePadding": false
-    }
-    ]
-    },
-    {
-    "class": "DepictionStackView",
-    "views": [
-    {
-    "class": "DepictionLabelView",
-    "text": "Phiên bản",
-    "textColor": "#777",
-    "margins": "{16,0,8,0}"
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "1.16.7",
-    "fontWeight": "semibold",
-    "fontSize": 16,
-    "usePadding": false
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "Kích thước",
-    "textColor": "#777",
-    "margins": "{16,0,8,0}"
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "443.0 KB",
-    "fontWeight": "semibold",
-    "fontSize": 16,
-    "usePadding": false
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "Tương thích iOS",
-    "textColor": "#777",
-    "margins": "{16,0,8,0}"
-    },
-    {
-    "class": "DepictionLabelView",
-    "text": "15.0 - 17.5.1",
-    "fontWeight": "semibold",
-    "fontSize": 17,
-    "usePadding": false
-    }
-    ]
-    }
-    ]
-    },
-    {
-    "spacing": 25,
-    "class": "DepictionSpacerView"
-    },
-    {
-    "class":"DepictionLabelView",
-    "text":"Copyright © 2025 - 2030 by JTISVN",
-    "textColor":"#999999",
-    "fontSize":"10.0",
-    "alignment":1
-    }
-    ],
-    "class": "DepictionStackView"
-    },
-    {
-    "tabname":"Nhật ký thay đổi",
-    "views":[
-    {
-    "markdown": "### Phiên bản 1.16.7\n- Sửa lỗi và cải thiện độ ổn định.",
-    "useSpacing": true,
-    "class": "DepictionMarkdownView"
-    },
-    {
-    "class":"DepictionLabelView",
-    "text":"Copyright © 2025 - 2030 by JTISVN",
-    "textColor":"#999999",
-    "fontSize":"10.0",
-    "alignment":1
-    }
-    ],
-    "class":"DepictionStackView"
-    },
-    {
-    "tabname":"Liên Hệ Hỗ Trợ",
-    "views":[
-    {
-    "class":"DepictionTableButtonView",
-    "openExternal": true,
-    "title": "Kênh Telegram",
-    "action": "https://t.me/jtisvn"
-    },
-    {
-    "class":"DepictionTableButtonView",
-    "openExternal": true,
-    "title": "Nhóm Facebook",
-    "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
-    },
-    {
-    "class":"DepictionTableButtonView",
-    "openExternal": true,
-    "title": "Paypal",
-    "action": "https://paypal.me/HiuKitsudo"
-    },
-    {
-    "class":"DepictionTableButtonView",
-    "openExternal": true,
-    "title": "Ủng hộ tôi",
-    "action": "https://jtisvn.github.io/homepage/donate/donate.html"
-    },
-    {
-    "class":"DepictionLabelView",
-    "text":"Copyright © 2025 - 2030 by JTISVN",
-    "textColor":"#999999",
-    "fontSize":"10.0",
-    "alignment":1
-    }
-    ],
-    "class":"DepictionStackView"
-    }
-    ],
-    "class":"DepictionTabView"
-    }
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/5Row.png",
+"tintColor": "#B5B5B5",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown": "### 5Row\n\nBổ sung hàng phím số thứ 5 tiện lợi ngay trên bàn phím gốc của iPhone, giúp trải nghiệm gõ phím nhanh chóng và mượt mà hơn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/5Row/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/5Row/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Hàng phím số cố định:** Thêm hàng số riêng biệt phía trên bàn phím mặc định với giao diện chuẩn iOS.\n- **Chuyển đổi ký tự thông minh:** Bấm phím Shift hoặc 123 để đổi hàng phím số thành các dấu câu thường dùng.\n- **Đổi tên phím tùy ý:** Cho phép chỉnh sửa nhãn hiển thị cho phím ABC và 123 (tối đa 5 ký tự).\n- **Tính năng nâng cao (Pro):** Tự do tùy chỉnh 10 ký tự trên cả 2 hàng phím, chỉnh chiều cao bàn phím và bật chế độ luôn hiện 5 hàng.\n- **Quản lý linh hoạt:** Hỗ trợ loại trừ từng ứng dụng riêng biệt (Blacklist), bật/tắt nhanh và đặt lại cài đặt gốc chỉ bằng 1 chạm.\n- **Lưu ý:** Chỉ hỗ trợ bàn phím hệ thống chiều dọc trên iPhone, không hỗ trợ bàn phím bên thứ ba.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "PitroyTech",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "08/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.18.4",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "443.0 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 17.5.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"markdown": "### Phiên bản 1.18.4\n- Tái cấu trúc cơ chế thêm hàng phím thứ 5 vào bàn phím Apple.\n- Sửa lỗi hiển thị sai ký tự trên phím sau khi chuyển đổi bố cục bàn phím.\n- Mã hóa nhật ký chẩn đoán, hỗ trợ sao chép hoặc xuất tệp trực tiếp từ Cài đặt.\n- Cập nhật biểu tượng ứng dụng mới.\n- Cập nhật email hỗ trợ thành: pitroytechcode@gmail.com",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 1.16.7\n- Sửa lỗi và cải thiện độ ổn định.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Hệ Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}
