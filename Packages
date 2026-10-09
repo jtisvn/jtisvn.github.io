@@ -73,6 +73,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/26Home.json
 Depiction: https://jtisvn.github.io/depictions/26Home.html
 Icon: https://jtisvn.github.io/sectionIcons/26Home.png
 
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64
+Version: 0.1.16
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/AmbientBadge-0.1.16-iphoneos-arm64.deb
+Size: 115400
+MD5sum: ac46691da9f18664fb7ac628151d4501
+SHA1: 1f947dbf4626a2b340db7fb39b1f574be18eff43
+SHA256: ce7c5d980565585d588e4bf73a98653150b4cd0e3984eb49ea28299b9cb219e9
+SHA512: bfceba9a3f3adb06ebec04e2aaaad6dd400b246c83ec0f3b24eae93469e95238cb05509cf8a679175d30225670a3d4ee356b73c7043145ac244a9bcd1e6accb5
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+
 Package: com.cokepokes.appstoreplus
 Architecture: iphoneos-arm
 Version: 2.3.15-1
@@ -3985,6 +4003,47 @@ SHA512: c96c04b305acd8d26f314bb0afa932ddc1b416d34e0064a233afea18c3dfcc275ef9a051
 Description: Collection of classes used in my tweaks.
 Name: Phoenix (Rootless)
 Author: Nebbs
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64
+Version: 1.0.4.1k
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 1628
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: ./debs/com.johndie.triggr_1.0.4.1k_iphoneos-arm64.deb
+Size: 217412
+MD5sum: 7db7b11fea9b9c0e090a317d464c155f
+SHA1: 0f6ec53706479a74e0e6ecfef4f24580757b25bd
+SHA256: bda59c8d4585c965ea50a72f6399480245b12e6bdcee6f1eca70b3301c499414
+SHA512: e7601366bd63ac9d42e130e86c359c30f61652fab4f95572c753a62ab0b8270e41f8c29b423c7c49f1a9a55beeeaf29c8f27538a4fba553baa1f7d08566ee047
+Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
+Name: Triggr (Rootless)
+Author: John d_ie
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
+Depiction: https://jtisvn.github.io/depictions/Triggr.html
+Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64e
+Version: 1.0.4.1k
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 1628
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: ./debs/com.johndie.triggr_1.0.4.1k_iphoneos-arm64e.deb
+Size: 216500
+MD5sum: 1ead6160d55ddfb4ebd1009121ed76a7
+SHA1: c44ea0023738d476725b4d32019ad5040a8350cd
+SHA256: d12ef85528a157d241e4a01480a10fc68ac34611c0301eeafa6a0e3b82a851a9
+SHA512: 752dfa5b7fbc391021482b109ad99d8217bbf07276a6fd8417555796e104c019cad4dc29d830e7ed08af82c30c5d3dc155687b0a861a44d292530cd0b9ea95ad
+Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
+Name: Triggr (Roothide)
+Author: John d_ie
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
+Depiction: https://jtisvn.github.io/depictions/Triggr.html
+Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
 
 Package: com.johnzaro.appstoreupdatestab
 Architecture: iphoneos-arm64
@@ -20033,6 +20092,47 @@ Author: Taj C (forcequit)
 Icon: https://raw.githubusercontent.com/forcequitOS/Lightshield/main/icon_medium.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Lightshield.json
 
+Package: com.jtisvn.liquidglassswitch
+Architecture: iphoneos-arm64
+Version: 0.0.1-8
+Section: Tweaks
+Maintainer: SINI
+Installed-Size: 676
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy, com.kitsudo.transalt
+Filename: ./debs/com.jtisvn.liquidglassswitch_0.0.1-8_iphoneos-arm64.deb
+Size: 118884
+MD5sum: 8d4bd7f42070137b69151f17deed05ac
+SHA1: 89e67acfd95ef1330a6aa6264a56f47fa3b4de66
+SHA256: 09cec6dadabb9ff299ea8f104add7991aafd1e98c6dde2727edc011e7d0abee4
+SHA512: 68b7bcabd70cf7b73e4c0702b29269b54aa52110289fc274e0070ffeffcf4dce7916f0eadb1fdbbfe02c3c78b8f194e10be9d78e9dbb29ee167b41637c2e1371
+Description: Thay đổi nút công tắc dạng kính LiquidGlass.
+Name: LiquidGlassSwitch (Rootless)
+Author: SINI
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidGlassSwitch.json
+Depiction: https://jtisvn.github.io/depictions/LiquidGlassSwitch.html
+Icon: https://jtisvn.github.io/sectionIcons/LiquidGlassSwitch.png
+
+Package: com.jtisvn.liquidglassswitch
+Architecture: iphoneos-arm64e
+Version: 0.0.1-8
+Section: Tweaks
+Maintainer: SINI
+Installed-Size: 676
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy, com.kitsudo.transalt
+Filename: ./debs/com.jtisvn.liquidglassswitch_0.0.1-8_iphoneos-arm64e.deb
+Size: 116748
+MD5sum: 72e8ffb64f5304f9d3a1874ac420cb7e
+SHA1: 255bd6a5ece397183f24e01db3195b28cd6d20f9
+SHA256: 8d76d71c9ae19b6af0f331f588f09c2a0bed7f8da0dea6635fd1e1266c5a36a7
+SHA512: 6dd95aacdb74532d6267c337ee73744f064b2e69f3a0d540e50a30685a748c7f61bbffe2ef6e864b35d6ef9bcdb1da3f5edaf2efb32832ea0c38d56240937f83
+Description: Thay đổi nút công tắc dạng kính LiquidGlass.
+Name: LiquidGlassSwitch (Roothide)
+Author: SINI
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidGlassSwitch.json
+Depiction: https://jtisvn.github.io/depictions/LiquidGlassSwitch.html
+Icon: https://jtisvn.github.io/sectionIcons/LiquidGlassSwitch.png
+
 Package: com.jtisvn.liquidify
 Architecture: iphoneos-arm64
 Version: 1.3.7-4
@@ -21813,17 +21913,17 @@ Icon: https://k37ios.pages.dev/assets/TikTokAutoSwipe.png
 
 Package: com.kitsudo.transalt
 Architecture: iphoneos-arm64
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: KÃitsudo
-Installed-Size: 492
+Installed-Size: 668
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.transalt_1.0.1_iphoneos-arm64.deb
-Size: 40448
-MD5sum: 4ed41803cd5de539a2c4a9963613e695
-SHA1: 620117b854d1b372609f0e55fd1b87e363a0160d
-SHA256: 3e48e05c1293d9be482804b75c8eb9c3fd11538b577c1aa024ab0d7c59b2f8f3
-SHA512: 67a4fb05cc8a96885635f07602a02f10808ac827021eb632f84c4457fdbe99174b4279bfa5f282b2a1ac125ac60db5daaa7f688c0b642235723e2589d233f219
+Filename: ./debs/com.kitsudo.transalt_1.0.2_iphoneos-arm64.deb
+Size: 66840
+MD5sum: f8383998e1360383c251e4a26307ae67
+SHA1: c403b1d7064e2d52da5e5a2b7fad64d1e9ae55fc
+SHA256: a08eaeed185b5c6783cdff8dbf2b0690180806a9158cdbd43f55c035182fce85
+SHA512: bc02c72e46d5056dc7c40f04083281a8835b40c961b717f5712edea2c0ab0786e1f9ca28b0c36ebc4be227e0fa95953ee0c22971e0c6e9ee3b4d78ee06db5fb1
 Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
 Name: TransAlT (Rootless)
 Author: KÃitsudo
@@ -21832,18 +21932,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.transalt
 Architecture: iphoneos-arm64e
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: KÃitsudo
-Installed-Size: 492
+Installed-Size: 668
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.transalt_1.0.1_iphoneos-arm64e.deb
-Size: 38680
-MD5sum: 3eac1e97e127457d6e03cb661b185df3
-SHA1: d965920cad4af0535a7b50188c41455e2d1c92b6
-SHA256: ea189871584fcc9a51719a95963b0943ea071607fb0e1ce08a08ddc77046ac5d
-SHA512: 04ad0934123e9a9f7430a4a5e114f948b534e7811c96dfb13cab066af790bf1a8a3776519d25a1f5809b6aa18bccbbccb6755aa0ab115e2d3e97c4ecfcdaf5fc
+Filename: ./debs/com.kitsudo.transalt_1.0.2_iphoneos-arm64e.deb
+Size: 63804
+MD5sum: 164a312dd60d054b8292f6780c20fc39
+SHA1: 627fad7158ef39fca084a518bca3f94d035c17b1
+SHA256: efd9fd0cfb321f15a3ca97dc6da35b621b3e15e6fdb33a964b82bb61a3c93559
+SHA512: 6a6db72f89328c67c615fa3cc1927c6dafc9d23303173f2c509863bd269b23d37fe4ca5fe7c856c47176841973c4dd9a13cfb7e55b86d579dea6ad39ac4e0fa3
 Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
 Name: TransAlT (Roothide)
 Author: KÃitsudo
@@ -26615,6 +26715,47 @@ Author: 7md
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iQFace.json
 Depiction: https://jtisvn.github.io/depictions/iQFace.html
 Icon: https://jtisvn.github.io/sectionIcons/iQFace.png
+
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64
+Version: 0.1.16k
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/iya.banana.billie.ambientbadge_0.1.16k_iphoneos-arm64.deb
+Size: 117444
+MD5sum: 757af9b11e5cd12501f3155d42ed3bb2
+SHA1: d99ed84972de578a7794c2281788e22e7c3ff8d2
+SHA256: cb03078947c0e7cbd65db69d73ed389f5abd018cae2f12bd86443da0b3554454
+SHA512: c5a32ac64c4e75c3de8b5c98755e06e627cdd260d14d0f6e781756838416ce19ef61eff1123fc6c43a2a1612bbeb57abc12ff2854aa689b82ad7e245a4292693
+Description: Thêm hiệu ứng kính và ánh sáng dịu nhẹ cho biểu tượng huy hiệu thông báo trên màn hình chính.
+Name: AmbientBadge (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AmbientBadge.json
+Depiction: https://jtisvn.github.io/depictions/AmbientBadge.html
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64e
+Version: 0.1.16k
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 748
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/iya.banana.billie.ambientbadge_0.1.16k_iphoneos-arm64e.deb
+Size: 117440
+MD5sum: 6faf8225b674a5b4f51425e33d177d69
+SHA1: 53592b675f56c9baa4f545f41c3d0e0d22b1ccdf
+SHA256: 9ff56cbda94b6688442d0a9a86990e62d439ab4270e5c32a2c20cf614fb021fb
+SHA512: 2ee16f8990d5f93bdaa161e45bf4d77685a4ccdffb2bc496c9275fbc2df6059402c0acab42de81c9d6470f0cb4c2ade43ce5d6bfa2d4cd5c124e6a3ba41d64fd
+Description: Thêm hiệu ứng kính và ánh sáng dịu nhẹ cho biểu tượng huy hiệu thông báo trên màn hình chính.
+Name: AmbientBadge (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AmbientBadge.json
+Depiction: https://jtisvn.github.io/depictions/AmbientBadge.html
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
 
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64
