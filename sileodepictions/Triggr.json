@@ -17,7 +17,7 @@
 "openExternal": true
 },
 {
-"markdown":"### Triggr\n\n- Công cụ tùy biến cử chỉ và phím tắt thay thế hoàn hảo cho Activator, cho phép bạn gán bất kỳ hành động nào cho nút bấm, cử chỉ, cảm biến hoặc sự kiện hệ thống một cách nhanh chóng và tối ưu hiệu năng.",
+"markdown":"### Triggr\n\n Công cụ tùy biến cử chỉ và phím tắt thay thế hoàn hảo cho Activator, cho phép bạn gán bất kỳ hành động nào cho nút bấm, cử chỉ, cảm biến hoặc sự kiện hệ thống một cách nhanh chóng và tối ưu hiệu năng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -69,7 +69,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"- **Tính năng nổi bật:**\n\n- **Điều kiện kích hoạt đa dạng:**\n  - **Phím vật lý:** Nút sườn (Side Button), Nút Home / Touch ID, Nút Tăng/Giảm âm lượng (nhấn đơn, đôi, ba, giữ hoặc kết hợp), Cần gạt im lặng (Mute Switch).\n  - **Thanh trạng thái:** Chạm 1 lần, chạm đôi, nhấn giữ, vuốt trái/phải ở từng nửa thanh trạng thái.\n  - **Màn hình chính:** Vuốt nhanh (Flick) trên biểu tượng ứng dụng hoặc thư mục ở Màn hình chính và Thanh Dock.\n  - **Cử chỉ & Chuyển động:** Chụm ngón tay, vuốt 2 ngón, chạm đôi khoảng trống, lắc thiết bị.\n  - **Cảm biến tiệm cận:** Che cảm biến hoặc vẫy tay nhanh trước cảm biến tiệm cận.\n  - **Trạng thái & Sự kiện hệ thống:** Kết nối/ngắt sạc, tai nghe, Bluetooth; Bật/Tắt/Kết nối/Rời mạng Wi-Fi; Bật/Tắt Tiết kiệm pin, Định vị, Dữ liệu di động, Chế độ máy bay, Khóa xoay, Night Shift; Mức pin tăng/giảm theo mốc; Khóa/mở màn hình, lên lịch thời gian, mở ứng dụng chỉ định, nhận thông báo.\n\n- **Tác vụ & Lệnh thực thi (Actions):**\n  - **Hệ thống:** Về màn hình chính, App Switcher, Mở ứng dụng trước đó, Thoát ứng dụng, Mở Control Center / Thông báo, Chụp/Ghi màn hình, Đóng app ngầm, Đèn pin, Khóa máy, Khởi động lại...\n  - **Điều khiển phương tiện:** Phát/Tạm dừng, Bài tiếp/Bài trước, Tăng/Giảm âm lượng, Đặt mức độ sáng/âm lượng cố định, Chuyển nhanh AirPlay.\n  - **Tự động hóa nâng cao:** Chạy lệnh Shell (Run Command), chạy Phím tắt (Shortcuts), Mở URL, Hiển thị thông báo tùy chỉnh, Đọc văn bản bằng giọng nói.\n  - **Chuỗi thao tác (Macro):** Gán nhiều hành động chạy liên tiếp theo thứ tự kèm khoảng dừng tùy chỉnh (từ 0.1s đến 30s).\n  - **Menu tùy chỉnh:** Gom nhiều hành động vào một menu pop-up để chọn nhanh.\n\n- **Phân vùng ngữ cảnh & Quản lý nâng cao:**\n  - **Áp dụng vị trí linh hoạt:** Mọi nơi, Màn hình chính, Màn hình khóa, Trong ứng dụng hoặc Trong ứng dụng chỉ định.\n  - **Thay thế hành động gốc:** Tùy chọn ghi đè hành động gốc của phím hoặc chạy song song với chức năng mặc định.\n  - **Danh sách chặn (Block List):** Tự động bỏ qua kích hoạt khi đang mở các ứng dụng/trò chơi chỉ định.\n  - **Quản lý Hồ sơ (Profiles):** Lưu, sao lưu, xuất/nhập thiết lập qua AirDrop, Tệp hoặc Tin nhắn.\n  - **Tích hợp API & CLI:** Hỗ trợ điều khiển qua lệnh `triggr` trong Terminal và kết nối với các tweak khác.",
+"markdown":"- **Điều kiện kích hoạt đa dạng:**\n  - **Phím vật lý:** Nút sườn (Side Button), Nút Home / Touch ID, Nút Tăng/Giảm âm lượng (nhấn đơn, đôi, ba, giữ hoặc kết hợp), Cần gạt im lặng (Mute Switch).\n  - **Thanh trạng thái:** Chạm 1 lần, chạm đôi, nhấn giữ, vuốt trái/phải ở từng nửa thanh trạng thái.\n  - **Màn hình chính:** Vuốt nhanh (Flick) trên biểu tượng ứng dụng hoặc thư mục ở Màn hình chính và Thanh Dock.\n  - **Cử chỉ & Chuyển động:** Chụm ngón tay, vuốt 2 ngón, chạm đôi khoảng trống, lắc thiết bị.\n  - **Cảm biến tiệm cận:** Che cảm biến hoặc vẫy tay nhanh trước cảm biến tiệm cận.\n  - **Trạng thái & Sự kiện hệ thống:** Kết nối/ngắt sạc, tai nghe, Bluetooth; Bật/Tắt/Kết nối/Rời mạng Wi-Fi; Bật/Tắt Tiết kiệm pin, Định vị, Dữ liệu di động, Chế độ máy bay, Khóa xoay, Night Shift; Mức pin tăng/giảm theo mốc; Khóa/mở màn hình, lên lịch thời gian, mở ứng dụng chỉ định, nhận thông báo.\n\n- **Tác vụ & Lệnh thực thi (Actions):**\n  - **Hệ thống:** Về màn hình chính, App Switcher, Mở ứng dụng trước đó, Thoát ứng dụng, Mở Control Center / Thông báo, Chụp/Ghi màn hình, Đóng app ngầm, Đèn pin, Khóa máy, Khởi động lại...\n  - **Điều khiển phương tiện:** Phát/Tạm dừng, Bài tiếp/Bài trước, Tăng/Giảm âm lượng, Đặt mức độ sáng/âm lượng cố định, Chuyển nhanh AirPlay.\n  - **Tự động hóa nâng cao:** Chạy lệnh Shell (Run Command), chạy Phím tắt (Shortcuts), Mở URL, Hiển thị thông báo tùy chỉnh, Đọc văn bản bằng giọng nói.\n  - **Chuỗi thao tác (Macro):** Gán nhiều hành động chạy liên tiếp theo thứ tự kèm khoảng dừng tùy chỉnh (từ 0.1s đến 30s).\n  - **Menu tùy chỉnh:** Gom nhiều hành động vào một menu pop-up để chọn nhanh.\n\n- **Phân vùng ngữ cảnh & Quản lý nâng cao:**\n  - **Áp dụng vị trí linh hoạt:** Mọi nơi, Màn hình chính, Màn hình khóa, Trong ứng dụng hoặc Trong ứng dụng chỉ định.\n  - **Thay thế hành động gốc:** Tùy chọn ghi đè hành động gốc của phím hoặc chạy song song với chức năng mặc định.\n  - **Danh sách chặn (Block List):** Tự động bỏ qua kích hoạt khi đang mở các ứng dụng/trò chơi chỉ định.\n  - **Quản lý Hồ sơ (Profiles):** Lưu, sao lưu, xuất/nhập thiết lập qua AirDrop, Tệp hoặc Tin nhắn.\n  - **Tích hợp API & CLI:** Hỗ trợ điều khiển qua lệnh `triggr` trong Terminal và kết nối với các tweak khác.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -161,7 +161,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.5 MB",
+"text": "1.5 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -202,7 +202,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.4.1\n- Tối ưu hóa hiệu năng và khắc phục một số lỗi nhỏ."
+"markdown":"### Phiên bản 1.0.4.1\n- Cập nhật theo bản gốc ổn định, thêm tùy chọn gán lại thao tác cho nút bấm (thay thế chức năng mặc định).\n- Hỗ trợ iOS 15 - 18, build lại file cài đặt cho cả hai kiến trúc arm64 (rootless) và arm64e (roothide)."
 },
 {
 "spacing": 15,
