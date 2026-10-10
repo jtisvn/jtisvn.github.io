@@ -2779,6 +2779,26 @@ Author: Ivano Bilenchi
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iCleanerPro.json
 Icon: https://jtisvn.github.io/sectionIcons/iCleanerPro.png
 
+Package: com.fiore.calculatorconverter
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: fiore
+Installed-Size: 404
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.fiore.calculatorconverter_1.0.1_iphoneos-arm64e.deb
+Size: 57676
+MD5sum: f875ef76b6901079ea0ba34fdb8011e4
+SHA1: b3a22ef9f9b5362d654572a5168bef4a2f320e70
+SHA256: 50d8ccbf09e0ac699c773c6334754a3fea0934b8839c055be354caf64e9baf81
+SHA512: 46e9ab4286b775d7678f11cf1f4737b5167c65dae02cc11372ee51552539d01fe16364d268ecd55f202c617f9db1b5c06c0dc9eaa825bc00058ffa3cba5ca22f
+Description: Thêm chức năng chuyển đổi đơn vị iOS 18 cho ứng dụng Máy tính.
+Name: CalculatorConverter (Roothide)
+Author: fiore
+depiction: https://havoc.app/depiction/calcconverter
+Icon: https://media.havoc.app/686987dd2ff49663c4ee401a
+
 Package: com.foxfort.checkl0ck
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -4003,6 +4023,51 @@ SHA512: c96c04b305acd8d26f314bb0afa932ddc1b416d34e0064a233afea18c3dfcc275ef9a051
 Description: Collection of classes used in my tweaks.
 Name: Phoenix (Rootless)
 Author: Nebbs
+
+Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64
+Version: 3.1.0-beta.1
+Section: Tweaks
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 25660
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, com.kitsudo.transalt
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: ./debs/com.jaysuen.evocenter_3.1.0-beta.1_iphoneos-arm64.deb
+Size: 1177436
+MD5sum: 1170e59debedf04597499bcff23f039f
+SHA1: 24800e0d6d0234cb9fb52035cddc26104602e3cf
+SHA256: 6f31b2a456c580d446458e2ee8730c2bbfeccd9a00fb92e300d026111d5687c4
+SHA512: 5dc0d51801c104762b8a92a770c6b148933c07a9eeacfeff73d69cbae7006fb346207ddac7c000289d0c7e559555bc94850edcc2525733efc8b314b0c20e3fa9
+Description: Mang trải nghiệm Trung tâm điều khiển hiện đại kiểu iOS 18 lên các phiên bản iOS cũ. Có thẻ  hỗ trợ chạy kèm  ccock18.
+Name: Evo Center (Rootless)
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EvoCenter.json
+Depiction: https://jtisvn.github.io/depictions/EvoCenter.html
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+
+Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64e
+Version: 3.1.0-beta.1
+Section: Tweaks
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 26156
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, com.kitsudo.transalt
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: ./debs/com.jaysuen.evocenter_3.1.0-beta.1_iphoneos-arm64e.deb
+Size: 1207368
+MD5sum: 9e418b347f6bf5f05bcf0ffee98d598a
+SHA1: d180b961953ebfae4e7d93b0c4328b8be5ea4750
+SHA256: 2048bdc7d0a83d6a3ac65a5c4626bbf761bc6c718a4e5b44e0a3487d67b30f5c
+SHA512: 3c93282eb5101642f5d6d7446eae6cb273d634d511da895fd937f498870983e49a14ca01b62e44a84944980b521c5d61039917745cce1649e2ad170e016e07a3
+Description: Mang trải nghiệm Trung tâm điều khiển hiện đại kiểu iOS 18 lên các phiên bản iOS cũ. Có thẻ  hỗ trợ chạy kèm  ccock18.
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center (Roothide)
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EvoCenter.json
+Depiction: https://jtisvn.github.io/depictions/EvoCenter.html
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64

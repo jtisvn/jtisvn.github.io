@@ -1,0 +1,247 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://eleveny123.github.io/EvoCenter/assets/banner.png",
+"tintColor":"#007AFF",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### Evo Center\n\n Mang trải nghiệm Trung tâm điều khiển (Control Center) hiện đại, phong cách iOS 18 lên các phiên bản iOS cũ hơn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://eleveny123.github.io/EvoCenter/assets/screenshots/1.jpg",
+"accessibilityText":"Screenshot 1"
+},
+{
+"url":"https://eleveny123.github.io/EvoCenter/assets/screenshots/2.jpg",
+"accessibilityText":"Screenshot 2"
+},
+{
+"url":"https://eleveny123.github.io/EvoCenter/assets/screenshots/3.jpg",
+"accessibilityText":"Screenshot 3"
+},
+{
+"url":"https://eleveny123.github.io/EvoCenter/assets/screenshots/4.jpg",
+"accessibilityText":"Screenshot 4"
+},
+{
+"url":"https://eleveny123.github.io/EvoCenter/assets/screenshots/5.jpg",
+"accessibilityText":"Screenshot 5"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Giao diện iOS 18:** Tái hiện hoàn hảo bố cục kết nối, quản lý tập trung và phong cách trung tâm điều khiển mới nhất.\n- **Hỗ trợ HomeKit:** Tích hợp trực tiếp thiết bị nhà thông minh, hiển thị nhiệt độ, độ ẩm và quản lý các thiết bị gia đình nhanh chóng.\n- **Tùy biến bố cục:** Hỗ trợ tính năng phân trang (vuốt ngang hoặc dọc), tùy chỉnh hiển thị 5 cột, phóng to/thu nhỏ toàn bộ giao diện.\n- **Tô màu biểu tượng:** Cho phép tùy chỉnh màu sắc biểu tượng cho các mô-đun dạng công tắc theo sở thích cá nhân.\n- **Mô-đun mở rộng:** Hỗ trợ kết hợp Phím tắt (Shortcuts) thành một công tắc duy nhất, thêm 8 ô trống trong suốt giúp tự do sáng tạo bố cục độc lạ.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "JaySuen & Sol",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14/09/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Beta 3.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "24.1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "16.0 - 17.4",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản Beta 3.1\n- Sửa lỗi lệch vị trí khi thay đổi kích thước mô-đun đã thêm trong trung tâm điều khiển (cập nhật trực tiếp mà không cần xóa lại hoặc khởi động lại thiết bị).\n- Khắc phục lỗi hiển thị biểu tượng Bluetooth của mô-đun kết nối ở kích thước 2x2.\n- Sửa lỗi hiển thị hai khung nền khi mở rộng mô-đun Chuyên tâm (Focus).\n- Khắc phục lỗi hiển thị khi bật màu tùy chỉnh cho mô-đun Tắt tiếng trên iOS 17.\n- Sửa lỗi không kéo được thanh trượt chọn màu trong tính năng tùy chỉnh màu sắc biểu tượng.\n- Khắc phục hiện tượng giật hình khi thu phóng mô-đun từ dạng mở rộng về dạng thu gọn.\n- Sửa lỗi làm trượt giao diện lên trên khi bấm vào mô-đun Chế độ tối.\n- Khắc phục lỗi văng ứng dụng Cài đặt (Settings) khi thêm mô-đun trên thiết bị arm64.\n- Khắc phục tiêu đề và biểu tượng không căn giữa trong chế độ mở rộng của một số mô-đun.\n- Tối ưu hóa luồng kết nối cho Wi-Fi, Bluetooth cùng với mô-đun Chế độ micro & Hiệu ứng video.\n- Cải thiện độ mượt mà khi chuyển trang lên/xuống.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Trang chủ Coolapk (JAYSuen)",
+"action": "https://www.coolapk.com/"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
