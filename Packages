@@ -3416,42 +3416,42 @@ Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 
 Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64
-Version: 1.6.2-64k
+Version: 1.6.2-154+isolation.6
 Section: Tweaks
 Maintainer: Huayuarc
-Installed-Size: 1912
+Installed-Size: 1844
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.huayuarc.cputhermal_1.6.2-64k_iphoneos-arm64.deb
-Size: 137788
-MD5sum: f02ba8459938288c2516736bb7847d9e
-SHA1: d6a51bb75446b016bb6b23ac03062020fcb8a665
-SHA256: fbdb853f53e5a52924078accdb95ea4c921e565517a7b78d305e4dfac72c02b8
-SHA512: 6be0db7d5521719e6163e67c2928596226c72615b447d4e37ed3d9735a7742d599163d47ae1941d58f4fd83978e404dc95709b210d9e858dccf083968c51eb78
+Filename: ./debs/com.huayuarc.cputhermal_1.6.2-154+isolation.6_iphoneos-arm64.deb
+Size: 129652
+MD5sum: 2fb9bfe914c40abbbda700e1cfa0a8c8
+SHA1: 49c8d76a058966d0d66dd86c7b6b9c2670ba9202
+SHA256: 67aea700dc0aa26cf56ec3e017be83e6eeb7e78e5dcd50cfabc1b7ce1a0ebedb
+SHA512: fcee90382fff389076ca02cf17842eb379d79d8946e393a71e439c2b8eca8054e9fd340051c8ac2e64690ab52b5870263ad9370fcb5f9fb826d3e34af5e7bba6
 Description: Tweak quản lý và vô hiệu hóa cơ chế tự động giảm hiệu năng do nhiệt độ (thermal throttling) trên iOS 15–17 cho các dòng iPhone và iPad..
 Name: CPUthermal (Rootless)
 Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://jtisvn.github.io/sileodepictions/CPUthermal.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CPUthermal.json
 
 Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64e
-Version: 1.6.2-64k
+Version: 1.6.2-154+isolation.6
 Section: Tweaks
 Maintainer: Huayuarc
-Installed-Size: 1912
+Installed-Size: 1844
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.huayuarc.cputhermal_1.6.2-64k_iphoneos-arm64e.deb
-Size: 133764
-MD5sum: 4080e6b3ddb792167041b96a2d0f6fa6
-SHA1: a1e70347897418b54f4e7e7953f57c6b2e8f42f5
-SHA256: f347a9b22d324028626aed072c08ec2ee8e6155f36cd533721edc4b683006c0a
-SHA512: 3167f4696f901199724ff5594ac4e0dfff810d3a561f84e7fcaf29a02613d2cbe880e36eaca214112fdd89092c6bb3b70beb5b70a2a61c1003a788dd8d88d3f1
+Filename: ./debs/com.huayuarc.cputhermal_1.6.2-154+isolation.6_iphoneos-arm64e.deb
+Size: 124916
+MD5sum: aa4118b4e16373cce86f9422a99a4324
+SHA1: 5afd75be7bb8d019431635c5d52828323a96b8d5
+SHA256: b8a253cad2d8e32a8086b4198676283175601e0a5230d75da9a4ce4d553c3165
+SHA512: 28cb53efb2e15323da49494346a32f763993222f031e9ca15ac952ab904050417af49b61fb9a629bd1c9e928b417e09d7edb61b2a4d10e9a0a07d822dfb882f3
 Description: Tweak quản lý và vô hiệu hóa cơ chế tự động giảm hiệu năng do nhiệt độ (thermal throttling) trên iOS 15–17 cho các dòng iPhone và iPad..
 Name: CPUthermal (Roothide)
 Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://jtisvn.github.io/sileodepictions/CPUthermal.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CPUthermal.json
 
 Package: com.iarrays.biolocker
 Architecture: iphoneos-arm64
