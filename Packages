@@ -23136,6 +23136,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/26Cam.json
 Depiction: https://jtisvn.github.io/depictions/26Cam.html
 Icon: https://jtisvn.github.io/sectionIcons/26Cam.png
 
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64
+Version: 1.2.0-test
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29816
+Depends: mobilesubstrate
+Filename: ./debs/com.ngkhoi.26home_1.2.0-test_iphoneos-arm64.deb
+Size: 20599580
+MD5sum: e988ba864239b22cc35aac6654414363
+SHA1: 15063d9c40e6788588aced0841df4bbbc659e26f
+SHA256: 6d9364a5f70b2f16582791330cbae7b91c53e7a615824062382c1112b23c2c2b
+SHA512: ec55641f41e7b15c1d01264a06258fabe43a92bf8f1ba1b7d067e129dd35a69540cf2a54f91c9027709c7dad3c4f4b013a2ee24ff8076ce185d0051a22cf3951
+Description: Tùy chỉnh màn hình chính iOS 26.
+Name: 26Home (Rootless)
+Author: ngkhoi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/26Home.json
+Depiction: https://jtisvn.github.io/depictions/26Home.html
+Icon: https://jtisvn.github.io/sectionIcons/26Home.png
+
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64e
+Version: 1.2.0-test
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29816
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.ngkhoi.26home_1.2.0-test_iphoneos-arm64e.deb
+Size: 20598976
+MD5sum: 942bdcd9a1a208ce67dabcf9e7d227a0
+SHA1: 1cb3a9a3b7604aafdd471e77e9507393bbac7e09
+SHA256: dfdd9107cf47ce7318187525b6c6de1c0609ccdb353f3983dd880f15b3f30268
+SHA512: a9776dc7f59ca02d665a13ff4f6be11413ea50909bf20d798899a14b033a0379deebf4a6c3ae8e83a8e6e13bb5b9636e404870f621fe6fdd28498d3ee9a677ca
+Description: Tùy chỉnh màn hình chính iOS 26.
+Name: 26Home (Roothide)
+Author: ngkhoi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/26Home.json
+Depiction: https://jtisvn.github.io/depictions/26Home.html
+Icon: https://jtisvn.github.io/sectionIcons/26Home.png
+
 Package: com.ngkhoi.assistivetouch
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -26555,6 +26596,72 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DKMM.json
 Depiction: https://jtisvn.github.io/depictions/DKMM.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm
+Version: 0.1.1-2b
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 8576
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.blurless
+Replaces: dylv.blurless
+Filename: ./debs/dylv.liquidass_0.1.1-2b_iphoneos-arm.deb
+Size: 3706996
+MD5sum: 769aac2a611a818123307813e46028fc
+SHA1: c915763bd6ef7ae0e691cd4539a8bf1ef6db8fe5
+SHA256: 3a29113ba0b41df9caf20166f87a15dbc33f1d73a34a762fbe9d16a598f8b4fc
+SHA512: 27c764682fd9bacaaf09ad26f5e99f4dc92d81e04cd99aee17def0259e0447f09ab2c89efe65f2acb21d256df447d2d4ae1656eb24714b34ab373b3d3becf7e8
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.1-2b
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 8576
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.blurless
+Replaces: dylv.blurless
+Filename: ./debs/dylv.liquidass_0.1.1-2b_iphoneos-arm64.deb
+Size: 3707428
+MD5sum: 4c407e789bb76b03fec49dc8cd68c40b
+SHA1: e32e2fccdbf481cf15e3c9931ddd6c7eddfbf0ad
+SHA256: 06520daac6dc2a30bb4a91123a59ea21ac8f8f0ae6bf6bbbb5614da07ddb40c5
+SHA512: 8ae21ad14d9072d5faf364706b07878d0432d289a0da76db035297dbee18a170b81dd1cfc718aad59262e082176bd4ed974497728d3441166052e2a75ea4c5e7
+Description: next level diarrhea
+Name: Liquid (Gl)ass (Rootless)
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.1-2b
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 8576
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.blurless
+Replaces: dylv.blurless
+Filename: ./debs/dylv.liquidass_0.1.1-2b_iphoneos-arm64e.deb
+Size: 3711008
+MD5sum: 361ac823a37f0fc0e675a3f691c26c7a
+SHA1: f16b05b3c94a32cbaff1e56c1e0f71d6d58e8d91
+SHA256: 55a4cdba02edfc51ca179182dd8e86120978db3b564c15a47ddeac021d171772
+SHA512: 477baa1843e92c1f517c5e550dbdfde70eb30780357291498fed463ee6526d2cab189b12f19bf09329df512ffcfc80a3868444d39113c27454b4818203fe896b
+Description: next level diarrhea
+Name: Liquid (Gl)ass (Roothide)
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
 
 Package: dylv.liquidass
 Architecture: iphoneos-arm64
