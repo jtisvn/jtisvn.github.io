@@ -340,57 +340,6 @@ icon: https://huayuarc.github.io/icon/manager.png
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 
-Package: com.jtisvn.screenshellpro
-Architecture: iphoneos-arm64e
-Version: 5.2.0-61
-Section: Tweaks
-Maintainer: Axs
-Installed-Size: 540
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/ScreenShellPro_5.2.0-61 _Roothide.deb
-Size: 51864
-MD5sum: 911a4ce1121d7ce35de279bec2cd175e
-SHA1: 5bfa6d8b4e7728e47936a394753a55aea6ee4122
-SHA256: 486a1397bfd1cfc40718263f2fa0bcb18fc8733974fc747dfb8c06b87103b49a
-SHA512: f3ba37f83a6f181bed43eb9fa6667662f3277844ac751fb18d36444d8b877032f5d2c71cd201aeb1ebbf64cefacc75a95c9d2056d84cb6d159cfdfab6c1bbd51
-Description: Công cụ nâng cao dành cho iOS, hỗ trợ chèn hình mờ (watermark) trên toàn hệ thống và tạo khung thiết bị khi chụp ảnh hoặc quay màn hình. 
- * 1. Tốc độ render khung quay màn hình cực kỳ nhanh. 
- * 2. Không bị nóng máy quá nhiệt trong quá trình render. 
- * 3. Tweak này không yêu cầu bất kỳ dependency (gói phụ thuộc) nào. 
- * 4. Đây là công cụ render khung quay màn hình tốt nhất trên thị trường. 
- * 5. Tweak này có giá 100 tệ và đã được bẻ khóa (crack).
-Name: ScreenShell Pro
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/screenshellpro.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/ScreenShellPro.json
-Depiction: https://jtisvn.github.io/depictions/ScreenShellPro.html
-
-Package: com.jtisvn.screenshellpro
-Architecture: iphoneos-arm64
-Version: 5.2.0-61
-Section: Tweaks
-Maintainer: Axs
-Installed-Size: 540
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/ScreenShellPro_5.2.0-61 _Rootless.deb
-Size: 52580
-MD5sum: 5a805724098ef442b287a086e3629c75
-SHA1: 17615522cf5ff3f28e1443613f68eb7fd52fa8c9
-SHA256: 9d57771b1b61330c655a64e96aec2b58665cf80a1432a3ffe2f01fd7b441d66a
-SHA512: de88268107060809fd5aefba05abc5eefe64f940974d0c7cfb1f66ecf061b95412e51b9ae835373dfe394e4daec7a899e0b15424e14971e8d518f421bdd40abd
-Description: Công cụ nâng cao dành cho iOS, hỗ trợ chèn hình mờ (watermark) trên toàn hệ thống và tạo khung thiết bị khi chụp ảnh hoặc quay màn hình. 
- * 1. Tốc độ render khung quay màn hình cực kỳ nhanh. 
- * 2. Không bị nóng máy quá nhiệt trong quá trình render. 
- * 3. Tweak này không yêu cầu bất kỳ dependency (gói phụ thuộc) nào. 
- * 4. Đây là công cụ render khung quay màn hình tốt nhất trên thị trường. 
- * 5. Tweak này có giá 100 tệ và đã được bẻ khóa (crack).
-Name: ScreenShell Pro
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/screenshellpro.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/ScreenShellPro.json
-Depiction: https://jtisvn.github.io/depictions/ScreenShellPro.html
-
 Package: ccom.jtisvn.stencilmonowhite
 Architecture: all
 Version: 1.3
@@ -18779,6 +18728,47 @@ SHA512: a317f1455e80df643ee182f9e28979d0839276b0ae4285c2d17a1d03b5e27876f22953f1
 Description: Lượt xem/thay đổi tốc độ video trong ứng dụng iOS trên YouTube nhanh hơn và thêm nhiều tùy chọn tốc độ.
 Name: YouSpeed (Roothide)
 Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.ytlegacy
+Architecture: iphoneos-arm64
+Version: 1.12.1
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 5276
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/com.jtis.ytlegacy_1.12.1_iphoneos-arm64.deb
+Size: 452752
+MD5sum: f515297999ec9c6bb9782bb4e96ce53e
+SHA1: 5ce3cd9db32ec592fe872b2f70c66c5f541c9312
+SHA256: 146aa9e75813972ff9dc5e483601da0ae7f40952cb124e80530651cf4352c972
+SHA512: be45f39f8b2a653e8a0fc1b1d48d4c26bacbb7520ceb5b35fddd876ddbd8e1d00ac4516e7b3dd164498db939b07d2ea8abccd41d0755cd26386485b661293901
+Description: Hỗ trợ cho các phiên bản cũ của YouTube hoạt động trở lại.
+Name: YouTube Legacy (Rootless)
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
+Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.ytlegacy
+Architecture: iphoneos-arm64e
+Version: 1.12.1
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 5276
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/com.jtis.ytlegacy_1.12.1_iphoneos-arm64e.deb
+Size: 453124
+MD5sum: 0d8689bcf85853bcba5179afb7ddf6cb
+SHA1: 35929fc2f3e1dbbcdafc3097d238ef9dda72532e
+SHA256: ebfe320c1ba1961987a76d75d3029a20aaef68c871be331db279ce5ae2cb0811
+SHA512: 3da35128652886028e9d0b71400ae9c83cdae8837425ed4362cd8a2a80321e4c7179e1e7d97e73122f2e0da0f25def8ce16c1862e5b4847f1417f9ae75ce6caa
+Description: Hỗ trợ cho các phiên bản cũ của YouTube hoạt động trở lại.
+Name: YouTube Legacy (Roothide)
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
+Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.ytlegacy
