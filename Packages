@@ -20785,6 +20785,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/RainbowKeyboard.json
 Depiction: https://jtisvn.github.io/depictions/RainbowKeyboard.html
 Icon: https://jtisvn.github.io/sectionIcons/RainbowKeyboard.png
 
+Package: com.jtisvn.rainmhz
+Architecture: iphoneos-arm64
+Version: 6.13.0-1k
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 1116
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4), com.kitsudo.transalt
+Filename: ./debs/com.jtisvn.rainmhz_6.13.0-1k_iphoneos-arm64.deb
+Size: 172624
+MD5sum: ec6a0f0c8a4d205fc19e7b25f1549e06
+SHA1: a90a2f3a7c6821bcb11f56a8fd5c84ae11f2d794
+SHA256: 3d879fb7a20868afd9a6ccc6ef63d6cf104e1ef63a3f7827dcc8a4620716d22b
+SHA512: 35b3ebaba0ea442273977bcba786e95b62e7f172f8b15e52b2e9a15523d0846668eb9aa3e410bccaa8bcb0f370addadd8fca291177980cef18263c7c9e4fcfe6
+Description: Plugin tăng hiệu năng CPU và ổn định khung hình của Rain. Điều khiển Apple ARM DVFS thông qua IOKit, hỗ trợ các chế độ khung hình thấp nhiệt, cân bằng, hiệu năng cực cao, thông minh và ổn định. Bao gồm bảng điều khiển động, cài đặt phân cấp, thiết lập cảnh mặc định, điều khiển nhiệt độ, giám sát hiệu suất và quản lý hệ thống phụ trợ thông minh.
+Tag: role::hacker, purpose::extension
+Name: Rain的Mhz (Rootless)
+Author: Rain
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Rain的Mhz.json
+Depiction: https://jtisvn.github.io/depictions/Rain的Mhz.html
+icon: https://huayuarc.github.io/icon/cpumhz.jpg
+
+Package: com.jtisvn.rainmhz
+Architecture: iphoneos-arm64e
+Version: 6.13.0-1k
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 1116
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4), com.kitsudo.transalt
+Filename: ./debs/com.jtisvn.rainmhz_6.13.0-1k_iphoneos-arm64e.deb
+Size: 167108
+MD5sum: 55a415516ba22d748cd58e2d489f60e4
+SHA1: cd1ac3fedf0d829ad3cfe00513105da6b8f9feb8
+SHA256: 4ef5b30b08a56e099fd7e5fff14918b53883bc80c294fd585dcbb2245fe2c1e7
+SHA512: b83adb3a153356b5339d4b627290781c6c9a7b6299a28969fd75e129c787c28c8a49e982c0137f26049a1fcf2d0469042d04b3a22b1ac5d2c3044afe81be1de6
+Description: Plugin tăng hiệu năng CPU và ổn định khung hình của Rain. Điều khiển Apple ARM DVFS thông qua IOKit, hỗ trợ các chế độ khung hình thấp nhiệt, cân bằng, hiệu năng cực cao, thông minh và ổn định. Bao gồm bảng điều khiển động, cài đặt phân cấp, thiết lập cảnh mặc định, điều khiển nhiệt độ, giám sát hiệu suất và quản lý hệ thống phụ trợ thông minh.
+Tag: role::hacker, purpose::extension
+Name: Rain的Mhz (Roothide)
+Author: Rain
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Rain的Mhz.json
+Depiction: https://jtisvn.github.io/depictions/Rain的Mhz.html
+icon: https://huayuarc.github.io/icon/cpumhz.jpg
+
 Package: com.jtisvn.scribblefix
 Architecture: iphoneos-arm64e
 Version: 1.0.0
@@ -21916,45 +21959,6 @@ Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
-Package: com.kitsudo.rainmhzvh
-Architecture: iphoneos-arm64
-Version: 1.0-1
-Section: Tweaks
-Maintainer: Kitsudo
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.rainmhzvh_1.0-1_iphoneos-arm64.deb
-Size: 20476
-MD5sum: 96ecb8a063c3af5283bffffe185c2d10
-SHA1: 6429840f64497c8dd4055857744298235ecb6153
-SHA256: e0655c0e5e592a4b6bb2ec35fc6793b3f8793fb040547f52e886f54088c8a018
-SHA512: f3b4545b19df01d4e43c501c4c584a9b7a5373887211f9b60980f7141cdab236f407ba582583da348e13d62b5380ee3470022121c2fe20550b8356a6145b37d5
-Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak RainMhz
-Name: RainMhz gói Việt Hoá (Rootless)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/RainMhzVH.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.rainmhzvh
-Architecture: iphoneos-arm64e
-Version: 1.0-1
-Section: Tweaks
-Maintainer: Kitsudo
-Installed-Size: 204
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.rainmhzvh_1.0-1_iphoneos-arm64e.deb
-Size: 20192
-MD5sum: f4e818ab32fd43a0e6a1d17366c489df
-SHA1: 64f54485d74b98de8bf7c0e6dfb9a1e3018e476d
-SHA256: 6078f6877ac5b4a493b5c3c09d271c03fd13c0488565189fdd51320f1152f388
-SHA512: c5c0a5652e3b4767a4c72dbf4a92d4f2d9539748dbe9317c8ac1ff803f07163bd786716d45697db4a82618b2d6ab4cf42a2a7c03ecb808f01d538d440bac4510
-Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak RainMhz
-Name: RainMhz gói Việt Hoá (Roothide)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/RainMhzVH.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
 Package: com.kitsudo.rovh
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -22068,6 +22072,45 @@ MD5sum: 164a312dd60d054b8292f6780c20fc39
 SHA1: 627fad7158ef39fca084a518bca3f94d035c17b1
 SHA256: efd9fd0cfb321f15a3ca97dc6da35b621b3e15e6fdb33a964b82bb61a3c93559
 SHA512: 6a6db72f89328c67c615fa3cc1927c6dafc9d23303173f2c509863bd269b23d37fe4ca5fe7c856c47176841973c4dd9a13cfb7e55b86d579dea6ad39ac4e0fa3
+Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
+Name: TransAlT (Roothide)
+Author: KÃitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TransAlT.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.transalt
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: KÃitsudo
+Installed-Size: 940
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.transalt_1.0.3_iphoneos-arm64.deb
+Size: 92544
+MD5sum: 64b082a75cb94cae2ab7f6c9575ec4dd
+SHA1: 15cbb53a6df34d4963611cb85d38cab9669efeb8
+SHA256: 4d20d02589e0cb28611b6fd1e753329d8773057d45f2bab0b09c02499c41078e
+SHA512: 5367cb4132a47e0549cebef4715d0d2aa4b9866d6540e8d502d3d2b062d8fc8da4a52aea589332698e5b3950ec239a517542d39349ae1517bf18f39e911d1cd1
+Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
+Name: TransAlT (Rootless)
+Author: KÃitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TransAlT.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.transalt
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: KÃitsudo
+Installed-Size: 940
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.transalt_1.0.3_iphoneos-arm64e.deb
+Size: 88412
+MD5sum: 9df49c603678cc3fb7038566c4b3e70b
+SHA1: 96e241b80abb48c6c54ddc87f49b735bce0044f9
+SHA256: d71e8553908a69b298968d742e7662d77350d9d1f64e7b18a36af24a7d9f7919
+SHA512: 83045c4c69792de89be1df34a707b5a3edcef98da62dd0a67d6cf4ba79d43ed3467650192fbb72d382451c1a639c55fa82b259cc2bc1bc60235e337e6c996a1a
 Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
 Name: TransAlT (Roothide)
 Author: KÃitsudo

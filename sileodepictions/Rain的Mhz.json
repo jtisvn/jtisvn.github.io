@@ -1,0 +1,225 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#CC0000",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### RainMhz — Tinh chỉnh tối ưu hiệu năng & kiểm soát nhiệt độ toàn diện trên iOS\n\n Là công cụ quản lý, tùy chỉnh hệ thống và tối ưu hóa phần cứng mạnh mẽ dành cho thiết bị iOS đã jailbreak hoặc sử dụng TrollStore.\n- Giúp khai thác tối đa sức mạnh của chip Apple Silicon, cải thiện độ mượt mà khi chơi game, kiểm soát nhiệt độ thông minh và tiết kiệm pin hiệu quả cho các tác vụ hàng ngày.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/1.png",
+"accessibilityText":"Screenshot 1"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{285,500}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **1. Điều chỉnh hiệu năng & Cụm nhân CPU/GPU:**\n  - **Điều khiển độc lập nhân P & E:** Tinh chỉnh mức độ ưu tiên và xung nhịp riêng biệt giữa cụm nhân hiệu năng cao (Performance Cores) và nhân tiết kiệm điện (Efficiency Cores).\n  - **Khóa xung nhịp GPU & Tăng tốc IOSurface:** Tối ưu khả năng kết xuất đồ họa, giảm giật khung hình trong các tác vụ nặng.\n  - **Can thiệp điều phối QoS:** Tối ưu luồng xử lý tác vụ của hệ thống để đạt hiệu quả phản hồi nhanh nhất.\n\n- **2. Chế độ trò chơi & Ổn định khung hình:**\n  - **Tối ưu chuyên sâu cho Gaming:** Tự động hoặc thủ công kích hoạt chế độ game, ưu tiên tối đa tài nguyên cho ứng dụng tiền cảnh.\n  - **Ưu tiên Frametime:** Giảm thiểu tối đa hiện tượng khựng hình (stuttering) và dao động khung hình trong các tựa game kéo dài.\n\n- **3. Kiểm soát nhiệt độ & Chống bóp hiệu năng:**\n  - **Giảm bóp hiệu năng do nhiệt độ:** Nới lỏng giới hạn phần mềm để duy trì hiệu năng cao ổn định nhưng vẫn giữ cơ chế bảo vệ phần cứng an toàn.\n  - **Nhịp độ tản nhiệt thông minh:** Luân phiên thông minh giữa hiệu năng cao và làm mát để hạn chế quá nhiệt đột ngột.\n  - **Đánh giá tản nhiệt (Thermal Stress Test):** Tích hợp công cụ tự kiểm tra áp lực phần cứng, chấm điểm tản nhiệt từ S đến D.\n\n- **4. Quản lý tiến trình ngầm thông minh:**\n  - **Đóng băng tiến trình nền:** Tự động giới hạn tốc độ hoặc đóng băng tạm thời các tiến trình ngầm ít quan trọng khi vào game, giải phóng RAM và hạ nhiệt độ.\n  - **Khôi phục an toàn:** Tự động trả lại trạng thái ban đầu cho tiến trình ngay khi rời ứng dụng hoặc hết thời gian chờ.\n\n- **5. Tăng tốc mở ứng dụng:**\n  - **Bứt tốc tức thời:** Tăng vọt hiệu năng trong khoảnh khắc mở ứng dụng nặng, rút ngắn đáng kể thời gian chờ khởi động.\n\n- **6. Giám sát trực tiếp & Chấm điểm hiệu năng:**\n  - **Bảng thông số trực tiếp:** Tích hợp hiển thị thông tin qua Dynamic Island, Floating HUD hoặc giao diện chính.\n  - **Advanced Benchmark 2.0:** Chạy bài test toàn diện về CPU, băng thông bộ nhớ và hiệu năng tổng hợp để so sánh cấu hình.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Rain",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "10/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "6.13.0-1k",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "961.3 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 17.3",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 6.13.0-1k\n- Thêm ngôn ngữ Tiếng Việt hoàn chỉnh.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
