@@ -1,7 +1,7 @@
 {
 "minVersion":"0.3",
 "headerImage":"https://media.havoc.app/6ab7c31a0d4754aea950b4e4",
-"tintColor":"#3399FF",
+"tintColor":"#a786ff",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -25,23 +25,23 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Voidy/Screenshots/1.png",
 "accessibilityText":"Screenshot 1"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/Voidy/Screenshots/2.png",
 "accessibilityText":"Screenshot 2"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/3.png",
+"url":"https://jtisvn.github.io/infodeb/Voidy/Screenshots/3.png",
 "accessibilityText":"Screenshot 3"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/4.png",
+"url":"https://jtisvn.github.io/infodeb/Voidy/Screenshots/4.png",
 "accessibilityText":"Screenshot 4"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/5.png",
+"url":"https://jtisvn.github.io/infodeb/Voidy/Screenshots/5.png",
 "accessibilityText":"Screenshot 5"
 }
 ],
