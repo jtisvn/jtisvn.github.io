@@ -1,0 +1,241 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://media.havoc.app/6ab7c31a0d4754aea950b4e4",
+"tintColor":"#3399FF",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### Voidy\n\n Công cụ dọn dẹp hệ thống gọn nhẹ và hiệu quả dành cho thiết bị jailbreak rootless và roothide.\n Giúp giải phóng dung lượng lưu trữ, xóa bộ nhớ đệm (cache), tệp tạm và duy trì thiết bị luôn mượt mà với giao diện nguyên bản tinh tế.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/1.png",
+"accessibilityText":"Screenshot 1"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/2.png",
+"accessibilityText":"Screenshot 2"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/3.png",
+"accessibilityText":"Screenshot 3"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/4.png",
+"accessibilityText":"Screenshot 4"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Rain的Mhz/Screenshots/5.png",
+"accessibilityText":"Screenshot 5"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Dọn dẹp hệ thống toàn diện:**\n  - Xóa bộ nhớ đệm ứng dụng, Safari, tệp tạm, báo cáo sự cố và tệp nhật ký (logs).\n  - Dọn dẹp tệp `.deb` đã tải về, cache của trình quản lý gói và các tweak.\n  - Hỗ trợ dọn dẹp lịch sử duyệt web, cookie và dữ liệu học tập của bàn phím (luôn yêu cầu xác nhận thủ công, không tự động).\n  - Cho phép loại trừ các ứng dụng riêng lẻ (như ứng dụng chứa nhạc hoặc bản đồ ngoại tuyến).\n- **Phân tích thông minh (Smart Insights):**\n  - Đánh giá điểm số sức khỏe hệ thống sau mỗi lần quét.\n  - Phát hiện các tiến trình bị lỗi liên tục và khoanh vùng các tweak gây sự cố.\n  - Cảnh báo khi dung lượng lưu trữ thấp và lọc ra các ứng dụng chiếm nhiều dung lượng.\n- **Quản lý Tweak:**\n  - Xem danh sách tweak kèm theo gói cài đặt và ứng dụng mục tiêu.\n  - Bật/tắt nhanh từng tweak mà không cần gỡ bỏ.\n  - Tính năng \"Vô hiệu hóa tất cả\" (Disable all) cực kỳ hữu ích khi xử lý sự cố.\n- **Công cụ nâng cao (Tools):**\n  - Trình tìm kiếm tệp dung lượng lớn với thao tác vuốt để xóa nhanh.\n  - Gỡ bỏ các gói cài đặt mồ côi (orphaned packages) và các ngôn ngữ thừa không sử dụng từ tweak/ứng dụng.\n  - Khởi động/tắt các tiến trình nền Launch Daemons, Respring, làm mới cache biểu tượng, Userspace reboot, ldrestart.\n- **Bảo mật & An toàn:**\n  - Cam kết tuyệt đối không can thiệp vào Ảnh, Tin nhắn, Danh bạ, Keychain, Thư điện tử hay cơ sở dữ liệu gói. Khi gỡ cài đặt Voidy, mọi tweak bị vô hiệu hóa sẽ tự động được khôi phục.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "xsxs18",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "26/09/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "286.3 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 26.0.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.0\n- Phát hành lần đầu.\n- Hỗ trợ dọn dẹp cache ứng dụng, Safari, tệp tạm, báo cáo sự cố, log và cache tweak.\n- Tích hợp tính năng dọn dẹp quyền riêng tư (lịch sử, cookie, bàn phím).\n- Bổ sung Smart Insights chấm điểm sức khỏe và phát hiện vòng lặp lỗi (crash-loop).\n- Trình quản lý tweak với tùy chọn \"Vô hiệu hóa tất cả\" và khôi phục một chạm.\n- Tìm kiếm tệp lớn, dọn gói mồ côi, ngôn ngữ thừa và quản lý launch daemons.\n- Hỗ trợ tự động dọn dẹp chạy nền và tương thích hoàn toàn rootless/roothide.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
