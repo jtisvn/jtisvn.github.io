@@ -33,7 +33,7 @@
 "itemSize":"{900,900}"
 },
 {
-"markdown":"- **Tính năng nổi bật:**\n\n- Tuỳ chọn khung viền khi chụp ảnh và quay màn hình\n- Tuỳ chọn hình mườ khi chụp ảnh và quay màn hình\n- Tuỳ chọn ngẫu nhiên khung viền và hình mờ\n- Tuỳ chỉnh độ trong suốt của hình mờ\n- Thêm chế độ hiên thị hình mờ khi phủ kín toàn bộ và khu vục khung hình\n- Hỗ trợ rung và lưu ảnh vào bộ nhớ tạm khi chụp màn hình.",
+"markdown":"- **Tính năng nổi bật:**\n\n- Tuỳ chọn khung viền khi chụp ảnh và quay màn hình\n- Tuỳ chọn hình mờ khi chụp ảnh và quay màn hình\n- Tuỳ chọn ngẫu nhiên khung viền và hình mờ\n- Tuỳ chỉnh độ trong suốt của hình mờ\n- Thêm chế độ hiên thị hình mờ khi phủ kín toàn bộ và khu vục khung hình\n- Hỗ trợ rung và lưu ảnh vào bộ nhớ tạm khi chụp màn hình.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
