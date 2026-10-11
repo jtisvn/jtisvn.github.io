@@ -1,0 +1,237 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#334155",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### DarkIcon\n\n Công cụ tùy biến biểu tượng (Icon) và làm tối hình nền cao cấp cho iOS 15 đến iOS 18. Tweak mang đến giao diện Dark Mode toàn diện, tự động đồng bộ theo hệ thống cho Màn hình chính, Thư mục và thanh tìm kiếm Spotlight.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/1.png",
+"accessibilityText":"Screenshot 1"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/2.png",
+"accessibilityText":"Screenshot 2"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/3.png",
+"accessibilityText":"Screenshot 3"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/4.png",
+"accessibilityText":"Screenshot 4"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Làm tối hình nền thông minh:** Tự động điều chỉnh độ mờ hình nền Màn hình chính và Màn hình khóa trên iOS 16–18 dựa trên độ sáng của ảnh, có thể tùy chỉnh cường độ thủ công.\n- **Đồng bộ giao diện Icon:** Tự động áp dụng chế độ Tối (Dark Mode) cho icon trên Màn hình chính, Thư mục và Spotlight (hỗ trợ hoàn hảo iOS 15–17).\n- **Đa dạng phong cách biểu tượng:** Tùy chọn độc lập các kiểu Gốc (Original), Tối (Dark), Trong suốt (Clear) hoặc Phủ màu (Tinted) riêng biệt cho chế độ Sáng và Tối.\n- **Thuật toán xử lý linh hoạt:** Hỗ trợ chế độ Kết hợp (Hybrid), Apple và Chroma giúp tối ưu hóa icon ứng dụng mượt mà, giữ nguyên chi tiết và màu sắc chủ đạo của chủ thể.\n- **Bộ nhớ đệm hiệu suất cao:** Hệ thống cache ổ đĩa kết hợp hot-cache 64MB giúp giảm tải đọc ghi, tăng tốc độ cuộn trang và tiết kiệm pin tối đa.\n- **Tùy chỉnh mở rộng:** Hỗ trợ nhập ảnh thủ công từ Thư viện/Tệp, quản lý danh sách ngoại lệ không áp dụng Dark Icon, cùng bảng điều khiển tùy biến trực tiếp trên iOS 16/17/18.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Banana",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "10/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.9.16",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 18.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 0.9.16\n- Bổ sung bảng điều khiển tùy biến Màn hình chính trên iOS 16/17 cho kiểu dáng icon, kích thước và làm tối hình nền.\n- Nâng cấp giao diện thư viện từng ứng dụng dạng tìm kiếm trực quan cho các kiểu dáng có sẵn (Gốc, Tối, Trong suốt).\n- Cho phép nhập ảnh trực tiếp từ Thư viện hoặc Tệp với bộ nhớ lưu trữ riêng biệt.\n- Tối ưu hóa hệ thống bộ nhớ đệm hình ảnh, giúp tải trước mượt mà và không cần xóa cache khi cập nhật.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

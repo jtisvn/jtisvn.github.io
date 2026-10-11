@@ -1,0 +1,170 @@
+{
+"minVersion": "0.1",
+"headerImage": "hhttps://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#FF0033",
+"class": "DepictionTabView",
+"tabs": [
+{
+"tabname": "Giới Thiệu",
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionSpacerView",
+"spacing": 12
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+},
+{
+"markdown": "## YouTube Legacy\nHỗ trợ cho các phiên bản cũ của YouTube hoạt động trở lại.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+},
+{
+"class": "DepictionHeaderView",
+"title": "Ảnh màn hình",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/YouTubeLegacy/Screenshots/1.png",
+"accessibilityText": "Screenshot"
+}
+]
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+},
+{
+"class": "DepictionHeaderView",
+"title": "Thông Tin"
+},
+{
+"class": "DepictionTableTextView",
+"title": "Tác giả",
+"text": "PoomSmart"
+},
+{
+"class": "DepictionTableTextView",
+"title": "Phiên bản",
+"text": "1.12.1"
+},
+{
+"class": "DepictionTableTextView",
+"title": "Thể loại",
+"text": "Tweaks"
+},
+{
+"class": "DepictionTableTextView",
+"title": "Ngày cập nhật",
+"text": "11/10/2026"
+},
+{
+"class": "DepictionTableTextView",
+"title": "Kích thước",
+"text": "4.5 MB"
+},
+{
+"class": "DepictionTableTextView",
+"title": "Tương thích",
+"text": "iOS 13.0 - 16.0"
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 8
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 8
+},
+{
+"class": "DepictionTableButtonView",
+"title": "Xem mô tả",
+"action": "https://k37ios.pages.dev/info/depictions/BackgroundCaller.html",
+"openExternal": 1,
+"icon": "https://img.icons8.com/ios-filled/50/339999/document.png"
+},
+{
+"class": "DepictionTableButtonView",
+"title": "Liên hệ tôi",
+"action": "https://t.me/Kitsudo",
+"openExternal": 1,
+"icon": "https://img.icons8.com/ios-filled/50/339999/telegram-app.png"
+},
+{
+"class": "DepictionTableButtonView",
+"title": "Ủng hộ tôi",
+"action": "https://k37ios.pages.dev/info/depictions/donate.html",
+"openExternal": 1,
+"icon": "https://img.icons8.com/ios-filled/50/339999/hearts.png"
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 24
+},
+{
+"class": "DepictionImageView",
+"URL": "https://k37ios.pages.dev/CydiaIcon.png",
+"width": 40,
+"height": 40,
+"alignment": 1,
+"cornerRadius": 8
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Được tạo bởi ❤️ K37 Repo </div>",
+"useRawFormat": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+}
+]
+},
+{
+"tabname": "Nhật Ký Cập Nhật",
+"class": "DepictionStackView",
+"views": [
+{
+"markdown": "#### Phiên bản: 1.12.1\n- Thay thế icon tab Bạn bằng ảnh đại diện cá nhân khi đã đăng nhập.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+}
+]
+}
+]
+}

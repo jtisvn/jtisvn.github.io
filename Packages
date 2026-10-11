@@ -340,6 +340,75 @@ icon: https://huayuarc.github.io/icon/manager.png
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 
+Package: com.jtisvn.screenshellpro
+Architecture: iphoneos-arm64e
+Version: 5.2.0-61
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/ScreenShellPro_5.2.0-61 _Roothide.deb
+Size: 51864
+MD5sum: 911a4ce1121d7ce35de279bec2cd175e
+SHA1: 5bfa6d8b4e7728e47936a394753a55aea6ee4122
+SHA256: 486a1397bfd1cfc40718263f2fa0bcb18fc8733974fc747dfb8c06b87103b49a
+SHA512: f3ba37f83a6f181bed43eb9fa6667662f3277844ac751fb18d36444d8b877032f5d2c71cd201aeb1ebbf64cefacc75a95c9d2056d84cb6d159cfdfab6c1bbd51
+Description: Công cụ nâng cao dành cho iOS, hỗ trợ chèn hình mờ (watermark) trên toàn hệ thống và tạo khung thiết bị khi chụp ảnh hoặc quay màn hình. 
+ * 1. Tốc độ render khung quay màn hình cực kỳ nhanh. 
+ * 2. Không bị nóng máy quá nhiệt trong quá trình render. 
+ * 3. Tweak này không yêu cầu bất kỳ dependency (gói phụ thuộc) nào. 
+ * 4. Đây là công cụ render khung quay màn hình tốt nhất trên thị trường. 
+ * 5. Tweak này có giá 100 tệ và đã được bẻ khóa (crack).
+Name: ScreenShell Pro
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ScreenShellPro.json
+Depiction: https://jtisvn.github.io/depictions/ScreenShellPro.html
+
+Package: com.jtisvn.screenshellpro
+Architecture: iphoneos-arm64
+Version: 5.2.0-61
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 540
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/ScreenShellPro_5.2.0-61 _Rootless.deb
+Size: 52580
+MD5sum: 5a805724098ef442b287a086e3629c75
+SHA1: 17615522cf5ff3f28e1443613f68eb7fd52fa8c9
+SHA256: 9d57771b1b61330c655a64e96aec2b58665cf80a1432a3ffe2f01fd7b441d66a
+SHA512: de88268107060809fd5aefba05abc5eefe64f940974d0c7cfb1f66ecf061b95412e51b9ae835373dfe394e4daec7a899e0b15424e14971e8d518f421bdd40abd
+Description: Công cụ nâng cao dành cho iOS, hỗ trợ chèn hình mờ (watermark) trên toàn hệ thống và tạo khung thiết bị khi chụp ảnh hoặc quay màn hình. 
+ * 1. Tốc độ render khung quay màn hình cực kỳ nhanh. 
+ * 2. Không bị nóng máy quá nhiệt trong quá trình render. 
+ * 3. Tweak này không yêu cầu bất kỳ dependency (gói phụ thuộc) nào. 
+ * 4. Đây là công cụ render khung quay màn hình tốt nhất trên thị trường. 
+ * 5. Tweak này có giá 100 tệ và đã được bẻ khóa (crack).
+Name: ScreenShell Pro
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ScreenShellPro.json
+Depiction: https://jtisvn.github.io/depictions/ScreenShellPro.html
+
+Package: ccom.jtisvn.stencilmonowhite
+Architecture: all
+Version: 1.3
+Section: Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/StencilMonoWhite_1.3_all.deb
+Size: 8278720
+MD5sum: 59aa71cbf18436e029d6464cb283a2b8
+SHA1: af162f965d6b2efbffb4754d0dedac3f42acaf15
+SHA256: c1ade66665893ed0c0f0cef4cd6c68ea9025b8fb3a1c1668740aff4e392ea430
+SHA512: 0481508b1ff539614e7a6994321ecc218591cb27dbe71f8968977c6c7dcbddd73ed59e6dee164a105b71d5d0aecb5b7bcd15acceff8163eae8b223aec43349a0
+Description: Chủ đề VisionOS.
+Name: Stencil Mono White Theme
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/StencilMonoWhite.json
+Depiction: https://jtisvn.github.io/depictions/StencilMonoWhite.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: wiki.qaq.umbra
 Architecture: iphoneos-arm64e
 Version: 2.0
@@ -23719,6 +23788,25 @@ Icon: https://jtisvn.github.io/sectionIcons/TrollstoreHelper.png
 
 Package: com.opa334.trollstorelite
 Architecture: iphoneos-arm64e
+Version: 2.1.1-2
+Section: Applications
+Maintainer: opa334
+Installed-Size: 3844
+Filename: ./debs/com.opa334.trollstorelite_2.1.1-2_iphoneos-arm64e.deb
+Size: 1732100
+MD5sum: 6c07fc96b4603acf2df38eeddfbad8bb
+SHA1: 513761fb17de3333cdc99fc78b4793e491f33513
+SHA256: 1a87117a7f2f35ec8b6db783c1f7c192facd98d8aabc6f8dd5b25ac5aa295ec1
+SHA512: 844bead3a3139afe73bfadaf04f046b4d096aad5ddebb574d3e68a4939b199684b91bc54a144a6f861c3d0a0c33ff4e6b7b42284ac2a7bfe3f6048ef83d5bfd7
+Description: TrollStore for RootHide jailbroken iOS
+Name: TrollStore Lite (RootHide)
+Author: opa334
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollStoreLite.json
+Depiction: https://jtisvn.github.io/depictions/TrollStoreLite.html
+Icon: https://media.havoc.app/66d4ecc6e95a6f1dee4b898c
+
+Package: com.opa334.trollstorelite
+Architecture: iphoneos-arm64e
 Version: 2.1
 Section: Applications
 Maintainer: opa334
@@ -24056,6 +24144,51 @@ MD5sum: 45b2bc27d419de4c6a287b135c3ebaba
 SHA1: 6181c768cac3c36a10882deed3efdf787e0b4c33
 SHA256: b1892a794295d399da44d9a697eea8018d6fc09e298dab5e78660d5bdab3d936
 SHA512: a5913f94ece4a2dca1674d71508745a6a2f4b6486e86e5791b61cb719303702880fb67b320fee9e71ee0170ca3fff321ae712839f4176dcd9d27538a4b59784c
+Description: Mở khóa hàng phím số trên iPhone.
+Name: 5Row (Roothide)
+Author: PitroyTech
+SileoDepiction: https://jtisvn.github.io/sileodepictions/5Row.json
+Depiction: https://jtisvn.github.io/depictions/5Row.html
+Icon: https://pitroytech.github.io/repo/icons/5row.png
+
+Package: com.pitroytech.5row
+Architecture: iphoneos-arm64
+Version: 1.19.0
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 556
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: ./debs/com.pitroytech.5row_1.19.0_iphoneos-arm64.deb
+Size: 108076
+MD5sum: 475c5b2ea9f30b4eb3c474628ffb3ffd
+SHA1: 010ee1799009225990e07c3bb72bf9d836e3147a
+SHA256: 4d3606f2cad88b6c57f96d8d8bea5896f3bd949a39b6d36c18adaf16a88bf6b2
+SHA512: 7f911e87b633cc1f4fc248b3a044f07b81d92a24cc609836d1f9e23703a735af08b565524b855507f80bb00e57186d767ec957ce0c9deb7ef486411d29b0329f
+Description: Mở khóa hàng phím số trên iPhone.
+Name: 5Row (Rootless)
+Author: PitroyTech
+SileoDepiction: https://jtisvn.github.io/sileodepictions/5Row.json
+Depiction: https://jtisvn.github.io/depictions/5Row.html
+Icon: https://pitroytech.github.io/repo/icons/5row.png
+
+Package: com.pitroytech.5row
+Architecture: iphoneos-arm64e
+Version: 1.19.0
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 556
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: ./debs/com.pitroytech.5row_1.19.0_iphoneos-arm64e.deb
+Size: 106736
+MD5sum: 81ab184ea2137ee12016dad883466009
+SHA1: 80720dae58967d939125e96af8b083971c29d3fe
+SHA256: b3bde41d50c1749554fb952624e26bd42f2a24cd94e4ace52a30cb2d271bd25e
+SHA512: f200f5895e08f753c1f2891d0147e107eddb492133ddfd0caa37d424753bd2d4071aefc9cb525ebe78b13f99693e640ea027f15b4568343c1d2c55c494ea2738
 Description: Mở khóa hàng phím số trên iPhone.
 Name: 5Row (Roothide)
 Author: PitroyTech
@@ -26822,6 +26955,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AmbientBadge.json
 Depiction: https://jtisvn.github.io/depictions/AmbientBadge.html
 icon: https://huayuarc.github.io/icon/AmbientBadge.png
 
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.16
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1516
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: ./debs/iya.banana.dockicon_0.9.16_iphoneos-arm64.deb
+Size: 329788
+MD5sum: 5ecb7420b11f37681864e174857537c3
+SHA1: fab444d138d8165c10abe8d0068b36df5f722a7b
+SHA256: e2b8cf645b82ca224abc6a18c1624f7b6463c9f21ee6f7b9d5aa4421492a777e
+SHA512: 5c0363adedfe054c388bc3969617af49d6422e60ae087217c92140b5919e5e27eb4bf14a4190a4e384c4a87beb23df69afc70ce21f95959d98deb25f63db4699
+Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
+Name: DarkIcon (Rootless)
+Author: hades
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
+Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.16
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1516
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: ./debs/iya.banana.dockicon_0.9.16_iphoneos-arm64e.deb
+Size: 329976
+MD5sum: 9387931b60c02237d4cc613ed1f6a2f3
+SHA1: f0e5dd6398620aaeac9dafdd75af27ece6df3c1a
+SHA256: 0b856e056f36eebb82dc11d43df1caeee3dc27993fdb87ebe3957b123c40adc0
+SHA512: c64d175442013b365aef55e73bcea519839d34836f53c1cd59f0bca7c9b9e744b9bbbaf9af9b919663f4e425e0193c035df98ae7cb489a0dcc83eecb10c6e719
+Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
+Name: DarkIcon (Roothide)
+Author: hades
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
+Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
+
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64
 Version: 1.1.12
@@ -26858,6 +27032,51 @@ Description: Hình nền cảnh không gian 3D cho Màn hình khóa, được nh
 Name: SpatialScene (Roothide)
 Author: Banana
 icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.iapple.siri
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: Thijs mussig
+Installed-Size: 2252
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Filename: ./debs/iya.iapple.siri_1.1.3_iphoneos-arm64.deb
+Size: 986948
+MD5sum: 1b1f5e080e2ce26be3ac68c0dbe1e6a0
+SHA1: 527fb22f26bcb7e3acac3a64d490d09e0bb163ca
+SHA256: a03889e216d78862a366e285bba27abed2f5e6a1214dd5c2f804497f0dae190d
+SHA512: 4324178c240724d10e6613bf0575cc154cb1c1b311f23da879b7fc1527a2e00133d36147587301981c91cec4e8b70beb26837e31d877f108dd782bb4c6c4c1c1
+Description: Tùy chỉnh Siri với đèn viền NewSiri hoặc giao diện kính SiriAI.
+Name: LiquidSiri (Rootless)
+Author: Thijs mussig, Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidSiri.json
+Depiction: https://jtisvn.github.io/depictions/LiquidSiri.html
+Icon: https://iyaway.github.io/depictions/iya.iapple.siri/icon.png
+
+Package: iya.iapple.siri
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: Thijs mussig
+Installed-Size: 2252
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Filename: ./debs/iya.iapple.siri_1.1.3_iphoneos-arm64e.deb
+Size: 987024
+MD5sum: bb93b465e9db7ec56792a17500c3e92f
+SHA1: 2da1a6dea712802a58f071398964c1d5910b9f50
+SHA256: 25b182c3f1a0166a99857f264d05b046c25859199c07b600afbdab8f0aeea596
+SHA512: 0e89b5f334978cb93786bea878c6800e24f342f50e0e5aeb92fda9eaeda1f42539e08ad53f8dc04f0bd3f78ce9de6ee3f7ec4d6e6bc8d4fc3ab325b2517ff092
+Description: Tùy chỉnh Siri với đèn viền NewSiri hoặc giao diện kính SiriAI.
+Name: LiquidSiri (Roothide)
+Author: Thijs mussig, Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidSiri.json
+Depiction: https://jtisvn.github.io/depictions/LiquidSiri.html
+Icon: https://iyaway.github.io/depictions/iya.iapple.siri/icon.png
 
 Package: jp.dcsyhi.airaw.splitnative
 Architecture: iphoneos-arm64

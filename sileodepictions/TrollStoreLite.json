@@ -70,7 +70,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Tiện ích",
+"text": "Ứng dụng",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -83,7 +83,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "01/09/2024",
+"text": "01/09/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.1",
+"text": "2.1.1-2.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
