@@ -4107,6 +4107,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
 Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
 Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
 
+Package: com.jitsvn.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.19
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1896
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: ./debs/com.jitsvn.dockicon_0.9.19_iphoneos-arm64e.deb
+Size: 406712
+MD5sum: be047e4f665be3c7895ee0c1381b4802
+SHA1: d7142e93bed1efe23a9e9e934848043dc96db7d7
+SHA256: d32ae7b0f32c4c7a6587261351acd50a0fe3e602285acb8256505d4ba0f3c764
+SHA512: 3c836824f7104f73e462e21a8fc41a0d2176501f93c935b701ebf88a937f48fc8710c91a512b4fed622c1c0a448fbba6dde20a15f9efb45ea9af5645fe974d63
+Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
+Name: DarkIcon (Roothide)
+Author: hades
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
+Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
+
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64
 Version: 1.0.4.1k
@@ -19652,27 +19673,6 @@ Author: Kitsudo
 Depiction: http://jtisvn.github.io/depiction/ClockTimeFont.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockTimeFont.json
 Icon: https://jtisvn.github.io/sectionIcons/ClockTimeFont.png
-
-Package: com.jtisvn.dockicon
-Architecture: iphoneos-arm64e
-Version: 0.9.19
-Section: Tweaks
-Maintainer: hades
-Installed-Size: 1896
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
-Filename: ./debs/com.jtisvn.dockicon_0.9.19_iphoneos-arm64e.deb
-Size: 406332
-MD5sum: 4eb58667eabb53eec3a73f6fe41d7806
-SHA1: 9d65c0b92c0f0dedc3e11eb34a55dce85a058e8f
-SHA256: b1869d4005bf824a385344e8699ead9bbd7924ea1a7276a87ede65213e7e341c
-SHA512: 2c5807b098f62fd64ff6621e0efd4fbe05b3e94d232ef247a3f2081aedd92d288555b45c5634150e93b79b79a508bf7cfc4aa44bd512af16969d9b55141b1c7c
-Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
-Name: DarkIcon (Roothide)
-Author: hades
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
-Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
-Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
 
 Package: com.jtisvn.duocap
 Architecture: iphoneos-arm64
