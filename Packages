@@ -25252,6 +25252,26 @@ Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzaswipeselect/j
 Name: FilzaSwipeSelect (Roothide)
 Author: korboy <korboybeats@gmail.com>
 
+Package: com.siphonostb.gestures16
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Siphonostb
+Installed-Size: 396
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: ./debs/com.siphonostb.gestures16_1.0.2_iphoneos-arm64.deb
+Size: 21312
+MD5sum: f1d5c13971b2a16daad348f1c38095ad
+SHA1: 633c8107e04d37ad13a4277200061e12591e20cb
+SHA256: e7fe10605d452d2361edf8256047f1442728098bd119575c8552ee74e11664f4
+SHA512: dbbd5539bd86193422d177de252a20c06c3f29a6923e5afadc07d592356981e2d1422118a9bf191d2017a9adc0f72548848aa4202bf49f7a804fd75a28921829
+Description: Hỗ trợ điều hướng bằng cử chỉ gốc cho nút Home trên iPhone chạy iOS 16.
+Name: Gestures16 (Rootless)
+Author: Siphonostb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gestures16.json
+Depiction: https://jtisvn.github.io/depictions/Gestures16.html
+Icon: https://jtisvn.github.io/sectionIcons/Gestures16.png
+
 Package: com.skypain.ccautobrightness
 Architecture: iphoneos-arm64
 Version: 1.0.0-1
