@@ -106,7 +106,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "10/10/2026",
+"text": "12/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -124,7 +124,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.9.16",
+"text": "0.9.19",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -178,7 +178,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.9.16\n- Bổ sung bảng điều khiển tùy biến Màn hình chính trên iOS 16/17 cho kiểu dáng icon, kích thước và làm tối hình nền.\n- Nâng cấp giao diện thư viện từng ứng dụng dạng tìm kiếm trực quan cho các kiểu dáng có sẵn (Gốc, Tối, Trong suốt).\n- Cho phép nhập ảnh trực tiếp từ Thư viện hoặc Tệp với bộ nhớ lưu trữ riêng biệt.\n- Tối ưu hóa hệ thống bộ nhớ đệm hình ảnh, giúp tải trước mượt mà và không cần xóa cache khi cập nhật.",
+"markdown":"### Phiên bản 0.9.19\n- Cải thiện tính năng nhập gói icon kích thước lớn, tăng giới hạn file ZIP và giảm bớt thao tác lặp lại.\n- Bỏ qua các hình ảnh không có ánh xạ ứng dụng, nhập bình thường các icon còn lại.",
 "useSpacing": true
 },
 {

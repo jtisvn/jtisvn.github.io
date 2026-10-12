@@ -4087,6 +4087,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/EvoCenter.json
 Depiction: https://jtisvn.github.io/depictions/EvoCenter.html
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 
+Package: com.jitsvn.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.19
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1896
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: ./debs/com.jitsvn.dockicon_0.9.19_iphoneos-arm64.deb
+Size: 406740
+MD5sum: f262e9dea66524b0e1a257f626205d4b
+SHA1: 644066d884008975f63af3a65dea41e30ec4a02b
+SHA256: 07f3d115164bf07a32482c60341682107135f0f0cc3c0ceee5ca1f387652df5e
+SHA512: 1af179ebb7f2a38e3e864fd055aa84335e4d10ba6d4e36b94857163a38bb9cc65eac8821af21b55de3cf66ad45a08d44058b4f9fdc2148ecbc91efae0561a4ad
+Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
+Name: DarkIcon (Rootless)
+Author: hades
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
+Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
+
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64
 Version: 1.0.4.1k
@@ -19633,6 +19653,27 @@ Depiction: http://jtisvn.github.io/depiction/ClockTimeFont.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockTimeFont.json
 Icon: https://jtisvn.github.io/sectionIcons/ClockTimeFont.png
 
+Package: com.jtisvn.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.19
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1896
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: ./debs/com.jtisvn.dockicon_0.9.19_iphoneos-arm64e.deb
+Size: 406332
+MD5sum: 4eb58667eabb53eec3a73f6fe41d7806
+SHA1: 9d65c0b92c0f0dedc3e11eb34a55dce85a058e8f
+SHA256: b1869d4005bf824a385344e8699ead9bbd7924ea1a7276a87ede65213e7e341c
+SHA512: 2c5807b098f62fd64ff6621e0efd4fbe05b3e94d232ef247a3f2081aedd92d288555b45c5634150e93b79b79a508bf7cfc4aa44bd512af16969d9b55141b1c7c
+Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
+Name: DarkIcon (Roothide)
+Author: hades
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
+Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
+
 Package: com.jtisvn.duocap
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -20999,6 +21040,61 @@ SHA1: 7c12487fb7b98175eb2ea9256e722cc46a7e768c
 SHA256: 374c3bfb5beb87d251cb3cfd9a21742a50d36866c55262a6148740581c0dc415
 SHA512: 41d47dcc73dfe7f5054a3927fbe3d452ede31916f774fbba68cbf3f0966794fc5ac553d251e5431523c3e331e6aa58dcb240042808952fe237759132209c3b39
 Description: Tùy biến toàn bộ công tắc hệ thống (UISwitch), mang lại giao diện cá tính và độc đáo hơn cho các nút bật/tắt nguyên bản.
+Name: Switch Icon (Roothide)
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/switchicon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchIcon.json
+
+Package: com.jtisvn.switchicon
+Architecture: iphoneos-arm64
+Version: 5.2.0-140
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 1096
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.switchicon_5.2.0-140_iphoneos-arm64.deb
+Size: 131904
+MD5sum: 6353921a51ec50be396ca984fa72865c
+SHA1: aba8075d887f9abadcb78948b321186808856570
+SHA256: 6c0285240f26ffc36d01b201532fc91eccb0183f07fa433d93ebd16ce1df9e7e
+SHA512: ded13f7f9f7959846f24b8d734a5c28b93f563a1ce23662023a0be9d0954335ff8963a6e7d02061489b0febe6c998707a14cf66b46b3fce3e8875c7bee514a14
+Description: Tùy biến toàn bộ công tắc hệ thống (UISwitch), mang lại giao diện cá tính và độc đáo hơn cho các nút bật/tắt gốc.
+ * Nhóm công tắc thuần:
+ * 1. Nhóm động: Gồm công tắc Ngày/Đêm, Mắt Máu (Blood Eye), Hiệu ứng lỏng (Liquid).
+ * 2. Nhóm tĩnh: Gồm công tắc Nhật/Nguyệt, Giọt nước, Lập thể (3D), Nhiệt độ, Sao & Trăng.
+ * 3. Công tắc kính lỏng: Tái tạo phong cách iOS 26, hỗ trợ tùy chỉnh màu sắc khi bật trạng thái.
+ * 4. Công tắc Nhật/Nguyệt: Hỗ trợ tùy chỉnh màu sắc cho mặt trời, mây, mặt trăng và ngôi sao, biến hóa đa dạng chỉ với một công tắc.
+ * Nhóm công tắc tùy chỉnh:
+ * 1. Công tắc tài nguyên: Cho phép đặt file ảnh tài nguyên ⁠on.png⁠ và ⁠off.png⁠ vào đường dẫn chỉ định.
+ * 2. Hỗ trợ tạo nhiều bộ giao diện: Cho phép tự do chuyển đổi linh hoạt ngay trong bảng điều khiển tweak.
+Name: Switch Icon (Rootless)
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/switchicon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchIcon.json
+
+Package: com.jtisvn.switchicon
+Architecture: iphoneos-arm64e
+Version: 5.2.0-140
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 1096
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.switchicon_5.2.0-140_iphoneos-arm64e.deb
+Size: 129076
+MD5sum: d478c5013497bdaa210fd7cdea1cdba1
+SHA1: a4c507ea9722066609800eab41b82c6952757f52
+SHA256: 07f6daa442dc6c0e991279b719a6566e42e333137ab59f4b4268763eb96fc072
+SHA512: 57d1ec749a96d8ceeb713132199dc90b87e98a978d9d4eb3ae5e50431c430a0483e1ffc5c31be8a11a2f702893e44468091c9380dff003defe760acc0b7bc60d
+Description: Tùy biến toàn bộ công tắc hệ thống (UISwitch), mang lại giao diện cá tính và độc đáo hơn cho các nút bật/tắt gốc.
+ * Nhóm công tắc thuần:
+ * 1. Nhóm động: Gồm công tắc Ngày/Đêm, Mắt Máu (Blood Eye), Hiệu ứng lỏng (Liquid).
+ * 2. Nhóm tĩnh: Gồm công tắc Nhật/Nguyệt, Giọt nước, Lập thể (3D), Nhiệt độ, Sao & Trăng.
+ * 3. Công tắc kính lỏng: Tái tạo phong cách iOS 26, hỗ trợ tùy chỉnh màu sắc khi bật trạng thái.
+ * 4. Công tắc Nhật/Nguyệt: Hỗ trợ tùy chỉnh màu sắc cho mặt trời, mây, mặt trăng và ngôi sao, biến hóa đa dạng chỉ với một công tắc.
+ * Nhóm công tắc tùy chỉnh:
+ * 1. Công tắc tài nguyên: Cho phép đặt file ảnh tài nguyên ⁠on.png⁠ và ⁠off.png⁠ vào đường dẫn chỉ định.
+ * 2. Hỗ trợ tạo nhiều bộ giao diện: Cho phép tự do chuyển đổi linh hoạt ngay trong bảng điều khiển tweak.
 Name: Switch Icon (Roothide)
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/switchicon.png
@@ -26284,6 +26380,53 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Voidy.json
 Depiction: https://jtisvn.github.io/depictions/Voidy.html
 Icon: https://media.havoc.app/6ab7c2390d4754aea950af97
 
+Package: com.xybp888.callassist16.dopamine
+Architecture: iphoneos-arm64
+Version: 3.1.1
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Conflicts:
+Replaces:
+Filename: ./debs/com.xybp888.callassist16.dopamine_3.1.1_iphoneos-arm64.deb
+Size: 3572272
+MD5sum: afa1f5333e430f3cd09bb7c314986188
+SHA1: 53e35378fd003d6b922a8e6b50abd6c3091b3cb8
+SHA256: 681481ae0d0925aba6d65db7642d5825d619b0ad05d7b9e3538858eb03879739
+SHA512: d1d661b43eb77f1abb931af41674f8be2cd8e168bce490fc4c506db14f64b5a666c27c72c5ee27721c6d2515f9980d644238a8db17fdf2614dc1de3d6e61207c
+Homepage:
+Description: Đây là phiên bản có bản quyền của một trợ lý điện thoại, với các tính năng như ghi âm cuộc gọi, hợp nhất nhật ký cuộc gọi, bàn phím quay số T9 hai SIM, quay số SMS hai SIM, chọn vị trí hiển thị ID người gọi, danh sách đen, chặn cuộc gọi, thay thế biểu tượng trên thanh trạng thái, chỉnh sửa định dạng thời gian và các plugin mạnh mẽ khác.
+Name: CallAssist16iOS16 (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Callassist.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
+Author: xybp888
+dev: xybp888
+
+Package: com.xybp888.callassist16.dopamine
+Architecture: iphoneos-arm64e
+Version: 3.1.1
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Conflicts:
+Replaces:
+Filename: ./debs/com.xybp888.callassist16.dopamine_3.1.1_iphoneos-arm64e.deb
+Size: 3572348
+MD5sum: bb547b96e44fbb89c4b8ca7a4bfa8cfc
+SHA1: 0d8ffc9d6891018b9e633e06302232de0ff31a2e
+SHA256: 98dacaf3411ddc784f710faef722c4e3a5cb2c4fb218168cc6a7696e997293ba
+SHA512: 72798f769931c8845bd2f92a817bf5ee1a5bdd6260718ec99574dbeff173e999898ac29a1e5583965976ffc095be994c1d9bb8a418e913ff91596e43e5344a05
+Homepage:
+Description: Đây là phiên bản có bản quyền của một trợ lý điện thoại, với các tính năng như ghi âm cuộc gọi, hợp nhất nhật ký cuộc gọi, bàn phím quay số T9 hai SIM, quay số SMS hai SIM, chọn vị trí hiển thị ID người gọi, danh sách đen, chặn cuộc gọi, thay thế biểu tượng trên thanh trạng thái, chỉnh sửa định dạng thời gian và các plugin mạnh mẽ khác.
+Name: CallAssist16iOS16 (Roothie)
+Icon: https://jtisvn.github.io/sectionIcons/Callassist.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
+Author: xybp888
+dev: xybp888
+
 Package: com.xybp888.noapplemobilerepair
 Architecture: iphoneos-arm64
 Version: 0.0.1-104
@@ -27116,47 +27259,6 @@ Author: Banana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AmbientBadge.json
 Depiction: https://jtisvn.github.io/depictions/AmbientBadge.html
 icon: https://huayuarc.github.io/icon/AmbientBadge.png
-
-Package: iya.banana.dockicon
-Architecture: iphoneos-arm64
-Version: 0.9.16
-Section: Tweaks
-Maintainer: hades
-Installed-Size: 1516
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
-Filename: ./debs/iya.banana.dockicon_0.9.16_iphoneos-arm64.deb
-Size: 329788
-MD5sum: 5ecb7420b11f37681864e174857537c3
-SHA1: fab444d138d8165c10abe8d0068b36df5f722a7b
-SHA256: e2b8cf645b82ca224abc6a18c1624f7b6463c9f21ee6f7b9d5aa4421492a777e
-SHA512: 5c0363adedfe054c388bc3969617af49d6422e60ae087217c92140b5919e5e27eb4bf14a4190a4e384c4a87beb23df69afc70ce21f95959d98deb25f63db4699
-Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
-Name: DarkIcon (Rootless)
-Author: hades
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
-Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
-Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
-
-Package: iya.banana.dockicon
-Architecture: iphoneos-arm64e
-Version: 0.9.16
-Section: Tweaks
-Maintainer: hades
-Installed-Size: 1516
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
-Filename: ./debs/iya.banana.dockicon_0.9.16_iphoneos-arm64e.deb
-Size: 329976
-MD5sum: 9387931b60c02237d4cc613ed1f6a2f3
-SHA1: f0e5dd6398620aaeac9dafdd75af27ece6df3c1a
-SHA256: 0b856e056f36eebb82dc11d43df1caeee3dc27993fdb87ebe3957b123c40adc0
-SHA512: c64d175442013b365aef55e73bcea519839d34836f53c1cd59f0bca7c9b9e744b9bbbaf9af9b919663f4e425e0193c035df98ae7cb489a0dcc83eecb10c6e719
-Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
-Name: DarkIcon (Roothide)
-Author: hades
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
-Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
-Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
 
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64
