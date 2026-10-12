@@ -8261,25 +8261,6 @@ Author: xybp888vh
 Icon: https://jtisvn.github.io/sectionIcons/Callassist.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist15.json
 
-Package: com.jtis.callassist16
-Architecture: iphoneos-arm64e
-Version: 1.7.2
-Priority: optional
-Section: Tweaks
-Maintainer: JTIS Repo
-Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
-Filename: ./debs/com.jtis.callassist16_1.7.2_iphoneos-arm64e.deb
-Size: 2716012
-MD5sum: 2b82ee89ff95be6cd9bedba4638cd2ed
-SHA1: 770cd15c29afa10dda044e5ed6873381646311d1
-SHA256: 7ae3f6facdee536f36a5a785b4f761c721a38bf1d65fffd82d983f0d51b0b5ba
-SHA512: e8dfc473ffd1c639f5c21ed4189fdfc055299debc0b3c9a701707ddba85e439758c64b17553e3ab18614ce098e197c6768391943094adffc4e9eeb7e63eb15d3
-Description: Trợ lý cuộc gọi mạnh mẽ, Hỗ trợ thiết IOS 16.0 - 16.5
-Name: Callassist16 (Roothide)
-Author: xybp888vh
-Icon: https://jtisvn.github.io/sectionIcons/Callassist.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
-
 Package: com.jtis.callblocker
 Architecture: iphoneos-arm
 Version: 2.0.4
@@ -18117,47 +18098,6 @@ Name: Velvet 2 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Velvet2.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
 
-Package: com.jtis.vibett
-Architecture: iphoneos-arm64
-Version: 1.75-1+debug
-Section: Tweaks
-Maintainer: DeNsor
-Installed-Size: 1476
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.75-1+debug_iphoneos-arm64.deb
-Size: 227552
-MD5sum: a701301ee0043b5349103543d06b679a
-SHA1: 359637ba05bcccd885ae6286573ffc5cdf255d63
-SHA256: 88474576a61be872ae4031e1d2f52a413986896558cb8f9555d5002cb04e8d9f
-SHA512: 13d93da1fcae4a9c248aab78dedb54aea567d78a1a2386be990ef4c09c0acb3837774854bc761c13f154e93b7c4c62c90ad27250800ba8b844a3422eebda7e01
-Description: Make TikTok Better!
-Name: VibeTok (Rootless)
-Author: DeNsor
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
-Depiction: http://jtisvn.github.io/depiction/VibeTok.html
-Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
-
-Package: com.jtis.vibett
-Architecture: iphoneos-arm64e
-Version: 1.75-1+debug
-Section: Tweaks
-Maintainer: DeNsor
-Installed-Size: 1476
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.75-1+debug_iphoneos-arm64e.deb
-Size: 221488
-MD5sum: 4ade1f6278305a1456e19baa75539bb5
-SHA1: a0a785d4d51ef3cf5216b2d611586d478a93cb12
-SHA256: 73246a49345f065c0eee27d8a59ddfe40916ee126f71229f4d2a0b4e53722acc
-SHA512: ffd342ec11da87001277060712fc97b0e81afe4fe351d2464a0b893ab6cef52bf9f85b081423a10fca693f7ebaf4e6aead60e3370973e1c721fb4c9ecca17c84
-Description: Make TikTok Better!
-Name: VibeTok (Roothide)
-Author: DeNsor
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
-Depiction: http://jtisvn.github.io/depiction/VibeTok.html
-Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
-
 Package: com.jtis.videosunmute
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -21202,6 +21142,47 @@ Author: Wes
 Depiction: http://jtisvn.github.io/depiction/TVLock.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TVLock.json
 Icon: https://jtisvn.github.io/sectionIcons/TVLock.png
+
+Package: com.jtisvn.vibett
+Architecture: iphoneos-arm64
+Version: 1.7.7
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 1536
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtisvn.vibett_1.7.7_iphoneos-arm64.deb
+Size: 235380
+MD5sum: a1c37ec8d433a2fbae5367870601949e
+SHA1: b7527f69d5613f91cafbdc9e99979995b245cb70
+SHA256: 85bd242862100b45ae44f072a69008f921ea110f0e24a9f68e5ca055d5a8af3b
+SHA512: 069875f316334357322d7cca362b38f1669f5d3c352254199cc119eb7379ee699bde9161bf1892fef16c769b48d876a2a4a783828c94ce20eff2eed107722bf4
+Description: Make TikTok Better!
+Name: VibeTok (Rootless)
+Author: DeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
+Depiction: http://jtisvn.github.io/depiction/VibeTok.html
+Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
+
+Package: com.jtisvn.vibett
+Architecture: iphoneos-arm64e
+Version: 1.7.7
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 1536
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtisvn.vibett_1.7.7_iphoneos-arm64e.deb
+Size: 227404
+MD5sum: 82ba3902aa7f5c775721a3f375cde57c
+SHA1: 9ced440c599b64ea57f7fd3fbccc093a6f165ad9
+SHA256: 3e3d474435b65511cb72d594402fdc98a78d08bbb7466d1646bb7877c8a32d79
+SHA512: 041702db97956f185f62b32ad63e04e4c512287e365d3021644109f88f0aafae02ba531eea169d228d4c931b274ce4606ea0c77e58173cddde7926c3e3f972c9
+Description: Make TikTok Better!
+Name: VibeTok (Roothide)
+Author: DeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
+Depiction: http://jtisvn.github.io/depiction/VibeTok.html
+Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
 
 Package: com.jtisvn.zone
 Architecture: iphoneos-arm64

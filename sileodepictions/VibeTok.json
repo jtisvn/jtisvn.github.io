@@ -7,6 +7,12 @@
 "tabname":"Giới thiệu",
 "views":[
 {
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -87,7 +93,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "10/5/2026",
+"text": "12/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +111,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.73",
+"text": "1.7.7",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +165,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.73\n\n- Thêm hoàn tác khi bạn xóa một tin nhắn từ mình\n- Thêm giữ các tin nhắn đã xóa trong trò chuyện\n\n- Hiển thị xác nhận trước khi xóa các tin nhắn."
+"markdown":"### Phiên bản 1.7.7\n- Thêm tải banner trong hồ sơ của bạn ( ảnh hồ sơ )\n- Thêm giữ các tin nhắn đã xóa trong trò chuyện\n- hông cần đổi khu vực và tạo tài khoản mới.."
 },
 {
 "class":"DepictionLabelView",

@@ -28,7 +28,7 @@
 "class": "DepictionMarkdownView"
 },
 {
-"markdown":"### CallAssist16\n\n- Trợ lý cuộc gọi tích hợp hoàn hảo với giao diện gốc, mang đến các tính năng nâng cao mạnh mẽ cho ứng dụng Điện thoại mặc định trên iOS 16.\n- Hỗ trợ ghi âm cuộc gọi, bàn phím T9, hiển thị vùng miền, chặn cuộc gọi rác và nhiều tiện ích hệ thống khác.",
+"markdown":"### CallAssist16\n\n Trợ lý cuộc gọi tích hợp hoàn hảo với giao diện gốc, mang đến các tính năng nâng cao mạnh mẽ cho ứng dụng Điện thoại mặc định trên iOS 16.\n Hỗ trợ ghi âm cuộc gọi, bàn phím T9, hiển thị vùng miền, chặn cuộc gọi rác và nhiều tiện ích hệ thống khác.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
