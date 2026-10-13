@@ -106,7 +106,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12/10/2026",
+"text": "13/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -124,7 +124,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.2",
+"text": "1.0.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -178,7 +178,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.2\n- Thêm khoảng đệm nhỏ (padding) ở cạnh phải của thanh trạng thái.\n- Thêm biểu tượng cho mục cài đặt Gestures16 trong ứng dụng Cài đặt.",
+"markdown":"### Phiên bản 1.0.3\n- Sửa lỗi crash (Safe Mode) trên các thiết bị arm64e (như iPhone SE 2020) sau khi cài đặt tweak.",
 "useSpacing": true
 },
 {

@@ -25297,17 +25297,17 @@ Author: korboy <korboybeats@gmail.com>
 
 Package: com.siphonostb.gestures16
 Architecture: iphoneos-arm64
-Version: 1.0.2
+Version: 1.0.3
 Section: Tweaks
 Maintainer: Siphonostb
-Installed-Size: 396
+Installed-Size: 360
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
-Filename: ./debs/com.siphonostb.gestures16_1.0.2_iphoneos-arm64.deb
-Size: 21312
-MD5sum: f1d5c13971b2a16daad348f1c38095ad
-SHA1: 633c8107e04d37ad13a4277200061e12591e20cb
-SHA256: e7fe10605d452d2361edf8256047f1442728098bd119575c8552ee74e11664f4
-SHA512: dbbd5539bd86193422d177de252a20c06c3f29a6923e5afadc07d592356981e2d1422118a9bf191d2017a9adc0f72548848aa4202bf49f7a804fd75a28921829
+Filename: ./debs/com.siphonostb.gestures16_1.0.3_iphoneos-arm64.deb
+Size: 20744
+MD5sum: f575733c4dca3401a092dec81808a4c4
+SHA1: fffe2134ca03dfc7dd8ccc993ec51b13868f283d
+SHA256: 54fe37004157261032abab013d38283cecc0fc677f30a2bc49b08a3d8c527abb
+SHA512: d085a11599de65e1bf8b93cb46494600ee98559064a63959b69a1c8a3162c481da51c3e94d1afb9c3c2e58937e9c58327cb5903e2a24de90d6a1c86d4cf071dc
 Description: Hỗ trợ điều hướng bằng cử chỉ gốc cho nút Home trên iPhone chạy iOS 16.
 Name: Gestures16 (Rootless)
 Author: Siphonostb
@@ -25317,20 +25317,20 @@ Icon: https://jtisvn.github.io/sectionIcons/Gestures16.png
 
 Package: com.siphonostb.gestures16
 Architecture: iphoneos-arm64e
-Version: 1.0.2
+Version: 1.0.3
 Section: Tweaks
 Maintainer: Siphonostb
-Installed-Size: 396
+Installed-Size: 360
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
-Filename: ./debs/com.siphonostb.gestures16_1.0.2_iphoneos-arm64e.deb
-Size: 21352
-MD5sum: 91c2a42360ca42148d0e7d9b20aceefa
-SHA1: b4dfe330cff28f92be0687fb3f88f045304c6f19
-SHA256: 2f2fd463e7742c241a7455da5d77c69dcb77a7565558f7a7ec065a62a84b6657
-SHA512: f0d4bcae1501e85d72a512d75176dfc8cc771c3c86c07cbc537d759b09e63277ed874d210876508c770651fd2a7c6d899ae937c88f42baa0c5a4d43e01ef91ce
+Filename: ./debs/com.siphonostb.gestures16_1.0.3_iphoneos-arm64e.deb
+Size: 20132
+MD5sum: eed746e3f81129ff4b28ee1589022d48
+SHA1: 63e65ccd786eda978acb18974801b022bdf98d23
+SHA256: 6f67a59822660039b5ec99dba7aacb7a391f9a69841aaeab29526d2e80b34665
+SHA512: ccf46feeb1e7bc7f92fb18cd682ba7a03cf70323ec4144df374291526b86d58e7c7d5833d47887563e599689f51f9da9a16dd93c0b54d1f59d34eb76e2d5bd0f
 Description: Hỗ trợ điều hướng bằng cử chỉ gốc cho nút Home trên iPhone chạy iOS 16.
-Name: Gestures16 (Roothide)
+Name: Gestures16 (Roothidd)
 Author: Siphonostb
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gestures16.json
 Depiction: https://jtisvn.github.io/depictions/Gestures16.html
