@@ -22683,6 +22683,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/MilkyWayReborn.json
 Depiction: https://jtisvn.github.io/depictions/MilkyWayReborn.html
 Icon: https://jtisvn.github.io/sectionIcons/MilkyWayReborn.png
 
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 872
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/com.mlgm.prefnest_1.2_iphoneos-arm64.deb
+Size: 169988
+MD5sum: 62ad3ecaec1bb55dbf7b123e6599a678
+SHA1: bc9b74685bbb5901de6b410a456fca5061818ee7
+SHA256: 421b143109928459a7b95230de7fd547aac0cfeab2d1578259c99057d9eb2814
+SHA512: a71ce96e9a2ec33b0022eb2fe2043b38d79b3147b1b65d5534bb46d3db199d211b8a805646c93c90d286f793b0a684af1673cd2107593665e5c375bef78adb8e
+Description: Sắp xếp lại giao diện Cài đặt, gom nhóm tập trung các tweak jailbreak và ứng dụng. Đặc biệt trên các đời iOS mới (từ iOS 18+), khi các tùy chỉnh tweak hay bị giấu sâu trong Cài đặt chung, tweak này sẽ đưa tất cả ra thẳng màn hình chính của Cài đặt để thao tác cực kỳ tiện lợi.
+Name: PrefNest (Rootless)
+Author: mlgm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PrefNest.json
+Depiction: https://jtisvn.github.io/depictions/PrefNest.html
+Icon: https://jtisvn.github.io/sectionIcons/PrefNest.png
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 872
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
+Size: 166928
+MD5sum: 753ac3bd39f0403e8360b672f58a9c5f
+SHA1: 6a8aeb04dcd3ce542c90f6068ee61511095ece31
+SHA256: 0f84e0c87e815e5058c982115ad081abbd6968bf22e600f4e4c247c0949e5c00
+SHA512: 47600fbb02aa16800cf80842e83ce5c7b9f110742ed342d6ca2fd9ae80d4704e989621e5bce996eab571fc7b7707c73b22c0976f179952c1fd4cfa81e9ffc0ba
+Description: Sắp xếp lại giao diện Cài đặt, gom nhóm tập trung các tweak jailbreak và ứng dụng. Đặc biệt trên các đời iOS mới (từ iOS 18+), khi các tùy chỉnh tweak hay bị giấu sâu trong Cài đặt chung, tweak này sẽ đưa tất cả ra thẳng màn hình chính của Cài đặt để thao tác cực kỳ tiện lợi.
+Name: PrefNest (Roothide)
+Author: mlgm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PrefNest.json
+Depiction: https://jtisvn.github.io/depictions/PrefNest.html
+Icon: https://jtisvn.github.io/sectionIcons/PrefNest.png
+
 Package: com.mrgcgamer.libgcuniversal
 Architecture: iphoneos-arm64e
 Version: 1.7.0
