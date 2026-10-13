@@ -4087,47 +4087,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/EvoCenter.json
 Depiction: https://jtisvn.github.io/depictions/EvoCenter.html
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 
-Package: com.jitsvn.dockicon
-Architecture: iphoneos-arm64
-Version: 0.9.19
-Section: Tweaks
-Maintainer: hades
-Installed-Size: 1896
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
-Filename: ./debs/com.jitsvn.dockicon_0.9.19_iphoneos-arm64.deb
-Size: 406740
-MD5sum: f262e9dea66524b0e1a257f626205d4b
-SHA1: 644066d884008975f63af3a65dea41e30ec4a02b
-SHA256: 07f3d115164bf07a32482c60341682107135f0f0cc3c0ceee5ca1f387652df5e
-SHA512: 1af179ebb7f2a38e3e864fd055aa84335e4d10ba6d4e36b94857163a38bb9cc65eac8821af21b55de3cf66ad45a08d44058b4f9fdc2148ecbc91efae0561a4ad
-Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
-Name: DarkIcon (Rootless)
-Author: hades
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
-Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
-Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
-
-Package: com.jitsvn.dockicon
-Architecture: iphoneos-arm64e
-Version: 0.9.19
-Section: Tweaks
-Maintainer: hades
-Installed-Size: 1896
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
-Filename: ./debs/com.jitsvn.dockicon_0.9.19_iphoneos-arm64e.deb
-Size: 406712
-MD5sum: be047e4f665be3c7895ee0c1381b4802
-SHA1: d7142e93bed1efe23a9e9e934848043dc96db7d7
-SHA256: d32ae7b0f32c4c7a6587261351acd50a0fe3e602285acb8256505d4ba0f3c764
-SHA512: 3c836824f7104f73e462e21a8fc41a0d2176501f93c935b701ebf88a937f48fc8710c91a512b4fed622c1c0a448fbba6dde20a15f9efb45ea9af5645fe974d63
-Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
-Name: DarkIcon (Roothide)
-Author: hades
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
-Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
-Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
-
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64
 Version: 1.0.4.1k
@@ -19614,6 +19573,47 @@ Depiction: http://jtisvn.github.io/depiction/ClockTimeFont.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockTimeFont.json
 Icon: https://jtisvn.github.io/sectionIcons/ClockTimeFont.png
 
+Package: com.jtisvn.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.20
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1960
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Filename: ./debs/com.jtisvn.dockicon_0.9.20_iphoneos-arm64.deb
+Size: 430848
+MD5sum: 200b178e8150e7592c45daf050b6f33f
+SHA1: b5b414cffe66cd21abe5f457e1128fb0e8092f2c
+SHA256: b13dd6bc563ede312344e5aa17989347ea1bc75d64465e327d7e06780779238e
+SHA512: 5919f5822baedace2365f37b0083104a3d718e23723107ffeeb88866471ea0a368b92d1787d5af2bd9ccb6996f14bb4571cef13a0edc099ee26159b7041dfe6e
+Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
+Name: DarkIcon (Rootless)
+Author: hades
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
+Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
+
+Package: com.jtisvn.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.20
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1960
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Filename: ./debs/com.jtisvn.dockicon_0.9.20_iphoneos-arm64e.deb
+Size: 430388
+MD5sum: e2fd8067019e067eb96f7be8b637bd90
+SHA1: 4adc497f76accd6f8b8ae6c1e73aa576497b94ce
+SHA256: 650d012f14b1101a3732b597017ed1c588269fd66176c7f2bc6020a9268ce07e
+SHA512: 57d544b0b2f99232fd3128394f4bd42d714e60134e8a29ca0e63e57d156e3705f46623ec699e2e4b36ff8770239ef0f0723797a40360c7962457040c3b836645
+Description: Biểu tượng tối (Dark icons) hỗ trợ trên iOS 15-17 và tính năng làm mờ hình nền (wallpaper dimming) trên iOS 16-18.
+Name: DarkIcon (Roothide)
+Author: hades
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DarkIcon.json
+Depiction: https://jtisvn.github.io/depictions/DarkIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/DarkIcon.png
+
 Package: com.jtisvn.duocap
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -19954,6 +19954,49 @@ Author: Banana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
 Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
 Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: com.jtisvn.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0.1k
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/com.jtisvn.kayoko_5.0.1k_iphoneos-arm64.deb
+Size: 753280
+MD5sum: 657a11df65d816b496dafb088ef5b95b
+SHA1: 558f3bf45a67e9948a9c8378a97cebb82ef6a7bb
+SHA256: b5f2d615abef878a17f77056946170919a9c65f67c5cfac838235d9cc053616e
+SHA512: 30780f56e260c848723bd209ed7c2a272d80951a488798af0122c789363dc7cb480c93e6ea788b24ba69eef500fd6572a4579b44cf6730b4d4f0448bde1f1cec
+Description: Một trình quản lý clipboard nhiều tính năng, được sửa đổi từ Kayoko (một phiên bản đã được sửa đổi).
+Name: Kayoko (Rootless)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko2.json
+
+Package: com.jtisvn.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0.1k
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3516
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/com.jtisvn.kayoko_5.0.1k_iphoneos-arm64e.deb
+Size: 741264
+MD5sum: 9a899c6e4679b40434e5e42b79fd7946
+SHA1: c450d6a591cde667593c9001d6cbe5297577fbab
+SHA256: 8767ccc1f513c819ecf2aba3b6348be192e8a2470c78f3a1f56f800ecbed082b
+SHA512: 907c43356f0560aa4e320be819c63e6f7bb9db64b459f74cc3c3602c0a6bac0b6e0979056960b908f26458ec60212d386a984c86864a9e2f7798821d3050eec9
+Description: Một trình quản lý clipboard nhiều tính năng, được sửa đổi từ Kayoko (một phiên bản đã được sửa đổi).
+Name: Kayoko (Roothide)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko2.json
 
 Package: com.jtisvn.kinewall
 Architecture: iphoneos-arm64
@@ -25267,6 +25310,27 @@ SHA256: e7fe10605d452d2361edf8256047f1442728098bd119575c8552ee74e11664f4
 SHA512: dbbd5539bd86193422d177de252a20c06c3f29a6923e5afadc07d592356981e2d1422118a9bf191d2017a9adc0f72548848aa4202bf49f7a804fd75a28921829
 Description: Hỗ trợ điều hướng bằng cử chỉ gốc cho nút Home trên iPhone chạy iOS 16.
 Name: Gestures16 (Rootless)
+Author: Siphonostb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gestures16.json
+Depiction: https://jtisvn.github.io/depictions/Gestures16.html
+Icon: https://jtisvn.github.io/sectionIcons/Gestures16.png
+
+Package: com.siphonostb.gestures16
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Siphonostb
+Installed-Size: 396
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: ./debs/com.siphonostb.gestures16_1.0.2_iphoneos-arm64e.deb
+Size: 21352
+MD5sum: 91c2a42360ca42148d0e7d9b20aceefa
+SHA1: b4dfe330cff28f92be0687fb3f88f045304c6f19
+SHA256: 2f2fd463e7742c241a7455da5d77c69dcb77a7565558f7a7ec065a62a84b6657
+SHA512: f0d4bcae1501e85d72a512d75176dfc8cc771c3c86c07cbc537d759b09e63277ed874d210876508c770651fd2a7c6d899ae937c88f42baa0c5a4d43e01ef91ce
+Description: Hỗ trợ điều hướng bằng cử chỉ gốc cho nút Home trên iPhone chạy iOS 16.
+Name: Gestures16 (Roothide)
 Author: Siphonostb
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gestures16.json
 Depiction: https://jtisvn.github.io/depictions/Gestures16.html

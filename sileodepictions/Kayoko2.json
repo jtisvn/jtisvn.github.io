@@ -1,0 +1,245 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#71717A",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### Kayoko\n\n Trình quản lý bộ nhớ tạm (Clipboard Manager) cực kỳ giàu tính năng và mạnh mẽ cho thiết bị iOS, được phát triển và cải tiến dựa trên nền tảng Kayoko gốc.\n Mang đến trải nghiệm lưu trữ, tìm kiếm và thao tác với clipboard mượt mà, chuyên nghiệp ngay trên giao diện gốc.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Kayoko2/Screenshots/1.png",
+"accessibilityText":"Screenshot 1"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Kayoko2/Screenshots/2.png",
+"accessibilityText":"Screenshot 2"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Kayoko2/Screenshots/3.png",
+"accessibilityText":"Screenshot 3"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Kayoko2/Screenshots/4.png",
+"accessibilityText":"Screenshot 4"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Kayoko2/Screenshots/5.png",
+"accessibilityText":"Screenshot 5"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Kayoko2/Screenshots/6.png",
+"accessibilityText":"Screenshot 6"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Quản lý bộ nhớ tạm thông minh:** Lưu trữ văn bản và hình ảnh với giới hạn lịch sử lên đến 5000 mục, hỗ trợ quản lý thẻ danh mục, thẻ tùy chỉnh và thẻ ứng dụng khoa học.\n- **Phương thức kích hoạt đa dạng:** Dễ dàng gọi bảng quản lý qua Thanh dự đoán, Phím đọc chính tả, Menu chỉnh sửa, vuốt lên bằng một ngón tay hoặc phím tắt bàn phím ngoài (`⌘⇧V`).\n- **Tùy biến hiển thị phong phú:** Hỗ trợ hiển thị từ 1 đến 3 dòng, tùy chỉnh chiều cao, xem chi tiết thời gian/dung lượng và sắp xếp thứ tự các hàng thẻ linh hoạt.\n- **Hành vi thông minh & Tiện ích:** Tích hợp tính năng Tự động dán, chạm ra ngoài để ẩn, vuốt để chọn từ, tự động đưa mục thường dùng lên đầu danh sách.\n- **Phản hồi xúc giác & Âm thanh:** Hỗ trợ phát hiệu ứng âm thanh và phản hồi haptic sinh động khi tương tác.\n- **Công cụ nâng cao & Bảo trì:** Cho phép bỏ qua bộ nhớ tạm chung Continuity, kiểm tra thư mục dữ liệu, đặt lại bộ nhớ đệm hình thu nhỏ, đồng thời hỗ trợ nhập trực tiếp dữ liệu từ các tweak khác như CopyLog và CopyVault.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "mlgm",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "13/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "5.0.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.4 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 5.0.1k\n- Thêm ngôn ngữ Tiếng Việt\n- Khắc phục một số lỗi đã biết[span_1](start_span)[span_1](end_span).",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

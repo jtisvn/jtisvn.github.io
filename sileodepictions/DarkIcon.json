@@ -106,7 +106,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12/10/2026",
+"text": "13/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -124,7 +124,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.9.19",
+"text": "0.9.20",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -178,7 +178,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.9.19\n- Cải thiện tính năng nhập gói icon kích thước lớn, tăng giới hạn file ZIP và giảm bớt thao tác lặp lại.\n- Bỏ qua các hình ảnh không có ánh xạ ứng dụng, nhập bình thường các icon còn lại.",
+"markdown":"### Phiên bản 0.9.20\n- Thêm tính năng nhập gói icon và icon đơn lẻ trên iOS 18, 26 và 27, đồng thời giữ nguyên bảng tùy chỉnh Màn hình chính nguyên bản.\n- Cải thiện việc chuyển đổi kiểu icon, thu nhỏ thư mục, biểu tượng động của Đồng hồ và Lịch trên hệ thống mới.\n- Sử dụng cơ chế dự phòng nguyên bản hoặc thuật toán tùy phiên bản hệ thống, ưu tiên nhập icon lẻ và bảo toàn cache cùng hình ảnh hiện có.",
 "useSpacing": true
 },
 {
