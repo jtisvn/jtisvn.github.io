@@ -1,0 +1,225 @@
+{
+"minVersion":"0.3",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#0EA5E9",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown":"### FrostBoard\n\n Công cụ tùy biến biểu tượng (Icon Theme) mạnh mẽ dành cho iOS 15 trở lên, được phát triển như một giải pháp thay thế hoàn hảo khi SnowBoard chưa được cập nhật cho iOS 18 trở lên.\n Tận dụng trực tiếp các bộ giao diện có sẵn của bạn (SnowBoard, Anemone, WinterBoard) mà không cần cài đặt các ứng dụng quản lý theme cồng kềnh.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jond-ie.github.io/repo/screenshots/frostboard/0-home-ios18.png",
+"accessibilityText":"Screenshot 1"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{900,900}"
+},
+{
+"markdown":"- **Tính năng nổi bật:**\n\n- **Áp dụng toàn diện:** Thay đổi icon ở mọi nơi hệ thống hiển thị: Màn hình chính, Thanh Dock, Thư mục, Thư viện ứng dụng, Spotlight, Cài đặt, Bảng chia sẻ, Trình chuyển đổi ứng dụng và hiệu ứng mở/đóng ứng dụng.\n- **Đồng hồ & Lịch trực tiếp (Live Clock & Calendar):** Hỗ trợ icon đồng hồ quay theo thời gian thực và hiển thị đúng ngày hôm nay từ bộ theme.\n- **Tùy chỉnh icon linh hoạt:** Tự do chọn bất kỳ icon nào cho bất kỳ ứng dụng nào từ tất cả các bộ theme đã cài, kể cả các icon thay thế hoặc theme đang tắt.\n- **Quản lý thứ tự theme:** Dễ dàng bật/tắt và kéo thả sắp xếp ưu tiên các bộ theme (theme nằm trên sẽ được ưu tiên áp dụng).\n- **Cài đặt theme từ file .deb:** Hỗ trợ cài đặt mọi gói theme, kể cả các theme cũ chỉ dành cho rootful jailbreak. FrostBoard sẽ tự động chuyển đổi sang định dạng rootless và mở trực tiếp trong trình quản lý gói.\n- **Áp dụng tức thì:** Mọi thay đổi có hiệu lực ngay lập tức mà không cần Respring thiết bị.\n\n> ⚠️ **Lưu ý quan trọng:** Nên gỡ bỏ **SnowBoard** trước khi cài đặt FrostBoard để tránh xung đột hệ thống trên các phiên bản iOS mới.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "John d_ie",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.0.1~beta2",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 18.x",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 0.0.1~beta2\n- Hỗ trợ người dùng iOS mới cài đặt và trải nghiệm.\n- Bản beta công khai đầu tiên là phiên bản 0.0.1~beta1.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

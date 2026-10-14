@@ -130,7 +130,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "09/10/2026",
+"text": "14/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -148,7 +148,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.4.1",
+"text": "1.5.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -202,7 +202,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.4.1\n- Cập nhật theo bản gốc ổn định, thêm tùy chọn gán lại thao tác cho nút bấm (thay thế chức năng mặc định).\n- Hỗ trợ iOS 15 - 18, build lại file cài đặt cho cả hai kiến trúc arm64 (rootless) và arm64e (roothide)."
+"markdown":"### Phiên bản 1.5.0\n- Nút nguồn/cạnh bên + Âm lượng: Kết hợp bấm hoặc giữ nút nguồn với phím Âm lượng để tạo 4 trigger mới (thay thế chụp màn hình trên Face ID, giữ để hiện bảng tắt nguồn/SOS).\n- Cạnh màn hình: Trượt vào từ cạnh trái/phải, hỗ trợ hai ngón tay như Activator giúp giữ nguyên cử chỉ vuốt quay lại của app.\n- Cuộc gọi: Hỗ trợ trạng thái cuộc gọi đến, nhấc máy, gọi đi và kết thúc cho Điện thoại, FaceTime và các app gọi thoại khác.\n- Nhạc: Phát, tạm dừng, dừng và đổi bài hát cho mọi app trong Đang phát (Now Playing).\n- Bổ sung thông báo, lịch trình hàng tuần theo ngày chọn và Tăng/Giảm độ sáng theo bước tùy chỉnh.\n- Sửa lỗi: Lệnh Respring hoặc Safe Mode qua phím Tăng âm lượng sẽ chờ đến khi bạn thả nút ra, tránh việc vô tình kẹt vào Safe Mode."
 },
 {
 "spacing": 15,

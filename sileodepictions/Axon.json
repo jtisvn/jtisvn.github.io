@@ -41,7 +41,7 @@
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- Gom thông báo: Tự động nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n\n- Tương tác nhanh: Chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n\n- Tuỳ chỉnh: Cho phép điều chỉnh vị trí và giao diện của các biểu tượng phù hợp theo sở thích của bạn.",
+"markdown": "- **Tính năng nổi bật:**\n\n- Tự động gpm nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n\n- Tương tác nhanh chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n\n- Cho phép điều chỉnh vị trí và kiểu giao diện của các biểu tượng phù hợp theo sở thích của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -76,7 +76,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Nepeta & Kitsudo",
+"text": "Nepeta, daodao & Kitsudo",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -120,7 +120,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.6",
+"text": "2.5.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -174,7 +174,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.6\n\n- Thêm chuyển đổi Respring ngay lập tức khi chọn kiểu\n\n- Sửa lỗi và tối ưu hoá thông báo\n\n- Thêm ngôn ngữ Tiếng Việt."
+"markdown": "### Phiên bản 2.5.3\n\n- Thêm chuyển đổi Respring ngay lập tức khi chọn kiểu\n\n- Sửa lỗi và tối ưu hoá xoá thông báo\n\n- Thêm ngôn ngữ Tiếng Việt."
 }
 ],
 "class": "DepictionStackView"

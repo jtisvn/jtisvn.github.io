@@ -4087,19 +4087,62 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/EvoCenter.json
 Depiction: https://jtisvn.github.io/depictions/EvoCenter.html
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 
-Package: com.johndie.triggr
+Package: com.johndie.frostboard
 Architecture: iphoneos-arm64
-Version: 1.0.4.1k
+Version: 0.0.1~beta2
 Section: Tweaks
 Maintainer: John d_ie
-Installed-Size: 1628
+Installed-Size: 596
+Provides: com.spark.snowboard (= 1.5.99), com.anemonetheming.anemone (= 3.0.99), com.anemonetheming.anemone3 (= 3.0.99), com.saurik.winterboard (= 0.9.99), winterboard (= 0.9.99), com.artikus.neonboard (= 1.0.99), net.dodtweaks.ithemer (= 1.0.99)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.johndie.frostboard_0.0.1~beta2_iphoneos-arm64.deb
+Size: 78524
+MD5sum: ad31deba88f0f3f6be791fa757f9d190
+SHA1: 46dcc669552af193efafd77ed04dfa28d57c1e9f
+SHA256: 4783e87f64272f5aa034bda289bb613fe3304a1a184fc182b475d2d0f3d0c6fb
+SHA512: cb951171dee5f0a3655f381f7de55f92a38be512e11d4c8801a435572eac3f837fd8dd3ae6fd2d7aca0bcb4b0eb81132e0bbe5a3ba6c41bfcd5696e55a118459
+Description: Ứng dụng tùy chỉnh biểu tượng cho iOS 15 trở lên (chưa thử nghiệm iOS 26). Sử dụng các chủ đề biểu tượng SnowBoard, Anemone và WinterBoard và cài đặt chúng mà không cần trình quản lý chủ đề. Tùy chỉnh biểu tượng ứng dụng ở mọi nơi iOS hiển thị (Màn hình chính, Dock, thư mục, Thư viện ứng dụng, Spotlight, Cài đặt, trình chuyển đổi, mở/đóng), cộng thêm Đồng hồ và Lịch được tùy chỉnh, cũng như Màn hình chính tối và có màu. Chọn bất kỳ biểu tượng nào từ bất kỳ chủ đề nào đã cài đặt cho bất kỳ ứng dụng nào và thiết lập chủ đề nào được ưu tiên.
+Name: FrostBoard (Rootless)
+Author: John d_ie
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FrostBoard.json
+Depiction: https://jtisvn.github.io/depictions/FrostBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/FrostBoard.png
+
+Package: com.johndie.frostboard
+Architecture: iphoneos-arm64e
+Version: 0.0.1~beta2
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 596
+Provides: com.spark.snowboard (= 1.5.99), com.anemonetheming.anemone (= 3.0.99), com.anemonetheming.anemone3 (= 3.0.99), com.saurik.winterboard (= 0.9.99), winterboard (= 0.9.99), com.artikus.neonboard (= 1.0.99), net.dodtweaks.ithemer (= 1.0.99)
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.johndie.frostboard_0.0.1~beta2_iphoneos-arm64e.deb
+Size: 78572
+MD5sum: 38411574bc249690f3f0059b2d0dd4ad
+SHA1: bf52d6839a52022dea739e0e28d6550c49f1d0b0
+SHA256: dd81192e7cf8df3b06615e6e0f462db6a745af4a3859ed8e5fc6a78ff1e65bef
+SHA512: 222016fddb095dd1631e8980e9a2cf2d6633e482da5e429371020d18bc69a25bbf4e06cad352659ebe77cdf20cebb947829f62e3e13a244c328226c4ee8d2db6
+Description: Ứng dụng tùy chỉnh biểu tượng cho iOS 15 trở lên (chưa thử nghiệm iOS 26). Sử dụng các chủ đề biểu tượng SnowBoard, Anemone và WinterBoard và cài đặt chúng mà không cần trình quản lý chủ đề. Tùy chỉnh biểu tượng ứng dụng ở mọi nơi iOS hiển thị (Màn hình chính, Dock, thư mục, Thư viện ứng dụng, Spotlight, Cài đặt, trình chuyển đổi, mở/đóng), cộng thêm Đồng hồ và Lịch được tùy chỉnh, cũng như Màn hình chính tối và có màu. Chọn bất kỳ biểu tượng nào từ bất kỳ chủ đề nào đã cài đặt cho bất kỳ ứng dụng nào và thiết lập chủ đề nào được ưu tiên.
+Name: FrostBoard (Roothide)
+Author: John d_ie
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FrostBoard.json
+Depiction: https://jtisvn.github.io/depictions/FrostBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/FrostBoard.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64
+Version: 1.5.0
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 1644
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
-Filename: ./debs/com.johndie.triggr_1.0.4.1k_iphoneos-arm64.deb
-Size: 217412
-MD5sum: 7db7b11fea9b9c0e090a317d464c155f
-SHA1: 0f6ec53706479a74e0e6ecfef4f24580757b25bd
-SHA256: bda59c8d4585c965ea50a72f6399480245b12e6bdcee6f1eca70b3301c499414
-SHA512: e7601366bd63ac9d42e130e86c359c30f61652fab4f95572c753a62ab0b8270e41f8c29b423c7c49f1a9a55beeeaf29c8f27538a4fba553baa1f7d08566ee047
+Filename: ./debs/com.johndie.triggr_1.5.0_iphoneos-arm64.deb
+Size: 198944
+MD5sum: 8180ac6894f74e9e49b00f94b058cd4f
+SHA1: 07bda2a4a670fdd6b92c10e2f3e06e4d43e95c52
+SHA256: 9649c8777d035c8399628e94893249bbd5fec936cb95b038a2cda8920b6f2e04
+SHA512: 07fde23b0f8ca045b1cf8d601aba86b6942104eb753ae75a8dd02b1d65d725cdb1b117b603bdcd6f3d78ec745e62016548801826a615c3be0994d78afc0a32ee
 Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
 Name: Triggr (Rootless)
 Author: John d_ie
@@ -4109,20 +4152,20 @@ Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
 
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64e
-Version: 1.0.4.1k
+Version: 1.5.0
 Section: Tweaks
 Maintainer: John d_ie
-Installed-Size: 1628
+Installed-Size: 1644
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
-Filename: ./debs/com.johndie.triggr_1.0.4.1k_iphoneos-arm64e.deb
-Size: 216500
-MD5sum: 1ead6160d55ddfb4ebd1009121ed76a7
-SHA1: c44ea0023738d476725b4d32019ad5040a8350cd
-SHA256: d12ef85528a157d241e4a01480a10fc68ac34611c0301eeafa6a0e3b82a851a9
-SHA512: 752dfa5b7fbc391021482b109ad99d8217bbf07276a6fd8417555796e104c019cad4dc29d830e7ed08af82c30c5d3dc155687b0a861a44d292530cd0b9ea95ad
+Filename: ./debs/com.johndie.triggr_1.5.0_iphoneos-arm64e.deb
+Size: 198600
+MD5sum: b9f5f20125d49838f211b6cfa2321546
+SHA1: f4294e293f850994c5959342f7a00894d5cdf447
+SHA256: b01d2fc9eda089ed4e2331bc9ef6493e79738e6f2affd7020d1b8aa33f6a7533
+SHA512: c66344ccda8a4486e17d4d88979d54c5a1332eda7353fa5617ed5aa8b17add12d5bd0c2566f46fd8810414c32f7a9602d444d06abcb5abd4a80b1e207cb73ac3
 Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
-Name: Triggr (Roothide)
+Name: Triggr (Roôthide)
 Author: John d_ie
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
 Depiction: https://jtisvn.github.io/depictions/Triggr.html
@@ -7107,6 +7150,49 @@ SHA512: f947cc524e7bc893bfef6b49170f560650768a6837e833e5bee6896846bc481f12d6509d
 Description: Gom nhóm và quản lý thông báo gọn gàng trên màn hình khóa cho iOS.
 Name: Axon (Roothide)
 Author: Nepeta & Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
+Depiction: https://jtisvn.github.io/depictions/Axon.html
+Icon: https://jtisvn.github.io/sectionIcons/Axon.png
+
+Package: com.jtis.axon
+Architecture: iphoneos-arm64
+Version: 2.5.3k
+Section: Tweaks
+Maintainer: 刀刀
+Installed-Size: 688
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon
+Filename: ./debs/com.jtis.axon_2.5.3k_iphoneos-arm64.deb
+Size: 157980
+MD5sum: fb1ec73a2fa0078b33b9905908a2a3b9
+SHA1: 54c74f17d6d54c871781f70f863bb312ac549aa4
+SHA256: edb9641ec8b183ee7160a20145fcbf00b8b7a39080dabbfaac1e4b8e78ad63d9
+SHA512: 8c2a671070e3abb3ca6e97b2e20c33f72e275c4a1359913b90fb1f7c257868335dbcc7119dd76192e762c59ae9b0dd9b33727a1ee5253bbae0849c04833aed06
+Description: Gom nhóm và quản lý thông báo gọn gàng trên Màn hình khóa iOS.
+Name: Axon (Rootless)
+Author: Nepeta & daodao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
+Depiction: https://jtisvn.github.io/depictions/Axon.html
+Icon: https://jtisvn.github.io/sectionIcons/Axon.png
+
+Package: com.jtis.axon
+Architecture: iphoneos-arm64e
+Version: 2.5.3k
+Section: Tweaks
+Maintainer: 刀刀
+Installed-Size: 688
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon
+Filename: ./debs/com.jtis.axon_2.5.3k_iphoneos-arm64e.deb
+Size: 155648
+MD5sum: da6689afad9ab3d3b291790bdc0c8016
+SHA1: 80696bffc45b06a39bd9a464be19bfadaede5b16
+SHA256: a0cb55ed644ba9890b8146598f6e4a4cc8f71def100a901f2b871e2ae1c55cb3
+SHA512: 7759ae4095f64f393a4a3137784afcc729155d27f8e264c77c867933604bfc8554ee7175e99bbe2205c98a7174256dffd47edc95ea27fb152f8ac083e2b50623
+Description: Gom nhóm và quản lý thông báo gọn gàng trên Màn hình khóa iOS.
+Name: Axon (Roothide)
+Author: Nepeta & daodao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
 Depiction: https://jtisvn.github.io/depictions/Axon.html
 Icon: https://jtisvn.github.io/sectionIcons/Axon.png
@@ -11225,26 +11311,6 @@ Author: Ethan Whited
 depiction: https://havoc.app/depiction/gesturesxv
 Icon: https://jtisvn.github.io/sectionIcons/GesturesXV.png
 
-Package: com.jtis.gesturesxv
-Architecture: iphoneos-arm64e
-Version: 1.6
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 2756
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.jtis.gesturesxv_1.6_iphoneos-arm64e.deb
-Size: 2160152
-MD5sum: e5a1d40893be4bee7b2b17c87f771d98
-SHA1: 1ae1311c75e76e72d724b07f942d0027bc6f9237
-SHA256: 50331dd081e943c9ffd9e2ba0fc21f8bc933b3a2d5876154781306f362b890f1
-SHA512: 2d488315c2e8faa3b8745389901a9378d2b191d0b76a24ac1768af5aa4feba650b86a488320a6e72338cf93d3cdcb906c4acfb36e5df1c5bc9dbcb3d0b06f553
-Description: Mang thao tác vuốt của iPhone X lên các dòng iPhone đời cũ chạy iOS 15.
-Name: GesturesXV (Roothide)
-Author: Ethan Whited
-depiction: https://havoc.app/depiction/gesturesxv
-Icon: https://jtisvn.github.io/sectionIcons/GesturesXV.png
-
 Package: com.jtis.githubpro
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -11650,42 +11716,6 @@ SHA512: db7d5b9fd281b6815390754489683fd1e770c734921465d8b53f8b2e2c561d5b57581cfd
 Description: This module provides the Cydia Substrate API for HookKit Framework.
 Name: HookKit Module (Cydia Substrate)
 Author: jjolano
-
-Package: com.jtis.homegesture1316
-Architecture: iphoneos-arm64
-Version: 0.0.1-7
-Section: Tweaks
-Maintainer: JTISVN Repo
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.homegesture1316_0.0.1-7_ iphoneos-arm64.deb
-Size: 44700
-MD5sum: 126d650d60100c165554060e2d204e44
-SHA1: 889c01767c5424e88818e7463312da622984bcf2
-SHA256: d5a7b500ac36314181192edd1bcccca1dfffdb96eb6ec5ab1008ab63826df1ae
-SHA512: 462fd8aa116780f4085b0ba44bc74e92dcffcc6392d4f76c1915b005bb1751fe71e6c31642355b09c99e30d419fcff9eec4b79aa33bc642fe76a7e894d3f0039
-Description: Mang các cử chỉ vuốt (Home gestures) lên các thiết bị đời cũ và các dòng máy không có tai thỏ (như SE). Vuốt lên để mở Đa nhiệm (App Switcher) và mở khoá máy, vuốt xuống từ góc trên màn hình để mở Trung tâm điều khiển (Control Center). Không cần dùng đến nút Home nữa! Hỗ trợ các bản Jailbreak Rootless & Roothide iOS 13-16.
-Name: HomeGesture13116 (Rootless)
-Author: i0s_tweak3r
-Sponsor: 搬运工
-Icon: https://jtisvn.github.io/sectionIcons/HomeGesture1315.png
-
-Package: com.jtis.homegesture1316
-Architecture: iphoneos-arm64e
-Version: 0.0.1-7
-Section: Tweaks
-Maintainer: i0s_tweak3r <djvs23@gmail.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.homegesture1316_0.0.1-7_iphoneos-arm64e.deb
-Size: 44800
-MD5sum: baa490e8f51b9f55e2fc38b96346e4ed
-SHA1: 967e8f0b364b9a0157c305708eb099efd624391b
-SHA256: 506129e625ab5ed3565b52d0a418516b465637ae263e85bbf6b43f546ba09a22
-SHA512: 285a36e2a850a3087ad2e19ffff79a10698dbc67eb75ea41b18faf443200719d86e5564f096b6d558ed49dd30f62ffdffcddccc12095826aea735262c4df0495
-Description: Mang các cử chỉ vuốt (Home gestures) lên các thiết bị đời cũ và các dòng máy không có tai thỏ (như SE). Vuốt lên để mở Đa nhiệm (App Switcher) và mở khoá máy, vuốt xuống từ góc trên màn hình để mở Trung tâm điều khiển (Control Center). Không cần dùng đến nút Home nữa! Hỗ trợ các bản Jailbreak Rootless & Roothide iOS 13-16.
-Name: HomeGesture1316 (Roothide)
-Author: i0s_tweak3r <djvs23@icloud.com>
-Icon: https://jtisvn.github.io/sectionIcons/HomeGesture1315.png
 
 Package: com.jtis.horizontalsliders
 Architecture: iphoneos-arm64
@@ -17691,6 +17721,24 @@ Author: Hoang MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Translucent.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.transilucent
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.transilucent_1.0_iphoneos-arm64e.deb
+Size: 315194
+MD5sum: 3a31fb5904280b349ffc7b52beb63f6a
+SHA1: 0dfedc06ab5f75cab4f9289c5af850669c0f35f2
+SHA256: 8eb1e6e12fb2d6bd042384ebc9d018bbfd92ace6995fd8b4f23fd08451bf3757
+SHA512: 428e54b47bbbff71414f4d71f104f6af3a35c488d8df629a4d32d636e41bcd4a43ae075c836f6293aa53467e2cd744f5d95232e33590c24cbeab489fb75adec7
+Description: Chủ đề Translucent cho Cài đặt.
+Name: Settings Translucent
+Author: Hoang MD
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Translucent.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+ Pre-Depends: rootless-compat(>= 0.9)
+
 Package: com.jtis.trapp.jb
 Architecture: iphoneos-arm64
 Version: 2.10-499
@@ -19957,20 +20005,20 @@ Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
 
 Package: com.jtisvn.kayoko
 Architecture: iphoneos-arm64
-Version: 5.0.1k
+Version: 5.0.2
 Section: Tweaks
 Maintainer: mlgm
 Installed-Size: 3516
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: ./debs/com.jtisvn.kayoko_5.0.1k_iphoneos-arm64.deb
-Size: 753280
-MD5sum: 657a11df65d816b496dafb088ef5b95b
-SHA1: 558f3bf45a67e9948a9c8378a97cebb82ef6a7bb
-SHA256: b5f2d615abef878a17f77056946170919a9c65f67c5cfac838235d9cc053616e
-SHA512: 30780f56e260c848723bd209ed7c2a272d80951a488798af0122c789363dc7cb480c93e6ea788b24ba69eef500fd6572a4579b44cf6730b4d4f0448bde1f1cec
-Description: Một trình quản lý clipboard nhiều tính năng, được sửa đổi từ Kayoko (một phiên bản đã được sửa đổi).
+Filename: ./debs/com.jtisvn.kayoko_5.0.2_iphoneos-arm64.deb
+Size: 754072
+MD5sum: 95d35e800f415ded94f0cbc395097321
+SHA1: 49ad91ec6a17cfca1a91c306ec9d5d96a6df0ce8
+SHA256: f30c559fec1ffbab17fee136e62b47e4823a30b716153855b85adfd211aa8be3
+SHA512: c074f5a0eb972b3b1046cd7883aa6ace9e3517acff6d9d4ca07f20bd46205e32c6290ac2490b0910430ec425276e8e0cf9416873749cf2dce92bf761343164a2
+Description: Trình quản lý clipboard nhiều tính năng, được sửa đổi từ Kayoko (một phiên bản đã được sửa đổi).
 Name: Kayoko (Rootless)
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
@@ -19978,7 +20026,7 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko2.json
 
 Package: com.jtisvn.kayoko
 Architecture: iphoneos-arm64e
-Version: 5.0.1k
+Version: 5.0.2
 Section: Tweaks
 Maintainer: mlgm
 Installed-Size: 3516
@@ -19986,13 +20034,13 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: ./debs/com.jtisvn.kayoko_5.0.1k_iphoneos-arm64e.deb
-Size: 741264
-MD5sum: 9a899c6e4679b40434e5e42b79fd7946
-SHA1: c450d6a591cde667593c9001d6cbe5297577fbab
-SHA256: 8767ccc1f513c819ecf2aba3b6348be192e8a2470c78f3a1f56f800ecbed082b
-SHA512: 907c43356f0560aa4e320be819c63e6f7bb9db64b459f74cc3c3602c0a6bac0b6e0979056960b908f26458ec60212d386a984c86864a9e2f7798821d3050eec9
-Description: Một trình quản lý clipboard nhiều tính năng, được sửa đổi từ Kayoko (một phiên bản đã được sửa đổi).
+Filename: ./debs/com.jtisvn.kayoko_5.0.2_iphoneos-arm64e.deb
+Size: 739664
+MD5sum: 288ce418a1687284d24dd861fe73347f
+SHA1: 233018846287bb35f5c1ba2a0108a0fabe173b69
+SHA256: 7724eb8d9ceb4cf95990f1c08cfdee7d2d4253f1ed6b1c322fd9b5367ddcfadd
+SHA512: bbf37607c41f379ea9acfbb8c59907e13e7ee455cf9126732f454d5fcf06e268d7dab787431dfda8e63e859b1ea88f1efce5e697f775f97acca829995aeafe73
+Description: Trình quản lý clipboard nhiều tính năng, được sửa đổi từ Kayoko (một phiên bản đã được sửa đổi).
 Name: Kayoko (Roothide)
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
@@ -21788,6 +21836,45 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/FixStatusBarRdar.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.kitsudo.frostboardvh
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.frostboardvh_0.0.1_iphoneos-arm64.deb
+Size: 8252
+MD5sum: e77c491ece38de238f0e0f0224c0cb7d
+SHA1: adfb1970c86b2c71fbdd737b4ad2852d02f72ed2
+SHA256: 8c43c10fd37825198978e56c7b024093573eb3bca6cd1f9fccd1b9c61885f40c
+SHA512: dc3eab0cc73906fc46a7017b6ac82cb5854c94a95b1fd3ebf3635b42c0bfe32a999688a2170604aa07c4ea31a751244a2da902d9e45878924da8972d32c5afec
+Description: Thêm ngôn ngữ Việt Nam trong cài đặt tweak FrostBoard
+Name: FrostBoard gói Việt Hoá (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FrostBoardVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.frostboardvh
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.frostboardvh_0.0.1_iphoneos-arm64e.deb
+Size: 8044
+MD5sum: d917d1f31260e32c05878ab312886de4
+SHA1: e64bd25f3448397437451c7070633e4263f2041e
+SHA256: 027be71121c3bb12d7c9d512959523d646de40d03a15676b32b930f32e765cf3
+SHA512: 5325dac176f3f8dbebba1b33eaef234ef515583bfbac5dd2a1c2231b3102241a260637ce6232b26d1f6cba130f026b1505aeb51616e201617e0e2ea2ff7683c4
+Description: Thêm ngôn ngữ Việt Nam trong cài đặt tweak FrostBoard
+Name: FrostBoard gói Việt Hoá (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FrostBoardVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.kitsudo.hidesnviethoa
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -22079,45 +22166,6 @@ Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
-Package: com.kitsudo.rovh
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Tweaks
-Maintainer: Kitsudo
-Installed-Size: 352
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.rovh_1.0_iphoneos-arm64.deb
-Size: 29724
-MD5sum: cecf0fdccf100a5f874549e309b77099
-SHA1: 06c6f40b197629d097c8f8c0f291f80a46a38b3c
-SHA256: 9bccee4d946d9bb682e2a712b903b5545e66dae20cdf837379ef22a6a7de4217
-SHA512: 98a73f1c1478a3c3666e74980dc811078401425f731b1cab350a95638f1a7c6da1e1359d4ce79a61bbaa2ddb3d66fa504eddcad08d764871e4a0712f7c8df1f4
-Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak o2Pro
-Name: o2Pro gói Việt Hoá (Rootless)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/o2ProVh.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.rovh
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: Kitsudo
-Installed-Size: 352
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.rovh_1.0_iphoneos-arm64e.deb
-Size: 29988
-MD5sum: 1445ce8ed705366d4264f9c7c712b645
-SHA1: b19de814d5905ade3b82f8c667e644e5a0067a73
-SHA256: 10866df56b342d8a009089ac87b040663511c4d96844c403ab783ee1c2a44fab
-SHA512: 01c4449df2aa68e4d770abc656b29345f792ae27c2c63f8dea05e3c92c681208701ca3994b8ea257989fe13f2c1fcf8787a610a6632dedd1ab24a098db260041
-Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak o2Pro
-Name: o2Pro gói Việt Hoá (Roothide)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/o2ProVh.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
 Package: com.kitsudo.tiktokautoswipe
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -22235,6 +22283,47 @@ Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
 Name: TransAlT (Roothide)
 Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TransAlT.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.triggrvh
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 264
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.triggrvh_1.0.1_iphoneos-arm64.deb
+Size: 24596
+MD5sum: 61c9d98c1025170654748b1e8db819ef
+SHA1: 432b5ef33d3fbc41f336850d58a75d6463cb52ea
+SHA256: 3e710cc27e742bf9f52b05afe89cd7cd6c8f0b3938e68a9fa32cec25ec21a76e
+SHA512: 1b87acdf8625a3624a1386649421458f353ddfe4801da3960dd3e2e51a0298358d8ec96ab859c4ac83d7cd1cd3c85cb5c62de304ea94127c196399183c654993
+Description: Thêm ngôn ngữ Tiếng Việt trong giao diện cài đặt và ứng dụng Triggr
+Name: Triggr gói Việt Hoá (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TriggrVH.json
+Depiction: https://jtisvn.github.io/depictions/TriggrVH.html
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.triggrvh
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 264
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.triggrvh_1.0.1_iphoneos-arm64e.deb
+Size: 23660
+MD5sum: df865ca10bf704c4f4462a76c8319fe2
+SHA1: dcedf6207e8201560c4abb96487c4ec9e3016ee6
+SHA256: 9868bbe232deff4e16b49a5024901d3930bb0160157e889bd244f514bdea9d6f
+SHA512: 98f47148b094cb47858f6b3c30a773c3e206dbb4b7261fb64c1549e29c73b81ab8cb4041e7991605cb653deb949d8112263e51bc22976de64b8983a202722d38
+Description: Thêm ngôn ngữ Tiếng Việt trong giao diện cài đặt và ứng dụng Triggr
+Name: Triggr gói Việt Hoá (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TriggrVH.json
+Depiction: https://jtisvn.github.io/depictions/TriggrVH.html
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.trollstoreviethoa
@@ -22683,6 +22772,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/MilkyWayReborn.json
 Depiction: https://jtisvn.github.io/depictions/MilkyWayReborn.html
 Icon: https://jtisvn.github.io/sectionIcons/MilkyWayReborn.png
 
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 8244
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: ./debs/com.mlgm.idata_1.3_iphoneos-arm64.deb
+Size: 2473668
+MD5sum: 7e0f77c27f610cf0c033a0fe88b62fc4
+SHA1: 1bf363a323db06f4903f6c88be86d3ab1d2f4132
+SHA256: 76464ca5b67d32b36d6e313ef8c8479e51f50603cd7a14b86f2edc2e67966c23
+SHA512: 03612ba56a108725aebfe96e2cf9c992978526b7d0da8da901ff9522905353ebb3426322ccfe1fcf39532f011b90c9bfd34bd4c19f525b1607d7058fc3415dca
+Description: Công cụ quản lý dữ liệu ứng dụng và plugin, sao lưu/khôi phục chỉ với một cú nhấp chuột.
+Name: iData (Rootless)
+Author: mlgm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iData.json
+Depiction: https://jtisvn.github.io/depictions/iData.html
+Icon: https://jtisvn.github.io/sectionIcons/iData.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 8244
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: ./debs/com.mlgm.idata_1.3_iphoneos-arm64e.deb
+Size: 2444064
+MD5sum: 9d2400b9376db5781e38ab6082f621e9
+SHA1: 9c7ba9c1d0f7a601feb949585f4200978833bd95
+SHA256: d31c0b2e3f6a73cbccf04eeedf5737fab5fd084734e0d438dcaf91b253730872
+SHA512: af861df4c09560f25984b783146af7057251dcccd4f3a0fe395117d9efc3b76835185b5f73fc19f0710ef3ff4d5a8c24ed2030de73e565ae1708ba5bb7f99359
+Description: Công cụ quản lý dữ liệu ứng dụng và plugin, sao lưu/khôi phục chỉ với một cú nhấp chuột.
+Name: iData (Roothide)
+Author: mlgm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iData.json
+Depiction: https://jtisvn.github.io/depictions/iData.html
+Icon: https://jtisvn.github.io/sectionIcons/iData.png
+
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -22938,6 +23068,27 @@ Name: ArtFull (Roothide)
 Author: Ethan Whited
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ArtFull.json
 Icon: https://media.havoc.app/649f7a731cd0975ac1cfa159
+
+Package: com.nahtedetihw.gesturesxv
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Tweaks
+Maintainer: Ethan Whited
+Installed-Size: 2756
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate
+Filename: ./debs/com.nahtedetihw.gesturesxv_1.6_iphoneos-arm64e.deb
+Size: 2159740
+MD5sum: 792a9a2ee8e45440190e22417a803d8b
+SHA1: e214afa49770055ae1aa282a482ff0ad6c4296ac
+SHA256: ae5f467d15810e9c76f84f2815ae0ac2963781586bfc501e1cca774e3c80ca79
+SHA512: 087483b3c068219697d4ebdbe7d55385c1cecea6da08851f1531525b19875d9245efe980e4f765814fd81c5cc8386be729fdaf7c650bc5320fab43d45d9837e4
+Description: Mang thao tác cử chỉ vuốt của iPhone X lên các dòng iPhone đời cũ chạy iOS 15.
+Name: GesturesXV (Roothide)
+Author: Ethan Whited
+depiction: https://havoc.app/depiction/gesturesxv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/GesturesXV.json
+Icon: https://jtisvn.github.io/sectionIcons/GesturesXV.png
 
 Package: com.nahtedetihw.reachplayer-rootless
 Architecture: iphoneos-arm64
@@ -26446,6 +26597,43 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/VivoStyle.json
 Depiction: https://jtisvn.github.io/depictions/VivoStyle.html
 Icon: https://jtisvn.github.io/sectionIcons/VivoStyle.png
 
+Package: com.wkk.dndmyrecording
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./debs/com.wkk.dndmyrecording_1.3_iphoneos-arm64.deb
+Size: 7080
+MD5sum: 74eb976b4816cd9634373506f60987f3
+SHA1: 52cdc9a4e2dd82990f87eb7cc47b8c9731f685fe
+SHA256: d8f918a534e730c565287afec6c95c324d171690e238f8e1964e1f999860fb3d
+SHA512: a6c20bb98c165b85b16d4ad13ab784b87ca06899ecc49d6ee66242ada60b47b19a8bc337e86853109ad257111c7e75b63f6b125e458dea8e4c83eb8f096d9702
+Description: Tự động kích hoạt chế độ Không làm phiền trong khi quay màn hình để ngăn chặn các thông báo làm gián đoạn quá trình quay! (Tự động tắt khi quá trình quay kết thúc)
+Name: DNDMyRecording (Rootless)
+Author: gilshahar7, 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/01/02/8ec09e4613791a26f568aed1a81478ef.png
+
+Package: com.wkk.dndmyrecording
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.wkk.dndmyrecording_1.3_iphoneos-arm64e.deb
+Size: 6900
+MD5sum: 04e68c3f68b5e76ee2728d64a25a391f
+SHA1: 31c52bfa7592a42b7989604e176d83785be0357a
+SHA256: eb251bd9557a7d71fb25118f43ccd8550bf3d9b282a3e63bbbbcba58e4abf39e
+SHA512: ecac270a2044f8fe655f3da7bb69a298c8d579c00253ef554eda86ffcd02fbc6e0217f8eb4ea23c4d0b46f76f48344d0919b0631ea16f74a69ca9bda8057f6c3
+Description: Tự động kích hoạt chế độ Không làm phiền trong khi quay màn hình để ngăn chặn các thông báo làm gián đoạn quá trình quay! (Tự động tắt khi quá trình quay kết thúc)
+Name: DNDMyRecording (Roothide)
+Author: gilshahar7, 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/01/02/8ec09e4613791a26f568aed1a81478ef.png
+
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
 Version: 0.0.3-1+debug
@@ -26683,6 +26871,45 @@ SHA512: 5cf525ca2ddc7428e5cdbb0a1e382360ba55bf9ddcdd7e8d590e237192d4ce48bae2cef8
 Description: Vibrant Clock/Date on LS!
 Name: LSVibrantClockDate
 Author: CydiaGeek <lucaluca86@aol.com>
+
+Package: com.yourepo.i0s-tweak3r-betas.homegesture1316
+Architecture: iphoneos-arm64
+Version: 0.0.1-7
+Section: Tweaks
+Maintainer: i0s_tweak3r <djvs23@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.yourepo.i0s-tweak3r-betas.homegesture1316_0.0.1-7_iphoneos-arm64.deb
+Size: 44760
+MD5sum: 5632dc7a544ff1e401b086d2643c8e0c
+SHA1: 738ea7558290c33f2cab17961ab865dc1660637f
+SHA256: 38317194d673e8fce5ef750281277775ece2ccc4b667811a99320d902acf9f9d
+SHA512: 6252cd64537ed9d528e3bf6c657507562a74eb87a385dbfa929e428f0c86726b1f9634b8b19c2913a7f4a099a09d25944cf7ed3fc254b7587f071b9388f00925
+Description: Mang các cử chỉ vuốt (Home gestures) lên các thiết bị đời cũ và các dòng máy không có tai thỏ (như SE). Vuốt lên để mở Đa nhiệm (App Switcher) và mở khoá máy, vuốt xuống từ góc trên màn hình để mở Trung tâm điều khiển (Control Center). Không cần dùng đến nút Home nữa! Hỗ trợ các bản Jailbreak Rootless & Roothide iOS 13-16.
+Name: HomeGesture1316 (Rootless)
+Author: i0s_tweak3r <djvs23@icloud.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HomeGesture1316.json
+Depiction: https://jtisvn.github.io/depictions/HomeGesture1316.html
+Icon: https://jtisvn.github.io/sectionIcons/HomeGesture1316.png
+
+Package: com.yourepo.i0s-tweak3r-betas.homegesture1316
+Architecture: iphoneos-arm64e
+Version: 0.0.1-7
+Section: Tweaks
+Maintainer: i0s_tweak3r <djvs23@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.yourepo.i0s-tweak3r-betas.homegesture1316_0.0.1-7_iphoneos-arm64e.deb
+Size: 44860
+MD5sum: 02b71953ebc7f8b26b57c8235b4ae158
+SHA1: 076549fed7bb3962ebe51c3de21b7cf8473b235d
+SHA256: cf41f652d06a033d04a08628be72f37ffd10939a4b37585791ff7d9554ddd57f
+SHA512: f5ba9c90a254221820c72dfa733ee93de746cb651cda932fbb978aa9419a16c44dc70133102ae25f3a2a4858369a3ea64fa594edf3d723dbb7b88046f511505a
+Description: Mang các cử chỉ vuốt (Home gestures) lên các thiết bị đời cũ và các dòng máy không có tai thỏ (như SE). Vuốt lên để mở Đa nhiệm (App Switcher) và mở khoá máy, vuốt xuống từ góc trên màn hình để mở Trung tâm điều khiển (Control Center). Không cần dùng đến nút Home nữa! Hỗ trợ các bản Jailbreak Rootless & Roothide iOS 13-16.
+Name: HomeGesture1316 (Roothide)
+Author: i0s_tweak3r <djvs23@icloud.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HomeGesture1316.json
+Depiction: https://jtisvn.github.io/depictions/HomeGesture1316.html
+Icon: https://jtisvn.github.io/sectionIcons/HomeGesture1316.png
 
 Package: com.zjer.photoscore
 Architecture: iphoneos-arm64
@@ -29751,47 +29978,6 @@ Name: NewTerm 3 Beta
 Support: https://hashbang.productions/support/
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Depiction: https://chariz.com/get/newterm-beta
-
-Package: xc.lzsxcl.o2pro
-Architecture: iphoneos-arm64
-Version: 18.9.17-6
-Section: Tweaks
-Maintainer: lzsxcl
-Installed-Size: 32212
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Filename: ./debs/xc.lzsxcl.o2pro_18.9.17-6_iphoneos-arm64.deb
-Size: 13308064
-MD5sum: ff9c116b24d421c068053795b7cc63e3
-SHA1: 300501114e79b4a7ef883092277fef2cd4949920
-SHA256: 19e4aab02a845e1152adf4c6544403f7918b693dde576904cf7b21fde1dd7190
-SHA512: e6e164cca983764b53c4410c87ae914a29831ff4a6b3bbf02acd6f3bbb5021f2e62731bf523c3ff14547a3d2bbca4207132834eb95b69dacfa4517b9851efee3
-Description: 注重设计与用户体验的优雅产品。
-Name: o2Pro (Rootless)
-Author: lzsxcl
-Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
-Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
-Icon: https://jtisvn.github.io/sectionIcons/o2Pro.png
-
-Package: xc.lzsxcl.o2pro
-Architecture: iphoneos-arm64e
-Version: 18.9.17-6
-Section: Tweaks
-Maintainer: lzsxcl
-Installed-Size: 32212
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Filename: ./debs/xc.lzsxcl.o2pro_18.9.17-6_iphoneos-arm64e.deb
-Size: 13158592
-MD5sum: 1032ae429b8a47687578adb81d3cc52b
-SHA1: eb8fdcffae88e39d1dd317c21bef74650dd6663d
-SHA256: 412ef107e3087fa4cc3c36724aafd809b7b31894a6970f39d60b09caf8f526cc
-SHA512: d434beb2c2d2365e05a32eac7cc85726a6baf140db5c432172c78d82a96f397da5eeb7fb23a97de141eed4365076035e20959d7a25d648e3f47a1fdffa84eae0
-Description: 注重设计与用户体验的优雅产品。
-Name: o2Pro (Roothide)
-Author: lzsxcl
-Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
-Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
-Icon: https://jtisvn.github.io/sectionIcons/o2Pro.png
 
 Package: xyz.cypwn.cephei-compat
 Architecture: iphoneos-arm64e
