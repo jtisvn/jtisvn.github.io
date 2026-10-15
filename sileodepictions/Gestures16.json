@@ -106,7 +106,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "13/10/2026",
+"text": "14/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -124,7 +124,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.3",
+"text": "1.0.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -178,7 +178,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.3\n- Sửa lỗi crash (Safe Mode) trên các thiết bị arm64e (như iPhone SE 2020) sau khi cài đặt tweak.",
+"markdown":"### Phiên bản 1.0.3\n- Thêm tích hợp trình chọn trong Trung tâm điều khiển.",
 "useSpacing": true
 },
 {
