@@ -3135,6 +3135,26 @@ Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
 
+Package: com.hades.pullclearnc
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.hades.pullclearnc_2.0_iphoneos-arm64e.deb
+Size: 5892
+MD5sum: 90d127e72cd3fd464358965863b9e931
+SHA1: e8c860589e72b9a567367d4c29ffe25e252d925c
+SHA256: 20f5906f38805a96e10c60998c22e9c8cf5614d0fc0c3de02f7997576e4538af
+SHA512: 1be4eef0e31babcfe658360b2a56791cf4f391f936a9701bb3828c77005b6412ba822b86f7489f3b70ed64ae8cffda6ef192d8444cc659b60c1ef9d78db6acf9
+Description: Vuốt xuống trên màn hình khóa/trung tâm thông báo để xóa tất cả thông báo. Cập nhật thêm hỗ trợ iOS 16 trở lên.
+Name: PullClearNC (Roothide)
+Author: hades
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullClearNC.json
+Depiction: https://jtisvn.github.io/depictions/PullClearNC.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.haoict.libhdev
 Architecture: iphoneos-arm
 Version: 4.8.1
@@ -20002,6 +20022,51 @@ Author: Banana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
 Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
 Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4524
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.9_iphoneos-arm64.deb
+Size: 823040
+MD5sum: 10aa58bc92a0b80d066e7eb4bc3a62d0
+SHA1: a2aed85a547139a3676076b029fa79fd51f8dcc0
+SHA256: cb678b779c8bd82bbec0e8984be38c2714947144f599b3b798ec76a47c53c4d6
+SHA512: d39ca3f8d83b148692da59de6df642d10fde39b27be6d38f28ff20331980327b2c96a100ceb4650a941c22399ef0ae75acc76d3507398d9be97290264de9f27a
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4524
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.9_iphoneos-arm64e.deb
+Size: 815604
+MD5sum: bf5d1fe509bfdd952d86def82745bac8
+SHA1: 21fadf03189b2e337fb8ccd594d22ca9263c2bdb
+SHA256: c9e3a05f2a046aec26fa209ad7fdb98b2260cb8333d0ba9b20256c556f4a7bdd
+SHA512: 7efb4530ede644876965cb1183e09dd515ce80056db8dae90beafaf4d0cb7ff4c1b24c90f3b514b54b4ec6e8d7a28a1b65eb1d39d44a0f5449337ac81768a341
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
 
 Package: com.jtisvn.kayoko
 Architecture: iphoneos-arm64
