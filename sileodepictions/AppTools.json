@@ -1,0 +1,229 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/AppTools.png",
+"tintColor": "#79c1fb",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"spacing": 12,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"markdown": "### AppTools\n\n Công cụ hỗ trợ và quản lý ứng dụng toàn diện, mạnh mẽ dành cho iOS.\n Giúp bạn dễ dàng dọn dẹp bộ nhớ đệm, sao lưu/khôi phục dữ liệu, tùy chỉnh độ phân giải, chặn injection tweak, quản lý quyền riêng tư và tùy biến giao diện ứng dụng một cách chuyên nghiệp.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/AppTools/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/AppTools/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Quản lý & Dọn dẹp ứng dụng:**\n  - Xóa bộ nhớ đệm & Xóa huy hiệu: Dọn dẹp nhanh dung lượng rác và xóa bong bóng thông báo trên icon.\n  - Sao lưu & Khôi phục tài liệu: Hỗ trợ sao lưu dữ liệu ứng dụng và khôi phục theo từng mốc thời gian.\n  - Gỡ ứng dụng an toàn: Tùy chọn gỡ cài đặt hoàn toàn hoặc giữ lại dữ liệu ứng dụng.\n- **Quyền riêng tư & Chặn nâng cao:**\n  - Đặt lại quyền: Khôi phục nhanh các quyền riêng tư (Camera, Thư viện ảnh, Micro, Vị trí).\n  - Chặn Injection: Ngăn chặn các tinh chỉnh khác can thiệp/inject vào ứng dụng.\n  - Bảo mật ứng dụng: Chặn khởi chạy, chặn chuyển hướng giao thức, chặn cửa sổ bật lên (pop-up) và chặn gỡ cài đặt.\n- **Tùy biến & Hiển thị:**\n  - Cài đặt DPI: Thay đổi tỷ lệ thu phóng độ phân giải hiển thị linh hoạt.\n  - Tùy biến Icon & Giao diện: Đổi biểu tượng ứng dụng, đổi màu trạng thái, màu phông chữ cấp 1 & 2, chuyển đổi chủ đề biểu tượng cũ.\n  - Màn hình chính & Dock: Tắt tính năng bố cục, tắt biểu tượng trên thanh Dock, cài đặt hướng và phương thức kích hoạt (vuốt lên/vuốt xuống).\n- **Hỗ trợ & Tối ưu hóa:**\n  - Tăng tốc Video & 120Hz động: Tối ưu hóa trải nghiệm xem video và tần số quét màn hình.\n  - Bỏ qua quảng cáo: Tự động bỏ qua quảng cáo khi khởi chạy ứng dụng.\n  - Truy cập thư mục nhanh: Mở nhanh thư mục cài đặt, thư mục tài liệu, thư mục nhóm của ứng dụng.\n  - Hạ cấp ứng dụng: Hỗ trợ chuyển đổi nhiều tuyến để hạ cấp phiên bản ứng dụng linh hoạt.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "aReo",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "24/09/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.9.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "5.1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.9.0\n- Tối ưu hóa vị trí thư mục trong Filza khi truy cập vào mục cài đặt, tài liệu, v.v.\n- Tối ưu hóa âm báo thông báo, không ảnh hưởng nhạc chuông mặc định/tùy chỉnh của cuộc gọi thoại, video trên WeChat và QQ.\n- Tối ưu hóa quy trình đặt lại và khôi phục cấu hình.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Hệ Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

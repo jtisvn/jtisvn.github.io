@@ -17,7 +17,7 @@
 "openExternal": true
 },
 {
-"markdown":"### Lunora\n\n- Tinh chỉnh tùy biến thanh trạng thái toàn diện dành cho iOS, kết hợp hoàn hảo giữa các viên Capsule thông tin hiệu ứng kính, vòng trạng thái Duo / Orbit và thanh mini Dock đa năng.",
+"markdown":"### Lunora\n\n Tinh chỉnh tùy biến thanh trạng thái toàn diện dành cho iOS, kết hợp hoàn hảo giữa các viên Capsule thông tin hiệu ứng kính, vòng trạng thái Duo / Orbit và thanh mini Dock đa năng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -57,7 +57,7 @@
 "accessibilityText":"Screenshot 8"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Lunora/Screenshots/9.png",
+"url":"https://jtisvn.github.io/infodeb/iPhoneDuoIcon/Screenshots/9.png",
 "accessibilityText":"Screenshot 9"
 }
 ],
