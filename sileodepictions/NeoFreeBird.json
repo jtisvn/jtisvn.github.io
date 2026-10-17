@@ -1,11 +1,11 @@
 {
-"minVersion":"0.3",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#0EA5E9",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#0EA5E9",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
 "spacing": 12,
 "class": "DepictionSpacerView"
@@ -17,51 +17,58 @@
 "openExternal": true
 },
 {
-"markdown":"### NeoFreeBird\n\n Tinh chỉnh mạnh mẽ dành cho ứng dụng X (Twitter), giúp lột xác hoàn toàn trải nghiệm người dùng với các tùy chọn khôi phục giao diện cổ điển, chặn quảng cáo, tải xuống video và bảo mật nâng cao.",
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### NeoFreeBird\n\nTinh chỉnh mạnh mẽ dành cho ứng dụng X (Twitter), giúp lột xác hoàn toàn trải nghiệm người dùng với các tùy chọn khôi phục giao diện cổ điển, chặn quảng cáo, tải xuống video và bảo mật nâng cao.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
+"class": "DepictionScreenshotsView",
+"screenshots": [
 {
-"url":"https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/1.png",
-"accessibilityText":"Screenshot 1"
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/2.png",
-"accessibilityText":"Screenshot 2"
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/3.png",
-"accessibilityText":"Screenshot 3"
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/4.png",
-"accessibilityText":"Screenshot 4"
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/5.png",
-"accessibilityText":"Screenshot 5"
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/6.png",
-"accessibilityText":"Screenshot 6"
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/7.png",
-"accessibilityText":"Screenshot 7"
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/8.png",
-"accessibilityText":"Screenshot 8"
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
 }
 ],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"- **Tính năng nổi bật:**\n\n- **Khôi phục giao diện cổ điển:** Thay thế thương hiệu \"X\" thành \"Twitter\", biểu tượng Twitter xanh truyền thống và tùy chỉnh chủ đề tối.\n- **Chặn quảng cáo & Tinh chỉnh bảng tin:** Loại bỏ hoàn toàn bài đăng tài trợ, ẩn các mục rườm rà như Xu hướng, Gợi ý theo dõi.\n- **Tải xuống media chất lượng cao:** Tải video, ảnh GIF, tin nhắn thoại trực tiếp ở độ phân giải cao nhất.\n- **Tương tác thông minh:** Xác nhận trước khi đăng bài/thích, sao chép nhanh thông tin, hiển thị chính xác số lượt tương tác.\n- **Bảo mật & Tiện ích:** Khóa ứng dụng bằng Face ID/Touch ID, không lưu lịch sử tìm kiếm và mở liên kết ngoài thông minh.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Khôi phục giao diện cổ điển:** Thay thế thương hiệu \"X\" thành \"Twitter\", biểu tượng Twitter xanh truyền thống và tùy chỉnh chủ đề tối.\n- **Chặn quảng cáo & Tinh chỉnh bảng tin:** Loại bỏ hoàn toàn bài đăng tài trợ, ẩn các mục rườm rà như Xu hướng, Gợi ý theo dõi.\n- **Tải xuống media chất lượng cao:** Tải video, ảnh GIF, tin nhắn thoại trực tiếp ở độ phân giải cao nhất.\n- **Tương tác thông minh:** Xác nhận trước khi đăng bài/thích, sao chép nhanh thông tin, hiển thị chính xác số lượt tương tác.\n- **Bảo mật & Tiện ích:** Khóa ứng dụng bằng Face ID/Touch ID, không lưu lịch sử tìm kiếm và mở liên kết ngoài thông minh.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -180,21 +187,208 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
-],
-"class":"DepictionStackView"
+]
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 7.2.0\n- Thêm nút \"Tải tất cả video\" hoạt động khi tất cả phương tiện đều là video.\n- Thêm tùy chọn hiển thị chi tiết số lượt trích dẫn và retweet.\n- Thêm tùy chọn phát âm thanh khi đăng Tweet thành công.\n- Tối ưu hóa tính tương thích với các phiên bản X mới nhất.",
+"markdown": "### NeoFreeBird\n\nA powerful tweak for the X (Twitter) app, completely overhauling your user experience with options to restore the classic Twitter interface, block ads, download media, and enhance privacy.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NeoFreeBird/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Classic UI Restoration:** Replaces the \"X\" branding back to \"Twitter\", restores the traditional blue Twitter icon, and customizes dark themes.\n- **Ad Blocking & Feed Cleanup:** Completely removes sponsored posts, hides clutter like Trends and Who to Follow.\n- **High-Quality Media Downloads:** Directly download videos, GIFs, and voice messages in the highest available resolution.\n- **Smart Interactions:** Adds confirmation prompts before posting/liking, quick information copying, and precise engagement metrics.\n- **Security & Utilities:** Lock the Twitter app with Face ID/Touch ID, disable search history, and smart external link handling.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "NeoFreeBird",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 17, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "7.2.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 18.x",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 7.2.0\n- Thêm nút \"Tải tất cả video\" hoạt động khi tất cả phương tiện đều là video.\n- Thêm tùy chọn hiển thị chi tiết số lượt trích dẫn và retweet.\n- Thêm tùy chọn phát âm thanh khi đăng Tweet thành công.\n- Tối ưu hóa tính tương thích với các phiên bản X mới nhất.",
 "useSpacing": true
 },
 {
@@ -202,52 +396,78 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
-],
-"class":"DepictionStackView"
+]
 },
 {
-"tabname":"Liên Hệ Hỗ Trợ",
-"views":[
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionMarkdownView",
+"markdown": "### Version 7.2.0\n- Added \"Download All Videos\" button when all media items are videos.\n- Added option to display exact quote and retweet counts.\n- Added sound effect option upon successful Tweet posting.\n- Optimized compatibility with the latest X versions.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Hệ Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Nhóm Telegram",
 "action": "https://t.me/jailbreaktrolliossupport"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

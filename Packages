@@ -19727,19 +19727,19 @@ Icon: https://jtisvn.github.io/sectionIcons/Ersatz.png
 
 Package: com.jtisvn.evocenter
 Architecture: iphoneos-arm64
-Version: 4.0.0-beta.2
+Version: 4.0.0-beta.3
 Section: Tweaks
 Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
 Installed-Size: 27220
 Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, com.kitsudo.transalt
 Conflicts: com.jaysuen.ccflex16
 Replaces: com.jaysuen.ccflex16
-Filename: ./debs/com.jtisvn.evocenter_4.0.0-beta.2_iphoneos-arm64.deb
-Size: 1389768
-MD5sum: 2d50de4fc30c749a4c9b54ae154a62bf
-SHA1: fb59f592786f55355e871187fa311c4bff94fa88
-SHA256: 2e472e8704e4d2c6ef86b42463b75d19e3ee458d0f6aba9c136211de4535d26d
-SHA512: 204ff573b1527bdd2b071f4f7e86cd66acb40b0c37a1ab9ee030f8cac3f1079adc5712b807c85ae3b3bf74a732fd0bfabc4b4bce0b7b894b13f7b2ffc4520edd
+Filename: ./debs/com.jtisvn.evocenter_4.0.0-beta.3_iphoneos-arm64.deb
+Size: 1390128
+MD5sum: 0dccbd9bb98e2b3e8c1a1573749c6a0d
+SHA1: 225aecee0cabae9cdcf22604cc8ae1db44323e24
+SHA256: ebf45bbd603df9acd40d550f63bdf99b9d2a2e08eee9c9e8ff6f3cfcbfc5b334
+SHA512: e0674a9b858556bb4ef75deafeccb7cf3f1936026a18a082125b3f3e66c1c55f1c40b984cb2ddc1424aca5686236ab1500b785489277f0b8d08092874e31ec1f
 Description: Mang trải nghiệm Trung tâm điều khiển hiện đại kiểu iOS 18 lên các phiên bản iOS cũ.
 Name: Evo Center (Rootless)
 Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
@@ -19749,20 +19749,19 @@ Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 
 Package: com.jtisvn.evocenter
 Architecture: iphoneos-arm64e
-Version: 4.0.0-beta.2
+Version: 4.0.0-beta.3
 Section: Tweaks
 Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
-Installed-Size: 27220
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 27716
 Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, com.kitsudo.transalt
 Conflicts: com.jaysuen.ccflex16
 Replaces: com.jaysuen.ccflex16
-Filename: ./debs/com.jtisvn.evocenter_4.0.0-beta.2_iphoneos-arm64e.deb
-Size: 1391672
-MD5sum: e8a9d12cf5c349dfc7058027d036faf6
-SHA1: 595738b5b3e788573b912505816e3897b8cb1843
-SHA256: 5c2f74c9e2a381f88195f04756e6f832e962c0163fca9c16b9865e9c074eb390
-SHA512: fba3c26f5566187b8d00b83d30a7089c5d9eb2689d35584b6d96375aa3d7113c0bb6ceb66407ef7d1a51c97f3df38832db53d0f00dd305c0f0c5833b1c5a677d
+Filename: ./debs/com.jtisvn.evocenter_4.0.0-beta.3_iphoneos-arm64e.deb
+Size: 1418480
+MD5sum: 6ad96ffd7aef1f06519b789d044c7422
+SHA1: 64df75b218343ac2eebbec4ed144d8b4ebb6d565
+SHA256: 37aaba2aa4efe25530f78f5cc294192f016f57cedbaa46750a299d3f17cc3c0e
+SHA512: 8292ccfe47813949f739cb667f41d66779830933777528cd8654a84e505058a697a3c3e2118593b3ede3a7440d2254ddd7eecd9a936b0ea37d2cd57b38636c91
 Description: Mang trải nghiệm Trung tâm điều khiển hiện đại kiểu iOS 18 lên các phiên bản iOS cũ.
 Name: Evo Center (Roothide)
 Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen

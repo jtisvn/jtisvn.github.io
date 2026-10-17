@@ -17,7 +17,14 @@
 "openExternal": true
 },
 {
-"markdown": "### Evo Center\n\n Mang trải nghiệm Trung tâm điều khiển (Control Center) hiện đại, phong cách iOS 18 lên các phiên bản iOS cũ hơn.",
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Evo Center\n\nMang trải nghiệm Trung tâm điều khiển (Control Center) hiện đại, phong cách iOS 18 lên các phiên bản iOS cũ hơn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -141,7 +148,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "24.1 MB",
+"text": "35.5 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -174,6 +181,174 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Evo Center\n\nBring a modern, iOS 18-style Control Center experience to older iOS versions.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://eleveny123.github.io/EvoCenter/assets/screenshots/1.jpg",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://eleveny123.github.io/EvoCenter/assets/screenshots/2.jpg",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://eleveny123.github.io/EvoCenter/assets/screenshots/3.jpg",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://eleveny123.github.io/EvoCenter/assets/screenshots/4.jpg",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://eleveny123.github.io/EvoCenter/assets/screenshots/5.jpg",
+"accessibilityText": "Screenshot 5"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **iOS 18 Interface:** Faithfully recreates the latest connectivity layout, centralized management, and Control Center style.\n- **HomeKit Support:** Directly integrates smart home devices, displaying temperature and humidity and managing household devices quickly.\n- **Layout Customization:** Supports paging (horizontal or vertical swipe), a 5-column display option, and scaling the entire interface up or down.\n- **Icon Tinting:** Lets you customize icon colors for toggle-style modules to your liking.\n- **Extended Modules:** Supports combining Shortcuts into a single toggle and adding 8 transparent empty slots for creative, unique layouts.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "JaySuen & Sol",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 17, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Beta 4.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "35.5 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 16.0 - 17.4",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
@@ -181,8 +356,15 @@
 "tabname": "Nhật ký thay đổi",
 "views": [
 {
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản Beta 4.0\n- Khôi phục tính năng nút thao tác ở phía trên.\n- Thêm tùy chỉnh bố cục cho module \"Điều khiển phát nhạc\".\n- Thêm hiển thị chấm phân trang.\n- Thêm hiệu ứng làm mờ dần cho lớp mờ phía trên.\n- Thêm tùy chọn hiển thị 9 hàng trên một trang ở chế độ phân trang.\n- Sửa lỗi đơ máy khi dùng module \"Điều khiển phát nhạc\" kích thước 4x2.\n- Sửa lỗi bấm module \"Chế độ tối\" làm Trung tâm điều khiển bị đẩy lên.\n- Tối ưu thời điểm hiển thị lớp làm mờ phía trên ở chế độ lật trang dọc.",
+"markdown": "### Phiên bản Beta 4.0 (Bản vá lỗi)\n- Sửa lỗi nút phía trên không phản hồi khi chạm.",
 "useSpacing": true
 },
 {
@@ -195,6 +377,32 @@
 "textColor": "#999999",
 "fontSize": "10.0",
 "alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version Beta 4.0 (Hotfix)\n- Fixed an issue where the top buttons did not respond to taps.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
 "class": "DepictionStackView"
