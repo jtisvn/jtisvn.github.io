@@ -106,7 +106,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "11/10/2026",
+"text": "17/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -124,7 +124,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.3",
+"text": "1.0.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -215,7 +215,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.0.3\n- Thêm ngôn ngữ Tiếng việt cho Tweaks Rain的Mhz và 1 số tweak khác."
+"markdown": "### Phiên bản 1.0.4\n- Cập nhật thêm tiếng Viết trên 1 số tweak Trung."
 },
 {
 "class": "DepictionLabelView",

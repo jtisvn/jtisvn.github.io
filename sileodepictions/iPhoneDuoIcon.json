@@ -126,7 +126,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15/10/2026",
+"text": "17/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -144,7 +144,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.9",
+"text": "1.1.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -197,7 +197,7 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown": "### Phiên bản 1.0.9\n- Thêm đảo ngược văn bản trực tiếp, tùy chỉnh thời gian và ba định dạng âm lịch; màu Tự động/Tùy chỉnh độc lập cho pin, Wi-Fi, di động và 2 SIM; độ trong suốt riêng cho vạch pin, vạch sóng không hoạt động và cung Wi-Fi.\n- mini Dock bổ sung badge, xem thông báo và menu nhấn giữ; thư mục có kiểu Lưới, Quạt, Danh sách và Apple Watch, hỗ trợ mở rộng quạt toàn chiều cao, hiệu ứng mở/đóng và chạm ngoài để tắt.\n- Mở rộng định vị phải; thêm điều khiển dịch trái và mở khóa/về CC; cải tiến trạng thái/tai thỏ, NiceBarX, tai thỏ lớn, ẩn đồng hồ/nhà mạng, thời tiết, làm mới bảng điều khiển; audio visuals dùng dịch vụ tùy chọn.",
+"markdown": "### Phiên bản 1.1.0\n- Thêm hỗ trợ thanh trạng thái tai thỏ nguyên bản trên iOS 15, bao gồm mô phỏng tai thỏ trực tiếp.\n- Cải thiện độ ổn định khi khởi động và sửa lỗi crash khi cập nhật thanh trạng thái trên một số thiết bị.\n- Thêm kiểm tra tương thích và hướng dẫn trước khi bật; các bố cục không hỗ trợ sẽ giữ nguyên giao diện gốc.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
