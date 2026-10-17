@@ -11,18 +11,22 @@
 "class": "DepictionSpacerView"
 },
 {
-"class": "DepictionButtonView",
-"text": "Tham gia nhóm K37•JTISVN",
-"action": "https://t.me/jtisvietnamrepo",
-"openExternal": true
-},
-{
 "class": "DepictionTabView",
 "tabs": [
 {
 "class": "DepictionStackView",
 "tabname": "Tiếng Việt",
 "views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
 {
 "markdown": "### NeoFreeBird\n\nTinh chỉnh mạnh mẽ dành cho ứng dụng X (Twitter), giúp lột xác hoàn toàn trải nghiệm người dùng với các tùy chọn khôi phục giao diện cổ điển, chặn quảng cáo, tải xuống video và bảo mật nâng cao.",
 "useSpacing": false,
@@ -199,6 +203,16 @@
 "class": "DepictionStackView",
 "tabname": "English",
 "views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
 {
 "markdown": "### NeoFreeBird\n\nA powerful tweak for the X (Twitter) app, completely overhauling your user experience with options to restore the classic Twitter interface, block ads, download media, and enhance privacy.",
 "useSpacing": false,
@@ -432,13 +446,25 @@
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên Hệ Hỗ Trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
 },
 {
 "class": "DepictionTableButtonView",

@@ -11,13 +11,24 @@
 "class": "DepictionSpacerView"
 },
 {
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "class": "DepictionButtonView",
 "text": "Tham gia nhóm K37•JTISVN",
 "action": "https://t.me/jtisvietnamrepo",
 "openExternal": true
 },
 {
-"markdown": "### AppTools\n\n Công cụ hỗ trợ và quản lý ứng dụng toàn diện, mạnh mẽ dành cho iOS.\n Giúp bạn dễ dàng dọn dẹp bộ nhớ đệm, sao lưu/khôi phục dữ liệu, tùy chỉnh độ phân giải, chặn injection tweak, quản lý quyền riêng tư và tùy biến giao diện ứng dụng một cách chuyên nghiệp.",
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### AppTools\n\nCông cụ hỗ trợ và quản lý ứng dụng toàn diện, mạnh mẽ dành cho iOS.\nGiúp bạn dễ dàng dọn dẹp bộ nhớ đệm, sao lưu/khôi phục dữ liệu, tùy chỉnh độ phân giải, chặn injection tweak, quản lý quyền riêng tư và tùy biến giao diện ứng dụng một cách chuyên nghiệp.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -162,6 +173,172 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### AppTools\n\nA comprehensive and powerful app support and management tool for iOS.\nHelps you easily clear caches, back up/restore data, adjust resolution, block tweak injection, manage privacy and customize app appearance professionally.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/AppTools/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/AppTools/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **App Management & Cleanup:**\n  - Clear Cache & Badges: Quickly clear junk data and remove notification bubbles on icons.\n  - Document Backup & Restore: Back up app data and restore it by point in time.\n  - Safe App Uninstall: Choose to uninstall completely or keep the app data.\n- **Privacy & Advanced Blocking:**\n  - Reset Permissions: Quickly restore privacy permissions (Camera, Photos, Microphone, Location).\n  - Block Injection: Prevent other tweaks from injecting into the app.\n  - App Security: Block launching, block protocol redirects, block pop-up windows and block uninstalling.\n- **Customization & Display:**\n  - DPI Settings: Flexibly change the display resolution scaling.\n  - Icon & UI Customization: Change app icons, status colors, primary & secondary font colors, and switch legacy icon themes.\n  - Home Screen & Dock: Disable layout features, disable Dock icons, set the orientation and activation method (swipe up/swipe down).\n- **Support & Optimization:**\n  - Video Boost & Dynamic 120Hz: Optimize the video viewing experience and screen refresh rate.\n  - Skip Ads: Automatically skip ads when launching apps.\n  - Quick Folder Access: Quickly open an app's settings, documents and group folders.\n  - App Downgrade: Supports multiple routes for flexibly downgrading app versions.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "aReo",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "September 24, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.9.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "5.1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
@@ -169,9 +346,16 @@
 "tabname": "Nhật ký thay đổi",
 "views": [
 {
-"class": "DepictionMarkdownView",
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "markdown": "### Phiên bản 2.9.0\n- Tối ưu hóa vị trí thư mục trong Filza khi truy cập vào mục cài đặt, tài liệu, v.v.\n- Tối ưu hóa âm báo thông báo, không ảnh hưởng nhạc chuông mặc định/tùy chỉnh của cuộc gọi thoại, video trên WeChat và QQ.\n- Tối ưu hóa quy trình đặt lại và khôi phục cấu hình.",
-"useSpacing": true
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 15,
@@ -184,17 +368,55 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 2.9.0\n- Optimized folder locations in Filza when accessing settings, documents, etc.\n- Optimized notification sounds so they no longer affect default/custom ringtones for voice and video calls on WeChat and QQ.\n- Optimized the configuration reset and restore process.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên Hệ Hỗ Trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Kênh Telegram",
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
 },
 {
 "class": "DepictionTableButtonView",
@@ -211,7 +433,7 @@
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Ủng hộ tôi",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {

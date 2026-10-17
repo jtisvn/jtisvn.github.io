@@ -1,32 +1,58 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/SafariX.png",
-"tintColor":"#CCCC99",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/SafariX.png",
+"tintColor": "#CCCC99",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io//infodeb/SafariX/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"spacing": 12,
+"class": "DepictionSpacerView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/SafariX/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/SafariX/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### SafariX\n\nNếu bạn cảm thấy việc duyệt web trên trình duyệt Safari mặc định của Apple thật tẻ nhạt, nếu bạn thấy bối rối khi tìm kiếm các nút chức năng (chẳng hạn như tìm kiếm một từ trên trang web nhưng lại phải vào phần chia sẻ), nếu bạn nhớ các tab ở chế độ dọc hoặc chỉ đơn giản là muốn trải nghiệm duyệt web linh hoạt hơn, thì đây chính là tinh chỉnh bạn phải có!\n\nVới SafariX, bạn có thể tùy chỉnh Safari để phù hợp với mình hơn, và chắc chắn sẽ thay đổi cách bạn sử dụng trình duyệt này.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/SafariX/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/SafariX/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/SafariX/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
 },
 {
-"markdown":" SafariX\n\n- Nếu bạn cảm thấy việc duyệt web trên trình duyệt Safari mặc định của Apple thật tẻ nhạt, nếu bạn thấy bối rối khi tìm kiếm các nút chức năng (chẳng hạn như tìm kiếm một từ trên trang web nhưng lại phải vào phần chia sẻ), nếu bạn nhớ các tab ở chế độ dọc hoặc chỉ đơn giản là muốn trải nghiệm duyệt web linh hoạt hơn, thì đây chính là tinh chỉnh bạn phải có!\n\n- Với SafariX, bạn có thể tùy chỉnh Safari để phù hợp với mình hơn, và chắc chắn sẽ thay đổi cách bạn sử dụng trình duyệt này.\n\n- Các tính năng chính:\n\n- Giao điện thanh Tab ở chế độ dọc cho IOS 15+.\n\n- Tùy chỉnh nút công cụ thanh điều hướng bên dưới.\n\n- Quản lý tệp tải xuống vào bất kỳ ứng dụng nào bạn muốn.\n\n- Hiển thị URL đầy đủ các trang web dang duyệt.\n\n- Di chuyển nhóm tab nhanh chóng dễ dàng hơn.\n\n- Và còn 1 số tính năng khác nữa..\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết.\n\n",
+"markdown": "- **Tính năng nổi bật:**\n\n- Giao diện thanh Tab ở chế độ dọc cho iOS 15+.\n- Tùy chỉnh nút công cụ thanh điều hướng bên dưới.\n- Quản lý tệp tải xuống vào bất kỳ ứng dụng nào bạn muốn.\n- Hiển thị URL đầy đủ các trang web đang duyệt.\n- Di chuyển nhóm tab nhanh chóng, dễ dàng hơn.\n- Và còn một số tính năng khác nữa.\n- Xem hình ảnh phía trên để biết thêm chi tiết.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -145,60 +171,289 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### SafariX\n\nIf you find browsing in Apple's default Safari dull, if you get confused looking for function buttons (for example, searching for a word on a web page but having to go into the share sheet), if you miss vertical tabs, or you simply want a more flexible browsing experience, this is the tweak you must have!\n\nWith SafariX, you can customize Safari to suit you better, and it will surely change the way you use the browser.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/SafariX/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/SafariX/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/SafariX/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+}
+],
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- Vertical Tab bar interface for iOS 15+.\n- Customize the tool buttons on the bottom navigation bar.\n- Manage downloaded files into any app you want.\n- Show the full URL of the web pages you are browsing.\n- Move tab groups quickly and more easily.\n- And a few more features.\n- See the images above for more details.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Oxkuj",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "August 29, 2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.9.9.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "957 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 16.7.11",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.9.9.1\n\n- Sửa lỗi\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
-}
-],
-"class":"DepictionStackView"
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 1.9.9.1\n- Sửa lỗi\n- Thêm ngôn ngữ Tiếng Việt\n- Hỗ trợ Rootless & Roothide Jailbreak",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
-"views":[
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
-"title": "Kênh Telegram",
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 1.9.9.1\n- Bug fixes\n- Added Vietnamese language support\n- Supports Rootless & Roothide Jailbreak",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Ủng hộ tôi",
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

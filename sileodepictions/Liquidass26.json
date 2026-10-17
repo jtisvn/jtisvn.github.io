@@ -11,13 +11,24 @@
 "class": "DepictionSpacerView"
 },
 {
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "class": "DepictionButtonView",
 "text": "Tham gia nhóm K37•JTISVN",
 "action": "https://t.me/jtisvietnamrepo",
 "openExternal": true
 },
 {
-"markdown": "### Liquid (Glass)\n\n Mang đến trải nghiệm hiệu ứng kính lỏng LiquidGlass độc đáo phong cách iOS 26 lên các thiết bị iOS đời thấp.",
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Liquid (Glass)\n\nMang đến trải nghiệm hiệu ứng kính lỏng LiquidGlass độc đáo phong cách iOS 26 lên các thiết bị iOS đời thấp.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -166,7 +177,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.7.15",
+"text": "14.0 - 17.5",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -186,6 +197,196 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Liquid (Glass)\n\nBrings the unique LiquidGlass effect of iOS 26 to older iOS devices.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Diverse customization:** Customize the glass effect for the Lock Screen, Home Screen, App Library and Folders.\n- **System interface:** Applies a refined frosted glass effect to the 3D menu (Context Menu), Notifications, Switches and the Search bar.\n- **Realistic reflections:** Improved logic for the light reflection (specular) effect, making surfaces look smoother and more natural.\n- **Blocklist management:** Use an intuitive app picker to exclude apps, with no need to manually enter Bundle IDs or process names.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "dylv",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "September 28, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.1.1-2b",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 14.0 - 17.5",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
@@ -193,9 +394,16 @@
 "tabname": "Nhật ký thay đổi",
 "views": [
 {
-"class": "DepictionMarkdownView",
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "markdown": "### Phiên bản 0.1.1-2b\n- Làm lại toàn bộ các thay đổi hệ thống.\n- Cải thiện logic hiệu ứng phản chiếu (specular) giúp hiển thị mượt mà hơn.\n- Thêm tùy chọn giới hạn FPS cho đồng hồ.\n- Sửa lỗi hiệu ứng làm mờ (blur) trên iOS 15.\n- Sửa lỗi bố cục từ phải sang trái (RTL) cho thanh trượt và thanh tab.\n- Tối ưu hóa logic bo góc các module trong Control Center.\n- Cải tiến kiểu giao diện menu ngữ cảnh (context menu).\n- Sửa lỗi khoảng trống ở đáy bàn phím.\n- Chuyển sang sử dụng danh sách ứng dụng chọn lọc để loại trừ (không cần nhập thủ công Bundle ID).\n- Bổ sung các ngôn ngữ: Tiếng Do Thái, Tiếng Trung Giản Thể và Tiếng Thổ Nhĩ Kỳ.",
-"useSpacing": true
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 15,
@@ -208,17 +416,55 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 0.1.1-2b\n- Reworked all system changes.\n- Improved the specular reflection logic for smoother display.\n- Added an FPS limit option for the clock.\n- Fixed the blur effect on iOS 15.\n- Fixed right-to-left (RTL) layout for sliders and tab bars.\n- Optimized the corner rounding logic of modules in Control Center.\n- Improved the context menu style.\n- Fixed the gap at the bottom of the keyboard.\n- Switched to a picker-based app list for exclusions (no need to enter Bundle IDs manually).\n- Added languages: Hebrew, Simplified Chinese and Turkish.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên Hệ Hỗ Trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
 },
 {
 "class": "DepictionTableButtonView",

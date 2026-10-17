@@ -1,36 +1,62 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#999999",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#999999",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/Laetus/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"spacing": 12,
+"class": "DepictionSpacerView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Laetus/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Laetus/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSpacerView",
+"spacing": 10
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Laetus/Screenshots/4.png",
-"accessibilityText":"Screenshot"
+"markdown": "### Laetus\n\nBạn cảm thấy không thích bàn phím mặc định của Apple, bạn muốn có giao diện kiểu Dark Mode thì đây là một tinh chỉnh bạn cần, cho phép tuỳ biến bàn phím trên iOS với nhiều tùy chọn đa dạng hơn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/Laetus/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Laetus/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Laetus/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Laetus/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"### Laetus\n\n- Bạn cảm thấy không thích bàn phím mặc dịnh của Apple, bạn muốn có giao điện kiểu Dark Mode thì đây là một tinh chỉnh bạn cần, cho phép tuỳ biến bàn phím trên IOS với nhiều tùy chọn đa dạng hơn.\n\n- Laetus hỗ trợ nhiều kiểu giao điện chủ đề khác nhau\n\n- Màu sắc: Thay đổi màu nền, màu chữ và các màu sắc khác trên bàn phím.\n\n- Hình ảnh: Tuỳ chọn bất kỳ hình ảnh nào từ thư viện ảnh để làm nền cho bàn phím.\n\n- Chủ đề ảnh: Chủ đề được tạo sắn bằng hình ảnh và thiết lập tối ưu cho kích thước màn hình khác nhau, mang tính trải nghiệm chủ đề bàn phím đẹp và hoàn chỉnh.\n\n- Chủ đề HTML: Chủ đề được xây dựng bằng HTML/Javascript/CSS, tạo ra những hiệu ứng tương tác hoặc hoạt ảnh (animation) độc đáo.\n\n- Chủ đề Widget Chủ đề được xây dựng bằng Obiective-c do các lập trình viên iOS viết, mang lại trải nghiệm tuỳ biến đầy đủ.\n\n- Ngoài ra, Laetus còn cho phép tuỳ chỉnh nhiều chi tiết khác trên bàn phím như:\n\n- Ẩn bóng phím: Tắt hiệu ứng đổ bóng dưới các phím.\n\n- Ẩn chữ trên phím: Ẩn các ký tự, chữ cái trên các phím.\n\n- Thay đổi màu hiệu ứng khi gõ: Tuỳ chỉnh gradient (màu chuyển) của bong bóng nổi lên khi bạn nhấn phím.\n\n- Và còn nhiều hơn thế nữa!.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Hỗ trợ nhiều kiểu giao diện chủ đề khác nhau:**\n  - **Màu sắc:** Thay đổi màu nền, màu chữ và các màu sắc khác trên bàn phím.\n  - **Hình ảnh:** Tuỳ chọn bất kỳ hình ảnh nào từ thư viện ảnh để làm nền cho bàn phím.\n  - **Chủ đề ảnh:** Chủ đề được tạo sẵn bằng hình ảnh và thiết lập tối ưu cho kích thước màn hình khác nhau, mang tính trải nghiệm chủ đề bàn phím đẹp và hoàn chỉnh.\n  - **Chủ đề HTML:** Chủ đề được xây dựng bằng HTML/Javascript/CSS, tạo ra những hiệu ứng tương tác hoặc hoạt ảnh (animation) độc đáo.\n  - **Chủ đề Widget:** Chủ đề được xây dựng bằng Objective-C do các lập trình viên iOS viết, mang lại trải nghiệm tuỳ biến đầy đủ.\n- **Tuỳ chỉnh nhiều chi tiết khác trên bàn phím:**\n  - **Ẩn bóng phím:** Tắt hiệu ứng đổ bóng dưới các phím.\n  - **Ẩn chữ trên phím:** Ẩn các ký tự, chữ cái trên các phím.\n  - **Thay đổi màu hiệu ứng khi gõ:** Tuỳ chỉnh gradient (màu chuyển) của bong bóng nổi lên khi bạn nhấn phím.\n  - Và còn nhiều hơn thế nữa!",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -135,7 +161,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.7,10",
+"text": "14.0 - 16.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -149,60 +175,293 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Laetus\n\nIf you dislike Apple's default keyboard and want a Dark Mode-style look, this is the tweak you need, letting you customize the keyboard on iOS with a much wider range of options.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/Laetus/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Laetus/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Laetus/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Laetus/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+}
+],
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Supports many different theme styles:**\n  - **Colors:** Change the background color, text color and other colors on the keyboard.\n  - **Images:** Pick any image from your photo library as the keyboard background.\n  - **Image themes:** Ready-made themes built from images and optimized for different screen sizes, delivering a beautiful and complete keyboard theme experience.\n  - **HTML themes:** Themes built with HTML/JavaScript/CSS, creating unique interactive effects or animations.\n  - **Widget themes:** Themes built in Objective-C by iOS developers, offering fully customizable experiences.\n- **Many more keyboard details to customize:**\n  - **Hide key shadows:** Turn off the shadow effect under the keys.\n  - **Hide key labels:** Hide the characters and letters on the keys.\n  - **Change typing effect color:** Customize the gradient of the bubble that pops up when you press a key.\n  - And much more!",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "SparkDev",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "May 25, 2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.5.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "16 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 14.0 - 16.7.10",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 3.5.1\n\n- Sửa lỗi\n\n- Thêm ngôn ngữ Tiếng việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
-}
-],
-"class":"DepictionStackView"
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 3.5.1\n- Sửa lỗi\n- Thêm ngôn ngữ Tiếng Việt\n- Hỗ trợ Rootless & Roothide Jailbreak",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
-"views":[
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
-"title": "Kênh Telegram",
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 3.5.1\n- Bug fixes\n- Added Vietnamese language support\n- Supports Rootless & Roothide Jailbreak",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Ủng hộ tôi",
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

@@ -1,5 +1,5 @@
 {
-"minVersion": "0.4",
+"minVersion": "0.3",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor": "#5777B8",
 "tabs": [
@@ -11,13 +11,24 @@
 "class": "DepictionSpacerView"
 },
 {
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "class": "DepictionButtonView",
 "text": "Tham gia nhóm K37•JTISVN",
 "action": "https://t.me/jtisvietnamrepo",
 "openExternal": true
 },
 {
-"markdown": "Axon\n\n- Xem và gom nhóm thông báo trên màn hình khoá.",
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Axon\n\nXem và gom nhóm thông báo trên màn hình khoá.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -26,22 +37,22 @@
 "screenshots": [
 {
 "url": "https://jtisvn.github.io/infodeb/Axon/Screenshots/1.png",
-"accessibilityText": "Screenshot"
+"accessibilityText": "Screenshot 1"
 },
 {
 "url": "https://jtisvn.github.io/infodeb/Axon/Screenshots/2.png",
-"accessibilityText": "Screenshot"
+"accessibilityText": "Screenshot 2"
 },
 {
 "url": "https://jtisvn.github.io/infodeb/Axon/Screenshots/3.png",
-"accessibilityText": "Screenshot"
+"accessibilityText": "Screenshot 3"
 }
 ],
 "itemCornerRadius": 0,
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- Tự động gpm nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n\n- Tương tác nhanh chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n\n- Cho phép điều chỉnh vị trí và kiểu giao diện của các biểu tượng phù hợp theo sở thích của bạn.",
+"markdown": "- **Tính năng nổi bật:**\n\n- Tự động gom nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng.\n- Tương tác nhanh: chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n- Cho phép điều chỉnh vị trí và kiểu giao diện của các biểu tượng phù hợp theo sở thích của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -166,6 +177,176 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Axon\n\nView and group notifications on the lock screen.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/Axon/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Axon/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Axon/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+}
+],
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- Automatically groups all lock screen notifications by app icon.\n- Quick interaction: tap an icon to view that app's notifications, tap again to collapse, or press and hold to quickly filter (clear) notifications.\n- Lets you adjust the position and interface style of the icons to your liking.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Nepeta, daodao & Kitsudo",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "September 4, 2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.5.3",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "65 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 12.0 - 16.7.10",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
@@ -173,40 +354,99 @@
 "tabname": "Nhật ký thay đổi",
 "views": [
 {
-"class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 2.5.3\n\n- Thêm chuyển đổi Respring ngay lập tức khi chọn kiểu\n\n- Sửa lỗi và tối ưu hoá xoá thông báo\n\n- Thêm ngôn ngữ Tiếng Việt."
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 2.5.3\n- Thêm chuyển đổi Respring ngay lập tức khi chọn kiểu\n- Sửa lỗi và tối ưu hoá xoá thông báo\n- Thêm ngôn ngữ Tiếng Việt.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 2.5.3\n- Added instant Respring toggle when selecting a style\n- Bug fixes and optimized notification clearing\n- Added Vietnamese language support.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên hệ Hỗ trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
-"openExternal": 1,
-"title": "Kênh Telegram",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
 },
 {
 "class": "DepictionTableButtonView",
-"openExternal": 1,
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
 "class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class": "DepictionTableButtonView",
-"title": "Ủng hộ tôi",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class": "DepictionLabelView",
-"text": "Copyright © 2025 by JTISVN",
+"text": "Copyright © 2025 - 2030 by JTISVN",
 "textColor": "#999999",
 "fontSize": "10.0",
 "alignment": 1

@@ -11,18 +11,22 @@
 "class": "DepictionSpacerView"
 },
 {
-"class": "DepictionButtonView",
-"text": "Tham gia nhóm K37•JTISVN",
-"action": "https://t.me/jtisvietnamrepo",
-"openExternal": true
-},
-{
 "class": "DepictionTabView",
 "tabs": [
 {
 "class": "DepictionStackView",
 "tabname": "Tiếng Việt",
 "views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
 {
 "markdown": "### Evo Center\n\nMang trải nghiệm Trung tâm điều khiển (Control Center) hiện đại, phong cách iOS 18 lên các phiên bản iOS cũ hơn.",
 "useSpacing": false,
@@ -187,6 +191,16 @@
 "class": "DepictionStackView",
 "tabname": "English",
 "views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
 {
 "markdown": "### Evo Center\n\nBring a modern, iOS 18-style Control Center experience to older iOS versions.",
 "useSpacing": false,
@@ -408,19 +422,25 @@
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên Hệ Hỗ Trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Trang chủ Coolapk (JaySuen)",
-"action": "https://www.coolapk.com/"
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
 },
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
 },
 {
 "class": "DepictionTableButtonView",

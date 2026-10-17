@@ -11,18 +11,22 @@
 "class": "DepictionSpacerView"
 },
 {
-"class": "DepictionButtonView",
-"text": "Tham gia nhóm K37•JTISVN",
-"action": "https://t.me/jtisvietnamrepo",
-"openExternal": true
-},
-{
 "class": "DepictionTabView",
 "tabs": [
 {
 "class": "DepictionStackView",
 "tabname": "Tiếng Việt",
 "views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
 {
 "markdown": "### Lunora\n\nTinh chỉnh tùy biến thanh trạng thái toàn diện dành cho iOS, kết hợp hoàn hảo giữa các viên Capsule thông tin hiệu ứng kính, vòng trạng thái Duo / Orbit và thanh mini Dock đa năng.",
 "useSpacing": false,
@@ -177,7 +181,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "16.0 - 17.7",
+"text": "15.0 - 17.7",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -203,6 +207,16 @@
 "class": "DepictionStackView",
 "tabname": "English",
 "views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
 {
 "markdown": "### Lunora\n\nA comprehensive status bar customization tweak for iOS, combining glass-effect information Capsules, Duo / Orbit status rings and a versatile mini Dock bar.",
 "useSpacing": false,
@@ -357,7 +371,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 16.0 - 17.7",
+"text": "iOS 15.0 - 17.7",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -440,13 +454,25 @@
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên Hệ Hỗ Trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Kênh Telegram",
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
 },
 {
 "class": "DepictionTableButtonView",
@@ -463,7 +489,7 @@
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Ủng hộ tôi",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {

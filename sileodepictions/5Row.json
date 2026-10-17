@@ -11,10 +11,21 @@
 "class": "DepictionSpacerView"
 },
 {
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "class": "DepictionButtonView",
 "text": "Tham gia nhóm K37•JTISVN",
 "action": "https://t.me/jtisvietnamrepo",
 "openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
 },
 {
 "markdown": "### 5Row\n\nBổ sung hàng phím số thứ 5 tiện lợi ngay trên bàn phím gốc của iPhone, giúp trải nghiệm gõ phím nhanh chóng và mượt mà hơn.",
@@ -162,11 +173,184 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### 5Row\n\nAdds a convenient 5th row of number keys right on the iPhone's native keyboard, for faster and smoother typing.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/5Row/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/5Row/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Fixed number row:** Adds a separate number row above the default keyboard with a native iOS look.\n- **Smart character switching:** Press Shift or 123 to change the number row into commonly used punctuation.\n- **Rename keys freely:** Lets you edit the display labels for the ABC and 123 keys (up to 5 characters).\n- **Advanced features (Pro):** Freely customize 10 characters across both key rows, adjust the keyboard height and enable the always-show 5 rows mode.\n- **Flexible management:** Supports excluding individual apps (Blacklist), quick on/off and resetting to default settings with 1 tap.\n- **Note:** Only supports the vertical system keyboard on iPhone; third-party keyboards are not supported.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "PitroyTech",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 8, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.18.4",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "443.0 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 17.5.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
 {
 "tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
 "views": [
 {
 "markdown": "### Phiên bản 1.18.4\n- Tái cấu trúc cơ chế thêm hàng phím thứ 5 vào bàn phím Apple.\n- Sửa lỗi hiển thị sai ký tự trên phím sau khi chuyển đổi bố cục bàn phím.\n- Mã hóa nhật ký chẩn đoán, hỗ trợ sao chép hoặc xuất tệp trực tiếp từ Cài đặt.\n- Cập nhật biểu tượng ứng dụng mới.\n- Cập nhật email hỗ trợ thành: pitroytechcode@gmail.com",
@@ -182,23 +366,73 @@
 "class": "DepictionMarkdownView"
 },
 {
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
 "class": "DepictionLabelView",
 "text": "Copyright © 2025 - 2030 by JTISVN",
 "textColor": "#999999",
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 1.18.4\n- Restructured the mechanism for adding the 5th key row to the Apple keyboard.\n- Fixed incorrect characters shown on keys after switching keyboard layouts.\n- Encrypted diagnostic logs, with support for copying or exporting the file directly from Settings.\n- Updated the new app icon.\n- Updated the support email to: pitroytechcode@gmail.com",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 1.16.7\n- Bug fixes and improved stability.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên Hệ Hỗ Trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Kênh Telegram",
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
 },
 {
 "class": "DepictionTableButtonView",
@@ -215,7 +449,7 @@
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Ủng hộ tôi",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {

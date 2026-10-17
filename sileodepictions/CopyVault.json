@@ -11,19 +11,30 @@
 "class": "DepictionSpacerView"
 },
 {
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "class": "DepictionButtonView",
 "text": "Tham gia nhóm K37•JTISVN",
 "action": "https://t.me/jtisvietnamrepo",
 "openExternal": true
 },
 {
+"class": "DepictionButtonView",
 "text": "Mua bản quyền chính hãng",
 "action": "https://havoc.app/package/copyvault",
-"class": "DepictionButtonView",
 "openExternal": true
 },
 {
-"markdown": "### CopyVault\n\n> ⚠️ **Lưu ý quan trọng:** Gói cài đặt này chỉ dành cho người dùng đã có hoặc cần mua mã kích hoạt. Nếu bạn không sử dụng mã kích hoạt, vui lòng **không** cài đặt phiên bản này.\n\n Trình quản lý bộ nhớ tạm (Clipboard) siêu gọn nhẹ, đa năng và cực kỳ dễ sử dụng. Tweak giúp bạn phá bỏ giới hạn hệ thống để lưu trữ không giới hạn văn bản, liên kết, hình ảnh đã sao chép, đi kèm khả năng tìm kiếm chính xác và phân loại nhóm thông minh.",
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### CopyVault\n\n> ⚠️ **Lưu ý quan trọng:** Gói cài đặt này chỉ dành cho người dùng đã có hoặc cần mua mã kích hoạt. Nếu bạn không sử dụng mã kích hoạt, vui lòng **không** cài đặt phiên bản này.\n\nTrình quản lý bộ nhớ tạm (Clipboard) siêu gọn nhẹ, đa năng và cực kỳ dễ sử dụng. Tweak giúp bạn phá bỏ giới hạn hệ thống để lưu trữ không giới hạn văn bản, liên kết, hình ảnh đã sao chép, đi kèm khả năng tìm kiếm chính xác và phân loại nhóm thông minh.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -184,6 +195,194 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionButtonView",
+"text": "Buy the official license",
+"action": "https://havoc.app/package/copyvault",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### CopyVault\n\n> ⚠️ **Important note:** This package is only for users who already have or need to purchase an activation code. If you do not use an activation code, please **do not** install this version.\n\nA super lightweight, versatile and extremely easy-to-use clipboard manager. The tweak breaks system limits to store unlimited copied text, links and images, with precise search and smart grouping.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://media.havoc.app/668614f9b31c69deb5a49d30",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://media.havoc.app/66684f9120f56af0e76d133b",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://media.havoc.app/66684fa320f56af0e76d1547",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://media.havoc.app/66684fae5e7d7e36f1538894",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://media.havoc.app/66684fb720f56af0e76d17bf",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://media.havoc.app/666bc48ef0419252d3804a57",
+"accessibilityText": "Screenshot 6"
+}
+],
+"itemCornerRadius": 14,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Intuitive interface:** Friendly design that is easy to get used to and operate.\n- **Multi-format storage:** Supports saving plain text, rich text, links (URL) and images.\n- **Selective storage:** Supports Regular Expressions (Regex) to automatically recognize and save content by condition.\n- **Script integration:** Powerful extensibility with JavaScript scripts.\n- **Smart organization:** Lets you add notes and custom groups for items in the Favorites list.\n- **Superior search system:** Flexible search by text content, by format (enter keywords such as `txt`, `url`, `img`), by source app name, by copy time or by attached notes (with smart case-insensitive recognition).\n- **Quick-launch gestures:** Swipe up from the keyboard or use shortcuts on an external keyboard to quickly open the CopyVault interface.\n- **Flexible customization:** Freely personalize the interface and actions (press and hold / swipe left / swipe right on an item to see more function menus).\n- **Connected ecosystem:** Works perfectly with other tweaks such as SquidGesture, DockX, Hammer It, Snapper,...",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "lclrc",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 4, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.9.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.5 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 17.3",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
@@ -191,8 +390,16 @@
 "tabname": "Nhật ký thay đổi",
 "views": [
 {
-"class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.9.0\n- Bổ sung tùy chọn tự động hiển thị thanh tìm kiếm khi người dùng cuộn lên đầu trang.\n- Cho phép tùy chỉnh hiển thị thời gian hoặc biểu tượng ứng dụng làm mặc định khi sử dụng Chế độ tối giản (Minimalist Mode).\n- Thêm tính năng chuyển đổi nhanh qua lại giữa việc hiển thị thời gian và biểu tượng ứng dụng khi đang ở trong Chế độ tối giản."
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 1.9.0\n- Bổ sung tùy chọn tự động hiển thị thanh tìm kiếm khi người dùng cuộn lên đầu trang.\n- Cho phép tùy chỉnh hiển thị thời gian hoặc biểu tượng ứng dụng làm mặc định khi sử dụng Chế độ tối giản (Minimalist Mode).\n- Thêm tính năng chuyển đổi nhanh qua lại giữa việc hiển thị thời gian và biểu tượng ứng dụng khi đang ở trong Chế độ tối giản.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 15,
@@ -205,17 +412,55 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 1.9.0\n- Added an option to automatically show the search bar when the user scrolls to the top.\n- Allows customizing whether time or the app icon is displayed by default in Minimalist Mode.\n- Added a quick toggle between showing time and the app icon while in Minimalist Mode.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên Hệ Hỗ Trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
 },
 {
 "class": "DepictionTableButtonView",

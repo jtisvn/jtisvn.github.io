@@ -1,15 +1,22 @@
 {
-"minVersion":"0.3",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#334155",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#334155",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
 "spacing": 12,
 "class": "DepictionSpacerView"
 },
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
 {
 "class": "DepictionButtonView",
 "text": "Tham gia nhóm K37•JTISVN",
@@ -17,35 +24,39 @@
 "openExternal": true
 },
 {
-"markdown":"### DarkIcon\n\n Công cụ tùy biến biểu tượng (Icon) và làm tối hình nền cao cấp cho iOS 15 đến iOS 18. Tweak mang đến giao diện Dark Mode toàn diện, tự động đồng bộ theo hệ thống cho Màn hình chính, Thư mục và thanh tìm kiếm Spotlight.",
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### DarkIcon\n\nCông cụ tùy biến biểu tượng (Icon) và làm tối hình nền cao cấp cho iOS 15 đến iOS 18. Tweak mang đến giao diện Dark Mode toàn diện, tự động đồng bộ theo hệ thống cho Màn hình chính, Thư mục và thanh tìm kiếm Spotlight.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
+"class": "DepictionScreenshotsView",
+"screenshots": [
 {
-"url":"https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/1.png",
-"accessibilityText":"Screenshot 1"
+"url": "https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/2.png",
-"accessibilityText":"Screenshot 2"
+"url": "https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/3.png",
-"accessibilityText":"Screenshot 3"
+"url": "https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/4.png",
-"accessibilityText":"Screenshot 4"
+"url": "https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
 }
 ],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"- **Tính năng nổi bật:**\n\n- **Làm tối hình nền thông minh:** Tự động điều chỉnh độ mờ hình nền Màn hình chính và Màn hình khóa trên iOS 16–18 dựa trên độ sáng của ảnh, có thể tùy chỉnh cường độ thủ công.\n- **Đồng bộ giao diện Icon:** Tự động áp dụng chế độ Tối (Dark Mode) cho icon trên Màn hình chính, Thư mục và Spotlight (hỗ trợ hoàn hảo iOS 15–17).\n- **Đa dạng phong cách biểu tượng:** Tùy chọn độc lập các kiểu Gốc (Original), Tối (Dark), Trong suốt (Clear) hoặc Phủ màu (Tinted) riêng biệt cho chế độ Sáng và Tối.\n- **Thuật toán xử lý linh hoạt:** Hỗ trợ chế độ Kết hợp (Hybrid), Apple và Chroma giúp tối ưu hóa icon ứng dụng mượt mà, giữ nguyên chi tiết và màu sắc chủ đạo của chủ thể.\n- **Bộ nhớ đệm hiệu suất cao:** Hệ thống cache ổ đĩa kết hợp hot-cache 64MB giúp giảm tải đọc ghi, tăng tốc độ cuộn trang và tiết kiệm pin tối đa.\n- **Tùy chỉnh mở rộng:** Hỗ trợ nhập ảnh thủ công từ Thư viện/Tệp, quản lý danh sách ngoại lệ không áp dụng Dark Icon, cùng bảng điều khiển tùy biến trực tiếp trên iOS 16/17/18.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Làm tối hình nền thông minh:** Tự động điều chỉnh độ mờ hình nền Màn hình chính và Màn hình khóa trên iOS 16–18 dựa trên độ sáng của ảnh, có thể tùy chỉnh cường độ thủ công.\n- **Đồng bộ giao diện Icon:** Tự động áp dụng chế độ Tối (Dark Mode) cho icon trên Màn hình chính, Thư mục và Spotlight (hỗ trợ hoàn hảo iOS 15–17).\n- **Đa dạng phong cách biểu tượng:** Tùy chọn độc lập các kiểu Gốc (Original), Tối (Dark), Trong suốt (Clear) hoặc Phủ màu (Tinted) riêng biệt cho chế độ Sáng và Tối.\n- **Thuật toán xử lý linh hoạt:** Hỗ trợ chế độ Kết hợp (Hybrid), Apple và Chroma giúp tối ưu hóa icon ứng dụng mượt mà, giữ nguyên chi tiết và màu sắc chủ đạo của chủ thể.\n- **Bộ nhớ đệm hiệu suất cao:** Hệ thống cache ổ đĩa kết hợp hot-cache 64MB giúp giảm tải đọc ghi, tăng tốc độ cuộn trang và tiết kiệm pin tối đa.\n- **Tùy chỉnh mở rộng:** Hỗ trợ nhập ảnh thủ công từ Thư viện/Tệp, quản lý danh sách ngoại lệ không áp dụng Dark Icon, cùng bảng điều khiển tùy biến trực tiếp trên iOS 16/17/18.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -164,74 +175,293 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### DarkIcon\n\nAn advanced icon customization and wallpaper darkening tool for iOS 15 to iOS 18. The tweak brings a comprehensive Dark Mode look that automatically follows the system for the Home Screen, Folders and the Spotlight search bar.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DarkIcon/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Smart wallpaper darkening:** Automatically adjusts Home Screen and Lock Screen wallpaper dimming on iOS 16–18 based on image brightness, with manual intensity adjustment.\n- **Synced icon appearance:** Automatically applies Dark Mode to icons on the Home Screen, Folders and Spotlight (fully supported on iOS 15–17).\n- **Diverse icon styles:** Independently choose Original, Dark, Clear or Tinted styles separately for Light and Dark modes.\n- **Flexible processing algorithms:** Supports Hybrid, Apple and Chroma modes to smoothly optimize app icons while preserving the details and main colors of the subject.\n- **High-performance cache:** A disk cache combined with a 64MB hot-cache reduces read/write load, speeds up scrolling and saves maximum battery.\n- **Extended customization:** Supports manual image import from Library/Files, managing an exception list that skips Dark Icon, plus a customization panel directly on iOS 16/17/18.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "hades",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 13, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.9.20",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 18.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.9.20\n- Thêm tính năng nhập gói icon và icon đơn lẻ trên iOS 18, 26 và 27, đồng thời giữ nguyên bảng tùy chỉnh Màn hình chính nguyên bản.\n- Cải thiện việc chuyển đổi kiểu icon, thu nhỏ thư mục, biểu tượng động của Đồng hồ và Lịch trên hệ thống mới.\n- Sử dụng cơ chế dự phòng nguyên bản hoặc thuật toán tùy phiên bản hệ thống, ưu tiên nhập icon lẻ và bảo toàn cache cùng hình ảnh hiện có.",
-"useSpacing": true
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 0.9.20\n- Thêm tính năng nhập gói icon và icon đơn lẻ trên iOS 18, 26 và 27, đồng thời giữ nguyên bảng tùy chỉnh Màn hình chính nguyên bản.\n- Cải thiện việc chuyển đổi kiểu icon, thu nhỏ thư mục, biểu tượng động của Đồng hồ và Lịch trên hệ thống mới.\n- Sử dụng cơ chế dự phòng nguyên bản hoặc thuật toán tùy phiên bản hệ thống, ưu tiên nhập icon lẻ và bảo toàn cache cùng hình ảnh hiện có.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 15,
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 0.9.20\n- Added support for importing icon packs and individual icons on iOS 18, 26 and 27, while keeping the native Home Screen customization panel intact.\n- Improved icon style switching, folder miniaturization, and the animated Clock and Calendar icons on newer systems.\n- Uses the native fallback mechanism or a version-specific algorithm depending on the system, prioritizes importing individual icons, and preserves the existing cache and images.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Liên Hệ Hỗ Trợ",
-"views":[
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

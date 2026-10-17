@@ -1,5 +1,5 @@
 {
-"minVersion": "0.1",
+"minVersion": "0.3",
 "headerImage": "https://jtisvn.github.io/coverimage/Atria.png",
 "tintColor": "#996666",
 "tabs": [
@@ -11,13 +11,24 @@
 "class": "DepictionSpacerView"
 },
 {
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "class": "DepictionButtonView",
 "text": "Tham gia nhóm K37•JTISVN",
 "action": "https://t.me/jtisvietnamrepo",
 "openExternal": true
 },
 {
-"markdown": "Atria\n\n- Mang đến một hệ thống cấu hình bố cục màn hình chính linh động cho người dùng iOS",
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Atria\n\nMang đến một hệ thống cấu hình bố cục màn hình chính linh động cho người dùng iOS.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -26,26 +37,26 @@
 "screenshots": [
 {
 "url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/1.png",
-"accessibilityText": "Screenshot"
+"accessibilityText": "Screenshot 1"
 },
 {
 "url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/2.png",
-"accessibilityText": "Screenshot"
+"accessibilityText": "Screenshot 2"
 },
 {
 "url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/3.png",
-"accessibilityText": "Screenshot"
+"accessibilityText": "Screenshot 3"
 },
 {
 "url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/4.png",
-"accessibilityText": "Screenshot"
+"accessibilityText": "Screenshot 4"
 }
 ],
 "itemCornerRadius": 0,
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- Bố cục và điểu chỉnh biều tượng cho mỗi trang.\n\n- Tự động định vị và tương thích widget.\n\n- Tự động lưu trạng thái biểu tượng.\n\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng\n\n- Tùy chỉnh tỷ lệ biểu tượng widget\n\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n\n- Tùy chỉnh khoảng cách trang và widget.\n\n- Bật/Tắt Thư viện Ứng dụng\n\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục\n\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng\n\n- Tuỳ chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.n\n- Tùy chỉnh vị trí dấu chấm trang\n\n- Xuất và nhập các chuỗi cài đặt đặt trước\n\n- Và còn nhiều tùy chọn khác nữa.",
+"markdown": "- **Tính năng nổi bật:**\n\n- Bố cục và điều chỉnh biểu tượng cho mỗi trang.\n- Tự động định vị và tương thích widget.\n- Tự động lưu trạng thái biểu tượng.\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng.\n- Tùy chỉnh tỷ lệ biểu tượng widget.\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n- Tùy chỉnh khoảng cách trang và widget.\n- Bật/Tắt Thư viện Ứng dụng.\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục.\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng.\n- Tùy chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.\n- Tùy chỉnh vị trí dấu chấm trang.\n- Xuất và nhập các chuỗi cài đặt đặt trước.\n- Và còn nhiều tùy chọn khác nữa.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -170,6 +181,180 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Atria\n\nBrings a flexible Home Screen layout configuration system to iOS users.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Atria/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+}
+],
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- Layout and icon adjustments for each page.\n- Automatic widget positioning and compatibility.\n- Automatically saves icon state.\n- Customize icon columns/rows and icon scale.\n- Customize widget icon scale.\n- Customize page margins (left, right, top, bottom).\n- Customize page and widget spacing.\n- Enable/Disable App Library.\n- Hide notification badges, labels, page dots and blur folder icons.\n- Show a blur layer behind icons.\n- Customize page label display and the Welcome message.\n- Customize page dot position.\n- Export and import saved presets.\n- And many more options.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Ren7995",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "March 15, 2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.4.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "826.6 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 14.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
@@ -177,35 +362,94 @@
 "tabname": "Nhật ký thay đổi",
 "views": [
 {
-"class": "DepictionMarkdownView",
-"markdown": "###  Phiên bản 1.4.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 1.4.1\n- Thêm ngôn ngữ Tiếng Việt\n- Hỗ trợ Rootless & Roothide Jailbreak",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 1.4.1\n- Added Vietnamese language support\n- Supports Rootless & Roothide Jailbreak",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên hệ Hỗ trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
-"openExternal": 1,
-"title": "Kênh Telegram",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
 },
 {
 "class": "DepictionTableButtonView",
-"openExternal": 1,
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
 "class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class": "DepictionTableButtonView",
-"title": "Ủng hộ tôi",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {

@@ -11,13 +11,24 @@
 "class": "DepictionSpacerView"
 },
 {
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
 "class": "DepictionButtonView",
 "text": "Tham gia nhóm K37•JTISVN",
 "action": "https://t.me/jtisvietnamrepo",
 "openExternal": true
 },
 {
-"markdown": "### AppData (Chỉnh sửa bởi iosdump)\n\n- Công cụ hỗ trợ xem và quản lý dữ liệu ứng dụng trực tiếp từ màn hình chính iOS một cách nhanh chóng và tiện lợi.",
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### AppData (Chỉnh sửa bởi iosdump)\n\nCông cụ hỗ trợ xem và quản lý dữ liệu ứng dụng trực tiếp từ màn hình chính iOS một cách nhanh chóng và tiện lợi.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -148,7 +159,7 @@
 "class": "DepictionLabelView",
 "text": "14.0 - 17.0",
 "fontWeight": "semibold",
-"fontSize": "17.0",
+"fontSize": 17,
 "usePadding": false
 }
 ]
@@ -166,11 +177,188 @@
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### AppData (Modified by iosdump)\n\nA tool to quickly and conveniently view and manage app data directly from the iOS Home Screen.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/AppData/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/AppData/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/AppData/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Data Management:** Clear cache, delete all app data, reset system permissions or downgrade apps.\n- **Icon Customization:** Rename icons, hide apps and manage the quick menu layout.\n- **Background & App Blocking:** Supports advanced backgrounding, blocking apps from opening or being opened, and blocking auto-updates.\n- **Schemes & Identifiers:** Quickly view Bundle ID, Container Path, App Groups, URL Schemes and jump to the folder location in Filza.\n- **Quick Actions:** Integrated swipe options or 3D Touch menu on the app icon.\n\n- **Note:** Remove the original AppData tweak before installing to avoid conflicts.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iosdump",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "September 24, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.7.5",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "375.7 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 14.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
 {
 "tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
 "views": [
 {
 "markdown": "### Phiên bản 2.7.5\n- Thêm tùy chọn trình quản lý tệp Filza mới (tự động chuyển hướng từ trang cài đặt / bảng điều khiển).\n- Thêm danh sách xem các ứng dụng đang bị chặn tự động cập nhật.\n- Bổ sung thêm các tùy chọn tắt âm thông báo ứng dụng.",
@@ -218,40 +406,122 @@
 "class": "DepictionMarkdownView"
 },
 {
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
 "class": "DepictionLabelView",
 "text": "Copyright © 2025 - 2030 by JTISVN",
 "textColor": "#999999",
 "fontSize": "10.0",
 "alignment": 1
 }
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 2.7.5\n- Added a new Filza file manager option (automatically redirects from the settings page / control panel).\n- Added a list view of apps currently blocked from auto-updating.\n- Added more options to mute app notification sounds.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 2.7.3\n- Changed and rebuilt the app downgrade feature.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 2.7.1\n- Fixed a crash (array out of bounds) and a bug where the Blacklist button did not appear after moving it to the main interface page.\n- Added a feature to block apps from automatically turning off the screen (keep the screen always on).\n- Added a quick toggle for the app's RootHide Blacklist right in the extended features page.\n- Optimized icon loading logic, reducing disk reads and I/O load for smoother performance.\n- Fixed a conflict that stopped the pull-down-notification split-screen feature of the FV tweak from working when using AppData.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 2.6.9\n- Adjusted the control panel's frosted glass effect in light mode.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 2.6.8\n- Added English language support.\n- Optimized the panel interface.\n- Added a feature to block apps from auto-updating.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 2.6.7\n- Added English language support.\n- Added a feature to mute sound when launching apps.\n- Added a running-app indicator, enabled in the settings page.\n- Optimized the app downgrade feature.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname": "Liên Hệ Hỗ Trợ",
+"tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
 "class": "DepictionTableButtonView",
-"openExternal": 1,
-"title": "Kênh Telegram",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
 },
 {
 "class": "DepictionTableButtonView",
-"openExternal": 1,
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
 "class": "DepictionTableButtonView",
-"openExternal": 1,
+"openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class": "DepictionTableButtonView",
-"openExternal": 1,
-"title": "Ủng hộ tôi",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
