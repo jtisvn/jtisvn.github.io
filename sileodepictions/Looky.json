@@ -1,32 +1,54 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#CFCFCF",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#CFCFCF",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
+"class": "DepictionTabView",
+"tabs": [
 {
-"url":"https://jtisvn.github.io/infodeb/Looky/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Looky/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSpacerView",
+"spacing": 10
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Looky/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"markdown": "### Looky\n\nLuôn cập nhật thông báo mà không cần mở khoá thiết bị.\n\nTweak này sẽ hiển thị thông báo ngay trên màn hình khóa, giúp bạn nắm bắt thông tin nhanh chóng chỉ bằng một cái liếc mắt, không cần phải bật màn hình hay cầm điện thoại lên. Dù bạn đang bận rộn, thư giãn hay chỉ đơn giản là muốn trải nghiệm rảnh tay, Looky được thiết kế để giúp bạn luôn cập nhật một cách dễ dàng.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/Looky/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Looky/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Looky/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
 },
 {
-"markdown":" Looky\n\n- Luôn cập nhật thông báo mà không cần mở khoá thiết bị\n\n- Tweak này sẽ hiển thị thông báo ngay trên màn hình khóa, giúp bạn nắm bắt thông tin nhanh chóng chỉ bằng một cái liếc mắt, không cần phải bật màn hình hay cầm điện thoại lên. Dù bạn đang bận rộn, thư giãn hay chỉ đơn giản là muốn trải nghiệm rảnh tay,Looky được thiết kế để giúp bạn luôn cập nhật một cách dễ dàng.\n\n- Các tính năng nổi bật:\n\n- Khi có thông báo mới, tên và biểu tượng ứng dụng sẽ hiển thị ngay lập tức.\n\n- Bạn có thể tùy chọn hiển thị nội dung thông báo để đọc trước tin nhắn.\n\n- Hiện tại, tweak này hỗ trợ hiển thị ảnh đại diện của WhatsApp (sẽ có thêm nhiều ứng dụng trong bản cập nhật lần sau.\n\n- Chạm vào bất kỳ đâu trên màn hình để tắt hiệu ứng thông báo ngay lập tức nếu bạn không cần xem toàn bộ nội dung.\n\n- Một đường viền màu sắc bao quanh màn hình tạo nên một vẻ ngoài hiện đại và độc đáo. Tính năng này chỉ hoạt động trên iPhone X trở lên.\n\n- Bạn có thể chọn màu viền cố định hoặc để tinh chỉnh tự động đổi màu theo biểu tượng của ứng dụng gửi thông báo.\n\n- Hiền thị nền mờ phía sau nội dung thông báo, tạo cảm giác dễ chịu.\n\n- Bạn có thể tùy chỉnh màu nền hoặc tự động phối màu theo biểu tượng ứng dụng.\n\n- Bạn có thể chọn màu chữ cho tin nhắn, hoặc để nó tự động đồng bộ với màu biểu tượng của ứng dụng.\n\n- Bao gồm hiệu ứng tuyết rơi nhẹ nhàng, mang lại trải nghiệm tinh tế và thư thái.\n\n- Tương thích với các thiết bị từ iPhone X đến iPhone 14 Pro Max, hỗ trợ đầy đủ cho cả Rootless Jailbreak và RootHide Jailbreak.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Thông báo tức thì:** Khi có thông báo mới, tên và biểu tượng ứng dụng sẽ hiển thị ngay lập tức.\n- **Xem trước nội dung:** Bạn có thể tùy chọn hiển thị nội dung thông báo để đọc trước tin nhắn.\n- **Ảnh đại diện WhatsApp:** Hiện tại, tweak này hỗ trợ hiển thị ảnh đại diện của WhatsApp (sẽ có thêm nhiều ứng dụng trong bản cập nhật sau).\n- **Tắt nhanh:** Chạm vào bất kỳ đâu trên màn hình để tắt hiệu ứng thông báo ngay lập tức nếu bạn không cần xem toàn bộ nội dung.\n- **Viền màu quanh màn hình:** Một đường viền màu sắc bao quanh màn hình tạo nên vẻ ngoài hiện đại và độc đáo (chỉ hoạt động trên iPhone X trở lên). Bạn có thể chọn màu viền cố định hoặc để tinh chỉnh tự động đổi màu theo biểu tượng của ứng dụng gửi thông báo.\n- **Nền mờ:** Hiển thị nền mờ phía sau nội dung thông báo, tạo cảm giác dễ chịu. Bạn có thể tùy chỉnh màu nền hoặc tự động phối màu theo biểu tượng ứng dụng.\n- **Màu chữ:** Bạn có thể chọn màu chữ cho tin nhắn, hoặc để nó tự động đồng bộ với màu biểu tượng của ứng dụng.\n- **Hiệu ứng tuyết rơi:** Bao gồm hiệu ứng tuyết rơi nhẹ nhàng, mang lại trải nghiệm tinh tế và thư thái.\n- **Tương thích:** Từ iPhone X đến iPhone 14 Pro Max, hỗ trợ đầy đủ cho cả Rootless Jailbreak và RootHide Jailbreak.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -145,60 +167,369 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Looky\n\nAlways stay up to date with notifications without unlocking your device.\n\nThis tweak shows notifications right on the lock screen, letting you catch information quickly at a glance, without turning on the screen or picking up your phone. Whether you are busy, relaxing or simply want a hands-free experience, Looky is designed to keep you updated with ease.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/Looky/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Looky/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Looky/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+}
+],
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Instant notifications:** When a new notification arrives, the app name and icon appear immediately.\n- **Content preview:** You can optionally show the notification content to read the message in advance.\n- **WhatsApp profile pictures:** Currently the tweak supports displaying WhatsApp profile pictures (more apps will be added in future updates).\n- **Quick dismiss:** Tap anywhere on the screen to dismiss the notification effect immediately if you do not need to see the full content.\n- **Colored screen border:** A colored border around the screen gives a modern and unique look (only works on iPhone X and later). You can choose a fixed border color or let the tweak automatically change color to match the icon of the app that sent the notification.\n- **Blurred background:** Shows a blurred background behind the notification content for a pleasant feel. You can customize the background color or automatically match it to the app icon.\n- **Text color:** You can choose the message text color, or let it automatically sync with the app icon color.\n- **Snowfall effect:** Includes a gentle snowfall effect for a refined and relaxing experience.\n- **Compatibility:** From iPhone X to iPhone 14 Pro Max, with full support for both Rootless Jailbreak and RootHide Jailbreak.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "ella89sp",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "December 24, 2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.3",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "439.76 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.3\n\n- Thêm hỗ trợ iOS 17.0 và hơn thế nữa\n\n ### Phiên bản 1.2\n\n- Xoá bỏ tăng và giảm âm lượng gửi thông báo thử nghiệm\n\n ### Phiên bản 1.0.6\n\n- Thêm huy hiệu vào bên cảnh ảnh đại diện WhatsApp để hiển thì biểu tượng\n\n ### Phiên bản 1.0.5\n\n- Thêm thay đổi kích thước tiêu đề\n\n- Thêm thay đổi kích thước tin nhắn\n\n- Thêm thay đổi kích thước biểu tượng\n\n- Thêm hiệu ứng viền nhấp nháy\n\n- Thêm hỗ trợ ứng dụng X (twiter)\n\n- Xoá bỏ nút tăng, giảm âm lương khi gửi thông báo thử nghiệm\n\n ### Phiên bản 1.0.4 \n\n- Thêm thời gian hiển thị\n\n ### Phiên bản 1.0.2\n\n- Sửa lỗi trên IOS 15\n\n- Thêm ngôn ngữ Tiếng Việt."
-}
-],
-"class":"DepictionStackView"
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 1.3\n- Thêm hỗ trợ iOS 17.0 và hơn thế nữa.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
-"views":[
+"class": "DepictionSeparatorView"
+},
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
-"title": "Kênh Telegram",
+"markdown": "### Phiên bản 1.2\n- Xoá bỏ nút tăng và giảm âm lượng khi gửi thông báo thử nghiệm.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 1.0.6\n- Thêm huy hiệu vào bên cạnh ảnh đại diện WhatsApp để hiển thị biểu tượng.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 1.0.5\n- Thêm thay đổi kích thước tiêu đề.\n- Thêm thay đổi kích thước tin nhắn.\n- Thêm thay đổi kích thước biểu tượng.\n- Thêm hiệu ứng viền nhấp nháy.\n- Thêm hỗ trợ ứng dụng X (Twitter).\n- Xoá bỏ nút tăng, giảm âm lượng khi gửi thông báo thử nghiệm.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 1.0.4\n- Thêm thời gian hiển thị.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 1.0.2\n- Sửa lỗi trên iOS 15.\n- Thêm ngôn ngữ Tiếng Việt.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 1.3\n- Added support for iOS 17.0 and beyond.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 1.2\n- Removed the volume up/down buttons when sending a test notification.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 1.0.6\n- Added a badge next to the WhatsApp profile picture to display the app icon.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 1.0.5\n- Added title size adjustment.\n- Added message size adjustment.\n- Added icon size adjustment.\n- Added a blinking border effect.\n- Added support for the X (Twitter) app.\n- Removed the volume up/down buttons when sending a test notification.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 1.0.4\n- Added display duration.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 1.0.2\n- Fixed issues on iOS 15.\n- Added Vietnamese language support.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Ủng hộ tôi",
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

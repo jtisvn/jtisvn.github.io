@@ -32,27 +32,31 @@
 "class": "DepictionScreenshotsView",
 "screenshots": [
 {
-"url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/1.png",
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/1.png",
 "accessibilityText": "Screenshot 1"
 },
 {
-"url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/2.png",
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/2.png",
 "accessibilityText": "Screenshot 2"
 },
 {
-"url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/3.png",
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/3.png",
 "accessibilityText": "Screenshot 3"
 },
 {
-"url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/4.png",
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/4.png",
 "accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
 }
 ],
 "itemCornerRadius": 8,
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- **Điều hướng cử chỉ nguyên bản:** Vuốt lên để về Màn hình chính, vuốt và giữ để mở Trình chuyển đổi ứng dụng, vuốt dọc cạnh dưới để chuyển đổi nhanh giữa các ứng dụng.\n- **Thanh trạng thái phong cách Face ID:** Đem lại giao diện iPhone X hiện đại với đồng hồ bên trái và lối tắt mở Trung tâm điều khiển từ góc trên bên phải.\n- **Lối tắt Màn hình khóa:** Tích hợp sẵn nút bật Đèn pin và Máy ảnh ngay trên Màn hình khóa.\n- **Tương thích thiết bị:** Hỗ trợ hoàn hảo cho iPhone 8, iPhone 8 Plus, iPhone SE (2020) và iPhone SE (2022) chạy iOS 16.0 – 16.7.16.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Điều hướng cử chỉ gốc:** Vuốt lên để về Màn hình chính, vuốt và giữ để mở Trình chuyển đổi ứng dụng, vuốt dọc cạnh dưới để chuyển đổi nhanh giữa các ứng dụng.\n- **Thanh trạng thái phong cách Face ID:** Bố cục giao diện iPhone X hiện đại với đồng hồ bên trái và lối tắt mở Trung tâm điều khiển từ góc trên bên phải.\n- **Phím tắt Màn hình khóa:** Tích hợp sẵn nút bật Đèn pin và Máy ảnh ngay trên Màn hình khóa.\n- **Tương thích thiết bị:** Hỗ trợ hoàn hảo cho iPhone 8, iPhone 8 Plus, iPhone SE (2020) và iPhone SE (2022) chạy iOS 16.0 – 16.7.16.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -113,7 +117,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14/10/2026",
+"text": "18/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -131,7 +135,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.4",
+"text": "1.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -202,27 +206,31 @@
 "class": "DepictionScreenshotsView",
 "screenshots": [
 {
-"url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/1.png",
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/1.png",
 "accessibilityText": "Screenshot 1"
 },
 {
-"url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/2.png",
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/2.png",
 "accessibilityText": "Screenshot 2"
 },
 {
-"url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/3.png",
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/3.png",
 "accessibilityText": "Screenshot 3"
 },
 {
-"url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/4.png",
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/4.png",
 "accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Gestures16/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
 }
 ],
 "itemCornerRadius": 8,
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Key Features:**\n\n- **Native gesture navigation:** Swipe up to go Home, swipe and hold to open the App Switcher, and swipe along the bottom edge to quickly switch between apps.\n- **Face ID-style status bar:** Delivers the modern iPhone X look with the clock on the left and a shortcut to open Control Center from the top-right corner.\n- **Lock Screen shortcuts:** Built-in Flashlight and Camera buttons right on the Lock Screen.\n- **Device compatibility:** Fully supports iPhone 8, iPhone 8 Plus, iPhone SE (2020) and iPhone SE (2022) running iOS 16.0 – 16.7.16.",
+"markdown": "- **Key Features:**\n\n- **Native gesture navigation:** Swipe up to go Home, swipe and hold to open the App Switcher, and swipe along the bottom edge to quickly switch between apps.\n- **Face ID-style status bar:** A modern iPhone X interface layout with the clock on the left and a shortcut to open Control Center from the top-right corner.\n- **Lock Screen shortcuts:** Built-in Flashlight and Camera buttons right on the Lock Screen.\n- **Device compatibility:** Fully supports iPhone 8, iPhone 8 Plus, iPhone SE (2020) and iPhone SE (2022) running iOS 16.0 – 16.7.16.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -283,7 +291,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 14, 2026",
+"text": "October 18, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -301,7 +309,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.4",
+"text": "1.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -365,7 +373,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 1.0.3\n- Thêm tích hợp trình chọn trong Trung tâm điều khiển.",
+"markdown": "### Phiên bản 1.1\n- Thêm tuỳ chỉnh các tính năng trong cài đặt.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -387,7 +395,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 1.0.3\n- Added picker integration in Control Center.",
+"markdown": "### Version 1.1\n- Added customization options for the features in Settings.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
