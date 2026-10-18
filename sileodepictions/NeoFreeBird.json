@@ -7,10 +7,6 @@
 "tabname": "Giới thiệu",
 "views": [
 {
-"spacing": 12,
-"class": "DepictionSpacerView"
-},
-{
 "class": "DepictionTabView",
 "tabs": [
 {

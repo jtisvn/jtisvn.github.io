@@ -1,0 +1,9 @@
+Package: com.kitsudo.notifgradient
+Name: NotifGradient
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Gradient text color for notifications
+Maintainer: Kitsudo
+Author: Kitsudo
+Section: Tweaks
