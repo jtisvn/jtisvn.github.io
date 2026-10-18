@@ -1,36 +1,58 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/VisibleIsland.png",
-"tintColor":"#5777B8",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/VisibleIsland.png",
+"tintColor": "#5777B8",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
+"class": "DepictionTabView",
+"tabs": [
 {
-"url":"https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSpacerView",
+"spacing": 10
 },
 {
-"url":"https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"markdown": "### VisibleIsland\n\nMang đến một cách mới mẻ và đơn giản để kích hoạt và tuỳ chỉnh Dynamic Island trên các dòng cũ dưới iPhone 14 Pro.\n\nHỗ trợ tương thích với các thiết bị iOS 16 trở lên.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/4.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"### VisibleIsland\n\n- Mang đến một cách mới mẻ và đơn giản để kích hoạt và tuỳ chỉnh Dynamic Lsland trên các dòng cũ dưới iPhone 14 Pro.\n\n- Hỗ trợ tương thích với các thiết bị iOS 16 trở lên.\n\n- Chức măng gồm:\n\n- Bật/Tắt Dynamic Lsland chỉ với một nút gạt\n\n- Sửa và tuỳ chỉnh vị trí của Dynamic Lsland\n\n- Sửa và tuỳ chỉnh vị trí của các thông báo\n\n- Ẩn Dynamic Lsland khi không sử dụng\n\n- Thay đổi kích thước tỷ lệ của Dynamic Island theo ý muốn\n\n- Điều chỉnh độ trong suốt và màu sắc của Dynamic Island\n\n- **Lưu ý**: Trước khi xoá tweak nhớ tắt hết chức năng để tránh xảy ra lỗi sau khi Respring.",
+"markdown": "- **Tính năng nổi bật:**\n\n- Bật/Tắt Dynamic Island chỉ với một nút gạt.\n- Sửa và tuỳ chỉnh vị trí của Dynamic Island.\n- Sửa và tuỳ chỉnh vị trí của các thông báo.\n- Ẩn Dynamic Island khi không sử dụng.\n- Thay đổi kích thước tỷ lệ của Dynamic Island theo ý muốn.\n- Điều chỉnh độ trong suốt và màu sắc của Dynamic Island.\n\n- **Lưu ý:** Trước khi xoá tweak nhớ tắt hết chức năng để tránh xảy ra lỗi sau khi Respring.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -149,59 +171,293 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### VisibleIsland\n\nA fresh and simple way to enable and customize the Dynamic Island on older models below iPhone 14 Pro.\n\nCompatible with devices running iOS 16 and later.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/VisibleIsland/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+}
+],
+"itemCornerRadius": 0,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- Turn the Dynamic Island on/off with a single toggle.\n- Edit and customize the position of the Dynamic Island.\n- Edit and customize the position of notifications.\n- Hide the Dynamic Island when not in use.\n- Change the size and scale of the Dynamic Island as you like.\n- Adjust the transparency and color of the Dynamic Island.\n\n- **Note:** Before removing the tweak, remember to turn off all features to avoid issues after Respring.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "ethxnn88",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "August 18, 2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "27 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 16.0 - 16.7.11",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
 "class": "DepictionStackView"
 },
-{"tabname":"Nhật ký thay đổi",
-"views":[
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0\n\n- Sửa lỗi và thêm chức năng mới\n\n- Thêm ngôn ngữ Tiếng việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
-}
-],
-"class":"DepictionStackView"
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 2.0\n- Sửa lỗi và thêm chức năng mới\n- Thêm ngôn ngữ Tiếng Việt\n- Hỗ trợ Rootless & Roothide Jailbreak",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
-"tabname":"Liẻn hệ Hỗ trợ",
-"views":[
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
-"title": "Kênh Telegram",
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 2.0\n- Bug fixes and new features\n- Added Vietnamese language support\n- Supports Rootless & Roothide Jailbreak",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Ủng hộ tôi",
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }
