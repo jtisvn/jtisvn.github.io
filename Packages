@@ -340,6 +340,26 @@ icon: https://huayuarc.github.io/icon/manager.png
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 
+Package: com.roothide.patcher
+Architecture: iphoneos-arm64e
+Version: 2.1.4-1+debug
+Section: Utilities
+Maintainer: roothide
+Installed-Size: 4124
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Filename: ./debs/RootHide Patcher-2.1.4-1+debug-iphoneos-arm64e.deb
+Size: 1202360
+MD5sum: 55fabb004a2a813381b2830c63593d05
+SHA1: 0c3c5018b28d1130742a57ef92969b01aef642cf
+SHA256: 40b9aaddd4bd3a294337cc7694c57dbd3496714c3871c6c1c4646c72abc1ee86
+SHA512: 0799b0e667f0bde473e3e22fee560bc01a7b1b082e51d9b6e7858df7592376ebdc9fb532d0c7eff3a7a197d56ebeea3131839a70cb75fba373d1dba96aea1eff
+Description: patch rootless package to roothide, not work for all packages.
+Name: RootHide Patcher
+Author: roothide
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Depiction: https://github.com/roothide/RootHidePatcher
+Support: https://github.com/roothide/RootHidePatcher
+
 Package: ccom.jtisvn.stencilmonowhite
 Architecture: all
 Version: 1.3
@@ -376,6 +396,27 @@ SHA512: 8315beeb9b592c53d938886ffb5b8862661cf57d040b5d977732ce7df566019d3eabda46
 Description: Manage jailbreak concealment in RootHide environments.
 Name: Umbra (RootHide Manager)
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.umbra.patcher
+Architecture: iphoneos-arm64e
+Version: 3.0-1
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2532
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Conflicts: com.roothide.patcher
+Replaces: com.roothide.patcher
+Filename: ./debs/Umbra Patcher-3.0-1-iphoneos-arm64e.deb
+Size: 880254
+MD5sum: 50a10c6c48bc0caec493772308476722
+SHA1: e3099c8b45deafa2343fd43688fc7c4a7abfe218
+SHA256: 078755b71225cd67dfb5948a863c10699b10b0d646482faea66213aa1d650fd4
+SHA512: 51355ab696f4b8ea9601b29e0d5646a727099107d5cad8a31e0404b2419bf3856804986c59f48e27ca428ed6ce180c891597136323420165bce2c7d148aeca6a
+Homepage: https://github.com/owngoal-dev/RootHidePatcher
+Description: Convert supported tweak packages for RootHide custom firmware.
+Name: Umbra Patcher
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Support: https://github.com/owngoal-dev/RootHidePatcher/issues
 
 Package: com.hoanganh.unlockwave
 Architecture: iphoneos-arm64e
@@ -4134,13 +4175,13 @@ Installed-Size: 1644
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
 Filename: ./debs/com.johndie.triggr_1.5.0_iphoneos-arm64e.deb
-Size: 198600
-MD5sum: b9f5f20125d49838f211b6cfa2321546
-SHA1: f4294e293f850994c5959342f7a00894d5cdf447
-SHA256: b01d2fc9eda089ed4e2331bc9ef6493e79738e6f2affd7020d1b8aa33f6a7533
-SHA512: c66344ccda8a4486e17d4d88979d54c5a1332eda7353fa5617ed5aa8b17add12d5bd0c2566f46fd8810414c32f7a9602d444d06abcb5abd4a80b1e207cb73ac3
+Size: 198400
+MD5sum: 6206da1cf068ca68f8791811d3f62b7a
+SHA1: 429fbd977b7b184a44be8f8279c239ffe5d52833
+SHA256: 286137ff204d4254c208e29e4f25c9bf3acd791ec1ef3ab4b54d659b3a0c8ad6
+SHA512: e30b5c4299afc5ec5c891d14cd4dddbc75fbf76cb0049382dc04e233c79db09cd63871676f76963f56555db73b7752f4d05ae3b051de5d7604f3be4107c37b39
 Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
-Name: Triggr (Roôthide)
+Name: Triggr (Roothide)
 Author: John d_ie
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
 Depiction: https://jtisvn.github.io/depictions/Triggr.html
