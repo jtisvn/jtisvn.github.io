@@ -1,0 +1,552 @@
+{
+    "minVersion": "0.3",
+    "headerImage": "https://aronsz26.github.io/depictions/lockscreenrestore/depiction/banner.jpg",
+    "tintColor": "#0EA5E9",
+    "tabs": [
+    {
+    "tabname": "Giới thiệu",
+    "views": [
+    {
+    "class": "DepictionTabView",
+    "tabs": [
+    {
+    "class": "DepictionStackView",
+    "tabname": "Tiếng Việt",
+    "views": [
+    {
+    "class": "DepictionButtonView",
+    "text": "Tham gia nhóm K37•JTISVN",
+    "action": "https://t.me/jtisvietnamrepo",
+    "openExternal": true
+    },
+    {
+    "class": "DepictionSpacerView",
+    "spacing": 10
+    },
+    {
+    "markdown": "### LockScreenRestore\n\nMang màn hình khóa iOS 15 trở lại trên iOS 16. Đồng hồ mỏng với ngày ở phía dưới, ổ khóa lớn, thông báo ngay dưới đồng hồ, trình phát nhạc iOS 15, hình nền động cùng trang Cài đặt → Hình nền cũ.\n\nMọi thành phần đều có công tắc riêng, cho phép bạn kết hợp linh hoạt phong cách iOS 15 và iOS 16 theo ý thích.",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+    },
+    {
+    "class": "DepictionScreenshotsView",
+    "screenshots": [
+    {
+    "url": "https://aronsz26.github.io/depictions/lockscreenrestore/screenshots/lockscreen.png",
+    "accessibilityText": "Lock screen"
+    },
+    {
+    "url": "https://aronsz26.github.io/depictions/lockscreenrestore/screenshots/notifications.png",
+    "accessibilityText": "Notifications"
+    },
+    {
+    "url": "https://aronsz26.github.io/depictions/lockscreenrestore/screenshots/music.png",
+    "accessibilityText": "Music player"
+    }
+    ],
+    "itemCornerRadius": 8,
+    "itemSize": "{185,400}"
+    },
+    {
+    "markdown": "- **Các thay đổi chính:**\n\n- **Đồng hồ:** Đồng hồ và ngày mỏng kiểu iOS 15, ổ khóa lớn giữ nguyên trạng thái mở sau khi nhận diện khuôn mặt, không có hiệu ứng chiều sâu.\n- **Thông báo:** Hiển thị ngay dưới đồng hồ với các thẻ kiểu iOS 15 và tiêu đề Trung tâm thông báo.\n- **Trình phát nhạc:** Bìa album lớn kèm biểu tượng ứng dụng, nút AirPlay và thanh trượt âm lượng.\n- **Chế độ tập trung:** Hiển thị viên thuốc Focus ngay dưới ngày.\n- **Hiệu ứng mở khóa:** Hiệu ứng chuyển cảnh mượt mà về màn hình chính của iOS 15.\n- **Hình nền:** Hồi sinh hình nền Live và Dynamic, Thu phóng Phối cảnh (Perspective Zoom), cùng trang Cài đặt → Hình nền của iOS 15 kèm kho hình nền từ Apple.\n- **Màn hình chính:** Hiệu ứng đổ bóng nhẹ dưới tên ứng dụng kiểu iOS 15.\n- **Sạc pin:** Biểu tượng pin xuất hiện ngay tại vị trí đồng hồ.",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+    },
+    {
+    "spacing": 20,
+    "class": "DepictionSpacerView"
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Thông tin chi tiết",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": true,
+    "useMargins": true,
+    "margins": "{10,0,8,0}"
+    },
+    {
+    "class": "DepictionStackView",
+    "orientation": "landscape",
+    "views": [
+    {
+    "class": "DepictionStackView",
+    "views": [
+    {
+    "class": "DepictionLabelView",
+    "text": "Tác giả",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "aronsz26",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Thể loại",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Tweaks",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Mã nguồn",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "GitHub",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    }
+    ]
+    },
+    {
+    "class": "DepictionStackView",
+    "views": [
+    {
+    "class": "DepictionLabelView",
+    "text": "Phiên bản",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "1.9.5",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Kiểu",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Rootless",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Tương thích iOS",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "iOS 16",
+    "fontWeight": "semibold",
+    "fontSize": 17,
+    "usePadding": false
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "spacing": 25,
+    "class": "DepictionSpacerView"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Copyright © 2025 - 2030 by JTISVN",
+    "textColor": "#999999",
+    "fontSize": "10.0",
+    "alignment": 1
+    }
+    ]
+    },
+    {
+    "class": "DepictionStackView",
+    "tabname": "English",
+    "views": [
+    {
+    "class": "DepictionButtonView",
+    "text": "Join K37•JTISVN Group",
+    "action": "https://t.me/jtisvietnamrepo",
+    "openExternal": true
+    },
+    {
+    "class": "DepictionSpacerView",
+    "spacing": 10
+    },
+    {
+    "markdown": "### LockScreenRestore\n\nThe iOS 15 lock screen, back on iOS 16. Thin clock with the date below it, the big padlock, notifications right under the clock, the iOS 15 music player, live and dynamic wallpapers and the old Settings → Wallpaper page.\n\nEvery part has its own switch, so you can mix iOS 15 and iOS 16 however you like.",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+    },
+    {
+    "class": "DepictionScreenshotsView",
+    "screenshots": [
+    {
+    "url": "https://aronsz26.github.io/depictions/lockscreenrestore/screenshots/lockscreen.png",
+    "accessibilityText": "Lock screen"
+    },
+    {
+    "url": "https://aronsz26.github.io/depictions/lockscreenrestore/screenshots/notifications.png",
+    "accessibilityText": "Notifications"
+    },
+    {
+    "url": "https://aronsz26.github.io/depictions/lockscreenrestore/screenshots/music.png",
+    "accessibilityText": "Music player"
+    }
+    ],
+    "itemCornerRadius": 8,
+    "itemSize": "{185,400}"
+    },
+    {
+    "markdown": "- **What it changes:**\n\n- **Clock** – thin iOS 15 clock and date, big padlock that stays open after Face ID, no depth effect\n- **Notifications** – listed right under the clock with iOS 15 cards and the Notification Centre header\n- **Music player** – large artwork with the app's icon, AirPlay button, volume slider\n- **Focus** – the Focus pill under the date\n- **Unlock animation** – the iOS 15 transition to the home screen\n- **Wallpapers** – Live and Dynamic wallpapers are back, Perspective Zoom, and the iOS 15 Settings → Wallpaper page with Apple's iOS 14/15 wallpapers to download\n- **Home screen** – the lighter iOS 15 shadow under the app names\n- **Charging** – the battery appears where the clock is",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+    },
+    {
+    "spacing": 20,
+    "class": "DepictionSpacerView"
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Information",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": true,
+    "useMargins": true,
+    "margins": "{10,0,8,0}"
+    },
+    {
+    "class": "DepictionStackView",
+    "orientation": "landscape",
+    "views": [
+    {
+    "class": "DepictionStackView",
+    "views": [
+    {
+    "class": "DepictionLabelView",
+    "text": "Developer",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "aronsz26",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Category",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Tweaks",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Source",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "GitHub",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    }
+    ]
+    },
+    {
+    "class": "DepictionStackView",
+    "views": [
+    {
+    "class": "DepictionLabelView",
+    "text": "Version",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "1.9.5",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Type",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Rootless",
+    "fontWeight": "semibold",
+    "fontSize": 16,
+    "usePadding": false
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Compatibility",
+    "textColor": "#777",
+    "margins": "{16,0,8,0}"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "iOS 16",
+    "fontWeight": "semibold",
+    "fontSize": 17,
+    "usePadding": false
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "spacing": 25,
+    "class": "DepictionSpacerView"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Copyright © 2025 - 2030 by JTISVN",
+    "textColor": "#999999",
+    "fontSize": "10.0",
+    "alignment": 1
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "tabname": "Nhật ký thay đổi",
+    "views": [
+    {
+    "class": "DepictionTabView",
+    "tabs": [
+    {
+    "class": "DepictionStackView",
+    "tabname": "Tiếng Việt",
+    "views": [
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Phiên bản 1.9.5\n- Hình nền động và tĩnh được hiển thị trực tiếp bằng giao diện gốc của iOS 15, đi kèm hiệu ứng chuyển động và Thu phóng Phối cảnh (Perspective Zoom)\n- Hiệu ứng đổ bóng nhẹ dưới tên ứng dụng kiểu iOS 15 (có công tắc mới)\n- Kích thước chuẩn iOS 15 cho các thẻ thông báo, trình phát nhạc và phông chữ đồng hồ\n- Hỗ trợ tải hình nền động trên mọi dòng iPhone bao gồm iPhone SE, 8, 8 Plus và XR\n- Kéo xuống bất kỳ đâu trên màn hình khóa để mở tìm kiếm tương tự iOS 15\n- Cài đặt → Hình nền mở giao diện xem trước gốc của iOS với nút Hủy và Đặt\n- Các dòng iPhone Plus: Hình nền tự xoay theo màn hình chính khi xoay ngang và thanh dock làm mờ hình nền phù hợp",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Phiên bản 1.9.4\n- Trình phát nhạc: Chạm vào ảnh bìa sẽ mở ứng dụng đang phát nhạc giống iOS 15\n- Kích thước ngày tháng thay đổi linh hoạt theo Cỡ chữ hệ thống\n- Giữ nguyên phông chữ ngày tháng của iOS 15 (tránh bị quá lớn trên iPhone 8)\n- Viên thuốc Focus nằm cách ngày 19 pt giống iOS 15 và có thể tương tác chạm",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Phiên bản 1.9.3\n- Cài đặt → Hình nền giữ nguyên vị trí khi rời đi và quay lại\n- Tính năng Thu phóng Phối cảnh hoạt động chính xác trở lại\n- iPhone 8 Plus: Kích thước đồng hồ chuẩn xác tuyệt đối như iOS 15",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Phiên bản 1.9.2\n- Danh sách dưới đồng hồ bắt đầu ở đúng vị trí như trên iOS 15\n- Thông báo luôn hiển thị dưới dạng danh sách\n- Trình phát nhạc hiển thị biểu tượng ứng dụng đang phát lên trên ảnh bìa\n- Viên thuốc Focus không còn bị dịch chuyển xuống dưới sau khi cuộn\n- Thêm tùy chọn Khôi phục mặc định (Reset to Defaults) trong cài đặt\n- Cài đặt → Hình nền: Khoảng cách chuẩn iOS 15 cho Dynamic · Stills · Live",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Phiên bản 1.9.1\n- Kích thước và vị trí đồng hồ chuẩn iOS 15 trên mọi dòng iPhone",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Phiên bản 1.9\n- Hỗ trợ hình nền động, Thu phóng Phối cảnh và hiệu ứng mở khóa của iOS 15",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Tất cả các phiên bản",
+    "action": "https://github.com/aronsz26/LockScreenRestore/releases"
+    },
+    {
+    "spacing": 15,
+    "class": "DepictionSpacerView"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Copyright © 2025 - 2030 by JTISVN",
+    "textColor": "#999999",
+    "fontSize": "10.0",
+    "alignment": 1
+    }
+    ]
+    },
+    {
+    "class": "DepictionStackView",
+    "tabname": "English",
+    "views": [
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Version 1.9.5\n- Dynamic wallpapers and stills are drawn by iOS 15's own views again, with iOS 15's motion and Perspective Zoom\n- The lighter iOS 15 shadow under the app names (new switch)\n- iOS 15 sizes for notification cards and the music player, and iOS 15's own clock font\n- Live wallpapers to download on every iPhone, including iPhone SE, 8, 8 Plus and XR\n- Pull down anywhere on the lock screen to open search, like iOS 15\n- Settings → Wallpaper opens iOS's own preview with Cancel and Set\n- iPhone Plus models: the wallpaper turns with the home screen in landscape, and the dock blurs the right wallpaper",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Version 1.9.4\n- Music player: a tap on the artwork opens the playing app, like iOS 15\n- Date size follows Text Size like iOS 15\n- Date keeps iOS 15's font (was too big on iPhone 8)\n- Focus pill sits 19 pt below the date like iOS 15 and can be tapped",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Version 1.9.3\n- Settings → Wallpaper stays open when you leave Settings and come back\n- Perspective Zoom moves the right way again\n- iPhone 8 Plus: clock size exactly like iOS 15",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Version 1.9.2\n- The list below the clock starts where it did on iOS 15\n- Notifications are always shown as a list\n- The music player shows the playing app's icon on the artwork\n- Focus pill no longer jumps down after scrolling\n- Reset to Defaults in the settings\n- Settings → Wallpaper: iOS 15 spacing for Dynamic · Stills · Live",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Version 1.9.1\n- iOS 15 clock size and position on every iPhone",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionMarkdownView",
+    "markdown": "### Version 1.9\n- Dynamic wallpapers, Perspective Zoom and the iOS 15 unlock animation",
+    "useSpacing": true
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionTableButtonView",
+    "openExternal": true,
+    "title": "All releases",
+    "action": "https://github.com/aronsz26/LockScreenRestore/releases"
+    },
+    {
+    "spacing": 15,
+    "class": "DepictionSpacerView"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Copyright © 2025 - 2030 by JTISVN",
+    "textColor": "#999999",
+    "fontSize": "10.0",
+    "alignment": 1
+    }
+    ]
+    }
+    ]
+    }
+    ],
+    "class": "DepictionStackView"
+    },
+    {
+    "tabname": "Liên Kết Hỗ Trợ",
+    "views": [
+    {
+    "class": "DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Liên hệ tôi ở Telegram",
+    "action": "https://t.me/Kitsudo"
+    },
+    {
+    "class": "DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Kênh thông báo",
+    "action": "https://t.me/jtisvn"
+    },
+    {
+    "class": "DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Theo dõi tôi trên X (Twitter)",
+    "action": "https://x.com/hiukitsudo?s=11"
+    },
+    {
+    "class": "DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Nhóm Facebook",
+    "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+    },
+    {
+    "class": "DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Paypal",
+    "action": "https://paypal.me/HiuKitsudo"
+    },
+    {
+    "class": "DepictionTableButtonView",
+    "openExternal": true,
+    "title": "Ủng hộ tôi một ly cà phê",
+    "action": "https://jtisvn.github.io/homepage/donate/donate.html"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Copyright © 2025 - 2030 by JTISVN",
+    "textColor": "#999999",
+    "fontSize": "10.0",
+    "alignment": 1
+    }
+    ],
+    "class": "DepictionStackView"
+    }
+    ],
+    "class": "DepictionTabView"
+    }

@@ -1538,6 +1538,27 @@ depiction: https://chariz.com/buy/senri
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Senri.json
 Icon: https://jtisvn.github.io/sectionIcons/Senri.png
 
+Package: com.aronsz26.lockscreenrestore
+Architecture: iphoneos-arm64e
+Version: 1.9.5
+Section: Tweaks
+Maintainer: aronsz26
+Installed-Size: 768
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: ./debs/com.aronsz26.lockscreenrestore_1.9.5_iphoneos-arm64e.deb
+Size: 135192
+MD5sum: f5ed6b8ed8e61b1480fbd42ba47480f4
+SHA1: e23e36f120d97187eb169405a13fec297c968ebd
+SHA256: 4e354385e7bd01f8353316f601c7f86104dbe7579e474ca347066116b832fc40
+SHA512: 9b17b9ae6a6be79cc97adafd171a7bccecbd4fccbc3325eacc2ee5dd967760b635f15a34578d1c80501bda74d07be51a94ac20d89c5849550c01d2aeeb31a390
+Description: Màn hình khóa kiểu iOS 15 trên iOS 16: đồng hồ, ngày tháng, biểu tượng khóa, thanh Focus, thông báo từ trên cùng, trình phát nhạc iOS 15, hiệu ứng mở khóa, bóng đổ biểu tượng iOS 15, hình nền động và trang Cài đặt > Hình nền iOS 15 với chức năng tải hình nền. Mỗi phần đều có thể tắt trong Cài đặt.
+Name: LockScreenRestore (Roothide)
+Author: aronsz26
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LockScreenRestore.json
+Depiction: http://jtisvn.github.io/depiction/LockScreenRestore.html
+Icon: https://jtisvn.github.io/sectionIcons/LockScreenRestore.png
+
 Package: com.bandarhl.bhtwitter
 Architecture: iphoneos-arm64
 Version: 4.4.1
