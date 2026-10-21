@@ -9629,6 +9629,49 @@ Name: Cylinder Reborn (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
 
+Package: com.jtis.cylinderreborn
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Section: Tweaks
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1527
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: ./debs/com.jtis.cylinderreborn_1.2.0_iphoneos-arm64.deb
+Size: 287412
+MD5sum: e551b20047ce4783490ec719b9a4b30b
+SHA1: 348cddd21d392da982ab3ecd7d3b55cb911b0e43
+SHA256: c931bb5fb3f1bd08020099cdb53b2d864f4c3fb9f1fcfc592af20c58d5741348
+SHA512: 99093677fc00760205c89565042811e37fd5ac25402ececffcebddc38af8599db71d25d3e6d02bc83f8f5ec8a980ae430fd5c24a46a3a999904fa88ff886256a
+Description: Make your icons dance
+Tag: compatible_min::ios11.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: Cylinder Reborn (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
+Depiction: http://jtisvn.github.io/depiction/Cylinder-rebom.html
+Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
+
+Package: com.jtis.cylinderreborn
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Section: Tweaks
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1527
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: ./debs/com.jtis.cylinderreborn_1.2.0_iphoneos-arm64e.deb
+Size: 282608
+MD5sum: ccf8cdbf0a0410efd0f726e55d301f1d
+SHA1: f388bf1bb6cabe43f0bd282509adc344077eb2ff
+SHA256: c14532bf2204247b3b58fd462bce8989b6ac8e034f417b28865981fa223ffbff
+SHA512: 03adc02aa3160217ef098ef5f5579e86b1866bfc9c5b09ff01e483283213353e980aa60923a63e47b2b75102acaecede1224d4c7d922bf854d1f0115d4977452
+Description: Make your icons dance
+Tag: compatible_min::ios11.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: Cylinder Reborn (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
+Depiction: http://jtisvn.github.io/depiction/Cylinder-rebom.html
+Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
+
 Package: com.jtis.cylinderremade.roothide
 Architecture: iphoneos-arm64e
 Version: 0.0.3-beta
