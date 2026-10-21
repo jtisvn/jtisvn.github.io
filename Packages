@@ -28952,6 +28952,47 @@ Tag: role::hacker
 Name: mount_bindfs
 Author: misty
 
+Package: moe.waru.jikan
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 2380
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/moe.waru.jikan_1.0.2_iphoneos-arm64.deb
+Size: 349144
+MD5sum: 4c7381abfaf5d7574f3ace42f4c42a10
+SHA1: 01f2136d2cea2b9e2ae9e8e44bb3ed7b9863cc5a
+SHA256: 71e5e43872aa9955cc274a8cbddd74866c0cce1132189a37fa5324a34b51b311
+SHA512: 525cd48487625c0a54306a8588a93764c77d5f81faff2a28e2bfd393d2f610d70abfd54c484006d3d47fc42085d10f5a02c2f6c2f89ff9def4dff58ab38a7c25
+Description: Hiển thị thời gian còn lại để sạc đầy pin trên màn hình khóa.
+Name: Jikan (Rootless)
+Author: waruhachi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Jikan.json
+Depiction: http://jtisvn.github.io/depiction/Jikan.html
+Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
+
+Package: moe.waru.jikan
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 2380
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/moe.waru.jikan_1.0.2_iphoneos-arm64e.deb
+Size: 336708
+MD5sum: a0fa7f66fdc165d0f43d84bdc1e633b0
+SHA1: dcab039432113f1e03d573f6ee233b084c652fbf
+SHA256: 3e0f194c565033967060b26316dd0a4addc8eec23e21f53028aec37f439ed560
+SHA512: b1fc049a56fd0500e3612c8eaaaebb48a662ba95a9aa83d652c27cec57d62be5aa34c991af91031cee6e0f20534bd26579135341304d994a07be95f894223c76
+Description: Hiển thị thời gian còn lại để sạc đầy pin trên màn hình khóa.
+Name: Jikan (Roothide)
+Author: waruhachi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Jikan.json
+Depiction: http://jtisvn.github.io/depiction/Jikan.html
+Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
+
 Package: moe.waru.nokeyboardglobe
 Architecture: iphoneos-arm64
 Version: 1.0.0
