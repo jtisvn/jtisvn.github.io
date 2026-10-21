@@ -347,6 +347,61 @@
 "class": "DepictionStackView"
 },
 {
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 1.2.0\n- Hỗ trợ đầy đủ môi trường RootHide và các jailbreak Rootless.\n- Cải thiện hiệu năng hoạt động mượt mà hơn.\n- Sửa lỗi biểu tượng của ứng dụng vừa đóng không chạy hiệu ứng động.\n- Khắc phục nhiều hiệu ứng bị lỗi ở các phiên bản trước.\n- Sửa lỗi hiệu ứng không hoạt động khi biểu tượng hiển thị xuất hiện.\n- Cập nhật ngôn ngữ Lua lên phiên bản 5.5.\n- Hỗ trợ Script truy cập thông tin hàng/cột của từng icon và hàm icon:center().",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 1.2.0\n- Full support for the RootHide environment and Rootless jailbreaks.\n- Improved performance for smoother operation.\n- Fixed the icon of a just-closed app not playing its animation.\n- Fixed many effects that were broken in earlier versions.\n- Fixed effects not working when icons appear on screen.\n- Updated the Lua language to version 5.5.\n- Scripts can now access each icon's row/column information and the icon:center() function.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
 "tabname": "Liên Kết Hỗ Trợ",
 "views": [
 {
