@@ -142,7 +142,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Miễn phí (Free)",
+"text": "Miễn phí",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -186,7 +186,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Rootful / Rootless / RootHide",
+"text": "Rootful,Rootless,RootHide",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -199,7 +199,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "11 - 26",
+"text": "11.0 - 26.0.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -398,7 +398,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Rootful / Rootless / RootHide",
+"text": "Rootful,Rootless,RootHide",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -411,7 +411,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 11 - 26",
+"text": "iOS 11.0 - 26.0.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false

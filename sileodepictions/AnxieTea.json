@@ -93,10 +93,10 @@
 }
 ],
 "itemCornerRadius": 12,
-"itemSize": "{160,346}"
+"itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- **Giám sát trực quan:** Xem kết nối trực tiếp bao gồm tên ứng dụng, máy chủ, chủ sở hữu, quốc gia và lưu lượng truy cập.\n- **Bản đồ thế giới (World Map):** Hiển thị tuyến đường kết nối tới mọi quốc gia, xếp hạng lưu lượng theo công ty chủ quản.\n- **Kiểm soát quyền truy cập:** Thiết lập chế độ Cho phép (Allow), Hỏi (Ask) hoặc Chặn (Deny) cho từng ứng dụng.\n- **Bảo mật mạng nâng cao:** Chống rò rỉ DNS & WebRTC, chỉ dùng HTTPS, tích hợp VPN kill switch và chặn phân tích dữ liệu từ Apple.\n- **An toàn mạng Wi-Fi:** Cảnh báo bộ định tuyến giả mạo, theo dõi cổng đến (Inbound Watch) và quét thiết bị Bluetooth/AirTag lân cận.\n- **Đo tốc độ thanh trạng thái:** Hiển thị tốc độ tải xuống/tải lên trực tiếp ngay trên thanh trạng thái.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Giám sát trực quan:** Xem kết nối trực tiếp bao gồm tên ứng dụng, máy chủ, chủ sở hữu, quốc gia và lưu lượng truy cập.\n- **Bản đồ thế giới (World Map):** Hiển thị tuyến đường kết nối tới mọi quốc gia, xếp hạng lưu lượng theo công ty chủ quản.\n- **Kiểm soát quyền truy cập:** Quy tắc được thực thi ở cấp nhân (kernel), thiết lập chế độ Cho phép (Allow), Hỏi (Ask) hoặc Chặn (Deny) cho từng ứng dụng, kèm danh sách chặn quảng cáo và trình theo dõi.\n- **Bảo mật mạng nâng cao:** Chống rò rỉ DNS & WebRTC, chỉ dùng HTTPS, tích hợp VPN kill switch và chặn phân tích dữ liệu từ Apple.\n- **An toàn mạng Wi-Fi:** Cảnh báo bộ định tuyến giả mạo, theo dõi cổng đến (Inbound Watch) và quét thiết bị Bluetooth/AirTag lân cận.\n- **Đo tốc độ thanh trạng thái:** Hiển thị tốc độ tải xuống/tải lên trực tiếp ngay trên thanh trạng thái, kèm cảnh báo khi có yêu cầu bị chặn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -151,13 +151,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Kích thước",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "5.1 MB",
+"text": "20/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -182,13 +182,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày cập nhật",
+"text": "Kích thước",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "20/10/2026",
+"text": "5.1 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -307,10 +307,10 @@
 }
 ],
 "itemCornerRadius": 12,
-"itemSize": "{160,346}"
+"itemSize": "{185,400}"
 },
 {
-"markdown": "- **Key Features:**\n\n- **See everything:** Live connections with app, server name, owner, country, traffic, and World Map.\n- **Decide what's allowed:** Rules enforcement by kernel, Allow, Ask or Deny modes, blocklists for ads and trackers.\n- **Protection:** DNS and WebRTC leak protection, HTTPS Only, VPN kill switch, Apple analytics blocking.\n- **Network safety:** Wi-Fi Guard, Inbound Watch, devices on your network, and Bluetooth tracker scan.\n- **Status bar meter:** Live upload/download speeds and alerts when requests are blocked.",
+"markdown": "- **Key Features:**\n\n- **See everything:** Live connections with app, server name, owner, country, and traffic.\n- **World Map:** Shows connection routes to every country and ranks traffic by owning company.\n- **Decide what's allowed:** Rules enforced by the kernel, Allow, Ask or Deny modes per app, plus blocklists for ads and trackers.\n- **Advanced protection:** DNS and WebRTC leak protection, HTTPS Only, VPN kill switch, Apple analytics blocking.\n- **Wi-Fi safety:** Wi-Fi Guard (rogue router warnings), Inbound Watch, devices on your network, and Bluetooth/AirTag tracker scan.\n- **Status bar meter:** Live upload/download speeds right in the status bar, with alerts when requests are blocked.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -365,13 +365,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Size",
+"text": "Updated",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "5.1 MB",
+"text": "October 20, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -396,13 +396,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Updated",
+"text": "Size",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "October 20, 2026",
+"text": "5.1 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -439,8 +439,7 @@
 }
 ]
 }
-]
-},
+],
 "class": "DepictionStackView"
 },
 {
@@ -455,12 +454,12 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.0.5 (20/10/2026)\n- **Máy chủ điều hành:** Bản đồ thế giới hiển thị đơn vị vận hành máy chủ của từng quốc gia và xếp hạng lưu lượng.\n- **Chi tiết máy chủ:** Trang thông tin chi tiết về chủ sở hữu, nhãn, lưu lượng, ứng dụng, địa chỉ và quy tắc.\n- **Chặn theo công ty:** Cho phép chặn mọi mạng lưới của một công ty cho tất cả ứng dụng hoặc từng ứng dụng riêng lẻ.\n- **Thống kê chi tiết:** Xem lại hoạt động trong ngày hoặc tuần (lý do bị chặn, trình theo dõi vượt rào, lưu lượng chưa mã hóa, hoạt động ban đêm).\n- **Cải tiến giao diện:** Tên công ty rõ ràng (Meta, Amazon...), bản đồ toàn màn hình phóng to bằng cách nhấn đúp, hiển thị các quốc gia nhỏ và lãnh thổ trên bản đồ.",
+"markdown": "### Phiên bản 1.0.5\n- **Máy chủ điều hành:** Bản đồ thế giới hiển thị đơn vị vận hành máy chủ của từng quốc gia và xếp hạng lưu lượng. Chạm vào một quốc gia để xem chi tiết.\n- **Chi tiết máy chủ:** Trang thông tin chi tiết về chủ sở hữu, nhãn, lưu lượng, ứng dụng, địa chỉ và quy tắc.\n- **Chặn theo công ty:** Cho phép chặn mọi mạng lưới của một công ty cho tất cả ứng dụng hoặc từng ứng dụng riêng lẻ.\n- **Thống kê chi tiết:** Xem lại hoạt động trong ngày hoặc tuần (lý do bị chặn, trình theo dõi vượt rào, lưu lượng chưa mã hóa, hoạt động ban đêm).\n- **Cải tiến giao diện:** Tên công ty rõ ràng (Meta, Amazon...), bản đồ toàn màn hình phóng to bằng cách nhấn đúp, hiển thị các quốc gia nhỏ và lãnh thổ trên bản đồ.",
 "useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",
@@ -477,12 +476,12 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Version 1.0.5 (October 20, 2026)\n- **Who runs the servers:** World Map shows company servers and ranks traffic. Tap a country for breakdown.\n- **Server details:** One page per server with owner, labels, traffic, apps, and rules.\n- **Block a company:** Block every network a company runs.\n- **Statistics:** Day/week numbers on blocked requests, trackers, and unencrypted traffic.",
+"markdown": "### Version 1.0.5\n- **Who runs the servers:** World Map shows company servers and ranks traffic. Tap a country for breakdown.\n- **Server details:** One page per server with owner, labels, traffic, apps, address, and rules.\n- **Block a company:** Block every network a company runs, for all apps or for individual apps.\n- **Statistics:** Review activity for the day or week (block reasons, trackers that slipped through, unencrypted traffic, overnight activity).\n- **Interface improvements:** Clear company names (Meta, Amazon...), full-screen map with double-tap zoom, and small countries and territories shown on the map.",
 "useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",

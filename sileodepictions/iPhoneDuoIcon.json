@@ -69,10 +69,10 @@
 }
 ],
 "itemCornerRadius": 12,
-"itemSize": "{160,346}"
+"itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- **Capsule thông tin bên trái:** Tùy chọn nhiều giao diện kính độc đáo (Classic, Glass, Split, Liquid Glass) tích hợp modun Giờ/Ngày, Nhà mạng, Thời tiết, Nhạc, Pin, Lịch và Âm lượng.\n- **Khu vực bên phải & Duo Orbit:** Vòng trạng thái gọn gàng hiển thị Wi-Fi, sóng di động, 5G/LTE và Pin. Hỗ trợ đổi màu từng thành phần và tùy chỉnh VPN độc lập.\n- **Thanh mini Dock:** Khay ứng dụng nhanh chứa từ 4 đến 8 ứng dụng cố định hoặc ứng dụng mở gần đây, cho phép mở ứng dụng trực tiếp từ thanh trạng thái.\n- **Tùy biến & Tương tác chi tiết:** Tùy chỉnh màu nền, đường viền pin động, cảnh báo Bluetooth và thiết lập cấu hình riêng biệt cho Màn hình khóa, Màn hình chính, CC hay In-App.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Capsule thông tin bên trái:** Tùy chọn nhiều giao diện kính độc đáo (Classic, Glass, Split, Liquid Glass) tích hợp mô-đun Giờ/Ngày, Nhà mạng, Thời tiết, Nhạc, Pin, Lịch và Âm lượng.\n- **Khu vực bên phải & Duo Orbit:** Vòng trạng thái gọn gàng hiển thị Wi-Fi, sóng di động, 5G/LTE và Pin. Hỗ trợ đổi màu từng thành phần và tùy chỉnh VPN độc lập.\n- **Thanh mini Dock:** Khay ứng dụng nhanh chứa từ 4 đến 8 ứng dụng cố định hoặc ứng dụng mở gần đây, cho phép mở ứng dụng trực tiếp từ thanh trạng thái.\n- **Tùy biến & Tương tác chi tiết:** Tùy chỉnh màu nền, đường viền pin động, cảnh báo Bluetooth và thiết lập cấu hình riêng biệt cho Màn hình khóa, Màn hình chính, Trung tâm điều khiển hay In-App.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -151,7 +151,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.2",
+"text": "1.1.3-1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -259,7 +259,7 @@
 }
 ],
 "itemCornerRadius": 12,
-"itemSize": "{160,346}"
+"itemSize": "{185,400}"
 },
 {
 "markdown": "- **Key Features:**\n\n- **Left Information Capsule:** Choose from multiple unique glass styles (Classic, Glass, Split, Liquid Glass) with modules for Time/Date, Carrier, Weather, Music, Battery, Calendar and Volume.\n- **Right Area & Duo Orbit:** A tidy status ring showing Wi-Fi, cellular signal, 5G/LTE and Battery. Supports per-element color changes and independent VPN customization.\n- **Mini Dock Bar:** A quick app tray holding 4 to 8 pinned or recently opened apps, letting you open apps directly from the status bar.\n- **Detailed Customization & Interaction:** Customize background color, animated battery outline, Bluetooth alerts, and set separate configurations for the Lock Screen, Home Screen, Control Center or In-App.",
@@ -341,7 +341,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.0",
+"text": "1.1.3-1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -405,6 +405,14 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
+"markdown": "### Phiên bản 1.1.3-1\n- Thêm tùy chọn Vô hiệu hóa Lunora ở chế độ ngang: khôi phục thanh trạng thái gốc khi xoay ngang và tự động bật lại Lunora ở chế độ dọc, giữ nguyên cài đặt đã lưu.\n- Thêm tùy chọn Tương thích với Mikkyy để bảo vệ hiển thị và thao tác chạm bên phải. Cả hai đều tắt mặc định, nằm trong mục Behavior and Compatibility.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
 "markdown": "### Phiên bản 1.1.2\n- Thêm hướng dẫn cập nhật/sắp xếp 2 trang, đồng bộ vị trí viền màn hình, tự động chuyển đổi giữ nguyên bố cục và neo pin nguyên bản trong Control Center.\n- Thêm hiệu ứng kính tràn viền tùy chọn, 2 chế độ hoạt ảnh Orbit, dòng chảy pin/màu sạc luôn bật, chọn sóng SIM và cử chỉ Iya Split cho mini Dock.\n- Cải thiện màu hoạt động tai thỏ, bố cục văn bản và giảm làm mới không cần thiết. Thêm chẩn đoán CPU 60 giây. Yêu cầu iOS 15.1+ và chặn iOS 15.0.x.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
@@ -435,7 +443,15 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Phiên bản .1.1.2\n- Added a two-page update and placement guide, unified screen-edge positioning, preserved internal layout during auto-migration, and native Control Center battery anchoring.\n- Added optional full-edge glass highlights, 2 Orbit animation modes, always-on battery flow/charging colors, SIM signal selection, and Iya Split gesture integration for mini Dock.\n- Improved notch activity colors and text layout, and reduced unnecessary refreshes. Added 60-second CPU diagnostics. Requires iOS 15.1+ and blocks iOS 15.0.x.",
+"markdown": "### Version 1.1.3-1\n- Added an optional Disable Lunora in Landscape setting: restore the native status bar in landscape and automatically resume Lunora in portrait, keeping saved settings.\n- Added Mikkyy Compatibility to protect the right display and taps. Both options are off by default and available under Behavior and Compatibility.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 1.1.2\n- Added a two-page update and placement guide, unified screen-edge positioning, preserved internal layout during auto-migration, and native Control Center battery anchoring.\n- Added optional full-edge glass highlights, 2 Orbit animation modes, always-on battery flow/charging colors, SIM signal selection, and Iya Split gesture integration for mini Dock.\n- Improved notch activity colors and text layout, and reduced unnecessary refreshes. Added 60-second CPU diagnostics. Requires iOS 15.1+ and blocks iOS 15.0.x.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },

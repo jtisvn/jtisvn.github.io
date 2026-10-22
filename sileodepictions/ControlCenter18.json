@@ -24,7 +24,7 @@
 "spacing": 10
 },
 {
-"markdown": "### ControlCenter18\n\nMang trọn vẹn giao diện và tính năng Trung tâm điều khiển (Control Center) của iOS 18 lên các thiết bị iOS 16 và 17 (Chỉ hỗ trợ iPhone).\n\nĐây không phải là một bản đổi giao diện hay theme thông thường: các module, trang và cử chỉ hoạt động hoàn toàn giống hệt như trên iOS 18.",
+"markdown": "### ControlCenter18\n\nMang trọn vẹn giao diện và tính năng Trung tâm điều khiển (Control Center) của iOS 18 lên các thiết bị iOS 16 và 17 (chỉ hỗ trợ iPhone).\n\nĐây không phải là một bản đổi giao diện hay theme thông thường: các mô-đun, trang và cử chỉ hoạt động hoàn toàn giống hệt như trên iOS 18.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -61,10 +61,10 @@
 }
 ],
 "itemCornerRadius": 12,
-"itemSize": "{160,346}"
+"itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- **Nhiều trang & Tùy chỉnh Module:** Không còn bị giới hạn trong một trang duy nhất. Thêm bao nhiêu trang tùy thích và chuyển đổi qua lại bằng cách vuốt. Mọi module đều có thể thay đổi kích thước (1x1, 1x2, 2x2 hoặc linh hoạt hơn đối với trình phát nhạc).\n- **Chỉnh sửa trực tiếp:** Chạm vào dấu \"+\" ở góc trên bên trái hoặc giữ một khoảng trống để vào chế độ chỉnh sửa, giúp di chuyển hoặc xóa module ngay trong Control Center mà không cần mở Cài đặt.\n- **Module kết nối mới:** Tích hợp Wi-Fi, Bluetooth, AirDrop, Dữ liệu di động, Điểm phát sóng, VPN và Chế độ máy bay vào một module chung với giao diện danh sách đầy đủ.\n- **Trình phát nhạc sống động:** Hiển thị ảnh bìa album kèm hiệu ứng sáng nhẹ đồng bộ với màu sắc bài hát đang phát chuẩn phong cách iOS 18.\n- **Tương thích & Yêu cầu:** Hoạt động trên các môi trường jailbreak rootless và roothide (iOS 16 - 17, chỉ hỗ trợ iPhone).",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Nhiều trang & Tùy chỉnh mô-đun:** Không còn bị giới hạn trong một trang duy nhất. Thêm bao nhiêu trang tùy thích và chuyển đổi qua lại bằng cách vuốt. Mọi mô-đun đều có thể thay đổi kích thước (1x1, 1x2, 2x2 hoặc linh hoạt hơn đối với trình phát nhạc).\n- **Chỉnh sửa trực tiếp:** Chạm vào dấu \"+\" ở góc trên bên trái hoặc giữ một khoảng trống để vào chế độ chỉnh sửa, giúp di chuyển hoặc xóa mô-đun ngay trong Trung tâm điều khiển mà không cần mở Cài đặt.\n- **Mô-đun kết nối mới:** Tích hợp Wi-Fi, Bluetooth, AirDrop, Dữ liệu di động, Điểm phát sóng, VPN và Chế độ máy bay vào một mô-đun chung với giao diện danh sách đầy đủ.\n- **Trình phát nhạc sống động:** Hiển thị ảnh bìa album kèm hiệu ứng sáng nhẹ đồng bộ với màu sắc bài hát đang phát chuẩn phong cách iOS 18.\n- **Tương thích & Yêu cầu:** Hoạt động trên các môi trường jailbreak rootless và roothide (iOS 16 - 17, chỉ hỗ trợ iPhone).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -169,7 +169,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 16 - 17",
+"text": "16 - 17",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -243,10 +243,10 @@
 }
 ],
 "itemCornerRadius": 12,
-"itemSize": "{160,346}"
+"itemSize": "{185,400}"
 },
 {
-"markdown": "- **Key Features:**\n\n- **Pages and Customizable Modules:** Add as many pages as you like and move between them with a swipe. Every module is customizable (1x1, 1x2, 2x2).\n- **Editing Right in Control Center:** Tap \"+\" in the top-left corner or long-press an empty spot to enter edit mode and manage modules directly.\n- **Connectivity Module:** Wi-Fi, Bluetooth, AirDrop, Cellular Data, Personal Hotspot, VPN, and Airplane Mode combined with full list views.\n- **Player:** Shows album artwork with a soft glow matching song colors just like iOS 18.\n- **Compatibility:** Works on rootless and roothide jailbreaks for iOS 16 - 17 (iPhone only).",
+"markdown": "- **Key Features:**\n\n- **Pages and Customizable Modules:** Add as many pages as you like and move between them with a swipe. Every module can be resized (1x1, 1x2, 2x2, or more flexible for the music player).\n- **Editing Right in Control Center:** Tap \"+\" in the top-left corner or long-press an empty spot to enter edit mode, then move or remove modules directly without opening Settings.\n- **Connectivity Module:** Wi-Fi, Bluetooth, AirDrop, Cellular Data, Personal Hotspot, VPN, and Airplane Mode combined into one module with full list views.\n- **Dynamic Music Player:** Shows album artwork with a soft glow matching the song's colors, just like iOS 18.\n- **Compatibility & Requirements:** Works on rootless and roothide jailbreaks for iOS 16 - 17 (iPhone only).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -375,8 +375,7 @@
 }
 ]
 }
-]
-},
+],
 "class": "DepictionStackView"
 },
 {
@@ -391,12 +390,12 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.0-beta (22/10/2026)\n- Phát hành bản beta đầu tiên.\n- Mang toàn bộ giao diện và tính năng iOS 18 Control Center lên iOS 16–17.",
+"markdown": "### Phiên bản 1.0-beta\n- Phát hành bản beta đầu tiên.\n- Mang toàn bộ giao diện và tính năng Trung tâm điều khiển iOS 18 lên iOS 16 - 17.",
 "useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",
@@ -413,12 +412,12 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Version 1.0-beta (October 22, 2026)\n- Initial beta release.\n- Full iOS 18 Control Center for iOS 16–17.",
+"markdown": "### Version 1.0-beta\n- Initial beta release.\n- Full iOS 18 Control Center for iOS 16 - 17.",
 "useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",

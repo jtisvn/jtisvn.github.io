@@ -386,6 +386,57 @@ Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modi
 Depiction: https://github.com/roothide/RootHidePatcher
 Support: https://github.com/roothide/RootHidePatcher
 
+Package: com.jtisvn.screenshellpro
+Architecture: iphoneos-arm64e
+Version: 5.2.0-61
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/ScreenShellPro_5.2.0-61 _Roothide.deb
+Size: 51936
+MD5sum: 1a6622a8ea6b28d916b913ef2dec2bd3
+SHA1: cdd8a73aa7fa003fd4749decf7b4bb18863d3075
+SHA256: 4f37022f2d201bf51431bf014fec86c916de159cb872f5668f863f7d77333aa1
+SHA512: 86484af82bfa07d9c99fe6a5c14c667a0b4ae961797a4640feca2a21587cd816be5b065a0c3bb15acb7ace16429a1491d913d094499711aef8f88696b6b544a7
+Description: Công cụ nâng cao dành cho iOS, hỗ trợ chèn hình mờ (watermark) trên toàn hệ thống và tạo khung thiết bị khi chụp ảnh hoặc quay màn hình. 
+ * 1. Tốc độ render khung quay màn hình cực kỳ nhanh. 
+ * 2. Không bị nóng máy quá nhiệt trong quá trình render. 
+ * 3. Tweak này không yêu cầu bất kỳ dependency (gói phụ thuộc) nào. 
+ * 4. Đây là công cụ render khung quay màn hình tốt nhất trên thị trường. 
+ * 5. Tweak này có giá 100 tệ và đã được bẻ khóa (crack).
+Name: ScreenShell Pro (Roothide)
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ScreenShellPro.json
+Depiction: https://jtisvn.github.io/depictions/ScreenShellPro.html
+
+Package: com.jtisvn.screenshellpro
+Architecture: iphoneos-arm64
+Version: 5.2.0-61
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 540
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/ScreenShellPro_5.2.0-61 _Rootless.deb
+Size: 52560
+MD5sum: 9b9570e83eee110bbb9f336b9ee135cd
+SHA1: b33e80bef82197f47dd9b851bacefaf2c1d4e964
+SHA256: ad8faa12ed54d6e7731fbe1bb8cdd309612e03ee3ab1b982357b1c1dcee6bdc1
+SHA512: cc7b771691d519d62bed1ce74447e216a6d64526d385d67ff7a761473cb558b3584f11a46bd60b9398d58bf60c0e7e3be25ec3f87674253fce486eea1dd55e78
+Description: Công cụ nâng cao dành cho iOS, hỗ trợ chèn hình mờ (watermark) trên toàn hệ thống và tạo khung thiết bị khi chụp ảnh hoặc quay màn hình. 
+ * 1. Tốc độ render khung quay màn hình cực kỳ nhanh. 
+ * 2. Không bị nóng máy quá nhiệt trong quá trình render. 
+ * 3. Tweak này không yêu cầu bất kỳ dependency (gói phụ thuộc) nào. 
+ * 4. Đây là công cụ render khung quay màn hình tốt nhất trên thị trường. 
+ * 5. Tweak này có giá 100 tệ và đã được bẻ khóa (crack).
+Name: ScreenShell Pro (Rootless)
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ScreenShellPro.json
+Depiction: https://jtisvn.github.io/depictions/ScreenShellPro.html
+
 Package: ccom.jtisvn.stencilmonowhite
 Architecture: all
 Version: 1.3
@@ -2480,11 +2531,11 @@ Installed-Size: 22680
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader
 Filename: ./debs/com.evgeniy558.controlcenter18_1.0-beta_iphoneos-arm64e.deb
-Size: 6073152
-MD5sum: 1a26d444b3e66418ee7bbd0f2cb79b07
-SHA1: d20a86c4fb66a29bcc5b6e728811500fc40625d3
-SHA256: b583ffe23d4d2d572482bffa58802183b2c8d41ee312a281bbdfa7d29f18ef4e
-SHA512: 6795738a0ac8e6351753f9b299196c196563c0433d045271624bb42eda0a89fb681760e9ab8ceabd8840d5c1b6f644199751b8840a30802dbf1371d50d55ccdf
+Size: 6072268
+MD5sum: 1d2f1344509805dae1f2ab012691d561
+SHA1: f2e5c1ab1ceb960a2c1d816ca8d12529e455b6d0
+SHA256: 76e3aaa6d58ddd2792365c109ca2db6de1cf581e5ab0deb408f2fd1abebaeeb3
+SHA512: e5174d90f26a7537c9f315fabd3ee751c1f1cd1de33862d07fe8448c0f4acd74bdf3859555b932ca647e814f4f93c81073535d7606a6284c1f4975f1563e5c4b
 Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
  ControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.
  .
@@ -2543,7 +2594,7 @@ Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
  Это бета-версия. Если что-то не работает, отправьте нам крашлог из настроек, и мы всё исправим.
  .
  Работает на rootless и roothide джейлбрейках.
-Name: ControlCenter18 (Roothide)
+Name: ControlCenter18 (Rootless)
 Author: evgeniy558
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ControlCenter18.json
 Depiction: http://jtisvn.github.io/depiction/ControlCenter18.html
@@ -19552,6 +19603,51 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AmmiFX.json
 Depiction: https://jtisvn.github.io/depictions/AmimFX.html
 Icon: https://jtisvn.github.io/sectionIcons/AnimFX.png
 
+Package: com.jtisvn.anxietea
+Architecture: iphoneos-arm64
+Version: 1.0.5-99
+Section: Tweaks
+Maintainer: AADiOS
+Installed-Size: 3364
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: dev.tattle
+Replaces: dev.tattle
+Filename: ./debs/com.jtisvn.anxietea_1.0.5-99_iphoneos-arm64.deb
+Size: 620312
+MD5sum: c2b3d36519d17ff2d457d97a54d655b4
+SHA1: a78383d152da597b2e43de9631312d5205983bf6
+SHA256: fd578a0333c9a69e74c32ac6428b50e91f92b50935c90403e97718064295fa34
+SHA512: 65aeab05393a2baa1aadf92253420cfaa11c8a2b30caa80f72dc18e3c57cafadb24c4e055547c681ddc9fa8c0deab50bd796979b9bc0cb0ce6cf008a96776826
+Description: Giám sát mạng và tường lửa cho iPhone của bạn
+Name: AnxieTea (Rootless)
+Author: AADiOS
+Icon: https://media.havoc.app/6acf782e6e46a2bf96db5ba0
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AnxieTea.json
+Depiction: http://jtisvn.github.io/depiction/AnxieTea.html
+
+Package: com.jtisvn.anxietea
+Architecture: iphoneos-arm64e
+Version: 1.0.5-99
+Section: Tweaks
+Maintainer: AADiOS
+Installed-Size: 3364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: dev.tattle
+Replaces: dev.tattle
+Filename: ./debs/com.jtisvn.anxietea_1.0.5-99_iphoneos-arm64e.deb
+Size: 608444
+MD5sum: 00385d0026f68ef988af8542453854df
+SHA1: 848f3ba702498139b0373fdef3f6da69a44f86a7
+SHA256: 8258956600b9f7350882d7310f196c71174c3f6cd6d640ba546dd75b07755b55
+SHA512: 815c320b56111a2cfa4e2b296c726c24b6799bfc66e385b4de5f8776489fff951ba07734df7e06e0990a66fdf422463afa7bf2d26ba4ae77a7cf6600e1e67912
+Description: Giám sát mạng và tường lửa cho iPhone của bạn
+Name: AnxieTea (Roothide)
+Author: AADiOS
+Icon: https://media.havoc.app/6acf782e6e46a2bf96db5ba0
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AnxieTea.json
+Depiction: http://jtisvn.github.io/depiction/AnxieTea.html
+
 Package: com.jtisvn.appdata
 Architecture: iphoneos-arm
 Version: 2.6.9
@@ -20439,6 +20535,51 @@ MD5sum: 9941b6a1fa510c0aa222b11ef990bea4
 SHA1: ea0b363c22b9299e05073e54208fc3ca3fe310c1
 SHA256: 8892f28b719932d7db6dcfbdf70ce3363aa73c48f6984956b10701cc8847cdcb
 SHA512: 245cef29cf428484688194b866e9e0456efbf8715c8448cc7a2846b1d672213a6a91b5083eef45bb446714a07b8bbb46abd96049506e108ab4222d81c62d4dae
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.3-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5240
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.3-1_iphoneos-arm64.deb
+Size: 978756
+MD5sum: 9822e689c25d7a309e61094b2134a45d
+SHA1: 73ce386b15e6c58d006febdae0105ea97701d0d6
+SHA256: 638f1204ac7eba1597bc975f85d0579f4b7e95d604ec7043f277c1595696d8c3
+SHA512: b443020529f2c5c6a78f83760ad3d65bbbd82917362026d009a7f7fae397525febb98264945b1b8a59e040d551cafe85b62dfe4b834ea587e6ba36b0465d02b2
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.3-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.3-1_iphoneos-arm64e.deb
+Size: 968980
+MD5sum: 1531e41204db2c726a03e38e87b0d0a9
+SHA1: 50347b3a5037be7d94242554ef1e47b73fb3e3b4
+SHA256: fff024dd894ca3147916c03a3717b0a74dd14eb2bd36979367c45c696077c388
+SHA512: c4c04231686bfccda2c566d2809bc7705c11ac379cbb40e401d7c4e8713d8cba2e9c869f18127fb5acec26df6edfd4296475cf729f7099f716d3d94aba097fef
 Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
 Name: Lunora (Roothide)
 Author: Banana
