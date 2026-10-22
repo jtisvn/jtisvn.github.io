@@ -1,0 +1,488 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/ControlCenter18.png",
+"tintColor": "#0EA5E9",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### ControlCenter18\n\nMang trọn vẹn giao diện và tính năng Trung tâm điều khiển (Control Center) của iOS 18 lên các thiết bị iOS 16 và 17 (Chỉ hỗ trợ iPhone).\n\nĐây không phải là một bản đổi giao diện hay theme thông thường: các module, trang và cử chỉ hoạt động hoàn toàn giống hệt như trên iOS 18.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{160,346}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Nhiều trang & Tùy chỉnh Module:** Không còn bị giới hạn trong một trang duy nhất. Thêm bao nhiêu trang tùy thích và chuyển đổi qua lại bằng cách vuốt. Mọi module đều có thể thay đổi kích thước (1x1, 1x2, 2x2 hoặc linh hoạt hơn đối với trình phát nhạc).\n- **Chỉnh sửa trực tiếp:** Chạm vào dấu \"+\" ở góc trên bên trái hoặc giữ một khoảng trống để vào chế độ chỉnh sửa, giúp di chuyển hoặc xóa module ngay trong Control Center mà không cần mở Cài đặt.\n- **Module kết nối mới:** Tích hợp Wi-Fi, Bluetooth, AirDrop, Dữ liệu di động, Điểm phát sóng, VPN và Chế độ máy bay vào một module chung với giao diện danh sách đầy đủ.\n- **Trình phát nhạc sống động:** Hiển thị ảnh bìa album kèm hiệu ứng sáng nhẹ đồng bộ với màu sắc bài hát đang phát chuẩn phong cách iOS 18.\n- **Tương thích & Yêu cầu:** Hoạt động trên các môi trường jailbreak rootless và roothide (iOS 16 - 17, chỉ hỗ trợ iPhone).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "evgeniy588",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "22/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0-beta",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "18.4 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 16 - 17",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### ControlCenter18\n\nThe full iOS 18 Control Center for iOS 16 and 17 (iPhone only).\n\nControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/ControlCenter18/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{160,346}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Pages and Customizable Modules:** Add as many pages as you like and move between them with a swipe. Every module is customizable (1x1, 1x2, 2x2).\n- **Editing Right in Control Center:** Tap \"+\" in the top-left corner or long-press an empty spot to enter edit mode and manage modules directly.\n- **Connectivity Module:** Wi-Fi, Bluetooth, AirDrop, Cellular Data, Personal Hotspot, VPN, and Airplane Mode combined with full list views.\n- **Player:** Shows album artwork with a soft glow matching song colors just like iOS 18.\n- **Compatibility:** Works on rootless and roothide jailbreaks for iOS 16 - 17 (iPhone only).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "evgeniy588",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 22, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0-beta",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "18.4 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 16 - 17",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+]
+},
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.0-beta (22/10/2026)\n- Phát hành bản beta đầu tiên.\n- Mang toàn bộ giao diện và tính năng iOS 18 Control Center lên iOS 16–17.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.0-beta (October 22, 2026)\n- Initial beta release.\n- Full iOS 18 Control Center for iOS 16–17.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

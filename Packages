@@ -2394,6 +2394,161 @@ Author: dvntm
 Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
 
+Package: com.evgeniy558.controlcenter18
+Architecture: iphoneos-arm64
+Version: 1.0-beta
+Section: Tweaks
+Maintainer: evgeniy558
+Installed-Size: 22680
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader
+Filename: ./debs/com.evgeniy558.controlcenter18_1.0-beta_iphoneos-arm64.deb
+Size: 6085720
+MD5sum: b0a30dedf9d644b7f45df57e9da299bb
+SHA1: 13816648f8aa4cc791bd54cef90715fe9421150f
+SHA256: 08f4ae48eb9ac450646c2426e839a0a29f36475262487f098db1e0842d973d11
+SHA512: d9790e08cf2d2fa8225e4b5ecc74822fc043dc48d2272f256e293c8543e7d21c06201e7424086506f6308781c79b50f84ce80f6a78c744d1030bfc051643fa16
+Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
+ ControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.
+ .
+ iPhone only. iPad is not supported.
+ .
+ Pages and Customizable Modules
+ Control Center is no longer limited to a single page. Add as many pages as you like and move between them with a swipe or with the indicator on the side. Every module is customizable: change the size of any module to 1×1, 1×2 or 2×2. Some modules, such as the player, can be resized even more flexibly.
+ .
+ Editing Right in Control Center
+ Tap "+" in the top-left corner of the screen or press and hold an empty spot to enter edit mode. Move modules or remove the ones you don't need right in Control Center, with no need to open Settings.
+ .
+ Connectivity Module
+ Wi-Fi, Bluetooth, AirDrop, Cellular Data, Personal Hotspot, VPN and Airplane Mode are all together in the new Connectivity module. Open the module to see all of its buttons as a list.
+ .
+ Player
+ The player module now shows the album artwork, with a soft glow around it that matches the colors of the song that's playing, just like on iOS 18.
+ .
+ Everything Else
+ Focus, Flashlight, Timer, Calculator, Camera, Code Scanner, Silent Mode, Hearing and other system modules are redrawn in the iOS 18 style. Shortcut and Open App controls are included too, and Settings › Control Center looks like it does on iOS 18, including "Reset Control Center".
+ .
+ Settings
+ You'll find the tweak in Settings › ControlCenter18. It's turned off after installation, so turn it on and respring. There you can also save your layout as a preset to import later, and if SpringBoard ever crashes, send us the crash log in one tap (logs are kept for 3 days).
+ .
+ Before You Start
+ Turn off other tweaks that change Control Center: themes, module styles and custom layouts. ControlCenter18 draws the whole Control Center itself, so they will conflict.
+ .
+ This is a beta. If something doesn't work, send us the crash log from the settings and we'll fix it.
+ .
+ Works on rootless and roothide jailbreaks.
+ .
+ ControlCenter18 переносит полноценный пункт управления из iOS 18 на iOS 16 и 17. Это не тема и не перерисовка: модули, страницы и жесты работают так же, как на iOS 18.
+ .
+ Только iPhone. iPad не поддерживается.
+ .
+ Страницы и настраиваемые модули
+ Пункт управления больше не ограничен одной страницей. Добавляйте сколько угодно страниц и удобно переключайтесь между ними свайпами или с помощью индикатора сбоку. Каждый модуль настраивается: у любого модуля можно изменить размер на 1×1, 1×2 или 2×2. А у некоторых модулей, например у плеера, размер настраивается ещё гибче.
+ .
+ Редактирование прямо в шторке
+ Нажмите «+» в левом верхнем углу экрана или зажмите свободное место, чтобы войти в режим редактирования. Перемещайте модули и убирайте ненужные прямо в пункте управления — заходить для этого в настройки не нужно.
+ .
+ Модуль связи
+ Wi-Fi, Bluetooth, AirDrop, сотовые данные, режим модема, VPN и авиарежим собраны в новом модуле связи. Откройте модуль, чтобы увидеть все его кнопки в виде списка.
+ .
+ Плеер
+ Модуль плеера теперь показывает обложку, а вокруг неё — лёгкое свечение в цвет проигрываемой песни, точно так же, как на iOS 18.
+ .
+ Всё остальное
+ Фокусирование, фонарик, таймер, калькулятор, камера, сканер кода, бесшумный режим, слух и другие системные модули перерисованы в стиле iOS 18. Есть и элементы управления «Быстрая команда» и «Открыть приложение», а раздел «Настройки» › «Пункт управления» выглядит так же, как в iOS 18, вместе с кнопкой «Сбросить пункт управления».
+ .
+ Настройки
+ Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить раскладку в пресет, чтобы импортировать её позже, а если SpringBoard вдруг крашнет, отправить нам крашлог в одно касание (логи хранятся 3 дня).
+ .
+ Перед началом
+ Отключите другие твики, которые меняют пункт управления: темы, стили модулей и собственные раскладки. ControlCenter18 сам рисует весь пункт управления, поэтому они будут конфликтовать.
+ .
+ Это бета-версия. Если что-то не работает, отправьте нам крашлог из настроек, и мы всё исправим.
+ .
+ Работает на rootless и roothide джейлбрейках.
+Name: ControlCenter18 (Rootless)
+Author: evgeniy558
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ControlCenter18.json
+Depiction: http://jtisvn.github.io/depiction/ControlCenter18.html
+Icon: https://jtisvn.github.io/sectionIcons/ControlCenter18.png
+
+Package: com.evgeniy558.controlcenter18
+Architecture: iphoneos-arm64e
+Version: 1.0-beta
+Section: Tweaks
+Maintainer: evgeniy558
+Installed-Size: 22680
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader
+Filename: ./debs/com.evgeniy558.controlcenter18_1.0-beta_iphoneos-arm64e.deb
+Size: 6073152
+MD5sum: 1a26d444b3e66418ee7bbd0f2cb79b07
+SHA1: d20a86c4fb66a29bcc5b6e728811500fc40625d3
+SHA256: b583ffe23d4d2d572482bffa58802183b2c8d41ee312a281bbdfa7d29f18ef4e
+SHA512: 6795738a0ac8e6351753f9b299196c196563c0433d045271624bb42eda0a89fb681760e9ab8ceabd8840d5c1b6f644199751b8840a30802dbf1371d50d55ccdf
+Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
+ ControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.
+ .
+ iPhone only. iPad is not supported.
+ .
+ Pages and Customizable Modules
+ Control Center is no longer limited to a single page. Add as many pages as you like and move between them with a swipe or with the indicator on the side. Every module is customizable: change the size of any module to 1×1, 1×2 or 2×2. Some modules, such as the player, can be resized even more flexibly.
+ .
+ Editing Right in Control Center
+ Tap "+" in the top-left corner of the screen or press and hold an empty spot to enter edit mode. Move modules or remove the ones you don't need right in Control Center, with no need to open Settings.
+ .
+ Connectivity Module
+ Wi-Fi, Bluetooth, AirDrop, Cellular Data, Personal Hotspot, VPN and Airplane Mode are all together in the new Connectivity module. Open the module to see all of its buttons as a list.
+ .
+ Player
+ The player module now shows the album artwork, with a soft glow around it that matches the colors of the song that's playing, just like on iOS 18.
+ .
+ Everything Else
+ Focus, Flashlight, Timer, Calculator, Camera, Code Scanner, Silent Mode, Hearing and other system modules are redrawn in the iOS 18 style. Shortcut and Open App controls are included too, and Settings › Control Center looks like it does on iOS 18, including "Reset Control Center".
+ .
+ Settings
+ You'll find the tweak in Settings › ControlCenter18. It's turned off after installation, so turn it on and respring. There you can also save your layout as a preset to import later, and if SpringBoard ever crashes, send us the crash log in one tap (logs are kept for 3 days).
+ .
+ Before You Start
+ Turn off other tweaks that change Control Center: themes, module styles and custom layouts. ControlCenter18 draws the whole Control Center itself, so they will conflict.
+ .
+ This is a beta. If something doesn't work, send us the crash log from the settings and we'll fix it.
+ .
+ Works on rootless and roothide jailbreaks.
+ .
+ ControlCenter18 переносит полноценный пункт управления из iOS 18 на iOS 16 и 17. Это не тема и не перерисовка: модули, страницы и жесты работают так же, как на iOS 18.
+ .
+ Только iPhone. iPad не поддерживается.
+ .
+ Страницы и настраиваемые модули
+ Пункт управления больше не ограничен одной страницей. Добавляйте сколько угодно страниц и удобно переключайтесь между ними свайпами или с помощью индикатора сбоку. Каждый модуль настраивается: у любого модуля можно изменить размер на 1×1, 1×2 или 2×2. А у некоторых модулей, например у плеера, размер настраивается ещё гибче.
+ .
+ Редактирование прямо в шторке
+ Нажмите «+» в левом верхнем углу экрана или зажмите свободное место, чтобы войти в режим редактирования. Перемещайте модули и убирайте ненужные прямо в пункте управления — заходить для этого в настройки не нужно.
+ .
+ Модуль связи
+ Wi-Fi, Bluetooth, AirDrop, сотовые данные, режим модема, VPN и авиарежим собраны в новом модуле связи. Откройте модуль, чтобы увидеть все его кнопки в виде списка.
+ .
+ Плеер
+ Модуль плеера теперь показывает обложку, а вокруг неё — лёгкое свечение в цвет проигрываемой песни, точно так же, как на iOS 18.
+ .
+ Всё остальное
+ Фокусирование, фонарик, таймер, калькулятор, камера, сканер кода, бесшумный режим, слух и другие системные модули перерисованы в стиле iOS 18. Есть и элементы управления «Быстрая команда» и «Открыть приложение», а раздел «Настройки» › «Пункт управления» выглядит так же, как в iOS 18, вместе с кнопкой «Сбросить пункт управления».
+ .
+ Настройки
+ Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить раскладку в пресет, чтобы импортировать её позже, а если SpringBoard вдруг крашнет, отправить нам крашлог в одно касание (логи хранятся 3 дня).
+ .
+ Перед началом
+ Отключите другие твики, которые меняют пункт управления: темы, стили модулей и собственные раскладки. ControlCenter18 сам рисует весь пункт управления, поэтому они будут конфликтовать.
+ .
+ Это бета-версия. Если что-то не работает, отправьте нам крашлог из настроек, и мы всё исправим.
+ .
+ Работает на rootless и roothide джейлбрейках.
+Name: ControlCenter18 (Roothide)
+Author: evgeniy558
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ControlCenter18.json
+Depiction: http://jtisvn.github.io/depiction/ControlCenter18.html
+Icon: https://jtisvn.github.io/sectionIcons/ControlCenter18.png
+
 Package: com.evynw.fontainsliesans14
 Architecture: iphoneos-arm
 Version: 1.1
@@ -4062,19 +4217,19 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
 Replaces: com.ichitaso.powerselector11
 Filename: ./debs/com.ichitaso.powerselector11_1.5.0_iphoneos-arm64.deb
-Size: 408792
-MD5sum: 58a986a90fed85d1e20d4914a7341764
-SHA1: 7d7e3e2f2a5af28c925b889b1ea99b26a81605ca
-SHA256: 920e328e4c17a4a968c0070a5cd4c380fa671f47faafa5294d3f8c10ee00fe87
-SHA512: fb9419fa05342f168a1358093111fb4fcc3a5e72702f81b9da6b8885fc5f27d494d97310dd231b93714011146353864c79d1980aac7a423349c200265bfa60b4
+Size: 408844
+MD5sum: 1b1c5241252e1b707443cac40e49a2a2
+SHA1: c52b266fee0dd37b162a05c85f26f51e9bd465bb
+SHA256: 5a1c0b862f109e1b3a5de2a07f6b3af3a64977c21c304aa068c82e08244ecb3c
+SHA512: f617d21804b55d20fac4c23605f24687c4449342e55da023187de55f94ee5116d13e472e19585c4b5d0d17194f7f34598b99d7612e3a0a2eb20e5a7156541fa1
 Description: The power supply relation of a device is operated.
 Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios26.0.1
 Author: ichitaso <willfeeltips+ps11@gmail.com>
 Name: PowerSelector (Rootless)
 dev: ichitaso
-SileoDepiction: https://jtisvn.github.io/sileodepictions/PoơerSelector2.json
-Depiction: http://jtisvn.github.io/depiction/PoơerSelector2.html
-Icon: https://jtisvn.github.io/sectionIcons/PoơerSelector2.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector2.json
+Depiction: http://jtisvn.github.io/depiction/PowerSelector2.html
+Icon: https://jtisvn.github.io/sectionIcons/PowerSelector2.png
 
 Package: com.ichitaso.powerselector11
 Architecture: iphoneos-arm64e
@@ -4087,19 +4242,19 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
 Replaces: com.ichitaso.powerselector11
 Filename: ./debs/com.ichitaso.powerselector11_1.5.0_iphoneos-arm64e.deb
-Size: 408436
-MD5sum: a2f12db3769c676fdd9ae3f97cb309c2
-SHA1: 7d749a031a6445f2b5a9a31613746f8800fc3fcd
-SHA256: 9a3f16de0052a63af749556fb95c4cf9475201e45f956345cbb88ea44ece5b9c
-SHA512: 4b003982ca7f12fc3ed43fd2159d5d9a5413e87d712a27103e74515e6ee2d4755e2db132ea57b9b79971d0d2a0f109577116573b5b3cda79fa1809f05af2bce9
+Size: 408600
+MD5sum: 37c91039bff88dc5a3bef56d78ccfbb4
+SHA1: 003e0942f43ac8601e5e7ce1676bb54738f67f53
+SHA256: 12258d3361fdfb16df14b1ef728e9dac7de828c500e5eee2462a7747e53d370e
+SHA512: 88e8821366e21425d9b07ccca3f58fe4fc6a065b2e875eb3c49584c00178f343d78ad275234194cf876e905e48f177b9a675fe9ae33d1c924996fbe2f6dfa70b
 Description: The power supply relation of a device is operated.
 Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios26.0.1
 Author: ichitaso <willfeeltips+ps11@gmail.com>
 Name: PowerSelector (Roothide)
 dev: ichitaso
-SileoDepiction: https://jtisvn.github.io/sileodepictions/PoơerSelector2.json
-Depiction: http://jtisvn.github.io/depiction/PoơerSelector2.html
-Icon: https://jtisvn.github.io/sectionIcons/PoơerSelector2.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector2.json
+Depiction: http://jtisvn.github.io/depiction/PowerSelector2.html
+Icon: https://jtisvn.github.io/sectionIcons/PowerSelector2.png
 
 Package: com.imkpatil.colormybattery
 Architecture: iphoneos-arm64
@@ -20203,98 +20358,6 @@ Icon: https://k37ios.pages.dev/assets/InfiniteMedia.png
 
 Package: com.jtisvn.iphoneduoicon
 Architecture: iphoneos-arm64
-Version: 1.0.3
-Section: Tweaks
-Maintainer: Banana
-Installed-Size: 3248
-Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.3_iphoneos-arm64.deb
-Size: 580060
-MD5sum: b3308fafe74541520d24d333e9e897f7
-SHA1: 57cbff19a28e8cbe87afa99c1a659dd430507301
-SHA256: 52222d8a00a631ac684c6e00a9e0bfd787c0151e99154bc313f63ad0ee78c464
-SHA512: 7d491cfed789906fc931ce4ac97415cb8dd690221c7b3c9f3445bdfa38a5bcd80f79f7c8243cdf050a25f5498717a9ef0aa5a09362326ba629b81f42ff742758
-Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
-Name: Lunora (Rootless)
-Author: Banana
-SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
-Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
-Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-
-Package: com.jtisvn.iphoneduoicon
-Architecture: iphoneos-arm64e
-Version: 1.0.3
-Section: Tweaks
-Maintainer: Banana
-Installed-Size: 3248
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.3_iphoneos-arm64e.deb
-Size: 574908
-MD5sum: 3b6c40c67810eea369499a5ac8ae876c
-SHA1: 86aa37980a2210007ae7a2b99279fe6800fc466f
-SHA256: 77c31f02b516d9636235e8166b46505c7d30fe22c6a9da451e37f2feada90f35
-SHA512: f55d53930fdfcaaf1a5e1f6d7379d52abbd15544d3a0f21f90f689b58a413102b02e0213cf17e4f0486c9a6c449fffe9c431a8911349aba2a17556e3b019d65c
-Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
-Name: Lunora (Roothide)
-Author: Banana
-SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
-Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
-Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-
-Package: com.jtisvn.iphoneduoicon
-Architecture: iphoneos-arm64
-Version: 1.0.8
-Section: Tweaks
-Maintainer: Banana
-Installed-Size: 4680
-Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
-Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
-Replaces: com.ryannair05.audiosnapshotserver2
-Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.8_iphoneos-arm64.deb
-Size: 785708
-MD5sum: ecbb757cf2525dcba25f32afabd501eb
-SHA1: a9028007f994fc37dd37f40f8868ba259e87dc85
-SHA256: a2df0fad456275b9af49de54824ed6e043c684f9e754c7c9ed7858bbf70b6a77
-SHA512: 2c56d824c8721d1afedb6f8e3a5d0f9f55040f6a959c8a2de4771ef9cda2d6afcb1ce56499528c1c78639e918100892f98618c9bc5ce28f7faeebf94766ba61b
-Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
-Name: Lunora (Rootless)
-Author: Banana
-SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
-Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
-Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-
-Package: com.jtisvn.iphoneduoicon
-Architecture: iphoneos-arm64e
-Version: 1.0.8
-Section: Tweaks
-Maintainer: Banana
-Installed-Size: 4680
-Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
-Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
-Replaces: com.ryannair05.audiosnapshotserver2
-Filename: ./debs/com.jtisvn.iphoneduoicon_1.0.8_iphoneos-arm64e.deb
-Size: 780448
-MD5sum: a58cb122f6afb689a5294fddee11cb5d
-SHA1: 1e71e54235a9a1f28ff29b9df885d6dcfd24594a
-SHA256: 50121e492639bc78f9a067f3f9b3a5cbd4676173e2e8a9fa87f11b51a26621be
-SHA512: 565c6a571aa6fb5b3b3748737e3bcaf5b3d4aa87f4ba5c992a78edc2884799c88f49a4d3ccfae9fc2debada117da79b2346e7e6627f742d58f0ec7be286c4438
-Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
-Name: Lunora (Roothide)
-Author: Banana
-SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
-Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
-Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-
-Package: com.jtisvn.iphoneduoicon
-Architecture: iphoneos-arm64
 Version: 1.1.0
 Section: Tweaks
 Maintainer: Banana
@@ -20331,6 +20394,51 @@ MD5sum: 8656e1d0a3cbcc763bfe3a98c2ebd4a2
 SHA1: dab68afdf2e17b3f17ee524cef715680fbb129a1
 SHA256: e5ba335ec327c96574d1e6a315b2b353b4939d165a3b9cd81012e8097ebf8e78
 SHA512: cfb3927c12fce77e5e8453d5c674fbb884340a284a80cea6dd07b4cfcb3c9642d06e76af808ef10e6a76414fae33bdbc50eaca2953013877dafee03681a6fcbb
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5232
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.2_iphoneos-arm64.deb
+Size: 971764
+MD5sum: 26cfbdf51c01dccb63cf79619d323738
+SHA1: 1a07de87bd64ef4ec32945ca4747ac35cc2db894
+SHA256: b4aa066c99e99cf9f5e4c63d84c32a34d4dfe479935abf2400c50cd6e9df498c
+SHA512: 81221d2653983c20e357757f44641ef6c1ecbcae2545cf9dcc8c9e1ec2a5484fffb0f5e635d05541cb429067e6d2b4c2d02f07725d4f9fe0d3495fdc056308c4
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.2_iphoneos-arm64e.deb
+Size: 966632
+MD5sum: 9941b6a1fa510c0aa222b11ef990bea4
+SHA1: ea0b363c22b9299e05073e54208fc3ca3fe310c1
+SHA256: 8892f28b719932d7db6dcfbdf70ce3363aa73c48f6984956b10701cc8847cdcb
+SHA512: 245cef29cf428484688194b866e9e0456efbf8715c8448cc7a2846b1d672213a6a91b5083eef45bb446714a07b8bbb46abd96049506e108ab4222d81c62d4dae
 Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
 Name: Lunora (Roothide)
 Author: Banana

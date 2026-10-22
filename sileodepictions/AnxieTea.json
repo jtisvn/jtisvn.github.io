@@ -1,0 +1,552 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://media.havoc.app/6acf783a6e46a2bf96db5d4a",
+"tintColor": "#0EA5E9",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### AnxieTea\n\nCông cụ giám sát mạng và tường lửa toàn diện dành cho thiết bị iPhone đã jailbreak. Giúp bạn theo dõi mọi kết nối mà các ứng dụng và dịch vụ hệ thống thực hiện, đồng thời chủ động chặn những kết nối không mong muốn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://media.havoc.app/6ac7e42152e2be116d311350",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://media.havoc.app/6ac7e42599e9196880081ac7",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://media.havoc.app/6ac7e42952e2be116d31138c",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://media.havoc.app/6ac81a4999e919688008869c",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://media.havoc.app/6ac7e42f52e2be116d3113b0",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://media.havoc.app/6ac7e43252e2be116d3113d1",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://media.havoc.app/6ac7e43852e2be116d3113ff",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://media.havoc.app/6ac7e44152e2be116d31141d",
+"accessibilityText": "Screenshot 8"
+},
+{
+"url": "https://media.havoc.app/6ac7e44552e2be116d311426",
+"accessibilityText": "Screenshot 9"
+},
+{
+"url": "https://media.havoc.app/6ac7e44952e2be116d311433",
+"accessibilityText": "Screenshot 10"
+},
+{
+"url": "https://media.havoc.app/6ac7e44d52e2be116d311459",
+"accessibilityText": "Screenshot 11"
+},
+{
+"url": "https://media.havoc.app/6ac7e45152e2be116d311478",
+"accessibilityText": "Screenshot 12"
+},
+{
+"url": "https://media.havoc.app/6ac7e45552e2be116d3114a0",
+"accessibilityText": "Screenshot 13"
+},
+{
+"url": "https://media.havoc.app/6ac7e45d52e2be116d3114de",
+"accessibilityText": "Screenshot 14"
+},
+{
+"url": "https://media.havoc.app/6acf7921d01780d140fd150a",
+"accessibilityText": "Screenshot 15"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{160,346}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Giám sát trực quan:** Xem kết nối trực tiếp bao gồm tên ứng dụng, máy chủ, chủ sở hữu, quốc gia và lưu lượng truy cập.\n- **Bản đồ thế giới (World Map):** Hiển thị tuyến đường kết nối tới mọi quốc gia, xếp hạng lưu lượng theo công ty chủ quản.\n- **Kiểm soát quyền truy cập:** Thiết lập chế độ Cho phép (Allow), Hỏi (Ask) hoặc Chặn (Deny) cho từng ứng dụng.\n- **Bảo mật mạng nâng cao:** Chống rò rỉ DNS & WebRTC, chỉ dùng HTTPS, tích hợp VPN kill switch và chặn phân tích dữ liệu từ Apple.\n- **An toàn mạng Wi-Fi:** Cảnh báo bộ định tuyến giả mạo, theo dõi cổng đến (Inbound Watch) và quét thiết bị Bluetooth/AirTag lân cận.\n- **Đo tốc độ thanh trạng thái:** Hiển thị tốc độ tải xuống/tải lên trực tiếp ngay trên thanh trạng thái.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "AADiOS",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "5.1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0.5",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "20/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 26.0.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### AnxieTea\n\nNetwork monitor and firewall for your iPhone. Your iPhone talks. AnxieTea lets you listen, and decide who it talks to.\n\nAnxieTea shows every connection your apps and system services make, and blocks the ones you don't want.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://media.havoc.app/6ac7e42152e2be116d311350",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://media.havoc.app/6ac7e42599e9196880081ac7",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://media.havoc.app/6ac7e42952e2be116d31138c",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://media.havoc.app/6ac81a4999e919688008869c",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://media.havoc.app/6ac7e42f52e2be116d3113b0",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://media.havoc.app/6ac7e43252e2be116d3113d1",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://media.havoc.app/6ac7e43852e2be116d3113ff",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://media.havoc.app/6ac7e44152e2be116d31141d",
+"accessibilityText": "Screenshot 8"
+},
+{
+"url": "https://media.havoc.app/6ac7e44552e2be116d311426",
+"accessibilityText": "Screenshot 9"
+},
+{
+"url": "https://media.havoc.app/6ac7e44952e2be116d311433",
+"accessibilityText": "Screenshot 10"
+},
+{
+"url": "https://media.havoc.app/6ac7e44d52e2be116d311459",
+"accessibilityText": "Screenshot 11"
+},
+{
+"url": "https://media.havoc.app/6ac7e45152e2be116d311478",
+"accessibilityText": "Screenshot 12"
+},
+{
+"url": "https://media.havoc.app/6ac7e45552e2be116d3114a0",
+"accessibilityText": "Screenshot 13"
+},
+{
+"url": "https://media.havoc.app/6ac7e45d52e2be116d3114de",
+"accessibilityText": "Screenshot 14"
+},
+{
+"url": "https://media.havoc.app/6acf7921d01780d140fd150a",
+"accessibilityText": "Screenshot 15"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{160,346}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **See everything:** Live connections with app, server name, owner, country, traffic, and World Map.\n- **Decide what's allowed:** Rules enforcement by kernel, Allow, Ask or Deny modes, blocklists for ads and trackers.\n- **Protection:** DNS and WebRTC leak protection, HTTPS Only, VPN kill switch, Apple analytics blocking.\n- **Network safety:** Wi-Fi Guard, Inbound Watch, devices on your network, and Bluetooth tracker scan.\n- **Status bar meter:** Live upload/download speeds and alerts when requests are blocked.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "AADiOS",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "5.1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0.5",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 20, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 26.0.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+]
+},
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.0.5 (20/10/2026)\n- **Máy chủ điều hành:** Bản đồ thế giới hiển thị đơn vị vận hành máy chủ của từng quốc gia và xếp hạng lưu lượng.\n- **Chi tiết máy chủ:** Trang thông tin chi tiết về chủ sở hữu, nhãn, lưu lượng, ứng dụng, địa chỉ và quy tắc.\n- **Chặn theo công ty:** Cho phép chặn mọi mạng lưới của một công ty cho tất cả ứng dụng hoặc từng ứng dụng riêng lẻ.\n- **Thống kê chi tiết:** Xem lại hoạt động trong ngày hoặc tuần (lý do bị chặn, trình theo dõi vượt rào, lưu lượng chưa mã hóa, hoạt động ban đêm).\n- **Cải tiến giao diện:** Tên công ty rõ ràng (Meta, Amazon...), bản đồ toàn màn hình phóng to bằng cách nhấn đúp, hiển thị các quốc gia nhỏ và lãnh thổ trên bản đồ.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.0.5 (October 20, 2026)\n- **Who runs the servers:** World Map shows company servers and ranks traffic. Tap a country for breakdown.\n- **Server details:** One page per server with owner, labels, traffic, apps, and rules.\n- **Block a company:** Block every network a company runs.\n- **Statistics:** Day/week numbers on blocked requests, trackers, and unencrypted traffic.",
+"useSpacing": true
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

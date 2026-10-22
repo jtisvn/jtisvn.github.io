@@ -133,7 +133,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "17/10/2026",
+"text": "22/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -151,7 +151,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.0",
+"text": "1.1.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -164,7 +164,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2,8 MB",
+"text": "4.7 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -177,7 +177,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "16.0 - 17.7",
+"text": "15.1 - 17.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -323,7 +323,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 17, 2026",
+"text": "October 22, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -354,7 +354,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.8 MB",
+"text": "4.7 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -367,7 +367,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 16.0 - 17.7",
+"text": "iOS 15.1 - 17.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -405,6 +405,14 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
+"markdown": "### Phiên bản 1.1.2\n- Thêm hướng dẫn cập nhật/sắp xếp 2 trang, đồng bộ vị trí viền màn hình, tự động chuyển đổi giữ nguyên bố cục và neo pin nguyên bản trong Control Center.\n- Thêm hiệu ứng kính tràn viền tùy chọn, 2 chế độ hoạt ảnh Orbit, dòng chảy pin/màu sạc luôn bật, chọn sóng SIM và cử chỉ Iya Split cho mini Dock.\n- Cải thiện màu hoạt động tai thỏ, bố cục văn bản và giảm làm mới không cần thiết. Thêm chẩn đoán CPU 60 giây. Yêu cầu iOS 15.1+ và chặn iOS 15.0.x.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
 "class": "DepictionMarkdownView",
 "markdown": "### Phiên bản 1.1.0\n- Thêm hỗ trợ thanh trạng thái tai thỏ nguyên bản trên iOS 15, bao gồm mô phỏng tai thỏ trực tiếp.\n- Cải thiện độ ổn định khi khởi động và sửa lỗi crash khi cập nhật thanh trạng thái trên một số thiết bị.\n- Thêm kiểm tra tương thích và hướng dẫn trước khi bật; các bố cục không hỗ trợ sẽ giữ nguyên giao diện gốc.",
 "useSpacing": true
@@ -426,6 +434,14 @@
 "class": "DepictionStackView",
 "tabname": "English",
 "views": [
+{
+"markdown": "### Phiên bản .1.1.2\n- Added a two-page update and placement guide, unified screen-edge positioning, preserved internal layout during auto-migration, and native Control Center battery anchoring.\n- Added optional full-edge glass highlights, 2 Orbit animation modes, always-on battery flow/charging colors, SIM signal selection, and Iya Split gesture integration for mini Dock.\n- Improved notch activity colors and text layout, and reduced unnecessary refreshes. Added 60-second CPU diagnostics. Requires iOS 15.1+ and blocks iOS 15.0.x.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class": "DepictionMarkdownView",
 "markdown": "### Version 1.1.0\n- Added native notch status bar support on iOS 15, including live notch simulation.\n- Improved startup stability and fixed a crash when updating the status bar on some devices.\n- Added compatibility checks and guidance before enabling; unsupported layouts keep the original appearance.",
