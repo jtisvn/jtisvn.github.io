@@ -264,6 +264,32 @@ Name: Orion Runtime (iOS 14 – 17)
 Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
 Depiction: https://chariz.com/get/orion-runtime14
 
+Package: com.ichitaso.powerselector11
+Architecture: iphoneos-arm
+Version: 1.5.0
+Section: Utilities
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 1816
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/PowerSelector-1.5.0-iphoneos-arm.deb
+Size: 422098
+MD5sum: e17f9c46e4866cb01696bb9b960fac71
+SHA1: 1acc683fed6155477367f3c5c7970a861921e548
+SHA256: 229dfd21a59c17d4300128bfb0d1f0350f248ebf9ae3f77d1a37d1e47b65de0a
+SHA512: 07015dd3aa11219e946061b06ab19dc9afa8a5c2bbf66a3393bedc66f0d87e944596790eab12f60b8d26b4ae527f66ec69b67b05a1f29eb1443283e5fa0bb0a0
+Homepage: https://cydia.ichitaso.com/depiction/powerselector11.html
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios26.0.1
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Name: PowerSelector
+Depiction: https://cydia.ichitaso.com/depiction/powerselector11.html
+dev: ichitaso
+Icon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/PowerSelector/PowerSelector-icon-360.png
+SileoDepiction: https://cydia.ichitaso.com/depiction/powerselector11.json
+
 Package: preferenceloader
 Architecture: iphoneos-arm64e
 Version: 2.3
@@ -4024,6 +4050,56 @@ Name: PowerSelector (Roothide)
 dev: ichitaso
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/PowerSelector.png
+
+Package: com.ichitaso.powerselector11
+Architecture: iphoneos-arm64
+Version: 1.5.0
+Section: Utilities
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 2080
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.ichitaso.powerselector11_1.5.0_iphoneos-arm64.deb
+Size: 408792
+MD5sum: 58a986a90fed85d1e20d4914a7341764
+SHA1: 7d7e3e2f2a5af28c925b889b1ea99b26a81605ca
+SHA256: 920e328e4c17a4a968c0070a5cd4c380fa671f47faafa5294d3f8c10ee00fe87
+SHA512: fb9419fa05342f168a1358093111fb4fcc3a5e72702f81b9da6b8885fc5f27d494d97310dd231b93714011146353864c79d1980aac7a423349c200265bfa60b4
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios26.0.1
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Name: PowerSelector (Rootless)
+dev: ichitaso
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PoơerSelector2.json
+Depiction: http://jtisvn.github.io/depiction/PoơerSelector2.html
+Icon: https://jtisvn.github.io/sectionIcons/PoơerSelector2.png
+
+Package: com.ichitaso.powerselector11
+Architecture: iphoneos-arm64e
+Version: 1.5.0
+Section: Utilities
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 2080
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.ichitaso.powerselector11_1.5.0_iphoneos-arm64e.deb
+Size: 408436
+MD5sum: a2f12db3769c676fdd9ae3f97cb309c2
+SHA1: 7d749a031a6445f2b5a9a31613746f8800fc3fcd
+SHA256: 9a3f16de0052a63af749556fb95c4cf9475201e45f956345cbb88ea44ece5b9c
+SHA512: 4b003982ca7f12fc3ed43fd2159d5d9a5413e87d712a27103e74515e6ee2d4755e2db132ea57b9b79971d0d2a0f109577116573b5b3cda79fa1809f05af2bce9
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios26.0.1
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Name: PowerSelector (Roothide)
+dev: ichitaso
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PoơerSelector2.json
+Depiction: http://jtisvn.github.io/depiction/PoơerSelector2.html
+Icon: https://jtisvn.github.io/sectionIcons/PoơerSelector2.png
 
 Package: com.imkpatil.colormybattery
 Architecture: iphoneos-arm64
@@ -21897,36 +21973,17 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.apptoolsvh
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.2
 Section: Tweaks
 Maintainer: Kitsudo
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.apptoolsvh_1.0.0_iphoneos-arm64 (1).deb
-Size: 10932
-MD5sum: bdd69d35493e34dc845306436ed09134
-SHA1: 072262ffd0f57cd575ab96c685b4946bd516d915
-SHA256: 7f5bd4dd340770cdef325542ad0c9a8514a2e4eb07eb2c297d432317ca9d36b2
-SHA512: a6ddc087affc05a6e24cae93df972542779ae9a6e879af708ca22a8410d3228e518e18dcb3df9582f7b8425a0c68d7ab9be025d2822272f4fb26fb2fed73df43
-Description: Thêm ngôn ngữ Tiếng Việt cho tweak AppTools
-Name: AppTools gói Việt Hoá
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AppToolsVH.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.apptoolsvh
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Section: Tweaks
-Maintainer: Kitsudo
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.apptoolsvh_1.0.0_iphoneos-arm64.deb
-Size: 10944
-MD5sum: 30a6fad6e89ccaf75b2681d4aa47455e
-SHA1: f11053eac6b5a694ae25b6a5702fddc89e691eb7
-SHA256: 9701b7e2a1cbd1a320f6daa37a35a78772478a00b7147114d7adf293319d9c25
-SHA512: fc10d009becd50ae0a3d32baf6b81eb1c5ccac3db9ebd92193f71143f4677e4644d0e1167e31a73c9eaf4f685f40a5f2753a222e04711a83d6212a4654a4b7e2
+Filename: ./debs/com.kitsudo.apptoolsvh_1.0.2_iphoneos-arm64.deb
+Size: 11728
+MD5sum: 79e03b7e439add6fa5778b552bf6764a
+SHA1: 1ba0b5c6f8bd278a5404eef104269b67635e83d9
+SHA256: 9b644a095bd50d2cfc85e2f4cfe69f6a553ffd069b41104f13757637b2205083
+SHA512: 10478415a225dc5aa7ae60ee374d6fa86a3ca64c37c1fb850ecf729aeb3412f7d4cc8e94660d5d8a9383a10774eb916ca61a0fe9784f62f83738ffbb263dbda2
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak AppTools
 Name: AppTools gói Việt Hoá (Rootless)
 Author: Kitsudo
@@ -21935,18 +21992,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.apptoolsvh
 Architecture: iphoneos-arm64e
-Version: 1.0.0
+Version: 1.0.2
 Section: Tweaks
 Maintainer: Kitsudo
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.apptoolsvh_1.0.0_iphoneos-arm64e.deb
-Size: 10624
-MD5sum: 580ffc453246967e4a2cd9edafd2f841
-SHA1: 135379ccd8392cb04c605f6159c52493f88734f8
-SHA256: 0c7620a94f7ab0cb589e433b38ebe8ce1a04e5a28ee930105ba095a5336adf6f
-SHA512: 75ff5986f124b2aa122aa14bc4e23cdc9cb11635ca60ea6eab20745b6d6a18a618e8eb452e8b88dda05b1ff79c57e10b1d0100ae09b374280ba215307984b0e8
+Filename: ./debs/com.kitsudo.apptoolsvh_1.0.2_iphoneos-arm64e.deb
+Size: 11360
+MD5sum: 31aa534cb343f2b600acd224e5db8007
+SHA1: cc3461ce4ef173be94da9431733c32756f92182e
+SHA256: cadaa25e23e26d432fd05f8477dd2deaa4c5b645b119be678453e1a85574a4e9
+SHA512: 0740453e749ba497d61bc7fc8591ad7ed5f7051d8cdc3847c8fabf514c1fb858c9902d4f893281ceacdd4d483a5887d597b979e46d6cc075c1e5743b64ba27a2
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak AppTools
 Name: AppTools gói Việt Hoá (Roothide)
 Author: Kitsudo
@@ -22489,39 +22546,39 @@ Icon: https://k37ios.pages.dev/assets/PowerActions.png
 
 Package: com.kitsudo.powerselectorvh
 Architecture: iphoneos-arm64
-Version: 1.1
+Version: 1.2
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.powerselectorvh_1.1_iphoneos-arm64.deb
-Size: 8880
-MD5sum: bd3221ee8f28fb73dcb3ed958b71308a
-SHA1: 46300dffe55c0d427cb150c3a3558e5850eed275
-SHA256: 5d1f1793053f9f5d06ba9c9e3b1eed7cc1433f3f84fe0ad15a6671128ecc97e8
-SHA512: f174aad07e1a1a8071ebe9e3753fcf9c2d3375d7ba71f4a07a6cf155d1d182fea829995b25db4ba92eb547b5e4206f7e295354266fa36be3c3b00327c28e830f
-Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
-Name: PoơerSelector gói Việt Hoá (Rootless)
+Filename: ./debs/com.kitsudo.powerselectorvh_1.2_iphoneos-arm64.deb
+Size: 8968
+MD5sum: 8f3cd89507fe1b96cf54ab56673b488c
+SHA1: 1fb7f79b8c283f151617ebe2c0f5e2a94230e056
+SHA256: e2487a2ea4b9c2ceb3214a6129456db896ea3362b733a3a03f06f941cd596778
+SHA512: 34c54c47bbe41bdd3c86bebd3e3efeefca492b3ff3fcc02826422c19eb400378505c7be65bb2272def7f418d986e55770e5ab3985cb769885852020834e38428
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PowerSelecto
+Name: PowerSelector gói Việt Hoá (Rootless)
 Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.powerselectorvh
 Architecture: iphoneos-arm64e
-Version: 1.1
+Version: 1.2
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.powerselectorvh_1.1_iphoneos-arm64e.deb
-Size: 8596
-MD5sum: 85cad2210741f00eaf0e23ccdc15d439
-SHA1: 9dc0cf0781eb6cc56752f4e6cadf0434ae7a2ed5
-SHA256: 35659af0a49f65e2743932168bb8e52c1e0e156d79e5cb6bb2c3aa919df6782f
-SHA512: 1c3340b31212af66377e20809c55e451a08b6d6e05d445938cf6e782d6753d2cb1e46ffae4a4f22009c37f7bc547a62ff0b73a06fc4d4b64cd0ffa0a71197e7c
-Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
-Name: PoơerSelector gói Việt Hoá (Roothide)
+Filename: ./debs/com.kitsudo.powerselectorvh_1.2_iphoneos-arm64e.deb
+Size: 8768
+MD5sum: be1fd223acb3943ca72f37109f56fa7d
+SHA1: f97222ab8b64da72af8e9ba22d88ed2c40d79070
+SHA256: 8f601f66fb95dae4b80578228c3f4013e8a029e5743f2484dc77078b1d481f69
+SHA512: 88485935caa8f2eff18926c9d6d3738164420f2ec26e67fc64afbf1aed8ad2a9787a20fbee3285c4e5296231b29cd1960eef329de645b5e648c693722eaf782a
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PowerSelecto
+Name: PowerSelector gói Việt Hoá (Roothide)
 Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
@@ -22569,18 +22626,18 @@ Icon: https://k37ios.pages.dev/assets/TikTokAutoSwipe.png
 
 Package: com.kitsudo.transalt
 Architecture: iphoneos-arm64
-Version: 1.0.2
+Version: 1.0.5
 Section: Tweaks
 Maintainer: KÃitsudo
-Installed-Size: 668
+Installed-Size: 828
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.transalt_1.0.2_iphoneos-arm64.deb
-Size: 66840
-MD5sum: f8383998e1360383c251e4a26307ae67
-SHA1: c403b1d7064e2d52da5e5a2b7fad64d1e9ae55fc
-SHA256: a08eaeed185b5c6783cdff8dbf2b0690180806a9158cdbd43f55c035182fce85
-SHA512: bc02c72e46d5056dc7c40f04083281a8835b40c961b717f5712edea2c0ab0786e1f9ca28b0c36ebc4be227e0fa95953ee0c22971e0c6e9ee3b4d78ee06db5fb1
-Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
+Filename: ./debs/com.kitsudo.transalt_1.0.5_iphoneos-arm64.deb
+Size: 84592
+MD5sum: f1f817d72d4b2602fc9a2eb3973cce9d
+SHA1: 7f0b885513244fa523925e26d678331824bcda0f
+SHA256: a8d286f78271c9dd31ca8f3002127791d6533dc4f93bad366ea153511bf73644
+SHA512: 50433fb8a6966951df98545aeeff84c375548dfcbbd9a0537ad8297658eb20cb5caa278dd5c1a6e9cd7597f0391327b40f90a69f930f44af18fa42f435f2bdcc
+Description: Gói Việt Hoá các tinh chỉnh của pháp sư Tau
 Name: TransAlT (Rootless)
 Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TransAlT.json
@@ -22588,39 +22645,19 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.transalt
 Architecture: iphoneos-arm64e
-Version: 1.0.2
+Version: 1.0.5
 Section: Tweaks
 Maintainer: KÃitsudo
-Installed-Size: 668
+Installed-Size: 828
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.transalt_1.0.2_iphoneos-arm64e.deb
-Size: 63804
-MD5sum: 164a312dd60d054b8292f6780c20fc39
-SHA1: 627fad7158ef39fca084a518bca3f94d035c17b1
-SHA256: efd9fd0cfb321f15a3ca97dc6da35b621b3e15e6fdb33a964b82bb61a3c93559
-SHA512: 6a6db72f89328c67c615fa3cc1927c6dafc9d23303173f2c509863bd269b23d37fe4ca5fe7c856c47176841973c4dd9a13cfb7e55b86d579dea6ad39ac4e0fa3
-Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
-Name: TransAlT (Roothide)
-Author: KÃitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/TransAlT.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.transalt
-Architecture: iphoneos-arm64e
-Version: 1.0.4
-Section: Tweaks
-Maintainer: KÃitsudo
-Installed-Size: 940
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.transalt_1.0.4_iphoneos-arm64e.deb
-Size: 92808
-MD5sum: 428d5f0cc2a41782a6b30265de58a2ca
-SHA1: 21bf4b3ea4785541ca369a89d6617a919e2cdff1
-SHA256: e19d9ad2e60bb2a4bcb0783197e0f0a9cfc0771f476012344e32d78b2626b465
-SHA512: 5a6613a32d760dbca6ea3a23aa4ebe70e07ee83a387932e0ab8ef4b5cdc70fda4518e39088887c9a633fe4297d3f13db2f5df271212bed6bb10de2704b1b49a9
-Description: Gói Việt Hoá các tinh chỉnh của pháp sư TQ
+Filename: ./debs/com.kitsudo.transalt_1.0.5_iphoneos-arm64e.deb
+Size: 81020
+MD5sum: ef8bf19798dd16d18ed5b1189a73a705
+SHA1: f9dd19eef091aa12a379686b40739b630e246f74
+SHA256: 95ab3c6d2b570669be97dbb33db4fbf8d5ab227c0968fcd84a4941f0930f3f30
+SHA512: 7764c5453e7c6e672671b1bb95635c88ca8f4cffc29b2240c3ab76ad07dc0da33bbe14cc6a8efa2e170922ddc80891fb6318df6c1301a4b68a3e1e3ae1071f60
+Description: Gói Việt Hoá các tinh chỉnh của pháp sư Tau
 Name: TransAlT (Roothide)
 Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TransAlT.json
@@ -22628,17 +22665,17 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.triggrvh
 Architecture: iphoneos-arm64
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 264
+Installed-Size: 296
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.triggrvh_1.0.1_iphoneos-arm64.deb
-Size: 24596
-MD5sum: 61c9d98c1025170654748b1e8db819ef
-SHA1: 432b5ef33d3fbc41f336850d58a75d6463cb52ea
-SHA256: 3e710cc27e742bf9f52b05afe89cd7cd6c8f0b3938e68a9fa32cec25ec21a76e
-SHA512: 1b87acdf8625a3624a1386649421458f353ddfe4801da3960dd3e2e51a0298358d8ec96ab859c4ac83d7cd1cd3c85cb5c62de304ea94127c196399183c654993
+Filename: ./debs/com.kitsudo.triggrvh_1.0.2_iphoneos-arm64.deb
+Size: 26352
+MD5sum: f45fd30f4eea061de2e73c32d7757e58
+SHA1: 644e157b0f4cd7a6941817ef8997ad3b27bdc990
+SHA256: 31cf8627699dfde235b9146d211cb2ae92bd8288d2065fd459496606c7f78aea
+SHA512: f677918f13e848a2b1f338dc1ad79bb79b81a52d715163c76635d955c1027297fac88a0b4f0ade0ff5e2e29856a72066b77f9d32c9a7ccc73951eb93a4aca310
 Description: Thêm ngôn ngữ Tiếng Việt trong giao diện cài đặt và ứng dụng Triggr
 Name: Triggr gói Việt Hoá (Rootless)
 Author: Kitsudo
@@ -22648,18 +22685,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.triggrvh
 Architecture: iphoneos-arm64e
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 264
+Installed-Size: 296
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kitsudo.triggrvh_1.0.1_iphoneos-arm64e.deb
-Size: 23660
-MD5sum: df865ca10bf704c4f4462a76c8319fe2
-SHA1: dcedf6207e8201560c4abb96487c4ec9e3016ee6
-SHA256: 9868bbe232deff4e16b49a5024901d3930bb0160157e889bd244f514bdea9d6f
-SHA512: 98f47148b094cb47858f6b3c30a773c3e206dbb4b7261fb64c1549e29c73b81ab8cb4041e7991605cb653deb949d8112263e51bc22976de64b8983a202722d38
+Filename: ./debs/com.kitsudo.triggrvh_1.0.2_iphoneos-arm64e.deb
+Size: 24476
+MD5sum: 7db238ffc56aba20a91c3f9d8c7438a8
+SHA1: c9d66f06e8a6d90361d9d9b6fb6410e21485ba37
+SHA256: c709aa66ef5e5a7ddb8187bdac9b33722965abad1457a393a70823721c4993d7
+SHA512: a6cbe5ee5881ec301ebfd192bdfbd12d440c1d7f591a934be42ff198f4cc146e88be47890ebbe1d28564b98ad146ec949871854da71e27d31985d07279a7138b
 Description: Thêm ngôn ngữ Tiếng Việt trong giao diện cài đặt và ứng dụng Triggr
 Name: Triggr gói Việt Hoá (Roothide)
 Author: Kitsudo
@@ -27239,6 +27276,43 @@ Name: AniTime (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Author: yan
+
+Package: com.yaowell.cellbell
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: yaowell
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.yaowell.cellbell_1.1_iphoneos-arm64.deb
+Size: 7872
+MD5sum: 8f9a5ceb20e2149077816d746935a727
+SHA1: f7c3ab9fd5ab5f05374a487e875c22c2f2cbe743
+SHA256: 680aba0ae7bf0d3240a9a401bb34f32294ba2e1609ee69a46ab27c637bfc70e2
+SHA512: 25e7c4f7255c70ad5420d570ae484b915cd4712438316a55e4f0153f74bec7e8c7af654be0357df0e14750d7fdb362229a539e9f5a1e3730cf41a25f716d6680
+Description: Hiển thị biểu tượng pin theo kiểu iOS 27 khi phần trăm pin tắt.
+Name: CellBell (Rootless)
+Author: yaowell & 半生年华
+icon: https://huayuarc.github.io/icon/cellbell.jpg
+
+Package: com.yaowell.cellbell
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: yaowell
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.yaowell.cellbell_1.1_iphoneos-arm64e.deb
+Size: 7716
+MD5sum: cd98d9db1d308e2cffaa6add35f270d8
+SHA1: dd4a518f19be657aa997be89b14be2786c409687
+SHA256: 60ff17582d68296658d03e509e1b4a275a6fd217b95f6cefe55107ffd379f5ab
+SHA512: b3fb686d64732cdba1127e6304f222f8035dcaa1c1296774248c5b8ea2fee1a0d01f0c5554e4515a066b1d27f2fbfdda0a54ec53a7df445088b15ef9905111eb
+Description: Hiển thị biểu tượng pin theo kiểu iOS 27 khi phần trăm pin tắt.
+Name: CellBell (Roothide)
+Author: yaowell & 半生年华
+icon: https://huayuarc.github.io/icon/cellbell.jpg
 
 Package: com.yourepo.cydiageek.lsvibrantclockdate
 Architecture: iphoneos-arm64

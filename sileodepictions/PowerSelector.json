@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### PowerSelector\n\n- Thêm 1 số chức năng tuỳ chọn SpringBoard vào mô-đun Trung tâm điều khiển hoặc trong app\n\n- Power Off Tắt thiêt bị\n\n- Reboot Khởi động lại thiết bị\n\n- UICache Làm mới lại giao điện\n\n- Respring Khởi đọng lại SpringBoard\n\n- Safe Mode Đưa thiết bị vào chế độ an toàn\n\n- LDRestart Khởi động lại tiến trình launchd\n\n- UserSpace Reboot Khởi động lại không gian người dùng.\n\n- bạn có thể cài gói **PowerSelector Vuệt Hoá** trong nguồn cho dễ đọc nhé :). ",
+"markdown":"### PowerSelectorVH\n\n- Thêm ngôn ngữ Riếng VIẹt đầy đủ chot tính chỉnh PowerSelector ",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -61,7 +61,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "CreatureSurvive",
+"text": "Kitsudo",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.6.2",
+"text": "1.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiền bạn 1.6.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiền bạn 1.2\n\n- Loại bỏ gói phụ thuộc"
 }
 ],
 "class":"DepictionStackView"

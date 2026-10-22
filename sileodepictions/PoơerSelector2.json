@@ -1,0 +1,575 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://raw.githubusercontent.com/ichitaso/file/main/images/PowerSelector/PowerSelector-banner.png",
+"tintColor": "#5B8CFF",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### PowerSelector\n\nCông cụ toàn diện giúp quản lý nguồn thiết bị iOS, cung cấp các tính năng Tắt nguồn, Khởi động lại, UserSpace Reboot, Respring, Chế độ An toàn (Safe Mode) và nhiều tùy chọn nâng cao ngay từ Trung tâm điều khiển (Control Center), Trượt nguồn (Power Slider) hoặc trực tiếp trong ứng dụng.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/1.png",
+"accessibilityText": "Settings"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/2.png",
+"accessibilityText": "Control Center menu"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/3.png",
+"accessibilityText": "Power Slider"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/4.png",
+"accessibilityText": "App"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/5.png",
+"accessibilityText": "Control Center settings"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/6.png",
+"accessibilityText": "Power Slider settings"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/7.png",
+"accessibilityText": "Control Center"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/8.png",
+"accessibilityText": "Confirm UserSpace Reboot"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Đa dạng công cụ nguồn:** Tắt nguồn, Khởi động lại, UserSpace Reboot, ldrestart, Chế độ an toàn, Respring, uicache và Khóa máy.\n- **Thông tin hệ thống:** Hiển thị địa chỉ IP Wi-Fi, IP toàn cầu, thời gian hoạt động (uptime) và thông số RAM ngay trong Trung tâm điều khiển.\n- **Tương thích cực rộng:** Hỗ trợ đầy đủ từ iOS 11 đến iOS mới nhất với cả ba môi trường Rootful, Rootless và RootHide (unc0ver, Electra, Dopamine, Taurine, palera1n, v.v.).\n- **Tùy biến linh hoạt:** Dễ dàng cấu hình mọi tùy chọn trực tiếp bên trong ứng dụng Cài đặt hệ thống.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "ichitaso",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "22/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Chi phí",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Miễn phí (Free)",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.5.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15,2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kiểu",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Rootful / Rootless / RootHide",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "11 - 26",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### PowerSelector\n\nA comprehensive tool to manage device power options, providing Power off, Reboot, UserSpace Reboot, Respring, Safe Mode, and advanced options directly from the Control Center, Power Slider, or within the application.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/1.png",
+"accessibilityText": "Settings"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/2.png",
+"accessibilityText": "Control Center menu"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/3.png",
+"accessibilityText": "Power Slider"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/4.png",
+"accessibilityText": "App"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/5.png",
+"accessibilityText": "Control Center settings"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/6.png",
+"accessibilityText": "Power Slider settings"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/7.png",
+"accessibilityText": "Control Center"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/PowerSelector2/Screenshots/8.png",
+"accessibilityText": "Confirm UserSpace Reboot"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Comprehensive Power Tools:** Power off, Reboot, UserSpace Reboot, ldrestart, Safe Mode, Respring, uicache, and Lock device.\n- **System Information:** Display Wi-Fi IP, Global IP, uptime, and RAM usage right inside the Control Center.\n- **Broad Compatibility:** Full support from iOS 11 up to the latest versions across Rootful, Rootless, and RootHide environments (unc0ver, Electra, Dopamine, Taurine, palera1n, etc.).\n- **Flexible Customization:** Easily configure all options right inside the native Settings app.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "ichitaso",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 22, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Price",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Free",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.5.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Type",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Rootful / Rootless / RootHide",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 11 - 26",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 1.5.0\n- Hỗ trợ: iOS 11 - 26 (rootful / rootless / roothide), đã kiểm tra với Electra, unc0ver, Odyssey, Taurine, palera1n, Dopamine và Relaxin.\n- Mới: Biểu tượng ứng dụng, biểu tượng Trung tâm điều khiển và màn hình khởi động.\n- Mới: Hiệu ứng chuyển động khởi động trong ứng dụng và tiêu đề xoay động trong Cài đặt.\n- Thêm: Trình trợ giúp nền nhỏ (powerselectord) giúp các thao tác CC và Power Slider hoạt động trên iOS 15 trở lên.\n- Cải thiện: UserSpace Reboot hoạt động trên mọi jailbreak từ iOS 13 trở lên (dùng ldrestart cho iOS 12 trở xuống).\n- Cải thiện: Hiển thị chỉ báo tải khi chạy UserSpace Reboot hoặc \"Kill CommCenter & mediaserverd\".\n- Sửa lỗi: UserSpace Reboot không hoạt động trên palera1n hoặc gây crash / kernel panic.\n- Thay đổi: Bật mặc định tính năng hiển thị uptime trên CC; dọn dẹp file cấu hình thừa khi gỡ tweak trên rootless/roothide.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 1.4.0\n- Sửa lỗi nhấn giữ trên CC không Respring đúng cách.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Mô tả đầy đủ (Full description)",
+"action": "https://cydia.ichitaso.com/depiction/powerselector11.html"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 1.5.0\n- Support: iOS 11 - 26 (rootful / rootless / roothide), tested with Electra, unc0ver, Odyssey, Taurine, palera1n, Dopamine and Relaxin.\n- New: App icon, Control Center icon and launch screen.\n- New: Launch animation in the app and an animated rotating header in Settings.\n- Added: A small background helper (powerselectord) so Control Center and Power Slider actions work on iOS 15 and later.\n- Improved: UserSpace Reboot now works on every jailbreak on iOS 13 and later (uses ldrestart on iOS 12 and earlier).\n- Improved: Shows a loading indicator when running UserSpace Reboot or \"Kill CommCenter & mediaserverd\".\n- Fixed: UserSpace Reboot did nothing on palera1n or caused a crash / kernel panic.\n- Changed: \"Display uptime\" in Control Center is now on by default; leftover config files are cleaned up when uninstalling on rootless/roothide.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 1.4.0\n- Fixed an issue where a long press on CC did not properly Respring.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Full description",
+"action": "https://cydia.ichitaso.com/depiction/powerselector11.html"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}
