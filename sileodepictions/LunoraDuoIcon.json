@@ -1,0 +1,463 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#248CFF",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Lunora DuoIcon\n\nBản rút gọn của Lunora, tập trung hoàn toàn vào tính năng vòng trạng thái (Orbit) bên phải, cung cấp hai kiểu giao diện gồm vòng trạng thái và viên thuốc (Capsule).\n\n> **Lưu ý:** Xung đột với SingleVPN. Plugin sẽ tự động nhường chỗ khi Lunora V1 hoặc V2 được bật và khôi phục hoạt động theo công tắc riêng sau khi cả hai đã tắt. Khuyến nghị sử dụng trên bố cục có tai thỏ hoặc Dynamic Island. iOS 26 và một số thiết bị chưa được kiểm chứng hoàn toàn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/LunoraDuoIcon/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/LunoraDuoIcon/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Đa dạng phong cách:** Cung cấp hai kiểu Vòng trạng thái (Orbit) và Viên thuốc (Capsule), hỗ trợ tùy chỉnh tỷ lệ phóng đại tổng thể và hiệu ứng hoạt ảnh mở rộng độc lập.\n- **Thông tin trạng thái chi tiết:** Theo dõi mức pin, Wi-Fi, mạng di động và trạng thái SIM đơn hoặc SIM kép.\n- **Hiệu ứng & Màu sắc:** Tích hợp hiệu ứng dòng chảy pin (battery flow), tùy chỉnh màu sắc linh hoạt và tính năng đảo màu văn bản.\n- **Tùy biến viên thuốc:** Hiển thị thời gian, ngày tháng, lịch âm, hỗ trợ 2 dòng chữ và tùy chọn tự động thu nhỏ khi cần thiết.\n- **Bố cục linh hoạt:** Điều chỉnh độ rộng viên thuốc, căn lề văn bản, dịch chuyển trái/phải và tính năng né tránh Dynamic Island.\n- **Khả năng tương thích:** Hỗ trợ hiển thị trên Màn hình chính, trong ứng dụng và Màn hình khóa; sử dụng icon gốc trong Trung tâm điều khiển.\n\n- **Hướng dẫn sử dụng:**\n  - Truy cập **Cài đặt → Lunora DuoIcon**, bật công tắc tổng (mặc định tắt) và chọn kiểu Vòng trạng thái hoặc Viên thuốc.\n  - Tại màn hình chính, điều chỉnh tỷ lệ phóng, độ rộng viên thuốc và vị trí lệch; cấu hình thời gian, ngày tháng, lịch âm và phông chữ trong mục văn bản viên thuốc.\n  - Tính năng tự động thu nhỏ chữ được bật mặc định; khi tắt, chữ sẽ hiển thị theo kích thước đã chọn và bị cắt bớt nếu vượt quá vùng hiển thị.\n  - Vui lòng tắt tổng công tắc của Lunora V1 và V2 trước khi sử dụng DuoIcon.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Banana",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "22/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.1.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.3 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.1 - 26.0.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Lunora DuoIcon\n\nA streamlined edition of Lunora, focused entirely on the right-side Orbit feature, offering two display styles: Orbit and Capsule.\n\n> **Note:** Conflicts with SingleVPN. The plugin automatically yields while Lunora V1 or V2 is enabled and resumes according to its own switch once both are off. A notch or Dynamic Island layout is recommended. iOS 26 and some devices have not been fully validated.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/LunoraDuoIcon/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/LunoraDuoIcon/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Orbit and Capsule styles:** Independent overall scaling (50%–150%) and reveal animations.\n- **Status monitoring:** Battery, Wi-Fi, cellular, and single- or dual-SIM status.\n- **Effects:** Battery flow, custom colors, and inverted text.\n- **Capsule options:** Time, date, lunar date, two-line text, and optional automatic text shrinking.\n- **Layout controls:** Capsule width adjustment, text alignment, horizontal offsets, and Dynamic Island avoidance.\n- **Display locations:** Available on the Home Screen, in apps, and on the Lock Screen; native icons in Control Center.\n\n- **Usage:**\n  - Open **Settings → Lunora DuoIcon**, enable the main switch (off by default), and choose Orbit or Capsule.\n  - Adjust overall scale, capsule width, and offsets on the main page; configure time, date, lunar date, and fonts on the capsule text page.\n  - Automatic text shrinking is on by default. Disable it to use the selected font size and clip any text exceeding the available area.\n  - Disable the main switches in Lunora V1 and V2 when using DuoIcon.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Banana",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 22, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.1.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.3 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.1 - 26.0.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 0.1.1\n- Thêm tính năng tùy chỉnh tỷ lệ phóng đại độc lập cho Vòng trạng thái và Viên thuốc từ 50% đến 150% (mặc định 100%).\n- Thêm tùy chỉnh độ rộng viên thuốc (−200 đến +200 pt), giữ cố định cạnh phải và chiều cao đồng thời giới hạn bởi không gian màn hình khả dụng.\n- Thêm công tắc bật/tắt tự động thu nhỏ chữ. Khi tắt, văn bản sẽ hiển thị theo cỡ chữ đã chọn và tự động cắt bớt nếu vượt quá vùng hiển thị.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 0.1.0\n- Phiên bản rút gọn của Lunora, tập trung vào tính năng vòng trạng thái bên phải với 2 kiểu Vòng trạng thái và Viên thuốc.\n- Hỗ trợ hiệu ứng hoạt ảnh mở rộng, hiệu ứng dòng chảy pin, màu sắc trạng thái, đảo màu chữ và né tránh Dynamic Island.\n- Viên thuốc hỗ trợ hiển thị giờ, ngày tháng, lịch âm, 2 dòng chữ, căn lề và dịch chuyển ngang; hỗ trợ trên Màn hình chính, trong ứng dụng và Màn hình khóa.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 0.1.1\n- Added independent 50%–150% overall scaling for Orbit and Capsule, with a 100% default.\n- Added a −200 to +200 pt Capsule width adjustment, keeping its trailing edge and height fixed while respecting available screen space.\n- Added an automatic text shrinking switch. Turn it off to use the selected font size; text exceeding the available area is clipped.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 0.1.0\n- A streamlined edition of Lunora focused on right-side Orbit functionality, with Orbit and Capsule styles.\n- Includes reveal animations, battery flow, status colors, inverted text, and Dynamic Island avoidance.\n- Capsule supports time, date, and lunar date, two lines, text alignment, and horizontal offsets. Available on the Home Screen, in apps, and on the Lock Screen.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

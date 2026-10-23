@@ -129,7 +129,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "22/10/2026",
+"text": "23/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -160,7 +160,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.5.0",
+"text": "1.5.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -341,7 +341,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 22, 2026",
+"text": "October 23, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -372,7 +372,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.5.0",
+"text": "1.5.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -449,6 +449,14 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
+"markdown": "### Phiên bản 1.5.1\n- Sửa lỗi VoiceOver không đọc nội dung trong ứng dụng.\n- Khi bật Chỉ dùng Respring, nhấn giữ nút Control Center sẽ hiện menu (chạm một lần để respring).\n- Cải thiện: Power Off, Reboot, UserSpace Reboot, ldrestart và Reload OpenSSH hoạt động ngay cả khi jailbreak không cấp quyền root cho app (như Electra). App không cần tweak injection nên chạy được ở Safe Mode.\n- Cải thiện: Bỏ qua hoạt ảnh khởi động app khi bật VoiceOver hoặc Giảm chuyển động.\n- Sửa lỗi: Cài đặt vẫn giải thích về ldrestart trên iOS 15 trở lên.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
 "markdown": "### Phiên bản 1.5.0\n- Hỗ trợ: iOS 11 - 26 (rootful / rootless / roothide), đã kiểm tra với Electra, unc0ver, Odyssey, Taurine, palera1n, Dopamine và Relaxin.\n- Mới: Biểu tượng ứng dụng, biểu tượng Trung tâm điều khiển và màn hình khởi động.\n- Mới: Hiệu ứng chuyển động khởi động trong ứng dụng và tiêu đề xoay động trong Cài đặt.\n- Thêm: Trình trợ giúp nền nhỏ (powerselectord) giúp các thao tác CC và Power Slider hoạt động trên iOS 15 trở lên.\n- Cải thiện: UserSpace Reboot hoạt động trên mọi jailbreak từ iOS 13 trở lên (dùng ldrestart cho iOS 12 trở xuống).\n- Cải thiện: Hiển thị chỉ báo tải khi chạy UserSpace Reboot hoặc \"Kill CommCenter & mediaserverd\".\n- Sửa lỗi: UserSpace Reboot không hoạt động trên palera1n hoặc gây crash / kernel panic.\n- Thay đổi: Bật mặc định tính năng hiển thị uptime trên CC; dọn dẹp file cấu hình thừa khi gỡ tweak trên rootless/roothide.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
@@ -484,6 +492,14 @@
 "class": "DepictionStackView",
 "tabname": "English",
 "views": [
+{
+"markdown": "### Version 1.5.1\n- Fixed: VoiceOver did not read anything in the app.\n- Changed: With Use Respring Only on, a long press on the Control Center button now shows the menu (a tap already resprings).\n- Improved: Power Off, Reboot, UserSpace Reboot, ldrestart and Reload OpenSSH in the app also work where the jailbreak can not give the app root (e.g. some Electra setups). The app still needs no tweak injection, so it works in Safe Mode.\n- Improved: The app's launch animation is skipped while VoiceOver or Reduce Motion is on.\n- Fixed: The settings still explained ldrestart on iOS 15 and later.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "markdown": "### Version 1.5.0\n- Support: iOS 11 - 26 (rootful / rootless / roothide), tested with Electra, unc0ver, Odyssey, Taurine, palera1n, Dopamine and Relaxin.\n- New: App icon, Control Center icon and launch screen.\n- New: Launch animation in the app and an animated rotating header in Settings.\n- Added: A small background helper (powerselectord) so Control Center and Power Slider actions work on iOS 15 and later.\n- Improved: UserSpace Reboot now works on every jailbreak on iOS 13 and later (uses ldrestart on iOS 12 and earlier).\n- Improved: Shows a loading indicator when running UserSpace Reboot or \"Kill CommCenter & mediaserverd\".\n- Fixed: UserSpace Reboot did nothing on palera1n or caused a crash / kernel panic.\n- Changed: \"Display uptime\" in Control Center is now on by default; leftover config files are cleaned up when uninstalling on rootless/roothide.",
 "useSpacing": true,

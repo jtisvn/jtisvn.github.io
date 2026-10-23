@@ -1985,6 +1985,47 @@ Author: CreatureSurvive <support@creaturecoding.com>
 Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
 SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
 
+Package: com.dao.liqlite
+Architecture: iphoneos-arm64
+Version: 0.2
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 524
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 14.0), firmware (<< 26.0)
+Filename: ./debs/com.dao.liqlite_0.2_iphoneos-arm64.deb
+Size: 78240
+MD5sum: 1b9a05fcc177546dbf6a8291a3cc3117
+SHA1: 97a94c0eb25c92a65d75fa75cac7e6c137a71b3b
+SHA256: a3d1ed3384f3800f57da082dd4cbb9339ea2b0f9858f16f9214d49b2198f8aa9
+SHA512: cb09753b66f08b20cad0b1ac81c9379f59d48ea4ca153c0230a753c02d8beeb441e5aa3fc0e1eaae4d2e0758f51173beccd8088d4486eca67ae4fc7e668fcb35
+Description: Các biểu tượng trên thanh dock và thư mục cho phép tạo hiệu ứng kính lỏng, Dựa trên dự án dylv/liquidass.
+Name: LiqLite (Rootless)
+Author: daodao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiqLite.json
+Depiction: http://jtisvn.github.io/depiction/LiqLite.html
+Icon: https://jtisvn.github.io/sectionIcons/LiqLite.png
+
+Package: com.dao.liqlite
+Architecture: iphoneos-arm64e
+Version: 0.2
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 524
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 14.0), firmware (<< 26.0)
+Filename: ./debs/com.dao.liqlite_0.2_iphoneos-arm64e.deb
+Size: 76824
+MD5sum: 45dde9ee3c37af1536d7c75f7d3b8e60
+SHA1: 787aeda3374d1b817c5039d0d10e3f33a7ec194f
+SHA256: db1d06f17aee65c0d37ae1854f52f29984202e2b94313f08ea87c76131a8e1b0
+SHA512: 8672dbc6c6a28df48fc6f0d148f5d73cc568b34c3d11d7c2bf1f45b8f680696ecca614efae6dfce578476fd12fb3b313b8f3cf09a91b0dc3309a0f760ce62ada
+Description: Các biểu tượng trên thanh dock và thư mục cho phép tạo hiệu ứng kính lỏng, Dựa trên dự án dylv/liquidass.
+Name: LiqLite (Roothide)
+Author: daodao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiqLite.json
+Depiction: http://jtisvn.github.io/depiction/LiqLite.html
+Icon: https://jtisvn.github.io/sectionIcons/LiqLite.png
+
 Package: com.dao.little16
 Architecture: iphoneos-arm64
 Version: 0.0.10
@@ -4307,6 +4348,81 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector2.json
 Depiction: http://jtisvn.github.io/depiction/PowerSelector2.html
 Icon: https://jtisvn.github.io/sectionIcons/PowerSelector2.png
 
+Package: com.ichitaso.powerselector11
+Architecture: iphoneos-arm
+Version: 1.5.1
+Section: Utilities
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 1816
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.ichitaso.powerselector11_1.5.1_iphoneos-arm.deb
+Size: 424120
+MD5sum: b0ab85826c1297e68769d2655e06c6dd
+SHA1: 4e7eca2b88acf6978e1ecda54ea73be6b2438ab0
+SHA256: a08bfed95f491ecd63294c803421efbdce3c1fd0c3a54a5b63411cff23115826
+SHA512: 5c8435c3c66a243009c8965981ea14328025e6580fb7a6855bb4e125894ebbf72e3e9b9c02bd323c6900c06303022b46303c886c831c7f230a24a7e49c836184
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios26.0.1
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Name: PowerSelector
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector2.json
+Depiction: http://jtisvn.github.io/depiction/PowerSelector2.html
+Icon: https://jtisvn.github.io/sectionIcons/PowerSelector2.png
+dev: ichitaso
+
+Package: com.ichitaso.powerselector11
+Architecture: iphoneos-arm64
+Version: 1.5.1
+Section: Utilities
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 2080
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.ichitaso.powerselector11_1.5.1_iphoneos-arm64.deb
+Size: 410068
+MD5sum: e1e87e0d182c1d91ca61e6b1f2c006e4
+SHA1: c37b0aef1f15c453e955761bd3b74773760aef60
+SHA256: 011d731b00b55cabbe10dafffa38bb6c38c8b2e7b4b6106c222c65cc77d54805
+SHA512: acd4b7d313e63fcab6bf28836895a7d75bb0d4f2b21fe14ad44a6c60b81c7428fdf54ef0bbc332d52e8cb757b89687942fe3416eb34bdeb2f02689c1877a92f8
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios26.0.1
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Name: PowerSelector (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector2.json
+Depiction: http://jtisvn.github.io/depiction/PowerSelector2.html
+Icon: https://jtisvn.github.io/sectionIcons/PowerSelector2.png
+dev: ichitaso
+
+Package: com.ichitaso.powerselector11
+Architecture: iphoneos-arm64e
+Version: 1.5.1
+Section: Utilities
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 2080
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.ichitaso.powerselector11_1.5.1_iphoneos-arm64e.deb
+Size: 410060
+MD5sum: aaaedc6b945f7e591b1b82a586840516
+SHA1: 3afe26111f8e2b28a67f2b1658d5b1f379933af7
+SHA256: 6d8b25a3689fe1f1f43dc294392bf637ac0728e5e5ad4b15ea990b4821cb7fb6
+SHA512: c2bc1250f49a15b953a8073052015d7d0cc76038ce5b46b61c96d30a317fd755475c33fa3ae0fe43465b003fcf600021ec24dae1a81c4f03042dbc9f0dda9524
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios26.0.1
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Name: PowerSelector (Roothjde)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector2.json
+Depiction: http://jtisvn.github.io/depiction/PowerSelector2.html
+Icon: https://jtisvn.github.io/sectionIcons/PowerSelector2.png
+dev: ichitaso
+
 Package: com.imkpatil.colormybattery
 Architecture: iphoneos-arm64
 Version: 1.3.4
@@ -4483,6 +4599,47 @@ MD5sum: 6206da1cf068ca68f8791811d3f62b7a
 SHA1: 429fbd977b7b184a44be8f8279c239ffe5d52833
 SHA256: 286137ff204d4254c208e29e4f25c9bf3acd791ec1ef3ab4b54d659b3a0c8ad6
 SHA512: e30b5c4299afc5ec5c891d14cd4dddbc75fbf76cb0049382dc04e233c79db09cd63871676f76963f56555db73b7752f4d05ae3b051de5d7604f3be4107c37b39
+Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
+Name: Triggr (Roothide)
+Author: John d_ie
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
+Depiction: https://jtisvn.github.io/depictions/Triggr.html
+Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64
+Version: 2.0.0~beta8
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 1980
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: ./debs/com.johndie.triggr_2.0.0~beta8_iphoneos-arm64.deb
+Size: 233584
+MD5sum: 807dd07a1194e1c10ece17aee637ccb5
+SHA1: 0a9a1e28ae3691f7fe71dfa41567103c96b5f0d2
+SHA256: 9878fcad5035589af077ecdf875dafffeebaa4b78bfcb41911abf8119b4afad6
+SHA512: a3fa10354387a32cdb1d2a46b4347f813c725f528ff6bc64c9ab2ee5aa9c0740c3405689d6a32377b5c784866f54ed5db9cbe1c8d71303f68040423773df3ffb
+Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
+Name: Triggr (Rootless)
+Author: John d_ie
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
+Depiction: https://jtisvn.github.io/depictions/Triggr.html
+Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64e
+Version: 2.0.0~beta8
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 1980
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: ./debs/com.johndie.triggr_2.0.0~beta8_iphoneos-arm64e.deb
+Size: 227148
+MD5sum: e0a78733a100bd50f3a23d1e57435c02
+SHA1: 57e94edb38e96dad7f08082514555496f72561ce
+SHA256: 495c297d85b417e80fc771f4b333187378b1e33772647ecd4712fa136abe4dd2
+SHA512: 69215aa8c79f993372e8fb10aca9099e376a840ace9aef4e5fb06fed91d5a128276ce5b22b5432c9829f00bcf775090af881bc6c7888706d2bdfabab041d2f1e
 Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
 Name: Triggr (Roothide)
 Author: John d_ie
@@ -28299,6 +28456,49 @@ Author: Banana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AmbientBadge.json
 Depiction: https://jtisvn.github.io/depictions/AmbientBadge.html
 icon: https://huayuarc.github.io/icon/AmbientBadge.png
+
+Package: iya.banana.duoicon
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1636
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/iya.banana.duoicon_0.1.1_iphoneos-arm64.deb
+Size: 280324
+MD5sum: d9204ea69aee4f263ad8525d5d806b70
+SHA1: 2933c692e45292e064f9cd8bdcb9a4ee94abcc23
+SHA256: a29ddd7280116597539f10474905c9b0ca23ddd4209c7cf6e5861f0ffd64c2df
+SHA512: e141fa7145dea4c5230a92e6c88da811e8007533fae8c86dfafbca50389048b6f6e1ed7e4d426a69fb5cdf0c63e94e1187fadecba2aa40c76b9cfff4d701847f
+Description: Biểu tượng trạng thái Orbit và Capsule ở bên phải kèm hoạt ảnh hiển thị gốc.
+Name: Lunora DuoIcon (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunoraDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/LunoraDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: iya.banana.duoicon
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1636
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/iya.banana.duoicon_0.1.1_iphoneos-arm64e.deb
+Size: 279688
+MD5sum: 69b44a7dab8088facb1c2928e7ce0d94
+SHA1: 158361e0f5092e37c972ea5471c0f56faa8b9cec
+SHA256: a603535b1a10ae0dfb4677e98019c8bf01f9b740d3c276da68bb75007c8ba03e
+SHA512: b882c29d7a3aa9db8c74f90642dce3aa42482e1709c300773535a89376d2f282fe70a4e0c8124efa40704188a17d3a2842048e7757cc3bb0c479e1321edd9864
+Description: Biểu tượng trạng thái Orbit và Capsule ở bên phải kèm hoạt ảnh hiển thị gốc.
+Name: Lunora DuoIcon (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunoraDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/LunoraDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
 
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64

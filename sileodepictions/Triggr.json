@@ -1,15 +1,18 @@
 {
-"minVersion":"0.3",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#FF6600",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#FF6600",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"spacing": 12,
-"class": "DepictionSpacerView"
-},
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
 {
 "class": "DepictionButtonView",
 "text": "Tham gia nhóm K37•JTISVN",
@@ -17,59 +20,63 @@
 "openExternal": true
 },
 {
-"markdown":"### Triggr\n\n Công cụ tùy biến cử chỉ và phím tắt thay thế hoàn hảo cho Activator, cho phép bạn gán bất kỳ hành động nào cho nút bấm, cử chỉ, cảm biến hoặc sự kiện hệ thống một cách nhanh chóng và tối ưu hiệu năng.",
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Triggr\n\nCông cụ tùy biến cử chỉ và phím tắt thay thế hoàn hảo cho Activator, cho phép bạn gán bất kỳ hành động nào cho nút bấm, cử chỉ, cảm biến hoặc sự kiện hệ thống một cách nhanh chóng và tối ưu hiệu năng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
+"class": "DepictionScreenshotsView",
+"screenshots": [
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/1.png",
-"accessibilityText":"Screenshot 1"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/2.png",
-"accessibilityText":"Screenshot 2"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/3.png",
-"accessibilityText":"Screenshot 3"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/4.png",
-"accessibilityText":"Screenshot 4"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/5.png",
-"accessibilityText":"Screenshot 5"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/6.png",
-"accessibilityText":"Screenshot 6"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/7.png",
-"accessibilityText":"Screenshot 7"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/8.png",
-"accessibilityText":"Screenshot 8"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/9.png",
-"accessibilityText":"Screenshot 9"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/9.png",
+"accessibilityText": "Screenshot 9"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Triggr/Screenshots/10.png",
-"accessibilityText":"Screenshot 10"
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/10.png",
+"accessibilityText": "Screenshot 10"
 }
 ],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"- **Điều kiện kích hoạt đa dạng:**\n  - **Phím vật lý:** Nút sườn (Side Button), Nút Home / Touch ID, Nút Tăng/Giảm âm lượng (nhấn đơn, đôi, ba, giữ hoặc kết hợp), Cần gạt im lặng (Mute Switch).\n  - **Thanh trạng thái:** Chạm 1 lần, chạm đôi, nhấn giữ, vuốt trái/phải ở từng nửa thanh trạng thái.\n  - **Màn hình chính:** Vuốt nhanh (Flick) trên biểu tượng ứng dụng hoặc thư mục ở Màn hình chính và Thanh Dock.\n  - **Cử chỉ & Chuyển động:** Chụm ngón tay, vuốt 2 ngón, chạm đôi khoảng trống, lắc thiết bị.\n  - **Cảm biến tiệm cận:** Che cảm biến hoặc vẫy tay nhanh trước cảm biến tiệm cận.\n  - **Trạng thái & Sự kiện hệ thống:** Kết nối/ngắt sạc, tai nghe, Bluetooth; Bật/Tắt/Kết nối/Rời mạng Wi-Fi; Bật/Tắt Tiết kiệm pin, Định vị, Dữ liệu di động, Chế độ máy bay, Khóa xoay, Night Shift; Mức pin tăng/giảm theo mốc; Khóa/mở màn hình, lên lịch thời gian, mở ứng dụng chỉ định, nhận thông báo.\n\n- **Tác vụ & Lệnh thực thi (Actions):**\n  - **Hệ thống:** Về màn hình chính, App Switcher, Mở ứng dụng trước đó, Thoát ứng dụng, Mở Control Center / Thông báo, Chụp/Ghi màn hình, Đóng app ngầm, Đèn pin, Khóa máy, Khởi động lại...\n  - **Điều khiển phương tiện:** Phát/Tạm dừng, Bài tiếp/Bài trước, Tăng/Giảm âm lượng, Đặt mức độ sáng/âm lượng cố định, Chuyển nhanh AirPlay.\n  - **Tự động hóa nâng cao:** Chạy lệnh Shell (Run Command), chạy Phím tắt (Shortcuts), Mở URL, Hiển thị thông báo tùy chỉnh, Đọc văn bản bằng giọng nói.\n  - **Chuỗi thao tác (Macro):** Gán nhiều hành động chạy liên tiếp theo thứ tự kèm khoảng dừng tùy chỉnh (từ 0.1s đến 30s).\n  - **Menu tùy chỉnh:** Gom nhiều hành động vào một menu pop-up để chọn nhanh.\n\n- **Phân vùng ngữ cảnh & Quản lý nâng cao:**\n  - **Áp dụng vị trí linh hoạt:** Mọi nơi, Màn hình chính, Màn hình khóa, Trong ứng dụng hoặc Trong ứng dụng chỉ định.\n  - **Thay thế hành động gốc:** Tùy chọn ghi đè hành động gốc của phím hoặc chạy song song với chức năng mặc định.\n  - **Danh sách chặn (Block List):** Tự động bỏ qua kích hoạt khi đang mở các ứng dụng/trò chơi chỉ định.\n  - **Quản lý Hồ sơ (Profiles):** Lưu, sao lưu, xuất/nhập thiết lập qua AirDrop, Tệp hoặc Tin nhắn.\n  - **Tích hợp API & CLI:** Hỗ trợ điều khiển qua lệnh `triggr` trong Terminal và kết nối với các tweak khác.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Điều kiện kích hoạt đa dạng:**\n  - **Phím vật lý:** Nút sườn (Side Button), Nút Home / Touch ID, Nút Tăng/Giảm âm lượng (nhấn đơn, đôi, ba, giữ hoặc kết hợp), Cần gạt im lặng (Mute Switch).\n  - **Thanh trạng thái:** Chạm 1 lần, chạm đôi, nhấn giữ, vuốt trái/phải ở từng nửa thanh trạng thái.\n  - **Màn hình chính:** Vuốt nhanh (Flick) trên biểu tượng ứng dụng hoặc thư mục ở Màn hình chính và Thanh Dock.\n  - **Cử chỉ & Chuyển động:** Chụm ngón tay, vuốt 2 ngón, chạm đôi khoảng trống, lắc thiết bị.\n  - **Cảm biến tiệm cận:** Che cảm biến hoặc vẫy tay nhanh trước cảm biến tiệm cận.\n  - **Trạng thái & Sự kiện hệ thống:** Kết nối/ngắt sạc, tai nghe, Bluetooth; Bật/Tắt/Kết nối/Rời mạng Wi-Fi; Bật/Tắt Tiết kiệm pin, Định vị, Dữ liệu di động, Chế độ máy bay, Khóa xoay, Night Shift; Mức pin tăng/giảm theo mốc; Khóa/mở màn hình, lên lịch thời gian, mở ứng dụng chỉ định, nhận thông báo.\n- **Tác vụ & Lệnh thực thi (Actions):**\n  - **Hệ thống:** Về màn hình chính, App Switcher, Mở ứng dụng trước đó, Thoát ứng dụng, Mở Control Center / Thông báo, Chụp/Ghi màn hình, Đóng app ngầm, Đèn pin, Khóa máy, Khởi động lại...\n  - **Điều khiển phương tiện:** Phát/Tạm dừng, Bài tiếp/Bài trước, Tăng/Giảm âm lượng, Đặt mức độ sáng/âm lượng cố định, Chuyển nhanh AirPlay.\n  - **Tự động hóa nâng cao:** Chạy lệnh Shell (Run Command), chạy Phím tắt (Shortcuts), Mở URL, Hiển thị thông báo tùy chỉnh, Đọc văn bản bằng giọng nói.\n  - **Chuỗi thao tác (Macro):** Gán nhiều hành động chạy liên tiếp theo thứ tự kèm khoảng dừng tùy chỉnh (từ 0.1s đến 30s).\n  - **Menu tùy chỉnh:** Gom nhiều hành động vào một menu pop-up để chọn nhanh.\n- **Phân vùng ngữ cảnh & Quản lý nâng cao:**\n  - **Áp dụng vị trí linh hoạt:** Mọi nơi, Màn hình chính, Màn hình khóa, Trong ứng dụng hoặc Trong ứng dụng chỉ định.\n  - **Thay thế hành động gốc:** Tùy chọn ghi đè hành động gốc của phím hoặc chạy song song với chức năng mặc định.\n  - **Danh sách chặn (Block List):** Tự động bỏ qua kích hoạt khi đang mở các ứng dụng/trò chơi chỉ định.\n  - **Quản lý Hồ sơ (Profiles):** Lưu, sao lưu, xuất/nhập thiết lập qua AirDrop, Tệp hoặc Tin nhắn.\n  - **Tích hợp API & CLI:** Hỗ trợ điều khiển qua lệnh `triggr` trong Terminal và kết nối với các tweak khác.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -130,7 +137,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14/10/2026",
+"text": "21/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -148,7 +155,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.5.0",
+"text": "2.0 Beta 8",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -188,73 +195,333 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Triggr\n\nA gesture and shortcut customization tool that is a perfect replacement for Activator, letting you assign any action to a button, gesture, sensor or system event quickly and with optimized performance.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/9.png",
+"accessibilityText": "Screenshot 9"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Triggr/Screenshots/10.png",
+"accessibilityText": "Screenshot 10"
+}
+],
+"itemCornerRadius": 8,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Versatile Triggers:**\n  - **Physical buttons:** Side Button, Home / Touch ID button, Volume Up/Down buttons (single, double, triple press, hold or combinations), Mute Switch.\n  - **Status bar:** Single tap, double tap, long press, swipe left/right on each half of the status bar.\n  - **Home Screen:** Flick on app icons or folders on the Home Screen and Dock.\n  - **Gestures & Motion:** Pinch, two-finger swipe, double tap on an empty area, shake the device.\n  - **Proximity sensor:** Cover the sensor or quickly wave a hand in front of the proximity sensor.\n  - **System states & events:** Charger connect/disconnect, headphones, Bluetooth; Wi-Fi on/off/connect/disconnect; Low Power Mode, Location, Cellular Data, Airplane Mode, Rotation Lock, Night Shift on/off; battery level rising/falling past set thresholds; screen lock/unlock, scheduled times, opening a specified app, receiving a notification.\n- **Actions & Commands:**\n  - **System:** Go Home, App Switcher, open the previous app, quit an app, open Control Center / Notifications, screenshot/screen recording, close background apps, flashlight, lock device, reboot...\n  - **Media control:** Play/Pause, Next/Previous track, volume up/down, set a fixed brightness/volume level, quick AirPlay switch.\n  - **Advanced automation:** Run Shell commands (Run Command), run Shortcuts, open a URL, show a custom notification, read text aloud.\n  - **Action chains (Macro):** Assign multiple actions to run in order with custom delays (from 0.1s to 30s).\n  - **Custom menu:** Group multiple actions into a pop-up menu for quick selection.\n- **Context Zones & Advanced Management:**\n  - **Flexible scope:** Everywhere, Home Screen, Lock Screen, In any app or In a specified app.\n  - **Replace the original action:** Choose to override a button's original action or run alongside the default function.\n  - **Block List:** Automatically ignore triggers while specified apps/games are open.\n  - **Profiles:** Save, back up, and export/import settings via AirDrop, Files or Messages.\n  - **API & CLI integration:** Supports control via the `triggr` command in Terminal and connects with other tweaks.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "John d_ie",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 21, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.0 Beta 8",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.5 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 17.7.10",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
 "class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5.0\n- Nút nguồn/cạnh bên + Âm lượng: Kết hợp bấm hoặc giữ nút nguồn với phím Âm lượng để tạo 4 trigger mới (thay thế chụp màn hình trên Face ID, giữ để hiện bảng tắt nguồn/SOS).\n- Cạnh màn hình: Trượt vào từ cạnh trái/phải, hỗ trợ hai ngón tay như Activator giúp giữ nguyên cử chỉ vuốt quay lại của app.\n- Cuộc gọi: Hỗ trợ trạng thái cuộc gọi đến, nhấc máy, gọi đi và kết thúc cho Điện thoại, FaceTime và các app gọi thoại khác.\n- Nhạc: Phát, tạm dừng, dừng và đổi bài hát cho mọi app trong Đang phát (Now Playing).\n- Bổ sung thông báo, lịch trình hàng tuần theo ngày chọn và Tăng/Giảm độ sáng theo bước tùy chỉnh.\n- Sửa lỗi: Lệnh Respring hoặc Safe Mode qua phím Tăng âm lượng sẽ chờ đến khi bạn thả nút ra, tránh việc vô tình kẹt vào Safe Mode."
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"markdown": "### Phiên bản 2.0 Beta 8\n- Action Button: Sửa lỗi Safe Mode khi gán phím (Beta 6-7.1), iOS giờ tự nhả nút.\n- Phím tắt chạy ngầm như Back Tap, không hiện app, có thể tắt trong Options.\n- Chọn Phím tắt từ danh sách có sẵn thay vì gõ tên.\n- Tweak Actions: Triggr tự chạy các tác vụ Activator cũ (tối ưu cho Snapper 2).\n- Nhấn Tăng/Giảm âm lượng hoạt động chuẩn như phím cứng.\n- Thêm phản hồi xúc giác Mềm.\n- Sửa lỗi Mute Switch trên iOS 17/18, Proximity trên iOS 15, Spotlight trên iOS 18.\n- Cảm ơn: nbaib, alexp4re và các Reddit tester.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Phiên bản 1.5.0\n- Nút nguồn/cạnh bên + Âm lượng: Kết hợp bấm hoặc giữ nút nguồn với phím Âm lượng để tạo 4 trigger mới (thay thế chụp màn hình trên Face ID, giữ để hiện bảng tắt nguồn/SOS).\n- Cạnh màn hình: Trượt vào từ cạnh trái/phải, hỗ trợ hai ngón tay như Activator giúp giữ nguyên cử chỉ vuốt quay lại của app.\n- Cuộc gọi: Hỗ trợ trạng thái cuộc gọi đến, nhấc máy, gọi đi và kết thúc cho Điện thoại, FaceTime và các app gọi thoại khác.\n- Nhạc: Phát, tạm dừng, dừng và đổi bài hát cho mọi app trong Đang phát (Now Playing).\n- Bổ sung thông báo, lịch trình hàng tuần theo ngày chọn và Tăng/Giảm độ sáng theo bước tùy chỉnh.\n- Sửa lỗi: Lệnh Respring hoặc Safe Mode qua phím Tăng âm lượng sẽ chờ đến khi bạn thả nút ra, tránh việc vô tình kẹt vào Safe Mode.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 15,
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"markdown": "### Version 2.0 Beta 8\n- Action Button: Fixed the Safe Mode issue when assigning the button (Beta 6-7.1); iOS now releases the button automatically.\n- Shortcuts run in the background like Back Tap without showing the app, and this can be turned off in Options.\n- Pick a Shortcut from the available list instead of typing its name.\n- Tweak Actions: Triggr automatically runs old Activator actions (optimized for Snapper 2).\n- Volume Up/Down presses now work exactly like hardware buttons.\n- Added Soft haptic feedback.\n- Fixed Mute Switch on iOS 17/18, Proximity on iOS 15, and Spotlight on iOS 18.\n- Thanks to: nbaib, alexp4re and the Reddit testers.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "### Version 1.5.0\n- Power/Side button + Volume: Combine pressing or holding the power button with the Volume keys to create 4 new triggers (replacing screenshot on Face ID, hold to bring up the power-off/SOS sheet).\n- Screen edge: Swipe in from the left/right edge, with two-finger support like Activator so the app's swipe-back gesture is preserved.\n- Calls: Supports incoming call, answered, outgoing and ended call states for Phone, FaceTime and other voice-call apps.\n- Music: Play, pause, stop and change songs for any app in Now Playing.\n- Added notifications, weekly schedules on chosen days, and Brightness Up/Down with a custom step.\n- Fixed: Respring or Safe Mode commands via the Volume Up key now wait until you release the button, avoiding accidentally getting stuck in Safe Mode.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 15,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Liên Hệ Hỗ Trợ",
-"views":[
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
 "openExternal": true,
 "title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }
