@@ -123,7 +123,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.1",
+"text": "0.1.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -285,7 +285,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.1",
+"text": "0.1.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -349,15 +349,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 0.1.1\n- Thêm tính năng tùy chỉnh tỷ lệ phóng đại độc lập cho Vòng trạng thái và Viên thuốc từ 50% đến 150% (mặc định 100%).\n- Thêm tùy chỉnh độ rộng viên thuốc (−200 đến +200 pt), giữ cố định cạnh phải và chiều cao đồng thời giới hạn bởi không gian màn hình khả dụng.\n- Thêm công tắc bật/tắt tự động thu nhỏ chữ. Khi tắt, văn bản sẽ hiển thị theo cỡ chữ đã chọn và tự động cắt bớt nếu vượt quá vùng hiển thị.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 0.1.0\n- Phiên bản rút gọn của Lunora, tập trung vào tính năng vòng trạng thái bên phải với 2 kiểu Vòng trạng thái và Viên thuốc.\n- Hỗ trợ hiệu ứng hoạt ảnh mở rộng, hiệu ứng dòng chảy pin, màu sắc trạng thái, đảo màu chữ và né tránh Dynamic Island.\n- Viên thuốc hỗ trợ hiển thị giờ, ngày tháng, lịch âm, 2 dòng chữ, căn lề và dịch chuyển ngang; hỗ trợ trên Màn hình chính, trong ứng dụng và Màn hình khóa.",
+"markdown": "### Phiên bản 0.1.4\n- Thêm tùy chọn chỉnh độ lệch dọc riêng cho Orbit và Capsule từ -24 đến +24 pt, kết hợp độ lệch ngang sẵn có.\n- Thêm chỉnh chiều cao Capsule, tính toán lại đầu bo tròn cho viền pin, phân đoạn sóng và dòng chảy, trong khi Orbit giữ nguyên hình tròn và tỷ lệ.\n- Thêm tùy chọn tương thích nhấn giữ pin với cử chỉ bên thứ ba, vẫn giữ nguyên hành vi chạm để mở rộng bình thường.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -379,15 +371,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 0.1.1\n- Added independent 50%–150% overall scaling for Orbit and Capsule, with a 100% default.\n- Added a −200 to +200 pt Capsule width adjustment, keeping its trailing edge and height fixed while respecting available screen space.\n- Added an automatic text shrinking switch. Turn it off to use the selected font size; text exceeding the available area is clipped.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Version 0.1.0\n- A streamlined edition of Lunora focused on right-side Orbit functionality, with Orbit and Capsule styles.\n- Includes reveal animations, battery flow, status colors, inverted text, and Dynamic Island avoidance.\n- Capsule supports time, date, and lunar date, two lines, text alignment, and horizontal offsets. Available on the Home Screen, in apps, and on the Lock Screen.",
+"markdown": "### Version 0.1.4\n- Added separate vertical offsets for Orbit and Capsule from -24 to +24 pt, alongside the existing horizontal offsets.\n- Added Capsule height adjustment with rounded ends recalculated for resized battery outlines, signal segments and flow. Orbit retains its circular shape and overall scaling.\n- Added optional battery long-press compatibility with existing third-party gestures while keeping normal tap-to-expand behavior.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },

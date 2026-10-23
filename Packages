@@ -28459,18 +28459,18 @@ icon: https://huayuarc.github.io/icon/AmbientBadge.png
 
 Package: iya.banana.duoicon
 Architecture: iphoneos-arm64
-Version: 0.1.1
+Version: 0.1.4
 Section: Tweaks
 Maintainer: Banana
-Installed-Size: 1636
+Installed-Size: 1656
 Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.singlevpn
-Filename: ./debs/iya.banana.duoicon_0.1.1_iphoneos-arm64.deb
-Size: 280324
-MD5sum: d9204ea69aee4f263ad8525d5d806b70
-SHA1: 2933c692e45292e064f9cd8bdcb9a4ee94abcc23
-SHA256: a29ddd7280116597539f10474905c9b0ca23ddd4209c7cf6e5861f0ffd64c2df
-SHA512: e141fa7145dea4c5230a92e6c88da811e8007533fae8c86dfafbca50389048b6f6e1ed7e4d426a69fb5cdf0c63e94e1187fadecba2aa40c76b9cfff4d701847f
+Filename: ./debs/iya.banana.duoicon_0.1.4_iphoneos-arm64.deb
+Size: 288228
+MD5sum: c009a2f7032768549420f0426ee1d11d
+SHA1: a245feffcd0c90dd341d8c950910982646e1c760
+SHA256: 2785c487b30317ce7c247a7d858aecbb4288f41cd5724b52dde30e80534608f4
+SHA512: 08db5ce8d1ba9fa3a4593fdfcd29373472e28f8f13c2e8f89c5b6f13e4218457c0c9eeae023ecff850a10daf9faa22bdd7b554436946dcd9db7cce00dc791d97
 Description: Biểu tượng trạng thái Orbit và Capsule ở bên phải kèm hoạt ảnh hiển thị gốc.
 Name: Lunora DuoIcon (Rootless)
 Author: Banana
@@ -28480,19 +28480,19 @@ Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
 
 Package: iya.banana.duoicon
 Architecture: iphoneos-arm64e
-Version: 0.1.1
+Version: 0.1.4
 Section: Tweaks
 Maintainer: Banana
-Installed-Size: 1636
+Installed-Size: 1656
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.singlevpn
-Filename: ./debs/iya.banana.duoicon_0.1.1_iphoneos-arm64e.deb
-Size: 279688
-MD5sum: 69b44a7dab8088facb1c2928e7ce0d94
-SHA1: 158361e0f5092e37c972ea5471c0f56faa8b9cec
-SHA256: a603535b1a10ae0dfb4677e98019c8bf01f9b740d3c276da68bb75007c8ba03e
-SHA512: b882c29d7a3aa9db8c74f90642dce3aa42482e1709c300773535a89376d2f282fe70a4e0c8124efa40704188a17d3a2842048e7757cc3bb0c479e1321edd9864
+Filename: ./debs/iya.banana.duoicon_0.1.4_iphoneos-arm64e.deb
+Size: 287108
+MD5sum: f2f676a21c3258711105cb7368520ebb
+SHA1: fac79ded059338f10e73080e30e31cbfa05ea16d
+SHA256: d9848b29685c4fe6095fdd60d4f06e7c39a127fa32f70f36e456d9f58d0d80dc
+SHA512: 2b6acad3eb68ea69a03423fdbbf787336bb2621ead97d07c796be1268f6bacdfd058e4ea2231f1794c07bf8d4c8e3c6b38098ec190990c92812fe6e91d0ca9c8
 Description: Biểu tượng trạng thái Orbit và Capsule ở bên phải kèm hoạt ảnh hiển thị gốc.
 Name: Lunora DuoIcon (Roothide)
 Author: Banana
