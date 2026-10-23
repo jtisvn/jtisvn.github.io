@@ -21277,6 +21277,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/NoCShare.json
 Depiction: https://jtisvn.github.io/depictions/NoCShare.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtisvn.novaunlock
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: Sanderzen
+Depends: mobilesubstrate, firmware (>= 16.0), preferenceloader
+Conflicts: com.sanderzen.unlock26
+Replaces: com.sanderzen.unlock26
+Filename: ./debs/com.jtisvn.novaunlock_1.2.3_iphoneos-arm64.deb
+Size: 226196
+MD5sum: 7d367cec0e3ac9700a60dd7cd8f6b635
+SHA1: 420366ad9637887c681677115a243c1d1cb45858
+SHA256: de5c3c170980ac4f5608afe467bfe9ed0808cc26821890eb537c8d8fae717ed0
+SHA512: 898bf74f20ff5366c00277cdb10b8491a5b7f375a0ed5a6513e7c197cf0b8fefa2db0a335b174737594a34b169eb15576b2bf279549cf9e6ef058983d3b11594
+Description: Hiệu ứng mở khóa và khóa màn hình theo phong cách iOS 26 dành cho iOS 16 và 17.
+Name: NovaUnlock (Rootless)
+Author: Sanderzen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NovaUnlock.json
+Depiction: http://jtisvn.github.io/depiction/NovaUnlock.html
+Icon: https://jtisvn.github.io/sectionIcons/NovaUnlock.png
+
+Package: com.jtisvn.novaunlock
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: Sanderzen
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0), preferenceloader
+Conflicts: com.sanderzen.unlock26
+Replaces: com.sanderzen.unlock26
+Filename: ./debs/com.jtisvn.novaunlock_1.2.3_iphoneos-arm64e.deb
+Size: 226356
+MD5sum: 26b4e69d31ae038d6f3e29a2eefe5727
+SHA1: 6159d6e810e344bc7de2e81b262390892877f922
+SHA256: f8955993c4b17901d5b921d41c8ad1eea803c29bc86c770ffa89719df3af0c84
+SHA512: b782de05409dbc0c47cc498d5ea4971f091694b07e1bfafb63dd16c02816ed14eeb6efd67ed9b07c8af371548f10a214298ce813685fd54f184a35db887f3c0e
+Description: Hiệu ứng mở khóa và khóa màn hình theo phong cách iOS 26 dành cho iOS 16 và 17.
+Name: NovaUnlock (Roothide)
+Author: Sanderzen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NovaUnlock.json
+Depiction: http://jtisvn.github.io/depiction/NovaUnlock.html
+Icon: https://jtisvn.github.io/sectionIcons/NovaUnlock.png
+
 Package: com.jtisvn.opaboutphone
 Architecture: iphoneos-arm64
 Version: 1.2.0
@@ -21317,6 +21360,47 @@ Author: Lumid
 SileoDepiction: https://jtisvn.github.io/sileodepictions/OPAboutPhone.json
 Depiction: https://jtisvn.github.io/depictions/OPAboutPhone.html
 Icon: https://jtisvn.github.io/sectionIcons/OPAboutPhone.png
+
+Package: com.jtisvn.photosios26
+Architecture: iphoneos-arm64
+Version: 0.8.1
+Section: Tweaks
+Maintainer: NekoJb
+Installed-Size: 252
+Depends: mobilesubstrate
+Filename: ./debs/com.jtisvn.photosios26_0.8.1_iphoneos-arm64.deb
+Size: 28548
+MD5sum: daaa86087b0b7c6724c3c5c99bb9030b
+SHA1: 2acfa83c19d7c85113ea77d32f1a29dd29848ae3
+SHA256: 496f5ac458e4199e88c2c859662bccca11720b98f44049668985e076dc665774
+SHA512: b42337f119b4c05f00d66eef46c7e72da6ba4504cf83d62dfb2e8d859312e77003a8c38bb715379c6b216c9737b6500a76058c6170adb5ba6b039dbdae99c918
+Description: Thay đổi giao diện ứng dụng Ảnh (Photos) giống iOS 26.
+Name: Photos26 (Rootless)
+Author: NekoJb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Photos26.json
+Depiction: http://jtisvn.github.io/depiction/Photos26.html
+Icon: https://jtisvn.github.io/sectionIcons/Photos26.png
+
+Package: com.jtisvn.photosios26
+Architecture: iphoneos-arm64e
+Version: 0.8.1
+Section: Tweaks
+Maintainer: NekoJb
+Installed-Size: 252
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtisvn.photosios26_0.8.1_iphoneos-arm64e.deb
+Size: 28576
+MD5sum: 61a0041781fd5a457abbf2db5de011bd
+SHA1: b809c6f701909357f558cfd05ab2bbed08315fd7
+SHA256: d5a35a65cb27547cd677c275442269cab142609f1705a841c7cc30467df45b10
+SHA512: c4eaaac48ea267f9f3c8de684848df146893b88eb6cbdfb19f4e96a53953547383ae01bd03f78f904c4dfd7cc8f67fe621b434302e53e6ceb2b4b310db0d7d24
+Description: Thay đổi giao diện ứng dụng Ảnh (Photos) giống iOS 26.
+Name: Photos26 (Roothide)
+Author: NekoJb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Photos26.json
+Depiction: http://jtisvn.github.io/depiction/Photos26.html
+Icon: https://jtisvn.github.io/sectionIcons/Photos26.png
 
 Package: com.jtisvn.pulloverx
 Architecture: iphoneos-arm
@@ -27279,6 +27363,47 @@ Name: DockX (Roothide)
 Author: udevs
 Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.user.norecordpill
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: NekoJb
+Installed-Size: 184
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.user.norecordpill_1.0.0_iphoneos-arm64.deb
+Size: 3256
+MD5sum: 37c6a2607627f16627adc21f442dcd7d
+SHA1: d52679d9cbf6f4398552bbcabc86479f8d3cf42e
+SHA256: 1ec08921e514b8db591ca3040e7510681af1d5b3ef98abd1cfbf3874453252bf
+SHA512: 42538becc475010e6dac0e0e1e8db7317c780e6095c6d2111489e32ea3a78892279254a0ed0508080d6f45a279c0c9b1b02668ecad17a06e6672ac53af8323ca
+Description: Ẩn viên đỏ khi quay màn hình trên thanh trạng thái và giữ nguyên đồng hồ không bị lệch.
+Name: NoRecordPill (Rootless)
+Author: NekoJb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoRecordPill.json
+Depiction: http://jtisvn.github.io/depiction/NoRecordPill.html
+Icon: https://jtisvn.github.io/sectionIcons/NoRecordPill.png
+
+Package: com.user.norecordpill
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: NekoJb
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.user.norecordpill_1.0.0_iphoneos-arm64e.deb
+Size: 3300
+MD5sum: ad863073b43c686a3b01fc34460a6b4c
+SHA1: 4d2c2c0e00616cd75e1c113ad725af72d566967b
+SHA256: ec3030441acea464ae69a5ad7c8d98afe156636498fc4d62a3d6935f059189df
+SHA512: f0b593e186112a86ad49e547a12959ab0520b794f7135a6da8fda8fb0859f1069f73a07ef13f5ffd4eed9baf4e60d31b999db52d49cfd46845618383d0cc3543
+Description: Ẩn viên đỏ khi quay màn hình trên thanh trạng thái và giữ nguyên đồng hồ không bị lệch.
+Name: NoRecordPill (Roothide)
+Author: NekoJb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoRecordPill.json
+Depiction: http://jtisvn.github.io/depiction/NoRecordPill.html
+Icon: https://jtisvn.github.io/sectionIcons/NoRecordPill.png
 
 Package: com.vitataf.homegesture
 Architecture: iphoneos-arm
