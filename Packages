@@ -4520,6 +4520,53 @@ Description: Collection of classes used in my tweaks.
 Name: Phoenix (Rootless)
 Author: Nebbs
 
+Package: com.johndie.catapult
+Architecture: iphoneos-arm64
+Version: 0.1.0~beta2
+Section: Tweaks
+Maintainer: John d_ie
+Provides: com.makr.trebuchet.springboard
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Recommends: com.makr.materialyou
+Conflicts: com.makr.trebuchet.springboard, com.johndie.trebuchet
+Replaces: com.makr.trebuchet.springboard, com.johndie.trebuchet
+Filename: ./debs/com.johndie.catapult_0.1.0~beta2_iphoneos-arm64.deb
+Size: 1552072
+MD5sum: 442815decc9668a632ccfe0fff4bf1d3
+SHA1: 1b99f88a15e135e34f2fb5f06259e734862c8116
+SHA256: 255cb010a94e3c89d161401f780c4e00d3ad02096b79d9a8aebca7a93ec66a5d
+SHA512: bfc5f01999ea3c018ee788f27412e97d8f6f4081255d0069779a326f2853c10105f5933379b50f702a8df78c3d68a5e09ea05c474a73d87028e61c6413d907ab
+Description: Biến màn hình chính iPhone của bạn hoạt động giống như Android. Thay thế bằng Trebuchet từ LineageOS: một ngăn kéo ứng dụng với chức năng tìm kiếm, thư mục một trang, widget, hình dạng biểu tượng, chủ đề và phông chữ riêng của bạn. Mọi thứ khác vẫn giữ nguyên iOS. Được xây dựng trên bản port Trebuchet của MakrSas.
+Name: Catapult (Rootless)
+Author: John d_ie
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Catapult.json
+Depiction: http://jtisvn.github.io/depiction/Catapult.html
+Icon: https://jtisvn.github.io/sectionIcons/Catapult.png
+
+Package: com.johndie.catapult
+Architecture: iphoneos-arm64e
+Version: 0.1.0~beta2
+Section: Tweaks
+Maintainer: John d_ie
+Provides: com.makr.trebuchet.springboard
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Recommends: com.makr.materialyou
+Conflicts: com.makr.trebuchet.springboard, com.johndie.trebuchet
+Replaces: com.makr.trebuchet.springboard, com.johndie.trebuchet
+Filename: ./debs/com.johndie.catapult_0.1.0~beta2_iphoneos-arm64e.deb
+Size: 1543216
+MD5sum: 23760949c8ec81d05d91f2f233ae9418
+SHA1: d30f6b238c7c12765794339f235cc740c4156e25
+SHA256: 50e1d81f0768951da824010aa672831836750c413b99b7979e6de18c412da329
+SHA512: 82fa9c629572efb88b8891fd8806450a762cff05c41e52ece0eae473700fc4408e5aa8c6c9a914bb4e831604ea92e923e8d9ff0719e145a7804da075d4c15ca1
+Description: Biến màn hình chính iPhone của bạn hoạt động giống như Android. Thay thế bằng Trebuchet từ LineageOS: một ngăn kéo ứng dụng với chức năng tìm kiếm, thư mục một trang, widget, hình dạng biểu tượng, chủ đề và phông chữ riêng của bạn. Mọi thứ khác vẫn giữ nguyên iOS. Được xây dựng trên bản port Trebuchet của MakrSas.
+Name: Catapult (Roothide)
+Author: John d_ie
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Catapult.json
+Depiction: http://jtisvn.github.io/depiction/Catapult.html
+Icon: https://jtisvn.github.io/sectionIcons/Catapult.png
+
 Package: com.johndie.frostboard
 Architecture: iphoneos-arm64
 Version: 0.0.1~beta2

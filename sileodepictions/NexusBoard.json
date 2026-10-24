@@ -1,72 +1,94 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/NexusBoard.png",
-"tintColor":"#9F9BFF",
-"tabs":[
+"minVersion": "0.3",
+"headerImage": "https://k37ios.pages.dev/banner/NexusBoard.png",
+"tintColor": "#9F9BFF",
+"tabs": [
 {
-"tabname":"Giới thiệu",
-"views":[
+"tabname": "Giới thiệu",
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
+"class": "DepictionTabView",
+"tabs": [
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSpacerView",
+"spacing": 10
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"markdown": "### NexusBoard\n\nTinh chỉnh \"All-in-One\" giúp bạn trải nghiệm tùy biến giao diện SpringBoard với hàng loạt tính năng hữu ích cho iOS.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/4.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/5.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/6.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/7.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/8.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/9.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/10.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/11.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/12.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/9.png",
+"accessibilityText": "Screenshot 9"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/13.png",
-"accessibilityText":"Screenshot"
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/10.png",
+"accessibilityText": "Screenshot 10"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/11.png",
+"accessibilityText": "Screenshot 11"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/12.png",
+"accessibilityText": "Screenshot 12"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/13.png",
+"accessibilityText": "Screenshot 13"
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
 },
 {
-"markdown":"### NexusBoard\n\n- Tinh chỉnh \"All-in-One\" giúp bạn trải nghiệm tùy biến giao diện SpringBoa với hàng loạt tính năng hữu ích cho iOS.\n\n- Các tính năng nổi bật:\n\n+ **Màn hình chính:** Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock, ẩn nút quay lại ứng dụng, xoay mọi hướng biểu tượng, xóa cảnh báo pin yếu, hiển thị chi tiết pin, giả lập cử chỉ iPhone X...\n\n+ **Màn hình khóa:** Tự động mở khóa, Nhấn 2 lần để tắt màn hình, Hiển thị ngày Âm/Dương, Ẩn nút Camera/Đèn pin, Trong suốt thông báo.\n\n+ **Thanh Dock:** Hỗ trợ Dock iPad (Floating Dock), ẩn phân cách & tắt cử chỉ Dock, Dock 5 biểu tượng, hiển thị tên ứng dụng dưới Dock.\n\n+ **Bảo mật & Tiện ích:** Khóa ứng dụng bằng FaceID/Mật khẩu, Hiệu ứng sạc MagSafe, Dự báo thời gian sạc đầy pin và hơn thế nữa.\n\n+ **Trung tâm điều khiển:** Hiển thị số % thanh trượt Độ sáng & Âm lượng, trong suốt nền, tắt hoàn toàn WiFi & Bluetooth, bo tròn các Mô-đun...\n\n+ **Ảnh & Camera:** Xóa vĩnh viễn, phóng to vô hạn, ẩn thanh trượt, luôn bật tiếng video, tắt âm thanh chụp ảnh, tắt bản xem trước ảnh chụp màn hình...\n\n+ **Ứng dụng cài đặt:** Bo tròn biểu tượng và các ô mục trong cài đặt, Ẩn linh kiện không xác định...\n\n- Và còn nhiều hơn thế nữa...",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Màn hình chính:** Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock, ẩn nút quay lại ứng dụng, xoay mọi hướng biểu tượng, xóa cảnh báo pin yếu, hiển thị chi tiết pin, giả lập cử chỉ iPhone X, đổ bóng Dock, Dock nhiều biểu tượng, tùy chỉnh bố cục thư mục,...\n- **Màn hình khóa:** Tự động mở khóa, nhấn 2 lần để tắt màn hình, hiển thị ngày Âm/Dương, ẩn nút Camera/Đèn pin, trong suốt thông báo.\n- **Thanh Dock:** Hỗ trợ Dock iPad (Floating Dock), ẩn phân cách & tắt cử chỉ Dock, Dock 5 biểu tượng, hiển thị tên ứng dụng dưới Dock.\n- **Trình đa nhiệm:** Đóng tất cả ứng dụng nhanh bằng vuốt xuống hoặc nút bấm X, đa nhiệm lưới kiểu iPad,...\n- **Bảo mật & Tiện ích:** Khóa ứng dụng bằng Face ID/Mật khẩu, hiệu ứng sạc MagSafe, dự báo thời gian sạc đầy pin và hơn thế nữa.\n- **Trung tâm điều khiển:** Hiển thị số % thanh trượt Độ sáng & Âm lượng, trong suốt nền, tắt hoàn toàn Wi-Fi & Bluetooth, bo tròn các mô-đun...\n- **Ảnh & Camera:** Xóa vĩnh viễn, bỏ qua xác nhận xóa, phóng to vô hạn, ẩn thanh trượt, luôn bật tiếng video, tắt âm thanh chụp ảnh, tắt bản xem trước ảnh chụp màn hình...\n- **Ứng dụng Cài đặt:** Bo tròn biểu tượng và các ô mục trong Cài đặt, ẩn linh kiện không xác định, giả mạo thông tin thiết bị và dung lượng pin...\n- Và còn nhiều hơn thế nữa...",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -127,7 +149,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15/5/2026",
+"text": "20/09/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -145,7 +167,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "5.0",
+"text": "6.9",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -158,7 +180,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2 MB",
+"text": "3.2 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -181,405 +203,1293 @@
 ]
 },
 {
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### NexusBoard\n\nAn \"All-in-One\" tweak for customizing the SpringBoard interface, packed with useful features for iOS.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/9.png",
+"accessibilityText": "Screenshot 9"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/10.png",
+"accessibilityText": "Screenshot 10"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/11.png",
+"accessibilityText": "Screenshot 11"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/12.png",
+"accessibilityText": "Screenshot 12"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/13.png",
+"accessibilityText": "Screenshot 13"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Home Screen:** Hide app/folder names, hide the Home Bar, hide page dots, hide the App Library, hide the Dock background, hide the back-to-app button, rotate icons in all orientations, remove low battery alerts, show battery details, iPhone X gesture emulation, Dock shadow, multi-icon Dock, folder layout customization,...\n- **Lock Screen:** Auto unlock, double-tap to turn off the screen, show Lunar/Solar date, hide the Camera/Flashlight buttons, transparent notifications.\n- **Dock:** iPad Dock support (Floating Dock), hide separator & disable Dock gestures, 5-icon Dock, show app names under the Dock.\n- **App Switcher:** Quickly close all apps by swiping down or tapping the X button, iPad-style grid multitasking,...\n- **Security & Utilities:** Lock apps with Face ID/Passcode, MagSafe charging animation, estimated time to full charge and more.\n- **Control Center:** Show % on the Brightness & Volume sliders, transparent background, fully turn off Wi-Fi & Bluetooth, rounded modules...\n- **Photos & Camera:** Permanent delete, skip delete confirmation, unlimited zoom, hide sliders, always play video with sound, silent photo capture, disable screenshot preview...\n- **Settings App:** Rounded icons and cells in Settings, hide unknown parts, spoof device info and battery capacity...\n- And much more...",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
 "spacing": 20,
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Created with by Kitsudo",
-"textColor":"#999999",
-"fontSize":"11.0",
-"alignment":1
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Kitsudo",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "September 20, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "6.9",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 14.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
+"tabname": "Nhật ký thay đổi",
+"views": [
 {
-"markdown":"### Phiên bản 5.1\n- Thêm tuỳ chọn màu viền các mô đun Trung tâm điều khiển\n- Thêm tuy chọn màu cuộc gọi đến, gọi đi và gọi nhỡ trong tab gần đây\n- Sửa lỗi tính năng hiển thị tên dưới biểu tượng thanh Dock k hoạt động\n- Sửa lỗi đen màn cài đặt.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.9\n- Thêm tùy chỉnh chuyển màu chữ thông báo\n- Cập nhật mục thông báo trong giao diện cài đặt\n- Sửa lỗi tùy chỉnh tiêu đề mô-đun Tập trung trên Trung tâm điều khiển.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.8\n- Thêm hiệu ứng ảnh động trên Media Trung tâm điều khiển tương tự như CCMusic\n- Sửa lỗi nhấp nháy ảnh bìa khung phát nhạc khi chuyển bài hát trên Trung tâm điều khiển\n- Sửa lỗi chữ và biểu tượng bị trắng trên thanh trạng thái ở chế độ sáng khi bật tính năng hiển thị thanh trạng thái trong đa nhiệm.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.7\n- Sửa một số lỗi và tối ưu hiệu năng\n- Thêm hiển thị ảnh bìa album đang phát dạng tròn tự động xoay trên Media Trung tâm điều khiển\n- Bổ sung ngôn ngữ Tiếng Anh bị thiếu và hỗ trợ thêm Tiếng Trung và Tiếng Ả Rập.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.6\n- Thêm tự động đổi màu Trình phát nhạc trên Màn hình khóa và Trung tâm điều khiển theo màu của ảnh bìa album đang phát\n- Thêm tự động bật Chế độ tiết kiệm pin khi tắt máy hoặc tắt vài giây sau khi mở khóa vào Màn hình chính.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.5\n- Thay đổi giao diện bảng thông số Info Panel\n- Sửa lỗi ẩn nền Dock không hoạt động khi bật chung tính năng Dock nổi (Floating Dock)\n- Sửa lỗi crash ngầm vào Safe Mode khi vuốt xuống trong đa nhiệm để đóng nhanh các ứng dụng.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.4\n- Thêm tự động mở bàn phím khi nhấn tab mới trên Safari\n- Thêm tự động mở bàn phím nhập mật mã (Passcode) ngay sau khi Touch ID hoặc Face ID thất bại trên Màn hình khóa.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.3\n- Thêm thời gian hoạt động trên mô-đun Trung tâm điều khiển\n- Thêm tùy chỉnh màu biểu tượng thanh trượt Độ sáng và Âm lượng.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.2.1\n- Loại bỏ gói phụ thuộc Legacy arm64e Support.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.2\n- Thêm ẩn đường phân cách các mục trong cài đặt\n- Thêm tùy chỉnh viền và màu viền Dock\n- Thêm Dock hai hàng\n- Thêm mục thanh Dock mới.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.1\n- Sửa lỗi và tối ưu điều chỉnh nhỏ khác\n- Thêm bàn phím OLED đen thuần chế độ tối\n- Thêm bật tắt bỏ qua ứng dụng đang phát\n- Thêm đóng nhanh mọi ứng dụng bằng cách vuốt xuống trong Đa nhiệm\n- Thêm hơn 30 phông chữ Đồng hồ trong mục cài đặt Màn hình khóa.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 6.0\n- Thêm công tắc chính cho từng mục để bật hoặc tắt toàn bộ tính năng của mỗi mục\n- Thêm đầy đủ ngôn ngữ Tiếng Anh\n- Cải thiện định vị thời tiết trên thanh trạng thái.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.9\n- Thêm hiển thị thời tiết trên thanh trạng thái\n- Thêm làm mờ thư mục kiểu iOS 9\n- Thêm in đậm tiêu đề thư mục\n- Thêm tùy chỉnh vị trí và kích thước tiêu đề thư mục.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.8\n- Thêm nạp phông chữ đồng hồ mới từ tệp định dạng .ttf\n- Sửa lỗi tùy chỉnh cỡ chữ không hoạt động trên Màn hình khóa.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.7\n- Thêm tùy chọn & thay đổi cỡ chữ đồng hồ và ngày tháng trên Màn hình khóa\n- Thêm hiển thị số giây trên đồng hồ Màn hình khóa.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.6\n- Thêm nút tải xuống video trình phát trên Safari\n- Thêm bỏ qua tùy chọn menu & hiển thị thông báo tiến trình tải video\n- Sửa lỗi cài đặt Thư mục không hiển thị.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.5\n- Thêm lọc cuộc gọi trong tab gần đây\n- Thêm tùy chọn màu thanh trang chủ (Home Bar)\n- Thêm tùy chỉnh văn bản dưới đáy trên Màn hình khóa.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.4\n- Thêm tùy chỉnh chữ Nhập mật mã trên Màn hình khóa\n- Thêm tùy chọn kích thước thẻ đa nhiệm iPad\n- Thêm tùy chỉnh bo góc thẻ trong Đa nhiệm\n- Sửa lỗi hiển thị 1 ứng dụng trên thư mục.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.3\n- Thêm hiển thị viền và màu viền cho thư mục\n- Thêm chạm để đóng nhanh thư mục\n- Thêm thu nhỏ thanh trang chủ\n- Thêm menu mới: tùy chỉnh thư mục\n- Thay đổi mục thông tin hiển thị tên máy & hệ điều hành iOS\n- Sửa lỗi tràn RAM cho một số thiết bị.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.2\n- Thêm lại tính năng hiện nút từ chối cuộc gọi đến\n- Sửa lỗi bo góc thanh Volume khi nhấn phím cứng tăng giảm âm lượng.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.1\n- Thêm tùy chọn màu viền các mô-đun Trung tâm điều khiển\n- Thêm tùy chọn màu cuộc gọi đến, gọi đi và gọi nhỡ trong tab gần đây\n- Sửa lỗi tính năng hiển thị tên dưới biểu tượng thanh Dock không hoạt động\n- Sửa lỗi đen màn hình cài đặt.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.0\n- Thêm thời gian chính xác cuộc gọi gần đây\n- Thêm bỏ qua xác nhận xóa ảnh & video\n- Sửa lỗi bị đè biểu tượng chọn tùy chỉnh thư mục 5x5, 6x6\n- Sửa lại tách riêng ẩn tên ứng dụng Màn hình chính và trong thư mục.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.9\n- Thêm tùy chỉnh video hiển thị trên Trung tâm điều khiển\n- Thêm tùy chọn vị trí nút X trong Đa nhiệm\n- Sửa lỗi lệch tỉ lệ Trung tâm điều khiển khi bật tính năng đa nhiệm iPad.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.8\n- Thêm xóa tiền tố URL trong Safari\n- Thêm hiển thị đầy đủ URL trong Safari\n- Thêm hiển thị thanh trạng thái trong đa nhiệm\n- Sửa lỗi hiệu năng nhỏ.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.7\n- Thêm tự động bật/tắt chế độ nguồn điện thấp khi không sạc hoặc đang sạc\n- Thêm ẩn nền biểu tượng thư mục Màn hình chính\n- Sửa lỗi Safe Mode trên một số thiết bị.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.6\n- Thêm tự động cuộn video tiếp theo sau khi xem hết video hiện tại\n- Thêm ẩn logo phần thưởng sự kiện ứng dụng TikTok.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.5\n- Thêm mục thông tin, liên hệ báo cáo lỗi & yêu cầu tính năng\n- Thêm video bìa trên mục iCloud trong Cài đặt\n- Thay đổi & sửa một số lỗi.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.4\n- Thêm ảnh nền chế độ sáng/tối bàn phím số ứng dụng Điện thoại\n- Thêm hiện xác nhận gọi từ mục Yêu thích & Gần đây\n- Thêm rung 1 lần khi kết nối và kết thúc cuộc gọi.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.3\n- Thêm nhập cấu hình cài đặt\n- Thêm xuất cấu hình cài đặt.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.2\n- Thêm chia sẻ Wi-Fi đã kết nối bằng mã QR\n- Thêm hiển thị mật khẩu Wi-Fi & sao chép\n- Thêm chế độ PiP video trong ứng dụng Ảnh\n- Thêm xáo trộn ngẫu nhiên bàn phím mật mã\n- Thêm ẩn chữ \"Vuốt lên để mở\" dưới đáy Màn hình khóa\n- Sửa lỗi Safe Mode trên một số thiết bị A11 trở xuống.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.1\n- Thêm tùy chọn tắt mở khóa tự động:\n  - Tắt khi có thông báo\n  - Tắt khi đang sạc\n  - Tắt khi đang phát nhạc\n  - Tắt khi đang bật đèn pin\n- Thêm video nền động cho Cài đặt.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 4.0\n- Thêm tùy chỉnh tỉ lệ biểu tượng trên Màn hình chính\n- Thêm tùy chỉnh vị trí dự báo thời gian sạc\n- Sửa đổi tùy chỉnh độ trong suốt các mục\n- Sửa lỗi nền Cài đặt xung đột mất màu với một số tweak.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.9\n- Thêm tùy chỉnh độ mờ nền & trong suốt các mục trong Cài đặt\n- Thêm tùy chọn hình nền sáng/tối trong Cài đặt\n- Thêm tùy chọn ảnh cho mục trên nhóm iCloud trong Cài đặt\n- Thêm nhóm sắp xếp Cài đặt 3 thành phần riêng.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.8\n- Thêm ẩn thông báo cập nhật iOS trong trang Cài đặt\n- Thêm ẩn cảnh báo bảo trì pin trong mục Tình trạng pin & sạc.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.7\n- Thêm đổ bóng biểu tượng thanh Dock\n- Thêm định dạng Thứ, ngày/tháng\n- Sửa đổi thanh trượt kéo lịch âm dương lên trên đồng hồ thanh trạng thái\n- Sửa lỗi bị tắt máy khi chạm 2 lần nhập mật khẩu trên Màn hình khóa.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.6\n- Thêm tùy chỉnh tiêu đề Tập trung trên Trung tâm điều khiển\n- Thêm chạm để mở rộng mô-đun\n- Sửa đổi chức năng tắt hoàn toàn Wi-Fi và Bluetooth tách riêng.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.5\n- Thêm tùy chọn ảnh nền sáng/tối trên Trung tâm điều khiển\n- Thêm tùy chỉnh sắp xếp mô-đun kết nối\n- Thêm tùy chỉnh bố cục mô-đun kết nối\n- Thêm xoay ngang thanh trượt Độ sáng & Âm lượng.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.4\n- Sửa lỗi xóa thông báo chức năng gom nhóm.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.3\n- Thêm thay đổi nhãn theo màu biểu tượng\n- Thêm tùy chỉnh bố cục biểu tượng thư mục.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.2\n- Thêm hiển thị menu trong bảng chia sẻ để tùy chọn giữa Sao chép hoặc Di chuyển khi thêm ảnh vào một album.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.1\n- Thêm 5 kiểu tùy chọn sắp xếp biểu tượng\n- Thêm ẩn biểu tượng VPN & Vị trí trên thanh trạng thái\n- Sửa lỗi giật khựng đa nhiệm iPad.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.0\n- Sửa lỗi không hiển thị dự báo sạc trên Màn hình khóa\n- Thêm ẩn chỉ báo dấu chấm Camera & Micro.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.9\n- Thêm tùy chỉnh vị trí hiển thị thời gian & ngày tháng trên Màn hình khóa\n- Thêm ẩn nhãn thời gian trên Màn hình khóa\n- Thêm ẩn ngày tháng trên Màn hình khóa\n- Thêm ẩn chỉ báo pin khi sạc trên Màn hình khóa.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.8\n- Thêm trở về Đảo động (Thoát ứng dụng bay vào Dynamic Island)\n- Thêm giả lập cử chỉ iPhone X lên các thiết bị nút Home\n- Thêm tùy chọn số lượng biểu tượng ở Dock\n- Thêm tùy chỉnh độ mờ nền thông báo.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.7\n- Sửa lỗi và cải thiện hiệu năng.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.6\n- Thêm gom nhóm thông báo trên Màn hình khóa\n- Thêm hiển thị thông số pin trên thanh trạng thái\n- Thêm giả mạo % dung lượng pin.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.5\n- Thêm đổi màu badge theo màu ứng dụng trên Màn hình chính\n- Thêm tùy chọn 3 kiểu lịch Âm-Dương\n- Thêm lưu bố cục ứng dụng\n- Sửa lỗi bo tròn thanh trượt độ sáng.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.4\n- Sửa lỗi % âm lượng & tiến trình tải xuống\n- Thêm tự động đóng thư mục\n- Thêm tắt thông báo nhắc dán iOS 16.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.3\n- Thêm tùy chỉnh màu công tắc\n- Thêm ẩn ứng dụng khỏi Màn hình chính\n- Thêm hiển thị 1 ứng dụng trên thư mục\n- Thêm tắt nhấn giữ sửa nền Màn hình khóa\n- Thêm tắt cử chỉ vuốt xuống Spotlight.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.2\n- Thêm hiển thị giây trên thanh trạng thái\n- Thêm tốc độ mạng trên thanh trạng thái\n- Thêm đổi biểu tượng dữ liệu\n- Thêm đổi tên nhà mạng.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.1\n- Thêm nút từ chối cuộc gọi đến trên Màn hình khóa\n- Thêm hiện biểu tượng tắt tiếng trên thanh trạng thái\n- Thêm ẩn số seri trong mục Giới thiệu\n- Thêm ẩn mục thông báo tiếp xúc.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.0\n- Thêm nút bấm đóng tất cả ứng dụng trong Đa nhiệm\n- Thêm ẩn mục tab trong Điện thoại\n- Thêm nút mở và đóng tab nhanh trong Safari\n- Thêm hiện tiến trình tải xuống ứng dụng\n- Thêm úp điện thoại xuống để tắt màn hình.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.9\n- Thêm gỡ bỏ BSSID Wi-Fi & hiện địa chỉ MAC\n- Thêm tắt làm mờ nền trong Đa nhiệm\n- Thêm ẩn biểu tượng & tên thẻ trong Đa nhiệm\n- Thêm chạm 2 lần để lật Camera.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.8\n- Thêm giả mạo thông tin thiết bị trong mục Giới thiệu\n- Thêm ẩn linh kiện không xác định trong mục Giới thiệu\n- Thêm hiệu ứng nảy và tốc độ đóng/mở ứng dụng\n- Thêm chế độ xoay ngược màn hình.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.7\n- Thêm căn giữa văn bản & avatar iCloud trong Cài đặt\n- Thêm ẩn mũi tên điều hướng\n- Thêm bo tròn các mục Cài đặt\n- Thêm bo tròn biểu tượng trong Cài đặt\n- Thêm ẩn thanh tìm kiếm trong Cài đặt\n- Thêm ẩn thanh trạng thái trên Trung tâm điều khiển\n- Đổi tên UnlockBoard thành NexusBoard.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.6\n- Thêm ẩn thanh cuộn thông báo trên Màn hình khóa\n- Thêm nhấn nhanh 2 lần vào nút giảm âm lượng để bật đèn pin\n- Thêm bo tròn mô-đun Trung tâm điều khiển\n- Thêm xóa cảnh báo pin yếu\n- Thêm tắt tiếng chụp ảnh màn hình.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.5\n- Thêm hiển thị tên ứng dụng dưới Dock\n- Thêm tắt xem trước ảnh chụp màn hình\n- Thêm tắt hoàn toàn Wi-Fi & Bluetooth\n- Thay đổi giao diện cài đặt.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.4\n- Thêm xem chi tiết pin (chạm 2 lần vào thanh trạng thái)\n- Thêm tắt tiếng thông báo khi phát nhạc\n- Thêm tô màu thông báo theo màu biểu tượng\n- Thêm trong suốt thông báo trên Màn hình khóa.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.3\n- Thêm vuốt xuống đa nhiệm tùy chọn đóng tất cả ứng dụng\n- Thêm ẩn vạch thanh kéo Trung tâm điều khiển trên Màn hình khóa\n- Thêm tắt cử chỉ vuốt xuống Spotlight\n- Thêm đa nhiệm dạng lưới iPad.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.2\n- Thêm trong suốt nền Trung tâm điều khiển\n- Thêm hiện % trên thanh trượt Độ sáng & Âm lượng\n- Thêm chế độ xoay mọi hướng biểu tượng\n- Thêm hiển thị lịch Âm/Dương trên thanh trạng thái\n- Thêm chụp ảnh màn hình bằng 2 ngón vuốt xuống.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.1\n- Thêm ẩn dấu chấm beta & cập nhật\n- Thêm ẩn thanh Home Bar\n- Thêm ẩn nền Dock\n- Thêm ẩn chế độ xem Hôm nay\n- Thêm ẩn pin & camera trên Màn hình khóa\n- Thêm ẩn biểu tượng ổ khóa trên Màn hình khóa\n- Thêm ẩn huy hiệu thông báo\n- Thêm ẩn nền thư mục\n- Thêm ẩn Thư viện ứng dụng\n- Thêm ẩn dấu chấm trang.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.0.1\n- Thêm tích hợp tweak InfiniteMedia gồm tính năng xóa ảnh vĩnh viễn, phóng to vô hạn, ẩn thanh trượt, lặp lại video, tắt tiếng chụp ảnh...\n- Thêm khóa bảo vệ ứng dụng\n- Thêm chạm 2 lần vào Màn hình khóa để tắt thiết bị\n- Thêm ẩn phân cách khi bật Dock nổi\n- Thêm tắt cử chỉ Dock\n- Thêm Dock nổi iPad\n- Thêm hoạt ảnh MagSafe.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.9\n- Added gradient color option for notification text\n- Updated the notifications section in the settings interface\n- Fixed an issue with customizing the Focus module title in Control Center.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.8\n- Added an animated effect to the Control Center media module, similar to CCMusic\n- Fixed cover art flickering in the music player when changing songs in Control Center\n- Fixed white text and icons on the status bar in light mode when showing the status bar in the App Switcher is enabled.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.7\n- Fixed some bugs and optimized performance\n- Added a round, auto-rotating album cover for the current track on the Control Center media module\n- Filled in missing English strings and added Chinese and Arabic support.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.6\n- Added automatic color matching for the music player on the Lock Screen and Control Center based on the current album cover\n- Added automatic Low Power Mode when the device is turned off, or a few seconds after unlocking to the Home Screen.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.5\n- Changed the look of the Info Panel\n- Fixed hide Dock background not working when Floating Dock is also enabled\n- Fixed a background crash into Safe Mode when swiping down in the App Switcher to quickly close apps.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.4\n- Added auto-open keyboard when tapping a new tab in Safari\n- Added auto-open passcode keyboard right after Touch ID or Face ID fails on the Lock Screen.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.3\n- Added uptime display on a Control Center module\n- Added icon color options for the Brightness and Volume sliders.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.2.1\n- Removed the Legacy arm64e Support dependency.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.2\n- Added option to hide separators between settings items\n- Added Dock border and border color options\n- Added two-row Dock\n- Added a new Dock bar item.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.1\n- Fixed bugs and made other minor optimizations\n- Added pure-black OLED keyboard in dark mode\n- Added toggle to skip the currently playing app\n- Added swipe down in the App Switcher to quickly close all apps\n- Added 30+ clock fonts in the Lock Screen settings.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 6.0\n- Added a master switch for each section to turn all of its features on or off\n- Added complete English localization\n- Improved weather location on the status bar.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.9\n- Added weather display on the status bar\n- Added iOS 9-style folder blur\n- Added bold folder titles\n- Added folder title position and size options.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.8\n- Added loading new clock fonts from .ttf files\n- Fixed font size option not working on the Lock Screen.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.7\n- Added clock and date font size options on the Lock Screen\n- Added seconds display on the Lock Screen clock.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.6\n- Added a download button for videos in the Safari player\n- Added skipping the menu options and showing video download progress notifications\n- Fixed Folder settings not showing.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.5\n- Added call filtering in the Recents tab\n- Added Home Bar color option\n- Added bottom text customization on the Lock Screen.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.4\n- Added customization of the Enter Passcode text on the Lock Screen\n- Added iPad multitasking card size option\n- Added card corner radius option in the App Switcher\n- Fixed showing a single app in a folder.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.3\n- Added folder border and border color\n- Added tap to quickly close folders\n- Added a smaller Home Bar\n- Added a new menu: folder customization\n- Changed the info section to show device name & iOS version\n- Fixed RAM overflow on some devices.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.2\n- Re-added the decline button for incoming calls\n- Fixed Volume bar corner radius when pressing the hardware volume buttons.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.1\n- Added border color option for Control Center modules\n- Added color options for incoming, outgoing and missed calls in the Recents tab\n- Fixed show names under Dock icons not working\n- Fixed a black screen in Settings.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.0\n- Added exact time for recent calls\n- Added skipping delete confirmation for photos & videos\n- Fixed overlapping icons in 5x5 and 6x6 folder customization\n- Reworked hide app names so the Home Screen and folders are separate.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 5.0\n- Thêm thời gian chính xác cuộc gọi gần đây\n- Thêm bỏ qua xác nhận xoá ảnh & video\n- Sửa lỗi bị đè biểu tượng chọn tuỳ chỉnh thư mục 5x5 6x6\n- Sửa lại tách riêng ẩn tên ứng dụng MHC và trong thư mục",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.9\n- Added video display customization in Control Center\n- Added position option for the X button in the App Switcher\n- Fixed Control Center aspect ratio issue when iPad multitasking is enabled.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.9\n- Thêm tuỳ chỉnh video hiển thị trên Trung tâm điều khiển\n- Thêm tuỳ chọn vị trí nút X trong Đa nhiệm\n- Sửa lỗi lệch tỉ lệ Trung tâm điều khiển khi bật tính năng đa nhiệm iPad.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.8\n- Added removing the URL prefix in Safari\n- Added showing the full URL in Safari\n- Added showing the status bar in the App Switcher\n- Fixed a minor performance issue.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.8\n- Thêm xoá tiền tố URL trong Safari\n- Thêm hiển thị đầy đủ URL trong Safari\n- Thêm hiển thị thanh trạng thái trong đa nhiệm\n- Sửa lỗi.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.7\n- Added automatically turning Low Power Mode on/off depending on whether the device is charging\n- Added hiding the folder icon background on the Home Screen\n- Fixed Safe Mode on some devices.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.7\n- Thêm tự động bật/tắt chế độ nguồn điện thấp khi không sạc hoặc đang sạc\n- Thêm ẩn nền biểu tượng thư mục Màn hình chính\n- Sửa lỗi Safemode trên 1 số thiết bị.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.6\n- Added auto-scroll to the next video after the current one ends\n- Added hiding the event reward logo in TikTok.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.6\n- Thêm tự động cuộn video tiếp thro sau khi xem hết video hiện tại\n- Thêm ẩn logo phần thưởng sự kiện ứng dụng TikTok.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.5\n- Added an info section with contact for bug reports & feature requests\n- Added a cover video on the iCloud section in Settings\n- Changed and fixed some issues.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.5\n- Thêm mục thông tin, liên hệ báo cáo lỗi & yêu cầu tính năng\n- Thêm video bìa trên mục iCloud trong cài đặt\n- Thay đổi & sửa một số lỗi.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.4\n- Added light/dark background images for the Phone app keypad\n- Added call confirmation from Favorites & Recents\n- Added a single vibration when a call connects and ends.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.4\n- Thêm ảnh nền chế độ sáng/tối bản phím số ứng dụng Điện thoại\n- Thẻm hiện xác nhận gọi từ mục yêu thích & gần đây\n- Thêm rung 1 lần khi kết nối và kết thúc cuộc gọi.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.3\n- Added importing settings configuration\n- Added exporting settings configuration.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.3\n- Thêm nhập cấu hình cài đặt\n- Thêm xuất cấu hình cài đặt.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.2\n- Added sharing the connected Wi-Fi via QR code\n- Added showing and copying the Wi-Fi password\n- Added video PiP mode in the Photos app\n- Added random shuffle of the passcode keypad\n- Added hiding the \"Swipe up to open\" text at the bottom of the Lock Screen\n- Fixed Safe Mode on some A11 and older devices.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.2\n- Thêm chia sẻ Wi-Fi đã kết nối bằng mã QR\n- Thêm hiển thị mặt khẩu Wi-Fi & sao chép\n- Thẻm chế độ PIP video trong ứng dụng Ảnh\n- Thêm xáo trộn ngẫu nhiên bàn phím mật mã\n- Thêm ẩn chữ \"Vuốt lên để mở\" dưới đáy Màn hình khoá.\n- Sửa lỗi safemode trên 1 số thiết bị A11 trở xuống",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.1\n- Added options to disable auto unlock:\n  - Disable when there are notifications\n  - Disable while charging\n  - Disable while playing music\n  - Disable while the flashlight is on\n- Added an animated video background for Settings.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.1\n- Them tuỳ chọn tắt mở khoá tự động:\n- Tắt khi có thông báo\n- Tắt khi đang sạc\n- Tắt khi đang phát nhạc\n- Tắt khi đang bật đèn pin\n- Thêm video nền động cho Cài đặt.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 4.0\n- Added icon scale option on the Home Screen\n- Added position option for the estimated charging time\n- Revised the transparency options for sections\n- Fixed the Settings background losing color due to conflicts with some tweaks.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 4.0\n- Thêm tuỳ chỉnh tỉ lệ biểu tượng trên màn hình chính\n- Thêm tuỳ chỉnh vị trí dự báo thời gian sạc\n- Sửa đổi tuỳ chỉnh độ trong suốt các mục\n- Sửa lỗi nền cài đặt xung đột mất màu với 1 số tweak.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.9\n- Added background blur & transparency options for sections in Settings\n- Added light/dark wallpaper options in Settings\n- Added image options for the iCloud group section in Settings\n- Added a separate 3-part arrangement group in Settings.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.9\n- Thêm tuỳ chỉnh độ mờ nền & trong suốt các mục trong cài đặt\n- Thêm tuỳ chọn hình nền sáng tối trong cài đặt\n- Thêm tuỳ chọn ảnh cho mục trên nhóm iCloud trong cài đặt\n- Thêm nhóm sắp xếp cài đặt 3 thành phần riêng.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.8\n- Added hiding the iOS update notification in Settings\n- Added hiding the battery service warning in Battery Health & Charging.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.8\n- Thêm ẩn thông báo cập nhật iOS trong trang cài đặt\n- Thêm ẩn cảnh báo bảo trì pin thong mục Tình trạng pin & sạc.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.7\n- Added shadows for Dock icons\n- Added Weekday, day/month format\n- Revised the slider that moves the Lunar/Solar calendar above the status bar clock\n- Fixed the device turning off when double-tapping while entering the passcode on the Lock Screen.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.7\n- Thêm đổ bóng biểu tượng thanh Dock\n- Thêm định dạng Thứ, ngày/tháng\n- Sửa đổi thanh trượt kéo lịch âm dương lên trên đồng hồ thanh trạng thái\n- Sửa lỗi bị tắt máy khi chạm 2 lần nhập mặt khẩu trên màn hình khoá.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.6\n- Added Focus title customization in Control Center\n- Added tap to expand modules\n- Revised the fully-off Wi-Fi and Bluetooth feature to be separate.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.6\n- Thêm tuỳ chỉnh tiêu đề Tập trung trên Trung tâm điều khiển\n- Thêm chạm để mở rộng mô đun\n- Sửa đổi chức năng tắt hoàn toàn Wifi và Bluetooth tách riêng.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.5\n- Added light/dark background image options in Control Center\n- Added arrangement options for the connectivity module\n- Added layout options for the connectivity module\n- Added horizontal orientation for the Brightness & Volume sliders.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.5\n- Thêm tuỳ chọn ảnh nền sáng tối trên Trung tâm điều khiển\n\n- Thêm tuỳ chỉnh sắp xếp mô đun kết nố\n- Thêm tuỳ chỉnh bố cục mô đun kết nối\n- Thêm xoa ngang thanh trượt Độ sáng & Âm lượng.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.4\n- Fixed clearing notifications with grouping enabled.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.4\n- Sửa lỗi xoá thông báo chức năng gom nhóm.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.3\n- Added labels that change to match the icon color\n- Added folder icon layout options.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.3\n- Thêm thay đổi nhãn theo màu biểu tượng\n- Thẻm Tuỳ chỉnh bố cục biểu tượng thư mục.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.2\n- Added a menu in the share sheet to choose between Copy or Move when adding photos to an album.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.2\n- Thêm hiển thị menu trong bảng chia sẻ để tuỳ chọn giữa Sao chép hoặc Di chuyển khi thêm ảnh vào một album.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.1\n- Added 5 icon arrangement styles\n- Added hiding the VPN & Location icons on the status bar\n- Fixed stuttering in iPad multitasking.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.1\n- Thêm 5 kiểu tuỳ chọn sắp xếp biểu tượng\n- Thêm ẩn biểu tượng VPN & Vị trí trên thanh trạng thái\n- Sửa lỗi giật khựng đa nhiệm iPad",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.0\n- Fixed the charging estimate not showing on the Lock Screen\n- Added hiding the Camera & Microphone indicator dots.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 3.0\n- Sửa lỗi k hiển thị dự báo sạc trên màn hình khoá\n- Thêm ẩn chỉ báo đấu chấm camera & micro",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.9\n- Added position options for the time & date on the Lock Screen\n- Added hiding the time label on the Lock Screen\n- Added hiding the date on the Lock Screen\n- Added hiding the charging battery indicator on the Lock Screen.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.9\n- Thêm tuỳ chỉnh vị trí hiển thị thời gian & ngày tháng trên màn hình khoá\n- Thêm ẩn nhãn thời gian trên màn hình khoá\n- Thêm ẩn ngày tháng trên màn hình khoá\n- Thêm ẩn chỉ báo pin khi sạc trên màn hình khoá",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.8\n- Added return to Dynamic Island (apps fly into the Dynamic Island when closed)\n- Added iPhone X gesture emulation on Home button devices\n- Added an option for the number of Dock icons\n- Added notification background blur options.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 2.8\n- Thêm trở về đảo động (Thoát ứng dụng ra màn hình chính bay vào Dynamic island)\n- Thêm giả lập cử chỉ iPhone X lên các thiết bị nút Home\n- Thêm tuỳ chọn số lượng biểu tượng ở Dock\n- Thêm tuỳ chỉnh độ mờ nền thông báo",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.7\n- Fixed bugs and improved performance.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 2.7\n- Sủa lỗi và cải thiện",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.6\n- Added notification grouping on the Lock Screen\n- Added battery stats display on the status bar\n- Added battery capacity % spoofing.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 2.6\n- Thêm gom nhóm thông báo trên Màn hình khoá\n- Thêm hiển thị thông số pin trên thanh trạng thái\n- Thêm giả mạo % dung lượng pin",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.5\n- Added badge colors that match the app color on the Home Screen\n- Added 3 Lunar-Solar calendar styles\n- Added saving the app layout\n- Fixed rounding of the brightness slider.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 2.5\n- Thêm đổi màu badge theo màu ứng dụng trên Màn hình chính\n- Thêm tuỳ chọn 3 kiểu lịch Âm-Dương\n- Thêm lưu bố cục ứng dụng\n- Sửa lỗi bo tròn thanh trượt độ sáng",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.4\n- Fixed the volume % & download progress\n- Added auto-close folders\n- Added disabling the iOS 16 paste prompt.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 2.4\n- Sửa lỗi % âm lượng & tiến trình tải xuống\n- Thêm tự động đóng thư mục\n- Thêm tắt thông báo nhắc dán iOS 16",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.3\n- Added switch color options\n- Added hiding apps from the Home Screen\n- Added showing a single app in a folder\n- Added disabling long-press to edit the Lock Screen wallpaper\n- Added disabling the swipe-down Spotlight gesture.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 2.3\n- Thêm tuỳ chỉnh màu công tắc\n- Thêm ẩn ứng dụng khỏi màn hình chính\n- Thêm hiển thị 1 ứng dụng trên thư mục\n- Thêm tắt nhấn giữ sửa nền Màn hình khoá\n- Thêm tắt cử chỉ vuốt xuống Spotlight",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.2\n- Added seconds display on the status bar\n- Added network speed on the status bar\n- Added changing the data icon\n- Added renaming the carrier.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 2.2\n- Thẻm hiển thị giây trên thanh trạng thái\n- Thêm tốc độ mạng trên thanh trạng thái\n- Thêm đổi biểu tượng dữ liệu\n- Thêm đổi tên nhà mạng",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.1\n- Added a decline button for incoming calls on the Lock Screen\n- Added showing the mute icon on the status bar\n- Added hiding the serial number in About\n- Added hiding the exposure notifications section.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 2.1\n- Thêm nút từ chối cuộc gọi đến trên màn hình khoá\n- Thêm hiện biểu tượng tắt tiếng trên thanh trạng thái\n- Thêm ẩn số seri trong mục Giới thiệu\n- Thêm ẩn mục thông báo tiếp xúc",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.0\n- Added a button to close all apps in the App Switcher\n- Added hiding the tab bar in Phone\n- Added quick open/close tab buttons in Safari\n- Added showing app download progress\n- Added placing the phone face down to turn off the screen.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 2.0\n- Thêm nút bấm đóng tất cả ứng dụng trong Đa nhiệm\n- Thêm ẩn mục tab trong Điện thoại\n- Thêm nút mở và đóng tab nhanh trong Safari\n- Thêm hiện tiến trình tải xuống ứng dụng\n- Thêm úp xuống điện thoại để tắt màn hình",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.9\n- Added removing the Wi-Fi BSSID & showing the MAC address\n- Added disabling background blur in the App Switcher\n- Added hiding card icons & names in the App Switcher\n- Added double-tap to flip the Camera.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.9\n- Thêm gỡ bỏ GSSI Wifi & hiện địa chỉ MAC\n- Thêm tắt làm mở nền trong Đa nhiệm\n- Thêm ẩn biểu tượng & tên thẻ trong Đa nhiệm\n- Thêm chạm 2 lần để lật Camera",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.8\n- Added device info spoofing in About\n- Added hiding unknown parts in About\n- Added bounce effect and speed options for opening/closing apps\n- Added upside-down screen rotation mode.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.8\n- Thêm giả mạo thông tin thiết bị trong mục Giới thiệu\n- Thêm ẩn linh kiện ko xác định trong mục Giới thiệu\n- Thêm hiệu ứng nảy và tốc độ đóng/mớ ứng dụng\n- Thêm chế độ xoay ngược màn hình",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.7\n- Added centered text & iCloud avatar in Settings\n- Added hiding navigation arrows\n- Added rounded Settings sections\n- Added rounded icons in Settings\n- Added hiding the search bar in Settings\n- Added hiding the status bar in Control Center\n- Renamed UnlockBoard to NexusBoard.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.7\n- Thêm căn giữa văn bản & Avatar iCloud Cài đặt\n- Thêm ẩn mũi tên điều hướng\n- Thêm bo tròn các mục cài đặt\n- Thêm bo tròn biểu tượng trong cài đặt\n- Thêm ẩn thanh tìm kiếm trong Cài đặt\n- Thêm ẩn thanh trạng thái trên CC\n- Sửa đổi tên UnlockBoard thành NexusBoard",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.6\n- Added hiding the notification scroll bar on the Lock Screen\n- Added double-pressing the volume down button to turn on the flashlight\n- Added rounded Control Center modules\n- Added removing low battery alerts\n- Added muting the screenshot sound.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.6\n- Thêm ẩn thanh cuộn thông báo trên màn hình khoá\n- Thêm nhấn nhanh 2 lần vào nút giảm âm lượng để bật đèn pin\n- Thêm bo tròn mô-đun Trung tâm điều khiển\n- Thêm xoá cảnh báo pin yếu\n- Thêm tắt tiếng chụp ảnh màn hình",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.5\n- Added showing app names under the Dock\n- Added disabling the screenshot preview\n- Added fully turning off Wi-Fi & Bluetooth\n- Changed the settings interface.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.5\n- Thêm hiển thị tên ứng dụng dưới Dock\n- Thêm tắt xem trước ảnh chụp màn hình\n- Thêm tắt hoàn toàn WiFi & Bluetooth\n- Thay đổi giao diện cài đặt",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.4\n- Added battery details (double-tap the status bar)\n- Added muting notifications while music is playing\n- Added tinting notifications to match the icon color\n- Added transparent notifications on the Lock Screen.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.4\n- Thêm xem chi tiết pin (chạm 2 lần vào thanh trạng thái)\n- Thêm tắt tiếng thông báo khi phát nhạc\n- Thêm tô màu thông báo theo màu biểu tượng\n- Thêm trong suốt thông báo trên màn hình khoá",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.3\n- Added an option to close all apps by swiping down in the App Switcher\n- Added hiding the Control Center grabber on the Lock Screen\n- Added disabling the swipe-down Spotlight gesture\n- Added iPad-style grid multitasking.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.3\n- Thêm vuốt xuống đa nhiệm tuỳ chọn đóng tất cả ứng dụng\n- Thêm ẩn vạch thanh kéo CC trên màn hình khoá\n- Thêm tắt cử chỉ vuốt xuống Spotlight\n- Thêm đa nhiệm dạng lưới iPad",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.2\n- Added a transparent Control Center background\n- Added % display on the Brightness & Volume sliders\n- Added rotating icons in all orientations\n- Added Lunar/Solar calendar display on the status bar\n- Added taking screenshots with a two-finger swipe down.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.2\n- Thêm trong suốt nền Trung tâm điều khiển\n- Thêm hiện % trên thanh trượt Độ sáng & Âm lượng\n- Thêm chế độ xoay mọi hướng biểu tượng\n- Thêm hiển thị lịch Âm/Dương trên thanh trạng thái\n- Thêm chụp ảnh màn hình bằng 2 ngón vuốt xuống",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.1\n- Added hiding the beta & update dots\n- Added hiding the Home Bar\n- Added hiding the Dock background\n- Added hiding the Today view\n- Added hiding the battery & camera on the Lock Screen\n- Added hiding the lock icon on the Lock Screen\n- Added hiding notification badges\n- Added hiding the folder background\n- Added hiding the App Library\n- Added hiding the page dots.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.1\n- Thêm ẩn dấu chấm beta & cập nhật\n- Thêm ẩn thanh homebar\n- Thêm ẩn nền dock\n- Thêm ẩn chế độ xem hôm nay\n- Thêm ẩn pin & camera trên màn hình khoá\n- Thêm ẩn biểu tượng ổ khoá trên màn hình khoá\n- Thêm ẩn huy hiệu thông báo\n- Thêm ẩn nền thư mục\n- Thêm ẩn thư viện ứng dụng\n- Thêm ẩn dấu chấm trang",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSeparatorView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.0.1\n- Integrated the InfiniteMedia tweak, including permanent photo deletion, unlimited zoom, hidden sliders, video looping, silent photo capture...\n- Added app lock protection\n- Added double-tap on the Lock Screen to turn off the device\n- Added hiding the separator when Floating Dock is enabled\n- Added disabling Dock gestures\n- Added iPad Floating Dock\n- Added MagSafe animation.",
+"useSpacing": true
 },
 {
-"markdown":"### Phiên bản 1.0.1\n- Thêm tích hợp tweak InfiniteMedia gồm tính năng xoá ảnh vĩnh viễn, phóng to vô hạn, ẩn thanh trượt, lặp lại video, tắt tiếng chụp ảnh...\n- Thêm khoá bảo vệ ứng dụng\n- Thêm chạm 2 lần vào MHK để tắt thiết bị\n- Thêm ẩn phân cách khi bật Dock nổi\n- Thêm tắt cử chỉ Dock\n- Thêm Dock nổi iPad\n- Thêm hoạt ảnh MagSafe.",
-"useSpacing":true,
-"class":"DepictionMarkdownView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
-"tabname":"Liên Hệ Hỗ Trợ",
-"views":[
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
 {
 "class": "DepictionTableButtonView",
-"title": "Mô tả tinh chỉnh",
-"action": "https://jtisvn.github.io/depictions/NexusBoard.html"
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
 },
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
-"title": "Kênh Telegram",
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
 },
 {
-"class":"DepictionTableButtonView",
-"openExternal": 1,
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
+"class": "DepictionTableButtonView",
+"openExternal": true,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Ủng hộ tôi",
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 }
 ],
-"class":"DepictionTabView"
+"class": "DepictionTabView"
 }

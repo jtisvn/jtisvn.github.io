@@ -1,7 +1,7 @@
 {
 "minVersion": "0.3",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor": "#0EA5E9",
+"tintColor": "#5fbdb0",
 "tabs": [
 {
 "tabname": "Giới thiệu",
@@ -32,28 +32,40 @@
 "class": "DepictionScreenshotsView",
 "screenshots": [
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/home.png",
-"accessibilityText": "Màn hình chính: Lưới Trebuchet, dock và thanh tìm kiếm"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/drawer.png",
-"accessibilityText": "Ngăn kéo ứng dụng"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/search.png",
-"accessibilityText": "Tìm kiếm tính toán và tra cứu web"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/shortcuts.png",
-"accessibilityText": "Lối tắt khi nhấn giữ"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/edit.png",
-"accessibilityText": "Chỉnh sửa trang"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/settings.png",
-"accessibilityText": "Cài đặt màn hình chính: chủ đề và phông chữ"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/9.png",
+"accessibilityText": "Screenshot 9"
 }
 ],
 "itemCornerRadius": 12,
@@ -215,28 +227,40 @@
 "class": "DepictionScreenshotsView",
 "screenshots": [
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/home.png",
-"accessibilityText": "Home screen: Trebuchet grid, dock and search bar"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/drawer.png",
-"accessibilityText": "App drawer"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/search.png",
-"accessibilityText": "Search answers sums and searches the web"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/shortcuts.png",
-"accessibilityText": "Long-press shortcuts"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/edit.png",
-"accessibilityText": "Editing pages"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
 },
 {
-"url": "https://jond-ie.github.io/repo/screenshots/catapult/settings.png",
-"accessibilityText": "Home settings: icon themes and fonts"
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/Catapult/Screenshots/9.png",
+"accessibilityText": "Screenshot 9"
 }
 ],
 "itemCornerRadius": 12,
