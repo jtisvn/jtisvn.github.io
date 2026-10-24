@@ -137,7 +137,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "21/10/2026",
+"text": "24/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -155,7 +155,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.0 Beta 8",
+"text": "2.0 Beta 9",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -331,7 +331,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 21, 2026",
+"text": "October 24, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -349,7 +349,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.0 Beta 8",
+"text": "2.0 Beta 9",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -413,15 +413,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 2.0 Beta 8\n- Action Button: Sửa lỗi Safe Mode khi gán phím (Beta 6-7.1), iOS giờ tự nhả nút.\n- Phím tắt chạy ngầm như Back Tap, không hiện app, có thể tắt trong Options.\n- Chọn Phím tắt từ danh sách có sẵn thay vì gõ tên.\n- Tweak Actions: Triggr tự chạy các tác vụ Activator cũ (tối ưu cho Snapper 2).\n- Nhấn Tăng/Giảm âm lượng hoạt động chuẩn như phím cứng.\n- Thêm phản hồi xúc giác Mềm.\n- Sửa lỗi Mute Switch trên iOS 17/18, Proximity trên iOS 15, Spotlight trên iOS 18.\n- Cảm ơn: nbaib, alexp4re và các Reddit tester.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 1.5.0\n- Nút nguồn/cạnh bên + Âm lượng: Kết hợp bấm hoặc giữ nút nguồn với phím Âm lượng để tạo 4 trigger mới (thay thế chụp màn hình trên Face ID, giữ để hiện bảng tắt nguồn/SOS).\n- Cạnh màn hình: Trượt vào từ cạnh trái/phải, hỗ trợ hai ngón tay như Activator giúp giữ nguyên cử chỉ vuốt quay lại của app.\n- Cuộc gọi: Hỗ trợ trạng thái cuộc gọi đến, nhấc máy, gọi đi và kết thúc cho Điện thoại, FaceTime và các app gọi thoại khác.\n- Nhạc: Phát, tạm dừng, dừng và đổi bài hát cho mọi app trong Đang phát (Now Playing).\n- Bổ sung thông báo, lịch trình hàng tuần theo ngày chọn và Tăng/Giảm độ sáng theo bước tùy chỉnh.\n- Sửa lỗi: Lệnh Respring hoặc Safe Mode qua phím Tăng âm lượng sẽ chờ đến khi bạn thả nút ra, tránh việc vô tình kẹt vào Safe Mode.",
+"markdown": "### Phiên bản 2.0 Beta 9\n- Sửa lỗi: khi đã gán thao tác Nút Tác vụ, lần nhấn tiếp theo có thể làm crash SpringBoard (Beta 8). Triggr nay cho phép iOS hoàn tất mọi thao tác nhấn chính xác. Cảm ơn vì crash log!\n- Chuẩn bị cho iOS 27: Nút Tác vụ, cử chỉ cạnh viền, App Switcher và Reachability đã cập nhật tên mới theo iOS 27. Chưa thử nghiệm trên iOS 27.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -443,15 +435,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 2.0 Beta 8\n- Action Button: Fixed the Safe Mode issue when assigning the button (Beta 6-7.1); iOS now releases the button automatically.\n- Shortcuts run in the background like Back Tap without showing the app, and this can be turned off in Options.\n- Pick a Shortcut from the available list instead of typing its name.\n- Tweak Actions: Triggr automatically runs old Activator actions (optimized for Snapper 2).\n- Volume Up/Down presses now work exactly like hardware buttons.\n- Added Soft haptic feedback.\n- Fixed Mute Switch on iOS 17/18, Proximity on iOS 15, and Spotlight on iOS 18.\n- Thanks to: nbaib, alexp4re and the Reddit testers.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Version 1.5.0\n- Power/Side button + Volume: Combine pressing or holding the power button with the Volume keys to create 4 new triggers (replacing screenshot on Face ID, hold to bring up the power-off/SOS sheet).\n- Screen edge: Swipe in from the left/right edge, with two-finger support like Activator so the app's swipe-back gesture is preserved.\n- Calls: Supports incoming call, answered, outgoing and ended call states for Phone, FaceTime and other voice-call apps.\n- Music: Play, pause, stop and change songs for any app in Now Playing.\n- Added notifications, weekly schedules on chosen days, and Brightness Up/Down with a custom step.\n- Fixed: Respring or Safe Mode commands via the Volume Up key now wait until you release the button, avoiding accidentally getting stuck in Safe Mode.",
+"markdown": "### Version 2.0 Beta 9\n- Fixed: with an Action Button press assigned, the next press could crash SpringBoard (Beta 8). Triggr now lets iOS finish every press properly. Thanks for the crash log!\n- Getting ready for iOS 27: the Action Button, edge gestures, App Switcher and Reachability now find their new iOS 27 names. Not tested on iOS 27 yet.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },

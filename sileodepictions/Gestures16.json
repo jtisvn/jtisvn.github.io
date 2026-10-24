@@ -117,7 +117,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "18/10/2026",
+"text": "24/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -135,7 +135,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1",
+"text": "1.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -291,7 +291,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 18, 2026",
+"text": "October 24, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -309,7 +309,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1",
+"text": "1.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -373,7 +373,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 1.1\n- Thêm tuỳ chỉnh các tính năng trong cài đặt.",
+"markdown": "### Phiên bản 1.2\n- Thêm cài đặt kiểu bàn phím và kiểu chụp màn hình, cùng tùy chọn các kết hợp phím bấm gốc.\n- Sửa một số lỗi khoảng cách (padding).",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -395,7 +395,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 1.1\n- Added customization options for the features in Settings.",
+"markdown": "### Version 1.2\n- Added keyboard style and screenshot style settings, and a choice of stock button combinations\n- Fixed some padding issues",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },

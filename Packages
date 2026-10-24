@@ -2488,17 +2488,17 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
 
 Package: com.evgeniy558.controlcenter18
 Architecture: iphoneos-arm64
-Version: 1.0-beta
+Version: 3.0-beta
 Section: Tweaks
 Maintainer: evgeniy558
-Installed-Size: 22680
+Installed-Size: 22808
 Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader
-Filename: ./debs/com.evgeniy558.controlcenter18_1.0-beta_iphoneos-arm64.deb
-Size: 6085720
-MD5sum: b0a30dedf9d644b7f45df57e9da299bb
-SHA1: 13816648f8aa4cc791bd54cef90715fe9421150f
-SHA256: 08f4ae48eb9ac450646c2426e839a0a29f36475262487f098db1e0842d973d11
-SHA512: d9790e08cf2d2fa8225e4b5ecc74822fc043dc48d2272f256e293c8543e7d21c06201e7424086506f6308781c79b50f84ce80f6a78c744d1030bfc051643fa16
+Filename: ./debs/com.evgeniy558.controlcenter18_3.0-beta_iphoneos-arm64.deb
+Size: 6118896
+MD5sum: 965992b333a33a905bf6794e18fbba85
+SHA1: c5245a283627899ef8a5307d6cb6209580b0cddc
+SHA256: 69e7ac5744836b46a8781e027fea26179a491837ffc65d8566df15318002312e
+SHA512: 6af63066cfcb1675b7fb3f933788c0b76cf1fcfd2d966c8f17d0fbc0368815c6c60f0ddcc87198b235d23e377f235873dca5c81fdf9900aef025ac6eac9fd991
 Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
  ControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.
  .
@@ -2527,8 +2527,6 @@ Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
  .
  This is a beta. If something doesn't work, send us the crash log from the settings and we'll fix it.
  .
- Works on rootless and roothide jailbreaks.
- .
  ControlCenter18 переносит полноценный пункт управления из iOS 18 на iOS 16 и 17. Это не тема и не перерисовка: модули, страницы и жесты работают так же, как на iOS 18.
  .
  Только iPhone. iPad не поддерживается.
@@ -2549,14 +2547,15 @@ Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
  Фокусирование, фонарик, таймер, калькулятор, камера, сканер кода, бесшумный режим, слух и другие системные модули перерисованы в стиле iOS 18. Есть и элементы управления «Быстрая команда» и «Открыть приложение», а раздел «Настройки» › «Пункт управления» выглядит так же, как в iOS 18, вместе с кнопкой «Сбросить пункт управления».
  .
  Настройки
- Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить раскладку в пресет, чтобы импортировать её позже, а если SpringBoard вдруг крашнет, отправить нам крашлог в одно касание (логи хранятся 3 дня).
+ Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить пресет, импортировать, а ещё отправить нам крашлог.
  .
  Перед началом
  Отключите другие твики, которые меняют пункт управления: темы, стили модулей и собственные раскладки. ControlCenter18 сам рисует весь пункт управления, поэтому они будут конфликтовать.
  .
  Это бета-версия. Если что-то не работает, отправьте нам крашлог из настроек, и мы всё исправим.
  .
- Работает на rootless и roothide джейлбрейках.
+ .
+ Repo: https://repo.ya-ebal.mom
 Name: ControlCenter18 (Rootless)
 Author: evgeniy558
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ControlCenter18.json
@@ -2565,18 +2564,18 @@ Icon: https://jtisvn.github.io/sectionIcons/ControlCenter18.png
 
 Package: com.evgeniy558.controlcenter18
 Architecture: iphoneos-arm64e
-Version: 1.0-beta
+Version: 3.0-beta
 Section: Tweaks
 Maintainer: evgeniy558
-Installed-Size: 22680
+Installed-Size: 22808
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader
-Filename: ./debs/com.evgeniy558.controlcenter18_1.0-beta_iphoneos-arm64e.deb
-Size: 6072268
-MD5sum: 1d2f1344509805dae1f2ab012691d561
-SHA1: f2e5c1ab1ceb960a2c1d816ca8d12529e455b6d0
-SHA256: 76e3aaa6d58ddd2792365c109ca2db6de1cf581e5ab0deb408f2fd1abebaeeb3
-SHA512: e5174d90f26a7537c9f315fabd3ee751c1f1cd1de33862d07fe8448c0f4acd74bdf3859555b932ca647e814f4f93c81073535d7606a6284c1f4975f1563e5c4b
+Filename: ./debs/com.evgeniy558.controlcenter18_3.0-beta_iphoneos-arm64e.deb
+Size: 6103808
+MD5sum: 2abdb0d69c4be677bcb570b84b8c20eb
+SHA1: 1dc6513e15ec23c5adea68757044ecff585bfa4e
+SHA256: 6ae2dc6b0a2ee107bf3f93d3238ced9aea72f7e97e72cba9c020be47c615a942
+SHA512: 48326a0ea8559cf9d44c7edab7e53fb68a9d62d7c7c1d96141a34e77845cb8c8e14d44ee87c6b455caeace8fe740681a1a052a4970c0fa49890ae02ac0853d6e
 Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
  ControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.
  .
@@ -2605,8 +2604,6 @@ Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
  .
  This is a beta. If something doesn't work, send us the crash log from the settings and we'll fix it.
  .
- Works on rootless and roothide jailbreaks.
- .
  ControlCenter18 переносит полноценный пункт управления из iOS 18 на iOS 16 и 17. Это не тема и не перерисовка: модули, страницы и жесты работают так же, как на iOS 18.
  .
  Только iPhone. iPad не поддерживается.
@@ -2627,15 +2624,16 @@ Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
  Фокусирование, фонарик, таймер, калькулятор, камера, сканер кода, бесшумный режим, слух и другие системные модули перерисованы в стиле iOS 18. Есть и элементы управления «Быстрая команда» и «Открыть приложение», а раздел «Настройки» › «Пункт управления» выглядит так же, как в iOS 18, вместе с кнопкой «Сбросить пункт управления».
  .
  Настройки
- Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить раскладку в пресет, чтобы импортировать её позже, а если SpringBoard вдруг крашнет, отправить нам крашлог в одно касание (логи хранятся 3 дня).
+ Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить пресет, импортировать, а ещё отправить нам крашлог.
  .
  Перед началом
  Отключите другие твики, которые меняют пункт управления: темы, стили модулей и собственные раскладки. ControlCenter18 сам рисует весь пункт управления, поэтому они будут конфликтовать.
  .
  Это бета-версия. Если что-то не работает, отправьте нам крашлог из настроек, и мы всё исправим.
  .
- Работает на rootless и roothide джейлбрейках.
-Name: ControlCenter18 (Rootless)
+ .
+ Repo: https://repo.ya-ebal.mom
+Name: ControlCenter18 (Roothide)
 Author: evgeniy558
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ControlCenter18.json
 Depiction: http://jtisvn.github.io/depiction/ControlCenter18.html
@@ -4608,42 +4606,42 @@ Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
 
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64
-Version: 2.0.0~beta8
+Version: 2.0.0~beta9
 Section: Tweaks
 Maintainer: John d_ie
 Installed-Size: 1980
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
-Filename: ./debs/com.johndie.triggr_2.0.0~beta8_iphoneos-arm64.deb
-Size: 233584
-MD5sum: 807dd07a1194e1c10ece17aee637ccb5
-SHA1: 0a9a1e28ae3691f7fe71dfa41567103c96b5f0d2
-SHA256: 9878fcad5035589af077ecdf875dafffeebaa4b78bfcb41911abf8119b4afad6
-SHA512: a3fa10354387a32cdb1d2a46b4347f813c725f528ff6bc64c9ab2ee5aa9c0740c3405689d6a32377b5c784866f54ed5db9cbe1c8d71303f68040423773df3ffb
+Filename: ./debs/com.johndie.triggr_2.0.0~beta9_iphoneos-arm64.deb
+Size: 234772
+MD5sum: 77b6c5bd184454a5e4e9fdee338102ee
+SHA1: 301f9b3b1d27434f46b96a68c034fd21c194399d
+SHA256: a2595f4b987eea25b344be94aff4440a6400a69597de63d84d14a8db42c6f75d
+SHA512: 337f47bba8b102a6321c0b042cf0e583ad22c2449ae4d205dcdf8a0fc5c8d8ec18270095945d2263efe1411be11344d14e32ad4bff10530517fbb3ad18b5fe5d
 Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
 Name: Triggr (Rootless)
 Author: John d_ie
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
+ileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
 Depiction: https://jtisvn.github.io/depictions/Triggr.html
 Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
 
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64e
-Version: 2.0.0~beta8
+Version: 2.0.0~beta9
 Section: Tweaks
 Maintainer: John d_ie
 Installed-Size: 1980
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
-Filename: ./debs/com.johndie.triggr_2.0.0~beta8_iphoneos-arm64e.deb
-Size: 227148
-MD5sum: e0a78733a100bd50f3a23d1e57435c02
-SHA1: 57e94edb38e96dad7f08082514555496f72561ce
-SHA256: 495c297d85b417e80fc771f4b333187378b1e33772647ecd4712fa136abe4dd2
-SHA512: 69215aa8c79f993372e8fb10aca9099e376a840ace9aef4e5fb06fed91d5a128276ce5b22b5432c9829f00bcf775090af881bc6c7888706d2bdfabab041d2f1e
+Filename: ./debs/com.johndie.triggr_2.0.0~beta9_iphoneos-arm64e.deb
+Size: 227828
+MD5sum: 4a5d44d0cdd620ddbc83d2615d431038
+SHA1: 73e09097e29a1fe788ddd02123ec98be59817e3e
+SHA256: a0ed2451aad3f4980a4eaf2bf1e2a319535156f5f827a064b3009f835020140a
+SHA512: 12c569e9a1333056428d3bb91cdd5623803f4eef23757806424a30bd784c2e5154d4d23e4dc9aeb972df49e2c68a99268edc16510e54e06b193cae73c0c088d6
 Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
 Name: Triggr (Roothide)
 Author: John d_ie
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
+ileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
 Depiction: https://jtisvn.github.io/depictions/Triggr.html
 Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
 
@@ -26400,17 +26398,17 @@ Author: korboy <korboybeats@gmail.com>
 
 Package: com.siphonostb.gestures16
 Architecture: iphoneos-arm64
-Version: 1.1
+Version: 1.2
 Section: Tweaks
 Maintainer: Siphonostb
-Installed-Size: 1688
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
-Filename: ./debs/com.siphonostb.gestures16_1.1_iphoneos-arm64.deb
-Size: 911300
-MD5sum: bb2e497fca9a17514f0d7bff447eb990
-SHA1: e282472e9ba2686dec7c18b2efff8f6401e07042
-SHA256: a1249bda98a6490a050be3446760c29e789e0b29896c6470bedc138b6834a2ef
-SHA512: 02fb0d4f56ac0ff6755690ee3c144fd0c3cefc29e32b7584015fe833453976a9c3029fc9db8e9c78d5581a2fdf1497d6828112c84cdffdcd24d3893cd4697dd1
+Installed-Size: 2496
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0), preferenceloader
+Filename: ./debs/com.siphonostb.gestures16_1.2_iphoneos-arm64.deb
+Size: 1629988
+MD5sum: 420ab31d7d7486a1f7ed2045d599f764
+SHA1: a2db9b46ec785e810cca8cb8a864e184e4348817
+SHA256: 304f65810bd159774eec11212869c5268c68db228c7cd599b88ce7f9ff4b1474
+SHA512: 056af6e5133f09c5c08955d2512d0c1f0c64d7c0a4d0ccac1b2ebde45d4de709b865cacfa43d61f414e043810127f2de405397dc24ddea20d52c096cc8a67460
 Description: Hỗ trợ điều hướng bằng cử chỉ gốc cho nút Home trên iPhone chạy iOS 16.
 Name: Gestures16 (Rootless)
 Author: Siphonostb
@@ -26420,20 +26418,20 @@ Icon: https://jtisvn.github.io/sectionIcons/Gestures16.png
 
 Package: com.siphonostb.gestures16
 Architecture: iphoneos-arm64e
-Version: 1.1
+Version: 1.2
 Section: Tweaks
 Maintainer: Siphonostb
-Installed-Size: 1688
+Installed-Size: 2496
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
-Filename: ./debs/com.siphonostb.gestures16_1.1_iphoneos-arm64e.deb
-Size: 909888
-MD5sum: 5d6b48660d050cfd7e769d895a9aff2e
-SHA1: d1e2c656e577cc3f43245509161899cf0d8b7a62
-SHA256: 27a6ede0f4859979f59e4e5e79c2a00cf2b330e4f1e38019b5ab8cc964a3ca62
-SHA512: 3c85c49d1080b718a9aac7632948bc5e0ad963898d33c764ce2fdf2b82ead47104c5addc9b8b50a0dd00ffe0ef559409d7b49bd3d7a861a2529611b5591d0af7
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0), preferenceloader
+Filename: ./debs/com.siphonostb.gestures16_1.2_iphoneos-arm64e.deb
+Size: 1628004
+MD5sum: b74ee16e5f05c778ca4fbdf3c468cc35
+SHA1: 1c8722821a29f5171a5d5ce5e3d4fc3826721f79
+SHA256: d75e0a32bade208fb415b63c7e65006504c0abd41d468be4866600d12a2642fe
+SHA512: 4870eb7c60cf3bd93a99a70ca8dfdb1cba68b0da6f52ef2690b211e64895a6ce7f61ec575e36e64f41fd23ff7c1498f8fa81d764da9014a448759960fc80510e
 Description: Hỗ trợ điều hướng bằng cử chỉ gốc cho nút Home trên iPhone chạy iOS 16.
-Name: Gestures16 (Roothide)
+Name: Gestures16 (Roothids)
 Author: Siphonostb
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gestures16.json
 Depiction: https://jtisvn.github.io/depictions/Gestures16.html

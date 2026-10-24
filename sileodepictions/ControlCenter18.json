@@ -1,7 +1,7 @@
 {
 "minVersion": "0.3",
 "headerImage": "https://jtisvn.github.io/coverimage/ControlCenter18.png",
-"tintColor": "#0EA5E9",
+"tintColor": "#007aff",
 "tabs": [
 {
 "tabname": "Giới thiệu",
@@ -125,7 +125,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "22/10/2026",
+"text": "24/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -143,7 +143,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0-beta",
+"text": "3.0-beta",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -307,7 +307,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 22, 2026",
+"text": "October 24, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -325,7 +325,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0-beta",
+"text": "3.0-beta",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -390,7 +390,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.0-beta\n- Phát hành bản beta đầu tiên.\n- Mang toàn bộ giao diện và tính năng Trung tâm điều khiển iOS 18 lên iOS 16 - 17.",
+"markdown": "### Phiên bản 3.0-beta\n- Sửa lỗi crash SpringBoard với mô-đun Focus trên iOS 16.\n- Sửa bố cục trên iPhone nút Home (8, 8 Plus, SE) và Gestures16: mô-đun giữ nguyên tỷ lệ như iPhone lớn.\n- Danh sách Wi-Fi và Bluetooth nay vừa vặn hơn trên màn hình nhỏ.\n- Icon công tắc, phím tắt và mô-đun từ tweak khác hiển thị trên Màn hình khóa; ẩn chế độ chỉnh sửa khi khóa máy.\n- Sửa lỗi biến mất icon Timer, Flashlight và lỗi hoạt ảnh mở rộng/thu gọn.\n- Mục Hearing: tiêu đề AirPods và mức âm lượng tách riêng platter, icon không giật, các góc đều nhau.\n- Cải thiện crash logs.",
 "useSpacing": true
 },
 {
@@ -412,7 +412,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Version 1.0-beta\n- Initial beta release.\n- Full iOS 18 Control Center for iOS 16 - 17.",
+"markdown": "### Version 3.0-beta\n- Fixed a SpringBoard crash with the Focus module on iOS 16.\n- Fixed the layout on Home button iPhones (iPhone 8, 8 Plus, SE) and with Gestures16: modules now keep the same proportions as on large iPhones.\n- Wi-Fi and Bluetooth lists now fit smaller screens.\n- Toggle icons, app shortcuts and modules from other tweaks are now visible on the Lock Screen; edit mode is unavailable while the iPhone is locked.\n- Fixed Timer and Flashlight icons disappearing and broken expand/collapse animations.\n- Hearing: the AirPods header and the headphone level are on separate platters, the icon no longer jumps and the corners are even.\n- Improved crash logs.",
 "useSpacing": true
 },
 {
