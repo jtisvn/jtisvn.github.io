@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Triggr - K37 Repo</title>
+    <style>
+        :root { --tint: #FF6600; --bg: #f2f2f7; --card: #ffffff; --text: #000000; --sub: #8e8e93; --sep: #c6c6c8; }
+        @media (prefers-color-scheme: dark) {
+            :root { --bg: #000000; --card: #1c1c1e; --text: #ffffff; --sub: #8e8e93; --sep: #38383a; }
+        }
+        body { font-family: -apple-system, sans-serif; background: var(--bg); margin: 0; padding-bottom: 30px; color: var(--text); -webkit-tap-highlight-color: transparent; }
+        .banner { width: 100%; display: block; max-height: 220px; object-fit: cover; }
+        .tabs { display: flex; background: var(--card); border-bottom: 1px solid var(--sep); position: sticky; top: 0; z-index: 10; }
+        .tab { flex: 1; padding: 12px 5px; border: none; background: none; font-weight: 600; color: var(--sub); font-size: 14px; text-align: center; cursor: pointer; }
+        .tab.active { color: var(--tint); border-bottom: 2px solid var(--tint); }
+        .content { padding: 16px; display: none; }
+        .content.active { display: block; }
+        .box { background: var(--card); padding: 15px; border-radius: 12px; margin-bottom: 12px; font-size: 15px; line-height: 1.5; }
+        
+        /* Screenshots cuộn ngang & kéo chuột */
+        .screenshots { display: flex; overflow-x: auto; gap: 10px; padding-bottom: 10px; cursor: grab; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+        .screenshots::-webkit-scrollbar { display: none; }
+        .screenshots:active { cursor: grabbing; }
+        .screenshots img { width: 185px; height: 400px; border-radius: 8px; border: 1px solid var(--sep); flex-shrink: 0; object-fit: cover; user-select: none; -webkit-user-drag: none; cursor: pointer; }
+        
+        .btn-action { display: block; width: 100%; background: var(--tint); color: #fff; text-align: center; padding: 12px 0; border-radius: 10px; font-weight: 600; text-decoration: none; box-sizing: border-box; margin-bottom: 12px; }
+        .btn-table { display: flex; align-items: center; padding: 12px 15px; background: var(--card); color: var(--tint); text-decoration: none; font-weight: 500; border-bottom: 0.5px solid var(--sep); }
+        .btn-table:first-child { border-top-left-radius: 12px; border-top-right-radius: 12px; }
+        .btn-table:last-child { border-bottom: none; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; }
+        .btn-table img { width: 20px; height: 20px; margin-right: 10px; }
+        .separator { height: 0.5px; background-color: var(--sep); margin: 12px 0; }
+
+        /* Lightbox xem ảnh toàn màn hình */
+        #lightbox { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 9999; display: none; align-items: center; justify-content: center; touch-action: none; }
+        #lightbox.active { display: flex; }
+        #lightbox img { max-width: 90%; max-height: 85vh; border-radius: 8px; object-fit: contain; user-select: none; }
+        .lb-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.2); color: white; border: none; font-size: 24px; padding: 12px 16px; cursor: pointer; border-radius: 50%; z-index: 10000; }
+        #lb-prev { left: 15px; }
+        #lb-next { right: 15px; }
+        #lb-close { position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.2); color: white; border: none; font-size: 20px; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; z-index: 10000; }
+        @media (max-width: 768px) { .lb-btn { display: none; } }
+    </style>
+</head>
+<body>
+    <img id="headerImage" class="banner" style="display:none;">
+    <div id="tabs-header" class="tabs"></div>
+    <div id="tabs-content"></div>
+
+    <div id="lightbox">
+        <button id="lb-close" onclick="closeLightbox()">&times;</button>
+        <button id="lb-prev" class="lb-btn" onclick="changeSlide(-1)">&#10094;</button>
+        <img id="lb-img" src="">
+        <button id="lb-next" class="lb-btn" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <script>
+        function parseMD(str) {
+            if (!str) return "";
+            return str
+                .replace(/^###\s+(.*)/gm, '<span style="font-size: 18px; font-weight: 800; color: var(--text); display: block; margin-bottom: 8px;">$1</span>')
+                .replace(/^####\s+(.*)/gm, '<span style="font-size: 16px; font-weight: 800; color: var(--text); display: block; margin-bottom: 6px;">$1</span>')
+                .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
+                .replace(/^- (.*)/gm, '<li style="margin-bottom: 6px; margin-left: 20px;">$1</li>')
+                .replace(/\n/g, '<br>');
+        }
+
+        const pathSegments = window.location.pathname.split('/');
+        const fileName = pathSegments[pathSegments.length - 1].replace('.html', '.json');
+        const jsonUrl = fileName && fileName !== '' && fileName !== '/' ? `../sileodepictions/${fileName}` : '../sileodepictions/Triggr.json';
+
+        let screenshotList = [];
+        let currentIndex = 0;
+
+        fetch(jsonUrl).then(res => res.json()).then(data => {
+            if (data.tintColor) {
+                document.documentElement.style.setProperty('--tint', data.tintColor);
+            }
+
+            if (data.headerImage) {
+                const header = document.getElementById('headerImage');
+                header.src = data.headerImage;
+                header.style.display = 'block';
+            }
+
+            if (data.tabs && data.tabs.length > 0) {
+                const tabsHeader = document.getElementById('tabs-header');
+                const tabsContent = document.getElementById('tabs-content');
+
+                data.tabs.forEach((tab, idx) => {
+                    const btn = document.createElement('button');
+                    btn.className = `tab ${idx === 0 ? 'active' : ''}`;
+                    btn.innerText = tab.tabname;
+                    btn.onclick = () => switchTab(idx);
+                    tabsHeader.appendChild(btn);
+
+                    const content = document.createElement('div');
+                    content.id = `tab-${idx}`;
+                    content.className = `content ${idx === 0 ? 'active' : ''}`;
+                    content.innerHTML = renderViews(tab.views);
+                    tabsContent.appendChild(content);
+                });
+            }
+        }).catch(err => console.error("Lỗi tải JSON depiction:", err));
+
+        function renderViews(views) {
+            if (!views || !Array.isArray(views)) return "";
+            let html = "";
+            views.forEach(v => {
+                html += renderView(v);
+            });
+            return html;
+        }
+
+        function renderView(v) {
+            if (!v || !v.class) return "";
+
+            switch (v.class) {
+                case "DepictionSpacerView":
+                    return `<div style="height: ${v.spacing || 10}px;"></div>`;
+
+                case "DepictionSeparatorView":
+                    return `<div class="separator"></div>`;
+
+                case "DepictionMarkdownView":
+                    if (v.useRawFormat) {
+                        return v.markdown || "";
+                    }
+                    return `<div class="box">${parseMD(v.markdown)}</div>`;
+
+                case "DepictionButtonView":
+                    return `<a href="${v.action}" class="btn-action"${v.openExternal ? ' target="_blank"' : ''}>${v.text}</a>`;
+
+                case "DepictionTableButtonView":
+                    const iconTag = v.icon ? `<img src="${v.icon}">` : "";
+                    return `<a href="${v.action}" class="btn-table"${v.openExternal ? ' target="_blank"' : ''}>${iconTag}${v.title}</a>`;
+
+                case "DepictionLabelView":
+                    let align = "left";
+                    if (v.alignment === 1) align = "center";
+                    if (v.alignment === 2) align = "right";
+                    
+                    let margin = "0";
+                    if (v.margins) {
+                        let m = v.margins.replace(/[{}]/g, '').split(',');
+                        if (m.length === 4) margin = `${m[0]}px ${m[1]}px ${m[2]}px ${m[3]}px`;
+                    }
+                    
+                    let style = `color: ${v.textColor || 'var(--text)'}; font-size: ${v.fontSize || 14}px; font-weight: ${v.fontWeight || 'normal'}; text-align: ${align}; margin: ${margin};`;
+                    return `<div style="${style}">${v.text || ''}</div>`;
+
+                case "DepictionScreenshotsView":
+                    if (!v.screenshots || v.screenshots.length === 0) return "";
+                    let ssHtml = `<div class="screenshots" class="screenshots-container"${v.screenshots.length === 1 ? ' style="justify-content:center;"' : ''}>`;
+                    v.screenshots.forEach(s => {
+                        let idx = screenshotList.length;
+                        screenshotList.push(s.url);
+                        ssHtml += `<img src="${s.url}" onclick="openLightbox(${idx})">`;
+                    });
+                    ssHtml += `</div>`;
+                    return ssHtml;
+
+                case "DepictionStackView":
+                    let isLandscape = v.orientation === "landscape";
+                    let flexStyle = isLandscape 
+                        ? 'display: flex; gap: 15px; justify-content: space-between;' 
+                        : 'display: flex; flex-direction: column;';
+                    
+                    let childHtml = "";
+                    if (v.views) {
+                        v.views.forEach(child => {
+                            childHtml += isLandscape ? `<div style="flex: 1;">${renderView(child)}</div>` : renderView(child);
+                        });
+                    }
+                    // Hỗ trợ hiển thị tab con (như Tiếng Việt / English bên trong Triggr)
+                    if (v.tabname) {
+                        return `<div class="sub-tab-pane" data-tabname="${v.tabname}">${childHtml}</div>`;
+                    }
+                    return `<div style="${flexStyle}">${childHtml}</div>`;
+
+                case "DepictionTabView":
+                    if (v.tabs && v.tabs.length > 0 && v.tabs[0].tabname) {
+                        let subTabsHeader = `<div style="display: flex; gap: 8px; margin-bottom: 12px; background: var(--sep); padding: 3px; border-radius: 9px;">`;
+                        let subTabsContent = `<div>`;
+                        v.tabs.forEach((subTab, subIdx) => {
+                            subTabsHeader += `<button onclick="switchSubTab(this, ${subIdx})" style="flex: 1; padding: 8px; border-radius: 7px; border: none; background: ${subIdx === 0 ? 'var(--card)' : 'transparent'}; color: ${subIdx === 0 ? 'var(--text)' : 'var(--sub)'}; font-weight: ${subIdx === 0 ? '600' : '500'}; cursor: pointer; font-size: 13px; box-shadow: ${subIdx === 0 ? '0 2px 4px rgba(0,0,0,0.1)' : 'none'}; transition: all 0.2s;">${subTab.tabname}</button>`;
+                            subTabsContent += `<div class="sub-pane-${subIdx}" style="display: ${subIdx === 0 ? 'block' : 'none'};">${renderViews(subTab.views)}</div>`;
+                        });
+                        subTabsHeader += `</div>`;
+                        subTabsContent += `</div>`;
+                        return `<div class="sub-tab-container" style="margin-bottom: 15px;">${subTabsHeader}${subTabsContent}</div>`;
+                    }
+                    return renderViews(v.tabs);
+
+                default:
+                    return "";
+            }
+        }
+
+        function switchTab(index) {
+            document.querySelectorAll('.tab').forEach((t, i) => t.classList.toggle('active', i === index));
+            document.querySelectorAll('.content').forEach((c, i) => c.classList.toggle('active', i === index));
+        }
+
+        function switchSubTab(btn, index) {
+            const container = btn.closest('.sub-tab-container');
+            container.querySelectorAll('button').forEach((b, i) => {
+                b.style.background = (i === index) ? 'var(--card)' : 'transparent';
+                b.style.color = (i === index) ? 'var(--text)' : 'var(--sub)';
+                b.style.fontWeight = (i === index) ? '600' : '500';
+                b.style.boxShadow = (i === index) ? '0 2px 4px rgba(0,0,0,0.1)' : 'none';
+            });
+            container.querySelectorAll('[class^="sub-pane-"]').forEach((p, i) => {
+                p.style.display = (i === index) ? 'block' : 'none';
+            });
+        }
+
+        // Kéo chuột (drag) để cuộn ảnh ngang ngoài màn hình chính
+        document.addEventListener('mousedown', (e) => {
+            if (!e.target.closest('.screenshots')) return;
+            const slider = e.target.closest('.screenshots');
+            let isDown = true;
+            let startX = e.pageX - slider.offsetLeft;
+            let scrollLeft = slider.scrollLeft;
+            let dragged = false;
+
+            const onMouseMove = (e2) => {
+                if (!isDown) return;
+                const x = e2.pageX - slider.offsetLeft;
+                const walk = (x - startX) * 1.5;
+                if (Math.abs(walk) > 5) dragged = true;
+                slider.scrollLeft = scrollLeft - walk;
+            };
+
+            const onMouseUp = () => {
+                isDown = false;
+                window.removeEventListener('mousemove', onMouseMove);
+                window.removeEventListener('mouseup', onMouseUp);
+            };
+
+            window.addEventListener('mousemove', onMouseMove);
+            window.addEventListener('mouseup', onMouseUp);
+        });
+
+        // Xử lý Lightbox phóng to ảnh & vuốt trái phải
+        const lb = document.getElementById('lightbox');
+        const lbImg = document.getElementById('lb-img');
+
+        function openLightbox(index) {
+            currentIndex = index;
+            lbImg.src = screenshotList[currentIndex];
+            lb.classList.add('active');
+        }
+
+        function closeLightbox() {
+            lb.classList.remove('active');
+        }
+
+        function changeSlide(direction) {
+            currentIndex += direction;
+            if (currentIndex >= screenshotList.length) currentIndex = 0;
+            if (currentIndex < 0) currentIndex = screenshotList.length - 1;
+            lbImg.src = screenshotList[currentIndex];
+        }
+
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        lb.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, false);
+
+        lb.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            if (touchEndX < touchStartX - 50) changeSlide(1);
+            if (touchEndX > touchStartX + 50) changeSlide(-1);
+        }, false);
+
+        document.addEventListener('keydown', function(e) {
+            if (lb.classList.contains('active')) {
+                if (e.key === "ArrowLeft") changeSlide(-1);
+                else if (e.key === "ArrowRight") changeSlide(1);
+                else if (e.key === "Escape") closeLightbox();
+            }
+        });
+    </script>
+</body>
+</html>
