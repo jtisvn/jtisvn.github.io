@@ -3,26 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Triggr - K37 Repo</title>
+    <title>NexusBoard - JTISVN Repo</title>
     <style>
-        :root { --tint: #FF6600; --bg: #f2f2f7; --card: #ffffff; --text: #000000; --sub: #8e8e93; --sep: #c6c6c8; }
+        :root { --tint: #9F9BFF; --bg: #f2f2f7; --card: #ffffff; --text: #000000; --sub: #8e8e93; --sep: #c6c6c8; }
         @media (prefers-color-scheme: dark) {
             :root { --bg: #000000; --card: #1c1c1e; --text: #ffffff; --sub: #8e8e93; --sep: #38383a; }
         }
         body { font-family: -apple-system, sans-serif; background: var(--bg); margin: 0; padding-bottom: 30px; color: var(--text); -webkit-tap-highlight-color: transparent; }
-        .banner { width: 100%; display: block; max-height: 220px; object-fit: cover; }
-        .tabs { display: flex; background: var(--card); border-bottom: 1px solid var(--sep); position: sticky; top: 0; z-index: 10; }
-        .tab { flex: 1; padding: 12px 5px; border: none; background: none; font-weight: 600; color: var(--sub); font-size: 14px; text-align: center; cursor: pointer; }
-        .tab.active { color: var(--tint); border-bottom: 2px solid var(--tint); }
-        .content { padding: 16px; display: none; }
-        .content.active { display: block; }
-        .box { background: var(--card); padding: 15px; border-radius: 12px; margin-bottom: 12px; font-size: 15px; line-height: 1.5; }
         
-        /* Screenshots cuộn ngang & kéo chuột */
+        .main-container { max-width: 600px; margin: 0 auto; width: 100%; box-sizing: border-box; padding: 0 16px; }
+        
+        .top-bar { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; width: 100%; box-sizing: border-box; }
+        .repo-brand { display: flex; align-items: center; gap: 8px; }
+        .repo-brand img { width: 26px; height: 26px; border-radius: 6px; object-fit: cover; }
+        .repo-brand span { font-weight: 700; font-size: 14px; }
+
+        .global-lang-switch { display: flex; background: var(--sep); padding: 2px; border-radius: 8px; gap: 2px; }
+        .lang-btn { background: transparent; border: none; padding: 5px 10px; font-size: 12px; font-weight: 600; color: var(--sub); cursor: pointer; border-radius: 6px; transition: all 0.2s; }
+        .lang-btn.active { background: var(--card); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+
+        .sileo-install-btn { display: flex; align-items: center; gap: 6px; background: var(--tint); color: #fff; text-decoration: none; padding: 6px 12px; border-radius: 8px; font-size: 12px; font-weight: 600; }
+        .sileo-install-btn img { width: 16px; height: 16px; border-radius: 4px; }
+
+        .banner { width: 100%; display: block; max-height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 12px; box-sizing: border-box; }
+        
+        .tabs { display: flex; background: var(--card); border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom: 1px solid var(--sep); overflow: hidden; width: 100%; box-sizing: border-box; }
+        .tab { flex: 1; padding: 12px 5px; border: none; background: none; font-weight: 600; color: var(--sub); font-size: 14px; text-align: center; cursor: pointer; }
+        .tab.active { color: var(--tint); border-bottom: 2px solid var(--tint); background: var(--card); }
+        
+        .content { background: var(--card); padding: 16px; box-sizing: border-box; display: none; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; margin-bottom: 15px; width: 100%; }
+        .content.active { display: block; }
+        
+        .box { background: var(--bg); padding: 15px; border-radius: 12px; margin-bottom: 12px; font-size: 15px; line-height: 1.5; }
+        
         .screenshots { display: flex; overflow-x: auto; gap: 10px; padding-bottom: 10px; cursor: grab; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
         .screenshots::-webkit-scrollbar { display: none; }
         .screenshots:active { cursor: grabbing; }
-        .screenshots img { width: 185px; height: 400px; border-radius: 8px; border: 1px solid var(--sep); flex-shrink: 0; object-fit: cover; user-select: none; -webkit-user-drag: none; cursor: pointer; }
+        .screenshots img { width: 185px; height: 400px; border-radius: 12px; border: 1px solid var(--sep); flex-shrink: 0; object-fit: cover; user-select: none; -webkit-user-drag: none; cursor: pointer; }
         
         .btn-action { display: block; width: 100%; background: var(--tint); color: #fff; text-align: center; padding: 12px 0; border-radius: 10px; font-weight: 600; text-decoration: none; box-sizing: border-box; margin-bottom: 12px; }
         .btn-table { display: flex; align-items: center; padding: 12px 15px; background: var(--card); color: var(--tint); text-decoration: none; font-weight: 500; border-bottom: 0.5px solid var(--sep); }
@@ -31,7 +48,8 @@
         .btn-table img { width: 20px; height: 20px; margin-right: 10px; }
         .separator { height: 0.5px; background-color: var(--sep); margin: 12px 0; }
 
-        /* Lightbox xem ảnh toàn màn hình */
+        .footer { text-align: center; margin-top: 20px; color: var(--sub); font-size: 12px; }
+
         #lightbox { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 9999; display: none; align-items: center; justify-content: center; touch-action: none; }
         #lightbox.active { display: flex; }
         #lightbox img { max-width: 90%; max-height: 85vh; border-radius: 8px; object-fit: contain; user-select: none; }
@@ -43,9 +61,32 @@
     </style>
 </head>
 <body>
-    <img id="headerImage" class="banner" style="display:none;">
-    <div id="tabs-header" class="tabs"></div>
-    <div id="tabs-content"></div>
+    <div class="main-container">
+        <div class="top-bar">
+            <div class="repo-brand">
+                <img src="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/CydiaIcon.png" alt="Icon">
+                <span>JTISVN REPO</span>
+            </div>
+            <div class="global-lang-switch">
+                <button class="lang-btn active" onclick="setGlobalLang(0)">Tiếng Việt</button>
+                <button class="lang-btn" onclick="setGlobalLang(1)">English</button>
+            </div>
+            <a href="sileo://package/com.kitsudo.nexusboard" class="sileo-install-btn">
+                <img src="https://jtisvn.github.io/icons/apps/sileo.webp" alt="Sileo">
+                <span id="installText">Cài đặt</span>
+            </a>
+        </div>
+
+        <img id="headerImage" class="banner" style="display:none;">
+
+        <div id="tabs-header" class="tabs"></div>
+        <div id="tabs-content"></div>
+
+        <div class="footer" id="footerText">
+            <img src="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/CydiaIcon.png" width="40" height="40" style="border-radius:8px; margin-bottom:5px;"><br>
+            Được tạo bởi ❤️ JTISVN Repo 
+        </div>
+    </div>
 
     <div id="lightbox">
         <button id="lb-close" onclick="closeLightbox()">&times;</button>
@@ -66,13 +107,40 @@
         }
 
         const pathSegments = window.location.pathname.split('/');
-        const fileName = pathSegments[pathSegments.length - 1].replace('.html', '.json');
-        const jsonUrl = fileName && fileName !== '' && fileName !== '/' ? `../sileodepictions/${fileName}` : '../sileodepictions/Triggr.json';
+        let fileName = pathSegments[pathSegments.length - 1].replace('.html', '.json');
+        if (!fileName || fileName === '' || fileName === '/') {
+            fileName = 'NexusBoard.json';
+        }
+        
+        const jsonUrl = `https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/sileodepictions/${fileName}`;
 
         let screenshotList = [];
         let currentIndex = 0;
+        let isDragging = false;
+        let globalLangIndex = 0;
+        let rawData = null;
+
+        const uiDict = {
+            install: ["Cài đặt", "Install"],
+            footer: ["Được tạo bởi ❤️ JTISVN Repo ", "Created with ❤️ by JTISVN Repo "],
+            tabs: [
+                ["Giới thiệu", "Overview"],
+                ["Nhật ký thay đổi", "Changelog"],
+                ["Nhật ký cập nhật", "Changelog"],
+                ["Liên Kết Hỗ Trợ", "Support Links"]
+            ],
+            links: {
+                "Liên hệ tôi ở Telegram": "Contact me on Telegram",
+                "Kênh thông báo": "Announcement Channel",
+                "Theo dõi tôi trên X (Twitter)": "Follow me on X (Twitter)",
+                "Nhóm Facebook": "Facebook Group",
+                "Paypal": "PayPal",
+                "Ủng hộ tôi một ly cà phê": "Buy me a coffee"
+            }
+        };
 
         fetch(jsonUrl).then(res => res.json()).then(data => {
+            rawData = data;
             if (data.tintColor) {
                 document.documentElement.style.setProperty('--tint', data.tintColor);
             }
@@ -83,25 +151,42 @@
                 header.style.display = 'block';
             }
 
-            if (data.tabs && data.tabs.length > 0) {
-                const tabsHeader = document.getElementById('tabs-header');
-                const tabsContent = document.getElementById('tabs-content');
+            renderPage();
+        }).catch(err => console.error(err));
 
-                data.tabs.forEach((tab, idx) => {
-                    const btn = document.createElement('button');
-                    btn.className = `tab ${idx === 0 ? 'active' : ''}`;
-                    btn.innerText = tab.tabname;
-                    btn.onclick = () => switchTab(idx);
-                    tabsHeader.appendChild(btn);
+        function renderPage() {
+            if (!rawData || !rawData.tabs) return;
 
-                    const content = document.createElement('div');
-                    content.id = `tab-${idx}`;
-                    content.className = `content ${idx === 0 ? 'active' : ''}`;
-                    content.innerHTML = renderViews(tab.views);
-                    tabsContent.appendChild(content);
-                });
-            }
-        }).catch(err => console.error("Lỗi tải JSON depiction:", err));
+            const tabsHeader = document.getElementById('tabs-header');
+            const tabsContent = document.getElementById('tabs-content');
+            tabsHeader.innerHTML = '';
+            tabsContent.innerHTML = '';
+
+            rawData.tabs.forEach((tab, idx) => {
+                let tabName = tab.tabname;
+                if (globalLangIndex === 1) {
+                    const found = uiDict.tabs.find(t => t[0] === tabName);
+                    if (found) tabName = found[1];
+                }
+
+                const btn = document.createElement('button');
+                btn.className = `tab ${idx === 0 ? 'active' : ''}`;
+                btn.innerText = tabName;
+                btn.onclick = () => switchTab(idx);
+                tabsHeader.appendChild(btn);
+
+                const content = document.createElement('div');
+                content.id = `tab-${idx}`;
+                content.className = `content ${idx === 0 ? 'active' : ''}`;
+                content.innerHTML = renderViews(tab.views);
+                tabsContent.appendChild(content);
+            });
+
+            document.getElementById('installText').innerText = uiDict.install[globalLangIndex];
+            document.getElementById('footerText').innerHTML = `<img src="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/CydiaIcon.png" width="40" height="40" style="border-radius:8px; margin-bottom:5px;"><br>${uiDict.footer[globalLangIndex]}`;
+
+            updateGlobalLangDisplay();
+        }
 
         function renderViews(views) {
             if (!views || !Array.isArray(views)) return "";
@@ -123,9 +208,7 @@
                     return `<div class="separator"></div>`;
 
                 case "DepictionMarkdownView":
-                    if (v.useRawFormat) {
-                        return v.markdown || "";
-                    }
+                    if (v.useRawFormat) return v.markdown || "";
                     return `<div class="box">${parseMD(v.markdown)}</div>`;
 
                 case "DepictionButtonView":
@@ -133,46 +216,44 @@
 
                 case "DepictionTableButtonView":
                     const iconTag = v.icon ? `<img src="${v.icon}">` : "";
-                    return `<a href="${v.action}" class="btn-table"${v.openExternal ? ' target="_blank"' : ''}>${iconTag}${v.title}</a>`;
+                    let titleText = v.title;
+                    if (globalLangIndex === 1 && uiDict.links[titleText]) {
+                        titleText = uiDict.links[titleText];
+                    }
+                    return `<a href="${v.action}" class="btn-table"${v.openExternal ? ' target="_blank"' : ''}>${iconTag}${titleText}</a>`;
 
                 case "DepictionLabelView":
                     let align = "left";
                     if (v.alignment === 1) align = "center";
                     if (v.alignment === 2) align = "right";
-                    
                     let margin = "0";
                     if (v.margins) {
                         let m = v.margins.replace(/[{}]/g, '').split(',');
                         if (m.length === 4) margin = `${m[0]}px ${m[1]}px ${m[2]}px ${m[3]}px`;
                     }
-                    
                     let style = `color: ${v.textColor || 'var(--text)'}; font-size: ${v.fontSize || 14}px; font-weight: ${v.fontWeight || 'normal'}; text-align: ${align}; margin: ${margin};`;
                     return `<div style="${style}">${v.text || ''}</div>`;
 
                 case "DepictionScreenshotsView":
                     if (!v.screenshots || v.screenshots.length === 0) return "";
-                    let ssHtml = `<div class="screenshots" class="screenshots-container"${v.screenshots.length === 1 ? ' style="justify-content:center;"' : ''}>`;
+                    let ssHtml = `<div class="screenshots"${v.screenshots.length === 1 ? ' style="justify-content:center;"' : ''}>`;
                     v.screenshots.forEach(s => {
                         let idx = screenshotList.length;
                         screenshotList.push(s.url);
-                        ssHtml += `<img src="${s.url}" onclick="openLightbox(${idx})">`;
+                        ssHtml += `<img src="${s.url}" onclick="handleImageClick(${idx})">`;
                     });
                     ssHtml += `</div>`;
                     return ssHtml;
 
                 case "DepictionStackView":
                     let isLandscape = v.orientation === "landscape";
-                    let flexStyle = isLandscape 
-                        ? 'display: flex; gap: 15px; justify-content: space-between;' 
-                        : 'display: flex; flex-direction: column;';
-                    
+                    let flexStyle = isLandscape ? 'display: flex; gap: 15px; justify-content: space-between;' : 'display: flex; flex-direction: column;';
                     let childHtml = "";
                     if (v.views) {
                         v.views.forEach(child => {
                             childHtml += isLandscape ? `<div style="flex: 1;">${renderView(child)}</div>` : renderView(child);
                         });
                     }
-                    // Hỗ trợ hiển thị tab con (như Tiếng Việt / English bên trong Triggr)
                     if (v.tabname) {
                         return `<div class="sub-tab-pane" data-tabname="${v.tabname}">${childHtml}</div>`;
                     }
@@ -180,15 +261,12 @@
 
                 case "DepictionTabView":
                     if (v.tabs && v.tabs.length > 0 && v.tabs[0].tabname) {
-                        let subTabsHeader = `<div style="display: flex; gap: 8px; margin-bottom: 12px; background: var(--sep); padding: 3px; border-radius: 9px;">`;
-                        let subTabsContent = `<div>`;
+                        let subTabsContent = `<div class="global-sub-container">`;
                         v.tabs.forEach((subTab, subIdx) => {
-                            subTabsHeader += `<button onclick="switchSubTab(this, ${subIdx})" style="flex: 1; padding: 8px; border-radius: 7px; border: none; background: ${subIdx === 0 ? 'var(--card)' : 'transparent'}; color: ${subIdx === 0 ? 'var(--text)' : 'var(--sub)'}; font-weight: ${subIdx === 0 ? '600' : '500'}; cursor: pointer; font-size: 13px; box-shadow: ${subIdx === 0 ? '0 2px 4px rgba(0,0,0,0.1)' : 'none'}; transition: all 0.2s;">${subTab.tabname}</button>`;
-                            subTabsContent += `<div class="sub-pane-${subIdx}" style="display: ${subIdx === 0 ? 'block' : 'none'};">${renderViews(subTab.views)}</div>`;
+                            subTabsContent += `<div class="global-sub-pane" data-sub-index="${subIdx}" style="display: none;">${renderViews(subTab.views)}</div>`;
                         });
-                        subTabsHeader += `</div>`;
                         subTabsContent += `</div>`;
-                        return `<div class="sub-tab-container" style="margin-bottom: 15px;">${subTabsHeader}${subTabsContent}</div>`;
+                        return subTabsContent;
                     }
                     return renderViews(v.tabs);
 
@@ -202,33 +280,35 @@
             document.querySelectorAll('.content').forEach((c, i) => c.classList.toggle('active', i === index));
         }
 
-        function switchSubTab(btn, index) {
-            const container = btn.closest('.sub-tab-container');
-            container.querySelectorAll('button').forEach((b, i) => {
-                b.style.background = (i === index) ? 'var(--card)' : 'transparent';
-                b.style.color = (i === index) ? 'var(--text)' : 'var(--sub)';
-                b.style.fontWeight = (i === index) ? '600' : '500';
-                b.style.boxShadow = (i === index) ? '0 2px 4px rgba(0,0,0,0.1)' : 'none';
+        function setGlobalLang(index) {
+            globalLangIndex = index;
+            document.querySelectorAll('.lang-btn').forEach((btn, i) => {
+                btn.classList.toggle('active', i === index);
             });
-            container.querySelectorAll('[class^="sub-pane-"]').forEach((p, i) => {
-                p.style.display = (i === index) ? 'block' : 'none';
+            renderPage();
+        }
+
+        function updateGlobalLangDisplay() {
+            document.querySelectorAll('.global-sub-container').forEach(container => {
+                container.querySelectorAll('.global-sub-pane').forEach((pane, i) => {
+                    pane.style.display = (i === globalLangIndex) ? 'block' : 'none';
+                });
             });
         }
 
-        // Kéo chuột (drag) để cuộn ảnh ngang ngoài màn hình chính
         document.addEventListener('mousedown', (e) => {
             if (!e.target.closest('.screenshots')) return;
             const slider = e.target.closest('.screenshots');
             let isDown = true;
             let startX = e.pageX - slider.offsetLeft;
             let scrollLeft = slider.scrollLeft;
-            let dragged = false;
+            isDragging = false;
 
             const onMouseMove = (e2) => {
                 if (!isDown) return;
                 const x = e2.pageX - slider.offsetLeft;
                 const walk = (x - startX) * 1.5;
-                if (Math.abs(walk) > 5) dragged = true;
+                if (Math.abs(walk) > 5) isDragging = true;
                 slider.scrollLeft = scrollLeft - walk;
             };
 
@@ -242,7 +322,11 @@
             window.addEventListener('mouseup', onMouseUp);
         });
 
-        // Xử lý Lightbox phóng to ảnh & vuốt trái phải
+        function handleImageClick(idx) {
+            if (isDragging) return;
+            openLightbox(idx);
+        }
+
         const lb = document.getElementById('lightbox');
         const lbImg = document.getElementById('lb-img');
 
