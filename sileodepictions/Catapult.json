@@ -1,0 +1,489 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#0EA5E9",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Catapult\n\n**Biến màn hình chính iPhone của bạn hoạt động giống như Android.** Catapult thay thế màn hình chính iOS bằng Trebuchet từ LineageOS, trong khi mọi thứ khác vẫn giữ nguyên là iOS.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/home.png",
+"accessibilityText": "Màn hình chính: Lưới Trebuchet, dock và thanh tìm kiếm"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/drawer.png",
+"accessibilityText": "Ngăn kéo ứng dụng"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/search.png",
+"accessibilityText": "Tìm kiếm tính toán và tra cứu web"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/shortcuts.png",
+"accessibilityText": "Lối tắt khi nhấn giữ"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/edit.png",
+"accessibilityText": "Chỉnh sửa trang"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/settings.png",
+"accessibilityText": "Cài đặt màn hình chính: chủ đề và phông chữ"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Ngăn kéo ứng dụng (App Drawer):** Vuốt lên để xem tất cả ứng dụng trong một danh sách từ A đến Z. Ô tìm kiếm cũng hỗ trợ tính toán nhanh, quy đổi đơn vị và tìm kiếm web.\n- **Màn hình chính gọn gàng hơn:** Thư mục mở trên một trang, các tiện ích hiển thị thời gian, thời tiết, âm nhạc và pin (bao gồm cả AirPods).\n- **Giao diện cá nhân hóa:** Hình dạng biểu tượng, chủ đề biểu tượng và phông chữ tùy chỉnh trên màn hình chính hoặc toàn bộ iOS. Biểu tượng cảm xúc (Emoji) giữ nguyên của Apple.\n- **Hỗ trợ đa ngôn ngữ:** Tự động theo ngôn ngữ của iPhone.\n- **Vẫn mang cảm giác iPhone:** Ứng dụng mở và đóng bằng hiệu ứng hoạt ảnh gốc của Apple trực tiếp từ biểu tượng của chúng.\n\n[Xem tất cả tính năng →](https://jond-ie.github.io/repo/catapult/)",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"markdown": "### Cách hoạt động\n\n1. **Vuốt lên** để mở ngăn kéo ứng dụng: hiển thị mọi ứng dụng từ A đến Z, có thanh chữ cái để chuyển nhanh.\n2. **Nhấn giữ vào khoảng trống** để mở cài đặt Hình nền & kiểu (hình dạng lưới, kích thước), Tiện ích và Cài đặt màn hình chính.\n3. **Nhấn giữ vào ứng dụng** để xem lối tắt, thông tin ứng dụng và xóa. Kéo ứng dụng vào ứng dụng khác để tạo thư mục.\n4. **Nhập vào thanh tìm kiếm:** ứng dụng, phép tính như `9+2`, quy đổi như `5 km in mi`, hoặc tìm kiếm web.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Jond-ie",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "23/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.1.0-beta2",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "4.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 18.6",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Catapult\n\n**Make your iPhone's Home Screen work like Android's.** Catapult swaps the iOS Home Screen for Trebuchet, the one from LineageOS. Everything else stays iOS.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/home.png",
+"accessibilityText": "Home screen: Trebuchet grid, dock and search bar"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/drawer.png",
+"accessibilityText": "App drawer"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/search.png",
+"accessibilityText": "Search answers sums and searches the web"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/shortcuts.png",
+"accessibilityText": "Long-press shortcuts"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/edit.png",
+"accessibilityText": "Editing pages"
+},
+{
+"url": "https://jond-ie.github.io/repo/screenshots/catapult/settings.png",
+"accessibilityText": "Home settings: icon themes and fonts"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **App Drawer:** Swipe up for every app in one A to Z list. Its search box also does quick sums, converts units and searches the web.\n- **A Tidier Home Screen:** Folders open on one page, and widgets show the time, weather, your music and your batteries (AirPods too).\n- **Your Look:** Icon shapes, icon themes and your own font, on the Home Screen or across all of iOS. Emoji stay Apple's.\n- **In Your Language:** Catapult follows your iPhone's language.\n- **Still Feels Like an iPhone:** Apps open and close with Apple's own animation, straight from their icon.\n\n[Everything it can do →](https://jond-ie.github.io/repo/catapult/)",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"markdown": "### How it works\n\n1. **Swipe up** for the app drawer: every app A to Z, with a letter bar to jump.\n2. **Long-press an empty spot** for Wallpaper & style (icon shapes, grid size), Widgets and Home settings.\n3. **Long-press an app** for its shortcuts, App info and Remove. Drag it onto another app to make a folder.\n4. **Type in the search bar:** apps, sums like `9+2`, conversions like `5 km in mi`, or a web search.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Jond-ie",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 23, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.1.0-beta2",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "4.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 18.6",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 0.1.0-beta2\n- **Catapult hỗ trợ ngôn ngữ của bạn:** Văn bản gốc của LineageOS hỗ trợ 96 ngôn ngữ, và các tính năng bổ sung của Catapult hỗ trợ 27 ngôn ngữ (bao gồm tiếng Tây Ban Nha, Bồ Đào Nha, Pháp, Đức, Nga, Ả Rập, Hindi, Nhật, Hàn và Trung).\n- **Đã sửa:** Lỗi sao chép kết quả tìm kiếm (ví dụ: số thập phân 3,5 bị dán thành 35).\n- **Thời tiết:** Tự động đồng bộ theo cài đặt đơn vị độ C/F trên iPhone của bạn.\n- Đã kiểm tra trên iPhone 8 Plus chạy tiếng Trung giản thể. Nếu có dòng nào chưa chuẩn trong ngôn ngữ của bạn, hãy [phản hồi trên GitHub](https://github.com/Jond-ie/catapult/issues).",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 0.1.0-beta2\n- **Catapult speaks your language:** It follows your iPhone's language: LineageOS's own text in 96 languages, and everything Catapult added in 27, including Spanish, Portuguese, French, German, Russian, Arabic, Hindi, Japanese, Korean and Chinese.\n- **Fixed:** Copying a search answer like 3,5 (decimal comma) pasted 35.\n- **Weather:** Follows your iPhone's °C / °F setting.\n- Tested in Simplified Chinese on an iPhone 8 Plus. If a line reads wrong in your language, [tell me](https://github.com/Jond-ie/catapult/issues).",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}
