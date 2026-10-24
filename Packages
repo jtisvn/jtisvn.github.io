@@ -20789,6 +20789,51 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
 Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
 Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
 
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5380
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.4_iphoneos-arm64.deb
+Size: 1008888
+MD5sum: 8d1a2a542dffb4b13c25cd3555bfbd32
+SHA1: 3e39c88d5db6ebc6df98ec115276545a9610245d
+SHA256: 1416ed4806329bd0e4fa1f55ab48a04ca6c6af6e2a7415ed3bb6d984d076e9c6
+SHA512: fb542537e6314c32fdfd05fcf2f97cdd0701d38406db2db860f89e9d7612c5989461e571d56c29a0ab6e6894cc2b0435e03a8a3047dff0e51ba1a6d713e2d853
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5380
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.4_iphoneos-arm64e.deb
+Size: 1000132
+MD5sum: e23f1cc12f035d229ff35fdec76e6154
+SHA1: d0336522912b3e829fa30e25d6aafb0451b6d2e0
+SHA256: 302511899687486bc0fe0abaf85aa78db7a8a9b8097e42018058ec4dcf902362
+SHA512: 8b2226bf9744aa8087e0c4fb61155f6d2eda9531460dec5068ad6146d73b66a392b4ac4ef0b0f6a5fcc426d2aebdbf51db1dd38842ffa2ba51a7cce3f9579e2a
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
 Package: com.jtisvn.kayoko
 Architecture: iphoneos-arm64
 Version: 5.0.2

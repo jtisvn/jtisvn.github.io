@@ -133,7 +133,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "22/10/2026",
+"text": "24/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -151,7 +151,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.3-1",
+"text": "1.1.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -323,7 +323,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 22, 2026",
+"text": "October 24, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -341,7 +341,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.3-1",
+"text": "1.1.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -405,6 +405,14 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
+"markdown": "### Phiên bản 1.1.4\n- Xóa giới hạn chọn mục yêu thích mini Dock, thêm tùy chọn chỉ hiện thông báo/hành vi chạm thông báo, hỗ trợ phong cách AmbientBadge.\n- Cải thiện hiển thị và hoạt ảnh quay lại trên app, Màn hình chính và Control Center. Orbit và thông tin lân cận tự né Dynamic Island. Sửa lỗi mất capsule trái, trễ khôi phục nội dung, cập nhật mức pin/màu sạc.\n- Thêm bảo vệ khởi động: khi phát hiện treo máy lúc khởi động, Lunora sẽ tạm dừng tải ở lần sau và giữ nguyên cài đặt, có thể khôi phục thủ công trong Cài đặt. Cải thiện chẩn đoán và giảm làm mới thừa.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
 "markdown": "### Phiên bản 1.1.3-1\n- Thêm tùy chọn Vô hiệu hóa Lunora ở chế độ ngang: khôi phục thanh trạng thái gốc khi xoay ngang và tự động bật lại Lunora ở chế độ dọc, giữ nguyên cài đặt đã lưu.\n- Thêm tùy chọn Tương thích với Mikkyy để bảo vệ hiển thị và thao tác chạm bên phải. Cả hai đều tắt mặc định, nằm trong mục Behavior and Compatibility.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
@@ -442,6 +450,14 @@
 "class": "DepictionStackView",
 "tabname": "English",
 "views": [
+{
+"markdown": "### Phiên bản 1.1.4\n- Removed the selection limit for mini Dock favorites, added notification-only visibility and notification tap behavior, and added support for AmbientBadge styles.\n- Improved display and return animations across apps, Home Screen and Control Center. Orbit and adjacent info avoid the island together. Fixed left-capsule disappearance, delayed content recovery, and battery level and charging-color updates.\n- Added startup protection: after a detected unresponsive startup, Lunora pauses loading on the next startup while preserving settings, with manual recovery in Settings. Improved diagnostics and reduced unnecessary refreshes.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "markdown": "### Version 1.1.3-1\n- Added an optional Disable Lunora in Landscape setting: restore the native status bar in landscape and automatically resume Lunora in portrait, keeping saved settings.\n- Added Mikkyy Compatibility to protect the right display and taps. Both options are off by default and available under Behavior and Compatibility.",
 "useSpacing": true,
