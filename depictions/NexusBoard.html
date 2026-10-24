@@ -22,8 +22,9 @@
         .lang-btn { background: transparent; border: none; padding: 5px 10px; font-size: 12px; font-weight: 600; color: var(--sub); cursor: pointer; border-radius: 6px; transition: all 0.2s; }
         .lang-btn.active { background: var(--card); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
 
-        .sileo-install-btn { display: flex; align-items: center; gap: 6px; background: var(--tint); color: #fff; text-decoration: none; padding: 6px 12px; border-radius: 8px; font-size: 12px; font-weight: 600; }
-        .sileo-install-btn img { width: 16px; height: 16px; border-radius: 4px; }
+        .install-buttons-row { display: flex; gap: 8px; width: 100%; margin-bottom: 12px; box-sizing: border-box; }
+        .install-btn { flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px; background: var(--tint); color: #fff; text-align: center; padding: 10px 4px; border-radius: 10px; font-weight: 600; font-size: 12px; text-decoration: none; box-sizing: border-box; white-space: nowrap; }
+        .install-btn img { width: 18px; height: 18px; border-radius: 4px; object-fit: cover; }
 
         .banner { width: 100%; display: block; max-height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 12px; box-sizing: border-box; }
         
@@ -71,10 +72,6 @@
                 <button class="lang-btn active" onclick="setGlobalLang(0)">Tiếng Việt</button>
                 <button class="lang-btn" onclick="setGlobalLang(1)">English</button>
             </div>
-            <a href="sileo://package/com.kitsudo.nexusboard" class="sileo-install-btn">
-                <img src="https://jtisvn.github.io/icons/apps/sileo.webp" alt="Sileo">
-                <span id="installText">Cài đặt</span>
-            </a>
         </div>
 
         <img id="headerImage" class="banner" style="display:none;">
@@ -121,7 +118,9 @@
         let rawData = null;
 
         const uiDict = {
-            install: ["Cài đặt", "Install"],
+            sileo: ["Sileo", "Sileo"],
+            zebra: ["Zebra", "Zebra"],
+            cydia: ["Cydia", "Cydia"],
             footer: ["Được tạo bởi ❤️ JTISVN Repo ", "Created with ❤️ by JTISVN Repo "],
             tabs: [
                 ["Giới thiệu", "Overview"],
@@ -138,6 +137,27 @@
                 "Ủng hộ tôi một ly cà phê": "Buy me a coffee"
             }
         };
+
+        function getInstallButtonsHtml(langIdx) {
+            const prefix = langIdx === 0 ? "Cài qua" : "Install in";
+            
+            return `
+                <div class="install-buttons-row">
+                    <a href="sileo://package/com.kitsudo.nexusboard" class="install-btn">
+                        <img src="https://jtisvn.github.io/icons/apps/sileo.webp" alt="Sileo">
+                        <span>${prefix} Sileo</span>
+                    </a>
+                    <a href="zbra://packages/com.kitsudo.nexusboard" class="install-btn">
+                        <img src="https://jtisvn.github.io/icons/apps/zebra2.webp" alt="Zebra">
+                        <span>${prefix} Zebra</span>
+                    </a>
+                    <a href="cydia://package/com.kitsudo.nexusboard" class="install-btn">
+                        <img src="https://jtisvn.github.io/icons/apps/cydia.webp" alt="Cydia">
+                        <span>${prefix} Cydia</span>
+                    </a>
+                </div>
+            `;
+        }
 
         fetch(jsonUrl).then(res => res.json()).then(data => {
             rawData = data;
@@ -178,26 +198,25 @@
                 const content = document.createElement('div');
                 content.id = `tab-${idx}`;
                 content.className = `content ${idx === 0 ? 'active' : ''}`;
-                content.innerHTML = renderViews(tab.views);
+                content.innerHTML = renderViews(tab.views, idx === 0);
                 tabsContent.appendChild(content);
             });
 
-            document.getElementById('installText').innerText = uiDict.install[globalLangIndex];
             document.getElementById('footerText').innerHTML = `<img src="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/CydiaIcon.png" width="40" height="40" style="border-radius:8px; margin-bottom:5px;"><br>${uiDict.footer[globalLangIndex]}`;
 
             updateGlobalLangDisplay();
         }
 
-        function renderViews(views) {
+        function renderViews(views, isOverviewTab = false) {
             if (!views || !Array.isArray(views)) return "";
             let html = "";
             views.forEach(v => {
-                html += renderView(v);
+                html += renderView(v, isOverviewTab);
             });
             return html;
         }
 
-        function renderView(v) {
+        function renderView(v, isOverviewTab = false) {
             if (!v || !v.class) return "";
 
             switch (v.class) {
@@ -251,7 +270,7 @@
                     let childHtml = "";
                     if (v.views) {
                         v.views.forEach(child => {
-                            childHtml += isLandscape ? `<div style="flex: 1;">${renderView(child)}</div>` : renderView(child);
+                            childHtml += isLandscape ? `<div style="flex: 1;">${renderView(child, false)}</div>` : renderView(child, false);
                         });
                     }
                     if (v.tabname) {
@@ -263,12 +282,13 @@
                     if (v.tabs && v.tabs.length > 0 && v.tabs[0].tabname) {
                         let subTabsContent = `<div class="global-sub-container">`;
                         v.tabs.forEach((subTab, subIdx) => {
-                            subTabsContent += `<div class="global-sub-pane" data-sub-index="${subIdx}" style="display: none;">${renderViews(subTab.views)}</div>`;
+                            let installButtons = isOverviewTab ? getInstallButtonsHtml(globalLangIndex) : '';
+                            subTabsContent += `<div class="global-sub-pane" data-sub-index="${subIdx}" style="display: none;">${installButtons}${renderViews(subTab.views, false)}</div>`;
                         });
                         subTabsContent += `</div>`;
                         return subTabsContent;
                     }
-                    return renderViews(v.tabs);
+                    return renderViews(v.tabs, false);
 
                 default:
                     return "";
