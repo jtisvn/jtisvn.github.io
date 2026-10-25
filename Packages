@@ -20836,19 +20836,19 @@ Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
 
 Package: com.jtisvn.kayoko
 Architecture: iphoneos-arm64
-Version: 5.0.2
+Version: 5.0.3
 Section: Tweaks
 Maintainer: mlgm
-Installed-Size: 3516
+Installed-Size: 3532
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: ./debs/com.jtisvn.kayoko_5.0.2_iphoneos-arm64.deb
-Size: 754072
-MD5sum: 95d35e800f415ded94f0cbc395097321
-SHA1: 49ad91ec6a17cfca1a91c306ec9d5d96a6df0ce8
-SHA256: f30c559fec1ffbab17fee136e62b47e4823a30b716153855b85adfd211aa8be3
-SHA512: c074f5a0eb972b3b1046cd7883aa6ace9e3517acff6d9d4ca07f20bd46205e32c6290ac2490b0910430ec425276e8e0cf9416873749cf2dce92bf761343164a2
+Filename: ./debs/com.jtisvn.kayoko_5.0.3_iphoneos-arm64.deb
+Size: 759392
+MD5sum: 5fb2d95eb4ee56c772ead3f97a6e64a1
+SHA1: 3ab96a3daff0fa9357dae037099b7641b92f6481
+SHA256: 51cd5cd5504a58a0680e09dd26a02457ba10a84fb1e8e5e4c4efc286edd3acda
+SHA512: 4eba7cab655459e739d77e04df0508cc695be68d9e6201c1b4305d5dc8fc1aea90059d933a51d2513b329ec83be0d30fe5a94167ca95387be0248c6ab619caa8
 Description: Trình quản lý clipboard nhiều tính năng, được sửa đổi từ Kayoko (một phiên bản đã được sửa đổi).
 Name: Kayoko (Rootless)
 Author: mlgm
@@ -20857,22 +20857,21 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko2.json
 
 Package: com.jtisvn.kayoko
 Architecture: iphoneos-arm64e
-Version: 5.0.2
+Version: 5.0.3
 Section: Tweaks
 Maintainer: mlgm
-Installed-Size: 3516
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 3500
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: ./debs/com.jtisvn.kayoko_5.0.2_iphoneos-arm64e.deb
-Size: 739664
-MD5sum: 288ce418a1687284d24dd861fe73347f
-SHA1: 233018846287bb35f5c1ba2a0108a0fabe173b69
-SHA256: 7724eb8d9ceb4cf95990f1c08cfdee7d2d4253f1ed6b1c322fd9b5367ddcfadd
-SHA512: bbf37607c41f379ea9acfbb8c59907e13e7ee455cf9126732f454d5fcf06e268d7dab787431dfda8e63e859b1ea88f1efce5e697f775f97acca829995aeafe73
+Filename: ./debs/com.jtisvn.kayoko_5.0.3_iphoneos-arm64e.deb
+Size: 753692
+MD5sum: 4421daddd1d3c1d9e1f50e30b38df64d
+SHA1: 43fd0e2cbed11eec17bd4b8812b93edef77dd412
+SHA256: 764d5a0dd168362b8345f9f6b8dd5340b62fa56e1c0215f63435cdb674c26328
+SHA512: 236770b3d0f91d9e73e6f118db626586e5cac1bc4bfaf8eb4a8ffa34844f7da4c4ee600d5bff0db891eef3763acca5914426d7ad904b3421d2eefd1ce3efbd4c
 Description: Trình quản lý clipboard nhiều tính năng, được sửa đổi từ Kayoko (một phiên bản đã được sửa đổi).
-Name: Kayoko (Roothide)
+Name: Kayoko
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko2.json
@@ -22999,18 +22998,18 @@ Icon: https://k37ios.pages.dev/assets/LockButtonCall.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64
-Version: 6.9
+Version: 7.0
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 11180
+Installed-Size: 11184
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.9_iphoneos-arm64.deb
-Size: 4299124
-MD5sum: 57105a724f9f13a7430501113594a72f
-SHA1: 6b681aced74743b2f50d5e73540ddff870730b1f
-SHA256: 7d5543dc7c159cada2b8921dca01d9903dde76efd73bbd5b5cc564b75ab20252
-SHA512: 7539dbe2fec1a3db56a0eb42694dea14e049ff64fb4ba15903f030bed2919933caa2032ca85d03e1543ec256fcd1f54e0306a48b869c2979bbb98ac8c0baf2da
+Filename: ./debs/com.kitsudo.nexusboard_7.0_iphoneos-arm64.deb
+Size: 4309528
+MD5sum: de06fd08ca3dd50af1753d6e521ce35b
+SHA1: a3f64317de09c8f938deb6fcaa937a2536a3dc55
+SHA256: cf00ba776e5269587c1b39a3ef5aa7c59e22e2864eeb9a493653694d2ca1ac5a
+SHA512: a7e66d9faa81a014caa312935d3f5af51c8935c730e40464f74691cd16c21e7b61f61e333359fc25a0015982028cbe58b028b9778a253fb1a69d8374ed3c1df6
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
     * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -23022,19 +23021,19 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.kitsudo.nexusboard
 Architecture: iphoneos-arm64e
-Version: 6.9
+Version: 7.0
 Section: Tweaks
 Maintainer: Kitsudo
-Installed-Size: 11180
+Installed-Size: 11184
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_6.9_iphoneos-arm64e.deb
-Size: 4284416
-MD5sum: bd263725d635d0af383f46178222b4f0
-SHA1: ebe25161d37f1a723b36e64f343a317c17ea0721
-SHA256: 9fbefde16a1b92f5213c955fa1e1716b62ec21820ec63e8e7691a95ae49916b2
-SHA512: b21bf6533fb5d02bc86ba52f7a32e26cb0f41b56b64e5c57a94ef0557a7fe2837ede469910d022787e19e6a1c3261dd8ae58e5e25bd642e28340e50b03734b8b
+Filename: ./debs/com.kitsudo.nexusboard_7.0_iphoneos-arm64e.deb
+Size: 4293772
+MD5sum: c43cab2400afb465c3a8976d907a63a2
+SHA1: b44a970de54257be94e29cf17adb08c92b256d96
+SHA256: f94560d84029d7280cedfc3408c80808449d2271ffd52c2462913e671a7957bd
+SHA512: d56400befe8b246975729bc232d42069f645dd1d087ac79196c6389c38db6d3fc0808d3937da623b2efc0fe9818a02b7b42123e93b4987c4abdb18ace21fece1
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
     * Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.

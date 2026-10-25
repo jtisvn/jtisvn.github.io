@@ -149,7 +149,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "20/09/2026",
+"text": "25/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -167,7 +167,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "6.9",
+"text": "7.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -180,7 +180,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "3.2 MB",
+"text": "3.5 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -193,7 +193,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 17.0",
+"text": "14.0 - 17.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -355,7 +355,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "September 20, 2026",
+"text": "October 25, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -373,7 +373,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "6.9",
+"text": "7.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -399,7 +399,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 14.0 - 17.0",
+"text": "iOS 14.0 - 17.7.0",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -436,6 +436,14 @@
 "class": "DepictionStackView",
 "tabname": "Tiếng Việt",
 "views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 7.0 thử nghiệm\n- Sửa lỗi ghi đè 2 uptime trên Trung tâm điều khiển.\n- Sửa lỗi thêm ảnh/video nền Trung tâm điều khiển để tương thích chung với ControlCenter18.\n- Sửa lỗi crash SpringBoard trên một số thiết bị.\n- Thêm hiển thị dung lượng tối đa và chu kỳ sạc trong mục Tình trạng pin.\n- Thêm tùy chỉnh vị trí lên xuống cho đồng hồ và ngày tháng trên Màn hình khóa.\n- Thêm tùy chỉnh 3 danh mục sắp xếp trong cài đặt.\n- Thêm thay đổi biểu tượng danh mục Tweaks ở trang chỉnh cài đặt.\n- Thêm hỗ trợ trên iOS 17 trở lên với Dopamine 4 và Relaxin.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class": "DepictionMarkdownView",
 "markdown": "### Phiên bản 6.9\n- Thêm tùy chỉnh chuyển màu chữ thông báo\n- Cập nhật mục thông báo trong giao diện cài đặt\n- Sửa lỗi tùy chỉnh tiêu đề mô-đun Tập trung trên Trung tâm điều khiển.",
@@ -938,6 +946,14 @@
 "class": "DepictionStackView",
 "tabname": "English",
 "views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 7.0 Beta\n- Fixed an issue with overlapping dual uptimes in Control Center.\n- Fixed Control Center image and video background issues for general compatibility with ControlCenter18.\n- Fixed SpringBoard crashes on certain devices.\n- Added maximum capacity and charge cycle count display in the Battery Health settings section.\n- Added vertical position adjustment for the clock and date on the Lock Screen.\n- Added 3 sorting category options in settings.\n- Added icon changes for the Tweaks category in the settings configuration page.\n- Added support for iOS 17 and later with Dopamine 4 and Relaxin.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class": "DepictionMarkdownView",
 "markdown": "### Version 6.9\n- Added gradient color option for notification text\n- Updated the notifications section in the settings interface\n- Fixed an issue with customizing the Focus module title in Control Center.",

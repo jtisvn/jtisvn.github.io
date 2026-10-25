@@ -121,7 +121,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "13/10/2026",
+"text": "25/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -139,7 +139,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "5.0.2",
+"text": "5.0.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -299,7 +299,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 13, 2026",
+"text": "October 25, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -317,7 +317,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "5.0.2",
+"text": "5.0.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -381,7 +381,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 5.0.1k\n- Thêm ngôn ngữ Tiếng Việt\n- Khắc phục một số lỗi đã biết.",
+"markdown": "### Phiên bản 5.0.3\n- Sửa một số lỗi đã biết.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -403,7 +403,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 5.0.1k\n- Added Vietnamese language support\n- Fixed some known issues.",
+"markdown": "### Version 5.0.3\n- Resolved some known issues.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
