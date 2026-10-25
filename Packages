@@ -20865,13 +20865,13 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altli
 Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Filename: ./debs/com.jtisvn.kayoko_5.0.3_iphoneos-arm64e.deb
-Size: 753692
-MD5sum: 4421daddd1d3c1d9e1f50e30b38df64d
-SHA1: 43fd0e2cbed11eec17bd4b8812b93edef77dd412
-SHA256: 764d5a0dd168362b8345f9f6b8dd5340b62fa56e1c0215f63435cdb674c26328
-SHA512: 236770b3d0f91d9e73e6f118db626586e5cac1bc4bfaf8eb4a8ffa34844f7da4c4ee600d5bff0db891eef3763acca5914426d7ad904b3421d2eefd1ce3efbd4c
+Size: 752816
+MD5sum: a9153573e36da46a5ef7326008624d50
+SHA1: a47aa349754acc9ccb6ea791b6a4b356300ad71f
+SHA256: 4f92934bd7f4b835cd07c8452acce25b0c9f6e5ee3044154b3db045473df433e
+SHA512: 644bfdff959a218af226fa39ffa50a4e7ea79c8a1381184eccf19fe0fa88e29ed1748da24658488b0e2a9bf0fe36aee01e741e05310849c6854f528f00e7a17d
 Description: Trình quản lý clipboard nhiều tính năng, được sửa đổi từ Kayoko (một phiên bản đã được sửa đổi).
-Name: Kayoko
+Name: Kayoko (Roothide)
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko2.json
