@@ -438,7 +438,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 7.0 thử nghiệm\n- Sửa lỗi ghi đè 2 uptime trên Trung tâm điều khiển.\n- Sửa lỗi thêm ảnh/video nền Trung tâm điều khiển để tương thích chung với ControlCenter18.\n- Sửa lỗi crash SpringBoard trên một số thiết bị.\n- Thêm hiển thị dung lượng tối đa và chu kỳ sạc trong mục Tình trạng pin.\n- Thêm tùy chỉnh vị trí lên xuống cho đồng hồ và ngày tháng trên Màn hình khóa.\n- Thêm tùy chỉnh 3 danh mục sắp xếp trong cài đặt.\n- Thêm thay đổi biểu tượng danh mục Tweaks ở trang chỉnh cài đặt.\n- Thêm hỗ trợ trên iOS 17 trở lên với Dopamine 4 và Relaxin.",
+"markdown": "### Phiên bản 7.0 thử nghiệm\n- Sửa lỗi ghi đè 2 uptime trên Trung tâm điều khiển.\n- Sửa lỗi thêm ảnh/video nền Trung tâm điều khiển để tương thích chung với ControlCenter18.\n- Sửa lỗi crash SpringBoard trên một số thiết bị.\n- Thêm hiển thị dung lượng tối đa và chu kỳ sạc trong mục Tình trạng pin.\n- Thêm tùy chỉnh vị trí lên xuống cho đồng hồ và ngày tháng trên Màn hình khóa.\n- Thêm tùy chỉnh 3 danh mục sắp xếp trong cài đặt.\n- Thêm thay đổi biểu tượng danh mục Tweaks ở trang chỉnh cài đặt.\n- Thêm hỗ trợ trên iOS 17 trở lên với Dopamine 3 và Relaxin.",
 "useSpacing": true
 },
 {
@@ -948,7 +948,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 7.0 Beta\n- Fixed an issue with overlapping dual uptimes in Control Center.\n- Fixed Control Center image and video background issues for general compatibility with ControlCenter18.\n- Fixed SpringBoard crashes on certain devices.\n- Added maximum capacity and charge cycle count display in the Battery Health settings section.\n- Added vertical position adjustment for the clock and date on the Lock Screen.\n- Added 3 sorting category options in settings.\n- Added icon changes for the Tweaks category in the settings configuration page.\n- Added support for iOS 17 and later with Dopamine 4 and Relaxin.",
+"markdown": "### Phiên bản 7.0 Beta\n- Fixed an issue with overlapping dual uptimes in Control Center.\n- Fixed Control Center image and video background issues for general compatibility with ControlCenter18.\n- Fixed SpringBoard crashes on certain devices.\n- Added maximum capacity and charge cycle count display in the Battery Health settings section.\n- Added vertical position adjustment for the clock and date on the Lock Screen.\n- Added 3 sorting category options in settings.\n- Added icon changes for the Tweaks category in the settings configuration page.\n- Added support for iOS 17 and later with Dopamine 3 and Relaxin.",
 "useSpacing": true
 },
 {
