@@ -23773,17 +23773,17 @@ Icon: https://jtisvn.github.io/sectionIcons/iData.png
 
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64
-Version: 1.2
+Version: 1.2.2
 Section: Tweaks
 Maintainer: mlgm
-Installed-Size: 872
+Installed-Size: 888
 Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
-Filename: ./debs/com.mlgm.prefnest_1.2_iphoneos-arm64.deb
-Size: 169988
-MD5sum: 62ad3ecaec1bb55dbf7b123e6599a678
-SHA1: bc9b74685bbb5901de6b410a456fca5061818ee7
-SHA256: 421b143109928459a7b95230de7fd547aac0cfeab2d1578259c99057d9eb2814
-SHA512: a71ce96e9a2ec33b0022eb2fe2043b38d79b3147b1b65d5534bb46d3db199d211b8a805646c93c90d286f793b0a684af1673cd2107593665e5c375bef78adb8e
+Filename: ./debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64.deb
+Size: 172680
+MD5sum: 96df97f5094912f94296316965952542
+SHA1: 2a6386a01ba4403abb4fe6d67dbac782659a6d91
+SHA256: e53b2457dea545477cd4ff9897418d2941cc47883e8ad441b7aabbb9b8f6aafc
+SHA512: b84d8c2bf0e61291a829b4b2defe1da7be015c34c6db9704183be31615b08bdab6452d9258875f632622a0e969a92b4cf0bfc99f6fd5c7dee710159ff584c59e
 Description: Sắp xếp lại giao diện Cài đặt, gom nhóm tập trung các tweak jailbreak và ứng dụng. Đặc biệt trên các đời iOS mới (từ iOS 18+), khi các tùy chỉnh tweak hay bị giấu sâu trong Cài đặt chung, tweak này sẽ đưa tất cả ra thẳng màn hình chính của Cài đặt để thao tác cực kỳ tiện lợi.
 Name: PrefNest (Rootless)
 Author: mlgm
@@ -23793,18 +23793,17 @@ Icon: https://jtisvn.github.io/sectionIcons/PrefNest.png
 
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
-Version: 1.2
+Version: 1.2.2
 Section: Tweaks
 Maintainer: mlgm
-Installed-Size: 872
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 888
 Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
-Filename: ./debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
-Size: 166928
-MD5sum: 753ac3bd39f0403e8360b672f58a9c5f
-SHA1: 6a8aeb04dcd3ce542c90f6068ee61511095ece31
-SHA256: 0f84e0c87e815e5058c982115ad081abbd6968bf22e600f4e4c247c0949e5c00
-SHA512: 47600fbb02aa16800cf80842e83ce5c7b9f110742ed342d6ca2fd9ae80d4704e989621e5bce996eab571fc7b7707c73b22c0976f179952c1fd4cfa81e9ffc0ba
+Filename: ./debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64e.deb
+Size: 171824
+MD5sum: 137a9cc8a6a57377098c188ee0e9d0b8
+SHA1: a5f791f0866873f6cdd8194c607690fc675f02c0
+SHA256: 1a63c76ee4f88d5e0b547e43e354b0d37ce94a4f6aeb4db15134d697ad092c56
+SHA512: 2e8477dce46988793a5b620acc4862962680c6d659bc2483df4dc1a0a5fa9cd36c89797a38fd4c6ac575915f4b09f5bd7fd6cf8f9443f6e764377f83c8cf2f8d
 Description: Sắp xếp lại giao diện Cài đặt, gom nhóm tập trung các tweak jailbreak và ứng dụng. Đặc biệt trên các đời iOS mới (từ iOS 18+), khi các tùy chỉnh tweak hay bị giấu sâu trong Cài đặt chung, tweak này sẽ đưa tất cả ra thẳng màn hình chính của Cài đặt để thao tác cực kỳ tiện lợi.
 Name: PrefNest (Roothide)
 Author: mlgm
