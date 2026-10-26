@@ -133,7 +133,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "24/10/2026",
+"text": "26/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -151,7 +151,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.4",
+"text": "1.1.5",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -164,7 +164,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "4.7 MB",
+"text": "4.9 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -323,7 +323,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 24, 2026",
+"text": "October 26, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -341,7 +341,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.4",
+"text": "1.1.5",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -354,7 +354,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "4.7 MB",
+"text": "4.9 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -405,6 +405,14 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
+"markdown": "### Phiên bản 1.1.5\n- Cải thiện icon im lặng và báo thức, thêm hỗ trợ icon ETC, sửa lỗi text nhà mạng Wi-Fi Calling hiện dưới capsule trái ở Màn hình khóa, cải thiện xử lý thông báo VPN gốc.\n- Sửa lỗi kích thước app yêu thích trên mini Dock để cài đặt số lượng mục cũ không giới hạn nội dung hiển thị.\n- Tạm dừng lấy mẫu giọt nước và cuộn chữ bên phải khi màn hình tắt, khôi phục khi bật sáng, cải thiện chẩn đoán lỗi hiển thị.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
 "markdown": "### Phiên bản 1.1.4\n- Xóa giới hạn chọn mục yêu thích mini Dock, thêm tùy chọn chỉ hiện thông báo/hành vi chạm thông báo, hỗ trợ phong cách AmbientBadge.\n- Cải thiện hiển thị và hoạt ảnh quay lại trên app, Màn hình chính và Control Center. Orbit và thông tin lân cận tự né Dynamic Island. Sửa lỗi mất capsule trái, trễ khôi phục nội dung, cập nhật mức pin/màu sạc.\n- Thêm bảo vệ khởi động: khi phát hiện treo máy lúc khởi động, Lunora sẽ tạm dừng tải ở lần sau và giữ nguyên cài đặt, có thể khôi phục thủ công trong Cài đặt. Cải thiện chẩn đoán và giảm làm mới thừa.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
@@ -450,6 +458,14 @@
 "class": "DepictionStackView",
 "tabname": "English",
 "views": [
+{
+"markdown": "### Phiên bản 1.1.5\n- Improved silent-mode and alarm icons, added ETC icon support, fixed Wi-Fi Calling carrier text appearing beneath the left capsule on the Lock Screen, and improved handling of native VPN prompts.\n- Fixed mini Dock favorite-app sizing so the retired item-count setting no longer limits visible content.\n- Paused water-drop sampling and right-side text scrolling while the screen is off, restored them on wake, and improved diagnostics for display issues.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "markdown": "### Phiên bản 1.1.4\n- Removed the selection limit for mini Dock favorites, added notification-only visibility and notification tap behavior, and added support for AmbientBadge styles.\n- Improved display and return animations across apps, Home Screen and Control Center. Orbit and adjacent info avoid the island together. Fixed left-capsule disappearance, delayed content recovery, and battery level and charging-color updates.\n- Added startup protection: after a detected unresponsive startup, Lunora pauses loading on the next startup while preserving settings, with manual recovery in Settings. Improved diagnostics and reduced unnecessary refreshes.",
 "useSpacing": true,
