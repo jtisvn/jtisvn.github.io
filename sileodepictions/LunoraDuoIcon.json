@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "22/10/2026",
+"text": "26/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -123,7 +123,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.4",
+"text": "0.1.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -267,7 +267,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 22, 2026",
+"text": "October 26, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -285,7 +285,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.4",
+"text": "0.1.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -349,7 +349,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 0.1.4\n- Thêm tùy chọn chỉnh độ lệch dọc riêng cho Orbit và Capsule từ -24 đến +24 pt, kết hợp độ lệch ngang sẵn có.\n- Thêm chỉnh chiều cao Capsule, tính toán lại đầu bo tròn cho viền pin, phân đoạn sóng và dòng chảy, trong khi Orbit giữ nguyên hình tròn và tỷ lệ.\n- Thêm tùy chọn tương thích nhấn giữ pin với cử chỉ bên thứ ba, vẫn giữ nguyên hành vi chạm để mở rộng bình thường.",
+"markdown": "### Phiên bản 0.1.6\n- Thêm vị trí phần trăm pin ở bên phải cho Orbit, cùng với Trái và Trên.\n- Sửa lỗi Orbit bị giật gần cuối hoạt ảnh mở khóa, giữ nguyên cài đặt tỷ lệ và độ lệch.\n- Cải thiện tương thích nhấn giữ pin và thêm tính năng xuất chẩn đoán một chạm trong Cài đặt.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -371,7 +371,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 0.1.4\n- Added separate vertical offsets for Orbit and Capsule from -24 to +24 pt, alongside the existing horizontal offsets.\n- Added Capsule height adjustment with rounded ends recalculated for resized battery outlines, signal segments and flow. Orbit retains its circular shape and overall scaling.\n- Added optional battery long-press compatibility with existing third-party gestures while keeping normal tap-to-expand behavior.",
+"markdown": "### Version 0.1.6\n- Added a right-side battery percentage position for Orbit, alongside Left and Top.\n- Fixed Orbit position jumps near the end of the unlock return animation while preserving scale and offset settings.\n- Improved battery long-press compatibility and added one-tap diagnostic export in Settings.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },

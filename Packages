@@ -22534,6 +22534,45 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.anxieteavh
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 264
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.anxieteavh_1.0.0_iphoneos-arm64.deb
+Size: 22328
+MD5sum: 981aa650f53c6749ad63094f04d446ed
+SHA1: 07559bb0cbd3d643c0e00fa60f94eb589362268c
+SHA256: 9d6df5b8a926b3fa0d3e86ae05c9c573935819bf2d2ac067c4751ed752100e88
+SHA512: 90a571dc2345a9634bfda26513c7086506be3f732c08e246cb9721184178b0cb3444253497075e47069675a78b15b75f3fa53695ec9a0591153242641aac6fad
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt trong giao diện cài đặt và ứng dụng AnxieTea
+Name: Gói Việt Hoá AnxieTea (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AnxieTeaVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.anxieteavh
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 264
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.anxieteavh_1.0.0_iphoneos-arm64e.deb
+Size: 21628
+MD5sum: 02a53c7c3c519b6b7849f5db9603263a
+SHA1: 436b1340fa6fae5ef16ae3bdbe6d043d2637b313
+SHA256: 9484adf8923d66281cabe10370b90fc5f1d8d93d76c31e6a5a2276fb0d4c84f8
+SHA512: eaf260a170426db0e514d0cafcdc4f49969aa6178cef031fd3110a88eaba8259a6e71117439281c745536060fe1ead410299d28dcfa70937aeadbb0b59cbbee9
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt trong giao diện cài đặt và ứng dụng AnxieTea
+Name: Gói Việt Hoá AnxieTea (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AnxieTeaVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.kitsudo.appdataviethoa
 Architecture: iphoneos-arm
 Version: 1.0.3
@@ -23206,6 +23245,47 @@ Name: PowerSelector gói Việt Hoá (Roothide)
 Author: KÃitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.prismclock
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 416
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.kitsudo.prismclock_1.1.0_iphoneos-arm64.deb
+Size: 48084
+MD5sum: 22668e5d101085d993cedacadc0e7489
+SHA1: ae0bb6baec1372a1fba82a14e323f2a07cdd72f5
+SHA256: 1848e8c8b1e3e983fbb3dbeef1da8241d654256a2377ebeaf257dca5f17ddc13
+SHA512: 1cff7a28094f42f894047fb7a6024cd09ae4fe2e73b07b8065874fa7e3dec92cb7468f4ce38804ae2c07c74c05eb0e86e9e528373542dd2ca76f40135358359f
+Description: Gradient 5 màu cho đồng hồ và ngày tháng trên Màn hình khoá, hỗ trợ iOS 15-18
+Name: PrismClock (Rootless)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/PrismClock.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/PrismClock.json
+Icon: https://k37ios.pages.dev/assets/PrismClock.png
+
+Package: com.kitsudo.prismclock
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 416
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.kitsudo.prismclock_1.1.0_iphoneos-arm64e.deb
+Size: 47064
+MD5sum: 78d1dfefce48b5bbf14395336eccb273
+SHA1: 882d209c6365e263b26568a595f58dfa66662959
+SHA256: 5ff5a0c60c42463027150256e9c7d7015d7037b9dfe82fa2b57a79b34dd4530c
+SHA512: 51bfff6cd1925e9a92eeff1742726d189fd16ec8186d2257bd4555ef9776d755e9e6968d1f9cabdfeb1b0556d774b67e6c67cc7fda829b20a29b8d7ca046c0cc
+Description: Gradient 5 màu cho đồng hồ và ngày tháng trên Màn hình khoá, hỗ trợ iOS 15-18
+Name: PrismClock (Roothide)
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/PrismClock.html
+SileoDepiction: https://k37ios.pages.dev/info/sileodepictions/PrismClock.json
+Icon: https://k37ios.pages.dev/assets/PrismClock.png
 
 Package: com.kitsudo.tiktokautoswipe
 Architecture: iphoneos-arm64
@@ -28717,18 +28797,18 @@ icon: https://huayuarc.github.io/icon/AmbientBadge.png
 
 Package: iya.banana.duoicon
 Architecture: iphoneos-arm64
-Version: 0.1.4
+Version: 0.1.6
 Section: Tweaks
 Maintainer: Banana
-Installed-Size: 1656
+Installed-Size: 1692
 Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.singlevpn
-Filename: ./debs/iya.banana.duoicon_0.1.4_iphoneos-arm64.deb
-Size: 288228
-MD5sum: c009a2f7032768549420f0426ee1d11d
-SHA1: a245feffcd0c90dd341d8c950910982646e1c760
-SHA256: 2785c487b30317ce7c247a7d858aecbb4288f41cd5724b52dde30e80534608f4
-SHA512: 08db5ce8d1ba9fa3a4593fdfcd29373472e28f8f13c2e8f89c5b6f13e4218457c0c9eeae023ecff850a10daf9faa22bdd7b554436946dcd9db7cce00dc791d97
+Filename: ./debs/iya.banana.duoicon_0.1.6_iphoneos-arm64.deb
+Size: 300588
+MD5sum: b0860eb9ea6c775d7b4cdb69ecdb6ead
+SHA1: 3754f4361064c308fd371334640f89b9f8a49984
+SHA256: 6b373f8986babe766a2667d08cd1341b3a99116922e2123919a725a7d5b6530e
+SHA512: a054d0c01b41a0b06a3e247562a4e039d37e4b0ee909721a83f1467fe42f8a6b4241a5daf3f8cada50cc812602ad126d2174a8c61ea7a06ac51984a64eb48092
 Description: Biểu tượng trạng thái Orbit và Capsule ở bên phải kèm hoạt ảnh hiển thị gốc.
 Name: Lunora DuoIcon (Rootless)
 Author: Banana
@@ -28738,19 +28818,19 @@ Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
 
 Package: iya.banana.duoicon
 Architecture: iphoneos-arm64e
-Version: 0.1.4
+Version: 0.1.6
 Section: Tweaks
 Maintainer: Banana
-Installed-Size: 1656
+Installed-Size: 1692
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.singlevpn
-Filename: ./debs/iya.banana.duoicon_0.1.4_iphoneos-arm64e.deb
-Size: 287108
-MD5sum: f2f676a21c3258711105cb7368520ebb
-SHA1: fac79ded059338f10e73080e30e31cbfa05ea16d
-SHA256: d9848b29685c4fe6095fdd60d4f06e7c39a127fa32f70f36e456d9f58d0d80dc
-SHA512: 2b6acad3eb68ea69a03423fdbbf787336bb2621ead97d07c796be1268f6bacdfd058e4ea2231f1794c07bf8d4c8e3c6b38098ec190990c92812fe6e91d0ca9c8
+Filename: ./debs/iya.banana.duoicon_0.1.6_iphoneos-arm64e.deb
+Size: 297612
+MD5sum: 69da4a5e5bc1caaa0008d466e239e0df
+SHA1: 7fece4f92d549fbd00e420f69d1c70e157634007
+SHA256: 41d4c8f9adf9a434a85e730fda3ec4ee86bb0b5540fdf4223743d049dacb3344
+SHA512: 85b0cd89016c467b4f1f93114314b8d50426c389a836839eea369aa1f3c7a1261f596a992a1f7a6aabec5088d8ee684615dcde4edb79714e72f5b976a7d2ea88
 Description: Biểu tượng trạng thái Orbit và Capsule ở bên phải kèm hoạt ảnh hiển thị gốc.
 Name: Lunora DuoIcon (Roothide)
 Author: Banana
