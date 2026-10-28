@@ -1924,6 +1924,26 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
 
+Package: com.crctdd.choicy-whitelist
+Architecture: iphoneos-arm64e
+Version: 1.5.4-11
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 748
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch, com.kitsudo.choicy
+Filename: ./debs/com.crctdd.choicy-whitelist_1.5.4-11_iphoneos-arm64e.deb
+Size: 157020
+MD5sum: 6b2e5f1a3f1a00f6568160451c874e00
+SHA1: 7c12af5d4323b7f90be7cfd018ecfdace312a251
+SHA256: 49f7cabea1cf613e94320604e53c8bdaa1d135c341bd5cc35f9370b2da793b1b
+SHA512: 6d3f5d0691ca72c73f555c20fde28f133e703d648367555a34c97c0cd4170275bf15faa3489973f838ded879a9f5906016ebdd0ad3dacce8bab44562a7e0e4b1
+Description: Danh sách trắng Choicy (hỗ trợ Roothide trên iOS 15-17)
+Name: Choicy-Whitelist (Roothide)
+Author: crctdd
+icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcydia.saurik.com%2Ficon%2Fcom.opa334.choicy.png&s=180x180&f=webp
+
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64e
 Version: 1.5.8
@@ -20879,6 +20899,51 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
 Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
 Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
 
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5596
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.6_iphoneos-arm64.deb
+Size: 1055652
+MD5sum: 4301b5eecbdc635848912040d624c752
+SHA1: 089fbfc45df9f258c9749631444aa131aaa73279
+SHA256: a4b23be589770bf9760a504163866c95de1f200af778e2119cb6c9b73feb56a4
+SHA512: b0091da7b5f018003bcb1de7c1680b907b37dd276872fcc3ef3aad6f8188cc080103e0f385c705a899447cb4ca584d2dc4b77e251972b25a5afc251a1fdfed2b
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5596
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.6_iphoneos-arm64e.deb
+Size: 1049616
+MD5sum: 1925608d62bcc29337e6bfdd9a5d25f8
+SHA1: 81345421e0df3ecb6a2add12c95d749bfee6854e
+SHA256: 6f3aaae1bb3748fd5547ade270181005526158475f31b962478fb1a76fb88172
+SHA512: 81818049aed3d919cbe41ad0effa41fa316b47399b28191b398b1b685a6ac8ec56f4ea23c8b7a447c28279668505928932dff9c0773fe60b545dc6d0bfb3703b
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
 Package: com.jtisvn.kayoko
 Architecture: iphoneos-arm64
 Version: 5.0.3
@@ -22800,21 +22865,23 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.choicy
 Architecture: iphoneos-arm64e
-Version: 1.0
+Version: 1.2
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 36568
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.choicy_1.0_iphoneos-arm64e.deb
-Size: 3980
-MD5sum: 2fb70efad4d28291d070b840cc51e60a
-SHA1: 8f83a0165ba1c39fc0c01a2078e5634e9b991d5a
-SHA256: d5df78e1d745666057e1a6967ddfd29486cdc38a13f2217accdab2d0b82e63d3
-SHA512: bd88871cb495229c01939abdd1de4f6443a33b5127a8ed66ddfe48e4fcda8a4278745182c2e2263d4f0db31237a1efe3ade6e296dc69616a82b2f9cb0e787a72
-Description: Thêm ngôn ngữ Tiếng Việt cho tweak Choicy
+Filename: ./debs/com.kitsudo.choicy_1.2_iphoneos-arm64e.deb
+Size: 7068
+MD5sum: aed9f3031d1de92d8214506fd303c39a
+SHA1: 4a51f30328a7f8b11a923d539a117a57bfffc9d4
+SHA256: a2626717c57872fe66ace531940712fb92f048bf1cd10a60081f1296ccb64c85
+SHA512: c56773075215a39c326c54ed88bb9b9f2929f457a3b7b46208eb5345f7954842cbf97664aa4b0dc9dd5fe6b744e39b9f9539dca79196cfddb7d02f8dda2c8c15
+Description: Thêm ngôn ngữ Tiếng Việt cho tweak Choicy & Choicy Whitelist.
 Name: Choicy Gói Việt Hoá (Roothide)
-Author: JTISVN Repo
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ChoicyVH.json
+Depiction: http://jtisvn.github.io/depiction/ChoicyVH.html
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.choicy
@@ -26613,18 +26680,18 @@ Author: korboy <korboybeats@gmail.com>
 
 Package: com.siphonostb.gestures16
 Architecture: iphoneos-arm64
-Version: 1.2
+Version: 1.2.1
 Section: Tweaks
 Maintainer: Siphonostb
-Installed-Size: 2496
+Installed-Size: 2512
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0), preferenceloader
-Filename: ./debs/com.siphonostb.gestures16_1.2_iphoneos-arm64.deb
-Size: 1629988
-MD5sum: 420ab31d7d7486a1f7ed2045d599f764
-SHA1: a2db9b46ec785e810cca8cb8a864e184e4348817
-SHA256: 304f65810bd159774eec11212869c5268c68db228c7cd599b88ce7f9ff4b1474
-SHA512: 056af6e5133f09c5c08955d2512d0c1f0c64d7c0a4d0ccac1b2ebde45d4de709b865cacfa43d61f414e043810127f2de405397dc24ddea20d52c096cc8a67460
-Description: Hỗ trợ điều hướng bằng cử chỉ gốc cho nút Home trên iPhone chạy iOS 16.
+Filename: ./debs/com.siphonostb.gestures16_1.2.1_iphoneos-arm64.deb
+Size: 1631572
+MD5sum: 7a4a2b94c81cb4cc568b0130f461fa95
+SHA1: c8b3c12145fce33f06c08741389a62f43289d0b4
+SHA256: f3f612419510a24b42f10d59ce9f3adc18a0e3dc6f549c8a47a6efeda30feec5
+SHA512: 0e4943eeed6552c6ef2ed11781f60ec6a14dfbfc8ee5decc1252c8a2bf86e6f96e1a6c4d4fe8f700051dc36408b316e36f76abc1d0da33a5f46323f6e53ffb24
+Description: Cử chỉ iOS gốc trên iPhone nút Home.
 Name: Gestures16 (Rootless)
 Author: Siphonostb
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gestures16.json
@@ -26633,20 +26700,20 @@ Icon: https://jtisvn.github.io/sectionIcons/Gestures16.png
 
 Package: com.siphonostb.gestures16
 Architecture: iphoneos-arm64e
-Version: 1.2
+Version: 1.2.1
 Section: Tweaks
 Maintainer: Siphonostb
-Installed-Size: 2496
+Installed-Size: 2512
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0), preferenceloader
-Filename: ./debs/com.siphonostb.gestures16_1.2_iphoneos-arm64e.deb
-Size: 1628004
-MD5sum: b74ee16e5f05c778ca4fbdf3c468cc35
-SHA1: 1c8722821a29f5171a5d5ce5e3d4fc3826721f79
-SHA256: d75e0a32bade208fb415b63c7e65006504c0abd41d468be4866600d12a2642fe
-SHA512: 4870eb7c60cf3bd93a99a70ca8dfdb1cba68b0da6f52ef2690b211e64895a6ce7f61ec575e36e64f41fd23ff7c1498f8fa81d764da9014a448759960fc80510e
-Description: Hỗ trợ điều hướng bằng cử chỉ gốc cho nút Home trên iPhone chạy iOS 16.
-Name: Gestures16 (Roothids)
+Filename: ./debs/com.siphonostb.gestures16_1.2.1_iphoneos-arm64e.deb
+Size: 1629820
+MD5sum: 65d83bea7d3ac9807a20345e957d4a65
+SHA1: 045834698442e72b5f034da65fba3031fe78633c
+SHA256: 6ae21f0f0d58e6be2da7db9be6bc6d5b51271ba846231108baeaa647ca5617e6
+SHA512: 7552e9dda015d01c4437fd3986a1edd913996e621743a761bb32deb70d2e5d4e105e255cb33a86c59ef2605be49d06e909d0a08b6443c0d7a4cc0a9abc80e515
+Description: Cử chỉ iOS gốc trên iPhone nút Home.
+Name: Gestures16 (Roothide)
 Author: Siphonostb
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gestures16.json
 Depiction: https://jtisvn.github.io/depictions/Gestures16.html
@@ -31439,6 +31506,27 @@ MD5sum: 4c77fe7e8ead2660ef8f103536003237
 SHA1: 4a5e9215bd7a89b4b77dfec6718544ea9905997f
 SHA256: ca82c18256e19ff78af3e53308d53f047a2d429cb7e025c892377abe4d2e7825
 SHA512: 2d4ce6180e858253e1ba9b3a8dd14aad459c7f6cb416f99bb9dae99118cc9f59b820f4ffa5fe740070e9165f3addd2c11ac41e19e0b5cd64b6adf277f1be93f7
+Description: A Useful Package Manager
+Tag: compatible::9.0-16.4
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm64e
+Version: 1.1.36-2-347+debug
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 13492
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debs/xyz.willy.zebra_1.1.36-2-347+debug_iphoneos-arm64e.deb
+Size: 5243094
+MD5sum: 5448049b3495fa443e65f46e096f7ad2
+SHA1: a1e20a366e5b02e5ad160e4d9de72fdcacb5ac9c
+SHA256: e174fd3f6a19d75fa680c1ede31c36017720f097aed7ac28b3bd294b6da561ca
+SHA512: 51b3d5e08d1de81b5e9588855eabf3470bb93a09dc623e8ac93d43c5126362f098cf5e91d13617986bde4d8eb16f8ab2681e8291f6a276f76c4aee693ac8e783
 Description: A Useful Package Manager
 Tag: compatible::9.0-16.4
 Name: Zebra

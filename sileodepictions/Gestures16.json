@@ -291,7 +291,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 24, 2026",
+"text": "October 28, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -309,7 +309,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.2",
+"text": "1.2.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -373,7 +373,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 1.2\n- Thêm cài đặt kiểu bàn phím và kiểu chụp màn hình, cùng tùy chọn các kết hợp phím bấm gốc.\n- Sửa một số lỗi khoảng cách (padding).",
+"markdown": "### Phiên bản 1.2.1 (27/10/2026)\n- Sửa lỗi vị trí thông báo và trình phát media trên Màn hình khóa cho mọi thiết bị.\n- Sửa lỗi nút tác vụ nhanh Màn hình khóa và kích thước bàn phím mật mã trên iPhone 8 Plus.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -395,7 +395,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 1.2\n- Added keyboard style and screenshot style settings, and a choice of stock button combinations\n- Fixed some padding issues",
+"markdown": "### Version 1.2.1 (October 27, 2026)\n- Fixed Lock Screen notifications and media player position on all devices\n- Fixed Lock Screen quick action buttons and passcode keypad size on iPhone 8 Plus",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },

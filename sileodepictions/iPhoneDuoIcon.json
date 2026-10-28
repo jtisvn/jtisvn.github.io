@@ -133,7 +133,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "26/10/2026",
+"text": "28/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -151,7 +151,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.5",
+"text": "1.1.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -164,7 +164,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "4.9 MB",
+"text": "5.0 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -323,7 +323,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 26, 2026",
+"text": "October 28, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -341,7 +341,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.5",
+"text": "1.1.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -354,7 +354,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "4.9 MB",
+"text": "5.0 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -404,6 +404,14 @@
 "class": "DepictionStackView",
 "tabname": "Tiếng Việt",
 "views": [
+{
+"markdown": "### Phiên bản 1.1.6\n- Thêm định dạng ngày âm lịch độc lập với trường tháng/ngày dạng số hoặc kiểu Trung Quốc, cùng điều khiển vị trí phần trăm Orbit, nội dung bên và phần trăm trên Capsule.\n- Thêm viền âm lượng giữ nguyên nội dung, vạch cường độ Wi-Fi dưới cho cả hai capsule, kiểu đánh dấu hoạt động và màn hình phải chỉ hiện khi có cuộc gọi đến. Các tính năng mới có thể tùy chọn bật.\n- Thêm tính năng đặt lại cấu hình hoàn toàn trong Maintenance kèm nhắc nhở sao lưu, xóa cài đặt cũ và đưa Lunora về tắt; cải thiện các công tắc icon trạng thái riêng lẻ.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "markdown": "### Phiên bản 1.1.5\n- Cải thiện icon im lặng và báo thức, thêm hỗ trợ icon ETC, sửa lỗi text nhà mạng Wi-Fi Calling hiện dưới capsule trái ở Màn hình khóa, cải thiện xử lý thông báo VPN gốc.\n- Sửa lỗi kích thước app yêu thích trên mini Dock để cài đặt số lượng mục cũ không giới hạn nội dung hiển thị.\n- Tạm dừng lấy mẫu giọt nước và cuộn chữ bên phải khi màn hình tắt, khôi phục khi bật sáng, cải thiện chẩn đoán lỗi hiển thị.",
 "useSpacing": true,
@@ -458,6 +466,14 @@
 "class": "DepictionStackView",
 "tabname": "English",
 "views": [
+{
+"markdown": "### Phiên bản 1.1.6\n- Added independent lunar-date formats with numeric or Chinese month/day fields, plus placement controls for Orbit percentage and side content and the Capsule top percentage.\n- Added a volume border that preserves content, Wi-Fi bottom strength marks for both capsules, activity-mark styles and an incoming-call-only right display. New features are opt-in.\n- Added a complete configuration reset in Maintenance with a backup reminder, clearing old settings and returning Lunora to off; improved individual status-icon switches.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "markdown": "### Phiên bản 1.1.5\n- Improved silent-mode and alarm icons, added ETC icon support, fixed Wi-Fi Calling carrier text appearing beneath the left capsule on the Lock Screen, and improved handling of native VPN prompts.\n- Fixed mini Dock favorite-app sizing so the retired item-count setting no longer limits visible content.\n- Paused water-drop sampling and right-side text scrolling while the screen is off, restored them on wake, and improved diagnostics for display issues.",
 "useSpacing": true,
