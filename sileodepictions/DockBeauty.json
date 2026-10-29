@@ -1,0 +1,471 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#0EA5E9",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### DockBeauty\n\nTweak tùy chỉnh và làm đẹp thanh Dock cực kỳ mạnh mẽ, mang đến các hiệu ứng động sinh động, dải sáng lung linh và khả năng cá nhân hóa giao diện sâu rộng giúp màn hình chính trở nên độc đáo.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Hiệu ứng động:** Hỗ trợ sóng biểu tượng, hiệu ứng thở, bể cá, đom đóm và rung lắc đa dạng.\n- **Dải sáng & Phát sáng:** Tùy chỉnh dải sáng (streamer) sinh động và hiệu ứng phát sáng icon.\n- **Hạt theo mùa & Bong bóng:** Thả hiệu ứng bong bóng, emoji theo ngày lễ hoặc các mùa trong năm.\n- **Tùy biến Dock:** Tùy chỉnh độ mờ, bo góc (ẩn nền hoàn toàn) và kích thước biểu tượng.\n- **Phản hồi chạm:** Hiệu ứng gợn sóng và độ nảy vật lý khi thao tác.\n- **Quản lý cấu hình:** Lưu preset, tự động đổi giao diện theo khung giờ ngày/đêm.\n- **Tiết kiệm pin:** Tự động giảm tải khi pin yếu và tương thích Reduce Motion.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "三叶草",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "25/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "5.2.0-26",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.8 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 18.6",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### DockBeauty\n\nA powerful tweak to customize and beautify your iOS Dock, bringing dynamic animations, stunning light streams, and deep personalization to make your Home Screen unique.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DockBeauty/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Dynamic Animations:** Icon waves, breathing effects, fish tank, fireflies, and various shake motions.\n- **Streamer & Glow:** Customizable light streamers and icon glow effects.\n- **Seasonal Particles & Bubbles:** Bubble effects and seasonal/holiday emoji particles.\n- **Dock Customization:** Adjust opacity, corner radius (fully transparent Dock) and icon sizes.\n- **Touch Feedback:** Ripple and physics bounce effects on interaction.\n- **Preset Management:** Save presets and auto-switch based on day/night hours.\n- **Battery Saving:** Automatically reduces load on low battery and is compatible with Reduce Motion.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "三叶草",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 25, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "5.2.0-26",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.8 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 18.6",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 5.2.0-26\n- Cập nhật và tối ưu hóa toàn diện các hiệu ứng động trên thanh Dock\n- Bổ sung tùy chọn quản lý preset và tính năng tự động chuyển đổi theo khung giờ\n- Cải thiện hiệu suất hoạt động và tiết kiệm pin tốt hơn.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 5.2.0-26\n- Comprehensive update and optimization of Dock animations\n- Added preset management and auto-switching based on time schedules\n- Improved performance and better battery efficiency.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

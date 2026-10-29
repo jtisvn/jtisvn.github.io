@@ -20299,6 +20299,47 @@ Depiction: http://jtisvn.github.io/depiction/ClockTimeFont.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockTimeFont.json
 Icon: https://jtisvn.github.io/sectionIcons/ClockTimeFont.png
 
+Package: com.jtisvn.dockbeauty
+Architecture: iphoneos-arm64
+Version: 5.2.0-26
+Section: Tweaks
+Maintainer: 搞机群友:三叶草
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtisvn.dockbeauty_5.2.0-26_iphoneos-arm64.deb
+Size: 58076
+MD5sum: 096ec7e7e8e6dc676a71d7d471e57ec4
+SHA1: 14f1c30bb60747905b03f1dd9188a30804bc516d
+SHA256: 928228e783a7af42501455818c52ed959e18918ea02531440c03cf1cd6768485
+SHA512: fb0bbc79493d665a5e2ac3a542604f6020e115183aff7875423ca0a079e437fa7e5d277d6589dac8d013f6816317c2d8d93f07cf88d306dbc42c97897ab1a2e3
+Description: Tùy biến Dock nổi nâng cao: Hỗ trợ lấy màu bong bóng đơn sắc, phối màu hiệu ứng ánh sáng động (streamer), lưu cấu hình tùy chỉnh, hiệu ứng hạt bong bóng, lấy màu theo hình nền và tự động chuyển đổi cấu hình theo khung giờ.
+Name: DockBeauty (Rootless)
+Author: 搞机群友:三叶草
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DockBeauty.json
+Depiction: http://jtisvn.github.io/depiction/DockBeauty.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtisvn.dockbeauty
+Architecture: iphoneos-arm64e
+Version: 5.2.0-26
+Section: Tweaks
+Maintainer: 搞机群友:三叶草
+Installed-Size: 512
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtisvn.dockbeauty_5.2.0-26_iphoneos-arm64e.deb
+Size: 56284
+MD5sum: 0234de34c5384053209212d9d8e7271a
+SHA1: ed52cdea25d3a82e48b74b0e75cab6631b258bc8
+SHA256: 843ea0437688b8b1c164b3455fd4776646894f74a9b658cf37de33996dfaa393
+SHA512: 3680f8740c26f5a372e8de6571e380425818646c1959327aa64ad34ce3f1dce4d981669e83c59be32672c8b3b9e6897ac7960bb2fa2171b8e2428d6284bcae96
+Description: Tùy biến Dock nổi nâng cao: Hỗ trợ lấy màu bong bóng đơn sắc, phối màu hiệu ứng ánh sáng động (streamer), lưu cấu hình tùy chỉnh, hiệu ứng hạt bong bóng, lấy màu theo hình nền và tự động chuyển đổi cấu hình theo khung giờ.
+Name: DockBeauty (Roothide)
+Author: 搞机群友:三叶草
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DockBeauty.json
+Depiction: http://jtisvn.github.io/depiction/DockBeauty.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtisvn.dockicon
 Architecture: iphoneos-arm64
 Version: 0.9.20
@@ -28904,6 +28945,47 @@ Author: Banana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunoraDuoIcon.json
 Depiction: https://jtisvn.github.io/depictions/LunoraDuoIcon.html
 Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64
+Version: 0.1.1-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/iya.banana.pickerwheeldock_0.1.1-1_iphoneos-arm64.deb
+Size: 68696
+MD5sum: 9947f69124a5019c6213fb533212eaa4
+SHA1: 9d836f6f5041812f7f781e11b9b75c5fff590374
+SHA256: 46aa8a7c10cfc932715a4337ad02fb5c8f748b3ab1ed0b2d2d0fdfbe19cb16b2
+SHA512: 94a31a0640cf4e144d11e260106eca87479fa81d8e514c5e97b14d5fd8e7d0da5123e81aef6721ae0ebf9cf7a75a29521aa01f57ef8921b55263ae4d69159cda
+Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Name: KineticDock (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KineticDock.json
+Depiction: http://jtisvn.github.io/depiction/KineticDock.html
+Icon: https://jtisvn.github.io/sectionIcons/KineticDock.png
+
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64e
+Version: 0.1.1-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 556
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/iya.banana.pickerwheeldock_0.1.1-1_iphoneos-arm64e.deb
+Size: 68800
+MD5sum: f44afe0b9359f74054e8cd894507a154
+SHA1: dc4fbf6ad3687f51069dcc7e9ef15ad4696a3cad
+SHA256: 1185d454ca830ca4ebe71ab128660785c1db3aa49f774fe599c63cd2c9746a6d
+SHA512: d14f5b26b6d70338a841f4e5221185f1e2b39fd0fd3720a5ff1b17239a682f080f04cd1410fd0250d77c0da8711538b8469977f8eb02bf3677511f9626e63b90
+Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Name: KineticDock (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KineticDock.json
+Depiction: http://jtisvn.github.io/depiction/KineticDock.html
+Icon: https://jtisvn.github.io/sectionIcons/KineticDock.png
 
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64

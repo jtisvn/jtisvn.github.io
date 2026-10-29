@@ -1,0 +1,471 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#7B55EB",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### KineticDock\n\nThanh cuộn xoay vòng (carousel) và tính năng phóng đại theo chạm giúp thanh Dock trên iPhone của bạn trở nên sống động và mượt mà hơn.\n\n> **Lưu ý:** Cần có một tweak riêng để bật Dock nổi. Không hỗ trợ iPad, màn hình ngang hoặc màn hình ngoài; không mở rộng giới hạn Dock mặc định.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Thanh cuộn xoay vòng:** Tự động điều chỉnh kích thước icon, độ sâu, hiệu ứng quán tính, tự động bám dính và ghi nhớ vị trí xoay.\n- **Chế độ phóng đại:** Biểu tượng trung tâm phóng to lớn nhất, các icon lân cận thu nhỏ dần với khoảng cách thích ứng.\n- **Danh sách ứng dụng độc lập:** Cho phép chọn và sắp xếp tối đa 24 ứng dụng riêng biệt.\n- **Tùy chỉnh phong phú:** Thay đổi kích thước icon, mức độ phóng đại, vị trí thanh Dock, nhãn tên, hiệu ứng phát sáng, nền và phản hồi rung.\n- **Tương thích hệ thống:** Hỗ trợ iPhone trên iOS 15.x - 17.x (Rootless & RootHide).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Banana",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "25/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.1.1-1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.4 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 17.9",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### KineticDock\n\nA scrolling carousel and touch magnification that make the Dock on your iPhone more lively and smooth.\n\n> **Note:** A separate tweak is required to enable the Floating Dock. iPad, landscape, and external displays are not supported, and the default Dock limit is not extended.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/1.png",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/KineticDock/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Scrolling Carousel:** Adaptive icon sizing, depth, inertia, snapping, and saved rotation.\n- **Magnification Mode:** Center icon maximized with graduated neighbors and adaptive spacing.\n- **Independent App List:** Select and reorder up to 24 apps.\n- **Rich Customization:** Adjust icon size, magnification, Dock position, labels, glow, background, and haptics.\n- **Compatibility:** Supports iPhone on iOS 15.x - 17.x (Rootless & RootHide).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Banana",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 25, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.1.1-1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.4 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 17.9",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 0.1.1-1\n- Tối ưu hóa chế độ phóng đại: biểu tượng trung tâm lớn hơn, các biểu tượng lân cận nhỏ dần và tự động điều chỉnh khoảng cách\n- Tự động điều chỉnh kích thước biểu tượng theo số lượng ứng dụng và không gian hiển thị\n- Điều chỉnh điểm rơi dọc của biểu tượng khi thu nhỏ, duy trì cuộn quán tính và tự động bám dính.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 0.1.1-1\n- Improved Magnification with a larger center icon and progressive neighbor sizing\n- Carousel adapts icon sizes to app count and available space\n- Adjusted vertical icon targets while preserving inertial scrolling and snapping.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}
