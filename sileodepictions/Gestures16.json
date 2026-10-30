@@ -117,7 +117,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "24/10/2026",
+"text": "29/10/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -135,7 +135,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.2",
+"text": "1.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -148,7 +148,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "850 KB",
+"text": "2.4 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -291,7 +291,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 28, 2026",
+"text": "October 29, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -309,7 +309,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.2.1",
+"text": "1.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -322,7 +322,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "850 KB",
+"text": "2.4 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -373,7 +373,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 1.2.1 (27/10/2026)\n- Sửa lỗi vị trí thông báo và trình phát media trên Màn hình khóa cho mọi thiết bị.\n- Sửa lỗi nút tác vụ nhanh Màn hình khóa và kích thước bàn phím mật mã trên iPhone 8 Plus.",
+"markdown": "### Phiên bản 1.3\n- Sửa lỗi bố cục thanh trạng thái trên iPhone 8 Plus.\n- Sửa lỗi vị trí của đèn báo quyền riêng tư.\n- Thêm bản dịch tiếng Nga.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -395,7 +395,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 1.2.1 (October 27, 2026)\n- Fixed Lock Screen notifications and media player position on all devices\n- Fixed Lock Screen quick action buttons and passcode keypad size on iPhone 8 Plus",
+"markdown": "### Version 1.3\n- Fixed the status bar layout on iPhone 8 Plus\n- Fixed the position of the privacy indicator\n- Added Russian localization",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
