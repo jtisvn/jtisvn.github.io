@@ -149,7 +149,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "25/10/2026",
+"text": "01/11/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -167,7 +167,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "7.0",
+"text": "7.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -355,7 +355,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 25, 2026",
+"text": "November 01, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -373,7 +373,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "7.0",
+"text": "7.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -436,6 +436,14 @@
 "class": "DepictionStackView",
 "tabname": "Tiếng Việt",
 "views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 7.1\n- Sửa lỗi một số tính năng không hoạt động trên iOS 17+ ở bản trước.\n- Cải thiện tính năng nhóm thông báo Màn hình khóa.\n- Thêm tùy chọn màu huy hiệu nhóm thông báo.\n- Thêm tùy chỉnh khoảng cách biểu tượng thông báo.\n- Thêm mở rộng nội dung thông báo.\n- Thêm tùy chọn vị trí cho sắp xếp danh mục cài đặt.\n- Sửa lỗi đổ bóng biểu tượng theo Dock iPad.\n- Thêm số lượng ứng dụng gần đây trong Dock iPad.\n- Thêm hiển thị phím tắt đèn pin & camera Màn hình khóa trên máy nút home khi fake cử chỉ iPhone X.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
 {
 "class": "DepictionMarkdownView",
 "markdown": "### Phiên bản 7.0 thử nghiệm\n- Sửa lỗi ghi đè 2 uptime trên Trung tâm điều khiển.\n- Sửa lỗi thêm ảnh/video nền Trung tâm điều khiển để tương thích chung với ControlCenter18.\n- Sửa lỗi crash SpringBoard trên một số thiết bị.\n- Thêm hiển thị dung lượng tối đa và chu kỳ sạc trong mục Tình trạng pin.\n- Thêm tùy chỉnh vị trí lên xuống cho đồng hồ và ngày tháng trên Màn hình khóa.\n- Thêm tùy chỉnh 3 danh mục sắp xếp trong cài đặt.\n- Thêm thay đổi biểu tượng danh mục Tweaks ở trang chỉnh cài đặt.\n- Thêm hỗ trợ trên iOS 17 trở lên với Dopamine 3 và Relaxin.",
@@ -948,7 +956,15 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 7.0 Beta\n- Fixed an issue with overlapping dual uptimes in Control Center.\n- Fixed Control Center image and video background issues for general compatibility with ControlCenter18.\n- Fixed SpringBoard crashes on certain devices.\n- Added maximum capacity and charge cycle count display in the Battery Health settings section.\n- Added vertical position adjustment for the clock and date on the Lock Screen.\n- Added 3 sorting category options in settings.\n- Added icon changes for the Tweaks category in the settings configuration page.\n- Added support for iOS 17 and later with Dopamine 3 and Relaxin.",
+"markdown": "### Version 7.1\n- Fixed an issue where some features did not work on iOS 17+ in previous versions.\n- Improved the Lock Screen notification grouping feature.\n- Added notification group badge color options.\n- Added spacing customization for notification icons.\n- Added notification content expansion.\n- Added placement options for settings category sorting.\n- Fixed icon shadow rendering issues with iPad Dock.\n- Added recent application count for iPad Dock.\n- Added Lock Screen flashlight and camera shortcut display on Home button devices when faking iPhone X gestures.",
+"useSpacing": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 7.0 Beta\n- Fixed an issue with overlapping dual uptimes in Control Center.\n- Fixed Control Center image and video background issues for general compatibility with ControlCenter18.\n- Fixed SpringBoard crashes on certain devices.\n- Added maximum capacity and charge cycle count display in the Battery Health settings section.\n- Added vertical position adjustment for the clock and date on the Lock Screen.\n- Added 3 sorting category options in settings.\n- Added icon changes for the Tweaks category in the settings configuration page.\n- Added support for iOS 17 and later with Dopamine 3 and Relaxin.",
 "useSpacing": true
 },
 {
