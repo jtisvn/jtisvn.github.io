@@ -4751,6 +4751,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/UpdateTab.json
 Icon: https://siieo.github.io/sileodepictions/UpdateTab/icon.png
 Author: Johnzaro & Hitori <johnzrgnns@gmail.com>
 
+Package: com.jrisvn.lana
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Themes
+Maintainer: Narf
+Depends: com.m4fn3.mikkyy | com.spark.snowboard, firmware (>= 15.0)
+Filename: ./debs/com.jrisvn.lana_1.3_iphoneos-arm64.deb
+Size: 5087740
+MD5sum: 2f4f8137f750f7ad0e57a372e6a7106f
+SHA1: 400eee58e39e43ae79e7aec47ac40f97eb2c37b5
+SHA256: c9e94c05aef2a3113dea13344055426d06fe7579d6edd2f6c5c6e06b4becbfda
+SHA512: 68e89fe019df72f52ae0587716738792ffc53f10ff24750a607499a1b3eaac81a25bdfa5854d6c0eafd0856b3484d2219952931e0b2f130e285d232a00e8e050
+Description: Chủ đề giao diện Lana dành cho iOS (Được bẻ khóa bởi Kim Jong Cracks Cargo Cult)
+Name: Lana
+Author: Narf
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Lana.json
+Depiction: http://jtisvn.github.io/depiction/Lana.html
+Icon: https://jtisvn.github.io/sectionIcons/Lana.png
+
+Package: com.jrisvn.lana
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Themes
+Maintainer: Narf
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.m4fn3.mikkyy | com.spark.snowboard, firmware (>= 15.0)
+Filename: ./debs/com.jrisvn.lana_1.3_iphoneos-arm64e.deb
+Size: 10124366
+MD5sum: 3bf5723d8b5d17cd6098a32ee4c15898
+SHA1: 0ef3aa817a9d44bc7265924085e329a91e3853f9
+SHA256: eaa05fce80f59e5de2764b810261cb23010c95897983a7995cff5bb1d4c48cfb
+SHA512: 724d8df0c166dfd8216a877c89a86fc6f829b49744a62c51f4f39c9cbddfdc8caa7e6eaf36110a6db0799a9b8e2a0731df09e541c0edc843464274da546f07ae
+Description: Chủ đề giao diện Lana dành cho iOS (Được bẻ khóa bởi Kim Jong Cracks Cargo Cult)
+Name: Lana
+Author: Narf
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Lana.json
+Depiction: http://jtisvn.github.io/depiction/Lana.html
+Icon: https://jtisvn.github.io/sectionIcons/Lana.png
+
 Package: com.jti.atria
 Architecture: iphoneos-arm64
 Version: 1.4.1
@@ -23899,6 +23938,46 @@ Author: Fujb
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidMorph.json
 Depiction: https://jtisvn.github.io/depictions/LiquidMorph.html
 Icon: https://jtisvn.github.io/sectionIcons/LiquidMorph.png
+
+Package: com.m4fn3.mikkyy
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: m4fn3
+Installed-Size: 1500
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.m4fn3.mikkyy_1.0.1_iphoneos-arm64.deb
+Size: 347492
+MD5sum: 46e1a71e399d83c3e3d515ec74c843a0
+SHA1: 40dc2c6be7561a0feea608769cce4d7e2db9717e
+SHA256: 6c882187aaa56ec71912236d72b986f8dd5105c57a1280c4885d78bce9d230ac
+SHA512: a884100f7f2f81107601bbf4092dc831d21ac1dc77a60aa23c689fe8bfb3d4573ce58aa195665a14bdf608f822bc4046a0f4c53a45504c61763622f88492890a
+Description: Modern, lightweight theme engine for iOS 16 through 26. Applies icon themes to the Home Screen, Dock, App Switcher, Share Sheet, Settings, folder previews, and live Calendar and Clock icons.
+Name: Mikkyy (Rootless)
+Author: m4fn3
+Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Mikkyy.json
+Depiction: http://jtisvn.github.io/depiction/Mikkyy.html
+
+Package: com.m4fn3.mikkyy
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: m4fn3
+Installed-Size: 1500
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.m4fn3.mikkyy_1.0.1_iphoneos-arm64e.deb
+Size: 345028
+MD5sum: 494acef6330284aa52204aad0232d6e0
+SHA1: 65f8e24223c8911b15897f1acd29ef0dcab51985
+SHA256: 662c1297c3cfdf3d29cb0321ca34ad4fc950ddc3b9d1d3e689bdd5556d3068a3
+SHA512: e33ec432e08e67ef81d3ff78dfa9c2f6de78e5c5c46e122a43dcb9cd87adf8977f52922b53de954275296eb2847cf46241876994012d2e62f56b737685a81bad
+Description: Modern, lightweight theme engine for iOS 16 through 26. Applies icon themes to the Home Screen, Dock, App Switcher, Share Sheet, Settings, folder previews, and live Calendar and Clock icons.
+Name: Mikkyy (Roothide)
+Author: m4fn3
+Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Mikkyy.json
+Depiction: http://jtisvn.github.io/depiction/Mikkyy.html
 
 Package: com.matchstic.xenhtml
 Architecture: iphoneos-arm

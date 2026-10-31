@@ -438,7 +438,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 7.1\n- Sửa lỗi một số tính năng không hoạt động trên iOS 17+ ở bản trước.\n- Cải thiện tính năng nhóm thông báo Màn hình khóa.\n- Thêm tùy chọn màu huy hiệu nhóm thông báo.\n- Thêm tùy chỉnh khoảng cách biểu tượng thông báo.\n- Thêm mở rộng nội dung thông báo.\n- Thêm tùy chọn vị trí cho sắp xếp danh mục cài đặt.\n- Sửa lỗi đổ bóng biểu tượng theo Dock iPad.\n- Thêm số lượng ứng dụng gần đây trong Dock iPad.\n- Thêm hiển thị phím tắt đèn pin & camera Màn hình khóa trên máy nút home khi fake cử chỉ iPhone X.",
+"markdown": "### Phiên bản 7.1\n- Sửa lỗi một số tính năng không hoạt động trên iOS 17+ ở phiên bản trước.\n- Cải thiện tính năng nhóm thông báo Màn hình khóa.\n- Thêm tùy chọn màu huy hiệu nhóm thông báo.\n- Thêm tùy chỉnh khoảng cách biểu tượng thông báo.\n- Thêm mở rộng nội dung thông báo.\n- Thêm tùy chọn vị trí cho sắp xếp danh mục cài đặt.\n- Sửa lỗi đổ bóng biểu tượng theo Dock iPad.\n- Thêm số lượng ứng dụng gần đây trong Dock iPad.\n- Thêm hiển thị phím tắt đèn pin & camera Màn hình khóa trên máy nút home khi fake cử chỉ iPhone X.",
 "useSpacing": true
 },
 {
