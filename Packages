@@ -26953,6 +26953,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Gestures16.json
 Depiction: https://jtisvn.github.io/depictions/Gestures16.html
 Icon: https://jtisvn.github.io/sectionIcons/Gestures16.png
 
+Package: com.siphonostb.taffy
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Siphonostb
+Installed-Size: 532
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Filename: ./debs/com.siphonostb.taffy_1.0_iphoneos-arm64.deb
+Size: 65804
+MD5sum: e34298a0a5450622259376c43226c1cc
+SHA1: 38ae38c079f84f21bf8530305f82e3f79b2727e0
+SHA256: 93f180002967e80598b1a65ee39daf599d147659dc892a2dd78833bd006e9c28
+SHA512: e3ede7b966b93f34f39f212895377e8c8d6ed87fe9184a4bd2de9c3d0ac7e51d45d6316c1cf0b2a74384ecc4c2dde33fb84ae91e8f18fbf3a6036dc49ae74016
+Description: Mang hiệu ứng thanh trượt co giãn của iOS 17 lên iOS 16.
+Name: Taffy (Rootless)
+Author: Siphonostb
+Icon: https://siphonostb.github.io/siphonostbrepo/depictions/taffy/icon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Taffy.json
+Depiction: http://jtisvn.github.io/depiction/Taffy.html
+
+Package: com.siphonostb.taffy
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Siphonostb
+Installed-Size: 532
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Filename: ./debs/com.siphonostb.taffy_1.0_iphoneos-arm64e.deb
+Size: 65084
+MD5sum: ad7005492198d758a852552db2db255d
+SHA1: 74732e27d625d2f62c1bc3ad9c1053c866232d8d
+SHA256: af9bd39e96423af96e0ada9d839d4494150efbfd104d6ee7cd417ddb2164a05e
+SHA512: 4dba2590c5865bb7bb2be05b388923fede74f4691d867fdb7a57e7d0f012e6ee0a67838aa3ad9e9c46d233efd87befbaaef06d451620a7fcd614f6e5399e9a16
+Description: Mang hiệu ứng thanh trượt co giãn của iOS 17 lên iOS 16.
+Name: Taffy (Roothide)
+Author: Siphonostb
+Icon: https://siphonostb.github.io/siphonostbrepo/depictions/taffy/icon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Taffy.json
+Depiction: http://jtisvn.github.io/depiction/Taffy.html
+
 Package: com.skypain.ccautobrightness
 Architecture: iphoneos-arm64
 Version: 1.0.0-1
