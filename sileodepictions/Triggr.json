@@ -72,11 +72,11 @@
 "accessibilityText": "Screenshot 10"
 }
 ],
-"itemCornerRadius": 8,
+"itemCornerRadius": 12,
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- **Điều kiện kích hoạt đa dạng:**\n  - **Phím vật lý:** Nút sườn (Side Button), Nút Home / Touch ID, Nút Tăng/Giảm âm lượng (nhấn đơn, đôi, ba, giữ hoặc kết hợp), Cần gạt im lặng (Mute Switch).\n  - **Thanh trạng thái:** Chạm 1 lần, chạm đôi, nhấn giữ, vuốt trái/phải ở từng nửa thanh trạng thái.\n  - **Màn hình chính:** Vuốt nhanh (Flick) trên biểu tượng ứng dụng hoặc thư mục ở Màn hình chính và Thanh Dock.\n  - **Cử chỉ & Chuyển động:** Chụm ngón tay, vuốt 2 ngón, chạm đôi khoảng trống, lắc thiết bị.\n  - **Cảm biến tiệm cận:** Che cảm biến hoặc vẫy tay nhanh trước cảm biến tiệm cận.\n  - **Trạng thái & Sự kiện hệ thống:** Kết nối/ngắt sạc, tai nghe, Bluetooth; Bật/Tắt/Kết nối/Rời mạng Wi-Fi; Bật/Tắt Tiết kiệm pin, Định vị, Dữ liệu di động, Chế độ máy bay, Khóa xoay, Night Shift; Mức pin tăng/giảm theo mốc; Khóa/mở màn hình, lên lịch thời gian, mở ứng dụng chỉ định, nhận thông báo.\n- **Tác vụ & Lệnh thực thi (Actions):**\n  - **Hệ thống:** Về màn hình chính, App Switcher, Mở ứng dụng trước đó, Thoát ứng dụng, Mở Control Center / Thông báo, Chụp/Ghi màn hình, Đóng app ngầm, Đèn pin, Khóa máy, Khởi động lại...\n  - **Điều khiển phương tiện:** Phát/Tạm dừng, Bài tiếp/Bài trước, Tăng/Giảm âm lượng, Đặt mức độ sáng/âm lượng cố định, Chuyển nhanh AirPlay.\n  - **Tự động hóa nâng cao:** Chạy lệnh Shell (Run Command), chạy Phím tắt (Shortcuts), Mở URL, Hiển thị thông báo tùy chỉnh, Đọc văn bản bằng giọng nói.\n  - **Chuỗi thao tác (Macro):** Gán nhiều hành động chạy liên tiếp theo thứ tự kèm khoảng dừng tùy chỉnh (từ 0.1s đến 30s).\n  - **Menu tùy chỉnh:** Gom nhiều hành động vào một menu pop-up để chọn nhanh.\n- **Phân vùng ngữ cảnh & Quản lý nâng cao:**\n  - **Áp dụng vị trí linh hoạt:** Mọi nơi, Màn hình chính, Màn hình khóa, Trong ứng dụng hoặc Trong ứng dụng chỉ định.\n  - **Thay thế hành động gốc:** Tùy chọn ghi đè hành động gốc của phím hoặc chạy song song với chức năng mặc định.\n  - **Danh sách chặn (Block List):** Tự động bỏ qua kích hoạt khi đang mở các ứng dụng/trò chơi chỉ định.\n  - **Quản lý Hồ sơ (Profiles):** Lưu, sao lưu, xuất/nhập thiết lập qua AirDrop, Tệp hoặc Tin nhắn.\n  - **Tích hợp API & CLI:** Hỗ trợ điều khiển qua lệnh `triggr` trong Terminal và kết nối với các tweak khác.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Điều kiện kích hoạt đa dạng:**\n  - **Phím vật lý:** Nút sườn (Side Button), Nút Home / Touch ID, Nút Tăng/Giảm âm lượng (nhấn đơn, đôi, ba, giữ hoặc kết hợp), Cần gạt im lặng (Mute Switch).\n  - **Thanh trạng thái:** Chạm 1 lần, chạm đôi, nhấn giữ, vuốt trái/phải ở từng nửa thanh trạng thái.\n  - **Màn hình chính:** Vuốt nhanh (Flick) trên biểu tượng ứng dụng hoặc thư mục ở Màn hình chính và Thanh Dock.\n  - **Cử chỉ & Chuyển động:** Chụm ngón tay, vuốt 2 ngón, chạm đôi khoảng trống, lắc thiết bị.\n  - **Cảm biến tiệm cận:** Che cảm biến hoặc vẫy tay nhanh trước cảm biến tiệm cận.\n  - **Trạng thái & Sự kiện hệ thống:** Kết nối/ngắt sạc, tai nghe, Bluetooth; Bật/Tắt/Kết nối/Rời mạng Wi-Fi; Bật/Tắt Tiết kiệm pin, Định vị, Dữ liệu di động, Chế độ máy bay, Khóa xoay, Night Shift; Mức pin tăng/giảm theo mốc; Khóa/mở màn hình, lên lịch thời gian, mở ứng dụng chỉ định, nhận thông báo.\n- **Tác vụ & Lệnh thực thi (Actions):**\n  - **Hệ thống:** Về màn hình chính, App Switcher, Mở ứng dụng trước đó, Thoát ứng dụng, Mở Trung tâm điều khiển / Thông báo, Chụp/Ghi màn hình, Đóng app ngầm, Đèn pin, Khóa máy, Khởi động lại...\n  - **Điều khiển phương tiện:** Phát/Tạm dừng, Bài tiếp/Bài trước, Tăng/Giảm âm lượng, Đặt mức độ sáng/âm lượng cố định, Chuyển nhanh AirPlay.\n  - **Tự động hóa nâng cao:** Chạy lệnh Shell (Run Command), chạy Phím tắt (Shortcuts), Mở URL, Hiển thị thông báo tùy chỉnh, Đọc văn bản bằng giọng nói.\n  - **Chuỗi thao tác (Macro):** Gán nhiều hành động chạy liên tiếp theo thứ tự kèm khoảng dừng tùy chỉnh (từ 0.1s đến 30s).\n  - **Menu tùy chỉnh:** Gom nhiều hành động vào một menu pop-up để chọn nhanh.\n- **Phân vùng ngữ cảnh & Quản lý nâng cao:**\n  - **Áp dụng vị trí linh hoạt:** Mọi nơi, Màn hình chính, Màn hình khóa, Trong ứng dụng hoặc Trong ứng dụng chỉ định.\n  - **Thay thế hành động gốc:** Tùy chọn ghi đè hành động gốc của phím hoặc chạy song song với chức năng mặc định.\n  - **Danh sách chặn (Block List):** Tự động bỏ qua kích hoạt khi đang mở các ứng dụng/trò chơi chỉ định.\n  - **Quản lý Hồ sơ (Profiles):** Lưu, sao lưu, xuất/nhập thiết lập qua AirDrop, Tệp hoặc Tin nhắn.\n  - **Tích hợp API & CLI:** Hỗ trợ điều khiển qua lệnh `triggr` trong Terminal và kết nối với các tweak khác.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -137,7 +137,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "24/10/2026",
+"text": "02/11/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -155,7 +155,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.0 Beta 9",
+"text": "2.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -266,7 +266,7 @@
 "accessibilityText": "Screenshot 10"
 }
 ],
-"itemCornerRadius": 8,
+"itemCornerRadius": 12,
 "itemSize": "{185,400}"
 },
 {
@@ -331,7 +331,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 24, 2026",
+"text": "November 2, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -349,7 +349,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.0 Beta 9",
+"text": "2.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -413,13 +413,13 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 2.0 Beta 9\n- Sửa lỗi: khi đã gán thao tác Nút Tác vụ, lần nhấn tiếp theo có thể làm crash SpringBoard (Beta 8). Triggr nay cho phép iOS hoàn tất mọi thao tác nhấn chính xác. Cảm ơn vì crash log!\n- Chuẩn bị cho iOS 27: Nút Tác vụ, cử chỉ cạnh viền, App Switcher và Reachability đã cập nhật tên mới theo iOS 27. Chưa thử nghiệm trên iOS 27.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.0\n*Điểm mới so với bản 1.5:*\n- Only If và If / Otherwise: chạy tác vụ khi ở Wi-Fi nhà, đang sạc, khung giờ nhất định, bật đèn pin... Tùy chọn hành động cho từng trường hợp.\n- Thêm trigger: cử chỉ đa ngón, Action Button, vuốt cạnh màn hình, đồng hồ Màn hình khóa, home bar, nút tai nghe, CarPlay, hoàng hôn/bình minh.\n- Thêm action: quay video/ghi âm, chỉnh độ sáng đèn pin, mở trang Phone/Clock, Back, Unlock, haptic tap, và tác vụ Activator từ tweak khác (không cần Activator).\n- Phím tắt chạy ngầm như Back Tap, không cần bật app Shortcuts.\n- Nút bấm an toàn hơn: nhấn ngắn chỉ chờ khi gán trigger nhấn dài trên cùng nút. Nếu SpringBoard crash khi Triggr xử lý Action Button, Triggr sẽ trả quyền lại cho iOS.\n- Cài đặt đơn giản hơn: hiển thị thiết lập bằng văn bản dễ hiểu, mục Guide & What's New giải thích chi tiết kèm ý tưởng.\n- Hỗ trợ iOS 27 và bản RootHide.\n- Dành cho dev: libtriggr cho phép tweak khác thêm trigger và action riêng.",
+"useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",
@@ -435,13 +435,13 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 2.0 Beta 9\n- Fixed: with an Action Button press assigned, the next press could crash SpringBoard (Beta 8). Triggr now lets iOS finish every press properly. Thanks for the crash log!\n- Getting ready for iOS 27: the Action Button, edge gestures, App Switcher and Reachability now find their new iOS 27 names. Not tested on iOS 27 yet.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.0\n*What's new since 1.5:*\n- Only If and If / Otherwise: run something only on your home Wi-Fi, while charging, between certain times, when the flashlight is on, and more. Inside a list of actions, pick what happens either way.\n- More triggers: multi-finger gestures in apps, the Action Button, slides along the screen edges, the Lock Screen clock, the home bar, the headset button, CarPlay, sunrise and sunset.\n- More actions: record a video or a voice memo, make the flashlight brighter or dimmer, open phone and clock pages, Back, Unlock, a haptic tap, and Activator actions from other tweaks (no Activator needed).\n- Shortcuts run in the background, the way Back Tap runs them, without opening the Shortcuts app.\n- Safer buttons: a short press only waits when a longer trigger on the same button is assigned. If SpringBoard ever crashes while Triggr handles the Action Button, Triggr hands the button back to iOS.\n- A simpler Settings page: Your Setup lists what you assigned in plain words, and Guide & What's New explains everything with ideas to try.\n- iOS 27 support, plus a RootHide version.\n- For developers: libtriggr lets other tweaks add their own triggers and actions.",
+"useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",

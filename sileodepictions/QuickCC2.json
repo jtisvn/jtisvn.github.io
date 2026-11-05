@@ -1,0 +1,463 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://cydia.ichitaso.com/depiction/quickcc2/banner.png",
+"tintColor": "#5B8CFF",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### QuickCC2\n\nNhấn giữ vào Wi-Fi hoặc Bluetooth trong Trung tâm điều khiển để chọn mạng hoặc thiết bị và kết nối trực tiếp mà không cần mở rộng mô-đun kết nối.\n\nCác mạng chưa lưu và yêu cầu mật khẩu sẽ mở ứng dụng Cài đặt.\n\nQuickCC2 là phiên bản mới của QuickCC, được viết lại cho iOS 15 đến 26. Tweak này thay thế QuickCC và không thể cài đặt chung với QuickCC, RealCC hoặc CCOnAndOff.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://cydia.ichitaso.com/depiction/quickcc2/QuickCC2_01.png",
+"accessibilityText": "Wi-Fi"
+},
+{
+"url": "https://cydia.ichitaso.com/depiction/quickcc2/QuickCC2_02.png",
+"accessibilityText": "Bluetooth"
+},
+{
+"url": "https://cydia.ichitaso.com/depiction/quickcc2/QuickCC2_03.png",
+"accessibilityText": "Cài đặt"
+},
+{
+"url": "https://cydia.ichitaso.com/depiction/quickcc2/QuickCC2_04.png",
+"accessibilityText": "Cài đặt (tiếp theo)"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Danh sách Wi-Fi:** Hiển thị cường độ tín hiệu và biểu tượng khóa; chạm để kết nối mạng đã lưu hoặc mạng mở.\n- **Danh sách Bluetooth:** Gồm các thiết bị đã ghép nối; chạm để kết nối hoặc ngắt kết nối.\n- **Làm mới nhanh:** Kéo xuống để làm mới danh sách.\n- **Giữ nguyên menu gốc:** Mô-đun kết nối khi mở rộng vẫn giữ nguyên menu gốc của hệ thống.\n- **Hỗ trợ iPad:** Tương thích với biểu tượng Bluetooth nhỏ trên iPad chỉ có Wi-Fi (iOS 18 trở lên).\n- **Tương thích Jade:** Hoạt động với Jade's Control Center.\n- **Tắt hẳn Wi-Fi / Bluetooth:** Tùy chọn tắt hẳn từ Trung tâm điều khiển thay vì chế độ \"Ngắt kết nối đến ngày mai\" (tính năng tương tự RealCC / CCOnOff).\n- **An toàn khi khóa máy:** Tự động vô hiệu hóa khi thiết bị khóa bằng mật khẩu (Trung tâm điều khiển hoạt động như mặc định).\n- **Đa ngôn ngữ:** Hỗ trợ bản địa hóa 24 ngôn ngữ.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "ichitaso",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "25/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.0.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.8 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 26.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### QuickCC2\n\nLong-press Wi-Fi or Bluetooth in Control Center to pick a network or device and connect, without expanding the connectivity module.\n\nNetworks that are not saved and need a password open the Settings app.\n\nQuickCC2 is a new version of QuickCC, rewritten for iOS 15 to 26. It replaces QuickCC and cannot be installed together with QuickCC, RealCC or CCOnAndOff.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://cydia.ichitaso.com/depiction/quickcc2/QuickCC2_01.png",
+"accessibilityText": "Wi-Fi"
+},
+{
+"url": "https://cydia.ichitaso.com/depiction/quickcc2/QuickCC2_02.png",
+"accessibilityText": "Bluetooth"
+},
+{
+"url": "https://cydia.ichitaso.com/depiction/quickcc2/QuickCC2_03.png",
+"accessibilityText": "Settings"
+},
+{
+"url": "https://cydia.ichitaso.com/depiction/quickcc2/QuickCC2_04.png",
+"accessibilityText": "Settings (continued)"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Wi-Fi List:** Shows signal strength and lock icons; tap to join saved and open networks.\n- **Bluetooth List:** Lists paired devices; tap to connect or disconnect.\n- **Quick Refresh:** Pull down to refresh the list.\n- **Stock Menu Preserved:** The expanded connectivity module keeps the stock menu.\n- **iPad Support:** Works with the small Bluetooth icon on Wi-Fi-only iPads (iOS 18 or later).\n- **Jade Compatible:** Works with Jade's Control Center.\n- **Turn Off Completely:** Optionally turn Wi-Fi / Bluetooth off completely from Control Center instead of \"Disconnecting until tomorrow\" (like RealCC / CCOnOff).\n- **Safe When Locked:** Disabled while the device is locked with a passcode (Control Center behaves as stock).\n- **Multilingual:** Localized in 24 languages.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "ichitaso",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 25, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.0.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.8 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 26.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 2.0.1\n- Thêm hỗ trợ cho Jade (nhấn giữ các nút Wi-Fi / Bluetooth của Jade).",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 2.0.1\n- Added support for Jade (long-press its Wi-Fi / Bluetooth buttons).",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

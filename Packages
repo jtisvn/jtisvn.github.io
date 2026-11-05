@@ -153,6 +153,49 @@ Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
+Package: com.shajon.fbplus
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: S. SHAJON
+Installed-Size: 1104
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Facebook-Plus-v1.0.4-roothide.deb
+Size: 554032
+MD5sum: da090317600fc02217f241e11e99c6c2
+SHA1: a70cbc48017ce85af5d964a66003da3f9bc00ada
+SHA256: 392b03d7bf0de14a6a225fc1c1abc4a0c9ae81d527ee5be1ff35d859c7543414
+SHA512: 8b3de02c23b899c44d6606656ba6702b403dab57ecd405360af01539c8a0b924249ce43c7810ad75585e7b3a325397db1fda3e62f8e7fca103adbca87ac5b800
+Description: Browse stories privately, confirm before liking, and quieten the feed.
+Tag: role::hacker
+Name: Facebook Plus (Roothide)
+Author: S. SHAJON
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
+Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
+Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
+
+Package: com.shajon.fbplus
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: S. SHAJON
+Installed-Size: 1104
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Facebook-Plus-v1.0.4-rootless.deb
+Size: 556056
+MD5sum: a4c50c06b56ad2b242910fc0aeb61f0e
+SHA1: af99c2ff1d77089eb46a0a3dde56fe8ac0715957
+SHA256: 7756ffbd8eafd1e17b643701d90bea5cae8ba387835c7a282080652794cc9be9
+SHA512: 1a2b021ce07d308dc35eb34038e1afa85c3ea7cd13aa78a5717dcb24069bfb275e95cb848d6c3dd1500ae7de1f5321f59ec0771b99c0b6914c58d04645217520
+Description: Browse stories privately, confirm before liking, and quieten the feed.
+Tag: role::hacker
+Name: Facebook Plus (Rootless)
+Author: S. SHAJON
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
+Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
+Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
+
 Package: com.foxfort.foxforttools
 Architecture: iphoneos-arm64e
 Version: 1.4.13
@@ -4441,6 +4484,58 @@ Depiction: http://jtisvn.github.io/depiction/PowerSelector2.html
 Icon: https://jtisvn.github.io/sectionIcons/PowerSelector2.png
 dev: ichitaso
 
+Package: com.ichitaso.quickcc2
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Section: Tweaks
+Maintainer: ichitaso <willfeeltips+qc2@gmail.com>
+Installed-Size: 648
+Pre-Depends: firmware (>= 15.0)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.quickcc, com.jakeashacks.realcc, com.ps.cconandoff
+Replaces: com.ichitaso.quickcc, com.jakeashacks.realcc, com.ps.cconandoff
+Filename: ./debs/com.ichitaso.quickcc2_2.0.1_iphoneos-arm64.deb
+Size: 81816
+MD5sum: cf16af577d52b1733508e8833c2f8ec6
+SHA1: d36d049fa1220abfedbf0953c1e020a4d3ba7d4f
+SHA256: 77f3f28f82fa643735218861499286e52d0fcb90e159da6f6bdbd316ff712c03
+SHA512: 6b66f5728342afa5b2764ac109046d11e89db80c8eb7b3277b7e2a58ac289ca81ae8f4f3e89c08d028c8c9db01c5a88a514bc4f17aa2792977366ce51288acd4
+Homepage: https://ichitaso.com
+Description: Nhấn giữ biểu tượng Wi-Fi/Bluetooth trong Trung tâm điều khiển để chọn và kết nối mà không cần mở rộng mô-đun.
+Tag: purpose::extension, compatible_min::ios15.0, compatible_max::ios26
+Name: QuickCC2 (Rootless)
+Author: ichitaso <willfeeltips+qc2@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickCC2.json
+Depiction: http://jtisvn.github.io/depiction/QuickCC2.html
+Icon: https://cydia.ichitaso.com/icons/QuickCC2.png
+dev: ichitaso
+
+Package: com.ichitaso.quickcc2
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: Tweaks
+Maintainer: ichitaso <willfeeltips+qc2@gmail.com>
+Installed-Size: 648
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 15.0)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.quickcc, com.jakeashacks.realcc, com.ps.cconandoff
+Replaces: com.ichitaso.quickcc, com.jakeashacks.realcc, com.ps.cconandoff
+Filename: ./debs/com.ichitaso.quickcc2_2.0.1_iphoneos-arm64e.deb
+Size: 81976
+MD5sum: ea000431d35f41d3b15a9d70e36450f2
+SHA1: 7807fc2a622407432dba78d179e50283b7b48204
+SHA256: 67c513009bdab1e41d964e73558a1177b6d760fd5680574a3e31e091772a982f
+SHA512: f79c6175ba26972a32610cac8125becea9fd262c7e3d7d4da33e4d5ee48d2ff8d67a8736b0accf7ba7a15d893f6fc27d9dc8c7ed4a31e7a0d3024b1f7b15123c
+Homepage: https://ichitaso.com
+Description: Nhấn giữ biểu tượng Wi-Fi/Bluetooth trong Trung tâm điều khiển để chọn và kết nối mà không cần mở rộng mô-đun.
+Tag: purpose::extension, compatible_min::ios15.0, compatible_max::ios26
+Name: QuickCC2 (Roothide)
+Author: ichitaso <willfeeltips+qc2@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickCC2.json
+Depiction: http://jtisvn.github.io/depiction/QuickCC2.html
+Icon: https://cydia.ichitaso.com/icons/QuickCC2.png
+dev: ichitaso
+
 Package: com.imkpatil.colormybattery
 Architecture: iphoneos-arm64
 Version: 1.3.4
@@ -4668,6 +4763,47 @@ Description: Activator-lite dành cho Dopamine không cần root: gán các hàn
 Name: Triggr (Roothide)
 Author: John d_ie
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
+Depiction: https://jtisvn.github.io/depictions/Triggr.html
+Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Section: Tweaks
+Maintainer: Jond-ie
+Installed-Size: 2080
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: ./debs/com.johndie.triggr_2.0.0_iphoneos-arm64.deb
+Size: 262632
+MD5sum: 6044d733ae29f951c839e61575860535
+SHA1: 3e864bce512e6c93c1069437607b86c735670c5e
+SHA256: 3244a73946af6124026eb4bff1b2cd32a3fcbeb76f841b2ce298e5018cba1930
+SHA512: 146c2f009a519c1ca4e1782149ab89bd4743c6d4abe27c7152d8316cd2c4c3a1d89d90a86241379f87b8fb2085c2cfdd3dc30a54c72ffff2f369a33279388f1b
+Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
+Name: Triggr (Rootless)
+Author: Jond-ie
+ileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
+Depiction: https://jtisvn.github.io/depictions/Triggr.html
+Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Section: Tweaks
+Maintainer: Jond-ie
+Installed-Size: 2080
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: ./debs/com.johndie.triggr_2.0.0_iphoneos-arm64e.deb
+Size: 254980
+MD5sum: 8b733eb5f7b3a037cc8cca1782c35e06
+SHA1: 014d140c104a4278ca335482befa9d1bc2f666e8
+SHA256: 3861359166c7ae64540156f91a26bd77768f4f367c95bb9dd83c30f37e1d7419
+SHA512: 7a1a6233bb41ae3a5c8bb4ed9f745198f0f7de2279944e28c0fef633ea600ba3788a903728cf81b79d468b1e98b0557bbe0443c44fc29f990db55de469e485a7
+Description: Activator-lite dành cho Dopamine không cần root: gán các hành động cho các nút Home, khóa và âm lượng, Touch ID, công tắc tắt tiếng, chạm vào thanh trạng thái, vuốt biểu tượng, lắc điện thoại và các sự kiện như sạc pin, Wi-Fi, mức pin hoặc thời gian trong ngày. Hỗ trợ A12 trở lên.
+Name: Triggr (Roothide)
+Author: Jond-ie
+ileoDepiction: https://jtisvn.github.io/sileodepictions/Triggr.json
 Depiction: https://jtisvn.github.io/depictions/Triggr.html
 Icon: https://jtisvn.github.io/sectionIcons/Triggr.png
 
@@ -26732,28 +26868,6 @@ SHA512: e4bdbe9c5d85db182f0cd83a4c96028a198721103db7546fd2089a1aec0ce34c961f24a2
 Description: Upstream-based Facebook Plus with tested Story/Reels downloads and external link bridge; audio and Shopee fixes remain standalone.
 Tag: role::hacker
 Name: Facebook Plus (Rootless)
-Author: S. SHAJON
-SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
-Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
-Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
-
-Package: com.shajon.fbplus
-Architecture: iphoneos-arm64e
-Version: 1.0.2-2
-Section: Tweaks
-Maintainer: ttlongdl
-Installed-Size: 936
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.shajon.fbplus_1.0.2-2_iphoneos-arm64e.deb
-Size: 475900
-MD5sum: 4177622a2b2e47272218a37e2808dc82
-SHA1: eb3e393906deb4218bdd6066092d4daa2cf980c2
-SHA256: 9bed09290a151802cbe6b718e017ec7cc6066fe9754405ae57376dec83317612
-SHA512: 9978b1bf5dfc948de133374bd1216a6e370a78a3c82a056ff9ecd33043d4b3b1f376aec1683bdb37da6043cce13025c69116caeb1f0e11a025c19cb826b52b26
-Description: Upstream-based Facebook Plus with tested Story/Reels downloads and external link bridge; audio and Shopee fixes remain standalone.
-Tag: role::hacker
-Name: Facebook Plus (Roothide)
 Author: S. SHAJON
 SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
 Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
