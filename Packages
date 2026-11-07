@@ -27820,6 +27820,25 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This v
 Name: Filza File Manager 64-bit
 Author: TIGI Software
 
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64
+Version: 5.0.1
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 32768
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1_iphoneos-arm64.deb
+Size: 11113828
+MD5sum: 6da0e97fcf66ee1178ecebb204042f27
+SHA1: 828935d55762e84e3786e56548fb0abe5e97f3ce
+SHA256: 3d5725bebd292381528ee76f0a367d755128f54301def47c996cde98e81c663b
+SHA512: f2aa45df5631cc1a578e9daeb63a885cb62165e462f7e641417918d5032bec58f6c1ce7268dbf2dca7eb7173ca4a327c9eaeb4fa45be72dc7ff9d70a816d6c0c
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
 Package: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Architecture: iphoneos-arm64
 Version: 4.0
