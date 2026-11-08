@@ -1,0 +1,511 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://media.havoc.app/6add4d07ef706587524ec8b9",
+"tintColor": "#C5700F",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Lasso\n\n**Chụp màn hình thông minh.** Thay vì chụp toàn bộ, Lasso cho phép bạn chọn đúng vùng cần thiết, ghim trên màn hình, đọc văn bản, ghi âm cuộc gọi và âm thanh hệ thống.\n\nBấm phím chụp màn hình để đóng băng màn hình, kéo chọn vùng bạn muốn rồi ghim, đọc, chỉnh sửa, chia sẻ hoặc ghi lại ngay lập tức.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://media.havoc.app/6add4cbbef706587524ec63f",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://media.havoc.app/6add4cc4ef706587524ec68f",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://media.havoc.app/6add4cc9ef706587524ec6f4",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://media.havoc.app/6add4ccfef706587524ec713",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://media.havoc.app/6add4cd3ef706587524ec755",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://media.havoc.app/6add4cd8ef706587524ec787",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://media.havoc.app/6add4cdfef706587524ec7bc",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://media.havoc.app/6add4cedef706587524ec80f",
+"accessibilityText": "Screenshot 8"
+},
+{
+"url": "https://media.havoc.app/6add4cf3ef706587524ec81d",
+"accessibilityText": "Screenshot 9"
+},
+{
+"url": "https://media.havoc.app/6add4cfaef706587524ec870",
+"accessibilityText": "Screenshot 10"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Chụp và Ghim:** Khoanh vùng nhanh bất kỳ phần nào trên màn hình, ghim nổi trên mọi ứng dụng, khóa vị trí hoặc cho phép chạm xuyên qua.\n- **Ghi âm cuộc gọi & Âm thanh:** Ghi âm hai chiều cuộc gọi (Điện thoại, FaceTime) và âm thanh hệ thống/microphone dễ dàng.\n- **Đọc văn bản & Mã vạch:** Hỗ trợ trích xuất văn bản, quét mã QR/mã vạch với hơn 50 ngôn ngữ và tích hợp dịch thuật.\n- **Chỉnh sửa & Chụp cuộn dài:** Tích hợp bút vẽ, làm mờ bảo mật, chọn mã màu HEX và chụp cuộn trang tự động thành một ảnh duy nhất.\n- **Thư viện thông minh:** Quản lý ảnh chụp, bản ghi âm và cuộc gọi theo ngày, hỗ trợ khóa bảo mật bằng Face ID/Touch ID.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "AADiOS",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "26/10/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "10.3 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 26.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Lasso\n\n**A screenshot takes everything. Lasso takes just what you need, and keeps it where you can see it. And it records what you hear: both sides of your calls, and the sound your apps play.**\n\nPress the screenshot buttons and the screen freezes. Drag across the part you want, then pin it, read it, mark it up, share it or record it.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://media.havoc.app/6add4cbbef706587524ec63f",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://media.havoc.app/6add4cc4ef706587524ec68f",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://media.havoc.app/6add4cc9ef706587524ec6f4",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://media.havoc.app/6add4ccfef706587524ec713",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://media.havoc.app/6add4cd3ef706587524ec755",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://media.havoc.app/6add4cd8ef706587524ec787",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://media.havoc.app/6add4cdfef706587524ec7bc",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://media.havoc.app/6add4cedef706587524ec80f",
+"accessibilityText": "Screenshot 8"
+},
+{
+"url": "https://media.havoc.app/6add4cf3ef706587524ec81d",
+"accessibilityText": "Screenshot 9"
+},
+{
+"url": "https://media.havoc.app/6add4cfaef706587524ec870",
+"accessibilityText": "Screenshot 10"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Snap and Pin:** Quickly select any part of the screen, float pins above any app, lock their position or let touches pass through.\n- **Audio & Call Recording:** Record both sides of phone/FaceTime calls and system audio/microphone with ease.\n- **Read Text & Barcodes:** Extract text and scan QR codes/barcodes in over 50 languages, with built-in translation.\n- **Markup & Long Snaps:** Pen and marker tools, privacy blur/pixelate, a HEX color picker, and automatic page-scrolling snaps stitched into a single image.\n- **Unified Library:** Organize snaps, recordings, and calls by day, protected with Face ID/Touch ID.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "AADiOS",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "October 26, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "10.3 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 26.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.0.0\n- Phát hành phiên bản đầu tiên của Lasso\n- Hỗ trợ chụp và chọn bất kỳ vùng nào trên màn hình\n- Ghim nổi, đọc văn bản/mã vạch, ghi âm cuộc gọi và âm thanh hệ thống trên iOS 15 đến 26 (rootless).",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.0.0\n- Initial public release of Lasso\n- Snap and select any part of the screen\n- Floating pins, text/barcode reading, and call & system audio recording on iOS 15 to 26 (rootless).",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}
