@@ -1617,6 +1617,27 @@ Author: Simon <qiaozhani000@163.com>
 Icon: https://jtisvn.github.io/sectionIcons/LLSwitch.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
 
+Package: com.aadios.lasso
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: AADiOS
+Installed-Size: 27796
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.aadios.lasso_1.0.0_iphoneos-arm64e.deb
+Size: 10653216
+MD5sum: cb18e0c9743de343d4332fc9a7726bd9
+SHA1: 41785c32fb227edb9df5f4d84c63402d72f49313
+SHA256: 6998561779cd248f2448ac817c60af52880b7ad876aa7570fcf4edb079718b9c
+SHA512: 02dc5a1632719083f2674b3ac2e66ff4853ff01dc86025c1984be881640b75481390e2f18d9399224f46276484533b88e7db2ae966bc170a5023c9e66c814c02
+Description: Chụp màn hình, ghim lại, đọc. Ghi âm cuộc gọi và âm thanh hệ thống.
+Name: Lasso (Roothide)
+Author: AADiOS
+Icon: https://media.havoc.app/6add4cb5ef706587524ec5fc
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Lasso.json
+Depiction: http://jtisvn.github.io/depiction/Lasso.html
+
 Package: com.antoine.senri
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -24177,6 +24198,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/MilkyWayReborn.json
 Depiction: https://jtisvn.github.io/depictions/MilkyWayReborn.html
 Icon: https://jtisvn.github.io/sectionIcons/MilkyWayReborn.png
 
+Package: com.mlgm.filzapatch
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 154
+Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
+Conflicts: roothide.patches.filza
+Filename: ./debs/com.mlgm.filzapatch_1.0.1_iphoneos-arm64e.deb
+Size: 38778
+MD5sum: fcaa25746aa2c5755f622d459852b2eb
+SHA1: 8718f02ad2d28d2634c5ab242d0faa5e0c523671
+SHA256: 15d96e0255bdc5bcd6db04036b9ee4c1e64c746e6468d18926ac8d4731cd8c72
+SHA512: 3715a3293f01712fdbe642ecba751400188e461ea8d006223d27cd926bf991828f4117ee590fff52ac297855561e6314f5584587ff749df469ee82ac793280de
+Description: Filza 5.x 的 RootHide 动态补丁
+Name: Filza Patch
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+
 Package: com.mlgm.idata
 Architecture: iphoneos-arm64
 Version: 1.3
@@ -27817,6 +27856,25 @@ SHA1: 718d5c9bb34d0c749ca311e4917736804fe217ec
 SHA256: 35be3aa392b06cd7ed53dd3aa05bf5c3ddaa126ee692b33fba67321fc6cec28d
 SHA512: bcd8b044a4b877f5a2873b009ac40f0d61293ab01cf61326950a6137bfb55bb1445af0b395023ce910abc238456c39c5baedc4379ab2bc9904b16850746a12c8
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64e
+Version: 5.0.1-2
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 28321
+Depends: firmware (>= 15.0), com.mlgm.filzapatch
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-2_iphoneos-arm64e.deb
+Size: 11222784
+MD5sum: 777291dd94543c3c5a6e3edc01259d81
+SHA1: c6924019be8194718197fbcfd400be6fd09c725b
+SHA256: f73d3cdfb8ae3d1a824de2014df7c24ca77b459ade027096e1a48c0b52fce147
+SHA512: 4f7632e3ce2e22ea7d4e02222bf312606907f44147fdf071c922f0201865c701327b53d5323a9d59625c1c9c7d5272a84cca21adc874d5fe8fbe51a4741fcf70
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
 Name: Filza File Manager 64-bit
 Author: TIGI Software
 
