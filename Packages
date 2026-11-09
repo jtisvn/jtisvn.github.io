@@ -24850,6 +24850,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AssistiveTouch26.json
 Depiction: https://jtisvn.github.io/depictions/AssistiveTouch26.html
 Icon: https://jtisvn.github.io/sectionIcons/AssistiveTouch26.png
 
+Package: com.nekojb.dynamicislandpill
+Architecture: iphoneos-arm64
+Version: 1.51.0
+Section: Tweaks
+Maintainer: NekoJb
+Installed-Size: 1036
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/com.nekojb.dynamicislandpill_1.51.0_iphoneos-arm64.deb
+Size: 184244
+MD5sum: 2cfc978424cd7adf5701e4ee817b3c78
+SHA1: 9efd1d6c1a42414b703d9156a480ef264bd589de
+SHA256: 1fcf51764db851748bbdc6b781f88cb69002651cc8f219d16c52def91a4f433c
+SHA512: 0f533e30f9e80dff38ed212258ead396f9ba874d081d82a5e2541d745f493864f8dce3f1bec9ff7e612a71dc5a2b913af0ebb3e2a27b6966eaa47a1a33225c1b
+Description: Dynamic Island for iOS 15 devices
+Name: Dynamic Pill(Rootless)
+Author: NekoJb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DynamicPill.json
+Depiction: http://jtisvn.github.io/depiction/DynamicPill.html
+Icon: https://jtisvn.github.io/sectionIcons/DynamicPill.png
+
+Package: com.nekojb.dynamicislandpill
+Architecture: iphoneos-arm64e
+Version: 1.51.0
+Section: Tweaks
+Maintainer: NekoJb
+Installed-Size: 1036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/com.nekojb.dynamicislandpill_1.51.0_iphoneos-arm64e.deb
+Size: 184296
+MD5sum: 8d04edb1e398c549a7dacdff45069c66
+SHA1: ddcebdff521f5baae29da5acba14c090bfc76c37
+SHA256: dbfdc021ba4c975b0749d0d0286628dc41ac6f8ca73b3a47912ad68059253989
+SHA512: 472a462de3ac0dff2831de94b02e4666e2f5fc0800629fbf9af8ea892fadd27e93784c75ff743fb5c3f935efdc52572e2df67503d4917a829509a844aa889d09
+Description: Dynamic Island for iOS 15 devices
+Name: Dynamic Pill (Roothide)
+Author: NekoJb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DynamicPill.json
+Depiction: http://jtisvn.github.io/depiction/DynamicPill.html
+Icon: https://jtisvn.github.io/sectionIcons/DynamicPill.png
+
 Package: com.netskao.dumpdecrypter
 Architecture: iphoneos-arm64
 Version: 1.5-1
@@ -26988,6 +27029,66 @@ Name: AudioSnapshotServer 2
 Icon: https://img.chariz.cloud/icon/audiosnapshotserver2/icon@3x.png
 Depiction: https://chariz.com/get/audiosnapshotserver2
 
+Package: com.sekoandlionel.26safari
+Architecture: iphoneos-arm
+Version: 3.5.0
+Section: Tweaks
+Maintainer: Seko,lionel
+Installed-Size: 308
+Depends: mobilesubstrate
+Filename: ./debs/com.sekoandlionel.26safari_3.5.0_iphoneos-arm.deb
+Size: 51612
+MD5sum: 57ed76228442d262ff1bfd82fe1ce2ae
+SHA1: 40650d8d82e12e1281309f476d47ff71e39f69be
+SHA256: 54743d02c67736d4bba480be250a49f44383a79db90877d82d46785bcb56e64c
+SHA512: 07c27e80436cfc66728420b3843a6bad266669cbb1d008b04a8e0a5a70962e15d5bcb006d8109552c1b7699d628912aa4743d2e1696f2605de727c34d51ab5bb
+Description: iOS 26 "Liquid Glass" style floating bars for iOS 16 Safari
+Name: 26Safari
+Author: Seko,lionel
+SileoDepiction: https://jtisvn.github.io/sileodepictions/26Safari.json
+Depiction: http://jtisvn.github.io/depiction/26Safari.html
+Icon: https://jtisvn.github.io/sectionIcons/26Safari.png
+
+Package: com.sekoandlionel.26safari
+Architecture: iphoneos-arm64
+Version: 3.5.0
+Section: Tweaks
+Maintainer: Seko,lionel
+Installed-Size: 308
+Depends: mobilesubstrate
+Filename: ./debs/com.sekoandlionel.26safari_3.5.0_iphoneos-arm64.deb
+Size: 51524
+MD5sum: b95b90d343f2f7e0633facea98879d41
+SHA1: e8df387b61ddcb71aa4c479f2661756cbf782cb4
+SHA256: b64762e8812bdba32e272569c3d2a814f502b0d2aafe21e8ee7c29317e679bef
+SHA512: 4ce9ea1be9fdf63644b774315e0f101e3ce2b6b49f27193910792071e9aee7daf7788657f28bd9795de9370bc1898ae88b7c0d70ac75fd5c4cf483359631820f
+Description: iOS 26 "Liquid Glass" style floating bars for iOS 16 Safari
+Name: 26Safari (Rootless)
+Author: Seko,lionel
+SileoDepiction: https://jtisvn.github.io/sileodepictions/26Safari.json
+Depiction: http://jtisvn.github.io/depiction/26Safari.html
+Icon: https://jtisvn.github.io/sectionIcons/26Safari.png
+
+Package: com.sekoandlionel.26safari
+Architecture: iphoneos-arm64e
+Version: 3.5.0
+Section: Tweaks
+Maintainer: Seko,lionel
+Installed-Size: 308
+Depends: mobilesubstrate
+Filename: ./debs/com.sekoandlionel.26safari_3.5.0_iphoneos-arm64e.deb
+Size: 51388
+MD5sum: ae2912da2fdd2f27db458364446533ea
+SHA1: a200972a0c94a7b4682ef64f219ea282b02edcd4
+SHA256: ecf85be8742ce64681268584ff1501da3ef8919b2470fdb67f34ae316c1a8102
+SHA512: 521ae89ab678cef92eecec3bc8c04a58580b91a69db6ac48f75523154efe2453b3857436ff47371dd3fd3602a448f217cd77b2c09159036fff68ecbfebe0768d
+Description: iOS 26 "Liquid Glass" style floating bars for iOS 16 Safari
+Name: 26Safari (Roothide)
+Author: Seko,lionel
+SileoDepiction: https://jtisvn.github.io/sileodepictions/26Safari.json
+Depiction: http://jtisvn.github.io/depiction/26Safari.html
+Icon: https://jtisvn.github.io/sectionIcons/26Safari.png
+
 Package: com.shajon.fbplus
 Architecture: iphoneos-arm64
 Version: 1.0.2-2
@@ -28979,6 +29080,73 @@ MD5sum: 7c05e279805b8d1aeb9dfd2efaa22677
 SHA1: 239932c50ee1430a3a514050a5ae217e60777163
 SHA256: 330da0e4dca5721abd43736376f29c4c0294a1a5f75d9d471839431b3593ca57
 SHA512: 9fe48e658974e4777b3d31dbe601e7d779400e7b03e9cabf2d91752ac248840005a44128284b60f50cd25cd9cc138b481bf0c70dec2ab2819888eedba8f3c71c
+Description: next level diarrhea
+Name: Liquid (Gl)ass (Roothide)
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm
+Version: 0.1.2t+r2
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 11064
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 26.0), preferenceloader, com.opa334.libsandy (>= 1.1.6)
+Conflicts: dylv.blurless, com.ngkhoi.liquidass27
+Replaces: dylv.blurless, com.ngkhoi.liquidass27
+Filename: ./debs/dylv.liquidass_0.1.2t+r2_iphoneos-arm.deb
+Size: 4260552
+MD5sum: 1b1d9fb52fe6d12eee34811866ac774a
+SHA1: daa1bb43b41a11c27751ec1d3e2d414c9c31e248
+SHA256: 6f498dfa786ee8e08609b394094200f7d657d86cf7c473abcad105c246a07e82
+SHA512: bc6fa65046bd3d59ae0928c210d0d6f07d05f4d9753c568e9f1da6c98d81b0349edd6786d4498ffe067e22911217d46493e23540c19c4d861a814c35e10e7ee1
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.2t+r2
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 10560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 26.0), preferenceloader, com.opa334.libsandy (>= 1.1.6)
+Conflicts: dylv.blurless, com.ngkhoi.liquidass27
+Replaces: dylv.blurless, com.ngkhoi.liquidass27
+Filename: ./debs/dylv.liquidass_0.1.2t+r2_iphoneos-arm64.deb
+Size: 4108968
+MD5sum: b6806442ac07bd7a34b0fc0479027676
+SHA1: 49302bab159894e62e267d0dbf97787399586866
+SHA256: af7102d841b7640d8ee83cd61dc42cbc60b443c2adf6dedd8f7531f62ef3c8db
+SHA512: fa25c9d2737184908c3a90202752b6e733efb51fb2e1446c248dff6d27451eb6afe1fd355247aba66cae5d4949e7ad0b8f933b36221472a93caf172aa948bd07
+Description: next level diarrhea
+Name: Liquid (Gl)ass (Rootless)
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.2t+r2
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 10560
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 26.0), preferenceloader, com.opa334.libsandy (>= 1.1.6)
+Conflicts: dylv.blurless, com.ngkhoi.liquidass27
+Replaces: dylv.blurless, com.ngkhoi.liquidass27
+Filename: ./debs/dylv.liquidass_0.1.2t+r2_iphoneos-arm64e.deb
+Size: 4078192
+MD5sum: da8b8e4a09f0001c73dfceb9a1bf0dcc
+SHA1: cd1152cea957f94fac85fb76f9ba6bd7dd5c37fc
+SHA256: f38f53ab4facb557c01602ade02405b853be312f2b0d6601b088b358afc334f5
+SHA512: a6b37d69183f276b924aba244289dcef81f4ffbc0aff1cac7c741b428ab8b916d2aeb1be7a9247018547c778755cf95e2a8bcf438d405d2b737fed9b555072e0
 Description: next level diarrhea
 Name: Liquid (Gl)ass (Roothide)
 Author: dylv

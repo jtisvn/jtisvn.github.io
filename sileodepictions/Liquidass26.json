@@ -129,7 +129,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "28/09/2026",
+"text": "1011/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -147,7 +147,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.1-2b",
+"text": "0.1.2t+r2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -160,7 +160,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.1 MB",
+"text": "4.,1 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -173,7 +173,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 17.5",
+"text": "13.0 - 17.5",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -315,7 +315,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "September 28, 2026",
+"text": "November 10, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -333,7 +333,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.1-2b",
+"text": "0.1.2t+r2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -346,7 +346,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.1 MB",
+"text": "4,1 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -359,7 +359,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 14.0 - 17.5",
+"text": "iOS 13.0 - 17.5",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -397,7 +397,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 0.1.1-2b\n- Làm lại toàn bộ các thay đổi hệ thống.\n- Cải thiện logic hiệu ứng phản chiếu (specular) giúp hiển thị mượt mà hơn.\n- Thêm tùy chọn giới hạn FPS cho đồng hồ.\n- Sửa lỗi hiệu ứng làm mờ (blur) trên iOS 15.\n- Sửa lỗi bố cục từ phải sang trái (RTL) cho thanh trượt và thanh tab.\n- Tối ưu hóa logic bo góc các module trong Control Center.\n- Cải tiến kiểu giao diện menu ngữ cảnh (context menu).\n- Sửa lỗi khoảng trống ở đáy bàn phím.\n- Chuyển sang sử dụng danh sách ứng dụng chọn lọc để loại trừ (không cần nhập thủ công Bundle ID).\n- Bổ sung các ngôn ngữ: Tiếng Do Thái, Tiếng Trung Giản Thể và Tiếng Thổ Nhĩ Kỳ.",
+"markdown": "### Phiên bản 0.1.2t+r2\n- Thêm hỗ trợ iOS 13.\n- Thiết kế lại đồng hồ và thêm posterboard.\n- Tối ưu soko, độ ổn định kính và nhiều thay đổi shader.\n- Sửa nhiều lỗi artifact.\n- Thêm hiệu ứng specular iOS 27 và pin iOS 26/27.\n- Thêm bề mặt mới, cải thiện nav controls, context menus, tabbar, segmented controls, sliders và switches.\n- Sửa lỗi quick actions và cải thiện volume HUDs.\n- Thêm hiệu ứng co giãn cho một số bề mặt và các thay đổi khác.\n- Sửa lỗi crash backboardd trên một số thiết bị.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -419,7 +419,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 0.1.1-2b\n- Reworked all system changes.\n- Improved the specular reflection logic for smoother display.\n- Added an FPS limit option for the clock.\n- Fixed the blur effect on iOS 15.\n- Fixed right-to-left (RTL) layout for sliders and tab bars.\n- Optimized the corner rounding logic of modules in Control Center.\n- Improved the context menu style.\n- Fixed the gap at the bottom of the keyboard.\n- Switched to a picker-based app list for exclusions (no need to enter Bundle IDs manually).\n- Added languages: Hebrew, Simplified Chinese and Turkish.",
+"markdown": "### Version 0.1.2t+r2\n- adds ios 13 support\n- reworked clock\n- added posterboard stuff\n- soko\n- glass stability\n- a lot of shader changes\n- a lot of artifact fixes\n- ios 27 specular\n- ios 26/27 battery\n- new surfaces\n- improved nav controls\n- better context menus\n- better tabbar\n- better styled segmented controls\n- improved sliders and switches\n- quick actions fix\n- improve volume huds\n- stretchy stuff for some surfaces\n- and more i fucking forgot\n- fixes backboardd crashing on a few devices",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
