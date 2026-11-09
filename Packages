@@ -196,6 +196,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
 Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
 Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
 
+Package: com.shajon.fbplus
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: S. SHAJON
+Installed-Size: 1372
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Facebook-Plus-v1.0.5-roothide.deb
+Size: 628272
+MD5sum: 50b1c29cc494a001f33af20f637e40d7
+SHA1: e1541acedf97bbc6f0e9d96259780f82dbd7fd11
+SHA256: 774fbd209222bb258576bf4b7221369707cf265589031fb795c20e6d095e9211
+SHA512: b6aa975ba7ce83505d53a6e1859550a717ca1cb82c9f62a0bca1bee38bc60361e28531dd58e220905f05def7f75f9689b044ce5189d1772885a6ff370e6dc83a
+Description: Browse stories privately, confirm before liking, and quieten the feed.
+Tag: role::hacker
+Name: Facebook Plus (Roothide)
+Author: S. SHAJON
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
+Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
+Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
+
+Package: com.shajon.fbplus
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: S. SHAJON
+Installed-Size: 1372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Facebook-Plus-v1.0.5-rootless.deb
+Size: 630188
+MD5sum: 3aa1ef907c970d3988fa6a42450d7abf
+SHA1: 1f0c29ab0c08cb7bce4f6879c945dfb39eec0089
+SHA256: c4ad08b424ceb2a0d6dce63e0b3b68faedb2f704f244816721d2af063fff9c75
+SHA512: b7ea6ff78d25d6cef92a6436e7be22dfe309f6917ebe6e5273175326c6bc7a929f6a21fe67fddc4cd3a7b6bb8766b87aa8ea2b1342b42071e7c8c7bf376fc494
+Description: Browse stories privately, confirm before liking, and quieten the feed.
+Tag: role::hacker
+Name: Facebook Plus (Rootless)
+Author: S. SHAJON
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
+Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
+Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
+
 Package: com.foxfort.foxforttools
 Architecture: iphoneos-arm64e
 Version: 1.4.13
@@ -24198,6 +24241,42 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/MilkyWayReborn.json
 Depiction: https://jtisvn.github.io/depictions/MilkyWayReborn.html
 Icon: https://jtisvn.github.io/sectionIcons/MilkyWayReborn.png
 
+Package: com.mlgm.filzacrack
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 204
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
+Filename: ./debs/com.mlgm.filzacrack_1.0_iphoneos-arm64.deb
+Size: 4772
+MD5sum: 4b38a37d5a68b8aae5a0b38e723f8eb2
+SHA1: f6790b12f29b9c3bf28e939b6d6d168c84ab05ce
+SHA256: 002040d55b3f0a30ff9813c8dde49f2682b295e85490f25d9b4b6264a97fd5bc
+SHA512: 4df75c81c54cde9d13d81f50b9263742e029e6893de0e66987a68ced9fd8e7facc4f5d17e111971a4693ba6c36d7453ba82c73591dcdc33fcec958091188d431
+Description: Filza 5.x Phiên bản đầy đủ đã được mở khóa
+Name: Filza Crack (Rootless)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/FilzaCrack.png
+
+Package: com.mlgm.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 204
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
+Filename: ./debs/com.mlgm.filzacrack_1.0_iphoneos-arm64e.deb
+Size: 4716
+MD5sum: 111f0aca79fdcb43f3bb44880f68d356
+SHA1: 3d906441f2666b6619442e14192da2a2f3eecad7
+SHA256: e8495e8e9595b1027cff0af1deeab3719227c8a9f62b538f92e5fad4d87b2e92
+SHA512: 49bc8f66aab44e10fb32057f7da5360fc8df0326babcf7bd61d5630a31a909d63e6824b08eedb971a9a0981e5260cebadb132892e81dab2cbd033ae968e3a8b2
+Description: Filza 5.x Phiên bản đầy đủ đã được mở khóa
+Name: Filza Crack (Roothide)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/FilzaCrack.png
+
 Package: com.mlgm.filzapatch
 Architecture: iphoneos-arm64e
 Version: 1.0.1
@@ -24212,6 +24291,24 @@ MD5sum: fcaa25746aa2c5755f622d459852b2eb
 SHA1: 8718f02ad2d28d2634c5ab242d0faa5e0c523671
 SHA256: 15d96e0255bdc5bcd6db04036b9ee4c1e64c746e6468d18926ac8d4731cd8c72
 SHA512: 3715a3293f01712fdbe642ecba751400188e461ea8d006223d27cd926bf991828f4117ee590fff52ac297855561e6314f5584587ff749df469ee82ac793280de
+Description: Filza 5.x 的 RootHide 动态补丁
+Name: Filza Patch
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+
+Package: com.mlgm.filzapatch
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 170
+Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
+Conflicts: roothide.patches.filza
+Filename: ./debs/com.mlgm.filzapatch_1.0.2_iphoneos-arm64e.deb
+Size: 39566
+MD5sum: f37d4476873e51e021f82f544b64e719
+SHA1: 9fe3f9db3bb1bdb44372a55ee03b751e02bf5b4f
+SHA256: d74f3b167f62dc5fd5325a43dc7fc926f483a98989c98339d6a4754e72505bd3
+SHA512: 8f7014099ebf76dbf7f9722bcd3fc58c2ddd36d41015b738dd33ee328fb5bfc4a0fb0b336a3ae95b4487f5962c77bed08ef662422e775c931a10a582db397a0e
 Description: Filza 5.x 的 RootHide 动态补丁
 Name: Filza Patch
 Icon: https://mlgm66.github.io/icon/FilzaPatch.png
@@ -27880,19 +27977,38 @@ Author: TIGI Software
 
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm64
-Version: 5.0.1
+Version: 5.0.1-3
 Section: Utilities
 Maintainer: TIGI Software
-Installed-Size: 32768
+Installed-Size: 32348
 Depends: firmware (>= 15.0)
 Recommends: zip, tar
 Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./debs/com.tigisoftware.filza64bit_5.0.1_iphoneos-arm64.deb
-Size: 11113828
-MD5sum: 6da0e97fcf66ee1178ecebb204042f27
-SHA1: 828935d55762e84e3786e56548fb0abe5e97f3ce
-SHA256: 3d5725bebd292381528ee76f0a367d755128f54301def47c996cde98e81c663b
-SHA512: f2aa45df5631cc1a578e9daeb63a885cb62165e462f7e641417918d5032bec58f6c1ce7268dbf2dca7eb7173ca4a327c9eaeb4fa45be72dc7ff9d70a816d6c0c
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-3_iphoneos-arm64.deb
+Size: 12375808
+MD5sum: 86a09861c52dc64e43c2a4ff4affacf4
+SHA1: afba0836152724025e00c8d0939dd4bbb56d4ad4
+SHA256: c8f9d4d454ed97c16968b29af0fa42ac8c1b83b3e37c28a4b4787e2e57aea158
+SHA512: 43af178be80d33e2a206ab7206400f4c986a292c40239fd88b4b12aa24a361e516e812096a5a70abd6404ff24346d4d6515792d508cfe2ed9775495fd306b69f
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64e
+Version: 5.0.1-3
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 28616
+Depends: firmware (>= 15.0), com.mlgm.filzapatch (>= 1.0.2)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-3_iphoneos-arm64e.deb
+Size: 12433456
+MD5sum: 8873db32acc0ffc386269c2e258f2aa3
+SHA1: ba6324fda7d3f702e8267496c6b6c8c7c4f492b2
+SHA256: 1c0d6c6998cafab2265b9a9af17dcbb6738d3e5eb2d616d7dc21c814daadb743
+SHA512: 38b3f072e8cf3c6917d54f66b68a4ca4bf1e4253511b7209a79450122ff231a2a65a02ef137b70e9b90f0aaa792883bbf6467fa3e6a71870f1c54a0260e80c9d
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
 Name: Filza File Manager 64-bit
 Author: TIGI Software
@@ -29947,6 +30063,23 @@ Author: XsF1re, ichitaso, level3tjg
 Name: vnodebypass (Rootless)
 Depiction: https://cydia.ichitaso.com/depiction/vnoderootless.html
 SileoDepiction: https://cydia.ichitaso.com/depiction/vnoderootless.json
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+
+Package: kr.xsf1re.vnodebypass
+Architecture: iphoneos-arm64
+Version: 0.4.6-Next
+Section: System
+Maintainer: alias20, LF, AD
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: ./debs/kr.xsf1re.vnodebypass_0.4.6-Next_iphoneos-arm64.deb
+Size: 66056
+MD5sum: 5545a5060e041900571a29599fb49447
+SHA1: 064b48b4938b58a8ec1b7250f58dbc6daa79677a
+SHA256: df3611123f31b650b700a0b77cefbdcbd7fad364b5a59e92ead2bd34bc79b347
+SHA512: a0b315c997508042f4a796f046b6b5301b965607f0839f69a5be0ea1e13dd10b8525db873df0b5c2c900c8afd456859164f1e76f07158355ce385c301c0c4931
+Description: Ẩn dấu vết jailbreak và vượt qua các cơ chế phát hiện. Tự động cấu hình đường dẫn và khắc phục các vấn đề tàn dư sau khi gỡ cài đặt. Tương thích với môi trường jailbreak Dopamine Rootless. Quá trình cài đặt lần đầu có thể mất thêm chút thời gian do cấu hình đường dẫn — xin vui lòng kiên nhẫn! ～(づ￣ 3￣)づ
+Author: XsF1re, ichitaso, level3tjg, LF, AD
+Name: Vnodebypass-next (Rootless)
 Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
 
 Package: com.jtisvn.lg26
