@@ -32,7 +32,7 @@
 "class": "DepictionScreenshotsView",
 "screenshots": [
 {
-"url": "https://jtisvn.github.io/infodeb/Tinhchinh/Screenshots/1.png",
+"url": "https://jtisvn.github.io/infodeb/26Safari/Screenshots/1.png",
 "accessibilityText": "Screenshot 1"
 }
 ],
@@ -40,7 +40,7 @@
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- **Thanh công cụ Kính lỏng:** Tích hợp giao diện thanh công cụ nổi phong cách kính lỏng từ iOS 26 cho Safari trên iOS 16.\n- **Tối ưu không gian:** Tối ưu hóa không gian hiển thị trình duyệt với các hiệu ứng trong suốt và nổi tinh tế.\n- **Ổn định:** Hoạt động ổn định và mượt mà trên các thiết bị jailbreak.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Thanh công cụ Kính lỏng:** Tích hợp giao diện thanh công cụ nổi phong cách kính lỏng từ iOS 26 cho Safari trên iOS 16.\n- **Tối ưu không gian:** Tối ưu hóa không gian hiển thị trình duyệt với các hiệu ứng trong suốt và nổi tinh tế.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -190,7 +190,7 @@
 "class": "DepictionScreenshotsView",
 "screenshots": [
 {
-"url": "https://jtisvn.github.io/infodeb/Tinhchinh/Screenshots/1.png",
+"url": "https://jtisvn.github.io/infodeb/26Safari/Screenshots/1.png",
 "accessibilityText": "Screenshot 1"
 }
 ],
@@ -198,7 +198,7 @@
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Key Features:**\n\n- **Liquid Glass Toolbar:** Brings the iOS 26 \"Liquid Glass\" floating toolbar style to Safari on iOS 16.\n- **Optimized Space:** Optimizes browser display space with sleek translucent and floating visual effects.\n- **Stable:** Works smoothly and stably on jailbroken devices.",
+"markdown": "- **Key Features:**\n\n- **Liquid Glass Toolbar:** Brings the iOS 26 \"Liquid Glass\" floating toolbar style to Safari on iOS 16.\n- **Optimized Space:** Optimizes browser display space with sleek translucent and floating visual effects.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

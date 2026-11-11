@@ -29,6 +29,34 @@
 "class": "DepictionMarkdownView"
 },
 {
+"class": "DepictionAutoStackView",
+"horizontalSpacing": 12,
+"views": [
+{
+"class": "DepictionVideoView",
+"preferredWidth": 165,
+"URL": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/video1.mp4",
+"width": 165,
+"height": 293,
+"cornerRadius": 12,
+"autoplay": true,
+"loop": true,
+"showPlaybackControls": false
+},
+{
+"class": "DepictionVideoView",
+"preferredWidth": 165,
+"URL": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/video2.mp4",
+"width": 165,
+"height": 293,
+"cornerRadius": 12,
+"autoplay": true,
+"loop": true,
+"showPlaybackControls": false
+}
+]
+},
+{
 "class": "DepictionScreenshotsView",
 "screenshots": [
 {
@@ -52,11 +80,11 @@
 "accessibilityText": "Screenshot 5"
 }
 ],
-"itemCornerRadius": 8,
+"itemCornerRadius": 12,
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Tính năng nổi bật:**\n\n- **Điều hướng cử chỉ gốc:** Vuốt lên để về Màn hình chính, vuốt và giữ để mở Trình chuyển đổi ứng dụng, vuốt dọc cạnh dưới để chuyển đổi nhanh giữa các ứng dụng.\n- **Thanh trạng thái phong cách Face ID:** Bố cục giao diện iPhone X hiện đại với đồng hồ bên trái và lối tắt mở Trung tâm điều khiển từ góc trên bên phải.\n- **Phím tắt Màn hình khóa:** Tích hợp sẵn nút bật Đèn pin và Máy ảnh ngay trên Màn hình khóa.\n- **Tương thích thiết bị:** Hỗ trợ hoàn hảo cho iPhone 8, iPhone 8 Plus, iPhone SE (2020) và iPhone SE (2022) chạy iOS 16.0 – 16.7.16.",
+"markdown": "- **Tính năng nổi bật:**\n\n- **Điều hướng cử chỉ gốc:** Vuốt lên để về Màn hình chính, vuốt và giữ để mở Trình chuyển đổi ứng dụng, vuốt dọc cạnh dưới để chuyển đổi nhanh giữa các ứng dụng.\n- **Thanh trạng thái phong cách Face ID:** Bố cục giao diện iPhone X hiện đại với đồng hồ bên trái và lối tắt mở Trung tâm điều khiển từ góc trên bên phải.\n- **Phím tắt Màn hình khóa:** Tích hợp sẵn nút bật Đèn pin và Máy ảnh ngay trên Màn hình khóa.\n- **Tương thích thiết bị:** Hỗ trợ hoàn hảo cho iPhone 8, iPhone 8 Plus, iPhone SE (2020) và iPhone SE (2022) chạy iOS 16.0 - 16.7.16.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -117,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "29/10/2026",
+"text": "10/11/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -135,7 +163,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.3",
+"text": "1.3.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -203,6 +231,34 @@
 "class": "DepictionMarkdownView"
 },
 {
+"class": "DepictionAutoStackView",
+"horizontalSpacing": 12,
+"views": [
+{
+"class": "DepictionVideoView",
+"preferredWidth": 165,
+"URL": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/video1.mp4",
+"width": 165,
+"height": 293,
+"cornerRadius": 12,
+"autoplay": true,
+"loop": true,
+"showPlaybackControls": false
+},
+{
+"class": "DepictionVideoView",
+"preferredWidth": 165,
+"URL": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/video2.mp4",
+"width": 165,
+"height": 293,
+"cornerRadius": 12,
+"autoplay": true,
+"loop": true,
+"showPlaybackControls": false
+}
+]
+},
+{
 "class": "DepictionScreenshotsView",
 "screenshots": [
 {
@@ -226,11 +282,11 @@
 "accessibilityText": "Screenshot 5"
 }
 ],
-"itemCornerRadius": 8,
+"itemCornerRadius": 12,
 "itemSize": "{185,400}"
 },
 {
-"markdown": "- **Key Features:**\n\n- **Native gesture navigation:** Swipe up to go Home, swipe and hold to open the App Switcher, and swipe along the bottom edge to quickly switch between apps.\n- **Face ID-style status bar:** A modern iPhone X interface layout with the clock on the left and a shortcut to open Control Center from the top-right corner.\n- **Lock Screen shortcuts:** Built-in Flashlight and Camera buttons right on the Lock Screen.\n- **Device compatibility:** Fully supports iPhone 8, iPhone 8 Plus, iPhone SE (2020) and iPhone SE (2022) running iOS 16.0 – 16.7.16.",
+"markdown": "- **Key Features:**\n\n- **Native Gesture Navigation:** Swipe up to go Home, swipe and hold to open the App Switcher, and swipe along the bottom edge to quickly switch between apps.\n- **Face ID-style Status Bar:** A modern iPhone X interface layout with the clock on the left and a shortcut to open Control Center from the top-right corner.\n- **Lock Screen Shortcuts:** Built-in Flashlight and Camera buttons right on the Lock Screen.\n- **Device Compatibility:** Fully supports iPhone 8, iPhone 8 Plus, iPhone SE (2020) and iPhone SE (2022) running iOS 16.0 - 16.7.16.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -291,7 +347,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 29, 2026",
+"text": "November 10, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -309,7 +365,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.3",
+"text": "1.3.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -373,13 +429,13 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 1.3\n- Sửa lỗi bố cục thanh trạng thái trên iPhone 8 Plus.\n- Sửa lỗi vị trí của đèn báo quyền riêng tư.\n- Thêm bản dịch tiếng Nga.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.3.2\n- Khắc phục lỗi mất các nút Nhập mật mã, Cuộc gọi khẩn cấp và Hủy trên bảng Touch ID khi nhấn giữ Màn hình khóa đang khóa.",
+"useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",
@@ -395,13 +451,13 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 1.3\n- Fixed the status bar layout on iPhone 8 Plus\n- Fixed the position of the privacy indicator\n- Added Russian localization",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.3.2\n- Fixed the missing Use Passcode, Emergency and Cancel buttons on the Touch ID prompt when long pressing the locked Lock Screen.",
+"useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",

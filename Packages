@@ -20064,6 +20064,67 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AmmiFX.json
 Depiction: https://jtisvn.github.io/depictions/AmimFX.html
 Icon: https://jtisvn.github.io/sectionIcons/AnimFX.png
 
+Package: com.jtisvn.animations
+Architecture: iphoneos-arm64
+Version: 1.4.7
+Section: Tweaks
+Maintainer: bazik1337
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.animations_1.4.7_iphoneos-arm64 (1).deb
+Size: 32356
+MD5sum: e0f7d0847854af2e205da6dfe8af15dc
+SHA1: ca3702a0e506cd8de68d06dd7facb6d9f69992f3
+SHA256: 6610cbcd4042a2254f1580682714fa3db4c97b915a56a4a1d614e7ff48c75ec8
+SHA512: 2d7b3702718b46f4cca97a95b3a51bb457596a38be88e99ddafff93f479a5babd9a403e5c1deaefd5a850515b8d63bad7615f455c48d62f6eb52de7d1962f30c
+Description: Mô phỏng hiệu ứng chuyển cảnh kiểu iOS 27
+Name: iOS27 Animations (Roothide)
+Author: bazik1337
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS27Anima.json
+Depiction: http://jtisvn.github.io/depiction/iOS27Anima.html
+Icon: https://jtisvn.github.io/sectionIcons/iOS27Anima.png
+
+Package: com.jtisvn.animations
+Architecture: iphoneos-arm64
+Version: 1.4.7
+Section: Tweaks
+Maintainer: bazik1337
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.animations_1.4.7_iphoneos-arm64.deb
+Size: 32356
+MD5sum: 388ad7a9e712aeb1d38b4432a0a460d9
+SHA1: 267f0a629eeb9f9aab3d03496af117fb74b4e572
+SHA256: f75e3b680714e399899aa5ecc60b7d1fb048ecf107b7a0aee8aee624b9699808
+SHA512: 189bdc67fc21c4c4e4ae2b1ff7cf9848e11d1ac63fb257c83357044db56b06b72bace90891e2e13564fd75d4c4d532c1e9efe862919b2c83595bcc3ae5722628
+Description: Mô phỏng hiệu ứng chuyển cảnh kiểu iOS 27
+Name: iOS27 Animations (Roothide)
+Author: bazik1337
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS27Anima.json
+Depiction: http://jtisvn.github.io/depiction/iOS27Anima.html
+Icon: https://jtisvn.github.io/sectionIcons/iOS27Anima.png
+
+Package: com.jtisvn.animations
+Architecture: iphoneos-arm64e
+Version: 1.4.7
+Section: Tweaks
+Maintainer: bazik1337
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.animations_1.4.7_iphoneos-arm64e.deb
+Size: 32576
+MD5sum: 675fe51d2ec9c8ee3f378aca076ff75f
+SHA1: 623d63c76539ef2c13530926860597868d3d3f16
+SHA256: ed1c3561e63808f75e34353114440d99a60de975a29d255c7c33bd3492d6dce8
+SHA512: 3fbff6f14a965c01b946cf1f10adcf81734d3c5aae4a9f8b398a96579b8fc329bdd56f15840d5643ee9b06e37df72952d4be395d794d3e25b61ba5fd56bc13b8
+Description: Mô phỏng hiệu ứng chuyển cảnh kiểu iOS 27
+Name: iOS27 Anima (Roothide)
+Author: bazik1337
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS27Anima.json
+Depiction: http://jtisvn.github.io/depiction/iOS27Anima.html
+Icon: https://jtisvn.github.io/sectionIcons/iOS27Anima.png
+
 Package: com.jtisvn.anxietea
 Architecture: iphoneos-arm64
 Version: 1.0.5-99
@@ -21217,6 +21278,51 @@ MD5sum: 1925608d62bcc29337e6bfdd9a5d25f8
 SHA1: 81345421e0df3ecb6a2add12c95d749bfee6854e
 SHA256: 6f3aaae1bb3748fd5547ade270181005526158475f31b962478fb1a76fb88172
 SHA512: 81818049aed3d919cbe41ad0effa41fa316b47399b28191b398b1b685a6ac8ec56f4ea23c8b7a447c28279668505928932dff9c0773fe60b545dc6d0bfb3703b
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5628
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.7_iphoneos-arm64.deb
+Size: 1060296
+MD5sum: e90843ca3dcc5def2c01c85bb966fb9a
+SHA1: a667594392f5c9987539b7f5294a01131ee728ec
+SHA256: 2b372cf8eb00d3ee4b8102c6e322d6829492cffb37d856b3208145769c0d9d49
+SHA512: cc9071a4db4da6766c82c29133b3332a2ed1b304122dc42b928e291df2288869387d336de5c57f46d5842cbe7a48cf4149b372cdaa66efd8777d911ba589a225
+Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
+Name: Lunora (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iPhoneDuoIcon.json
+Depiction: https://jtisvn.github.io/depictions/iPhoneDuoIcon.html
+Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: com.jtisvn.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5628
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: ./debs/com.jtisvn.iphoneduoicon_1.1.7_iphoneos-arm64e.deb
+Size: 1052144
+MD5sum: 56ececa278ada5accf4cad82344063b3
+SHA1: 4342303379358ea9a9dc0573a074ad2b42bb1bfc
+SHA256: d7c4f9eb4fdc06c312fbb414cfe21441e8b09baebb718fbe8aa4982622d9982d
+SHA512: de48fb0ee70971bd3cea2f75a752d15eb414d5c3c38d3c3195144a6eabeb8f72c5fa619abd02890716851f45672a8b45eb7ae81ccdb03149532b18ea1b51d447
 Description: Tùy chỉnh linh hoạt các viên thuốc thông tin hiệu ứng kính (thời tiết, trình phát nhạc, thông báo), vòng trạng thái Duo và mini Dock — mang đến trải nghiệm thanh trạng thái toàn diện nhất.
 Name: Lunora (Roothide)
 Author: Banana
@@ -27151,17 +27257,17 @@ Author: korboy <korboybeats@gmail.com>
 
 Package: com.siphonostb.gestures16
 Architecture: iphoneos-arm64
-Version: 1.3
+Version: 1.3.2
 Section: Tweaks
 Maintainer: Siphonostb
-Installed-Size: 2560
+Installed-Size: 2344
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0), preferenceloader
-Filename: ./debs/com.siphonostb.gestures16_1.3_iphoneos-arm64.deb
-Size: 1639504
-MD5sum: 2bb08b69c9e7c3fafa0563c537f00572
-SHA1: 383c2577f9969f31d56bb62cebc394e42ac71ab9
-SHA256: e410957e23ada7ec9644cdd39382783fe10e1cd778f7137cbe89d07df35f39e9
-SHA512: a048a406687cba4a388bd8d3edc518eadbedf37a09be8cadc2f851b2463be55feecd76839cd54b4c43a6cb28bfc015419098e8cdc6b0f1c09e71ba63a5cb9597
+Filename: ./debs/com.siphonostb.gestures16_1.3.2_iphoneos-arm64.deb
+Size: 1155516
+MD5sum: 2e3a17760502a5e87b59f4b1e1a7321a
+SHA1: ce675bae420de5a1691cc6b25c94aacec0ffc858
+SHA256: 11710d235933d1bcf0900f476fa648775d2b59dc347f622cbe86f22fa170d4e3
+SHA512: 1060cd75f09cf4b942c3e818e80acfdd512123530d2c0579910cfd60f0a26a9e16ba56859f2d710ba0ef7867aa98cf05244ee14ce4af29bdfac6d32f1018baf8
 Description: Cử chỉ iOS gốc trên iPhone nút Home.
 Name: Gestures16 (Rootless)
 Author: Siphonostb
@@ -27171,18 +27277,18 @@ Icon: https://jtisvn.github.io/sectionIcons/Gestures16.png
 
 Package: com.siphonostb.gestures16
 Architecture: iphoneos-arm64e
-Version: 1.3
+Version: 1.3.2
 Section: Tweaks
 Maintainer: Siphonostb
-Installed-Size: 2560
+Installed-Size: 2344
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0), preferenceloader
-Filename: ./debs/com.siphonostb.gestures16_1.3_iphoneos-arm64e.deb
-Size: 1637544
-MD5sum: d12dfa0b66bd17074f579e935768011f
-SHA1: d1934d923532f3a911e0443a03c3a3a2c918c9dc
-SHA256: f35a552a56173ff80aaa24f33fb5b83bb653a293f906678ca08dd6e0bca45612
-SHA512: e2268359a3595aa594d61ac388841d182a08c5f980fcba0b3a1eb33ea776fb6a502c6088700b7fe3dc6c4b6609f838cc0bc6db862c64a2a7273359bcf2028a1a
+Filename: ./debs/com.siphonostb.gestures16_1.3.2_iphoneos-arm64e.deb
+Size: 1153628
+MD5sum: f76f5d86c0b73f02469fb5051787029b
+SHA1: 6b1921e6ba803ca0777f86f2621bc7b75834f210
+SHA256: 27725de9cd97317254a6f2fe0fa41b70f05938faa51c32b65af54b7ae8182c21
+SHA512: fa6f185a3ed13817df585541c791073f80acdc521a27b982209e0acce3d80a8fc0ff6693ef2be088176f57896aed9fa5502cf299fa72cc6a608832de34b71145
 Description: Cử chỉ iOS gốc trên iPhone nút Home.
 Name: Gestures16 (Roothide)
 Author: Siphonostb
@@ -29457,6 +29563,40 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/iQFace.json
 Depiction: https://jtisvn.github.io/depictions/iQFace.html
 Icon: https://jtisvn.github.io/sectionIcons/iQFace.png
 
+Package: iya.banana.audioservice
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Development
+Maintainer: Banana
+Installed-Size: 724
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/iya.banana.audioservice_1.0.4_iphoneos-arm64.deb
+Size: 55356
+MD5sum: 4e6a498813024e64674d0ef9467f97c7
+SHA1: f3ca5974b3cef974ef2f5b087f7ed79062aace4e
+SHA256: 4f39f0ac2f402374acec561a63f3f9679064a82456c784973a2c37d42a20ae4a
+SHA512: 11587f537d5c5d74dc61ff570dceea3fcd5b3c3b004b43ea0082ec5f118be425c05cafdbff9911f97b4d0f1e7aef655a0709d0738cb046cf40990703f527fa22
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Name: Banana Audio Service
+Author: Banana
+
+Package: iya.banana.audioservice
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Development
+Maintainer: Banana
+Installed-Size: 724
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/iya.banana.audioservice_1.0.4_iphoneos-arm64e.deb
+Size: 53768
+MD5sum: 5dc8cec9af6ca9b0ea59a3326df80435
+SHA1: ddf9c79864309277e0388e1b4ee9dc83394d5edb
+SHA256: afb6f1eae8746b9e715084a5dcac465b0bb6a3e753973247495e2f7042129846
+SHA512: 7aa8ef104b4b32a5d1a42f54e57f21e31c2022bab1d498a4d3111df8ab2c9a2177c8c319ad0567e9d04a1cf301781ed5ff8a86f857eff91fd9194539909b212f
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Name: Banana Audio Service
+Author: Banana
+
 Package: iya.banana.billie.ambientbadge
 Architecture: iphoneos-arm64
 Version: 0.1.16k
@@ -29540,6 +29680,49 @@ Author: Banana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunoraDuoIcon.json
 Depiction: https://jtisvn.github.io/depictions/LunoraDuoIcon.html
 Icon: https://jtisvn.github.io/sectionIcons/Lunora.png
+
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1508
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: ./debs/iya.banana.dynamicnotch_0.1.3_iphoneos-arm64.deb
+Size: 251232
+MD5sum: 8b56f7476b62ecb4e39e2a2f80f90239
+SHA1: 4d18060a3c5386a683c0c0afc830cee50ad1dd36
+SHA256: d85ebe09f5f392d46eb4287a9c0aa6cb72688d2ab1326813f66b5f5d34b6a5b9
+SHA512: e1a3c46b3d31fbc6265fd1e27376d4f1136dee2bbd682a25c54fa3b6174f47074bfc1407539dc052b6ebcd829d46e3d411a09ec61c38c55e8617cc2f1f9d87e7
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Name: DynamicNotch (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DynamicNotch.json
+Depiction: http://jtisvn.github.io/depiction/DynamicNotch.html
+Icon: https://jtisvn.github.io/sectionIcons/DynamicNotch.png
+
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1508
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-r-o-o-t-l-e-s-s-
+Filename: ./debs/iya.banana.dynamicnotch_0.1.3_iphoneos-arm64e.deb
+Size: 251208
+MD5sum: a3859d8edd0f91c071a6a39ec3b9ef9c
+SHA1: 4496874a473d7c0fa2c1e2717c6d70394235d2f0
+SHA256: 631b55f50c3bc8b448ca7307616a923eefa88bc29d818d870a9f3405ee995660
+SHA512: 67522c30c3f18d47026ab1b7b24ba6c5c40bebc1199ae693efdc7bf916ac6dd3b4c6dbf13f8f62f053519d75351afee704171cc60b0d570cf373016a4dbadc74
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Name: DynamicNotch (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DynamicNotch.json
+Depiction: http://jtisvn.github.io/depiction/DynamicNotch.html
+Icon: https://jtisvn.github.io/sectionIcons/DynamicNotch.png
 
 Package: iya.banana.pickerwheeldock
 Architecture: iphoneos-arm64
