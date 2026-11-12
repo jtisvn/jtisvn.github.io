@@ -523,6 +523,43 @@ Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ScreenShellPro.json
 Depiction: https://jtisvn.github.io/depictions/ScreenShellPro.html
 
+Package: xyz.cypwn.squidforcer
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: CyPwn
+Conflicts: com.spyg.squidforcer
+Replaces: com.spyg.squidforcer
+Filename: ./debs/SquidForcer_1.0.0_iphoneos-arm64.deb
+Size: 623760
+MD5sum: d7e215105a5ddca231b6797c2bd2851c
+SHA1: cfa519e4d9faf73254c70a87b54840ed89a098b2
+SHA256: 04e5fe923bec2c87f4e27792befde1758541e67d7c6d1f9cc1f58adb9e8086b9
+SHA512: 9e899bd0f1dcf146d195a629dab1ca44dd7e3bab39ccf499a4c4464e0905870a705dc9ed2a612049fec5efb09d26b9daa74ab2e754dc0c570af61b5e4109dfc9
+Description: SquidForce Crack for CopyVault/SquidExtender/SquidGesture Pro
+Icon: https://repo.cypwn.xyz/packages/SquidForcer-Rootless/icon.png
+Author: spy_g
+Name: SquidForcer (Rootless)
+
+Package: xyz.cypwn.squidforcer
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: com.spyg.squidforcer
+Replaces: com.spyg.squidforcer
+Filename: ./debs/SquidForcer_1.0.0_iphoneos-arm64e.deb
+Size: 623752
+MD5sum: 28c821b93d74d98c030cc9517809b23b
+SHA1: a7c0d8a8e83c16e1d9e99b87516f2e800dd937cb
+SHA256: 0d9577ab7d061ecb79d53d39ae7e05ec9fa4f6736f93ee18bdd06e776096e6df
+SHA512: 2efececaf8a0b218ce3ecb1f79e0e1ad2079fd81aa64cbee06d264ad1f96a2999c710dfb92a6993f1d8ced287ce30de3ea3cc895472db72e4421853ab8c7943c
+Description: SquidForce Crack for CopyVault/SquidExtender/SquidGesture Pro
+Icon: https://repo.cypwn.xyz/packages/SquidForcer-Rootless/icon.png
+Author: spy_g
+Name: SquidForcer (Roothide)
+
 Package: ccom.jtisvn.stencilmonowhite
 Architecture: all
 Version: 1.3
@@ -20092,13 +20129,13 @@ Maintainer: bazik1337
 Installed-Size: 240
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: ./debs/com.jtisvn.animations_1.4.7_iphoneos-arm64.deb
-Size: 32356
-MD5sum: 388ad7a9e712aeb1d38b4432a0a460d9
-SHA1: 267f0a629eeb9f9aab3d03496af117fb74b4e572
-SHA256: f75e3b680714e399899aa5ecc60b7d1fb048ecf107b7a0aee8aee624b9699808
-SHA512: 189bdc67fc21c4c4e4ae2b1ff7cf9848e11d1ac63fb257c83357044db56b06b72bace90891e2e13564fd75d4c4d532c1e9efe862919b2c83595bcc3ae5722628
+Size: 32352
+MD5sum: 31c4ebfdc1525d3c2ae2d86726966dbb
+SHA1: 5b332a0b77fe793f11153aba402456f9443462ff
+SHA256: 23bf444eb42429ac31fee5357075fa386ed51569e8f150276bb542d888352d37
+SHA512: 7d3c4c27e76490d8bbf2974bb5f14dda6e1aeb6aae1d6f02ba60023c1ceb7ecd7c59bd351495f4225a645dc7c7176727b3599630df863cd79b0031bc5b7e873f
 Description: Mô phỏng hiệu ứng chuyển cảnh kiểu iOS 27
-Name: iOS27 Animations (Roothide)
+Name: iOS27 Animations (Rootless)
 Author: bazik1337
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS27Anima.json
 Depiction: http://jtisvn.github.io/depiction/iOS27Anima.html
@@ -20113,13 +20150,13 @@ Installed-Size: 240
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: ./debs/com.jtisvn.animations_1.4.7_iphoneos-arm64e.deb
-Size: 32576
-MD5sum: 675fe51d2ec9c8ee3f378aca076ff75f
-SHA1: 623d63c76539ef2c13530926860597868d3d3f16
-SHA256: ed1c3561e63808f75e34353114440d99a60de975a29d255c7c33bd3492d6dce8
-SHA512: 3fbff6f14a965c01b946cf1f10adcf81734d3c5aae4a9f8b398a96579b8fc329bdd56f15840d5643ee9b06e37df72952d4be395d794d3e25b61ba5fd56bc13b8
+Size: 32564
+MD5sum: f098508c88dfb91b5000bb0db8abc5c6
+SHA1: 234c9b0b49e19951a5ae746f8ba2d4ca67ac1870
+SHA256: e66dee7b4748f0051e89eee0fcf9fc6232c52c0d896259f7c1da8d391cbbe67f
+SHA512: 87465b7eaa7214bb1b10596119f76085ea478025fc13cd83a898feb3520b32dd1bd64fbda17ceaf2a4424f56c1cf67eac06ded479d2b53b15c84fe6f01f4c252
 Description: Mô phỏng hiệu ứng chuyển cảnh kiểu iOS 27
-Name: iOS27 Anima (Roothide)
+Name: iOS27 Animations (Roothide)
 Author: bazik1337
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS27Anima.json
 Depiction: http://jtisvn.github.io/depiction/iOS27Anima.html
@@ -24054,6 +24091,48 @@ Name: RecordAnywhere (Roothide)
 Author: Muirey03 & lclrc
 SileoDepiction: https://jtisvn.github.io/sileodepictions/RecordAnywhere.json
 Icon: https://jtisvn.github.io/sectionIcons/RecordAnywhere.png
+
+Package: com.lclrc.squidgesturepro
+Architecture: iphoneos-arm64
+Version: 2.7.6K
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), xyz.cypwn.squidforcer
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/com.lclrc.squidgesturepro_2.7.6K_iphoneos-arm64.deb
+Size: 1774756
+MD5sum: 3a1efc6023d75d1dbf15d83313ed3e7f
+SHA1: 08b9146c4c61446493a4a9703e5e5ca6861d052c
+SHA256: 6e6f95d20ec2dd5d168b0ec2d39624cfce8941fce0586775d86a61a77486a8df
+SHA512: 42f5d74c94afda485b56a7cab3618a0e24128dc25fa78c51294634c850b1cca7fbbece8834bc34ea481b136ff02ea1a02cdd64ab3bbff71f179f4f1b393258d7
+Description: Gestures
+Name: SquidGesture Pro(Rootless)
+Author: SquidForce, Backup
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SquidGesturePro.json
+Depiction: http://jtisvn.github.io/depiction/SquidGesturePro.html
+Icon: https://media.havoc.app/66674a6a5e7d7e36f12df156
+
+Package: com.lclrc.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.6
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), xyz.cypwn.squidforcer
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/com.lclrc.squidgesturepro_2.7.6_iphoneos-arm64e.deb
+Size: 1792724
+MD5sum: 53dcf159332edf409636fb547a6e8ade
+SHA1: 1f18fcc0980e69e9cdf168790cb30e7a94da1dbc
+SHA256: cf61af74c4e9d366245bcfdfd1dfbb350ca337587174e57828d694e2686ea7d7
+SHA512: 54bd69cbe2ae88305fcc1dfe951a406419e3a107cca61886e31c2ced450d64e8d6ba474fa0ad4ba26f1223c58d57564fc7907fe7be38a2ef7eb8bcd739865a08
+Description: Gestures
+Name: SquidGesture Pro (Roothide)
+Author: SquidForce, Backup
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SquidGesturePro.json
+Depiction: http://jtisvn.github.io/depiction/SquidGesturePro.html
+Icon: https://media.havoc.app/66674a6a5e7d7e36f12df156
 
 Package: com.leftyfl1p.carbridge13
 Architecture: iphoneos-arm
