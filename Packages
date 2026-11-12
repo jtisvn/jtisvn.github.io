@@ -24094,20 +24094,20 @@ Icon: https://jtisvn.github.io/sectionIcons/RecordAnywhere.png
 
 Package: com.lclrc.squidgesturepro
 Architecture: iphoneos-arm64
-Version: 2.7.6K
+Version: 2.7.6
 Section: Tweaks
 Maintainer: SquidForce, Backup
 Installed-Size: 6620
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), xyz.cypwn.squidforcer
 Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: ./debs/com.lclrc.squidgesturepro_2.7.6K_iphoneos-arm64.deb
-Size: 1774756
-MD5sum: 3a1efc6023d75d1dbf15d83313ed3e7f
-SHA1: 08b9146c4c61446493a4a9703e5e5ca6861d052c
-SHA256: 6e6f95d20ec2dd5d168b0ec2d39624cfce8941fce0586775d86a61a77486a8df
-SHA512: 42f5d74c94afda485b56a7cab3618a0e24128dc25fa78c51294634c850b1cca7fbbece8834bc34ea481b136ff02ea1a02cdd64ab3bbff71f179f4f1b393258d7
+Filename: ./debs/com.lclrc.squidgesturepro_2.7.6_iphoneos-arm64.deb
+Size: 1775212
+MD5sum: 2c310c08ec7c0af73a499619abf889a6
+SHA1: 57fa985cf4095a45c78609b904dd283cfdafc6ce
+SHA256: fa8463734c9c0c44f5df475336a885957687926565435fbce46a32280d40e062
+SHA512: de00fa839cf77c5b97ca5626bb90d8dd342f1e2a5000ba8dba57d4ac3f2ca0ffb3dbd7a20305583b11073ce97d7b29f8f706f3b261baef54fa672118e22a44e7
 Description: Gestures
-Name: SquidGesture Pro(Rootless)
+Name: SquidGesture Pro (Rootless)
 Author: SquidForce, Backup
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SquidGesturePro.json
 Depiction: http://jtisvn.github.io/depiction/SquidGesturePro.html
