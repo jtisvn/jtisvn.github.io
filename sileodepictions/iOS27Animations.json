@@ -1,0 +1,471 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor": "#6659F9",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### iOS 27 Animations\n\n**Hiệu ứng hoạt ảnh iOS 27 cho iOS 15 - 16.** Mang hiệu ứng mở/đóng ứng dụng siêu mượt mà và các hiệu ứng chuyển động đẳng cấp lên các phiên bản iOS cũ hơn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/1-close.jpg",
+"accessibilityText": "Đóng ứng dụng: cửa sổ uốn cong về biểu tượng"
+},
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/2-close.jpg",
+"accessibilityText": "Hiệu ứng Genie khi về Màn hình chính"
+},
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/3-icon.jpg",
+"accessibilityText": "Biểu tượng hạ xuống đúng vị trí"
+},
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/4-settings.jpg",
+"accessibilityText": "Cài đặt"
+},
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/5-advanced.jpg",
+"accessibilityText": "Cài đặt nâng cao"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Mở & đóng ứng dụng:** Hiệu ứng Genie chuẩn iOS 27: cửa sổ uốn cong mượt mà ra khỏi icon và thu gọn lại, kết hợp hiệu ứng đàn hồi lò xo đặc trưng.\n- **Trung tâm thông báo:** Các icon tự động bay về đúng vị trí khi đóng, loại bỏ hiệu ứng làm mờ phía sau.\n- **Tùy chỉnh nâng cao:** Điều chỉnh tốc độ mở/đóng, độ uốn cong cửa sổ, độ nảy và chuyển động chậm trực tiếp trong Cài đặt.\n- **Tương thích tuyệt vời:** Hoạt động hoàn hảo với tính năng thu phóng icon của SnowBoard. Hỗ trợ cả Rootless (Dopamine, palera1n, roothide) và Rootful.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "bazik1337",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "13/11/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.5.4",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.7.16",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### iOS 27 Animations\n\n**iOS 27 animations for iOS 15 - 16.** Brings fluid open/close animations and gorgeous spring physics to older iOS releases.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/1-close.jpg",
+"accessibilityText": "Closing an app: the window bends into its icon"
+},
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/2-close.jpg",
+"accessibilityText": "Genie effect on the way home"
+},
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/3-icon.jpg",
+"accessibilityText": "The icon lands in place"
+},
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/4-settings.jpg",
+"accessibilityText": "Settings"
+},
+{
+"url": "https://repo.ba31k.com/depictions/com.bazik1337.ios2627anims/screenshots/5-advanced.jpg",
+"accessibilityText": "Advanced settings"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **App Open & Close:** The iOS 27 genie effect: windows bend out of and back into icons with realistic springs and bounce.\n- **Notification Center:** Icons fly back into place smoothly when closed, with no background blur.\n- **Advanced Settings:** Easily configure opening/closing speeds, window bending, bounce physics, and slow motion in Settings.\n- **Full Compatibility:** Works seamlessly with SnowBoard icon scaling. Supports rootless (Dopamine, palera1n, roothide) and rootful environments.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "bazik1337",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "November 13, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.5.4",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.2 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 15.0 - 16.7.16",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.5.4\n- Biểu tượng hạ chính xác vào vị trí của SnowBoard, không bị giật ở cuối\n- Biểu tượng khi bay hiển thị sắc nét hơn\n- Khi mở ứng dụng, biểu tượng uốn cong cùng cửa sổ thay vì bị cắt xén\n- Hiệu ứng nảy khi vuốt về Màn hình chính không còn bị mất.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.5.4\n- The icon now lands exactly where the SnowBoard icon is, with no jump at the end\n- The flying icon is now sharper\n- On opening, the icon bends with the window instead of being cropped\n- The bounce on swipe home no longer disappears.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

@@ -1817,6 +1817,51 @@ Author: Bandar Alruwaili
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
 Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
 
+Package: com.bazik1337.ios2627anims
+Architecture: iphoneos-arm64
+Version: 1.5.4
+Section: Tweaks
+Maintainer: bazik1337
+Installed-Size: 492
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.bazik.codexgenie27, com.bazik.genie27
+Replaces: com.bazik.codexgenie27
+Filename: ./debs/com.bazik1337.ios2627anims_1.5.4_iphoneos-arm64.deb
+Size: 62924
+MD5sum: 19fdc1213270b55efec58c689c6c66e3
+SHA1: 331a50bfecf6273edd11a7c7616da58a2eb326fb
+SHA256: 78d2e07ad6854c77bbd2a6b90de8275f6f42ea9889e8990b430cdc0cfe21e822
+SHA512: dfdd518deebc36b60d5830774e803ba457b16024e365ae6793c8c3e888047344eaf735fce34d1b3eb1b7de4993ba7f5db683e9a898851ace213e34c330b28f90
+Description: iOS 27 app open/close animations with the genie effect, and the Notification Center icon fly-in.
+Name: iOS 27 Animations (Rootless)
+Author: bazik1337 (@bazik1337)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS27Animations.json
+Depiction: http://jtisvn.github.io/depiction/iOS27Animations.html
+Icon: https://jtisvn.github.io/sectionIcons/iOS27Animations.png
+
+Package: com.bazik1337.ios2627anims
+Architecture: iphoneos-arm64e
+Version: 1.5.4
+Section: Tweaks
+Maintainer: bazik1337
+Installed-Size: 492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.bazik.codexgenie27, com.bazik.genie27
+Replaces: com.bazik.codexgenie27
+Filename: ./debs/com.bazik1337.ios2627anims_1.5.4_iphoneos-arm64e.deb
+Size: 62660
+MD5sum: 815cb0409efa711cd89aa5b5c2fca589
+SHA1: 2dcfa8279bb0b89a995bf3f5707cb1d0d8b48562
+SHA256: af0043b4a149cb21d3e3b4f6f0cf4d11640f7afbcb323c625e72d94b9f2787a9
+SHA512: 63d72d0d2847f38192fc92c96464918d4f99e8d3094b3694b08368fc53aae1b7379c35eb53f600d0755837795fe670dc6c59e5419260586b4afba79732c71bc0
+Description: iOS 27 app open/close animations with the genie effect, and the Notification Center icon fly-in.
+Name: iOS 27 Animations (Roothide)
+Author: bazik1337 (@bazik1337)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS27Animations.json
+Depiction: http://jtisvn.github.io/depiction/iOS27Animations.html
+Icon: https://jtisvn.github.io/sectionIcons/iOS27Animations.png
+
 Package: com.be-huge.floating-view
 Architecture: iphoneos-arm64
 Version: 1.6.0-6
