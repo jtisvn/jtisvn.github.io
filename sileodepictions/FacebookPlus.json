@@ -114,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.5",
+"text": "1.0.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -254,7 +254,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.5",
+"text": "1.0.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -305,7 +305,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 1.0.4\n- Xác nhận tương tác: Bật thông báo tránh bấm nhầm trước khi Thích (feed & Reels), Bình luận, Chia sẻ, Đăng bài, Kết bạn, Theo dõi.\n- Chặn Quảng cáo: Loại bỏ quảng cáo/tài trợ khỏi feed, video, Stories và Marketplace bằng cách lọc GraphQL và React Native.\n- Phông chữ tùy chỉnh: Thay font toàn app bằng file .ttf/.otf tùy chọn kèm chỉnh kích thước, không ảnh hưởng UI của tweak.\n- Reels Cinema Mode: Ẩn giao diện làm mờ cả thanh tab dưới, lượt thích, bình luận, chia sẻ để xem Reels toàn màn hình.\n- Thiết kế lại giao diện Cài đặt, loại bỏ hiện tượng nhấp nháy khi chuyển trang.\n- Thiết kế lại Toast HUD với huy hiệu màu trạng thái và hiệu ứng mượt mà hơn.\n- Tạm dừng ứng dụng: Nút một chạm trong Cài đặt để buộc đóng Facebook, giúp áp dụng font và cài đặt khởi động.\n- Thêm tiếng Ba Lan và tối ưu hóa 17 ngôn ngữ hệ thống.",
+"markdown": "### Phiên bản 1.0.6\n- Chế độ tối OLED theo hệ thống: tự động bật/tắt theo giao diện iOS, khắc phục lỗi nhấp nháy xám và kẹt màu đen. Bật trong Cài đặt → Giao diện.\n- Xóa quảng cáo Marketplace mọi nơi: chặn triệt để trong tìm kiếm, danh mục, lưới trang chủ và các bài đẩy ẩn.\n- Thiết kế lại thẻ Giới thiệu: hiển thị gộp thông tin dev, GitHub, Telegram, phiên bản tweak/FB/iOS và tên thương mại thiết bị.\n- Trang Nhật ký (Logs) mới: lưu giữ qua các lần mở app, tự động xóa lúc nửa đêm, gộp dòng trùng lặp và hỗ trợ xuất file.\n- HUD / Toast mới: dạng viên thuốc tối mờ kèm logo app và hiệu ứng lò xo.\n- Sửa lỗi tự động đăng xuất (#2): vá phiên keychain cho file IPA cài ngoài.\n- Củng cố đồng bộ chi tiết thông báo (#12): lấy đúng nội dung thông báo thay vì gợi ý chung, hook delegate và duy trì chạy ngầm ổn định hơn.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
@@ -327,7 +327,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 1.0.4\n- Interaction Confirmations: Opt-in prompts that catch accidental taps — a confirmation appears before the action and Cancel stops it. Covers Like (feed & Reels), Comment, Share, Post, Friend request, and Follow / Join.\n- Ad & Sponsored Removal: Strips ads and sponsored content from the feed, in-stream videos, and Stories through a single ad-detection chokepoint, including Marketplace ads.\n- Custom Fonts: Replace the app's text font app-wide with a bundled or imported .ttf / .otf, with an adjustable size. Pick one from Settings → Font.\n- Reels Cinema Mode: The hide-overlay toggle now also fades the bottom tab bar along with likes, comments, share and caption, for a truly full-screen reel.\n- Settings UI Redesign: Reworked the dedicated full-screen settings interface, with a solid panel background that no longer flickers during transitions.\n- Toast HUD Redesign: New notification pill with a tinted status badge, plus a softer spring-in / fade-out.\n- Suspend App: A one-tap action in Settings that force-closes Facebook, so font and other startup-only changes apply on a clean relaunch.\n- Localization: Added Polish, and reworked / humanized strings across every supported language (now 17 locales).",
+"markdown": "### Version 1.0.6\n- OLED Dark Mode follows system appearance: automatically toggles with iOS, fixes gray header flashes and stuck black states. Opt-in via Settings → Appearance.\n- Marketplace Ad Removal everywhere: blocks ads across search, categories, and home grids, including disguised sponsored posts.\n- Redesigned About Card: unified view for dev info, GitHub, Telegram, FB Plus version, FB version, iOS version, and exact device commercial name.\n- New Logs Page: persistent daily logs in Settings → Logs with auto-grouping for duplicates, export, and clean reporting.\n- Redesigned Toast / HUD: dim pill style with FB Plus app logo and smooth spring animation.\n- Fixed auto-logout (#2): keychain session patch for sideloaded IPAs to prevent session drops.\n- Strengthened notification detail sync (#12): accurate content fetching, FBUserSession binding, delegate hooking, and background execution fix.",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },

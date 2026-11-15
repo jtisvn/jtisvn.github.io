@@ -239,6 +239,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
 Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
 Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
 
+Package: com.shajon.fbplus
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Tweaks
+Maintainer: S. SHAJON
+Installed-Size: 1432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Facebook-Plus-v1.0.6-roothide.deb
+Size: 637540
+MD5sum: 1488cca1dcd89eb2a9f8d2e329a63f12
+SHA1: 3c208dc37f75fe64dc7fbacd983a7aba1ff01b1b
+SHA256: 166f4fb1fede27462107a5a92c1c316eee6c5f9a4a21d363d8867b91981110c2
+SHA512: 29383a8b7dae5a41145b17ea6da406ad5c5a8f8d169d145d164ae8f23b3da043b800ee4c0b4c25c6d5501c3a7e272d64c96055ceb529a7add999bc569a8ff441
+Description: Browse stories privately, confirm before liking, and quieten the feed.
+Tag: role::hacker
+Name: Facebook Plus (Roothide)
+Author: S. SHAJON
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
+Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
+Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
+
+Package: com.shajon.fbplus
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Tweaks
+Maintainer: S. SHAJON
+Installed-Size: 1432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Facebook-Plus-v1.0.6-rootless.deb
+Size: 639656
+MD5sum: 1a62440ceff4c4d94ae1e722f1fa1e7a
+SHA1: 4e8f3fc593c5c173d0ad60540c4968c106768903
+SHA256: ed54050999525fc7b3cd91af27191b87bbf3a23eca49d44d914d60fae5a36c4e
+SHA512: 5956ce7cfadd395be2675c7718436939661f05fe58ca4bef3612e390de0eb2c627b303924e6ffd9f61173af15275a9810fa0ff4b97d7958e04e4ef72861718ab
+Description: Browse stories privately, confirm before liking, and quieten the feed.
+Tag: role::hacker
+Name: Facebook Plus (Rootless)
+Author: S. SHAJON
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
+Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
+Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
+
 Package: com.foxfort.foxforttools
 Architecture: iphoneos-arm64e
 Version: 1.4.13
@@ -28093,6 +28136,44 @@ MD5sum: 8873db32acc0ffc386269c2e258f2aa3
 SHA1: ba6324fda7d3f702e8267496c6b6c8c7c4f492b2
 SHA256: 1c0d6c6998cafab2265b9a9af17dcbb6738d3e5eb2d616d7dc21c814daadb743
 SHA512: 38b3f072e8cf3c6917d54f66b68a4ca4bf1e4253511b7209a79450122ff231a2a65a02ef137b70e9b90f0aaa792883bbf6467fa3e6a71870f1c54a0260e80c9d
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64
+Version: 5.0.1-4
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 32452
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-4_iphoneos-arm64.deb
+Size: 12403594
+MD5sum: 2185bc1bdfea90acb051f9e927a7a8cb
+SHA1: 6d3b97f6d95cb13aa82974f98c65ca6b997488d8
+SHA256: c00b480f817606c0232fcd6424498ccd64bcffc39e754e2681e5dd3cf82c440b
+SHA512: cfea9ce2e7b2b26f24a242f428997fa876156721d705560c1bb20dffe74add4fcc4c104a855421a1cf2b8be698ff04bd930930993934c750a4298624ed65827d
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64e
+Version: 5.0.1-4
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 32452
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-4_iphoneos-arm64e.deb
+Size: 12403684
+MD5sum: 04ffba4f80fc367442c3a3ab842fa848
+SHA1: 44aeb5244f2c4cb99e8f1fbb3d4ad230371c288d
+SHA256: fce1bdcef31a121594158ceb169614a0b37a8b98747b32f238f68460ef2d3e60
+SHA512: 2e0759e82f3cb61efbe050d6613fd0a0da1f4bd093ab02f11982d3a7460dd6d3ed1ac7d92dd1ecce61db62ed370a3c012ad0bce54aaf6435982b75192be76c91
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
 Name: Filza File Manager 64-bit
 Author: TIGI Software
