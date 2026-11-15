@@ -117,7 +117,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "25/10/2026",
+"text": "15/11/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -135,7 +135,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.1-1",
+"text": "0.1.7-2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -291,7 +291,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 25, 2026",
+"text": "November 15, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -309,7 +309,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.1-1",
+"text": "0.1.7-2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -374,7 +374,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 0.1.1-1\n- Tối ưu hóa chế độ phóng đại: biểu tượng trung tâm lớn hơn, các biểu tượng lân cận nhỏ dần và tự động điều chỉnh khoảng cách\n- Tự động điều chỉnh kích thước biểu tượng theo số lượng ứng dụng và không gian hiển thị\n- Điều chỉnh điểm rơi dọc của biểu tượng khi thu nhỏ, duy trì cuộn quán tính và tự động bám dính.",
+"markdown": "### Phiên bản 0.1.7-2\n- Cải thiện tương thích của Duo với hoạt ảnh iOS 27 để giảm hiện tượng giật icon chốc lát khi mở khóa hoặc về Màn hình chính từ app.\n- Cải thiện độ ổn định bố cục Duo khi chuyển đổi giữa chế độ Sáng và Tối.",
 "useSpacing": true
 },
 {
@@ -396,7 +396,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Version 0.1.1-1\n- Improved Magnification with a larger center icon and progressive neighbor sizing\n- Carousel adapts icon sizes to app count and available space\n- Adjusted vertical icon targets while preserving inertial scrolling and snapping.",
+"markdown": "### Version 0.1.7-2\n- Improved Duo compatibility with iOS27 Animation to reduce brief icon jumps when unlocking or returning to the Home Screen from an app.\n- Improved Duo layout stability when switching between Light and Dark appearance.",
 "useSpacing": true
 },
 {
