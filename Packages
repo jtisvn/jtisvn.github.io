@@ -29767,6 +29767,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/KineticDock.json
 Depiction: http://jtisvn.github.io/depiction/KineticDock.html
 Icon: https://jtisvn.github.io/sectionIcons/KineticDock.png
 
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64
+Version: 0.1.7-2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 916
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 19.0) | firmware (>= 26.0), firmware (<< 27.0)
+Filename: ./debs/iya.banana.pickerwheeldock_0.1.7-2_iphoneos-arm64.deb
+Size: 157520
+MD5sum: 75a048a63d3518ab386d66fea38d9907
+SHA1: 351c64e58247c2f6ed62824a7ef43ed005fcdb20
+SHA256: d183444eb69cd0268b99610d7f4613d5cd02dee3283fda910338e78e25dcc1ee
+SHA512: 37e5bd698e4351c329df19fde4afabeed9e9aa2a1f470c6cc80251ee0418b15596edf7116c507098297092c5849d3ba94cdd16ea00988e574a5b8e9b3cf22a0e
+Description: A magnifying and scrolling Dock for iOS 15-17, with experimental iOS 18 and 26 support.
+Name: KineticDock (Rootless)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KineticDock.json
+Depiction: http://jtisvn.github.io/depiction/KineticDock.html
+Icon: https://jtisvn.github.io/sectionIcons/KineticDock.png
+
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64e
+Version: 0.1.7-2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 916
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 19.0) | firmware (>= 26.0), firmware (<< 27.0)
+Filename: ./debs/iya.banana.pickerwheeldock_0.1.7-2_iphoneos-arm64e.deb
+Size: 157320
+MD5sum: 7310f680db474ae5ea68a78e071349a6
+SHA1: 02c5fae356732267142e85b3b950078a6a2dc1df
+SHA256: ccc736f75115a2d65cfe37c5fa2f3e1fdb7763c8eac9c06ae29062fbde88bfc3
+SHA512: f18a629bbc175a162e7f238e3a1221a7a547890db2d899cf2339bddfee4b21a7c7d6835cfa6e5cb3e755f5c98cea73d55e56ed1a2a80e1fadd71669266bb311d
+Description: A magnifying and scrolling Dock for iOS 15-17, with experimental iOS 18 and 26 support.
+Name: KineticDock (Roothide)
+Author: Banana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KineticDock.json
+Depiction: http://jtisvn.github.io/depiction/KineticDock.html
+Icon: https://jtisvn.github.io/sectionIcons/KineticDock.png
+
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64
 Version: 1.1.12
@@ -30935,44 +30976,44 @@ Author: misty
 
 Package: moe.waru.jikan
 Architecture: iphoneos-arm64
-Version: 1.0.2
+Version: 1.1.0
 Section: Tweaks
 Maintainer: waruhachi
-Installed-Size: 2380
+Installed-Size: 2700
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/moe.waru.jikan_1.0.2_iphoneos-arm64.deb
-Size: 349144
-MD5sum: 4c7381abfaf5d7574f3ace42f4c42a10
-SHA1: 01f2136d2cea2b9e2ae9e8e44bb3ed7b9863cc5a
-SHA256: 71e5e43872aa9955cc274a8cbddd74866c0cce1132189a37fa5324a34b51b311
-SHA512: 525cd48487625c0a54306a8588a93764c77d5f81faff2a28e2bfd393d2f610d70abfd54c484006d3d47fc42085d10f5a02c2f6c2f89ff9def4dff58ab38a7c25
+Filename: ./debs/moe.waru.jikan_1.1.0_iphoneos-arm64.deb
+Size: 395344
+MD5sum: 9182c4d0d2c5e8fcd920936cc9438319
+SHA1: 78b4d69a607c786fb3c6e2efcef60cf345c432cd
+SHA256: 423f991dd3c430ad62e824c46b867b2baa0c9282b473d6c8ea9e69ce64226264
+SHA512: 5acc9719320ab8c8bdb84a19abdd0194a224c6505427b090a91ef9102a3d8b3ddd1a38fd83cee9ae1977c24a49daf82c9b30871135a060e32f8a1068c7e89c19
 Description: Hiển thị thời gian còn lại để sạc đầy pin trên màn hình khóa.
 Name: Jikan (Rootless)
 Author: waruhachi
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Jikan.json
-Depiction: http://jtisvn.github.io/depiction/Jikan.html
-Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
+ Depiction: http://jtisvn.github.io/depiction/Jikan.html
+ Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
 
 Package: moe.waru.jikan
 Architecture: iphoneos-arm64e
-Version: 1.0.2
+Version: 1.1.0
 Section: Tweaks
 Maintainer: waruhachi
-Installed-Size: 2380
+Installed-Size: 2700
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/moe.waru.jikan_1.0.2_iphoneos-arm64e.deb
-Size: 336708
-MD5sum: a0fa7f66fdc165d0f43d84bdc1e633b0
-SHA1: dcab039432113f1e03d573f6ee233b084c652fbf
-SHA256: 3e0f194c565033967060b26316dd0a4addc8eec23e21f53028aec37f439ed560
-SHA512: b1fc049a56fd0500e3612c8eaaaebb48a662ba95a9aa83d652c27cec57d62be5aa34c991af91031cee6e0f20534bd26579135341304d994a07be95f894223c76
+Filename: ./debs/moe.waru.jikan_1.1.0_iphoneos-arm64e.deb
+Size: 384084
+MD5sum: d5d6befa1e74e5ac06160a4a2884aa14
+SHA1: 98af9a3d9e5f35d4141ada82f4cd3e4051ba4013
+SHA256: 8188dc9c84b540abc7336d6f0bae88cc175b54c4dff150bae5f44307a47cdafe
+SHA512: b1d08eef9e57d44c945c42f729c4feee994de4f3c24396b83f96f162da451952915e0a94235d496b209fa6c7d8926373b60687bb2e18234a952574b8cda75a56
 Description: Hiển thị thời gian còn lại để sạc đầy pin trên màn hình khóa.
 Name: Jikan (Roothide)
 Author: waruhachi
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Jikan.json
-Depiction: http://jtisvn.github.io/depiction/Jikan.html
-Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
+ Depiction: http://jtisvn.github.io/depiction/Jikan.html
+ Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
 
 Package: moe.waru.nokeyboardglobe
 Architecture: iphoneos-arm64
