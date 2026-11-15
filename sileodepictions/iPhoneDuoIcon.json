@@ -133,7 +133,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "10/11/2026",
+"text": "15/11/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -151,7 +151,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.7",
+"text": "1.1.8",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -323,7 +323,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "November 10, 2026",
+"text": "November 15, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -341,7 +341,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.7",
+"text": "1.1.8",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -405,56 +405,7 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 1.1.7\n- Tùy chỉnh phần trăm pin Capsule với tiền tố và hậu tố, tùy chọn hiện dấu phần trăm phía trên Orbit.\n- Sửa lỗi treo chế độ ngang, ẩn capsule trái và khôi phục HUD âm lượng hệ thống; cải thiện mini Dock khi xoay màn hình.\n- Cập nhật link Discord và thêm chạm để sao chép địa chỉ repo Banana trong Maintenance.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 1.1.6\n- Thêm định dạng ngày âm lịch độc lập với trường tháng/ngày dạng số hoặc kiểu Trung Quốc, cùng điều khiển vị trí phần trăm Orbit, nội dung bên và phần trăm trên Capsule.\n- Thêm viền âm lượng giữ nguyên nội dung, vạch cường độ Wi-Fi dưới cho cả hai capsule, kiểu đánh dấu hoạt động và màn hình phải chỉ hiện khi có cuộc gọi đến. Các tính năng mới có thể tùy chọn bật.\n- Thêm tính năng đặt lại cấu hình hoàn toàn trong Maintenance kèm nhắc nhở sao lưu, xóa cài đặt cũ và đưa Lunora về tắt; cải thiện các công tắc icon trạng thái riêng lẻ.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 1.1.5\n- Cải thiện icon im lặng và báo thức, thêm hỗ trợ icon ETC, sửa lỗi text nhà mạng Wi-Fi Calling hiện dưới capsule trái ở Màn hình khóa, cải thiện xử lý thông báo VPN gốc.\n- Sửa lỗi kích thước app yêu thích trên mini Dock để cài đặt số lượng mục cũ không giới hạn nội dung hiển thị.\n- Tạm dừng lấy mẫu giọt nước và cuộn chữ bên phải khi màn hình tắt, khôi phục khi bật sáng, cải thiện chẩn đoán lỗi hiển thị.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 1.1.4\n- Xóa giới hạn chọn mục yêu thích mini Dock, thêm tùy chọn chỉ hiện thông báo/hành vi chạm thông báo, hỗ trợ phong cách AmbientBadge.\n- Cải thiện hiển thị và hoạt ảnh quay lại trên app, Màn hình chính và Control Center. Orbit và thông tin lân cận tự né Dynamic Island. Sửa lỗi mất capsule trái, trễ khôi phục nội dung, cập nhật mức pin/màu sạc.\n- Thêm bảo vệ khởi động: khi phát hiện treo máy lúc khởi động, Lunora sẽ tạm dừng tải ở lần sau và giữ nguyên cài đặt, có thể khôi phục thủ công trong Cài đặt. Cải thiện chẩn đoán và giảm làm mới thừa.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 1.1.3-1\n- Thêm tùy chọn Vô hiệu hóa Lunora ở chế độ ngang: khôi phục thanh trạng thái gốc khi xoay ngang và tự động bật lại Lunora ở chế độ dọc, giữ nguyên cài đặt đã lưu.\n- Thêm tùy chọn Tương thích với Mikkyy để bảo vệ hiển thị và thao tác chạm bên phải. Cả hai đều tắt mặc định, nằm trong mục Behavior and Compatibility.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 1.1.2\n- Thêm hướng dẫn cập nhật/sắp xếp 2 trang, đồng bộ vị trí viền màn hình, tự động chuyển đổi giữ nguyên bố cục và neo pin nguyên bản trong Control Center.\n- Thêm hiệu ứng kính tràn viền tùy chọn, 2 chế độ hoạt ảnh Orbit, dòng chảy pin/màu sạc luôn bật, chọn sóng SIM và cử chỉ Iya Split cho mini Dock.\n- Cải thiện màu hoạt động tai thỏ, bố cục văn bản và giảm làm mới không cần thiết. Thêm chẩn đoán CPU 60 giây. Yêu cầu iOS 15.1+ và chặn iOS 15.0.x.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.1.0\n- Thêm hỗ trợ thanh trạng thái tai thỏ nguyên bản trên iOS 15, bao gồm mô phỏng tai thỏ trực tiếp.\n- Cải thiện độ ổn định khi khởi động và sửa lỗi crash khi cập nhật thanh trạng thái trên một số thiết bị.\n- Thêm kiểm tra tương thích và hướng dẫn trước khi bật; các bố cục không hỗ trợ sẽ giữ nguyên giao diện gốc.",
+"markdown": "### Phiên bản 1.1.8\n- Thêm tiếng Việt cho Cài đặt, hướng dẫn cập nhật, cảnh báo và text trạng thái capsule (Bản dịch bởi Kitsudo).\n- Thêm lịch âm Việt Nam tùy chọn với tháng/ngày dạng số hoặc chữ tiếng Việt, bao gồm tháng nhuận.\n- Làm rõ mức pin màu vàng nằm trong khoảng trên 20% đến 60%.",
 "useSpacing": true
 },
 {
@@ -475,56 +426,7 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 1.1.7\n- Customize the Capsule battery percentage with a prefix and suffix, and optionally show the percent sign above Orbit.\n- Fixed landscape suspension, left capsule hiding, and system volume HUD restoration. Improved mini Dock behavior during rotation.\n- Updated the Discord invite and added tap-to-copy for the Banana repository address in Maintenance.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 1.1.6\n- Added independent lunar-date formats with numeric or Chinese month/day fields, plus placement controls for Orbit percentage and side content and the Capsule top percentage.\n- Added a volume border that preserves content, Wi-Fi bottom strength marks for both capsules, activity-mark styles and an incoming-call-only right display. New features are opt-in.\n- Added a complete configuration reset in Maintenance with a backup reminder, clearing old settings and returning Lunora to off; improved individual status-icon switches.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 1.1.5\n- Improved silent-mode and alarm icons, added ETC icon support, fixed Wi-Fi Calling carrier text appearing beneath the left capsule on the Lock Screen, and improved handling of native VPN prompts.\n- Fixed mini Dock favorite-app sizing so the retired item-count setting no longer limits visible content.\n- Paused water-drop sampling and right-side text scrolling while the screen is off, restored them on wake, and improved diagnostics for display issues.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Phiên bản 1.1.4\n- Removed the selection limit for mini Dock favorites, added notification-only visibility and notification tap behavior, and added support for AmbientBadge styles.\n- Improved display and return animations across apps, Home Screen and Control Center. Orbit and adjacent info avoid the island together. Fixed left-capsule disappearance, delayed content recovery, and battery level and charging-color updates.\n- Added startup protection: after a detected unresponsive startup, Lunora pauses loading on the next startup while preserving settings, with manual recovery in Settings. Improved diagnostics and reduced unnecessary refreshes.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Version 1.1.3-1\n- Added an optional Disable Lunora in Landscape setting: restore the native status bar in landscape and automatically resume Lunora in portrait, keeping saved settings.\n- Added Mikkyy Compatibility to protect the right display and taps. Both options are off by default and available under Behavior and Compatibility.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"markdown": "### Version 1.1.2\n- Added a two-page update and placement guide, unified screen-edge positioning, preserved internal layout during auto-migration, and native Control Center battery anchoring.\n- Added optional full-edge glass highlights, 2 Orbit animation modes, always-on battery flow/charging colors, SIM signal selection, and Iya Split gesture integration for mini Dock.\n- Improved notch activity colors and text layout, and reduced unnecessary refreshes. Added 60-second CPU diagnostics. Requires iOS 15.1+ and blocks iOS 15.0.x.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionMarkdownView",
-"markdown": "### Version 1.1.0\n- Added native notch status bar support on iOS 15, including live notch simulation.\n- Improved startup stability and fixed a crash when updating the status bar on some devices.\n- Added compatibility checks and guidance before enabling; unsupported layouts keep the original appearance.",
+"markdown": "### Version 1.1.8\n- Added Vietnamese for Settings, the update guide, alerts and capsule status text. Vietnamese translation by Kitsudo.\n- Added the optional Vietnamese lunar calendar with numeric or Vietnamese month and day text, including leap months.\n- Clarified that the yellow battery range is above 20% through 60%.",
 "useSpacing": true
 },
 {
