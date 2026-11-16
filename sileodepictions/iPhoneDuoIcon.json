@@ -405,8 +405,9 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 1.1.8\n- Thêm tiếng Việt cho Cài đặt, hướng dẫn cập nhật, cảnh báo và text trạng thái capsule (Bản dịch bởi Kitsudo).\n- Thêm lịch âm Việt Nam tùy chọn với tháng/ngày dạng số hoặc chữ tiếng Việt, bao gồm tháng nhuận.\n- Làm rõ mức pin màu vàng nằm trong khoảng trên 20% đến 60%.",
-"useSpacing": true
+"markdown": "### Phiên bản 1.1.8\n- Thêm tiếng Việt cho Cài đặt, hướng dẫn cập nhật, cảnh báo và văn bản trạng thái capsule (Bản dịch bởi Kitsudo).\n- Thêm lịch âm Việt Nam tùy chọn với tháng/ngày dạng số hoặc chữ tiếng Việt, bao gồm tháng nhuận.\n- Làm rõ mức pin màu vàng nằm trong khoảng trên 20% đến 60%.",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 15,
@@ -427,7 +428,8 @@
 "views": [
 {
 "markdown": "### Version 1.1.8\n- Added Vietnamese for Settings, the update guide, alerts and capsule status text. Vietnamese translation by Kitsudo.\n- Added the optional Vietnamese lunar calendar with numeric or Vietnamese month and day text, including leap months.\n- Clarified that the yellow battery range is above 20% through 60%.",
-"useSpacing": true
+"useSpacing": true,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 15,
