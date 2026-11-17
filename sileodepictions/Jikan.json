@@ -1,0 +1,463 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://media.havoc.app/6ac415a8bbf13962ea54071c",
+"tintColor": "#34C759",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Jikan\n\n**Hiển thị thời gian sạc đầy ngay trên màn hình khóa.** Thiết lập mức phần trăm pin mong muốn và theo dõi thời gian sạc dự kiến trực tiếp qua dạng viên thuốc (pill) tương tác hoặc hiển thị gọn gàng bên cạnh dòng ngày tháng.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://media.havoc.app/6ac5381d9f04e1d87e0d30f6",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://media.havoc.app/6ac538239f04e1d87e0d3136",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://media.havoc.app/6ac538299f04e1d87e0d3144",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://media.havoc.app/6ac5382d9f04e1d87e0d3163",
+"accessibilityText": "Screenshot 4"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Kiểu hiển thị đa dạng:** Chọn giữa viên thuốc Cổ điển (Classic), Vòng tiến trình (Progress Ring) hoặc tích hợp trực tiếp vào dòng ngày tháng trên màn hình khóa.\n- **Thuật toán ước tính thông minh:** Tích hợp thuật toán mặc định của Apple (hỗ trợ mốc 80%, 85%, 90%, 95%, 100%) và thuật toán Jikan cá nhân hóa theo lịch sử sạc (tùy chỉnh mọi mức từ 1% đến 100%).\n- **Tùy chỉnh thông số ngăn xếp (Stack):** Chạm vào viên thuốc để xem lần lượt công suất sạc (W), nhiệt độ và điện áp pin.\n- **Giao diện & Vị trí linh hoạt:** Kéo thả trực tiếp vị trí trên bản xem trước, lưu riêng bố cục dọc/ngang, hỗ trợ nền Liquid Glass và tự động ẩn nút thao tác nhanh khi sạc.\n- **Đồng bộ ChargeLimiter & Đa ngôn ngữ:** Đồng bộ nhanh mức giới hạn sạc từ ChargeLimiter chỉ với một chạm; hỗ trợ sẵn giao diện Tiếng Việt, Tiếng Anh, Tiếng Đức, Tiếng Thụy Điển và Tiếng Thổ Nhĩ Kỳ.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "waruhachi",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "02/11/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.1.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "387 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 26.0.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### Jikan\n\n**Show time left to charge on your Lock Screen.** Set your target battery percentage and view live charging estimates via an interactive pill or a compact indicator beside the date.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://media.havoc.app/6ac5381d9f04e1d87e0d30f6",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://media.havoc.app/6ac538239f04e1d87e0d3136",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://media.havoc.app/6ac538299f04e1d87e0d3144",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://media.havoc.app/6ac5382d9f04e1d87e0d3163",
+"accessibilityText": "Screenshot 4"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Flexible Display Styles:** Choose between the Classic pill, Progress Ring, or an inline estimate placed directly in the Lock Screen date row.\n- **Smart Estimation Algorithms:** Features Apple's default algorithm (80% to 100% targets) and Jikan's custom history-based model supporting any target from 1% to 100%.\n- **Customizable Info Stack:** Tap the pill to cycle through wattage, battery temperature, and voltage readings.\n- **Appearance & Placement:** Drag to position in preview with separate portrait/landscape layouts, Liquid Glass support, and quick action auto-hiding.\n- **ChargeLimiter Sync & Localization:** One-tap target sync with ChargeLimiter and full built-in Vietnamese, English, German, Swedish, and Turkish support.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "waruhachi",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "November 2, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.1.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "387 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 14.0 - 26.0.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.1.0\n- Hỗ trợ thêm nhiều mốc mục tiêu sạc trong ngăn xếp (Stack), chạm vào viên thuốc để chuyển đổi qua lại giữa các mốc ước tính\n- Viên thuốc tự động chuyển sang mốc mục tiêu cao hơn tiếp theo khi đạt đến mức pin đã chọn\n- Thêm tùy chọn \"Thông báo khi đạt mục tiêu\" (Notify When Target Reached) trong cài đặt Ước tính thời gian và hỗ trợ xem trước thông báo\n- Cập nhật bản dịch Tiếng Việt, Tiếng Anh, Tiếng Đức, Tiếng Thụy Điển và Tiếng Thổ Nhĩ Kỳ\n- Cải thiện khả năng nhận diện thuật toán Apple, đồng bộ trạng thái giữa Cài đặt và SpringBoard, đồng thời sửa đường dẫn khởi chạy helper trên môi trường Rootless và RootHide.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.1.0\n- Added support for additional charge targets in Stack; tap the pill to cycle between estimates\n- The pill automatically advances to the next higher unfinished target when the displayed target is reached\n- Added \"Notify When Target Reached\" under Time Estimate settings with live preview support\n- Updated English, German, Swedish, Vietnamese, and Turkish translations\n- Improved Apple model detection, synced availability between Settings and SpringBoard, and fixed helper launch paths in rootless and RootHide environments.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}

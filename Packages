@@ -1156,6 +1156,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CopyVault.json
 Depiction: https://jtisvn.github.io/depictions/CopyVault.html
 icon: https://media.havoc.app/66424f2de151fb3d56c76edb
 
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64
+Version: 3.7.4
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64.deb
+Size: 2285164
+MD5sum: 98e44ad688bb1cba45526a35683aa5c5
+SHA1: fedb865fb593b8ea6f4347d4043e1079f718f56d
+SHA256: 0a46fc4260b22674ee58f6d9cb5f9cd4704947e8669d2cd58e4a7a8b02956dd4
+SHA512: 0d8bc0279ba59ead4bd825096c9d1ffe2c8208777ac4276fddeac4fe65784489a91ccf672c4ac892c1f9f1471a3948e05c34e791885bd70566751110993f39db
+Description: Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(Rootess)
+Author: SquidForce, Backup
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SquidExtender.json
+Depiction: http://jtisvn.github.io/depiction/SquidExtender.html
+Icon: https://jtisvn.github.io/sectionIcons/SquidExtender.png
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 2236352
+MD5sum: dac532fe59b549e6ebb7b7ed0d034dc5
+SHA1: e2087b2649a88d39c3370ca6a446d11a07d417da
+SHA256: 4e66fd404ca15b0705e466044ed244a9b40bf2827194a90954352c0bb8b11054
+SHA512: 7a8804f1ed528bd5c8ab81801508caa30860a8bb81a12159e5870f3ed0e6b1ece790bf1f5784710b21e49415c09130223e297198379759e03cfe8caffc4535f5
+Description: Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(Roothide)
+Author: SquidForce, Backup
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SquidExtender.json
+Depiction: http://jtisvn.github.io/depiction/SquidExtender.html
+Icon: https://jtisvn.github.io/sectionIcons/SquidExtender.png
+
 Package: cn.zqbb.disupdateapp
 Architecture: iphoneos-arm64
 Version: 2.0.0-6
@@ -3637,6 +3680,23 @@ Author: Ginsu
 Depiction: https://ginsu.dev/#/depiction/com.ginsu.comet
 Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
 SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/sileo.json
+
+Package: com.ginsu.comet
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 1688
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.ginsu.comet_2.0.1_iphoneos-arm64e.deb
+Size: 219224
+MD5sum: 90d344e51c992aad5a37239e77855a53
+SHA1: f2dbc11699acfd833cbde9295d35cd1f4784574a
+SHA256: 5248ab4c07a12cd4a3ac6da3b86a3f31e3ab02a4bf296c200677cf1aa8a88a43
+SHA512: 1cbb85b3a72e434793fd9a8aeb70308e75bb588543855b2618004a81002901db3f0057c0aebb50b2a4ca962f945183b47289282cd79eb7a11ea20afd5614dd31
+Description: A SwiftUI Prefs Framework
+Name: Comet
+Author: Ginsu
 
 Package: com.ginsu.gscore
 Architecture: iphoneos-arm64
@@ -28739,6 +28799,41 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Author: yan
 
+Package: com.yan.lottie
+Architecture: iphoneos-arm64
+Version: 4.6.0
+Section: Development
+Maintainer: yan
+Installed-Size: 11568
+Filename: ./debs/com.yan.lottie_4.6.0_iphoneos-arm64.deb
+Size: 1444382
+MD5sum: 97997ce8ccaa91edd5f5a88255b6c23c
+SHA1: 7b5157871570a9d3ef2e59b63b085f0364dc8629
+SHA256: e3fca7005b2274dc028c4c8a85025368c22c04645df380e19c5aeeb1260566fe
+SHA512: f8f4022baafc65df3d0890ad3c086e75a512d14971d7fc9e6f78ccedc4ef6bd46337d5aca9e5c42ec17fd4a6fee50967e3287563c034fa090e85fd92a574afc5
+Description: An iOS library to natively render After Effects vector animations
+Tag: role::developer
+Name: Lottie
+Author: yan
+
+Package: com.yan.lottie
+Architecture: iphoneos-arm64e
+Version: 4.6.0
+Section: Development
+Maintainer: yan
+Installed-Size: 11568
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.yan.lottie_4.6.0_iphoneos-arm64e.deb
+Size: 6063652
+MD5sum: 9912051de84357573e01466dd225d23c
+SHA1: 1230886c5d023337f21650c5d4a76b233515c14b
+SHA256: ee5051c735f2d8688e3d97501775d7e5ad709e234ba6a8e59e18507d7c320545
+SHA512: 862cfcf57feaca125c698405e9b3cef665afd3ef2991756152c3c5ee1be19ce90ae0c3b0dd8169d71b6351c075aa26db5fbbe344bbd9bb098622abc0cff33774
+Description: An iOS library to natively render After Effects vector animations
+Tag: role::developer
+Name: Lottie
+Author: yan
+
 Package: com.yaowell.cellbell
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -31000,17 +31095,17 @@ Maintainer: waruhachi
 Installed-Size: 2700
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/moe.waru.jikan_1.1.0_iphoneos-arm64.deb
-Size: 395344
-MD5sum: 9182c4d0d2c5e8fcd920936cc9438319
-SHA1: 78b4d69a607c786fb3c6e2efcef60cf345c432cd
-SHA256: 423f991dd3c430ad62e824c46b867b2baa0c9282b473d6c8ea9e69ce64226264
-SHA512: 5acc9719320ab8c8bdb84a19abdd0194a224c6505427b090a91ef9102a3d8b3ddd1a38fd83cee9ae1977c24a49daf82c9b30871135a060e32f8a1068c7e89c19
+Size: 394736
+MD5sum: a1d5fde4f09c5b2538a1e176e9b73e09
+SHA1: ba3334006f701a02b33019a1fa321f6f7b460c3c
+SHA256: 7580a2fde56eaef64b1223177c471c892c3cd2648316fd8399fc4222b5159f2e
+SHA512: 5370f44ea7211a6a64dcccc62b2484e3a2f452a9880798b44e4714c255f548b2ee74541d2f161b3c64d2bd3859b2622aece6678a0c8ea7ce2ed98a03e39c6f6a
 Description: Hiển thị thời gian còn lại để sạc đầy pin trên màn hình khóa.
 Name: Jikan (Rootless)
 Author: waruhachi
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Jikan.json
- Depiction: http://jtisvn.github.io/depiction/Jikan.html
- Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
+Depiction: http://jtisvn.github.io/depiction/Jikan.html
+Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
 
 Package: moe.waru.jikan
 Architecture: iphoneos-arm64e
@@ -31021,17 +31116,17 @@ Installed-Size: 2700
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/moe.waru.jikan_1.1.0_iphoneos-arm64e.deb
-Size: 384084
-MD5sum: d5d6befa1e74e5ac06160a4a2884aa14
-SHA1: 98af9a3d9e5f35d4141ada82f4cd3e4051ba4013
-SHA256: 8188dc9c84b540abc7336d6f0bae88cc175b54c4dff150bae5f44307a47cdafe
-SHA512: b1d08eef9e57d44c945c42f729c4feee994de4f3c24396b83f96f162da451952915e0a94235d496b209fa6c7d8926373b60687bb2e18234a952574b8cda75a56
+Size: 384108
+MD5sum: afb0fc661d9f57a9a5ebadd3a63ffb11
+SHA1: 645c808adcd444f4c329bbfd680bfd848a08eb0d
+SHA256: e48623b7a5eea78ede8a3a36492169d8659d2b6aa35f0df70d87ad9db5ef2621
+SHA512: 2dedf8f2a8f726517b45c46a3111f86514d6e169cf1404a0b44cf7838fbe43f93fb381ff86ac71fb0fb278df1bbf56a26b33cea669a6cb1e08c3a8c7b57da905
 Description: Hiển thị thời gian còn lại để sạc đầy pin trên màn hình khóa.
 Name: Jikan (Roothide)
 Author: waruhachi
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Jikan.json
- Depiction: http://jtisvn.github.io/depiction/Jikan.html
- Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
+Depiction: http://jtisvn.github.io/depiction/Jikan.html
+Icon: https://jtisvn.github.io/sectionIcons/Jikan.png
 
 Package: moe.waru.nokeyboardglobe
 Architecture: iphoneos-arm64

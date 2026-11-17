@@ -1,0 +1,487 @@
+{
+"minVersion": "0.3",
+"headerImage": "https://media.havoc.app/6700ba867054e7a46e1d0f7b",
+"tintColor": "#248CFF",
+"tabs": [
+{
+"tabname": "Giới thiệu",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Tham gia nhóm K37•JTISVN",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### SquidExtender\n\n**Mở rộng bàn phím tối ưu với tích hợp ChatGPT.** Mang đến thanh công cụ mạnh mẽ cùng khả năng tùy biến giao diện và tính năng cực kỳ cao cấp cho bàn phím của bạn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://media.havoc.app/66fd58daf047a492f94030e9",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://media.havoc.app/671e602dc8be81b2a39fe4be",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://media.havoc.app/66fd58a6f047a492f94029ef",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://media.havoc.app/66fd589d4b3922b771a8c799",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://media.havoc.app/66fd58b2cadff09399536484",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://media.havoc.app/66fd5895f047a492f9402755",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://media.havoc.app/66fd587a768cf07dbdb35b0f",
+"accessibilityText": "Screenshot 7"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Tính năng nổi bật:**\n\n- **Hỗ trợ ChatGPT toàn diện:** Tích hợp OpenAI, Gemini, DeepSeek và máy chủ tùy chỉnh, hỗ trợ streaming, lịch sử trò chuyện và menu tương tác thông minh.\n- **Tác vụ bàn phím phong phú:** Sao chép thông minh, dán, hoàn tác/làm lại, điều hướng con trỏ chính xác, đọc chính tả và chuyển đổi chữ Trung giản/phồn thể.\n- **Tùy biến nút bấm chuyên sâu:** Mỗi nút hỗ trợ chạm, vuốt, nhấn giữ và menu pop-up theo thói quen sử dụng.\n- **Hỗ trợ tập lệnh JavaScript:** Xử lý văn bản tự do, gọi URL scheme, yêu cầu mạng, đọc/ghi clipboard và mã hóa Base64/MD5.\n- **Tương thích hoàn hảo:** Hoạt động mượt mà trên iOS 14.0 - 16.6.1, tương thích tốt với các tweak nổi tiếng như Laetus và SwipeExtenderX.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "SquidForce",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "13/04/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.7.4",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.21 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionButtonView",
+"text": "Join K37•JTISVN Group",
+"action": "https://t.me/jtisvietnamrepo",
+"openExternal": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 10
+},
+{
+"markdown": "### SquidExtender\n\n**Extend your keyboard, with ChatGPT support.** Brings a powerful toolbar to your keyboard, along with a highly customizable interface and feature set.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionScreenshotsView",
+"screenshots": [
+{
+"url": "https://media.havoc.app/66fd58daf047a492f94030e9",
+"accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://media.havoc.app/671e602dc8be81b2a39fe4be",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://media.havoc.app/66fd58a6f047a492f94029ef",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://media.havoc.app/66fd589d4b3922b771a8c799",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://media.havoc.app/66fd58b2cadff09399536484",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://media.havoc.app/66fd5895f047a492f9402755",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://media.havoc.app/66fd587a768cf07dbdb35b0f",
+"accessibilityText": "Screenshot 7"
+}
+],
+"itemCornerRadius": 12,
+"itemSize": "{185,400}"
+},
+{
+"markdown": "- **Key Features:**\n\n- **Full ChatGPT Support:** OpenAI, Gemini, DeepSeek, and custom server integrations with streaming output, chat history, and prompt switching.\n- **Extensive Keyboard Actions:** Smart copy, paste, undo/redo, precise cursor navigation, dictation, and Traditional/Simplified Chinese conversion.\n- **Deep Button Customization:** Each button supports tap, swipe, long-press, and pop-up menus tailored to your workflow.\n- **JavaScript Scripting Support:** Free text processing, URL schemes, network requests, clipboard read/write, and Base64/MD5 encoding.\n- **Great Compatibility:** Fully tested on iOS 14.0 - 16.6.1, and compatible with popular tweaks such as Laetus and SwipeExtenderX.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Information",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Developer",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "SquidForce",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Category",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "April 13, 2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Version",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.7.4",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.21 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Compatibility",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 14.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Nhật ký thay đổi",
+"views": [
+{
+"class": "DepictionTabView",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "Tiếng Việt",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 3.7.4\n- Thêm hàm mới cho tập lệnh: `$util.jbpath(path)` để lấy đường dẫn jailbreak đầy đủ và thực tế.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "English",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "### Version 3.7.4\n- Added a new script function, `$util.jbpath(path)`, to get the full, real jailbreak path.",
+"useSpacing": true
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 15
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+]
+}
+]
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname": "Liên Kết Hỗ Trợ",
+"views": [
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Liên hệ tôi ở Telegram",
+"action": "https://t.me/Kitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Theo dõi tôi trên X (Twitter)",
+"action": "https://x.com/hiukitsudo?s=11"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class": "DepictionTableButtonView",
+"openExternal": true,
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class": "DepictionLabelView",
+"text": "Copyright © 2025 - 2030 by JTISVN",
+"textColor": "#999999",
+"fontSize": "10.0",
+"alignment": 1
+}
+],
+"class": "DepictionStackView"
+}
+],
+"class": "DepictionTabView"
+}
