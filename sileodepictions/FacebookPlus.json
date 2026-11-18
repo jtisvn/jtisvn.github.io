@@ -44,7 +44,7 @@
 "accessibilityText": "Screenshot 3"
 }
 ],
-"itemCornerRadius": 8,
+"itemCornerRadius": 12,
 "itemSize": "{185,400}"
 },
 {
@@ -100,6 +100,19 @@
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "18/11/2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 }
 ]
 },
@@ -114,7 +127,20 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.6",
+"text": "1.0.7",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.7 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -127,7 +153,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 18.x",
+"text": "14.x - 18.x",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -184,7 +210,7 @@
 "accessibilityText": "Screenshot 3"
 }
 ],
-"itemCornerRadius": 8,
+"itemCornerRadius": 12,
 "itemSize": "{185,400}"
 },
 {
@@ -240,6 +266,19 @@
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Updated",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "November 18, 2026",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 }
 ]
 },
@@ -254,7 +293,20 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.6",
+"text": "1.0.7",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Size",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.7 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -267,7 +319,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 15.0 - 18.x",
+"text": "iOS 14.x - 18.x",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -305,13 +357,13 @@
 "tabname": "Tiếng Việt",
 "views": [
 {
-"markdown": "### Phiên bản 1.0.6\n- Chế độ tối OLED theo hệ thống: tự động bật/tắt theo giao diện iOS, khắc phục lỗi nhấp nháy xám và kẹt màu đen. Bật trong Cài đặt → Giao diện.\n- Xóa quảng cáo Marketplace mọi nơi: chặn triệt để trong tìm kiếm, danh mục, lưới trang chủ và các bài đẩy ẩn.\n- Thiết kế lại thẻ Giới thiệu: hiển thị gộp thông tin dev, GitHub, Telegram, phiên bản tweak/FB/iOS và tên thương mại thiết bị.\n- Trang Nhật ký (Logs) mới: lưu giữ qua các lần mở app, tự động xóa lúc nửa đêm, gộp dòng trùng lặp và hỗ trợ xuất file.\n- HUD / Toast mới: dạng viên thuốc tối mờ kèm logo app và hiệu ứng lò xo.\n- Sửa lỗi tự động đăng xuất (#2): vá phiên keychain cho file IPA cài ngoài.\n- Củng cố đồng bộ chi tiết thông báo (#12): lấy đúng nội dung thông báo thay vì gợi ý chung, hook delegate và duy trì chạy ngầm ổn định hơn.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
+"class": "DepictionMarkdownView",
+"markdown": "### Phiên bản 1.0.7\n- Mở khóa tính năng: Xem trước các tính năng trả phí như super reaction hình kim cương/trái tim trên Story. Chọn phương thức Direct hoặc Trial. Tắt mặc định kèm cảnh báo.\n- Tắt HDR: Ép dải màu chuẩn, tránh ảnh/video bị quá sáng (#4).\n- Ẩn thẻ \"Được đề xuất\" giữa các Reels (#1).\n- Lưu Reels VP9 trực tiếp trên thiết bị không cần FFmpeg.\n- Lưu ảnh chỉ với quyền \"Thêm ảnh\" thay vì toàn bộ thư viện (#6).\n- Xóa banner sản phẩm/affiliate trong phần bình luận.\n- Sửa lỗi tự động chuyển Story không dừng, xem Story ẩn danh, ẩn gợi ý Story, sửa lại dải màu HDR và làm rõ chữ trên hộp thoại xác nhận.\n- Gộp thư mục xác nhận vào mô-đun Confirmation.\n- Lưu ý: Chỉ là bản preview phía client, có thể rủi ro tài khoản.",
+"useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",
@@ -327,13 +379,13 @@
 "tabname": "English",
 "views": [
 {
-"markdown": "### Version 1.0.6\n- OLED Dark Mode follows system appearance: automatically toggles with iOS, fixes gray header flashes and stuck black states. Opt-in via Settings → Appearance.\n- Marketplace Ad Removal everywhere: blocks ads across search, categories, and home grids, including disguised sponsored posts.\n- Redesigned About Card: unified view for dev info, GitHub, Telegram, FB Plus version, FB version, iOS version, and exact device commercial name.\n- New Logs Page: persistent daily logs in Settings → Logs with auto-grouping for duplicates, export, and clean reporting.\n- Redesigned Toast / HUD: dim pill style with FB Plus app logo and smooth spring animation.\n- Fixed auto-logout (#2): keychain session patch for sideloaded IPAs to prevent session drops.\n- Strengthened notification detail sync (#12): accurate content fetching, FBUserSession binding, delegate hooking, and background execution fix.",
-"useSpacing": true,
-"class": "DepictionMarkdownView"
+"class": "DepictionMarkdownView",
+"markdown": "### Version 1.0.7\n- Unlock feature: preview Meta's paid subscriber features without subscribing, including Story diamond/heart super reaction. Pick Unlock Method: Direct or Trial. Off by default with a warning.\n- Disable HDR: appearance toggle forcing standard range to stop over-brightening (#4).\n- Hide the Reels \"Recommended\" card: removes the algorithm-transparency mid-card between Reels (#1).\n- Save VP9 Reels: converted and saved on-device with no shipped FFmpeg.\n- Add-only Photos saving: downloads save with \"Add Photos Only\" permission (#6).\n- Remove the comment product banner: toggle to hide the affiliate/product-link banner in the comment sheet.\n- Fixes: Stories auto-advance now stops properly; Anonymous Stories blocks \"seen\" receipts; Hide Story suggestions matches tray tokens; Disable HDR clamps the dynamic-range path correctly; Confirmation dialog buttons are legible again.\n- Under the hood: two confirmation folders merged into a single Confirmation module.\n- Disclaimer: client-side preview only; unlocking paid features can put your account at risk.",
+"useSpacing": true
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
+"class": "DepictionSpacerView",
+"spacing": 15
 },
 {
 "class": "DepictionLabelView",

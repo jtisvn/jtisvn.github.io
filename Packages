@@ -155,18 +155,18 @@ Icon: https://ellekit.space/logos/logo.png
 
 Package: com.shajon.fbplus
 Architecture: iphoneos-arm64e
-Version: 1.0.4
+Version: 1.0.7
 Section: Tweaks
 Maintainer: S. SHAJON
-Installed-Size: 1104
+Installed-Size: 1532
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Facebook-Plus-v1.0.4-roothide.deb
-Size: 554032
-MD5sum: da090317600fc02217f241e11e99c6c2
-SHA1: a70cbc48017ce85af5d964a66003da3f9bc00ada
-SHA256: 392b03d7bf0de14a6a225fc1c1abc4a0c9ae81d527ee5be1ff35d859c7543414
-SHA512: 8b3de02c23b899c44d6606656ba6702b403dab57ecd405360af01539c8a0b924249ce43c7810ad75585e7b3a325397db1fda3e62f8e7fca103adbca87ac5b800
+Filename: ./debs/Facebook-Plus-v1.0.7-roothide.deb
+Size: 663032
+MD5sum: 3317688968b13eb44b53cb83b65b1ccd
+SHA1: 9da595d23d9b2651fe46801fdac11ad6b66750d5
+SHA256: 1ac95bc25c798f8e559791dde11f0aa1c982f42bfbed74092aa2ed0313daa19b
+SHA512: e2600331cc1dd1ea9e23d57064edaecc64384ca06349370e83fc208b6871c8d548554c0e948db20b7ed6c41f6c45ecaea32ae814fa266a7f62b8ffe347f0102c
 Description: Browse stories privately, confirm before liking, and quieten the feed.
 Tag: role::hacker
 Name: Facebook Plus (Roothide)
@@ -177,103 +177,17 @@ Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
 
 Package: com.shajon.fbplus
 Architecture: iphoneos-arm64
-Version: 1.0.4
+Version: 1.0.7
 Section: Tweaks
 Maintainer: S. SHAJON
-Installed-Size: 1104
+Installed-Size: 1532
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Facebook-Plus-v1.0.4-rootless.deb
-Size: 556056
-MD5sum: a4c50c06b56ad2b242910fc0aeb61f0e
-SHA1: af99c2ff1d77089eb46a0a3dde56fe8ac0715957
-SHA256: 7756ffbd8eafd1e17b643701d90bea5cae8ba387835c7a282080652794cc9be9
-SHA512: 1a2b021ce07d308dc35eb34038e1afa85c3ea7cd13aa78a5717dcb24069bfb275e95cb848d6c3dd1500ae7de1f5321f59ec0771b99c0b6914c58d04645217520
-Description: Browse stories privately, confirm before liking, and quieten the feed.
-Tag: role::hacker
-Name: Facebook Plus (Rootless)
-Author: S. SHAJON
-SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
-Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
-Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
-
-Package: com.shajon.fbplus
-Architecture: iphoneos-arm64e
-Version: 1.0.5
-Section: Tweaks
-Maintainer: S. SHAJON
-Installed-Size: 1372
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Facebook-Plus-v1.0.5-roothide.deb
-Size: 628272
-MD5sum: 50b1c29cc494a001f33af20f637e40d7
-SHA1: e1541acedf97bbc6f0e9d96259780f82dbd7fd11
-SHA256: 774fbd209222bb258576bf4b7221369707cf265589031fb795c20e6d095e9211
-SHA512: b6aa975ba7ce83505d53a6e1859550a717ca1cb82c9f62a0bca1bee38bc60361e28531dd58e220905f05def7f75f9689b044ce5189d1772885a6ff370e6dc83a
-Description: Browse stories privately, confirm before liking, and quieten the feed.
-Tag: role::hacker
-Name: Facebook Plus (Roothide)
-Author: S. SHAJON
-SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
-Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
-Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
-
-Package: com.shajon.fbplus
-Architecture: iphoneos-arm64
-Version: 1.0.5
-Section: Tweaks
-Maintainer: S. SHAJON
-Installed-Size: 1372
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Facebook-Plus-v1.0.5-rootless.deb
-Size: 630188
-MD5sum: 3aa1ef907c970d3988fa6a42450d7abf
-SHA1: 1f0c29ab0c08cb7bce4f6879c945dfb39eec0089
-SHA256: c4ad08b424ceb2a0d6dce63e0b3b68faedb2f704f244816721d2af063fff9c75
-SHA512: b7ea6ff78d25d6cef92a6436e7be22dfe309f6917ebe6e5273175326c6bc7a929f6a21fe67fddc4cd3a7b6bb8766b87aa8ea2b1342b42071e7c8c7bf376fc494
-Description: Browse stories privately, confirm before liking, and quieten the feed.
-Tag: role::hacker
-Name: Facebook Plus (Rootless)
-Author: S. SHAJON
-SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
-Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
-Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
-
-Package: com.shajon.fbplus
-Architecture: iphoneos-arm64e
-Version: 1.0.6
-Section: Tweaks
-Maintainer: S. SHAJON
-Installed-Size: 1432
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Facebook-Plus-v1.0.6-roothide.deb
-Size: 637540
-MD5sum: 1488cca1dcd89eb2a9f8d2e329a63f12
-SHA1: 3c208dc37f75fe64dc7fbacd983a7aba1ff01b1b
-SHA256: 166f4fb1fede27462107a5a92c1c316eee6c5f9a4a21d363d8867b91981110c2
-SHA512: 29383a8b7dae5a41145b17ea6da406ad5c5a8f8d169d145d164ae8f23b3da043b800ee4c0b4c25c6d5501c3a7e272d64c96055ceb529a7add999bc569a8ff441
-Description: Browse stories privately, confirm before liking, and quieten the feed.
-Tag: role::hacker
-Name: Facebook Plus (Roothide)
-Author: S. SHAJON
-SileoDepiction: https://jtisvn.github.io/sileodepictions/FacebookPlus.json
-Depiction: http://jtisvn.github.io/depiction/FacebookPlus.html
-Icon: https://jtisvn.github.io/sectionIcons/FacebookPlus.png
-
-Package: com.shajon.fbplus
-Architecture: iphoneos-arm64
-Version: 1.0.6
-Section: Tweaks
-Maintainer: S. SHAJON
-Installed-Size: 1432
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Facebook-Plus-v1.0.6-rootless.deb
-Size: 639656
-MD5sum: 1a62440ceff4c4d94ae1e722f1fa1e7a
-SHA1: 4e8f3fc593c5c173d0ad60540c4968c106768903
-SHA256: ed54050999525fc7b3cd91af27191b87bbf3a23eca49d44d914d60fae5a36c4e
-SHA512: 5956ce7cfadd395be2675c7718436939661f05fe58ca4bef3612e390de0eb2c627b303924e6ffd9f61173af15275a9810fa0ff4b97d7958e04e4ef72861718ab
+Filename: ./debs/Facebook-Plus-v1.0.7-rootless.deb
+Size: 666172
+MD5sum: 142f89a432a6493fd401befeec873674
+SHA1: ba9fc7e06c2f213de48450ff8fa1a713ca3e9f76
+SHA256: c491202d273f559498df16dbce6131c2136fc16a9da4ce05258809262c671d60
+SHA512: a12dd4c4aaec177b0bb530675362fd891759e4639af988fef3de62c53bbe42c3140ed85477e1b2ce4cd3ec6b342a6a32802ed219c1189f27c0ddfa09e5876bfb
 Description: Browse stories privately, confirm before liking, and quieten the feed.
 Tag: role::hacker
 Name: Facebook Plus (Rootless)
@@ -21754,6 +21668,46 @@ Author: Devvix
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NoCShare.json
 Depiction: https://jtisvn.github.io/depictions/NoCShare.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtisvn.noticelisttweak
+Architecture: iphoneos-arm64
+Version: 1.0.1~test20
+Section: Tweaks
+Maintainer: YUE
+Installed-Size: 929
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtisvn.noticelisttweak_1.0.1~test20_iphoneos-arm64.deb
+Size: 238180
+MD5sum: 130a957f91d289d543d9dfc137700350
+SHA1: db81217c38b00e3254619702d74b2ec4a520aa95
+SHA256: d920ad58bde9f4d30ef92aeac08bc99fceac87b2857e051e9118f89eb09baa03
+SHA512: 83d3321e21fa22b857e58cc19b20c1725147fd9fb4bec76a9a97bee46e4e1c573ef80ca5c0a9e84eab87f91a0a6e169ca3f54f0de3b13b820faa3deead148b8b
+Description: Rootless notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Name: NoticeDissolve (Rootless)
+Author: YUE
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoticeDissolve.json
+Depiction: http://jtisvn.github.io/depiction/NoticeDissolve.html
+Icon: https://jtisvn.github.io/sectionIcons/NoticeDissolve.png
+
+Package: com.jtisvn.noticelisttweak
+Architecture: iphoneos-arm64e
+Version: 1.0.1~test25
+Section: Tweaks
+Maintainer: YUE
+Installed-Size: 1187
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtisvn.noticelisttweak_1.0.1~test25_iphoneos-arm64e.deb
+Size: 277064
+MD5sum: 6f621362058a7aaf4958597d8489b8a1
+SHA1: 24c0f0af79fa4eed7c50c0fc9c34208d97775489
+SHA256: c6a478e73dd06d4ac90fc3330efe28242bbbe2f4b4e922fa1e082cfd35171e47
+SHA512: f4fb0dd63aec0e3b6ee7e2cfed1689df62de82f4a5568ffec8b75d97a455238ad0fae62e1f096d27cee77bc2fc9a93f5bff356d9496ca86cda9d55361e9dff84
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Name: NoticeDissolve(Roothide)
+Author: YUE
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoticeDissolve.json
+Depiction: http://jtisvn.github.io/depiction/NoticeDissolve.html
+Icon: https://jtisvn.github.io/sectionIcons/NoticeDissolve.png
 
 Package: com.jtisvn.novaunlock
 Architecture: iphoneos-arm64
