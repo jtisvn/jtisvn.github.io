@@ -24326,6 +24326,24 @@ Description: 适用于 Filza 5.0.1-4，增加常用随机化路径收藏、调�
 Name: Filza Patch
 Icon: https://mlgm66.github.io/icon/FilzaPatch.png
 
+Package: com.mlgm.filzapatch
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 178
+Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (= 5.0.1-6)
+Conflicts: roothide.patches.filza
+Filename: ./debs/com.mlgm.filzapatch_1.1.4_iphoneos-arm64e.deb
+Size: 10820
+MD5sum: 02ee26bb1df6e903dbcb6c3030576633
+SHA1: b1f97dd231b8bd54dbd32a38660bf1e3244b5c82
+SHA256: cfa1041d754497c956269f51152335efef5f8dca057860addbc8e1fe3043d651
+SHA512: 9c309214f5cebeddad28738d8d1838e722ab6d7dc69baed365ecf3c836b83ac2e97d57fef53f222ab89ece47f113be9f10f0faf46ad8dbfc24f0b56c4c8a2b8f
+Description: 适用于 Filza 5.0.1-6，增加常用随机化路径收藏、调整 Documents 路径，并注册 filza:// 跳转。
+Name: Filza Patch
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+
 Package: com.mlgm.idata
 Architecture: iphoneos-arm64
 Version: 1.3
@@ -28206,6 +28224,44 @@ MD5sum: 04ffba4f80fc367442c3a3ab842fa848
 SHA1: 44aeb5244f2c4cb99e8f1fbb3d4ad230371c288d
 SHA256: fce1bdcef31a121594158ceb169614a0b37a8b98747b32f238f68460ef2d3e60
 SHA512: 2e0759e82f3cb61efbe050d6613fd0a0da1f4bd093ab02f11982d3a7460dd6d3ed1ac7d92dd1ecce61db62ed370a3c012ad0bce54aaf6435982b75192be76c91
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64
+Version: 5.0.1-6
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 32472
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-6_iphoneos-arm64.deb
+Size: 12410776
+MD5sum: 43f3eb9332563a546c530cc5a272d413
+SHA1: 171d20fa1c8a6e7a6b8dd5100b75f155bec8e373
+SHA256: 43e2a260447936eb02afee2bc0494f3ce2fa1da961bc3fd2bf73022c19aeb3c8
+SHA512: e3e3b2b63bd7b130a78a210f77a62d3b12d46ac2a8aba153139ba8eb03529356beb6f3ae5fb812ef25e62592816c8858313c7ad73c327c37cc7e9156e0b783b9
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64e
+Version: 5.0.1-6
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 32472
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-6_iphoneos-arm64e.deb
+Size: 12411158
+MD5sum: b58a9c584b40fcec8c0c883b11b6a135
+SHA1: d4cf7c205d061bdd32560c1e78fba8fc99ade1cf
+SHA256: 63ec3ff8f23f30c8b8bd5af7628b78affc75b8f905872c096f6fb339aa7dce2f
+SHA512: bd2328add16dce464db4db408887d514c76a58fc4f43711ef8c70ad872201d99451bf24220d499b755b9fa96484b5a95c39db109f5b8c460459ffa6c80a70435
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
 Name: Filza File Manager 64-bit
 Author: TIGI Software
