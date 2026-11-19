@@ -129,7 +129,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "28/10/2026",
+"text": "19/11/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -147,7 +147,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.3",
+"text": "0.1.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -220,6 +220,34 @@
 {
 "url": "https://jtisvn.github.io/infodeb/DynamicNotch/Screenshots/1.png",
 "accessibilityText": "Screenshot 1"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DynamicNotch/Screenshots/2.png",
+"accessibilityText": "Screenshot 2"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DynamicNotch/Screenshots/3.png",
+"accessibilityText": "Screenshot 3"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DynamicNotch/Screenshots/4.png",
+"accessibilityText": "Screenshot 4"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DynamicNotch/Screenshots/5.png",
+"accessibilityText": "Screenshot 5"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DynamicNotch/Screenshots/6.png",
+"accessibilityText": "Screenshot 6"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DynamicNotch/Screenshots/7.png",
+"accessibilityText": "Screenshot 7"
+},
+{
+"url": "https://jtisvn.github.io/infodeb/DynamicNotch/Screenshots/8.png",
+"accessibilityText": "Screenshot 8"
 }
 ],
 "itemCornerRadius": 12,
@@ -287,7 +315,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "October 28, 2026",
+"text": "November 19, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -305,7 +333,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.1.3",
+"text": "0.1.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -370,7 +398,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 0.1.3\n- Tự động thu gọn hoạt động ở chế độ ngang; khắc phục lỗi kẹt âm lượng trong game và hiện lại thông báo cũ khi xoay về dọc\n- Thêm tùy chọn mặc định sử dụng thông báo hệ thống khi xoay ngang, tránh bị chặn banner\n- Vuốt lên trên cửa sổ cuộc gọi đến để tắt tiếng cảnh báo nhưng vẫn giữ cuộc gọi để nghe máy.",
+"markdown": "### Phiên bản 0.1.4\n- Thêm tùy chọn thu nhỏ app vào tai thỏ khi vuốt lên về Màn hình chính (bật trong Cài đặt).\n- Sửa lỗi chạm thông báo không mở đúng tin nhắn trên các app như QQ và lỗi banner cuộc gọi hệ thống nháy lại sau khi ngắt máy.\n- Sửa lỗi cảnh báo tai thỏ lưu lại sau khi tắt báo thức/hết hẹn giờ/reset bấm giờ; bấm giờ tạm dừng hiện khoảng 3 giây rồi đóng.",
 "useSpacing": true
 },
 {
@@ -392,7 +420,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Version 0.1.3\n- Notch activities collapse in landscape; fixed stuck volume alerts in games and expired alerts reappearing on return to portrait\n- Added a default-on option to use system notifications in landscape and fixed banners being blocked during rotation\n- Swipe up on an expanded incoming call to silence its alert while keeping the call available to answer.",
+"markdown": "### Version 0.1.4\n- Added an option to minimize apps into the notch when swiping up to return to the Home Screen. Turn it on in Settings.\n- Fixed notification taps failing to open the corresponding message in apps such as QQ, and the system call banner flashing again after hang-up.\n- Fixed notch alerts lingering after dismissing an alarm or expired timer, or resetting the stopwatch. A paused stopwatch shows its reading for about three seconds before closing.",
 "useSpacing": true
 },
 {
