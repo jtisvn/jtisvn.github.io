@@ -1,7 +1,7 @@
 {
 "minVersion": "0.3",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor": "#5777B8",
+"tintColor": "#1150fe",
 "tabs": [
 {
 "tabname": "Giới thiệu",
@@ -109,7 +109,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "18/11/2026",
+"text": "19/11/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -127,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.7",
+"text": "1.0.8",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -275,7 +275,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "November 18, 2026",
+"text": "November 19, 2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -293,7 +293,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.7",
+"text": "1.0.8",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -358,7 +358,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Phiên bản 1.0.7\n- Mở khóa tính năng: Xem trước các tính năng trả phí như super reaction hình kim cương/trái tim trên Story. Chọn phương thức Direct hoặc Trial. Tắt mặc định kèm cảnh báo.\n- Tắt HDR: Ép dải màu chuẩn, tránh ảnh/video bị quá sáng (#4).\n- Ẩn thẻ \"Được đề xuất\" giữa các Reels (#1).\n- Lưu Reels VP9 trực tiếp trên thiết bị không cần FFmpeg.\n- Lưu ảnh chỉ với quyền \"Thêm ảnh\" thay vì toàn bộ thư viện (#6).\n- Xóa banner sản phẩm/affiliate trong phần bình luận.\n- Sửa lỗi tự động chuyển Story không dừng, xem Story ẩn danh, ẩn gợi ý Story, sửa lại dải màu HDR và làm rõ chữ trên hộp thoại xác nhận.\n- Gộp thư mục xác nhận vào mô-đun Confirmation.\n- Lưu ý: Chỉ là bản preview phía client, có thể rủi ro tài khoản.",
+"markdown": "### Phiên bản 1.0.8\n- Bản bảo trì: Tắt HDR hoạt động đúng trên các view ảnh/video/Reels của Facebook (#7), kèm fix OLED và 2 công tắc mới.\n- Hiện đường phân cách bài viết (OLED): bật/tắt đường chia bài trong Giao diện (mặc định bật).\n- Yêu cầu quyền (Tải xuống): cấp hoặc kiểm tra lại quyền Ảnh ngay trong cài đặt Tải xuống.\n- Sửa OLED làm đen nhầm bài đăng giao diện sáng (#8), sửa lỗi font tùy chỉnh bị phình to khi gõ bình luận, làm gọn cảnh báo lưu ảnh/Story và hoàn thiện dịch tiếng Việt + 16 ngôn ngữ.\n- Xóa banner sản phẩm bình luận nay ẩn cả thẻ sản phẩm trong video Reels.\n- Thêm gói RootHide .deb và TrollFools zip (không kèm mã FB), bỏ file FacebookPlus.dylib rời và bớt spam log plus.*.\n- Lưu ý: Chỉ là bản preview phía client, mở khóa tính năng trả phí có thể gây rủi ro cho tài khoản.",
 "useSpacing": true
 },
 {
@@ -380,7 +380,7 @@
 "views": [
 {
 "class": "DepictionMarkdownView",
-"markdown": "### Version 1.0.7\n- Unlock feature: preview Meta's paid subscriber features without subscribing, including Story diamond/heart super reaction. Pick Unlock Method: Direct or Trial. Off by default with a warning.\n- Disable HDR: appearance toggle forcing standard range to stop over-brightening (#4).\n- Hide the Reels \"Recommended\" card: removes the algorithm-transparency mid-card between Reels (#1).\n- Save VP9 Reels: converted and saved on-device with no shipped FFmpeg.\n- Add-only Photos saving: downloads save with \"Add Photos Only\" permission (#6).\n- Remove the comment product banner: toggle to hide the affiliate/product-link banner in the comment sheet.\n- Fixes: Stories auto-advance now stops properly; Anonymous Stories blocks \"seen\" receipts; Hide Story suggestions matches tray tokens; Disable HDR clamps the dynamic-range path correctly; Confirmation dialog buttons are legible again.\n- Under the hood: two confirmation folders merged into a single Confirmation module.\n- Disclaimer: client-side preview only; unlocking paid features can put your account at risk.",
+"markdown": "### Version 1.0.8\n- Maintenance release: Disable HDR now clamps Facebook's custom image views and video/Reels paths (#7), alongside an OLED fix and two new toggles.\n- Show Post Dividers (OLED): toggle separator lines between posts in Appearance (on by default).\n- Request Permission (Downloads): grant or re-check Photos access directly in Downloads settings.\n- Fixes: OLED no longer darkens light-appearance cards (#8); custom font stops growing while typing in comments; cleaner save failure alert and no duplicate Story save notice; completed Vietnamese picker and translations across 16 locales.\n- Remove Comment Product Banner now also hides the in-video Reel product card.\n- Under the hood: Added roothide .deb and TrollFools zip variants (no Facebook code), removed loose FacebookPlus.dylib, and reduced plus.* diagnostic log spam.\n- Disclaimer: Client-side preview only; unlocking paid features can put your account at risk.",
 "useSpacing": true
 },
 {
